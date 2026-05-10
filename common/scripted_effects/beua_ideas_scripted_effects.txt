@@ -1,0 +1,25 @@
+clear_optimized_logistics = {
+	remove_province_modifier = optimized_logistics_1_modifier
+	remove_province_modifier = optimized_logistics_2_modifier
+	remove_province_modifier = optimized_logistics_3_modifier
+	remove_province_modifier = optimized_logistics_4_modifier
+	remove_province_modifier = optimized_logistics_5_modifier
+	remove_province_modifier = optimized_logistics_6_modifier
+	remove_province_modifier = optimized_logistics_7_modifier
+	remove_province_modifier = optimized_logistics_8_modifier
+	remove_province_modifier = optimized_logistics_9_modifier
+	remove_province_modifier = optimized_logistics_10_modifier
+}
+
+clear_optimized_logistics_dwarven = {
+    remove_province_modifier = optimized_logistics_dwarven_1_modifier
+	remove_province_modifier = optimized_logistics_dwarven_2_modifier
+	remove_province_modifier = optimized_logistics_dwarven_3_modifier
+	remove_province_modifier = optimized_logistics_dwarven_4_modifier
+	remove_province_modifier = optimized_logistics_dwarven_5_modifier
+	remove_province_modifier = optimized_logistics_dwarven_6_modifier
+	remove_province_modifier = optimized_logistics_dwarven_7_modifier
+	remove_province_modifier = optimized_logistics_dwarven_8_modifier
+	remove_province_modifier = optimized_logistics_dwarven_9_modifier
+	remove_province_modifier = optimized_logistics_dwarven_10_modifier
+}

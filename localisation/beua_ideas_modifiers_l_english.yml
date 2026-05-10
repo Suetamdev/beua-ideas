@@ -1,0 +1,30 @@
+﻿l_english:
+ # Optimized Logistics
+ optimized_logistics_1_modifier:0 "Infrastructure Expansion I"
+ optimized_logistics_2_modifier:0 "Infrastructure Expansion II"
+ optimized_logistics_3_modifier:0 "Infrastructure Expansion III"
+ optimized_logistics_4_modifier:0 "Infrastructure Expansion IV"
+ optimized_logistics_5_modifier:0 "Infrastructure Expansion V"
+ optimized_logistics_6_modifier:0 "Infrastructure Expansion VI"
+ optimized_logistics_7_modifier:0 "Infrastructure Expansion VII"
+ optimized_logistics_8_modifier:0 "Infrastructure Expansion VIII"
+ optimized_logistics_9_modifier:0 "Infrastructure Expansion IX"
+ optimized_logistics_10_modifier:0 "Infrastructure Expansion X"
+
+ # Optimized Logistics Dwarven
+ optimized_logistics_dwarven_1_modifier:0 "Dwarven Hold Engineering I"
+ optimized_logistics_dwarven_2_modifier:0 "Dwarven Hold Engineering II"
+ optimized_logistics_dwarven_3_modifier:0 "Dwarven Hold Engineering III"
+ optimized_logistics_dwarven_4_modifier:0 "Dwarven Hold Engineering IV"
+ optimized_logistics_dwarven_5_modifier:0 "Dwarven Hold Engineering V"
+ optimized_logistics_dwarven_6_modifier:0 "Dwarven Hold Engineering VI"
+ optimized_logistics_dwarven_7_modifier:0 "Dwarven Hold Engineering VII"
+ optimized_logistics_dwarven_8_modifier:0 "Dwarven Hold Engineering VIII"
+ optimized_logistics_dwarven_9_modifier:0 "Dwarven Hold Engineering IX"
+ optimized_logistics_dwarven_10_modifier:0 "Dwarven Hold Engineering X"
+
+ # Supply Chains
+ supply_chain_simple_modifier:0 "Simple Production"
+ supply_chain_simple_modifier_desc:0 "Standardized transport networks and localized manufacturing hubs have streamlined the flow of goods.\n\n§G+2.5%§! Production Efficiency"
+ supply_chain_complex_modifier:0 "Complex Production"
+ supply_chain_complex_modifier_desc:0 "High-level development has allowed for an intricate industrial network, maximizing manufacturing output and fueling Artificer research.\n\n§G+5%§! Production Efficiency\n§G+1§! Artificer Capacity"

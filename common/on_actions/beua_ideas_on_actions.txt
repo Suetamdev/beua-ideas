@@ -1,0 +1,575 @@
+# [state_administration_idea_5]
+on_centralized_state = {
+	if = {
+        limit = {
+            FROM = {
+				has_idea = state_administration_idea_5
+			}
+        }
+		area = {
+			limit = {
+				owned_by = FROM
+			}
+			random_list = {
+				1 = { add_base_tax = 1 }
+				1 = { add_base_production = 1 }
+				1 = { add_base_manpower = 1 }
+			}
+		}
+	}
+}
+
+# [centralism_idea_4]
+on_expanded_infrastructure = {
+    if = {
+        limit = {
+            FROM = {
+				has_idea = centralism_idea_4
+			}
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    has_terrain = dwarven_hold
+                    has_terrain = dwarven_hold_surface
+                }
+            }
+            
+            clear_optimized_logistics_dwarven = yes
+
+            if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 10
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_dwarven_10_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 9
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_dwarven_9_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 8
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_dwarven_8_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 7
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_dwarven_7_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 6
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_dwarven_6_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 5
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_dwarven_5_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 4
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_dwarven_4_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 3
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_dwarven_3_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 2
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_dwarven_2_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 1
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_dwarven_1_modifier
+                        duration = -1 
+                }
+            }
+        }
+        else = {
+            clear_optimized_logistics = yes
+
+            if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 10
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_10_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 9
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_9_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 8
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_8_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 7
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_7_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 6
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_6_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 5
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_5_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 4
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_4_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 3
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_3_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 2
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_2_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 1
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_1_modifier
+                        duration = -1 
+                }
+            }
+        }
+    }
+}
+
+# [centralism_idea_4]
+on_expanded_infrastructure_removed = {
+    if = {
+        limit = {
+            FROM = {
+				has_idea = centralism_idea_4
+			}
+        }
+
+        if = {
+            limit = {
+                OR = {
+                    has_terrain = dwarven_hold
+                    has_terrain = dwarven_hold_surface
+                }
+            }
+            
+            clear_optimized_logistics_dwarven = yes
+
+            if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 1
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_dwarven_1_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 2
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_dwarven_2_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 3
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_dwarven_3_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 4
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_dwarven_4_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 5
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_dwarven_5_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 6
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_dwarven_6_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 7
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_dwarven_7_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 8
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_dwarven_8_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 9
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_dwarven_9_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 10
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_dwarven_10_modifier
+                        duration = -1 
+                }
+            }
+        }
+        else = {
+            clear_optimized_logistics = yes
+
+            if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 1
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_1_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 2
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_2_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 3
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_3_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 4
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_4_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 5
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_5_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 6
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_6_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 7
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_7_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 8
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_8_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 9
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_9_modifier
+                        duration = -1 
+                }
+            }
+            else_if {
+                limit = {
+                    num_of_times_expanded_infrastructure = 10
+                }
+                add_province_modifier = { 
+                        name = optimized_logistics_10_modifier
+                        duration = -1 
+                }
+            }
+        }
+    }
+}
+
+# [industrial_idea_7]
+on_adm_development = {
+    if = {
+        limit = {
+            FROM = {
+				has_idea = industrial_idea_7
+			}
+            NOT = {
+                has_province_modifier = supply_chain_complex_modifier
+            }
+        }
+
+        if = {
+            limit = {
+                development = 50
+            }
+
+            if = {
+                limit = { 
+                    has_province_modifier = supply_chain_simple_modifier 
+                }
+                remove_province_modifier = supply_chain_simple_modifier
+            }
+
+            add_province_modifier = {
+                name = supply_chain_complex_modifier
+                duration = -1
+            }
+
+            owner = {
+				mission_reward_artifice_points_1 = yes
+			}
+        }
+        else_if = {
+            limit = {
+                development = 25
+                NOT = { has_province_modifier = supply_chain_simple_modifier }
+                NOT = { has_province_modifier = supply_chain_complex_modifier }
+            }
+            add_province_modifier = {
+                name = supply_chain_simple_modifier
+                duration = -1
+            }
+        }
+    }
+}
+
+# [industrial_idea_7]
+on_dip_development = {
+    if = {
+        limit = {
+            FROM = {
+				has_idea = industrial_idea_7
+			}
+            NOT = {
+                has_province_modifier = supply_chain_complex_modifier
+            }
+        }
+
+        if = {
+            limit = {
+                development = 50
+            }
+
+            if = {
+                limit = { 
+                    has_province_modifier = supply_chain_simple_modifier 
+                }
+                remove_province_modifier = supply_chain_simple_modifier
+            }
+
+            add_province_modifier = {
+                name = supply_chain_complex_modifier
+                duration = -1
+            }
+
+            owner = {
+				mission_reward_artifice_points_1 = yes
+			}
+        }
+        else_if = {
+            limit = {
+                development = 25
+                NOT = { has_province_modifier = supply_chain_simple_modifier }
+                NOT = { has_province_modifier = supply_chain_complex_modifier }
+            }
+            add_province_modifier = {
+                name = supply_chain_simple_modifier
+                duration = -1
+            }
+        }
+    }
+}
+
+# [industrial_idea_7]
+on_mil_development = {
+    if = {
+        limit = {
+            FROM = {
+				has_idea = industrial_idea_7
+			}
+            NOT = {
+                has_province_modifier = supply_chain_complex_modifier
+            }
+        }
+
+        if = {
+            limit = {
+                development = 50
+            }
+
+            if = {
+                limit = { 
+                    has_province_modifier = supply_chain_simple_modifier 
+                }
+                remove_province_modifier = supply_chain_simple_modifier
+            }
+
+            add_province_modifier = {
+                name = supply_chain_complex_modifier
+                duration = -1
+            }
+
+            owner = {
+				mission_reward_artifice_points_1 = yes
+			}
+        }
+        else_if = {
+            limit = {
+                development = 25
+                NOT = { has_province_modifier = supply_chain_simple_modifier }
+                NOT = { has_province_modifier = supply_chain_complex_modifier }
+            }
+            add_province_modifier = {
+                name = supply_chain_simple_modifier
+                duration = -1
+            }
+        }
+    }
+}

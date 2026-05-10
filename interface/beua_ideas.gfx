@@ -1,0 +1,51 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_elven_supremacy_ideas"
+		texturefile = "gfx//interface//ideas//idea_elven_supremacy_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_jurisprudence_ideas"
+		texturefile = "gfx//interface//ideas//idea_jurisprudence_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_health_ideas"
+		texturefile = "gfx//interface//ideas//idea_health_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_state_administration_ideas"
+		texturefile = "gfx//interface//ideas//idea_state_administration_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_centralism_ideas"
+		texturefile = "gfx//interface//ideas//idea_centralism_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_decentralism_ideas"
+		texturefile = "gfx//interface//ideas//idea_decentralism_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_industrial_ideas"
+		texturefile = "gfx//interface//ideas//idea_industrial_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+}
