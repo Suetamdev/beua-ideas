@@ -48,4 +48,74 @@ spriteTypes = {
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
+	spriteType = {
+		name = "GFX_idea_assimilation_ideas"
+		texturefile = "gfx//interface//ideas//idea_assimilation_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_nationalism_ideas"
+		texturefile = "gfx//interface//ideas//idea_nationalism_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_society_ideas"
+		texturefile = "gfx//interface//ideas//idea_society_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_imperialist_ambition_ideas"
+		texturefile = "gfx//interface//ideas//idea_imperialist_ambition_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_imperialism_ideas"
+		texturefile = "gfx//interface//ideas//idea_imperialism_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_amphibious_ideas"
+		texturefile = "gfx//interface//ideas//idea_amphibious_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_colonial_empire_ideas"
+		texturefile = "gfx//interface//ideas//idea_colonial_empire_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_magocratic_ideas"
+		texturefile = "gfx//interface//ideas//idea_magocratic_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_monstrous_ideas"
+		texturefile = "gfx//interface//ideas//idea_monstrous_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_beua_imperial_ideas"
+		texturefile = "gfx//interface//ideas//idea_beua_imperial_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
 }

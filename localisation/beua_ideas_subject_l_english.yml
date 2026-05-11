@@ -1,0 +1,27 @@
+﻿l_english:0
+ # Subject Dominion
+ beua_dominion_title:0 "Dominion"
+ beua_dominion_title_plural:0 "Dominions"
+ beua_dominion_long_desc:0 "A Dominion is a self-governing nation whose rulers are granted autonomy so long as they serve the whims of the capital. If the Dominion has at least §Y5 provinces§!, the Overlord receives specialized economic and military bonuses."
+ beua_dominion_is_our:0 "$NAME|Y$ is our Dominion"
+
+ # Subject Client Dominion
+ beua_client_dominion_title:0 "Client Dominion"
+ beua_client_dominion_title_plural:0 "Client Dominions"
+ beua_client_dominion_long_desc:0 "A Client Dominion is a self-governing nation whose rulers are granted autonomy so long as they serve the whims of the capital. If the Dominion has at least §Y5 provinces§!, the Overlord receives specialized economic and military bonuses."
+ beua_client_dominion_is_our:0 "$NAME|Y$ is our Client Dominion"
+
+ # Subject Dominion and Subject Client Dominion Actions
+ beua_dominion_draft_army:0 "Draft Armies"
+ beua_dominion_draft_navy:0 "Draft Navies"
+ beua_dominion_demand_mages:0 "Demand Magical Aides"
+ beua_dominion_demand_resources:0 "Demand Resources"
+ beua_dominion_restrict_representation:0 "Restrict Representation"
+ beua_dominion_increase_tariffs:0 "Increase Tariffs"
+ beua_dominion_attendance:0 "Mandatory Attendance"
+ beua_dominion_bureaucracy:0 "Send Bureaucratic Aides"
+ beua_dominion_prosperity:0 "Invest into Prosperity"
+ beua_dominion_security:0 "Invest into Security"
+ beua_dominion_integration:0 "Increase Integration"
+ beua_dominion_exempt_tax:0 "Grant Tax Exemptions"
+ beua_dominion_covert:0 "Investigate Independance Movements"

@@ -25,6 +25,40 @@
 
  # Supply Chains
  supply_chain_simple_modifier:0 "Simple Production"
- supply_chain_simple_modifier_desc:0 "Standardized transport networks and localized manufacturing hubs have streamlined the flow of goods.\n\n§G+2.5%§! Production Efficiency"
+ desc_supply_chain_simple_modifier_:0 "Standardized transport networks and localized manufacturing hubs have streamlined the flow of goods.\n\n§G+2.5%§! Production Efficiency"
  supply_chain_complex_modifier:0 "Complex Production"
- supply_chain_complex_modifier_desc:0 "High-level development has allowed for an intricate industrial network, maximizing manufacturing output and fueling Artificer research.\n\n§G+5%§! Production Efficiency\n§G+1§! Artificer Capacity"
+ desc_supply_chain_complex_modifier_:0 "High-level development has allowed for an intricate industrial network, maximizing manufacturing output and fueling Artificer research.\n\n§G+5%§! Production Efficiency\n§G+1§! Artificer Capacity"
+
+ # Urban Industry
+ urban_industry:0 "Urban Industry"
+ desc_urban_industry:0 "The sprawling urban centers of Anbennar serve as major centers of industry."
+
+ # Subject Dominion
+ beua_dominion_overlord:0 "Dominion Overlord"
+ beua_dominion_subject:0 "Dominion Subject"
+ is_beua_dominion:0 "Dominion"
+
+ # Subject Client Dominion
+ beua_client_dominion_overlord:0 "Client Dominion Overlord"
+ beua_client_dominion_subject:0 "Client Dominion Subject"
+
+ # AI Start Bonus
+ ai_startup_bonus:0 "AI Start Bonus"
+
+ # Archmage - Pushing the Limits Bonus
+ archmage_necromancy:0 "Limit Break: Necromancy"
+ desc_archmage_necromancy:0 ""
+ archmage_evocation:0 "Limit Break: Evocation"
+ desc_archmage_evocation:0 ""
+ archmage_divination:0 "Limit Break: Divination"
+ desc_archmage_divination:0 ""
+ archmage_abjuration:0 "Limit Break: Abjuration"
+ desc_archmage_abjuration:0 ""
+ archmage_conjuration:0 "Limit Break: Conjuration"
+ desc_archmage_conjuration:0 ""
+ archmage_enchantment:0 "Limit Break: Enchantment"
+ desc_archmage_enchantment:0 ""
+ archmage_transmutation:0 "Limit Break: Transmutation"
+ desc_archmage_transmutation:0 ""
+ archmage_illusion:0 "Limit Break: Illusion"
+ desc_archmage_illusion:0 ""

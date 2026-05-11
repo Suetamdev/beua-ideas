@@ -1,0 +1,740 @@
+########################################################
+####### Assimilation                             #######
+########################################################
+
+assimilation_ideas = {
+	category = DIP
+	
+	trigger = {	
+		NOT = {
+			has_idea_group = nationalism_ideas
+		}			
+	}
+
+	bonus = {
+		diplomatic_reputation = 1.5
+	}
+
+	assimilation_idea_1 = {
+		culture_conversion_cost = -0.25
+	}
+	assimilation_idea_2 = {
+		diplomatic_annexation_cost = -0.15
+	}
+	assimilation_idea_3 = {
+		global_manpower_modifier = 0.1
+		manpower_in_accepted_culture_provinces = 0.1
+		effect = { 
+			set_country_flag = focusing_is_free_flag 
+			hidden_effect = {
+				change_variable = { which = remaining_free_focus value = 3 }
+			}
+		}
+		removed_effect = { 
+			clr_country_flag = focusing_is_free_flag 
+			hidden_effect = {
+				subtract_variable = { which = remaining_free_focus value = 3 }
+			}
+		}
+	}
+
+	assimilation_idea_4 = {
+		years_of_nationalism = -5
+	}
+
+	assimilation_idea_5 = {
+		reinforce_speed = 0.2
+	}
+	
+	assimilation_idea_6 = {
+		reform_progress_growth = 0.2
+		stability_cost_modifier = 0.25
+	}
+	
+	assimilation_idea_7 = {
+		promote_culture_cost = -0.25
+		num_accepted_cultures = 3
+	}
+
+	
+	ai_will_do = {
+		factor = 0.34
+		modifier = {
+			factor = 2
+			personality = ai_diplomat
+		}
+		modifier = {
+			factor = 3
+			OR = { #reminder to check for non-Cannorian melting pots
+				tag = A25 #Damescrown
+				tag = A38 #Anbenncost
+				tag = A44 #Esmaraine
+			}
+		}
+		
+	}
+}
+
+########################################################
+####### Nationalism                              #######
+########################################################
+
+nationalism_ideas = {
+	category = DIP
+	
+	trigger = {	
+		NOT = {
+			has_idea_group = assimilation_ideas
+		}			
+	}
+
+	bonus = {
+		same_culture_advisor_cost = -0.25
+	}
+		
+	nationalism_idea_1 = {
+		manpower_in_own_culture_provinces = 0.25
+	}
+	nationalism_idea_2 = {
+		administrative_efficiency = 0.001
+		effect = { 
+			set_country_flag = focusing_is_free_flag 
+			hidden_effect = {
+				change_variable = { which = remaining_free_focus value = 2 }
+				change_variable = { which = remaining_free_genocide value = 2 }
+			}
+		}
+		removed_effect = { 
+			clr_country_flag = focusing_is_free_flag 
+			hidden_effect = {
+				subtract_variable = { which = remaining_free_focus value = 2 }
+				subtract_variable = { which = remaining_free_genocide value = 2 }
+			}
+		}
+	}
+	nationalism_idea_3 = {
+		hostile_attrition = 1
+		tolerance_heathen = -2
+		tolerance_heretic = -2
+	}
+	nationalism_idea_4 = {
+		defensiveness = 0.15
+	}
+	nationalism_idea_5 = {
+		reinforce_cost_modifier = -0.2
+	}
+	nationalism_idea_6 = {
+		global_unrest = -2
+	}
+	nationalism_idea_7 = {
+		shock_damage_received = -0.1
+		effect = { increase_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
+		removed_effect = { decrease_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
+	}
+	
+	ai_will_do = {
+		factor = 0.34
+		modifier = {
+			factor = 3
+			OR = {
+				has_country_modifier = ruinborn_administration
+				has_country_modifier = elven_administration
+			}
+		}
+	}
+}
+
+########################################################
+####### Society                                  #######
+########################################################
+
+society_ideas = {
+	category = DIP
+
+	bonus = {
+		advisor_pool = 1
+	}
+		
+	society_idea_1 = {
+		land_maintenance_modifier = -0.1
+	}
+	society_idea_2 = {
+		improve_relation_modifier = 0.2
+	}
+	society_idea_3 = {
+		state_maintenance_modifier = -0.2
+	}
+	society_idea_4 = {
+		advisor_cost = -0.15
+	}
+	society_idea_5 = {
+		global_spy_defence = 0.33
+	}
+	society_idea_6 = {
+		global_unrest = -2
+	}
+	society_idea_7 = {
+		all_power_cost = -0.025
+		reform_progress_growth = 0.1
+		effect = { increase_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
+		removed_effect = { decrease_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
+	}
+	
+	ai_will_do = {
+		factor = 0.4
+	}
+}
+
+########################################################
+####### Imperialist Ambition   	 		         #######
+########################################################
+
+imperialist_ambition_ideas = {
+	category = DIP
+
+	bonus = {
+		land_morale = 0.1
+	}
+		
+	trigger = {
+		government_rank = 2
+		NOT = {
+			OR = {
+				government_rank = 3
+				is_emperor = yes 
+			}
+		}
+		NOT = {
+			has_idea_group = imperialism_ideas
+		}
+	}
+	
+	imperialist_ambition_idea_1 = {
+		prestige_decay = -0.01
+	}
+	imperialist_ambition_idea_2 = {
+		development_cost = -0.1
+	}
+	imperialist_ambition_idea_3 = {
+		institution_spread_from_true_faith = 0.3
+	}
+	imperialist_ambition_idea_4 = {
+		naval_forcelimit = 15
+	}
+	imperialist_ambition_idea_5 = {
+		land_forcelimit = 10
+	}
+	imperialist_ambition_idea_6 = {
+		reinforce_cost_modifier = -0.2
+	}
+	imperialist_ambition_idea_7 = {
+		diplomatic_upkeep = 1
+		# add_cb = cb_imperial_subjugation
+		effect = { increase_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
+		removed_effect = { decrease_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
+	}
+	
+	ai_will_do = {
+		factor = 0.34
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+		}
+	}
+}
+
+########################################################
+####### Imperialism         	 		         #######
+########################################################
+
+imperialism_ideas = {
+	category = DIP
+
+	bonus = {
+		governing_capacity_modifier = 0.15
+	}
+		
+	trigger = {
+		NOT = {
+			has_idea_group = imperialist_ambition_ideas
+		}
+		OR = {
+			government_rank = 3 
+			is_emperor = yes 
+		}
+	}
+	
+	imperialism_idea_1 = {
+		prestige_decay = -0.005
+		state_governing_cost = -0.1
+	}
+	imperialism_idea_2 = {
+		# add_cb = cb_imperial_subjugation
+		diplomatic_upkeep = 1
+	}
+	imperialism_idea_3 = {
+		accept_vassalization_reasons = 10
+	}
+	imperialism_idea_4 = {
+		naval_forcelimit_modifier = 0.2
+	}
+	imperialism_idea_5 = {
+		core_creation = -0.1
+	}
+	imperialism_idea_6 = {
+		land_forcelimit_modifier = 0.15
+	}
+	imperialism_idea_7 = {
+		global_tax_modifier = 0.15
+		effect = { increase_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
+		removed_effect = { decrease_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
+	}
+	
+	ai_will_do = {
+		factor = 0.34
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+		}
+	}
+}
+
+########################################################
+####### Amphibious         	 		             #######
+########################################################
+
+amphibious_ideas = {
+	category = DIP
+
+	bonus = {
+		naval_morale = 0.1
+		movement_speed_onto_off_boat_modifier = 0.25
+	}
+
+	trigger = {
+		primitives = no
+	}
+
+	amphibious_idea_1 = {
+		global_sailors_modifier = 0.20
+		naval_tradition_from_battle = 0.15
+	}
+	amphibious_idea_2 = {
+		galley_power = 0.20
+		coast_raid_range = 1
+	}
+	amphibious_idea_3 = {
+		allowed_marine_fraction = 0.25
+		landing_penalty = -1
+	}
+	amphibious_idea_4 = {
+		#add_cb = cb_coastal_invasion
+		blockade_impact_on_siege_in_fleet_modifier = 1
+	}
+	amphibious_idea_5 = {
+		trade_efficiency = 0.1
+		ship_trade_power_modifier = 0.15
+	}
+	amphibious_idea_6 = {
+		capture_ship_chance = 0.15
+		privateer_efficiency = 0.15
+	}
+	amphibious_idea_7 = {
+		disengagement_chance = 0.15
+		effect = { increase_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
+		removed_effect = { decrease_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
+	}
+	
+	ai_will_do = {
+		factor = 0.34
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 10 }
+		}
+		modifier = {
+			factor = 5
+			OR = {
+			tag = A47 #Eborthil
+			tag = A29 #Busilar
+			tag = Z08 #Bjarnrik
+			}
+		}
+		modifier = {
+			factor = 1.5
+			has_idea_group = maritime_ideas
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				num_of_galley = 20
+				galley_fraction = 0.25
+			}
+		}
+		
+	}
+}
+
+########################################################
+####### Colonial Empire Ideas          		 	 #######
+########################################################
+
+colonial_empire_ideas = {
+	category = DIP
+
+	bonus = {
+		global_tariffs = 0.25
+		reduced_liberty_desire_on_other_continent = -25
+	}
+
+	trigger = {
+		dip_tech = 10
+	}
+
+	colonial_empire_idea_1 = {
+		colonists = 1
+	}
+	colonial_empire_idea_2 = {
+		diplomatic_upkeep = 2
+	}
+	colonial_empire_idea_3 = {
+		global_tariffs = 0.5
+	}
+	colonial_empire_idea_4 = {
+		global_manpower_modifier = 0.05
+		global_sailors_modifier = 0.05
+	}
+	colonial_empire_idea_5 = {
+		naval_forcelimit_modifier = 0.25
+	}
+	colonial_empire_idea_6 = {
+		build_cost = -0.2
+		trade_steering = 0.15
+	}
+	colonial_empire_idea_7 = {
+		liberty_desire_from_subject_development = -0.33
+	}
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			num_of_colonists = 0
+		}
+		modifier = {
+			factor = 5
+			num_of_colonists = 1 
+		}
+		modifier = {
+			factor = 10
+			num_of_colonists = 2
+		}
+		modifier = {
+			factor = 2
+			personality = ai_diplomat
+		}
+		
+		modifier = {
+			factor = 2
+			personality = ai_militarist 
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				is_subject = yes
+				is_vassal = yes
+				is_colonial_nation = yes
+				is_tribal = yes
+				primitives = yes
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { num_of_ports = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { num_of_ports = 3 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { num_of_ports = 4 }
+			num_of_cities = 4
+		}
+		modifier = {
+			factor = 2.0
+			num_of_ports = 5
+		}
+		modifier = {
+			factor = 2.0
+			num_of_ports = 10
+		}
+		modifier = {
+			factor = 2.0
+			num_of_ports = 15
+		}
+		modifier = {
+			factor = 2.0
+			num_of_ports = 20
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				tag = A02 #Deranne
+				tag = A11 #Pearlsedge
+				tag = A29 #Busilar
+				tag = A47 #Eborthil
+				tag = A79 #Gnomish Hierarchy
+				tag = A97 #Small Country
+			}
+		}
+		modifier = {
+			factor = 2.5
+			OR = {
+				has_idea_group = maritime_ideas
+				has_idea_group = naval_ideas
+			}
+		}
+		modifier = {
+			factor = 25
+			technology_group = tech_cannorian
+			capital_scope = { region = lencenor_region }
+			any_known_country = {
+				has_idea_group = exploration_ideas
+			}
+			num_of_ports = 3 
+		}
+		modifier = {
+			factor = 10
+			personality = ai_colonialist
+		}
+		modifier = {
+			factor = 0.5
+			personality = ai_militarist
+		}
+		modifier = {	
+			factor = 3
+			technology_group = tech_cannorian
+			num_of_ports = 5
+			any_neighbor_country = {
+				has_idea_group = exploration_ideas
+				num_of_colonies = 1
+			}
+		}
+		modifier = {			
+			factor = 3
+			technology_group = tech_cannorian
+			num_of_ports = 3
+			any_rival_country = {
+				has_idea_group = exploration_ideas
+				num_of_colonies = 1
+			}
+		}
+		modifier = {			
+			factor = 3
+			num_of_ports = 9
+			any_neighbor_country = {
+				has_idea_group = exploration_ideas
+				num_of_colonies = 1
+			}
+		}
+		modifier = {			
+			factor = 3
+			num_of_ports = 7
+			any_rival_country = {
+				has_idea_group = exploration_ideas
+				num_of_colonies = 1
+			}
+		}
+		modifier = {
+			factor = 2.0
+			has_idea_group = exploration_ideas
+		}
+		modifier = {
+			factor = 2.0
+			has_idea_group = expansion_ideas
+		}
+	}
+}
+
+########################################################
+####### Magocratic Ideas             		 	 #######
+########################################################
+
+magocratic_ideas = {
+	category = DIP
+
+	bonus = {
+		all_power_cost = -0.025
+		technology_cost = 0.05
+		mages_loyalty_modifier = 0.1
+		khelorvalshi_loyalty_modifier = 0.1
+		tec_technomancy_influence = 0.05
+	}
+
+	trigger = {
+		has_estate = estate_mages
+	}
+
+	magocratic_idea_1 = {
+		stability_cost_modifier = -0.2
+	}
+	magocratic_idea_2 = {
+		embracement_cost = -0.1
+		mages_estate_experience_mod = 0.25
+		mages_ruler_experience_mod = 0.25
+	}
+	magocratic_idea_3 = {
+		global_tax_modifier = 0.15
+	}
+	magocratic_idea_4 = {
+		diplomatic_reputation = 1
+		improve_relation_modifier = 0.1
+	}
+	magocratic_idea_5 = {
+		siege_ability = 0.15
+		max_general_siege = 1
+	}
+	magocratic_idea_6 = {
+		spy_offence = 0.33
+		global_spy_defence = 0.2
+	}
+	magocratic_idea_7 = {
+		monarch_lifespan = 0.25
+		mages_mana_regen = 0.25
+	}
+
+	ai_will_do = {
+		factor = 0.34
+		
+		modifier = {
+			factor = 2
+			ruler_has_personality = mage_personality
+		}
+		modifier = {
+			factor = 3
+			has_country_modifier = witch_king_modifier
+		}
+	}
+}
+
+########################################################
+####### Mostrous Ideas                 		 	 #######
+########################################################
+
+monstrous_ideas = {
+	category = DIP
+
+	bonus = {
+		idea_cost = -0.1
+		monstrous_tribes_loyalty_modifier = 0.1
+	}
+
+	trigger = {
+		has_country_modifier = monstrous_nation
+	}
+
+	monstrous_idea_1 = {
+		available_province_loot = 0.33
+		loot_amount = 0.33
+	}
+	monstrous_idea_2 = {
+		num_accepted_cultures = 1
+		global_autonomy = -0.05
+	}
+	monstrous_idea_3 = {
+		power_projection_from_insults = 1
+		reduced_liberty_desire = 15
+	}
+	monstrous_idea_4 = {
+		inflation_reduction = 0.1
+	}
+	monstrous_idea_5 = {
+		years_of_nationalism = -5
+	}
+	monstrous_idea_6 = {
+		privateer_efficiency = 0.25
+		may_perform_slave_raid = yes
+	}
+	monstrous_idea_7 = {
+		max_absolutism = 10
+	}
+
+	ai_will_do = {
+		factor = 0.31
+
+		modifier = {
+			factor = 2
+			OR = {
+				technology_group = tech_orcish
+				technology_group = tech_east_orcish
+				technology_group = tech_harpy
+				technology_group = tech_centaur
+				tag = U07 #Viakkoc
+			}
+		}
+	}
+}
+
+########################################################
+####### Empire Ideas  		  					 #######
+########################################################
+
+beua_imperial_ideas = {
+	category = DIP
+
+	bonus = {
+		imperial_authority_value = 0.05
+	}
+
+	trigger = {
+		OR = {
+			is_part_of_hre = yes
+			tag = Z01
+		}
+	}
+	
+	imperial_idea_1 = {
+		diplomatic_reputation = 1
+		accept_vassalization_reasons = 5
+	}
+	imperial_idea_2 = {
+		defensiveness = 0.1
+		great_project_upgrade_cost = -0.15
+	}
+	imperial_idea_3 = {
+		trade_efficiency = 0.1
+	}
+	imperial_idea_4 = {
+		global_unrest = -1
+		global_autonomy = -0.05
+	}
+	imperial_idea_5 = {
+		diplomats = 1
+	}
+	imperial_idea_6 = {
+		manpower_against_imperial_enemies = 0.1
+		#+0.5 goods produced on urban and dwarven holds at 25 development
+	}
+	imperial_idea_7 = {
+		reasons_to_elect = 25
+	}
+
+	ai_will_do = {
+		factor = 0.34
+
+		modifier = {
+			factor = 3
+			OR = {
+				tag = A30 #Wex
+				tag = A45 #Istralore
+				tag = A04 #Wesdam
+				tag = A58 #Dameria
+				tag = A11 #Pearlsedge
+			}
+		}
+	}
+}

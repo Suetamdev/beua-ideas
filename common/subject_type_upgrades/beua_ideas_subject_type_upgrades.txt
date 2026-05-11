@@ -1,0 +1,349 @@
+########################################################
+####### Subject Dominion	   	 				 #######
+########################################################
+
+beua_dominion_draft_army = {
+	can_upgrade_trigger = {
+		OR = {
+			is_subject_of_type = beua_dominion
+			is_subject_of_type = beua_client_dominion
+		}
+		overlord = {
+			has_idea = imperialism_idea_7
+			adm_power = 25
+		}
+	}
+	
+	cost = 150
+	
+	effect = {
+		overlord = {
+			add_adm_power = -25
+		}
+	}
+
+	modifier_overlord = {
+		land_forcelimit = 5
+	}
+
+	modifier_subject = {
+		land_forcelimit = -5
+		liberty_desire = 10
+	}
+}
+
+beua_dominion_draft_navy = {
+	can_upgrade_trigger = {
+		OR = {
+			is_subject_of_type = beua_dominion
+			is_subject_of_type = beua_client_dominion
+		}
+
+		overlord = {
+			has_idea = imperialism_idea_7
+			adm_power = 25
+		}
+	}
+	
+	cost = 150
+	
+	effect = {
+		overlord = {
+			add_adm_power = -25
+		}
+	}
+
+	modifier_overlord = {
+		naval_forcelimit = 5
+	}
+
+	modifier_subject = {
+		naval_forcelimit = -5
+		liberty_desire = 10
+	}
+}
+
+beua_dominion_demand_mages = {
+	can_upgrade_trigger = {
+		OR = {
+			is_subject_of_type = beua_dominion
+			is_subject_of_type = beua_client_dominion
+		}
+
+		overlord = {
+			has_idea = imperialism_idea_7
+			adm_power = 25
+			has_estate = estate_mages
+		}
+	}
+	
+	cost = 500
+	
+	effect = {
+		overlord = {
+			add_adm_power = -25
+		}
+	}
+
+	modifier_overlord = {
+		all_power_cost = -0.01
+		technology_cost = 0.025
+	}
+
+	modifier_subject = {
+		technology_cost = 0.1
+		liberty_desire = 25
+	}
+}
+
+beua_dominion_restrict_representation = {
+	can_upgrade_trigger = {
+		OR = {
+			is_subject_of_type = beua_dominion
+			is_subject_of_type = beua_client_dominion
+		}
+
+		overlord = {
+			has_idea = imperialism_idea_7
+			adm_power = 25
+		}
+	}
+	
+	cost = 150
+	
+	effect = {
+		overlord = {
+			add_adm_power = -25
+		}
+	}
+
+	modifier_overlord = {
+		diplomatic_upkeep = 1
+	}
+
+	modifier_subject = {
+		liberty_desire = 50
+	}
+}
+
+beua_dominion_increase_tariffs = {
+	can_upgrade_trigger = {
+		OR = {
+			is_subject_of_type = beua_dominion
+			is_subject_of_type = beua_client_dominion
+		}
+
+		overlord = {
+			has_idea = imperialism_idea_7
+			adm_power = 25
+		}
+	}
+	
+	cost = 150
+	
+	effect = {
+		overlord = {
+			add_adm_power = -25
+		}
+	}
+
+	modifier_overlord = {
+		global_tax_modifier = 0.05
+	}
+
+	modifier_subject = {
+		global_tax_income = -24
+		liberty_desire = 10
+	}
+}
+
+beua_dominion_attendance = {
+	can_upgrade_trigger = {
+		OR = {
+			is_subject_of_type = beua_dominion
+			is_subject_of_type = beua_client_dominion
+		}
+
+		overlord = {
+			has_idea = imperialism_idea_7
+			adm_power = 25
+		}
+	}
+	
+	cost = 150
+	
+	effect = {
+		overlord = {
+			add_adm_power = -25
+		}
+	}
+
+	modifier_overlord = {
+		yearly_absolutism = 0.5
+		max_absolutism = 1
+		global_tax_income = -48
+	}
+
+	modifier_subject = {
+		yearly_absolutism = -1
+		legitimacy = -1
+		republican_tradition = -0.3
+		devotion = -1
+		horde_unity = -1
+		liberty_desire = 5
+	}
+}
+
+beua_dominion_bureaucracy = {
+	can_upgrade_trigger = {
+		OR = {
+			is_subject_of_type = beua_dominion
+			is_subject_of_type = beua_client_dominion
+		}
+
+		overlord = {
+			has_idea = decentralism_idea_7
+			adm_power = 25
+		}
+	}
+	
+	cost = 500
+	
+	effect = {
+		overlord = {
+			add_adm_power = -25
+		}
+	}
+
+	modifier_overlord = {
+		administrative_efficiency = -0.025
+	}
+
+	modifier_subject = {
+		core_creation = -0.25
+		liberty_desire = -20
+	}
+}
+
+beua_dominion_prosperity = {
+	can_upgrade_trigger = {
+		OR = {
+			is_subject_of_type = beua_dominion
+			is_subject_of_type = beua_client_dominion
+		}
+
+		overlord = {
+			has_idea = decentralism_idea_7
+			adm_power = 25
+		}
+	}
+	
+	cost = 150
+	
+	effect = {
+		overlord = {
+			add_adm_power = -25
+		}
+	}
+
+	modifier_overlord = {
+		build_cost = 0.05
+	}
+
+	modifier_subject = {
+		global_trade_goods_size_modifier = 0.25
+		liberty_desire = -5
+	}
+}
+
+beua_dominion_security = {
+	can_upgrade_trigger = {
+		OR = {
+			is_subject_of_type = beua_dominion
+			is_subject_of_type = beua_client_dominion
+		}
+
+		overlord = {
+			has_idea = decentralism_idea_7
+			adm_power = 25
+		}
+	}
+	
+	cost = 150
+	
+	effect = {
+		overlord = {
+			add_adm_power = -25
+		}
+	}
+
+	modifier_overlord = {
+		global_manpower_modifier = -0.1
+	}
+
+	modifier_subject = {
+		global_unrest = -2
+		defensiveness = 0.15
+		liberty_desire = -5
+	}
+}
+
+beua_dominion_integration = {
+	can_upgrade_trigger = {
+		OR = {
+			is_subject_of_type = beua_dominion
+			is_subject_of_type = beua_client_dominion
+		}
+
+		overlord = {
+			has_idea = decentralism_idea_7
+			adm_power = 25
+		}
+	}
+	
+	cost = 150
+	
+	effect = {
+		overlord = {
+			add_adm_power = -25
+		}
+	}
+
+	modifier_overlord = {
+		governing_capacity = -25
+	}
+	
+	modifier_subject = {
+		liberty_desire = -10
+	}
+}
+
+beua_dominion_exempt_tax = {
+	can_upgrade_trigger = {
+		OR = {
+			is_subject_of_type = beua_dominion
+			is_subject_of_type = beua_client_dominion
+		}
+		
+		overlord = {
+			has_idea = decentralism_idea_7
+			adm_power = 25
+		}
+	}
+	
+	cost = 150
+	
+	effect = {
+		overlord = {
+			add_adm_power = -25
+		}
+	}
+
+	modifier_overlord = {
+		vassal_income = -0.1
+	}
+	
+	modifier_subject = {
+		liberty_desire = -10
+	}
+}

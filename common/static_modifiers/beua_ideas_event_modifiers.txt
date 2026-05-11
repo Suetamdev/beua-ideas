@@ -1,0 +1,26 @@
+########################################################
+####### Subject Dominion 		                 #######
+########################################################
+beua_dominion_overlord = {
+	global_trade_power = 0.025
+	land_forcelimit = 2
+	naval_forcelimit = 1
+}
+
+beua_dominion_subject = {
+	global_tax_income = -3
+	min_autonomy_in_territories = -0.1
+	development_cost = 0.25
+}
+
+beua_client_dominion_overlord = {
+	global_trade_power = 0.025
+	land_forcelimit = 2
+	naval_forcelimit = 1
+}
+
+beua_client_dominion_subject = {
+	global_tax_income = -3
+	min_autonomy_in_territories = -0.1
+	development_cost = 0.25
+}

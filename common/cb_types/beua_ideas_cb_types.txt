@@ -1,0 +1,39 @@
+# [imperialist_ambition_idea_7|imperialism_idea_2]
+cb_imperial_subjugation = {
+	valid_for_subject = no
+
+	prerequisites = {
+		OR = {
+            has_idea = imperialist_ambition_idea_7
+            has_idea = imperialism_idea_2
+		}
+
+		is_revolution_target = no
+		
+		FROM = {
+		    is_neighbor_of = ROOT
+		    NOT = { total_development = 151 }
+		}
+	}
+	
+	war_goal = take_capital_vassalize
+}
+
+# [amphibious_idea_4]
+cb_coastal_invasion = {
+	valid_for_subject = no
+	
+	prerequisites = {
+		has_idea = amphibious_idea_4
+		primitives = no
+
+		FROM = {
+			any_owned_province = { 	
+				has_port = yes
+				range = ROOT
+			}
+		}
+	}
+
+	war_goal = coastal_invasion
+}

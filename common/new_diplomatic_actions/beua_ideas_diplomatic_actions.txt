@@ -1,0 +1,146 @@
+create_dominion_from_vassal = {
+	category = influence
+
+	is_visible = {
+		OR = { 
+			AND = {
+				has_idea = imperialism_idea_3 
+				has_idea = decentralism_idea_7 
+			}
+			AND = {
+				has_idea = imperialism_idea_3 
+				has_idea = postal_service 
+			}
+			AND = {
+				has_idea = decentralism_idea_7 
+				has_idea = postal_service 
+			}
+		}
+		
+		FROM = {
+			is_subject_of = ROOT
+			NOT = {
+				OR = {
+					is_subject_of_type = beua_dominion
+					is_subject_of_type = beua_client_dominion
+				}
+			}
+			is_subject_other_than_tributary_trigger = yes
+		}
+	}
+
+	is_allowed = {
+		if = {
+			limit = { FROM = { liberty_desire = 25 } }
+			custom_trigger_tooltip = {
+				tooltip = create_dominion_from_vassal_too_much_liberty_desire
+				FROM = { NOT = { liberty_desire = 25 } }
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					NOT = { is_subject_of_type = vassal }
+					NOT = { is_subject_of_type = client_vassal }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_NOT_VASSAL_OF_ROOT
+				FROM = {
+					OR = {
+						is_subject_of_type = vassal
+						is_subject_of_type = client_vassal
+					}
+				}
+			}
+		}
+	}
+
+	on_accept = {
+		if = { limit = { FROM = { is_subject_of_type = client_vassal } }
+			ROOT = {
+				create_subject = {
+					subject_type = beua_client_dominion
+					subject = FROM
+				}
+			}
+			FROM = {
+				set_country_flag = enables_estate_nobles_flag
+				set_country_flag = enables_estate_burghers_flag
+				set_country_flag = enables_estate_church_flag
+				set_country_flag = has_overriden_color_flag
+				set_country_flag = has_overriden_name_flag
+			}
+		}
+		if = { limit = { FROM = { is_subject_of_type = vassal } }
+			ROOT = {
+				create_subject = {
+					subject_type = beua_dominion
+					subject = FROM
+				}
+			}
+			FROM = {
+				set_country_flag = enables_estate_nobles_flag
+				set_country_flag = enables_estate_burghers_flag
+				set_country_flag = enables_estate_church_flag
+				set_country_flag = has_overriden_color_flag
+				set_country_flag = has_overriden_name_flag
+			}
+		}
+	}
+
+	ai_will_do = {
+		OR = {
+			has_unified_culture_group = yes
+			AND = {
+				NOT = { has_country_modifier = human_administration }
+				FROM = { has_country_modifier = human_administration } 
+			}
+		}
+	}
+}
+
+rescind_dominion_status = {
+	category = influence
+	is_visible = {
+		FROM = { 
+			is_subject_of = ROOT 
+			OR = {
+				is_subject_of_type = beua_dominion
+				is_subject_of_type = beua_client_dominion
+			}
+		}
+	}
+	is_allowed = {
+		FROM = {
+			is_subject_of = ROOT
+			OR = {
+				is_subject_of_type = beua_dominion
+				is_subject_of_type = beua_client_dominion
+			}
+		}
+	}
+	on_accept = {
+		ROOT = { add_stability = -1 }
+		FROM = { add_liberty_desire = 25 }
+		if = { limit = { FROM = { is_subject_of_type = beua_dominion } }
+			ROOT = {
+				create_subject = {
+					subject_type = vassal 
+					subject = FROM
+				}
+			}
+		}
+		if = { limit = { FROM = { is_subject_of_type = beua_client_dominion } }
+			ROOT = {
+				create_subject = {
+					subject_type = client_vassal
+					subject = FROM
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		always = no
+	}
+}

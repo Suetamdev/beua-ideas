@@ -433,8 +433,21 @@ on_expanded_infrastructure_removed = {
     }
 }
 
-# [industrial_idea_7]
+# [industrial_idea_7|imperial_idea_6]
 on_adm_development = {
+    # Early Check
+    if = {
+        limit = {
+            FROM = {
+                OR = {
+                    has_idea = industrial_idea_7
+                    has_idea = imperial_idea_6
+                }
+            }
+        }
+    }
+
+    # [industrial_idea_7]
     if = {
         limit = {
             FROM = {
@@ -478,10 +491,52 @@ on_adm_development = {
             }
         }
     }
+
+    # [imperial_idea_6]
+    if = {
+        limit = {
+            FROM = {
+				has_idea = imperial_idea_6
+			}
+            NOT = {
+                has_province_modifier = urban_industry
+            }
+        }
+
+        if = {
+            limit = {
+                development = 25
+                OR = {
+					has_terrain = dwarven_hold
+					has_terrain = dwarven_hold_surface
+					has_terrain = city_terrain
+				}
+            }
+
+            add_province_modifier = {
+                name = urban_industry
+                duration = -1
+            }
+
+        }
+    }
 }
 
-# [industrial_idea_7]
+# [industrial_idea_7|imperial_idea_6]
 on_dip_development = {
+    # Early Check
+    if = {
+        limit = {
+            FROM = {
+                OR = {
+                    has_idea = industrial_idea_7
+                    has_idea = imperial_idea_6
+                }
+            }
+        }
+    }
+
+    # [industrial_idea_7]
     if = {
         limit = {
             FROM = {
@@ -525,10 +580,52 @@ on_dip_development = {
             }
         }
     }
+
+    # [imperial_idea_6]
+    if = {
+        limit = {
+            FROM = {
+				has_idea = imperial_idea_6
+			}
+            NOT = {
+                has_province_modifier = urban_industry
+            }
+        }
+
+        if = {
+            limit = {
+                development = 25
+                OR = {
+					has_terrain = dwarven_hold
+					has_terrain = dwarven_hold_surface
+					has_terrain = city_terrain
+				}
+            }
+
+            add_province_modifier = {
+                name = urban_industry
+                duration = -1
+            }
+
+        }
+    }
 }
 
-# [industrial_idea_7]
+# [industrial_idea_7|imperial_idea_6]
 on_mil_development = {
+    # Early Check
+    if = {
+        limit = {
+            FROM = {
+                OR = {
+                    has_idea = industrial_idea_7
+                    has_idea = imperial_idea_6
+                }
+            }
+        }
+    }
+
+    # [industrial_idea_7]
     if = {
         limit = {
             FROM = {
@@ -565,6 +662,105 @@ on_mil_development = {
                 development = 25
                 NOT = { has_province_modifier = supply_chain_simple_modifier }
                 NOT = { has_province_modifier = supply_chain_complex_modifier }
+            }
+            add_province_modifier = {
+                name = supply_chain_simple_modifier
+                duration = -1
+            }
+        }
+    }
+
+    # [imperial_idea_6]
+    if = {
+        limit = {
+            FROM = {
+				has_idea = imperial_idea_6
+			}
+            NOT = {
+                has_province_modifier = urban_industry
+            }
+        }
+
+        if = {
+            limit = {
+                development = 25
+                OR = {
+					has_terrain = dwarven_hold
+					has_terrain = dwarven_hold_surface
+					has_terrain = city_terrain
+				}
+            }
+
+            add_province_modifier = {
+                name = urban_industry
+                duration = -1
+            }
+
+        }
+    }
+}
+
+# [industrial_idea_7|imperial_idea_6]
+on_province_owner_change = {
+	# imperial_idea_6
+	if = {
+		limit = {
+			NOT = {
+				has_province_modifier = urban_industry
+			}
+			AND = {
+				owner = { has_idea = imperial_idea_6 }
+			}
+		}
+		hidden_effect = {
+			owner = { set_country_flag = has_urban_industry }
+			if = {
+				limit = {
+					OR = {
+						has_terrain = dwarven_hold
+						has_terrain = dwarven_hold_surface
+						has_terrain = city_terrain
+					}
+				}
+				add_province_modifier = { 
+					name = "urban_industry"
+					duration = -1
+				}
+			}
+		}
+	}
+
+    # industrial_idea_7
+    if = {
+        limit = {
+            FROM = {
+				has_idea = industrial_idea_7
+			}
+            NOT = {
+                OR = {
+                    has_province_modifier = supply_chain_complex_modifier
+                    has_province_modifier = supply_chain_simple_modifier
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                development = 50
+            }
+
+            add_province_modifier = {
+                name = supply_chain_complex_modifier
+                duration = -1
+            }
+
+            owner = {
+				mission_reward_artifice_points_1 = yes
+			}
+        }
+        else_if = {
+            limit = {
+                development = 25
             }
             add_province_modifier = {
                 name = supply_chain_simple_modifier

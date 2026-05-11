@@ -1,0 +1,11 @@
+﻿l_english:0
+ # Create Dominion From Vassal
+ create_dominion_from_vassal_title:0 "Establish Dominion"
+ create_dominion_from_vassal_tooltip:0 "We can make §Y[From.GetName]§! a dominion, guarenteeing their autonomy but also increasing their loyalty and unlocking new interactions."
+ create_dominion_from_vassal_desc:0 "This action will make §Y[From.GetName]§! a dominion, guarenteeing their autonomy but also increasing their loyalty and unlocking new interactions."
+ create_dominion_from_vassal_too_much_liberty_desire:0 "§R- Liberty Desire of §Y[From.GetName]§! is above §Y25§!.§!"
+
+ # Rescind Dominion Status
+ rescind_dominion_status_title:0 "Rescind Dominion Status"
+ rescind_dominion_status_tooltip:0 "We can turn §Y[From.GetName]§! back into a regular vassal, §Rincreasing their liberty desire by 25 and reducing our stability by 1.§!"
+ rescind_dominion_status_desc:0 "This action will turn §Y[From.GetName]§! back into a regular vassal, §Rincreasing their liberty desire by 25 and reducing our stability by 1.§!"

@@ -1,6 +1,7 @@
 ########################################################
 ####### Elven Supremacy                          #######
 ########################################################
+
 elven_supremacy_ideas = {
 	category = ADM
 	
@@ -14,6 +15,7 @@ elven_supremacy_ideas = {
 			has_country_modifier = elven_administration
 			NOT = { dominant_religion = the_jadd }
 			NOT = { has_idea_group = religious_ideas }
+			dip_tech = 8
 		}
 	}
 
@@ -328,7 +330,7 @@ decentralism_ideas = {
 			AND = { 
 				OR = {
 					full_idea_group = administrative_ideas
-					full_idea_group = state_administration_idea_0
+					full_idea_group = state_administration_ideas
 				}
 				num_of_cities = 51
 			}
@@ -375,6 +377,7 @@ industrial_ideas = {
 		global_supply_limit_modifier = 0.33
 	}
 	industrial_idea_7 = {
+		#+5% goods produced at 25 development, and +10% goods produced and +1 Artificers Capacity at 50 development
 		artificers_loyalty_modifier = 0.05
 		artificers_influence_modifier = 0.05
 	}

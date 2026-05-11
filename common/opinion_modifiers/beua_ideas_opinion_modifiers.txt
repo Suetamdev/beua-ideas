@@ -1,0 +1,3 @@
+is_beua_dominion = {
+	opinion = 50
+}

@@ -90,8 +90,15 @@ optimized_logistics_dwarven_10_modifier = {
 ####### Supply Chains   						 #######
 ########################################################
 supply_chain_simple_modifier = {
-	trade_goods_size_modifier = 0.025
+	local_production_efficiency = 0.025
 }
 supply_chain_complex_modifier = {
-	trade_goods_size_modifier = 0.05
+	local_production_efficiency = 0.05
+}
+
+########################################################
+####### Urban Industry 							 #######
+########################################################
+urban_industry = {
+	trade_goods_size = 0.5
 }
