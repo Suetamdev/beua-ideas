@@ -1,8 +1,8 @@
 ﻿l_english:0
  # Imperial Subjugation
- cb_imperial_subjugation:0 "Imperial Subjugation"
- cb_imperial_subjugation_desc:0 "Minor states are a source of instability that only our rule can rectify. We shall enforce our authority over these neighbors and bind them to our throne as loyal vassals."
+ cb_beua_imperial_subjugation:0 "Imperial Subjugation"
+ cb_beua_imperial_subjugation_desc:0 "Minor states are a source of instability that only our rule can rectify. We shall enforce our authority over these neighbors and bind them to our throne as loyal vassals."
 
  # Coastal Invasion
- cb_coastal_invasion:0 "Coastal Invasion"
- cb_coastal_invasion_desc:0 "As a marine nation we need bases and sometimes you need to fight for them."
+ cb_beua_coastal_invasion:0 "Coastal Invasion"
+ cb_beua_coastal_invasion_desc:0 "As a marine nation we need bases and sometimes you need to fight for them."

@@ -1,43 +1,43 @@
 ########################################################
 ####### Optimized Logistics                      #######
 ########################################################
-optimized_logistics_1_modifier = {
+beua_optimized_logistics_1_modifier = {
 	local_manpower_modifier = 0.10
 	local_production_efficiency = 0.05
 }
-optimized_logistics_2_modifier = {
+beua_optimized_logistics_2_modifier = {
 	local_manpower_modifier = 0.20
 	local_production_efficiency = 0.10
 }
-optimized_logistics_3_modifier = {
+beua_optimized_logistics_3_modifier = {
 	local_manpower_modifier = 0.30
 	local_production_efficiency = 0.15
 }
-optimized_logistics_4_modifier = {
+beua_optimized_logistics_4_modifier = {
 	local_manpower_modifier = 0.40
 	local_production_efficiency = 0.20
 }
-optimized_logistics_5_modifier = {
+beua_optimized_logistics_5_modifier = {
 	local_manpower_modifier = 0.50
 	local_production_efficiency = 0.25
 }
-optimized_logistics_6_modifier = {
+beua_optimized_logistics_6_modifier = {
 	local_manpower_modifier = 0.60
 	local_production_efficiency = 0.30
 }
-optimized_logistics_7_modifier = {
+beua_optimized_logistics_7_modifier = {
 	local_manpower_modifier = 0.70
 	local_production_efficiency = 0.35
 }
-optimized_logistics_8_modifier = {
+beua_optimized_logistics_8_modifier = {
 	local_manpower_modifier = 0.80
 	local_production_efficiency = 0.40
 }
-optimized_logistics_9_modifier = {
+beua_optimized_logistics_9_modifier = {
 	local_manpower_modifier = 0.90
 	local_production_efficiency = 0.45
 }
-optimized_logistics_10_modifier = {
+beua_optimized_logistics_10_modifier = {
 	local_manpower_modifier = 1.00
 	local_production_efficiency = 0.50
 }
@@ -45,43 +45,43 @@ optimized_logistics_10_modifier = {
 ########################################################
 ####### Optimized Logistics Dwarven				 #######
 ########################################################
-optimized_logistics_dwarven_1_modifier = {
+beua_optimized_logistics_dwarven_1_modifier = {
 	local_manpower_modifier = 0.05
 	local_production_efficiency = 0.025
 }
-optimized_logistics_dwarven_2_modifier = {
+beua_optimized_logistics_dwarven_2_modifier = {
 	local_manpower_modifier = 0.10
 	local_production_efficiency = 0.05
 }
-optimized_logistics_dwarven_3_modifier = {
+beua_optimized_logistics_dwarven_3_modifier = {
 	local_manpower_modifier = 0.15
 	local_production_efficiency = 0.075
 }
-optimized_logistics_dwarven_4_modifier = {
+beua_optimized_logistics_dwarven_4_modifier = {
 	local_manpower_modifier = 0.20
 	local_production_efficiency = 0.10
 }
-optimized_logistics_dwarven_5_modifier = {
+beua_optimized_logistics_dwarven_5_modifier = {
 	local_manpower_modifier = 0.25
 	local_production_efficiency = 0.125
 }
-optimized_logistics_dwarven_6_modifier = {
+beua_optimized_logistics_dwarven_6_modifier = {
 	local_manpower_modifier = 0.30
 	local_production_efficiency = 0.15
 }
-optimized_logistics_dwarven_7_modifier = {
+beua_optimized_logistics_dwarven_7_modifier = {
 	local_manpower_modifier = 0.35
 	local_production_efficiency = 0.175
 }
-optimized_logistics_dwarven_8_modifier = {
+beua_optimized_logistics_dwarven_8_modifier = {
 	local_manpower_modifier = 0.40
 	local_production_efficiency = 0.20
 }
-optimized_logistics_dwarven_9_modifier = {
+beua_optimized_logistics_dwarven_9_modifier = {
 	local_manpower_modifier = 0.45
 	local_production_efficiency = 0.225
 }
-optimized_logistics_dwarven_10_modifier = {
+beua_optimized_logistics_dwarven_10_modifier = {
 	local_manpower_modifier = 0.50
 	local_production_efficiency = 0.25
 }
@@ -89,16 +89,16 @@ optimized_logistics_dwarven_10_modifier = {
 ########################################################
 ####### Supply Chains   						 #######
 ########################################################
-supply_chain_simple_modifier = {
+beua_supply_chain_simple_modifier = {
 	local_production_efficiency = 0.025
 }
-supply_chain_complex_modifier = {
+beua_supply_chain_complex_modifier = {
 	local_production_efficiency = 0.05
 }
 
 ########################################################
 ####### Urban Industry 							 #######
 ########################################################
-urban_industry = {
+beua_urban_industry = {
 	trade_goods_size = 0.5
 }

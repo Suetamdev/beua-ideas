@@ -1,4 +1,4 @@
-coastal_invasion = {
+beua_coastal_invasion = {
 	type = take_province
 	
 	attacker = {
@@ -33,5 +33,5 @@ coastal_invasion = {
 		prov_desc = ALL_CLAIMS
 	}
 
-	war_name = COASTAL_INVASION_WAR_NAME
+	war_name = BEUA_COASTAL_INVASION_WAR_NAME
 }

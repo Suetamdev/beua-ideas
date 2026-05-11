@@ -1,9 +1,9 @@
-# [state_administration_idea_5]
+# [beua_state_administration_idea_5]
 on_centralized_state = {
 	if = {
         limit = {
             FROM = {
-				has_idea = state_administration_idea_5
+				has_idea = beua_state_administration_idea_5
 			}
         }
 		area = {
@@ -19,729 +19,83 @@ on_centralized_state = {
 	}
 }
 
-# [centralism_idea_4]
+# [beua_centralism_idea_4]
 on_expanded_infrastructure = {
-    if = {
-        limit = {
-            FROM = {
-				has_idea = centralism_idea_4
-			}
-        }
-
-        if = {
-            limit = {
-                OR = {
-                    has_terrain = dwarven_hold
-                    has_terrain = dwarven_hold_surface
-                }
-            }
-            
-            clear_optimized_logistics_dwarven = yes
-
-            if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 10
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_dwarven_10_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 9
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_dwarven_9_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 8
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_dwarven_8_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 7
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_dwarven_7_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 6
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_dwarven_6_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 5
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_dwarven_5_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 4
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_dwarven_4_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 3
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_dwarven_3_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 2
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_dwarven_2_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 1
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_dwarven_1_modifier
-                        duration = -1 
-                }
-            }
-        }
-        else = {
-            clear_optimized_logistics = yes
-
-            if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 10
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_10_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 9
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_9_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 8
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_8_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 7
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_7_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 6
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_6_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 5
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_5_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 4
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_4_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 3
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_3_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 2
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_2_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 1
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_1_modifier
-                        duration = -1 
-                }
-            }
-        }
-    }
+    beua_apply_infrastructure_modifiers = yes
 }
 
-# [centralism_idea_4]
+# [beua_centralism_idea_4]
 on_expanded_infrastructure_removed = {
-    if = {
-        limit = {
-            FROM = {
-				has_idea = centralism_idea_4
-			}
-        }
-
-        if = {
-            limit = {
-                OR = {
-                    has_terrain = dwarven_hold
-                    has_terrain = dwarven_hold_surface
-                }
-            }
-            
-            clear_optimized_logistics_dwarven = yes
-
-            if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 1
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_dwarven_1_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 2
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_dwarven_2_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 3
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_dwarven_3_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 4
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_dwarven_4_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 5
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_dwarven_5_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 6
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_dwarven_6_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 7
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_dwarven_7_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 8
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_dwarven_8_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 9
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_dwarven_9_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 10
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_dwarven_10_modifier
-                        duration = -1 
-                }
-            }
-        }
-        else = {
-            clear_optimized_logistics = yes
-
-            if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 1
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_1_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 2
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_2_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 3
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_3_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 4
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_4_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 5
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_5_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 6
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_6_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 7
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_7_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 8
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_8_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 9
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_9_modifier
-                        duration = -1 
-                }
-            }
-            else_if {
-                limit = {
-                    num_of_times_expanded_infrastructure = 10
-                }
-                add_province_modifier = { 
-                        name = optimized_logistics_10_modifier
-                        duration = -1 
-                }
-            }
-        }
-    }
+    beua_apply_infrastructure_modifiers = yes
 }
 
-# [industrial_idea_7|imperial_idea_6]
+# [beua_industrial_idea_7|beua_imperial_idea_6|beua_serpentspine_idea_1]
 on_adm_development = {
-    # Early Check
-    if = {
-        limit = {
-            FROM = {
-                OR = {
-                    has_idea = industrial_idea_7
-                    has_idea = imperial_idea_6
-                }
-            }
-        }
-    }
-
-    # [industrial_idea_7]
-    if = {
-        limit = {
-            FROM = {
-				has_idea = industrial_idea_7
-			}
-            NOT = {
-                has_province_modifier = supply_chain_complex_modifier
-            }
-        }
-
-        if = {
-            limit = {
-                development = 50
-            }
-
-            if = {
-                limit = { 
-                    has_province_modifier = supply_chain_simple_modifier 
-                }
-                remove_province_modifier = supply_chain_simple_modifier
-            }
-
-            add_province_modifier = {
-                name = supply_chain_complex_modifier
-                duration = -1
-            }
-
-            owner = {
-				mission_reward_artifice_points_1 = yes
-			}
-        }
-        else_if = {
-            limit = {
-                development = 25
-                NOT = { has_province_modifier = supply_chain_simple_modifier }
-                NOT = { has_province_modifier = supply_chain_complex_modifier }
-            }
-            add_province_modifier = {
-                name = supply_chain_simple_modifier
-                duration = -1
-            }
-        }
-    }
-
-    # [imperial_idea_6]
-    if = {
-        limit = {
-            FROM = {
-				has_idea = imperial_idea_6
-			}
-            NOT = {
-                has_province_modifier = urban_industry
-            }
-        }
-
-        if = {
-            limit = {
-                development = 25
-                OR = {
-					has_terrain = dwarven_hold
-					has_terrain = dwarven_hold_surface
-					has_terrain = city_terrain
-				}
-            }
-
-            add_province_modifier = {
-                name = urban_industry
-                duration = -1
-            }
-
-        }
-    }
+    beua_apply_development_modifiers = yes
 }
 
-# [industrial_idea_7|imperial_idea_6]
+# [beua_industrial_idea_7|beua_imperial_idea_6|beua_serpentspine_idea_1]
 on_dip_development = {
-    # Early Check
-    if = {
-        limit = {
-            FROM = {
-                OR = {
-                    has_idea = industrial_idea_7
-                    has_idea = imperial_idea_6
-                }
-            }
-        }
-    }
-
-    # [industrial_idea_7]
-    if = {
-        limit = {
-            FROM = {
-				has_idea = industrial_idea_7
-			}
-            NOT = {
-                has_province_modifier = supply_chain_complex_modifier
-            }
-        }
-
-        if = {
-            limit = {
-                development = 50
-            }
-
-            if = {
-                limit = { 
-                    has_province_modifier = supply_chain_simple_modifier 
-                }
-                remove_province_modifier = supply_chain_simple_modifier
-            }
-
-            add_province_modifier = {
-                name = supply_chain_complex_modifier
-                duration = -1
-            }
-
-            owner = {
-				mission_reward_artifice_points_1 = yes
-			}
-        }
-        else_if = {
-            limit = {
-                development = 25
-                NOT = { has_province_modifier = supply_chain_simple_modifier }
-                NOT = { has_province_modifier = supply_chain_complex_modifier }
-            }
-            add_province_modifier = {
-                name = supply_chain_simple_modifier
-                duration = -1
-            }
-        }
-    }
-
-    # [imperial_idea_6]
-    if = {
-        limit = {
-            FROM = {
-				has_idea = imperial_idea_6
-			}
-            NOT = {
-                has_province_modifier = urban_industry
-            }
-        }
-
-        if = {
-            limit = {
-                development = 25
-                OR = {
-					has_terrain = dwarven_hold
-					has_terrain = dwarven_hold_surface
-					has_terrain = city_terrain
-				}
-            }
-
-            add_province_modifier = {
-                name = urban_industry
-                duration = -1
-            }
-
-        }
-    }
+    beua_apply_development_modifiers = yes
 }
 
-# [industrial_idea_7|imperial_idea_6]
+# [beua_industrial_idea_7|beua_imperial_idea_6|beua_serpentspine_idea_1]
 on_mil_development = {
-    # Early Check
-    if = {
-        limit = {
-            FROM = {
-                OR = {
-                    has_idea = industrial_idea_7
-                    has_idea = imperial_idea_6
-                }
-            }
-        }
-    }
-
-    # [industrial_idea_7]
-    if = {
-        limit = {
-            FROM = {
-				has_idea = industrial_idea_7
-			}
-            NOT = {
-                has_province_modifier = supply_chain_complex_modifier
-            }
-        }
-
-        if = {
-            limit = {
-                development = 50
-            }
-
-            if = {
-                limit = { 
-                    has_province_modifier = supply_chain_simple_modifier 
-                }
-                remove_province_modifier = supply_chain_simple_modifier
-            }
-
-            add_province_modifier = {
-                name = supply_chain_complex_modifier
-                duration = -1
-            }
-
-            owner = {
-				mission_reward_artifice_points_1 = yes
-			}
-        }
-        else_if = {
-            limit = {
-                development = 25
-                NOT = { has_province_modifier = supply_chain_simple_modifier }
-                NOT = { has_province_modifier = supply_chain_complex_modifier }
-            }
-            add_province_modifier = {
-                name = supply_chain_simple_modifier
-                duration = -1
-            }
-        }
-    }
-
-    # [imperial_idea_6]
-    if = {
-        limit = {
-            FROM = {
-				has_idea = imperial_idea_6
-			}
-            NOT = {
-                has_province_modifier = urban_industry
-            }
-        }
-
-        if = {
-            limit = {
-                development = 25
-                OR = {
-					has_terrain = dwarven_hold
-					has_terrain = dwarven_hold_surface
-					has_terrain = city_terrain
-				}
-            }
-
-            add_province_modifier = {
-                name = urban_industry
-                duration = -1
-            }
-
-        }
-    }
+    beua_apply_development_modifiers = yes
 }
 
-# [industrial_idea_7|imperial_idea_6]
+# [beua_industrial_idea_7|beua_imperial_idea_6|beua_serpentspine_idea_1]
 on_province_owner_change = {
-	# imperial_idea_6
+	# beua_imperial_idea_6
 	if = {
 		limit = {
-			NOT = {
-				has_province_modifier = urban_industry
+			owner = { 
+				has_idea = beua_imperial_idea_6 
 			}
-			AND = {
-				owner = { has_idea = imperial_idea_6 }
+			NOT = {
+				has_province_modifier = beua_urban_industry
+			}
+			development = 25
+			OR = {
+				has_terrain = dwarven_hold
+				has_terrain = dwarven_hold_surface
+				has_terrain = city_terrain
 			}
 		}
 		hidden_effect = {
-			owner = { set_country_flag = has_urban_industry }
-			if = {
-				limit = {
-					OR = {
-						has_terrain = dwarven_hold
-						has_terrain = dwarven_hold_surface
-						has_terrain = city_terrain
-					}
-				}
-				add_province_modifier = { 
-					name = "urban_industry"
-					duration = -1
-				}
+			add_province_modifier = { 
+				name = beua_urban_industry
+				duration = -1
 			}
 		}
 	}
+	else_if = {
+		limit = {
+			has_province_modifier = beua_urban_industry
+			owner = { 
+				NOT = { has_idea = beua_imperial_idea_6 }
+			}
+		}
+		hidden_effect = {
+			remove_province_modifier = beua_urban_industry
+		}
+	}
 
-    # industrial_idea_7
+    # beua_industrial_idea_7
     if = {
         limit = {
-            FROM = {
-				has_idea = industrial_idea_7
+			owner = {
+				has_idea = beua_industrial_idea_7
 			}
-            NOT = {
-                OR = {
-                    has_province_modifier = supply_chain_complex_modifier
-                    has_province_modifier = supply_chain_simple_modifier
-                }
-            }
+			OR = {
+				NOT = { 
+					has_province_modifier = beua_supply_chain_simple_modifier
+				}
+				NOT = { 
+					has_province_modifier = beua_supply_chain_complex_modifier
+            	}
+			}
+			development = 25
         }
 
         if = {
@@ -750,7 +104,7 @@ on_province_owner_change = {
             }
 
             add_province_modifier = {
-                name = supply_chain_complex_modifier
+                name = beua_supply_chain_complex_modifier
                 duration = -1
             }
 
@@ -758,14 +112,25 @@ on_province_owner_change = {
 				mission_reward_artifice_points_1 = yes
 			}
         }
-        else_if = {
-            limit = {
-                development = 25
-            }
+        else = {
             add_province_modifier = {
-                name = supply_chain_simple_modifier
+                name = beua_supply_chain_simple_modifier
                 duration = -1
             }
         }
-    }
+    } 
+	else_if = {
+		limit = {
+			OR = {
+				has_province_modifier = beua_supply_chain_complex_modifier
+				has_province_modifier = beua_supply_chain_simple_modifier
+			}
+			owner = {
+				NOT = {
+					has_idea = beua_industrial_idea_7
+				}  
+			}
+		}
+		beua_clear_supply_chain_modifiers = yes
+	}
 }

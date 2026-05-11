@@ -1,6 +1,23 @@
 ########################################################
+####### Subject Appanage 		                 #######
+########################################################
+
+beua_appanage_overlord = {
+	all_estate_loyalty_equilibrium = 0.025
+}
+
+beua_appanage_subject = {
+	global_tax_income = -6
+	development_cost = 0.15
+	legitimacy = 0.5
+	land_forcelimit_modifier = 0.1
+	naval_forcelimit_modifier = 0.1
+}
+
+########################################################
 ####### Subject Dominion 		                 #######
 ########################################################
+
 beua_dominion_overlord = {
 	global_trade_power = 0.025
 	land_forcelimit = 2

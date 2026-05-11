@@ -1,11 +1,11 @@
-# [imperialist_ambition_idea_7|imperialism_idea_2]
-cb_imperial_subjugation = {
+# [beua_imperialist_ambition_idea_7|beua_imperialism_idea_2]
+cb_beua_imperial_subjugation = {
 	valid_for_subject = no
 
 	prerequisites = {
 		OR = {
-            has_idea = imperialist_ambition_idea_7
-            has_idea = imperialism_idea_2
+            has_idea = beua_imperialist_ambition_idea_7
+            has_idea = beua_imperialism_idea_2
 		}
 
 		is_revolution_target = no
@@ -19,12 +19,12 @@ cb_imperial_subjugation = {
 	war_goal = take_capital_vassalize
 }
 
-# [amphibious_idea_4]
-cb_coastal_invasion = {
+# [beua_amphibious_idea_4]
+cb_beua_coastal_invasion = {
 	valid_for_subject = no
 	
 	prerequisites = {
-		has_idea = amphibious_idea_4
+		has_idea = beua_amphibious_idea_4
 		primitives = no
 
 		FROM = {
@@ -35,5 +35,5 @@ cb_coastal_invasion = {
 		}
 	}
 
-	war_goal = coastal_invasion
+	war_goal = beua_coastal_invasion
 }

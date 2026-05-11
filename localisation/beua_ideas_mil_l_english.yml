@@ -1,0 +1,23 @@
+﻿l_english:0
+ # Strategic Ideas
+ beua_strategic_ideas:0 "Strategic Ideas"
+ beua_strategic_idea_1:0 "Marching Drills"
+ beua_strategic_idea_1_desc:0 "Ideal fighting conditions are often made by outspeeding and outpositioning an enemy army. By regularly training our armies for faster travel, we can better obtain the high ground."
+ beua_strategic_idea_2:0 "Silver Lining"
+ beua_strategic_idea_2_desc:0 "There are those who say nothing good can come out of a loss. By reminding them of what a defeat can bring us, both bad and good, we can bolster our war enthusiasm."
+ beua_strategic_idea_3:0 "Unified Tactical Doctrine"
+ beua_strategic_idea_3_desc:0 "A masterful strategist see the army as one entity. By standardizing training and communication between all the army, we ensure that every strike is perfectly timed for maximum effect."
+ beua_strategic_idea_4:0 "Persistence"
+ beua_strategic_idea_4_desc:0 "A defeat at the hands of the enemy is not the end of a war. One is only defeated when they refuse to continue fighting."
+ beua_strategic_idea_5:0 "Army Doctors"
+ beua_strategic_idea_5_desc:0 "Our army doctors will not only help us reducing our casualties in battle but assure that most of our men arrive healthy on the battlefield."
+ beua_strategic_idea_6:0 "Objective Warfare"
+ beua_strategic_idea_6_desc:0 "We must be aware that every war has an objective, and winning the objective wins us the war."
+ beua_strategic_idea_7:0 "Alternative Means"
+ beua_strategic_idea_7_desc:0 "In these changing times, the notion of war being a matter of honor and showing prowess had made way for a more practical mindset, that it is an extension of politics and business. Our neighbors would do well to remember this before they reject our propositions."
+
+ # Serpentspine Ideas
+ beua_serpentspine_ideas:0 "Serpentspine Ideas"
+ beua_serpentspine_idea_1:0 "Dwarven Citadels"
+ beua_serpentspine_idea_1_desc:0 "Built upon generations of dwarven engineering, the fortresses and defenses dotting the Serpentspine are renowned for their defensibility. \n\n§YProvinces with 15 Development and a Fort receive:§!\nFort Level: §G+1§W\nGarrison Size: §G+15.0%§W"
+ 

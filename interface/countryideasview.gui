@@ -245,7 +245,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "mil_header"
-				position = { x = 680 y = 36 }
+				position = { x = 690 y = 36 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 4 y = 4}	

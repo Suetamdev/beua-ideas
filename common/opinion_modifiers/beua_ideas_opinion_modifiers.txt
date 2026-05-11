@@ -1,3 +1,7 @@
-is_beua_dominion = {
+beua_is_beua_appanage = {
+	opinion = 100
+}
+
+beua_is_beua_dominion = {
 	opinion = 50
 }

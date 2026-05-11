@@ -1,11 +1,41 @@
 ﻿l_english:0
+ # Appanage Create
+ beua_appanage_create:0 "Land an Appanage"
+ beua_appanage_create_title:0 "Lannd an Appanage"
+ beua_appanage_create_desc:0 "Are you sure you want to land an Appanage in §Y[From.GetName]§!?\n\n§YReformed Appanages§! represent a modernized feudal contract where the crown provides for its cadet branches in exchange for unwavering military service. \n\nUnlike standard vassals, these 'Brother Kingdoms' are exceptionally loyal to their kin, gaining §G-30.0%§! Liberty Desire if ruled by the same dynasty. They are designed to be powerful march-like states that contribute significantly to our power.\n\n§YBenefits for the Overlord:§!\nEach Appanage increases §GAll Estate Loyalty Equilibrium§! by §G+2.5%§!.\n\n§YMilitary Service:§!\nAppanages maintain their own sovereign interests and §Rdo not join our wars by default§!. Calling them to arms requires the expenditure of §Y5 Favors§!.\n\n§YBenefits for the Subject:§!\n§G+0.5§! Yearly Legitimacy\n§G+10.0%§! Land Forcelimit Modifier\n§G+10.0%§! Naval Forcelimit Modifier\n\n§YAdministrative Burdens:§!\nDue to their high autonomy and sovereign privileges, they suffer:\n§R-6.0§! Global Tax Income\n§R+15.0%§! Development Cost"
+ beua_appanage_create_tooltip:0 "We will formally grant the title of §YAppanage§! to the current ruler, establishing them as a recognized §YCadet Branch§! of our house. As kin, they will be significantly more loyal, provided our dynasty remains on their throne."
+
+ # Appanage Release
+ beua_appanage_release:0 "Dissolve the Appanage"
+ beua_appanage_release_title:0 "Dissolve the Appanage"
+ beua_appanage_release_desc:0 "Do you wish to dissolve the Appanage of §Y[From.GetName]§!?\nThis will cost us §R25.00§! Prestige as we cast our own kin aside.\nWe will also lose any cores and claims we have on their provinces."
+ beua_appanage_release_tooltip:0 "Dissolve the special status of this Appanage. This will sever the formal dynastic ties and release §Y[From.GetName]§! from all feudal obligations to the Crown."
+
+ # Appanage Promote Heir
+ beua_appanage_promote_heir:0 "Appoint Crown Prince"
+ beua_appanage_promote_heir_title:0 "Appoint Crown Prince"
+ beua_appanage_promote_heir_desc:0 "Do you wish to appoint §Y[From.Heir.GetName]§!, heir to our appanage of §Y[From.GetName]§!, to the [From.GetCrownPrincePrincess] of the §Y[Root.GetAdjective]§! throne?"
+ beua_appanage_promote_heir_tooltip:0 "Appoint an heir from our appanage subject and turn them into an heir to our throne."
+
+ # Appanage Grant War Rights
+ beua_appanage_grant_war_rights:0 "Grant War Rights"
+ beua_appanage_grant_war_rights_title:0 "Grant War Rights"
+ beua_appanage_grant_war_rights_desc:0 "Do you wish to grant war rights to §Y[From.GetName]§!, allowing them to declare their own wars?"
+ beua_appanage_grant_war_rights_tooltip:0 "Grant our subject the right to wage wars against foreign powers on their own."
+
+ # Appanage Revoke War Rights
+ beua_appanage_revoke_war_rights:0 "Revoke War Rights"
+ beua_appanage_revoke_war_rights_title:0 "Revoke War Rights"
+ beua_appanage_revoke_war_rights_desc:0 "Do you wish to revoke war rights to §Y[From.GetName]§!, forbiding them to declare their own wars other than wars for independence?\nThis action will increase §Y[From.GetName]§!'s liberty desire by §R20.0%§! and worsen their opinion of §Y[Root.GetName]§! by §R-50§!."
+ beua_appanage_revoke_war_rights_tooltip:0 "Revoke our subject's right to wage wars against foreign powers on their own."
+
  # Create Dominion From Vassal
- create_dominion_from_vassal_title:0 "Establish Dominion"
- create_dominion_from_vassal_tooltip:0 "We can make §Y[From.GetName]§! a dominion, guarenteeing their autonomy but also increasing their loyalty and unlocking new interactions."
- create_dominion_from_vassal_desc:0 "This action will make §Y[From.GetName]§! a dominion, guarenteeing their autonomy but also increasing their loyalty and unlocking new interactions."
- create_dominion_from_vassal_too_much_liberty_desire:0 "§R- Liberty Desire of §Y[From.GetName]§! is above §Y25§!.§!"
+ beua_dominion_create_title:0 "Establish Dominion"
+ beua_dominion_create_tooltip:0 "We can make §Y[From.GetName]§! a dominion, guarenteeing their autonomy but also increasing their loyalty and unlocking new interactions."
+ beua_dominion_create_desc:0 "This action will make §Y[From.GetName]§! a dominion, guarenteeing their autonomy but also increasing their loyalty and unlocking new interactions."
+ beua_dominion_create_too_much_liberty_desire:0 "§R- Liberty Desire of §Y[From.GetName]§! is above §Y25§!.§!"
 
  # Rescind Dominion Status
- rescind_dominion_status_title:0 "Rescind Dominion Status"
- rescind_dominion_status_tooltip:0 "We can turn §Y[From.GetName]§! back into a regular vassal, §Rincreasing their liberty desire by 25 and reducing our stability by 1.§!"
- rescind_dominion_status_desc:0 "This action will turn §Y[From.GetName]§! back into a regular vassal, §Rincreasing their liberty desire by 25 and reducing our stability by 1.§!"
+ beua_dominion_rescind_title:0 "Rescind Dominion Status"
+ beua_dominion_rescind_tooltip:0 "We can turn §Y[From.GetName]§! back into a regular vassal, §Rincreasing their liberty desire by 25 and reducing our stability by 1.§!"
+ beua_dominion_rescind_desc:0 "This action will turn §Y[From.GetName]§! back into a regular vassal, §Rincreasing their liberty desire by 25 and reducing our stability by 1.§!"

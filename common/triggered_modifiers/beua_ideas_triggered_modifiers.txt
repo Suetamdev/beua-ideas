@@ -1,4 +1,4 @@
-ai_startup_bonus = {
+beua_ai_startup_bonus = {
 	potential = {
 		ai = yes
 	}
@@ -6,15 +6,13 @@ ai_startup_bonus = {
 		ai = yes
 	}
 	idea_cost = -0.25
-	global_autonomy = -0.1
 	max_absolutism = 30
 	build_cost = -0.1
-	interest = -1
 }
 
-archmage_necromancy = {
+beua_archmage_necromancy = {
 	potential = {
-		has_idea = magocratic_idea_7
+		has_idea = beua_magocratic_idea_7
 	}
 	trigger = {
 		has_ruler_flag = necromancy_3
@@ -22,9 +20,9 @@ archmage_necromancy = {
 	may_return_manpower_on_disband = yes 
 }
 
-archmage_evocation = {
+beua_archmage_evocation = {
 	potential = {
-		has_idea = magocratic_idea_7
+		has_idea = beua_magocratic_idea_7
 	}
 	trigger = {
 		has_ruler_flag = evocation_3
@@ -32,9 +30,9 @@ archmage_evocation = {
 	mercenary_discipline = 0.05
 }
 
-archmage_divination = {
+beua_archmage_divination = {
 	potential = {
-		has_idea = magocratic_idea_7
+		has_idea = beua_magocratic_idea_7
 	}
 	trigger = {
 		has_ruler_flag = divination_3
@@ -42,9 +40,9 @@ archmage_divination = {
 	max_absolutism = 10
 }
 
-archmage_abjuration = {
+beua_archmage_abjuration = {
 	potential = {
-		has_idea = magocratic_idea_7
+		has_idea = beua_magocratic_idea_7
 	}
 	trigger = {
 		has_ruler_flag = abjuration_3
@@ -52,9 +50,9 @@ archmage_abjuration = {
 	hostile_attrition = 2
 }
 
-archmage_conjuration = {
+beua_archmage_conjuration = {
 	potential = {
-		has_idea = magocratic_idea_7
+		has_idea = beua_magocratic_idea_7
 	}
 	trigger = {
 		has_ruler_flag = conjuration_3
@@ -62,9 +60,9 @@ archmage_conjuration = {
 	country_admin_power = 1
 }
 
-archmage_enchantment = {
+beua_archmage_enchantment = {
 	potential = {
-		has_idea = magocratic_idea_7
+		has_idea = beua_magocratic_idea_7
 	}
 	trigger = {
 		has_ruler_flag = enchantment_3
@@ -73,9 +71,9 @@ archmage_enchantment = {
 	vassal_income = 0.15
 }
 
-archmage_transmutation = {
+beua_archmage_transmutation = {
 	potential = {
-		has_idea = magocratic_idea_7
+		has_idea = beua_magocratic_idea_7
 	}
 	trigger = {
 		has_ruler_flag = transmutation_3
@@ -83,9 +81,9 @@ archmage_transmutation = {
 	global_regiment_cost = -0.1
 }
 
-archmage_illusion = {
+beua_archmage_illusion = {
 	potential = {
-		has_idea = magocratic_idea_7
+		has_idea = beua_magocratic_idea_7
 	}
 	trigger = {
 		has_ruler_flag = illusion_3

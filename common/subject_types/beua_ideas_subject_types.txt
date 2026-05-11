@@ -1,10 +1,11 @@
+beua_appanage = {}
 beua_dominion = {}
 beua_client_dominion = {} 
 
 beua_dominion = {
 	copy_from = default
 
-	sprite = GFX_icon_beua_dominion_subject
+	sprite = GFX_icon_beua_dominion_subject_type
 	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_beua_dominion_subject_type
 	diplomacy_subject_sprite = GFX_icon_diplomacy_am_beua_dominion_subject_type
 	
@@ -22,7 +23,7 @@ beua_dominion = {
 	max_government_rank = 2
 
 	cities_required_for_bonuses = 5
-	liberty_desire_development_ratio = 0.05
+	liberty_desire_development_ratio = 0.1
 	liberty_desire_same_dynasty = -5.0
 	pays_overlord = 1.0							
 	forcelimit_to_overlord = 0.1	
@@ -54,8 +55,8 @@ beua_dominion = {
 		modifier = beua_dominion_overlord
 	}
 
-	overlord_opinion_modifier = is_beua_dominion
-	subject_opinion_modifier = is_beua_dominion
+	overlord_opinion_modifier = beua_is_beua_dominion
+	subject_opinion_modifier = beua_is_beua_dominion
 }
 
 beua_client_dominion = {
@@ -71,4 +72,61 @@ beua_client_dominion = {
 	modifier_overlord = {
 		modifier = beua_client_dominion_overlord
 	}
+}
+
+beua_appanage = {
+	copy_from = appanage
+	count = vassal
+
+    sprite = GFX_icon_beua_appanage
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_beua_appanage
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_beua_appanage
+	
+	# Properties:
+	max_government_rank = 2
+	overlord_enforce_peace_attacking = yes
+	overlord_protects_external = yes
+	can_have_subjects_of_other_types = yes
+	overlord_can_fabricate_for = yes
+	can_gain_favors = yes
+	must_accept_cta_from_overlord = yes
+	favors_cost_to_join_offensive_wars = 5
+	joins_overlords_wars = no
+	
+	base_liberty_desire = 15.0
+	liberty_desire_development_ratio = 0.15
+	liberty_desire_same_dynasty = -30.0
+	liberty_desire_revolution = 0
+	military_focus = 1.2
+
+	relative_power_class = 1
+	should_quit_wars_on_activation = yes
+
+	can_fight = {
+		independent_nations = yes
+		same_overlord = beua_appanage
+		other_overlord = all
+	}
+	can_rival = {
+		independent_nations = yes
+		same_overlord = beua_appanage
+		other_overlord = all
+	}
+	can_ally = {
+		independent_nations = yes
+		same_overlord = beua_appanage
+		other_overlord = all
+	}
+	
+	modifier_overlord = clear
+	modifier_subject = clear
+	modifier_subject = {
+		modifier = beua_appanage_subject
+	}
+	modifier_overlord = {
+		modifier = beua_appanage_overlord
+	}
+
+	overlord_opinion_modifier = beua_is_beua_appanage
+	subject_opinion_modifier = beua_is_beua_appanage
 }

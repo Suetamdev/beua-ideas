@@ -1,18 +1,277 @@
-create_dominion_from_vassal = {
+
+########################################################
+####### Subject Appanage           				 #######
+########################################################
+
+# Promote Appanage Heir
+beua_appanage_promote_heir = {
+	category = influence
+
+	require_acceptance = no
+
+	is_visible = {
+		has_idea = court_embassies
+		has_government_attribute = heir
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = beua_appanage
+			has_government_attribute = heir
+		}
+	}
+	is_allowed = {
+		if = {
+			limit = {
+				FROM = { liberty_desire = 50 }
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_REBELLIOUS_TT
+				FROM = { liberty_desire = 50 }
+			}
+		}
+		if = {
+			limit = {
+				has_heir = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = ROOT_HAS_HEIR_TT
+				has_heir = no
+			}
+		}
+		if = {
+			limit = {
+				FROM = { has_heir = no }
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_HAS_NO_HEIR_TT
+				FROM = { has_heir = YES }
+			}
+		}
+	}
+	on_accept = {
+		FROM = { exile_heir_as = beua_appanage_heir }
+		set_heir = beua_appanage_heir
+	}
+	on_decline = {
+	}
+
+	ai_will_do = {
+		always = no
+	}
+}
+
+# Create an Appanage
+beua_appanage_create = {
+	category = influence
+
+	alert_index = 17 #doesn't matter. it is forced onto the subject
+	alert_tooltip = sell_indulgence_alert_tooltip #doesn't matter. it is forced onto the subject
+
+	require_acceptance = no
+
+	is_visible = {
+		has_idea = court_embassies
+		FROM = {
+			is_subject_of = ROOT
+			NOT = {
+				is_subject_of_type = beua_appanage
+			}
+			is_subject_other_than_tributary_trigger = yes
+		}
+	}
+	is_allowed = {
+		if = {
+			limit = { FROM = { liberty_desire = 25 } }
+			custom_trigger_tooltip = {
+				tooltip = beua_appanage_too_much_liberty_desire
+				FROM = { NOT = { liberty_desire = 25 } }
+			}
+		}
+		if = {
+			limit = { FROM = { NOT = { government = monarchy } } }
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_NOT_MONARCHY
+				FROM = { government = monarchy }
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					NOT = { is_subject_of_type = vassal }
+					NOT = { is_subject_of_type = client_vassal }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_NOT_VASSAL_OF_ROOT
+				FROM = {
+					OR = {
+						is_subject_of_type = vassal
+						is_subject_of_type = client_vassal
+					}
+				}
+			}
+		}
+		if = {
+			limit = { FROM = { NOT = { dynasty = ROOT } } }
+			custom_trigger_tooltip = {
+				tooltip = beua_appanage_not_same_dynasty
+				FROM = { dynasty = ROOT }
+			}
+		}
+	}
+	on_accept = {
+		FROM = { grant_independence = { keep_liberty_desire = yes } }
+		create_subject = {
+			subject_type = beua_appanage
+			subject = FROM
+			keep_liberty_desire = yes
+		}
+	}
+
+	ai_will_do = {
+		always = no
+	}
+}
+
+# Grant Indepence to Appanage
+beua_appanage_release = {
+	category = influence
+	require_acceptance = no
+	is_visible = {
+		has_idea = court_embassies
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = beua_appanage
+		}
+	}
+	is_allowed = {
+		always = yes
+	}
+	on_accept = {
+		FROM = {
+			if = {
+				limit = { NOT = { liberty_desire = 50 } }
+				add_opinion = {
+					who = root
+					modifier = vassal_abandoned
+				}
+			}
+			grant_independence = yes
+			every_owned_province = {
+				limit = {
+					or = {
+						is_claim = root
+						is_permanent_claim = root
+						is_core = root
+					}
+				}
+				if = {
+					limit = { is_permanent_claim = root }
+					remove_claim = root
+				}
+				if = {
+					limit = { is_claim = root }
+					remove_claim = root
+				}
+				if = {
+					limit = { is_core = root }
+					remove_core = root
+				}
+			}
+		}
+		add_prestige = -25
+	}
+	ai_will_do = {
+		always = no
+	}
+}
+
+# Allow Appanage to wage war
+beua_appanage_grant_war_rights = {
+	category = influence
+
+	require_acceptance = no
+
+	is_visible = {
+		has_idea = court_embassies
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = beua_appanage
+			has_country_modifier = revoked_war_rights
+		}
+	}
+	is_allowed = {
+		always = yes
+	}
+	on_accept = {
+		FROM = {
+			remove_country_modifier = revoked_war_rights
+		}
+	}
+	on_decline = {
+	}
+
+	ai_will_do = {
+		always = no
+	}
+}
+
+# Disallow Appanage to wage war
+beua_appanage_revoke_war_rights = {
+	category = influence
+
+	require_acceptance = no
+
+	is_visible = {
+		has_idea = court_embassies
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = beua_appanage
+			NOT = { has_country_modifier = revoked_war_rights }
+		}
+	}
+	is_allowed = {
+		always = yes
+	}
+	on_accept = {
+		FROM = {
+			add_country_modifier = {
+				name = revoked_war_rights
+				duration = -1
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = revoked_our_right_to_war
+			}
+		}
+	}
+	on_decline = {
+	}
+
+	ai_will_do = {
+		always = no
+	}
+}
+
+########################################################
+####### Subject Dominion           				 #######
+########################################################
+
+# Create a Dominion
+beua_dominion_create = {
 	category = influence
 
 	is_visible = {
 		OR = { 
 			AND = {
-				has_idea = imperialism_idea_3 
-				has_idea = decentralism_idea_7 
+				has_idea = beua_imperialism_idea_3 
+				has_idea = beua_decentralism_idea_7 
 			}
 			AND = {
-				has_idea = imperialism_idea_3 
+				has_idea = beua_imperialism_idea_3 
 				has_idea = postal_service 
 			}
 			AND = {
-				has_idea = decentralism_idea_7 
+				has_idea = beua_decentralism_idea_7 
 				has_idea = postal_service 
 			}
 		}
@@ -100,7 +359,8 @@ create_dominion_from_vassal = {
 	}
 }
 
-rescind_dominion_status = {
+# Rescind Dominion Status
+beua_dominion_rescind = {
 	category = influence
 	is_visible = {
 		FROM = { 

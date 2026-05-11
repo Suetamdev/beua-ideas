@@ -1,15 +1,31 @@
 ﻿l_english:0
+ # Subject Appanage
+ beua_appanage:0 "Appanage"
+ beua_appanage_title:0 "Appanage"
+ beua_appanage_title_plural:0 "Appanages"
+ beua_appanage_long_desc:0 "A §YAppanage§! represents a sovereign territory granted to a junior branch of the ruling dynasty. These §YCadet Branches§! are duty-bound to support the Overlord's wars, but they maintain the ancient right to wage private conflicts against other Appanages or neighbors. §WWhile these war rights are a traditional privilege, they can be formally removed by the Overlord through diplomatic decree,§! forcing the subject into a more compliant, standard vassalage."
+ beua_appanage_is_our:0 "§Y$NAME$§! is our Appanage."
+ is_beua_appanage:0 "Is Subject Type Appanage"
+
+ beua_appanage_too_much_liberty_desire:0 "§R- Liberty Desire of §Y[From.GetName]§! is above §Y25§!.§!"
+ beua_appanage_not_same_dynasty:0 "§R- The ruler of §Y[From.GetName]§! is not of our Dynasty. Only our own kin can be granted a Appanage.§!"
+
  # Subject Dominion
+ beua_dominion:0 "Dominion"
  beua_dominion_title:0 "Dominion"
  beua_dominion_title_plural:0 "Dominions"
  beua_dominion_long_desc:0 "A Dominion is a self-governing nation whose rulers are granted autonomy so long as they serve the whims of the capital. If the Dominion has at least §Y5 provinces§!, the Overlord receives specialized economic and military bonuses."
+ beua_dominion_long_desc:0 "A §YDominion§! is a self-governing nation granted vast administrative autonomy in exchange for total service to the capital's interests. While they handle their own internal affairs, they remain tied to the Overlord's economic and military machine. §WIf a Dominion reaches a size of at least §Y5 provinces§!, the Overlord can fully leverage their infrastructure, receiving direct bonuses to Trade Power and Force Limits.§!\n\n§YOverlord Benefits (5+ Provinces):§!\n§G+2.5%§! Global Trade Power\n§G+2§! Land Force Limit\n§G+1§! Naval Force Limit\n\n§YDominion Characteristics:§!\n§R-3.0§! Global Tax Income\n§G-10.0%§! Minimum Autonomy in Territories\n§R+25.0%§! Development Cost"
  beua_dominion_is_our:0 "$NAME|Y$ is our Dominion"
+ is_beua_dominion:0 "Is Subject Type Dominion"
 
  # Subject Client Dominion
+ beua_client_dominion:0 "Client Dominion"
  beua_client_dominion_title:0 "Client Dominion"
  beua_client_dominion_title_plural:0 "Client Dominions"
  beua_client_dominion_long_desc:0 "A Client Dominion is a self-governing nation whose rulers are granted autonomy so long as they serve the whims of the capital. If the Dominion has at least §Y5 provinces§!, the Overlord receives specialized economic and military bonuses."
  beua_client_dominion_is_our:0 "$NAME|Y$ is our Client Dominion"
+ is_beua_client_dominion:0 "Is Subject Type Client Dominion"
 
  # Subject Dominion and Subject Client Dominion Actions
  beua_dominion_draft_army:0 "Draft Armies"

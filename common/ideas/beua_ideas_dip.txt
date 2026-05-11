@@ -2,12 +2,12 @@
 ####### Assimilation                             #######
 ########################################################
 
-assimilation_ideas = {
+beua_assimilation_ideas = {
 	category = DIP
 	
 	trigger = {	
 		NOT = {
-			has_idea_group = nationalism_ideas
+			has_idea_group = beua_nationalism_ideas
 		}			
 	}
 
@@ -15,13 +15,13 @@ assimilation_ideas = {
 		diplomatic_reputation = 1.5
 	}
 
-	assimilation_idea_1 = {
+	beua_assimilation_idea_1 = {
 		culture_conversion_cost = -0.25
 	}
-	assimilation_idea_2 = {
+	beua_assimilation_idea_2 = {
 		diplomatic_annexation_cost = -0.15
 	}
-	assimilation_idea_3 = {
+	beua_assimilation_idea_3 = {
 		global_manpower_modifier = 0.1
 		manpower_in_accepted_culture_provinces = 0.1
 		effect = { 
@@ -37,21 +37,17 @@ assimilation_ideas = {
 			}
 		}
 	}
-
-	assimilation_idea_4 = {
+	beua_assimilation_idea_4 = {
 		years_of_nationalism = -5
 	}
-
-	assimilation_idea_5 = {
+	beua_assimilation_idea_5 = {
 		reinforce_speed = 0.2
 	}
-	
-	assimilation_idea_6 = {
+	beua_assimilation_idea_6 = {
 		reform_progress_growth = 0.2
 		stability_cost_modifier = 0.25
 	}
-	
-	assimilation_idea_7 = {
+	beua_assimilation_idea_7 = {
 		promote_culture_cost = -0.25
 		num_accepted_cultures = 3
 	}
@@ -79,12 +75,12 @@ assimilation_ideas = {
 ####### Nationalism                              #######
 ########################################################
 
-nationalism_ideas = {
+beua_nationalism_ideas = {
 	category = DIP
 	
 	trigger = {	
 		NOT = {
-			has_idea_group = assimilation_ideas
+			has_idea_group = beua_assimilation_ideas
 		}			
 	}
 
@@ -92,10 +88,10 @@ nationalism_ideas = {
 		same_culture_advisor_cost = -0.25
 	}
 		
-	nationalism_idea_1 = {
+	beua_nationalism_idea_1 = {
 		manpower_in_own_culture_provinces = 0.25
 	}
-	nationalism_idea_2 = {
+	beua_nationalism_idea_2 = {
 		administrative_efficiency = 0.001
 		effect = { 
 			set_country_flag = focusing_is_free_flag 
@@ -112,21 +108,21 @@ nationalism_ideas = {
 			}
 		}
 	}
-	nationalism_idea_3 = {
+	beua_nationalism_idea_3 = {
 		hostile_attrition = 1
 		tolerance_heathen = -2
 		tolerance_heretic = -2
 	}
-	nationalism_idea_4 = {
+	beua_nationalism_idea_4 = {
 		defensiveness = 0.15
 	}
-	nationalism_idea_5 = {
+	beua_nationalism_idea_5 = {
 		reinforce_cost_modifier = -0.2
 	}
-	nationalism_idea_6 = {
+	beua_nationalism_idea_6 = {
 		global_unrest = -2
 	}
-	nationalism_idea_7 = {
+	beua_nationalism_idea_7 = {
 		shock_damage_received = -0.1
 		effect = { increase_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
 		removed_effect = { decrease_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
@@ -148,32 +144,32 @@ nationalism_ideas = {
 ####### Society                                  #######
 ########################################################
 
-society_ideas = {
+beua_society_ideas = {
 	category = DIP
 
 	bonus = {
 		advisor_pool = 1
 	}
 		
-	society_idea_1 = {
+	beua_society_idea_1 = {
 		land_maintenance_modifier = -0.1
 	}
-	society_idea_2 = {
+	beua_society_idea_2 = {
 		improve_relation_modifier = 0.2
 	}
-	society_idea_3 = {
+	beua_society_idea_3 = {
 		state_maintenance_modifier = -0.2
 	}
-	society_idea_4 = {
+	beua_society_idea_4 = {
 		advisor_cost = -0.15
 	}
-	society_idea_5 = {
+	beua_society_idea_5 = {
 		global_spy_defence = 0.33
 	}
-	society_idea_6 = {
+	beua_society_idea_6 = {
 		global_unrest = -2
 	}
-	society_idea_7 = {
+	beua_society_idea_7 = {
 		all_power_cost = -0.025
 		reform_progress_growth = 0.1
 		effect = { increase_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
@@ -189,7 +185,7 @@ society_ideas = {
 ####### Imperialist Ambition   	 		         #######
 ########################################################
 
-imperialist_ambition_ideas = {
+beua_imperialist_ambition_ideas = {
 	category = DIP
 
 	bonus = {
@@ -205,29 +201,29 @@ imperialist_ambition_ideas = {
 			}
 		}
 		NOT = {
-			has_idea_group = imperialism_ideas
+			has_idea_group = beua_imperialism_ideas
 		}
 	}
 	
-	imperialist_ambition_idea_1 = {
+	beua_imperialist_ambition_idea_1 = {
 		prestige_decay = -0.01
 	}
-	imperialist_ambition_idea_2 = {
+	beua_imperialist_ambition_idea_2 = {
 		development_cost = -0.1
 	}
-	imperialist_ambition_idea_3 = {
+	beua_imperialist_ambition_idea_3 = {
 		institution_spread_from_true_faith = 0.3
 	}
-	imperialist_ambition_idea_4 = {
+	beua_imperialist_ambition_idea_4 = {
 		naval_forcelimit = 15
 	}
-	imperialist_ambition_idea_5 = {
+	beua_imperialist_ambition_idea_5 = {
 		land_forcelimit = 10
 	}
-	imperialist_ambition_idea_6 = {
+	beua_imperialist_ambition_idea_6 = {
 		reinforce_cost_modifier = -0.2
 	}
-	imperialist_ambition_idea_7 = {
+	beua_imperialist_ambition_idea_7 = {
 		diplomatic_upkeep = 1
 		# add_cb = cb_imperial_subjugation
 		effect = { increase_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
@@ -247,7 +243,7 @@ imperialist_ambition_ideas = {
 ####### Imperialism         	 		         #######
 ########################################################
 
-imperialism_ideas = {
+beua_imperialism_ideas = {
 	category = DIP
 
 	bonus = {
@@ -256,7 +252,7 @@ imperialism_ideas = {
 		
 	trigger = {
 		NOT = {
-			has_idea_group = imperialist_ambition_ideas
+			has_idea_group = beua_imperialist_ambition_ideas
 		}
 		OR = {
 			government_rank = 3 
@@ -264,27 +260,28 @@ imperialism_ideas = {
 		}
 	}
 	
-	imperialism_idea_1 = {
+	beua_imperialism_idea_1 = {
 		prestige_decay = -0.005
 		state_governing_cost = -0.1
 	}
-	imperialism_idea_2 = {
+	beua_imperialism_idea_2 = {
 		# add_cb = cb_imperial_subjugation
 		diplomatic_upkeep = 1
 	}
-	imperialism_idea_3 = {
+	beua_imperialism_idea_3 = {
 		accept_vassalization_reasons = 10
+		# Enables converting Vassals and Client States into Dominions
 	}
-	imperialism_idea_4 = {
+	beua_imperialism_idea_4 = {
 		naval_forcelimit_modifier = 0.2
 	}
-	imperialism_idea_5 = {
+	beua_imperialism_idea_5 = {
 		core_creation = -0.1
 	}
-	imperialism_idea_6 = {
+	beua_imperialism_idea_6 = {
 		land_forcelimit_modifier = 0.15
 	}
-	imperialism_idea_7 = {
+	beua_imperialism_idea_7 = {
 		global_tax_modifier = 0.15
 		effect = { increase_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
 		removed_effect = { decrease_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
@@ -303,7 +300,7 @@ imperialism_ideas = {
 ####### Amphibious         	 		             #######
 ########################################################
 
-amphibious_ideas = {
+beua_amphibious_ideas = {
 	category = DIP
 
 	bonus = {
@@ -315,31 +312,31 @@ amphibious_ideas = {
 		primitives = no
 	}
 
-	amphibious_idea_1 = {
+	beua_amphibious_idea_1 = {
 		global_sailors_modifier = 0.20
 		naval_tradition_from_battle = 0.15
 	}
-	amphibious_idea_2 = {
+	beua_amphibious_idea_2 = {
 		galley_power = 0.20
 		coast_raid_range = 1
 	}
-	amphibious_idea_3 = {
+	beua_amphibious_idea_3 = {
 		allowed_marine_fraction = 0.25
 		landing_penalty = -1
 	}
-	amphibious_idea_4 = {
+	beua_amphibious_idea_4 = {
 		#add_cb = cb_coastal_invasion
 		blockade_impact_on_siege_in_fleet_modifier = 1
 	}
-	amphibious_idea_5 = {
+	beua_amphibious_idea_5 = {
 		trade_efficiency = 0.1
 		ship_trade_power_modifier = 0.15
 	}
-	amphibious_idea_6 = {
+	beua_amphibious_idea_6 = {
 		capture_ship_chance = 0.15
 		privateer_efficiency = 0.15
 	}
-	amphibious_idea_7 = {
+	beua_amphibious_idea_7 = {
 		disengagement_chance = 0.15
 		effect = { increase_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
 		removed_effect = { decrease_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
@@ -378,39 +375,39 @@ amphibious_ideas = {
 ####### Colonial Empire Ideas          		 	 #######
 ########################################################
 
-colonial_empire_ideas = {
+beua_colonial_empire_ideas = {
 	category = DIP
 
 	bonus = {
-		global_tariffs = 0.25
-		reduced_liberty_desire_on_other_continent = -25
+		global_tariffs = 0.1
+		reduced_liberty_desire_on_other_continent = 15
 	}
 
 	trigger = {
 		dip_tech = 10
 	}
 
-	colonial_empire_idea_1 = {
+	beua_colonial_empire_idea_1 = {
 		colonists = 1
 	}
-	colonial_empire_idea_2 = {
+	beua_colonial_empire_idea_2 = {
 		diplomatic_upkeep = 2
 	}
-	colonial_empire_idea_3 = {
+	beua_colonial_empire_idea_3 = {
 		global_tariffs = 0.5
 	}
-	colonial_empire_idea_4 = {
+	beua_colonial_empire_idea_4 = {
 		global_manpower_modifier = 0.05
 		global_sailors_modifier = 0.05
 	}
-	colonial_empire_idea_5 = {
+	beua_colonial_empire_idea_5 = {
 		naval_forcelimit_modifier = 0.25
 	}
-	colonial_empire_idea_6 = {
+	beua_colonial_empire_idea_6 = {
 		build_cost = -0.2
 		trade_steering = 0.15
 	}
-	colonial_empire_idea_7 = {
+	beua_colonial_empire_idea_7 = {
 		liberty_desire_from_subject_development = -0.33
 	}
 	
@@ -564,7 +561,7 @@ colonial_empire_ideas = {
 ####### Magocratic Ideas             		 	 #######
 ########################################################
 
-magocratic_ideas = {
+beua_magocratic_ideas = {
 	category = DIP
 
 	bonus = {
@@ -579,30 +576,30 @@ magocratic_ideas = {
 		has_estate = estate_mages
 	}
 
-	magocratic_idea_1 = {
+	beua_magocratic_idea_1 = {
 		stability_cost_modifier = -0.2
 	}
-	magocratic_idea_2 = {
+	beua_magocratic_idea_2 = {
 		embracement_cost = -0.1
 		mages_estate_experience_mod = 0.25
 		mages_ruler_experience_mod = 0.25
 	}
-	magocratic_idea_3 = {
+	beua_magocratic_idea_3 = {
 		global_tax_modifier = 0.15
 	}
-	magocratic_idea_4 = {
+	beua_magocratic_idea_4 = {
 		diplomatic_reputation = 1
 		improve_relation_modifier = 0.1
 	}
-	magocratic_idea_5 = {
+	beua_magocratic_idea_5 = {
 		siege_ability = 0.15
 		max_general_siege = 1
 	}
-	magocratic_idea_6 = {
+	beua_magocratic_idea_6 = {
 		spy_offence = 0.33
 		global_spy_defence = 0.2
 	}
-	magocratic_idea_7 = {
+	beua_magocratic_idea_7 = {
 		monarch_lifespan = 0.25
 		mages_mana_regen = 0.25
 	}
@@ -614,10 +611,6 @@ magocratic_ideas = {
 			factor = 2
 			ruler_has_personality = mage_personality
 		}
-		modifier = {
-			factor = 3
-			has_country_modifier = witch_king_modifier
-		}
 	}
 }
 
@@ -625,7 +618,7 @@ magocratic_ideas = {
 ####### Mostrous Ideas                 		 	 #######
 ########################################################
 
-monstrous_ideas = {
+beua_monstrous_ideas = {
 	category = DIP
 
 	bonus = {
@@ -637,29 +630,29 @@ monstrous_ideas = {
 		has_country_modifier = monstrous_nation
 	}
 
-	monstrous_idea_1 = {
+	beua_monstrous_idea_1 = {
 		available_province_loot = 0.33
 		loot_amount = 0.33
 	}
-	monstrous_idea_2 = {
+	beua_monstrous_idea_2 = {
 		num_accepted_cultures = 1
 		global_autonomy = -0.05
 	}
-	monstrous_idea_3 = {
+	beua_monstrous_idea_3 = {
 		power_projection_from_insults = 1
 		reduced_liberty_desire = 15
 	}
-	monstrous_idea_4 = {
+	beua_monstrous_idea_4 = {
 		inflation_reduction = 0.1
 	}
-	monstrous_idea_5 = {
+	beua_monstrous_idea_5 = {
 		years_of_nationalism = -5
 	}
-	monstrous_idea_6 = {
+	beua_monstrous_idea_6 = {
 		privateer_efficiency = 0.25
 		may_perform_slave_raid = yes
 	}
-	monstrous_idea_7 = {
+	beua_monstrous_idea_7 = {
 		max_absolutism = 10
 	}
 
@@ -671,7 +664,9 @@ monstrous_ideas = {
 			OR = {
 				technology_group = tech_orcish
 				technology_group = tech_east_orcish
-				technology_group = tech_harpy
+				technology_group = tech_firanyan_harpy
+				technology_group = tech_siadunan_harpy
+				technology_group = tech_pezarangi_harpy
 				technology_group = tech_centaur
 				tag = U07 #Viakkoc
 			}
@@ -697,29 +692,29 @@ beua_imperial_ideas = {
 		}
 	}
 	
-	imperial_idea_1 = {
+	beua_imperial_idea_1 = {
 		diplomatic_reputation = 1
 		accept_vassalization_reasons = 5
 	}
-	imperial_idea_2 = {
+	beua_imperial_idea_2 = {
 		defensiveness = 0.1
 		great_project_upgrade_cost = -0.15
 	}
-	imperial_idea_3 = {
+	beua_imperial_idea_3 = {
 		trade_efficiency = 0.1
 	}
-	imperial_idea_4 = {
+	beua_imperial_idea_4 = {
 		global_unrest = -1
 		global_autonomy = -0.05
 	}
-	imperial_idea_5 = {
+	beua_imperial_idea_5 = {
 		diplomats = 1
 	}
-	imperial_idea_6 = {
+	beua_imperial_idea_6 = {
 		manpower_against_imperial_enemies = 0.1
 		#+0.5 goods produced on urban and dwarven holds at 25 development
 	}
-	imperial_idea_7 = {
+	beua_imperial_idea_7 = {
 		reasons_to_elect = 25
 	}
 

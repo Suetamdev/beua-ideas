@@ -9,7 +9,7 @@ beua_dominion_draft_army = {
 			is_subject_of_type = beua_client_dominion
 		}
 		overlord = {
-			has_idea = imperialism_idea_7
+			has_idea = beua_imperialism_idea_7
 			adm_power = 25
 		}
 	}
@@ -40,7 +40,7 @@ beua_dominion_draft_navy = {
 		}
 
 		overlord = {
-			has_idea = imperialism_idea_7
+			has_idea = beua_imperialism_idea_7
 			adm_power = 25
 		}
 	}
@@ -71,7 +71,7 @@ beua_dominion_demand_mages = {
 		}
 
 		overlord = {
-			has_idea = imperialism_idea_7
+			has_idea = beua_imperialism_idea_7
 			adm_power = 25
 			has_estate = estate_mages
 		}
@@ -104,7 +104,7 @@ beua_dominion_restrict_representation = {
 		}
 
 		overlord = {
-			has_idea = imperialism_idea_7
+			has_idea = beua_imperialism_idea_7
 			adm_power = 25
 		}
 	}
@@ -134,7 +134,7 @@ beua_dominion_increase_tariffs = {
 		}
 
 		overlord = {
-			has_idea = imperialism_idea_7
+			has_idea = beua_imperialism_idea_7
 			adm_power = 25
 		}
 	}
@@ -165,7 +165,7 @@ beua_dominion_attendance = {
 		}
 
 		overlord = {
-			has_idea = imperialism_idea_7
+			has_idea = beua_imperialism_idea_7
 			adm_power = 25
 		}
 	}
@@ -202,7 +202,7 @@ beua_dominion_bureaucracy = {
 		}
 
 		overlord = {
-			has_idea = decentralism_idea_7
+			has_idea = beua_decentralism_idea_7
 			adm_power = 25
 		}
 	}
@@ -233,7 +233,7 @@ beua_dominion_prosperity = {
 		}
 
 		overlord = {
-			has_idea = decentralism_idea_7
+			has_idea = beua_decentralism_idea_7
 			adm_power = 25
 		}
 	}
@@ -264,7 +264,7 @@ beua_dominion_security = {
 		}
 
 		overlord = {
-			has_idea = decentralism_idea_7
+			has_idea = beua_decentralism_idea_7
 			adm_power = 25
 		}
 	}
@@ -296,7 +296,7 @@ beua_dominion_integration = {
 		}
 
 		overlord = {
-			has_idea = decentralism_idea_7
+			has_idea = beua_decentralism_idea_7
 			adm_power = 25
 		}
 	}
@@ -326,7 +326,7 @@ beua_dominion_exempt_tax = {
 		}
 		
 		overlord = {
-			has_idea = decentralism_idea_7
+			has_idea = beua_decentralism_idea_7
 			adm_power = 25
 		}
 	}
