@@ -2,7 +2,7 @@
 on_centralized_state = {
 	if = {
         limit = {
-            FROM = {
+            owner = {
 				has_idea = beua_state_administration_idea_5
 			}
         }
@@ -46,6 +46,59 @@ on_mil_development = {
 
 # [beua_industrial_idea_7|beua_imperial_idea_6|beua_serpentspine_idea_1]
 on_province_owner_change = {
+    # beua_industrial_idea_7
+    if = {
+        limit = {
+			owner = {
+				has_idea = beua_industrial_idea_7
+			}
+			OR = {
+				NOT = { 
+					has_province_modifier = beua_supply_chain_simple_modifier
+				}
+				NOT = { 
+					has_province_modifier = beua_supply_chain_complex_modifier
+            	}
+			}
+			development = 25
+        }
+
+        if = {
+            limit = {
+                development = 50
+            }
+
+            add_province_modifier = {
+                name = beua_supply_chain_complex_modifier
+                duration = -1
+            }
+
+            #owner = {
+			#	mission_reward_artifice_points_1 = yes
+			#}
+        }
+        else = {
+            add_province_modifier = {
+                name = beua_supply_chain_simple_modifier
+                duration = -1
+            }
+        }
+    } 
+	else_if = {
+		limit = {
+			OR = {
+				has_province_modifier = beua_supply_chain_complex_modifier
+				has_province_modifier = beua_supply_chain_simple_modifier
+			}
+			owner = {
+				NOT = {
+					has_idea = beua_industrial_idea_7
+				}  
+			}
+		}
+		beua_clear_supply_chain_modifiers = yes
+	}
+
 	# beua_imperial_idea_6
 	if = {
 		limit = {
@@ -81,56 +134,95 @@ on_province_owner_change = {
 		}
 	}
 
-    # beua_industrial_idea_7
-    if = {
-        limit = {
-			owner = {
-				has_idea = beua_industrial_idea_7
-			}
-			OR = {
-				NOT = { 
-					has_province_modifier = beua_supply_chain_simple_modifier
-				}
-				NOT = { 
-					has_province_modifier = beua_supply_chain_complex_modifier
-            	}
-			}
-			development = 25
-        }
-
-        if = {
-            limit = {
-                development = 50
-            }
-
-            add_province_modifier = {
-                name = beua_supply_chain_complex_modifier
-                duration = -1
-            }
-
-            owner = {
-				mission_reward_artifice_points_1 = yes
-			}
-        }
-        else = {
-            add_province_modifier = {
-                name = beua_supply_chain_simple_modifier
-                duration = -1
-            }
-        }
-    } 
-	else_if = {
+	# beua_serpentspine_idea_1
+	if = {
 		limit = {
-			OR = {
-				has_province_modifier = beua_supply_chain_complex_modifier
-				has_province_modifier = beua_supply_chain_simple_modifier
+			owner = { 
+				has_idea = beua_serpentspine_idea_1 
 			}
-			owner = {
-				NOT = {
-					has_idea = beua_industrial_idea_7
-				}  
+			NOT = {
+				has_province_modifier = beua_subterranean_bastion
+			}
+			development = 15
+		}
+		hidden_effect = {
+			add_province_modifier = { 
+				name = beua_subterranean_bastion
+				duration = -1
 			}
 		}
-		beua_clear_supply_chain_modifiers = yes
 	}
+	else_if = {
+		limit = {
+			has_province_modifier = beua_subterranean_bastion
+			owner = { 
+				NOT = { has_idea = beua_serpentspine_idea_1 }
+			}
+		}
+		hidden_effect = {
+			remove_province_modifier = beua_subterranean_bastion
+		}
+	}
+}
+
+# [beua_legionary_idea_4]
+on_province_religion_changed = {
+	if = {
+		limit = {
+			has_owner_religion = yes
+			owner = {
+				has_idea = beua_legionary_idea_4
+			}
+		}
+		export_to_variable = { which = beua_province_development value = trigger_value:development who = ROOT }
+		while = { limit = { check_variable = { which = beua_province_development value = 1 } }
+			owner = { add_manpower = 0.3 }
+			change_variable = { which = beua_province_development value = -1 }
+		}
+	}
+}
+
+# [beua_general_staff_7]
+on_general_recruited = {
+	if = {
+		limit = {
+			has_idea = beua_general_staff_7
+		}
+		add_army_tradition = 2
+	}
+}
+
+# [beua_general_staff_7]
+on_admiral_recruited = {
+	if = {
+		limit = {
+			has_idea = beua_general_staff_7
+		}
+		add_navy_tradition = 3
+	}
+}
+
+# [beua_general_staff_7]
+on_conquistador_recruited = {
+	if = {
+		limit = {
+			has_idea = beua_general_staff_7
+		}
+		add_army_tradition = 2
+	}
+}
+
+# [beua_general_staff_7]
+on_explorer_recruited = {
+	if = {
+		limit = {
+			has_idea = beua_general_staff_7
+		}
+		add_navy_tradition = 3
+	}
+}
+
+# [beua_militarism_idea_7]
+on_yearly_pulse = {
+	beua_arcane_support_effect = yes
 }

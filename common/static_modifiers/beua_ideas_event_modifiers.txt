@@ -41,3 +41,47 @@ beua_client_dominion_subject = {
 	min_autonomy_in_territories = -0.1
 	development_cost = 0.25
 }
+
+########################################################
+####### Arcane Support 		             	     #######
+########################################################
+
+beua_arcane_support_1 = { 
+	shock_damage = 0.015
+}
+
+beua_arcane_support_2 = {
+	shock_damage = 0.03 
+}
+
+beua_arcane_support_3 = { 
+	shock_damage = 0.045
+}
+
+beua_arcane_support_4 = { 
+	shock_damage = 0.06
+}
+
+beua_arcane_support_5 = {
+	shock_damage = 0.075 
+}
+
+beua_arcane_support_6 = { 
+	shock_damage = 0.09
+}
+
+beua_arcane_support_7 = { 
+	shock_damage = 0.105
+}
+
+beua_arcane_support_8 = { 
+	shock_damage = 0.12
+}
+
+beua_arcane_support_9 = {
+	shock_damage = 0.135
+}
+
+beua_arcane_support_10 = {
+	shock_damage = 0.15 
+}

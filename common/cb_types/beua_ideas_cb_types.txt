@@ -37,3 +37,22 @@ cb_beua_coastal_invasion = {
 
 	war_goal = beua_coastal_invasion
 }
+
+# [beua_serpentspine_idea_7]
+cb_beua_serpentspine_reclamation = {
+	valid_for_subject = no
+
+	prerequisites = {
+		has_idea = beua_serpentspine_idea_7
+		FROM = {
+			any_owned_province = {
+				OR = {
+					superregion = west_serpentspine_superregion
+					superregion = east_serpentspine_superregion
+				}
+			}
+		}
+	}
+
+	war_goal = beua_serpentspine_reclamation
+}

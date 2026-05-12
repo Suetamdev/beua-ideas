@@ -65,16 +65,16 @@
  beua_imperialist_ambition_idea_6:0 "Royal Armoury"
  beua_imperialist_ambition_idea_6_desc:0 "The royal armoury is so big that we can reinforce our troops with weapons from it whenever necessary."
  beua_imperialist_ambition_idea_7:0 "Acquiring More Vassals"
- beua_imperialist_ambition_idea_7_desc:0 "By our rank as king we are fit to rule over duchies that are below us by god's will. \n§GCasus Belli§W to vassalize your neighbours below 150 development"
+ beua_imperialist_ambition_idea_7_desc:0 "By our rank as king we are fit to rule over duchies that are below us by god's will. \n§GCasus Belli§W to vassalize your neighbours below 150 development\n"
 
  # Imperialism Ideas
  beua_imperialism_ideas:0 "Imperialism Ideas"
  beua_imperialism_idea_1:0 "Glorious Past"
  beua_imperialism_idea_1_desc:0 "Our glorious past helps us always keep the shine of glory."
  beua_imperialism_idea_2:0 "Under Our Wings"
- beua_imperialism_idea_2_desc:0 "The poor fools surrounding us would be better off in our empire - they just don't know it yet.\n\n§GCasus Belli§W to vassalize neighbours with less than 150 development"
+ beua_imperialism_idea_2_desc:0 "The poor fools surrounding us would be better off in our empire - they just don't know it yet.\n\n§GCasus Belli§W to vassalize neighbours with less than 150 development\n"
  beua_imperialism_idea_3:0 "Sphere of Influence"
- beua_imperialism_idea_3_desc:0 "True power is not merely measured by the land we hold, but by the shadow we cast. \n\n§TEnables converting §YVassals§! and §YClient States§! into §YDominions§!§!. §RYou need to have idea:§! §YCo-Prosperity(Decentralism Ideas)§! or §YPostal Service(Influence Ideas)§!"
+ beua_imperialism_idea_3_desc:0 "True power is not merely measured by the land we hold, but by the shadow we cast. \n\n§TEnables converting §YVassals§! and §YClient States§! into §YDominions§!§!. §RYou need to have idea:§! §YCo-Prosperity(Decentralism Ideas)§! or §YPostal Service(Influence Ideas)§!\n\n"
  beua_imperialism_idea_4:0 "Imperial Fleet"
  beua_imperialism_idea_4_desc:0 "The fleet of an empire needs to be big."
  beua_imperialism_idea_5:0 "The Law of the Jungle"
@@ -93,7 +93,7 @@
  beua_amphibious_idea_3:0 "Marine Propaganda"
  beua_amphibious_idea_3_desc:0 "Through rigorous training and state-sponsored tales of heroism, we have convinced our soldiers that the sea is their true home and their victory is inevitable."
  beua_amphibious_idea_4:0 "Invasion Capability"
- beua_amphibious_idea_4_desc:0 ""Your seas are unprotected, friend. All too easy to raid." \n\n§GEnables the Coastal Invasion Casus Belli§W"
+ beua_amphibious_idea_4_desc:0 ""Your seas are unprotected, friend. All too easy to raid." \n\n§GEnables the Coastal Invasion Casus Belli§W\n"
  beua_amphibious_idea_5:0 "Extortion of Merchants"
  beua_amphibious_idea_5_desc:0 "Many traders utilise landmarks along the coast to guide their trade routes. Our presence along these coasts has increased our involvements in protecting these merchants, who now owe us their safety."
  beua_amphibious_idea_6:0 "Boarding Parties"
@@ -133,7 +133,7 @@
  beua_magocratic_idea_6:0 "Cloak and Wand"
  beua_magocratic_idea_6_desc:0 "Magic is not simply defined by throwing balls of fire or erecting magical fortresses. Magic also has a softer touch, twisting a man's perception or bringing him under a mage's seduction. By integrating magic into our spy networks, they will work more efficiently than others."
  beua_magocratic_idea_7:0 "Pushing the Limits"
- beua_magocratic_idea_7_desc:0 "The relentless pursuit of knowledge bears fruit for those willing to put in effort.\n\n§YLegendary§! skill in magic confers unique bonuses"
+ beua_magocratic_idea_7_desc:0 "The relentless pursuit of knowledge bears fruit for those willing to put in effort.\n\n§YLegendary§! skill in magic confers unique bonuses\n"
 
  # Monstrous Ideas
  beua_monstrous_ideas:0 "Monstrous Ideas"

@@ -118,4 +118,95 @@ spriteTypes = {
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
+	spriteType = {
+		name = "GFX_idea_beua_strategic_ideas"
+		texturefile = "gfx//interface//ideas//idea_beua_strategic_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_beua_serpentspine_ideas"
+		texturefile = "gfx//interface//ideas//idea_beua_serpentspine_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_beua_legionary_ideas"
+		texturefile = "gfx//interface//ideas//idea_beua_legionary_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_beua_general_staff_ideas"
+		texturefile = "gfx//interface//ideas//idea_beua_general_staff_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_beua_standing_army"
+		texturefile = "gfx//interface//ideas//idea_beua_standing_army.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_beua_conscription_ideas"
+		texturefile = "gfx//interface//ideas//idea_beua_conscription_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_beua_weapon_quality_ideas"
+		texturefile = "gfx//interface//ideas//idea_beua_weapon_quality_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_beua_fortress_ideas"
+		texturefile = "gfx//interface//ideas//idea_beua_fortress_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_beua_militarism_ideas"
+		texturefile = "gfx//interface//ideas//idea_beua_militarism_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_beua_artificery_ideas"
+		texturefile = "gfx//interface//ideas//idea_beua_artificery_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_beua_war_production_ideas"
+		texturefile = "gfx//interface//ideas//idea_beua_war_production_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_beua_shock_ideas"
+		texturefile = "gfx//interface//ideas//idea_beua_shock_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_beua_fire_ideas"
+		texturefile = "gfx//interface//ideas//idea_beua_fire_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
 }

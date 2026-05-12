@@ -1,0 +1,23 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_cb_beua_coastal_invasion"
+		texturefile = "gfx/interface/casus_bellis/cb_beua_coastal_invasion.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_cb_beua_imperial_subjugation"
+		texturefile = "gfx/interface/casus_bellis/cb_beua_imperial_subjugation.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_cb_beua_serpentspine_reclamation"
+		texturefile = "gfx/interface/casus_bellis/cb_beua_serpentspine_reclamation.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}

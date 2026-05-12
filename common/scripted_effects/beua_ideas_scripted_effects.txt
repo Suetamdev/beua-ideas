@@ -30,7 +30,7 @@ beua_clear_optimized_logistics_dwarven = {
 beua_apply_infrastructure_modifiers = {
     if = {
         limit = {
-            FROM = {
+            owner = {
 				has_idea = beua_centralism_idea_4
 			}
         }
@@ -239,15 +239,16 @@ beua_clear_supply_chain_modifiers = {
 	remove_province_modifier = beua_supply_chain_simple_modifier
 }
 
-# [beua_industrial_idea_7|beua_imperial_idea_6]
+# [beua_industrial_idea_7|beua_imperial_idea_6|beua_serpentspine_idea_1]
 beua_apply_development_modifiers = {
     # Early Check
     if = {
         limit = {
-            FROM = {
+            owner = {
                 OR = {
                     has_idea = beua_industrial_idea_7
                     has_idea = beua_imperial_idea_6
+                    has_idea = beua_serpentspine_idea_1
                 }
             }
         }
@@ -255,7 +256,7 @@ beua_apply_development_modifiers = {
         # [beua_industrial_idea_7]
         if = {
             limit = {
-                FROM = {
+                owner = {
                     has_idea = beua_industrial_idea_7
                 }
                 NOT = {
@@ -300,7 +301,7 @@ beua_apply_development_modifiers = {
         # [beua_imperial_idea_6]
         if = {
             limit = {
-                FROM = {
+                owner = {
                     has_idea = beua_imperial_idea_6
                 }
                 NOT = {
@@ -322,8 +323,170 @@ beua_apply_development_modifiers = {
                     name = beua_urban_industry
                     duration = -1
                 }
+            }
+        }
 
+        # [beua_serpentspine_idea_1]
+        if = {
+            limit = {
+                owner = {
+                    has_idea = beua_serpentspine_idea_1
+                }
+                NOT = {
+                    has_province_modifier = beua_subterranean_bastion
+                }
+            }
+
+            if = {
+                limit = {
+                    development = 15
+                    continent = serpentspine
+                }
+
+                add_province_modifier = {
+                    name = beua_subterranean_bastion
+                    duration = -1
+                }
             }
         }
     }
+}
+
+# [beua_militarism_idea_7]
+beua_clear_arcane_support = {
+	remove_country_modifier = beua_arcane_support_1
+	remove_country_modifier = beua_arcane_support_2
+	remove_country_modifier = beua_arcane_support_3
+	remove_country_modifier = beua_arcane_support_4
+	remove_country_modifier = beua_arcane_support_5
+	remove_country_modifier = beua_arcane_support_6
+	remove_country_modifier = beua_arcane_support_7
+	remove_country_modifier = beua_arcane_support_8
+	remove_country_modifier = beua_arcane_support_9
+	remove_country_modifier = beua_arcane_support_10
+}
+
+# [beua_militarism_idea_7]
+beua_arcane_support_effect = {
+	hidden_effect = {
+		if = {
+			limit = { has_idea = beua_militarism_idea_7 }
+
+            beua_clear_arcane_support = yes
+
+			if = { 
+                limit = { 
+            		num_of_owned_provinces_with = {
+                        value = 10
+                        has_building = mage_tower
+                    }
+                }
+                add_country_modifier = { 
+                    name = beua_arcane_support_10 duration = -1 
+                }
+            } 
+            else_if = {
+                limit = { 
+            		num_of_owned_provinces_with = {
+                        value = 9
+                        has_building = mage_tower
+                    }
+                }
+                add_country_modifier = { 
+                    name = beua_arcane_support_9 duration = -1 
+                } 
+            }
+            else_if = {
+                limit = { 
+            		num_of_owned_provinces_with = {
+                        value = 8
+                        has_building = mage_tower
+                    }
+                }
+                add_country_modifier = { 
+                    name = beua_arcane_support_8 duration = -1 
+                } 
+            }
+            else_if = {
+                limit = { 
+            		num_of_owned_provinces_with = {
+                        value = 7
+                        has_building = mage_tower
+                    }
+                }
+                add_country_modifier = { 
+                    name = beua_arcane_support_7 duration = -1 
+                } 
+            }
+            else_if = {
+                limit = { 
+            		num_of_owned_provinces_with = {
+                        value = 6
+                        has_building = mage_tower
+                    }
+                }
+                add_country_modifier = { 
+                    name = beua_arcane_support_6 duration = -1 
+                } 
+            }
+            else_if = {
+                limit = { 
+            		num_of_owned_provinces_with = {
+                        value = 5
+                        has_building = mage_tower
+                    }
+                }
+                add_country_modifier = { 
+                    name = beua_arcane_support_5 duration = -1 
+                } 
+            }
+            else_if = {
+                limit = { 
+            		num_of_owned_provinces_with = {
+                        value = 4
+                        has_building = mage_tower
+                    }
+                }
+                add_country_modifier = { 
+                    name = beua_arcane_support_4 duration = -1 
+                } 
+            }
+            else_if = {
+                limit = { 
+            		num_of_owned_provinces_with = {
+                        value = 3
+                        has_building = mage_tower
+                    }
+                }
+                add_country_modifier = { 
+                    name = beua_arcane_support_3 duration = -1 
+                } 
+            }
+            else_if = {
+                limit = { 
+            		num_of_owned_provinces_with = {
+                        value = 2
+                        has_building = mage_tower
+                    }
+                }
+                add_country_modifier = { 
+                    name = beua_arcane_support_2 duration = -1 
+                } 
+            }
+            else_if = {
+                limit = { 
+            		num_of_owned_provinces_with = {
+                        value = 1
+                        has_building = mage_tower
+                    }
+                }
+                add_country_modifier = { 
+                    name = beua_arcane_support_1 duration = -1 
+                } 
+            }
+		}
+        else = {
+            beua_clear_arcane_support = yes
+        }
+	}
 }

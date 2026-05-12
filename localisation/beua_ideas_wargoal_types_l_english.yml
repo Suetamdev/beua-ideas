@@ -1,3 +1,10 @@
 ﻿l_english:0
  # Coastal Invasion
- BEUA_COASTAL_INVASION_WAR_NAME:0 "$ORDER$$FIRST$ Coastal Invasion against $SECOND$"
+ beua_coastal_invasion_war_name:0 "$ORDER$$FIRST$ Coastal Invasion against $SECOND$"
+ beua_coastal_invasion_desc:0 "The war goal is to invade coastal provinces."
+
+ # Serpentspine Reclamation
+ beua_serpentspine_reclamation_war_name:0 "$ORDER$$FIRST$ Serpentspine Reclamation Invasion against $SECOND$"
+ beua_serpentspine_reclamation_desc:0 "The war goal is to reclaim all lands inside Serpentspine."
+ beua_all_serpentspine_countries:0 "All Countries with Provinces in Serpentspine Region"
+ beua_all_serpentspine_provs:0 "All Serpentspine Provinces"

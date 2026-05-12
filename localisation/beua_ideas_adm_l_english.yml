@@ -61,7 +61,7 @@
  beua_state_administration_idea_4:0 "Administrative Law"
  beua_state_administration_idea_4_desc:0 "Administrative law keeps the administration transparent and incorrupt."
  beua_state_administration_idea_5:0 "Administrative Centers"
- beua_state_administration_idea_5_desc:0 "By organizing local administration into regional centers, we can better manage our realm. \n\n§GGain one random point of development§! in every province in a state upon centralization."
+ beua_state_administration_idea_5_desc:0 "By organizing local administration into regional centers, we can better manage our realm. \n\n§GGain one random point of development§! in every province in a state upon centralization.\n"
  beua_state_administration_idea_6:0 "Steering Trade"
  beua_state_administration_idea_6_desc:0 "We need to steer trade to the direction where it is most profitable for us."
  beua_state_administration_idea_7:0 "Enforcement of Progress"
@@ -76,7 +76,7 @@
  beua_centralism_idea_3:0 "Home Field Advantage"
  beua_centralism_idea_3_desc:0 "Our focus on our core lands has taught us how to best fight in them."
  beua_centralism_idea_4:0 "Central Planning"
- beua_centralism_idea_4_desc:0 "By focusing our internal developments in key locations, we can accelerate overall growth.\n\nExpanding Infrastructure grants Goods Produced: §G+5%§! and Manpower: §G+10%§! §RThis bonus is halved for Dwarven holds!§!"
+ beua_centralism_idea_4_desc:0 "By focusing our internal developments in key locations, we can accelerate overall growth.\n\nExpanding Infrastructure grants Goods Produced: §G+5%§! and Manpower: §G+10%§! §RThis bonus is halved for Dwarven holds!§!\n"
  beua_centralism_idea_5:0 "Increased Integration"
  beua_centralism_idea_5_desc:0 "To build a successful nation, we must curtail the autonomy of our subjects."
  beua_centralism_idea_6:0 "Metropolis Development"
@@ -99,7 +99,7 @@
  beua_decentralism_idea_6: "Local Trade"
  beua_decentralism_idea_6_desc: "Sometimes local trade in a province can be very profitable in itself. We will remember that."
  beua_decentralism_idea_7: "Co-Prosperity"
- beua_decentralism_idea_7_desc: "By establishing the properity of our subjects, we may in turn enrich ourselves.\n\n§TEnables converting §YVassals§! and §YClient States§! into §YDominions§!§!. §RYou need to have idea:§! §YSphere of Influence(Imperialism Ideas)§! or §YPostal Service(Influence Ideas)§!"
+ beua_decentralism_idea_7_desc: "By establishing the properity of our subjects, we may in turn enrich ourselves.\n\n§TEnables converting §YVassals§! and §YClient States§! into §YDominions§!§!. §RYou need to have idea:§! §YSphere of Influence(Imperialism Ideas)§! or §YPostal Service(Influence Ideas)§!\n"
 
  # Industrial Ideas
  beua_industrial_ideas:0 "Industrial Ideas"
@@ -116,4 +116,4 @@
  beua_industrial_idea_6:0 "Mechanized Logistics"
  beua_industrial_idea_6_desc:0 "The rumbling of engines is ever present wherever our armies march. With horseless carriages now carrying men and supplies at revolutionary speeds, our armies can utilize the new philosophy of "thunder warfare" to overwhelm our foes."
  beua_industrial_idea_7:0 "Integrated Supply Chains"
- beua_industrial_idea_7_desc:0 "By streamlining the flow of raw materials to manufacturing hubs, we maximize the output of every workshop.\n\nDeveloping a province with §GDiplomatic Power§! provides increasing bonuses:\nAt §Y25 Development§!: Grants §GSimple Production§! (+2.5% Production Efficiency).\nAt §Y50 Development§!: Upgrades to §GComplex Production§! (+5% Production Efficiency and §G+1§! Artificer Capacity)."
+ beua_industrial_idea_7_desc:0 "By streamlining the flow of raw materials to manufacturing hubs, we maximize the output of every workshop.\n\nDeveloping a province with §GDiplomatic Power§! provides increasing bonuses:\nAt §Y25 Development§!: Grants §GSimple Production§! (+2.5% Production Efficiency).\nAt §Y50 Development§!: Upgrades to §GComplex Production§! (+5% Production Efficiency and §G+1§! Artificer Capacity).\n"

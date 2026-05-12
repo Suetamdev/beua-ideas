@@ -24,7 +24,7 @@ beua_assimilation_ideas = {
 	beua_assimilation_idea_3 = {
 		global_manpower_modifier = 0.1
 		manpower_in_accepted_culture_provinces = 0.1
-		effect = { 
+		effect = {
 			set_country_flag = focusing_is_free_flag 
 			hidden_effect = {
 				change_variable = { which = remaining_free_focus value = 3 }
@@ -124,8 +124,6 @@ beua_nationalism_ideas = {
 	}
 	beua_nationalism_idea_7 = {
 		shock_damage_received = -0.1
-		effect = { increase_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
-		removed_effect = { decrease_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
 	}
 	
 	ai_will_do = {
@@ -172,8 +170,6 @@ beua_society_ideas = {
 	beua_society_idea_7 = {
 		all_power_cost = -0.025
 		reform_progress_growth = 0.1
-		effect = { increase_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
-		removed_effect = { decrease_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
 	}
 	
 	ai_will_do = {
@@ -226,8 +222,6 @@ beua_imperialist_ambition_ideas = {
 	beua_imperialist_ambition_idea_7 = {
 		diplomatic_upkeep = 1
 		# add_cb = cb_imperial_subjugation
-		effect = { increase_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
-		removed_effect = { decrease_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
 	}
 	
 	ai_will_do = {
@@ -283,8 +277,6 @@ beua_imperialism_ideas = {
 	}
 	beua_imperialism_idea_7 = {
 		global_tax_modifier = 0.15
-		effect = { increase_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
-		removed_effect = { decrease_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
 	}
 	
 	ai_will_do = {
@@ -338,8 +330,6 @@ beua_amphibious_ideas = {
 	}
 	beua_amphibious_idea_7 = {
 		disengagement_chance = 0.15
-		effect = { increase_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
-		removed_effect = { decrease_legitimacy_equivalent_absolutism_from_idea_groups_mod = yes }
 	}
 	
 	ai_will_do = {

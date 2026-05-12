@@ -94,6 +94,8 @@ beua_supply_chain_simple_modifier = {
 }
 beua_supply_chain_complex_modifier = {
 	local_production_efficiency = 0.05
+
+	artificers_capacity = 1
 }
 
 ########################################################
@@ -101,4 +103,38 @@ beua_supply_chain_complex_modifier = {
 ########################################################
 beua_urban_industry = {
 	trade_goods_size = 0.5
+}
+
+########################################################
+####### Subterranean Bastion					 #######
+########################################################
+beua_subterranean_bastion = {
+	fort_level = 1
+	local_garrison_size = 0.15
+}
+
+########################################################
+####### Artificer Regiments		    			 #######
+########################################################
+beua_artificer_bionic_implants = {
+	is_rajput_modifier = yes
+
+	discipline = 0.05
+}
+beua_artificer_emergency_exit = {
+	is_rajput_modifier = yes
+	
+	drill_decay_modifier = -0.1
+	land_attrition = -0.15
+}
+beua_artificer_smart_armor = {
+	is_rajput_modifier = yes
+
+	shock_damage_received = -0.05
+	fire_damage_received = -0.05
+}
+beua_artificer_evocation_drones = {
+	is_rajput_modifier = yes
+
+	infantry_fire = 0.15
 }

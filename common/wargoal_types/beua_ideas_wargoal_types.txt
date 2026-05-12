@@ -1,3 +1,4 @@
+# [beua_amphibious_idea_4]
 beua_coastal_invasion = {
 	type = take_province
 	
@@ -33,5 +34,53 @@ beua_coastal_invasion = {
 		prov_desc = ALL_CLAIMS
 	}
 
-	war_name = BEUA_COASTAL_INVASION_WAR_NAME
+	war_name = beua_coastal_invasion_war_name
+}
+
+# [beua_serpentspine_idea_7]
+beua_serpentspine_reclamation = {
+	type = superiority
+
+	attacker = {
+		badboy_factor = 0.5
+		prestige_factor = 1
+		peace_cost_factor = 0.75
+
+		allowed_provinces = {
+			OR = {
+				superregion = west_serpentspine_superregion
+				superregion = east_serpentspine_superregion
+			}
+
+		}
+
+		peace_options = {
+			po_demand_provinces
+		}
+
+		country_desc = beua_all_serpentspine_countries
+		prov_desc = beua_all_serpentspine_provs
+	}
+
+	defender = {
+		badboy_factor = 0.5
+		prestige_factor = 1
+		peace_cost_factor = 0.75
+
+		allowed_provinces = {
+			OR = {
+				superregion = west_serpentspine_superregion
+				superregion = east_serpentspine_superregion
+			}
+		}
+
+		peace_options = {
+			po_demand_provinces
+		}
+
+		country_desc = beua_all_serpentspine_countries
+		prov_desc = beua_all_serpentspine_provs
+	}
+
+	war_name = beua_serpentspine_reclamation_war_name
 }
