@@ -5749,12 +5749,12 @@ beua_policy_adm_213 = {
 
 	potential = {
 		has_idea_group = beua_monstrous_ideas
-		has_idea_group = industrial_ideas
+		has_idea_group = beua_industrial_ideas
 	}
 
 	allow = {
 		full_idea_group = beua_monstrous_ideas
-		full_idea_group = industrial_ideas
+		full_idea_group = beua_industrial_ideas
 	}
 	
 	global_trade_goods_size_modifier = 0.075

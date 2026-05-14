@@ -4567,12 +4567,12 @@ beua_policy_dip_178 = {
 
 	potential = {
 		has_idea_group = beua_magocratic_ideas
-		has_idea_group = innovative_ideas
+		has_idea_group = innovativeness_ideas
 	}
 	
 	allow = {
 		full_idea_group = beua_magocratic_ideas
-		full_idea_group = innovative_ideas
+		full_idea_group = innovativeness_ideas
 	}
 
 	monarch_lifespan = 0.25
@@ -4648,12 +4648,12 @@ beua_policy_dip_181 = {
 
 	potential = {
 		has_idea_group = beua_artificery_ideas
-		has_idea_group = propoganda0
+		has_idea_group = court_ideas
 	}
 
 	allow = {
 		full_idea_group = beua_artificery_ideas
-		full_idea_group = propoganda0
+		full_idea_group = court_ideas
 	}
 	
 	global_spy_defence = 0.3
@@ -5369,12 +5369,12 @@ beua_policy_dip_215 = {
 
 	potential = {
 		has_idea_group = beua_industrial_ideas
-		has_idea_group = propoganda0
+		has_idea_group = court_ideas
 	}
 
 	allow = {
 		full_idea_group = beua_industrial_ideas
-		full_idea_group = propoganda0
+		full_idea_group = court_ideas
 	}
 	
 	global_institution_spread = 0.25
