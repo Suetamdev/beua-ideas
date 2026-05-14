@@ -1,4 +1,4 @@
-﻿l_english:0
+﻿l_english:
  # Coastal Invasion
  beua_coastal_invasion_war_name:0 "$ORDER$$FIRST$ Coastal Invasion against $SECOND$"
  beua_coastal_invasion_desc:0 "The war goal is to invade coastal provinces."

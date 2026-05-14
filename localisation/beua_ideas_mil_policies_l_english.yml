@@ -1,0 +1,576 @@
+﻿l_english:
+ beua_policy_mil_1:0 "The Military Zeal Act"
+ desc_beua_policy_mil_1:0 "Increasing the number of priests within the ranks of our military will help convince our soldiers that God is on our side in war and that they are doing God's work."
+
+ beua_policy_mil_2:0 "Field Priests and Soldier's Prayer Books"
+ desc_beua_policy_mil_2:0 "We must strive to instill zeal in our soldiers and make them willing to sacrifice themselves for our holy cause. At any time we must ensure that there is a great number of priests to care for the spiritual health of our men in the field, to lead them in worship and to take care of them when their lives end. We must also ensure that they are never without prayer books or any other religious material they might desire during our campaigns."
+ 
+ beua_policy_mil_3:0 "Standard Mercenary Contracts"
+ desc_beua_policy_mil_3:0 "Standard Mercenary Contracts help us to reduce the maintenance we have to pay our mercenaries."
+
+ beua_policy_mil_4:0 "Production Planning"
+ desc_beua_policy_mil_4:0 "By planning our production we can estimate future losses and compensate them before they happen."
+
+ beua_policy_mil_5:0 "Act of Technical Advancement"
+ desc_beua_policy_mil_5:0 "The Act of Technical Advancement improves the abilities of our economy and our soldiers."
+
+ beua_policy_mil_6:0 "National Construction Program"
+ desc_beua_policy_mil_6:0 "The National Construction program prioritises important construction projects."
+
+ beua_policy_mil_7:0 "Medical Front Care"
+ desc_beua_policy_mil_7:0 "Medical Front Care raises the chance of our soldiers surviving."
+
+ beua_policy_mil_8:0 "Act of Balanced Naval Supplies"
+ desc_beua_policy_mil_8:0 "It is very important to watch your diet on long voyages."
+
+ beua_policy_mil_9:0 "Side by Side Fighting Doctrine"
+ desc_beua_policy_mil_9:0 "There is great solidarity in our society."
+
+ beua_policy_mil_10:0 "Foreign Battle Tactics Act"
+ desc_beua_policy_mil_10:0 "We will learn from foreign battle tactics and maybe even use them also."
+
+ beua_policy_mil_11:0 "Committed Society"
+ desc_beua_policy_mil_11:0 "Our Society feels indebted to our state."
+
+ beua_policy_mil_12:0 "Hawkish Society"
+ desc_beua_policy_mil_12:0 "Our society is hawkish."
+
+ beua_policy_mil_13:0 "Nautic Society"
+ desc_beua_policy_mil_13:0 "Our society is keen on the navy."
+
+ beua_policy_mil_14:0 "General Staff: Navy Focus Act"
+ desc_beua_policy_mil_14:0 "The general staff was told to concentrate on educating new admirals."
+
+ beua_policy_mil_15:0 "Proud Generals"
+ desc_beua_policy_mil_15:0 "Our generals are proud of their land."
+
+ beua_policy_mil_16:0 "War Enthusiasm"
+ desc_beua_policy_mil_16:0 "The war enthusiasm is unbroken."
+
+ beua_policy_mil_17:0 "Work for the War Act"
+ desc_beua_policy_mil_17:0 "Everyone works to win the war."
+
+ beua_policy_mil_18:0 "Imperial Mercenaries Act"
+ desc_beua_policy_mil_18:0 "With an empire this big we need to be able to raise more mercenaries."
+
+ beua_policy_mil_19:0 "Quality of Weapons School Act"
+ desc_beua_policy_mil_19:0 "Our general staff is greatly influenced by the quality of weapons school."
+
+ beua_policy_mil_20:0 "The Social Penetration Act"
+ desc_beua_policy_mil_20:0 "Our general staff's acceptance in the society is huge."
+
+ beua_policy_mil_21:0 "Continous Maneuvers Act"
+ desc_beua_policy_mil_21:0 "We always do maneuvers to improve our capabilities."
+
+ beua_policy_mil_22:0 "Quick Supplies Act"
+ desc_beua_policy_mil_22:0 "Quick supplies can decide a battle. The general staff does know this well."
+
+ beua_policy_mil_23:0 "Intensive Weaponry Education Act"
+ desc_beua_policy_mil_23:0 "Our troops need to be educated in all kinds of weaponry. That will improve their quality drastically."
+
+ beua_policy_mil_24:0 "Department of Defence"
+ desc_beua_policy_mil_24:0 "The Department of Defence is occupied by the matters of national defense."
+
+ beua_policy_mil_25:0 "Defence of House and Home Act"
+ desc_beua_policy_mil_25:0 "Our men fight to defend house and home."
+
+ beua_policy_mil_26:0 "Management of Workers Act"
+ desc_beua_policy_mil_26:0 "Through specific management of our workers we can muster more men for the army."
+
+ beua_policy_mil_27:0 "Weaponry Capitalism Act"
+ desc_beua_policy_mil_27:0 "The one who produces the best weapons will get the deal."
+
+ beua_policy_mil_28:0 "Quality Army Act"
+ desc_beua_policy_mil_28:0 "Our army just has quality."
+
+ beua_policy_mil_29:0 "Fortress Doctrine"
+ desc_beua_policy_mil_29:0 "Our experience with fortresses help us managing them very efficiently."
+
+ beua_policy_mil_30:0 "School of Defence Act"
+ desc_beua_policy_mil_30:0 "Our general staff is greatly influenced by the school of defence."
+
+ beua_policy_mil_31:0 "Colonial Enthusiasm"
+ desc_beua_policy_mil_31:0 "Our colonies have a great reputation. Going to sea was never this attractive."
+
+ beua_policy_mil_32:0 "Colony at War Act"
+ desc_beua_policy_mil_32:0 "When we are at war the colonies will have to take their part in winning that war."
+
+ beua_policy_mil_33:0 "Religious Diplomacy"
+ desc_beua_policy_mil_33:0 "The policy of religious diplomacy will bring us great support in all of our society."
+
+ beua_policy_mil_34:0 "Base Defence Doctrine"
+ desc_beua_policy_mil_34:0 "Keeping our bases well protected is essential for us."
+
+ beua_policy_mil_35:0 "Modern Base Defence Act"
+ desc_beua_policy_mil_35:0 "Through modern defence strategies we can boost both our defence and our ability to break an enemy defence."
+
+ beua_policy_mil_36:0 "Marine Base Supply System"
+ desc_beua_policy_mil_36:0 "Having a supply system will decrease the chance that we run out of food, should we suddenly come under siege."
+
+ beua_policy_mil_37:0 "Best Army of the World"
+ desc_beua_policy_mil_37:0 "We are convinced that our army is the best in the world."
+
+ beua_policy_mil_38:0 "Production Enthusiasm Act"
+ desc_beua_policy_mil_38:0 "Every man will go happy to work."
+
+ beua_policy_mil_39:0 "Offensive Mentality"
+ desc_beua_policy_mil_39:0 "We are offensive people and are sure to get what we want."
+
+ beua_policy_mil_40:0 "In the State We Trust"
+ desc_beua_policy_mil_40:0 "We trust the tactics and techniques applied by our administration and our generals."
+
+ beua_policy_mil_41:0 "In the State We Trust"
+ desc_beua_policy_mil_41:0 "We trust the tactics and techniques applied by our administration and our generals."
+
+ beua_policy_mil_42:0 "War Bonds"
+ desc_beua_policy_mil_42:0 "Our people can now buy war bonds to support our army."
+
+ beua_policy_mil_43:0 "Production Patriotism"
+ desc_beua_policy_mil_43:0 "Our people love working for our state."
+
+ beua_policy_mil_44:0 "Quasi Integration of Mercenaries"
+ desc_beua_policy_mil_44:0 "The mercenaries we hire are almost as close to our people as our regular army is."
+
+ beua_policy_mil_45:0 "United against the Enemy"
+ desc_beua_policy_mil_45:0 "Our people are united against our enemies even when things are dire."
+
+ beua_policy_mil_46:0 "Foreign Generals"
+ desc_beua_policy_mil_46:0 "We will hire foreign, promising generals."
+
+ beua_policy_mil_47:0 "Foreign Tactics"
+ desc_beua_policy_mil_47:0 "We are ready to employ tactics of other people in our strategy."
+
+ beua_policy_mil_48:0 "Integration of Mercenaries"
+ desc_beua_policy_mil_48:0 "Through integration of former mercenaries we can boost our potential draftees."
+
+ beua_policy_mil_49:0 "Imperial Guard"
+ desc_beua_policy_mil_49:0 "Our guard is one of the best trained guards in the world."
+
+ beua_policy_mil_50:0 "Imperial Selection"
+ desc_beua_policy_mil_50:0 "We can be picky with our choice of recruits."
+
+ beua_policy_mil_51:0 "Registration Act"
+ desc_beua_policy_mil_51:0 "We will register all men that can fight for our country in times of war."
+
+ beua_policy_mil_52:0 "Imperial Quality Management"
+ desc_beua_policy_mil_52:0 "Our imperial officials will ensure the quality of our weapons produced."
+
+ beua_policy_mil_53:0 "Production Requisition"
+ desc_beua_policy_mil_53:0 "In times of war we need all of our resources for war production."
+
+ beua_policy_mil_54:0 "International Military Cooperation"
+ desc_beua_policy_mil_54:0 "Our general staff always tries to stay in touch with developments in other lands."
+
+ beua_policy_mil_55:0 "Trade Contracts"
+ desc_beua_policy_mil_55:0 "It is very advisable to negotiate lucrative trade contracts."
+
+ beua_policy_mil_56:0 "Military Espionage"
+ desc_beua_policy_mil_56:0 "We will gain important knowledge about our enemies armies that could prove essential in battle."
+
+ beua_policy_mil_57:0 "Siege Spies"
+ desc_beua_policy_mil_57:0 "We will try to have spies in enemy fortresses."
+
+ beua_policy_mil_58:0 "Industrial Espionage"
+ desc_beua_policy_mil_58:0 "Our industrial espionage might gain us interesting knowledge that we could put to use in our land."
+
+ beua_policy_mil_59:0 "Inspirational Journeys"
+ desc_beua_policy_mil_59:0 "We will fund trips for our admirals to gain crucial knowledge about the world and the sea."
+
+ beua_policy_mil_60:0 "Cheap Production Act"
+ desc_beua_policy_mil_60:0 "Producing cheap, good weapons requires practice."
+
+ beua_policy_mil_61:0 "Raze Act"
+ desc_beua_policy_mil_61:0 "Our men are allowed to raze everything that falls into their hands."
+
+ beua_policy_mil_62:0 "Population Influence"
+ desc_beua_policy_mil_62:0 "We will influence our people carefully."
+
+ beua_policy_mil_63:0 "Improved Naval Tactics"
+ desc_beua_policy_mil_63:0 "The continued development of new naval tactics is essential."
+
+ beua_policy_mil_64:0 "Constant Supply Act"
+ desc_beua_policy_mil_64:0 "Good trade practices will ensure the supply of our army."
+
+ beua_policy_mil_65:0 "Defence Discipline"
+ desc_beua_policy_mil_65:0 "The discipline in our fortresses is incredible."
+
+ beua_policy_mil_66:0 "Organised Retreat Areas"
+ desc_beua_policy_mil_66:0 "We will organise retreat areas where our army can fall back to, if it gets defeated."
+
+ beua_policy_mil_67:0 "Innovative Training Act"
+ desc_beua_policy_mil_67:0 "Through innovative training we can boost the quality of our troops."
+
+ beua_policy_mil_68:0 "Health Control Act"
+ desc_beua_policy_mil_68:0 "We will control the health of the mercenaries we hire to prevent epidemics."
+
+ beua_policy_mil_69:0 "State Pride"
+ desc_beua_policy_mil_69:0 "Our army is making the state and the people proud."
+
+ beua_policy_mil_70:0 "Humanist Army"
+ desc_beua_policy_mil_70:0 "An army fighting for ideals is a strong army."
+
+ beua_policy_mil_71:0 "Innovative Training Act"
+ desc_beua_policy_mil_71:0 "Through innovative training we can boost the quality of our troops."
+
+ beua_policy_mil_72:0 "For the Republic!"
+ desc_beua_policy_mil_72:0 "An army fighting for their republic is a strong army."
+
+ beua_policy_mil_73:0 "Blessing Cannons Act"
+ desc_beua_policy_mil_73:0 "Our priests will bless our cannons, this giving them divine power."
+
+ beua_policy_mil_74:0 "Monarchic School"
+ desc_beua_policy_mil_74:0 "Our generals are loyal to the monarchy."
+
+ beua_policy_mil_75:0 "Parliamentary Quality Management"
+ desc_beua_policy_mil_75:0 "The parliment is keeping a keen eye on quality management."
+
+ beua_policy_mil_76:0 "Fortress Expansion Act"
+ desc_beua_policy_mil_76:0 "Its always important to keep building fortresses."
+
+ beua_policy_mil_77:0 "Humanist Conviction"
+ desc_beua_policy_mil_77:0 "Our garrisons defending the fortresses are sure to do the right thing by holding out."
+
+ beua_policy_mil_78:0 "Innovative Defence"
+ desc_beua_policy_mil_78:0 "We always try to find new, innovative ways to hold out longer in our fortresses."
+
+ beua_policy_mil_79:0 "Fortress Safety Law"
+ desc_beua_policy_mil_79:0 "We won't let our fortresses be undermined by spies."
+
+ beua_policy_mil_80:0 "Tax Incentive Act"
+ desc_beua_policy_mil_80:0 "We will give burghers tax incentives to boost their productivity."
+
+ beua_policy_mil_81:0 "Building Boom Act"
+ desc_beua_policy_mil_81:0 "Sometimes it is essential to improve production in times of war. The building boom act will help."
+
+ beua_policy_mil_82:0 "Floating Fortresses"
+ desc_beua_policy_mil_82:0 "Our heavy ships are floating fortresses and almost indestructible."
+
+ beua_policy_mil_83:0 "Long Term of Service"
+ desc_beua_policy_mil_83:0 "Our recruits will serve for a very long time. Only like this we can ensure our quality army."
+
+ beua_policy_mil_84:0 "Economic Coherence"
+ desc_beua_policy_mil_84:0 "Our men know that their families won't starve when they are away in times of war."
+
+ beua_policy_mil_85:0 "Conqueror Tradition"
+ desc_beua_policy_mil_85:0 "We are conquerors - our army will reflect that tradition."
+
+ beua_policy_mil_86:0 "For Humanism"
+ desc_beua_policy_mil_86:0 "Some of our battles are very emotional. We will fight for our ideals."
+
+ beua_policy_mil_87:0 "Just Punishment"
+ desc_beua_policy_mil_87:0 "Our men know how to behave. But if they don't the punishment will be just, not draconic."
+
+ beua_policy_mil_88:0 "For the Government"
+ desc_beua_policy_mil_88:0 "Not all governments are popular, but we are masters to tell the people who to hate."
+
+ beua_policy_mil_89:0 "Officer Tests"
+ desc_beua_policy_mil_89:0 "We are not longer that dependend on birthright. Men who are talented will be promoted."
+
+ beua_policy_mil_90:0 "Dynastic Wars"
+ desc_beua_policy_mil_90:0 "Our men are used to conquering foreign thrones."
+
+ beua_policy_mil_91:0 "Inciting Songs"
+ desc_beua_policy_mil_91:0 "Our men will sing when assaulting when they charge the enemy with bloodlust."
+
+ beua_policy_mil_92:0 "Ammunition Supplies"
+ desc_beua_policy_mil_92:0 "Our supplies will never run out, never!"
+
+ beua_policy_mil_93:0 "Colonial Regiments"
+ desc_beua_policy_mil_93:0 "Our colonies have grown so big that we can exploit them for men, even full regiments."
+
+ beua_policy_mil_94:0 "Petty Officer"
+ desc_beua_policy_mil_94:0 "Our petty officers will organise the formation and keep everybody in line."
+
+ beua_policy_mil_95:0 "Iron Will"
+ desc_beua_policy_mil_95:0 "Our men are standing strong and won't be shattered easily."
+
+ beua_policy_mil_96:0 "Heavens Will It"
+ desc_beua_policy_mil_96:0 "The gods are surely on our side, especialy when we are storming towards the enemy."
+
+ beua_policy_mil_97:0 "Early Field Fortification"
+ desc_beua_policy_mil_97:0 "We are experimenting with field fortifications."
+
+ beua_policy_mil_98:0 "State Guard"
+ desc_beua_policy_mil_98:0 "Fighting in the state guard is the biggest honour achievable for a peasant boy."
+
+ beua_policy_mil_99:0 "Fire Drills"
+ desc_beua_policy_mil_99:0 "Our regiments are perfectly trained. They know when to fire, that way we can maximize enemy casualties and minimize our own."
+
+ beua_policy_mil_100:0 "Scouts"
+ desc_beua_policy_mil_100:0 "Our scouts will tell us the perfect locations and moments when to charge the enemy forces."
+
+ beua_policy_mil_101:0 "Fight for the King"
+ desc_beua_policy_mil_101:0 "Our men fight for their king."
+
+ beua_policy_mil_102:0 "Counterattack"
+ desc_beua_policy_mil_102:0 "By doing quick counterattacks we can nullify the enemy charges."
+
+ beua_policy_mil_103:0 "Field Scouts"
+ desc_beua_policy_mil_103:0 "We will always know on what terrain we fight. And we will use that terrain to our best advantage."
+
+ beua_policy_mil_104:0 "Colonial Development"
+ desc_beua_policy_mil_104:0 "We will expand our colonies to support our armies in the homeland with men."
+
+ beua_policy_mil_105:0 "Outstanding Captains"
+ desc_beua_policy_mil_105:0 "Our captains are well trained and most of them are very skilled. You won't find many incapable."
+
+ beua_policy_mil_106:0 "Production Propaganda"
+ desc_beua_policy_mil_106:0 "We will tell our people what we have to tell them to push our production to the limit."
+
+ beua_policy_mil_107:0 "Blessing"
+ desc_beua_policy_mil_107:0 "A blessing from the lord!"
+
+ beua_policy_mil_108:0 "Guard"
+ desc_beua_policy_mil_108:0 "The guard will be a perfect example for the rest of our troops."
+
+ beua_policy_mil_109:0 "Dynastic Fate"
+ desc_beua_policy_mil_109:0 "We are chosen to rule the world."
+
+ beua_policy_mil_110:0 "Influence the people"
+ desc_beua_policy_mil_110:0 "Our criers will always tell stories about our great army."
+
+ beua_policy_mil_111:0 "Economic Shock"
+ desc_beua_policy_mil_111:0 "We will do everything to fight a commercial crisis."
+
+ beua_policy_mil_112:0 "Boarding Experience"
+ desc_beua_policy_mil_112:0 "Our sailors have great experience boarding enemy ships."
+
+ beua_policy_mil_113:0 "Humanist Ceasefire"
+ desc_beua_policy_mil_113:0 "We will agree to ceasefire in certain situations."
+
+ beua_policy_mil_114:0 "Horse People"
+ desc_beua_policy_mil_114:0 "We can learn from the great horse people of this world."
+
+ beua_policy_mil_115:0 "Shocking Propaganda"
+ desc_beua_policy_mil_115:0 "Shocking propaganda about our enemies will motivate our young ones to fight."
+
+ beua_policy_mil_116:0 "National Fight"
+ desc_beua_policy_mil_116:0 "We will fight as one for our country."
+
+ beua_policy_mil_117:0 "Central Maneuvers"
+ desc_beua_policy_mil_117:0 "With big maneuvers we can raise the efficiency of our troops."
+
+ beua_policy_mil_118:0 "Decentralized Recruitment"
+ desc_beua_policy_mil_118:0 "Through decentral recruitment we can register many more men."
+
+ beua_policy_mil_119:0 "Cover"
+ desc_beua_policy_mil_119:0 "We will provide cover for our artillery to improve their efficiency."
+
+ beua_policy_mil_120:0 "Feint"
+ desc_beua_policy_mil_120:0 "We will be deceiving the enemy firepower."
+
+ beua_policy_mil_121:0 "Weapon Trade"
+ desc_beua_policy_mil_121:0 "We will import better weapons from other countries and copy them if it suits us."
+
+ beua_policy_mil_122:0 "Scouts"
+ desc_beua_policy_mil_122:0 "If we know the battlefield better than the enemy, we'll have a great advantage."
+
+ beua_policy_mil_123:0 "At home in foreign land"
+ desc_beua_policy_mil_123:0 "Our men feel at home in enemy lands."
+
+ beua_policy_mil_124:0 "Controlled Firepower"
+ desc_beua_policy_mil_124:0 "We will reconduct our firepower to reach the best results."
+
+ beua_policy_mil_125:0 "Humanist Ideal"
+ desc_beua_policy_mil_125:0 "Our men fight for a just cause."
+
+ beua_policy_mil_126:0 "War Conventions"
+ desc_beua_policy_mil_126:0 "War Conventions will ensure our soldiers to be treated well if they fall into enemy hands."
+
+ beua_policy_mil_127:0 "Colonial Wars"
+ desc_beua_policy_mil_127:0 "Our veterans know the battlefield better than their home. We will make use of that."
+
+ beua_policy_mil_128:0 "Terrain Adjustment"
+ desc_beua_policy_mil_128:0 "We will use the terrain to our advantage."
+
+ beua_policy_mil_129:0 "Artillery Support"
+ desc_beua_policy_mil_129:0 "We are very creative when it comes to finding new targets for our artillery."
+
+ beua_policy_mil_130:0 "Decentralized March"
+ desc_beua_policy_mil_130:0 "Through marching innovatively and surprising we will surprise our enemy."
+
+ beua_policy_mil_131:0 "Great Offensive"
+ desc_beua_policy_mil_131:0 "A well planned offensive can be very efficient."
+
+ beua_policy_mil_132:0 "Captain Degree"
+ desc_beua_policy_mil_132:0 "By assigning captain degrees we can be sure that our naval leaders are competent."
+
+ beua_policy_mil_133:0 "Big Maneuvers"
+ desc_beua_policy_mil_133:0 "Big Maneuvers help us form a formidable army."
+
+ beua_policy_mil_134:0 "Central Recruiting"
+ desc_beua_policy_mil_134:0 "Central Recruiting Stations will gurantee us new recruits."
+
+ beua_policy_mil_135:0 "Weapons Production"
+ desc_beua_policy_mil_135:0 "Weapons Production is important for the success of war."
+
+ beua_policy_mil_136:0 "Local Defenders"
+ desc_beua_policy_mil_136:0 "We will use local troops to defend the cities."
+
+ beua_policy_mil_137:0 "Decentralized Armament"
+ desc_beua_policy_mil_137:0 "We will produce weapons everywhere in the country."
+
+ beua_policy_mil_138:0 "Decentralized Recruiting"
+ desc_beua_policy_mil_138:0 "We will find more recruits if we are present in every county."
+
+ beua_policy_mil_139:0 "Small Harbours"
+ desc_beua_policy_mil_139:0 "By splitting our fleet we are more secure from raids."
+
+ beua_policy_mil_140:0 "Motivated Army"
+ desc_beua_policy_mil_140:0 "Conscripts are much more motivated than mercenaries."
+
+ beua_policy_mil_141:0 "Fortress Assault Maneuver"
+ desc_beua_policy_mil_141:0 "We will train to assault fortresses."
+
+ beua_policy_mil_142:0 "Secret Deployment"
+ desc_beua_policy_mil_142:0 "Our armies have the ability to attack out of nowhere."
+
+ beua_policy_mil_143:0 "Magical Medicine Synergy"
+ desc_beua_policy_mil_143:0 "We will combine traditional medicine with magical practices to enhance the healing of our soldiers."
+
+ beua_policy_mil_144:0 "Ballistic Proof Shields"
+ desc_beua_policy_mil_144:0 "We will develop advanced ballistic proof shields to enhance the protection of our soldiers on the battlefield."
+
+ beua_policy_mil_145:0 "Stamina Enchantment"
+ desc_beua_policy_mil_145:0 "We will use magical practices to enhance the stamina and endurance of our soldiers."
+
+ beua_policy_mil_146:0 "Water Filtration Act"
+ desc_beua_policy_mil_146:0 "We will implement a system of water filtration to ensure the health and well-being of our troops."
+
+ beua_policy_mil_147:0 "Artificer Nationalization Act"
+ desc_beua_policy_mil_147:0 "We will nationalize the artificer guilds to ensure that their innovations benefit the state."
+
+ beua_policy_mil_148:0 "Junior War Wizard Act"
+ desc_beua_policy_mil_148:0 "We will establish a program to recruit and train junior war wizards to support our military efforts."
+
+ beua_policy_mil_149:0 "War Wizard Initiative"
+ desc_beua_policy_mil_149:0 "We will establish a program to recruit and train war wizards to enhance our military capabilities."
+
+ beua_policy_mil_150:0 "Battlemage Act"
+ desc_beua_policy_mil_150:0 "We will establish a program to recruit and train battlemages to enhance our military capabilities."
+
+ beua_policy_mil_151:0 "Student Mage Internship"
+ desc_beua_policy_mil_151:0 "We will establish a program to recruit and train student mages to support our magical efforts."
+
+ beua_policy_mil_152:0 "Magic Forges Initiative"
+ desc_beua_policy_mil_152:0 "We will establish magical forges to enhance the production of enchanted weapons and armor for our troops."
+
+ beua_policy_mil_153:0 "Magetower Barrage Act"
+ desc_beua_policy_mil_153:0 "We will establish a program to enhance the defensive capabilities of our magetowers, allowing them to unleash devastating magical barrages on enemy forces."
+
+ beua_policy_mil_154:0 "Evocation Act"
+ desc_beua_policy_mil_154:0 "We will establish a program to enhance the evocation capabilities of our mages, allowing them to summon powerful elemental forces in battle."
+
+ beua_policy_mil_155:0 "Artillery Enchantment Act"
+ desc_beua_policy_mil_155:0 "We will establish a program to enhance the capabilities of our artillery through magical means, allowing for more powerful and accurate bombardments."
+
+ beua_policy_mil_156:0 "Damestear Weapons Act"
+ desc_beua_policy_mil_156:0 "We will develop and produce advanced weaponry using Damestear technology, enhancing our military capabilities."
+
+ beua_policy_mil_157:0 "Wallbreaker Initiative"
+ desc_beua_policy_mil_157:0 "We will establish a program to train and equip specialized troops to breach enemy fortifications and defenses, allowing for more effective assaults on fortified positions."
+
+ beua_policy_mil_158:0 "Oral Folklore Act"
+ desc_beua_policy_mil_158:0 "We will promote the collection and preservation of oral folklore traditions, ensuring that the stories and legends of our people are passed down through generations."
+
+ beua_policy_mil_159:0 "Elite Spirit Initiative"
+ desc_beua_policy_mil_159:0 "We will establish a program to enhance the morale and fighting spirit of our troops, ensuring they are motivated and ready to face any challenge on the battlefield."
+
+ beua_policy_mil_160:0 "Total War Act"
+ desc_beua_policy_mil_160:0 "We will adopt a total war strategy, mobilizing all resources and manpower to achieve victory at any cost."
+
+ beua_policy_mil_161:0 "Military Reform Act"
+ desc_beua_policy_mil_161:0 "We will implement a series of reforms aimed at modernizing our military structure, improving training, and enhancing the overall effectiveness of our armed forces."
+
+ beua_policy_mil_162:0 "Bootcamp Act"
+ desc_beua_policy_mil_162:0 "We will establish a bootcamp program to provide intensive training for new recruits, ensuring they are well-prepared for the challenges of military service."
+
+ beua_policy_mil_163:0 "Mass Assault Doctrine"
+ desc_beua_policy_mil_163:0 "We will adopt a mass assault doctrine, focusing on overwhelming enemy positions with concentrated force and rapid maneuvers."
+
+ beua_policy_mil_164:0 "Engineer Slavery Act"
+ desc_beua_policy_mil_164:0 "We will establish a program to recruit and train engineers to support our military efforts."
+
+ beua_policy_mil_165:0 "Banditry Protection Act"
+ desc_beua_policy_mil_165:0 "We will implement measures to protect our trade routes and supply lines from bandit attacks."
+
+ beua_policy_mil_166:0 "Swarm Tactics Initiative"
+ desc_beua_policy_mil_166:0 "We will adopt swarm tactics, focusing on overwhelming enemy forces with rapid, coordinated attacks from multiple directions."
+
+ beua_policy_mil_167:0 "Militarized Horde Act"
+ desc_beua_policy_mil_167:0 "We will adopt a militarized approach to our horde tactics, focusing on discipline and organization to enhance our combat effectiveness."
+
+ beua_policy_mil_168:0 "Monstrous Herding Act"
+ desc_beua_policy_mil_168:0 "We will implement a program to domesticate and train monstrous creatures, utilizing them as a unique asset in our military forces."
+
+ beua_policy_mil_169:0 "Stolen Cannons Initiative"
+ desc_beua_policy_mil_169:0 "We will establish a program to recover and repurpose cannons and artillery pieces that have been lost or abandoned in previous conflicts."
+
+ beua_policy_mil_170:0 "Army on Wheels Act"
+ desc_beua_policy_mil_170:0 "We will implement a program to enhance the mobility and logistics of our army, allowing for rapid deployment and maneuverability on the battlefield."
+
+ beua_policy_mil_171:0 "Standardized Firearms Act"
+ desc_beua_policy_mil_171:0 "We will implement a standardized firearms program to improve the quality and reliability of our infantry weapons."
+
+ beua_policy_mil_172:0 "Ammunition Production Act"
+ desc_beua_policy_mil_172:0 "We will establish a program to increase the production of ammunition, ensuring our forces are well-equipped for sustained combat."
+
+ beua_policy_mil_173:0 "Military Textbook Proliferation Act"
+ desc_beua_policy_mil_173:0 "We will promote the widespread distribution of military textbooks and training materials to ensure that our troops are well-versed in the latest tactics and strategies."
+
+ beua_policy_mil_174:0 "Factory Specialization Act"
+ desc_beua_policy_mil_174:0 "We will implement a factory specialization program to enhance the efficiency and output of our military-industrial complex."
+
+ beua_policy_mil_175:0 "Mobilization Act"
+ desc_beua_policy_mil_175:0 "We will implement a mobilization act to ensure that our military forces are prepared for rapid deployment and can respond effectively to any threats."
+
+ beua_policy_mil_176:0 "Fortress Renovation Act"
+ desc_beua_policy_mil_176:0 "We will implement a fortress renovation act to upgrade and fortify our existing military fortifications, ensuring they are capable of withstanding modern warfare."
+
+ beua_policy_mil_177:0 "Thunder Warfare Decree"
+ desc_beua_policy_mil_177:0 "We will implement a thunder warfare decree to enhance our military capabilities through the integration of advanced technology and tactics, ensuring our forces are prepared for the challenges of modern warfare."
+
+ beua_policy_mil_178:0 "Mechanist Decree"
+ desc_beua_policy_mil_178:0 "We will implement a mechanist decree to promote the development and integration of advanced machinery and technology within our military forces, enhancing their effectiveness and efficiency on the battlefield."
+
+ beua_policy_mil_179:0 "Cavalry Modernization Act"
+ desc_beua_policy_mil_179:0 "We will implement a cavalry modernization act to upgrade our cavalry units with the latest equipment and training, ensuring they remain a formidable force on the battlefield."
+
+ beua_policy_mil_180:0 "Artillery Bombardment Decree"
+ desc_beua_policy_mil_180:0 "We will implement an artillery bombardment decree to enhance our long-range strike capabilities, allowing us to deliver devastating firepower on enemy positions from a distance."
+
+ beua_policy_mil_181:0 "Mother Bear Act"
+ desc_beua_policy_mil_181:0 "We will adopt a policy of protecting our interests and allies with unwavering resolve, ensuring that any threats to our realm are met with overwhelming force."
+
+ beua_policy_mil_182:0 "Imperial Elite Act"
+ desc_beua_policy_mil_182:0 "We will establish a program to recruit and train an elite cadre of soldiers, ensuring that our most capable warriors are prepared to defend the empire and its interests."
+
+ beua_policy_mil_183:0 "Imperial Campaigns Act"
+ desc_beua_policy_mil_183:0 "We will adopt a strategy of conducting imperial campaigns to expand our influence and control over key territories, utilizing both military force and diplomatic efforts to achieve our objectives."
+
+ beua_policy_mil_184:0 "Model Officer Program"
+ desc_beua_policy_mil_184:0 "We will implement the Model Officer Program to identify and promote exemplary officers within our ranks, fostering a culture of excellence and leadership throughout the military."
+
+ beua_policy_mil_185:0 "Army of Unity Decree"
+ desc_beua_policy_mil_185:0 "We will implement the Army of Unity Decree to promote cohesion and solidarity among our military forces, ensuring that all branches work together seamlessly to achieve our strategic objectives."
+
+ beua_policy_mil_186:0 "Heroes of the Empire"
+ desc_beua_policy_mil_186:0 "We will implement the Heroes of the Empire program to recognize and reward acts of valor and heroism among our military personnel, fostering a culture of bravery and dedication to the empire."
+
+ beua_policy_mil_187:0 "Imperial Musket Standardization Act"
+ desc_beua_policy_mil_187:0 "We will implement the Imperial Musket Standardization Act to standardize the production and distribution of muskets within our military forces, ensuring that all soldiers are equipped with reliable and effective weaponry."
+
+ beua_policy_mil_188:0 "Edict of Wexkeep"
+ desc_beua_policy_mil_188:0 "We will implement the Edict of Wexkeep to fortify our border defenses and enhance the security of our frontier regions, ensuring that our empire remains safe from external threats."
+
+ beua_policy_mil_189:0 "Lilac Initiative"
+ desc_beua_policy_mil_189:0 "We will implement the Lilac Initiative to promote the use of advanced reconnaissance and intelligence-gathering techniques, ensuring that our military is always one step ahead of potential threats."
+
+ beua_policy_mil_190:0 "Imperial Mobilization Act"
+ desc_beua_policy_mil_190:0 "We will implement the Imperial Mobilization Act to streamline the process of mobilizing our military forces in times of crisis, ensuring a rapid and efficient response to threats against the empire."
+
+ beua_policy_mil_191:0 "Imperial Knights Initiative"
+ desc_beua_policy_mil_191:0 "We will implement the Imperial Knights Initiative to establish a prestigious order of knights dedicated to the defense of the empire, promoting chivalry and martial excellence among our nobility."
+
+ beua_policy_mil_192:0 "Imperial Guns Initiative"
+ desc_beua_policy_mil_192:0 "We will implement the Imperial Guns Initiative to enhance the production and deployment of artillery and firearms within our military, ensuring that our forces are equipped with the most advanced weaponry available."

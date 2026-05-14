@@ -1,0 +1,5633 @@
+beua_policy_dip_1 = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = administrative_ideas
+		OR = {
+            has_idea_group = naval_ideas
+            has_idea_group = beua_amphibious_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = administrative_ideas
+		OR = {
+            full_idea_group = naval_ideas
+            full_idea_group = beua_amphibious_ideas
+		}
+	}	
+	
+	trade_efficiency = 0.1
+	global_ship_repair = 0.2
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { trade_income_percentage = 0.1 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.2
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.3
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.4
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.5
+		}	
+	}
+}
+
+beua_policy_dip_2 = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = expansion_ideas
+		OR = {
+            has_idea_group = naval_ideas
+            has_idea_group = beua_amphibious_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = expansion_ideas
+		OR = {
+            full_idea_group = naval_ideas
+            full_idea_group = beua_amphibious_ideas
+		}
+	}	
+	
+	global_tariffs = 0.2
+	global_ship_repair = 0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_3 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = exploration_ideas
+		OR = {
+            has_idea_group = religious_ideas   
+            has_idea_group = beua_elven_supremacy_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = exploration_ideas
+		OR = {
+			full_idea_group = religious_ideas 
+			full_idea_group = beua_elven_supremacy_ideas
+		}	
+	}
+
+	global_tariffs = 0.1
+	religious_unity = 0.2
+
+	ai_will_do = {
+		factor = 1
+		
+		modifier = {
+			factor = 0
+			religious_unity = 1
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { religious_unity = 0.8 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { religious_unity = 0.6 }
+		}			
+		modifier = {
+			factor = 1.25
+			NOT = { religious_unity = 0.4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { religious_unity = 0.2 }
+		}			
+	}
+}
+
+beua_policy_dip_4 = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = naval_ideas
+		has_idea_group = beua_state_administration_ideas
+	}
+	
+	allow = {
+		full_idea_group = naval_ideas
+		full_idea_group = beua_state_administration_ideas
+	}	
+	
+	global_foreign_trade_power = 0.2
+	trade_efficiency = 0.1
+	
+	ai_will_do = {
+		factor = 0.9
+		modifier = {
+			factor = 0.6
+			NOT = { trade_income_percentage = 0.1 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.2
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.3
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.4
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.5
+		}
+	}
+}
+
+beua_policy_dip_5 = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = naval_ideas
+		has_idea_group = beua_fortress_ideas
+		
+	}
+	
+	allow = {
+		full_idea_group = naval_ideas
+		full_idea_group = beua_fortress_ideas
+	}	
+	
+	caravan_power = 0.25
+	
+	ai_will_do = {
+		factor = 0.7
+		modifier = {
+			factor = 0.6
+			NOT = { trade_income_percentage = 0.1 }
+		}			
+		modifier = {
+			factor = 0.6
+			NOT = { trade_income_percentage = 0.2 }
+		}
+	}
+}
+
+beua_policy_dip_6 = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = beua_war_production_ideas
+		OR = {
+            has_idea_group = naval_ideas
+            has_idea_group = beua_amphibious_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = beua_war_production_ideas
+		OR = {
+            full_idea_group = naval_ideas
+            full_idea_group = beua_amphibious_ideas
+		}
+	}	
+	
+	naval_forcelimit_modifier = 0.15
+	embargo_efficiency = 0.25
+	
+	ai_will_do = {
+		factor = 0.8
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_7 = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = innovativeness_ideas
+		OR = {
+            has_idea_group = naval_ideas
+            has_idea_group = beua_amphibious_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = innovativeness_ideas
+		OR = {
+            full_idea_group = naval_ideas
+            full_idea_group = beua_amphibious_ideas
+		}
+	}	
+	
+	leader_naval_fire = 1
+	navy_tradition_decay = 0.002
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_8 = {
+	monarch_power = DIP
+	
+	potential = {
+		OR = {
+            has_idea_group = naval_ideas
+            has_idea_group = beua_amphibious_ideas
+		}
+		OR = {
+            has_idea_group = religious_ideas   
+            has_idea_group = beua_elven_supremacy_ideas
+		}
+	}
+
+	allow = {
+		OR = {
+			full_idea_group = naval_ideas
+			full_idea_group = beua_amphibious_ideas
+		}
+		OR = {
+			full_idea_group = religious_ideas 
+			full_idea_group = beua_elven_supremacy_ideas
+		}	
+	}
+	
+	leader_naval_shock = 1
+	navy_tradition_decay = 0.002
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_9 = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = humanist_ideas 
+		OR = {
+            has_idea_group = naval_ideas
+            has_idea_group = beua_amphibious_ideas
+		}
+	}
+    
+	allow = {
+		full_idea_group = humanist_ideas 
+		OR = {
+            full_idea_group = naval_ideas
+            full_idea_group = beua_amphibious_ideas
+		}
+	}	
+	
+	naval_morale = 0.15
+	
+	ai_will_do = {
+		factor = 0.8
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_10 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_state_administration_ideas
+		has_idea_group = beua_amphibious_ideas
+			
+	}
+
+	allow = {
+		full_idea_group = beua_state_administration_ideas
+		full_idea_group = beua_amphibious_ideas
+	}
+	
+	naval_maintenance_modifier = -0.2
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_11 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_state_administration_ideas
+		has_idea_group = beua_colonial_empire_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_state_administration_ideas
+		full_idea_group = beua_colonial_empire_ideas
+	}
+	
+	global_colonial_growth = 20
+	global_tariffs = 0.2
+	
+	ai_will_do = {
+		factor = 1
+				
+	}
+}
+
+beua_policy_dip_12 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_state_administration_ideas
+		OR = {
+			has_idea_group = beua_amphibious_ideas
+			has_idea_group = naval_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = beua_state_administration_ideas
+		OR = {
+			full_idea_group = beua_amphibious_ideas
+			full_idea_group = naval_ideas
+		}
+	}
+	
+	naval_forcelimit_modifier = 0.33
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_13 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_state_administration_ideas
+		has_idea_group = exploration_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_state_administration_ideas
+		full_idea_group = exploration_ideas
+	}
+	
+	colonists = 1
+	colonist_placement_chance = 0.1
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_colonists = 1 }
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { num_of_colonies = 1 }
+		}
+	}
+}
+
+beua_policy_dip_14 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = naval_ideas
+		has_idea_group = beua_weapon_quality_ideas
+	}
+
+	allow = {
+		full_idea_group = naval_ideas
+		full_idea_group = beua_weapon_quality_ideas
+	}
+	
+	naval_morale = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_15 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_jurisprudence_ideas
+		has_idea_group = influence_ideas 
+	}
+
+	allow = {
+		full_idea_group = beua_jurisprudence_ideas
+		full_idea_group = influence_ideas 
+	}
+	
+	diplomatic_reputation = 1.5
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_16 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_health_ideas
+		has_idea_group = beua_assimilation_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_health_ideas
+		full_idea_group = beua_assimilation_ideas
+	}
+	
+	diplomatic_annexation_cost = -0.125
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_17 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_health_ideas
+		has_idea_group = beua_colonial_empire_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_health_ideas
+		full_idea_group = beua_colonial_empire_ideas
+	}
+	
+	native_assimilation = 0.25
+	native_uprising_chance = -0.25
+	global_colonial_growth = 10
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_colonists = 1 }
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { num_of_colonies = 1 }
+		}
+	}
+}
+
+beua_policy_dip_18 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_colonial_empire_ideas
+		has_idea_group = innovativeness_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_colonial_empire_ideas
+		full_idea_group = innovativeness_ideas
+	}
+	
+	global_trade_power = 0.1
+	merchants = 1
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { trade_income_percentage = 0.1 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.2
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.3
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.4
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.5
+		}	
+	}
+}
+
+beua_policy_dip_19 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_colonial_empire_ideas
+		has_idea_group = plutocracy_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_colonial_empire_ideas
+		full_idea_group = plutocracy_ideas
+	}
+	
+	range = 0.5
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_colonists = 1 }
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { num_of_colonies = 1 }
+		}
+	}
+}
+
+beua_policy_dip_20 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_colonial_empire_ideas
+		OR = {
+			has_idea_group = theocracy_gov_ideas
+			has_idea_group = aristocracy_ideas
+			has_idea_group = horde_gov_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = beua_colonial_empire_ideas
+		OR = {
+			full_idea_group = theocracy_gov_ideas
+			full_idea_group = aristocracy_ideas
+			full_idea_group = horde_gov_ideas
+		}
+	}
+	
+	global_tariffs = 0.25
+	
+	ai_will_do = {
+		factor = 1
+				
+	}
+}
+
+beua_policy_dip_21 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = offensive_ideas
+		has_idea_group = beua_amphibious_ideas
+	}
+
+	allow = {
+		full_idea_group = offensive_ideas
+		full_idea_group = beua_amphibious_ideas
+	}
+	
+	privateer_efficiency = 0.25
+	galley_power = 0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_22 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_colonial_empire_ideas
+		has_idea_group = humanist_ideas 
+	}
+
+	allow = {
+		full_idea_group = beua_colonial_empire_ideas
+		full_idea_group = humanist_ideas 
+	}
+	
+	global_colonial_growth = 25
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_colonists = 1 }
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { num_of_colonies = 1 }
+		}
+	}
+}
+
+beua_policy_dip_23 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_colonial_empire_ideas
+		has_idea_group = expansion_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_colonial_empire_ideas
+		full_idea_group = expansion_ideas
+	}
+	
+	colonists = 1
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_colonists = 1 }
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { num_of_colonies = 1 }
+		}
+	}
+}
+
+beua_policy_dip_24 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_assimilation_ideas
+		OR = {
+			has_idea_group = plutocracy_ideas
+			has_idea_group = theocracy_gov_ideas
+			has_idea_group = aristocracy_ideas
+			has_idea_group = horde_gov_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = beua_assimilation_ideas
+		OR = {
+			full_idea_group = plutocracy_ideas 
+			full_idea_group = theocracy_gov_ideas
+			full_idea_group = aristocracy_ideas
+			full_idea_group = horde_gov_ideas
+		}	
+	}
+	
+	diplomatic_reputation = 0.75
+	improve_relation_modifier = 0.1			
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_25 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_society_ideas
+		OR = {
+			has_idea_group = plutocracy_ideas
+			has_idea_group = theocracy_gov_ideas
+			has_idea_group = aristocracy_ideas
+			has_idea_group = horde_gov_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = beua_society_ideas
+		OR = {
+			full_idea_group = plutocracy_ideas 
+			full_idea_group = theocracy_gov_ideas
+			full_idea_group = aristocracy_ideas
+			full_idea_group = horde_gov_ideas
+		}	
+	}
+	
+	diplomatic_annexation_cost = -0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_26 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = court_ideas
+		has_idea_group = beua_conscription_ideas
+	}
+
+	allow = {
+		full_idea_group = court_ideas
+		full_idea_group = beua_conscription_ideas
+	}
+	
+	land_maintenance_modifier = -0.1
+	
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 1.5
+			is_at_war = yes
+		}
+	}
+}
+
+beua_policy_dip_27 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_amphibious_ideas
+		has_idea_group = expansion_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_amphibious_ideas
+		full_idea_group = expansion_ideas
+	}
+	
+	global_ship_cost = -0.25
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_28 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_weapon_quality_ideas
+		OR = {
+			has_idea_group = beua_amphibious_ideas
+			has_idea_group = naval_ideas	
+		}
+	}
+	allow = {
+		full_idea_group = beua_weapon_quality_ideas
+		OR = {
+			full_idea_group = beua_amphibious_ideas
+			full_idea_group = naval_ideas
+		}
+	}
+	
+	heavy_ship_power = 0.075
+	galley_power = 0.075
+	light_ship_power = 0.075
+	transport_power = 0.075
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_29 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_amphibious_ideas
+		has_idea_group = economic_ideas
+	}
+	
+	allow = {
+		full_idea_group = beua_amphibious_ideas
+		full_idea_group = economic_ideas
+	}
+	
+	trade_range_modifier = 0.25
+	trade_steering = 0.25
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { trade_income_percentage = 0.1 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.2
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.3
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.4
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.5
+		}	
+	}
+}
+
+beua_policy_dip_30 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_nationalism_ideas
+		has_idea_group = defensive_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_nationalism_ideas
+		full_idea_group = defensive_ideas
+	}
+	
+	hostile_attrition = 2	
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_31 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_nationalism_ideas
+		has_idea_group = beua_fortress_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_nationalism_ideas
+		full_idea_group = beua_fortress_ideas
+	}
+	
+	defensiveness = 0.2
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_32 = {
+	monarch_power = DIP
+
+	potential = {
+		OR = {
+			has_idea_group = beua_imperialist_ambition_ideas
+			has_idea_group = beua_imperialism_ideas
+		}
+		OR = {
+			has_idea_group = religious_ideas   
+			has_idea_group = beua_elven_supremacy_ideas
+		}
+	}
+
+	allow = {
+		OR = {
+			full_idea_group = beua_imperialism_ideas
+			full_idea_group = beua_imperialist_ambition_ideas
+		}
+		OR = {
+			full_idea_group = religious_ideas 
+			full_idea_group = beua_elven_supremacy_ideas
+		}	
+	}
+	
+	religious_unity = 0.5
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_33 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = quantity_ideas
+		OR = {
+			has_idea_group = beua_imperialist_ambition_ideas
+			has_idea_group = beua_imperialism_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = quantity_ideas
+		OR = {
+			full_idea_group = beua_imperialism_ideas
+			full_idea_group = beua_imperialist_ambition_ideas
+		}
+	}
+	
+	land_maintenance_modifier = -0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_34 = {
+	monarch_power = DIP
+
+	potential = {
+		OR = {
+			has_idea_group = beua_imperialist_ambition_ideas
+			has_idea_group = beua_imperialism_ideas
+		}
+		OR = {
+			has_idea_group = plutocracy_ideas
+			has_idea_group = theocracy_gov_ideas
+			has_idea_group = aristocracy_ideas
+			has_idea_group = horde_gov_ideas
+		}
+	}
+
+	allow = {
+		OR = {
+			full_idea_group = beua_imperialism_ideas
+			full_idea_group = beua_imperialist_ambition_ideas
+		}
+		OR = {
+			full_idea_group = plutocracy_ideas 
+			full_idea_group = theocracy_gov_ideas
+			full_idea_group = aristocracy_ideas
+			full_idea_group = horde_gov_ideas
+		}
+	}
+	
+	ae_impact = -0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_35 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = humanist_ideas
+		OR = {
+			has_idea_group = beua_imperialist_ambition_ideas
+			has_idea_group = beua_imperialism_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = humanist_ideas
+		OR = {
+			full_idea_group = beua_imperialism_ideas
+			full_idea_group = beua_imperialist_ambition_ideas
+		}
+	}
+	
+	diplomatic_annexation_cost = -0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_36 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_standing_army
+		OR = {
+			has_idea_group = naval_ideas
+			has_idea_group = beua_amphibious_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = beua_standing_army
+		OR = {
+			full_idea_group = naval_ideas
+			full_idea_group = beua_amphibious_ideas
+		}
+	}
+	
+	global_sailors = 10000
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_37 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_standing_army
+		has_idea_group = influence_ideas 
+	}
+
+	allow = {
+		full_idea_group = beua_standing_army
+		full_idea_group = influence_ideas 
+	}
+	
+	ae_impact = -0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_38 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_conscription_ideas
+		has_idea_group = beua_amphibious_ideas
+	}
+	
+	allow = {
+		full_idea_group = beua_conscription_ideas
+		full_idea_group = beua_amphibious_ideas
+	}
+	
+	naval_morale = 0.15
+	navy_tradition = 1
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_39 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = court_ideas
+		has_idea_group = beua_fortress_ideas
+	}
+
+	allow = {
+		full_idea_group = court_ideas
+		full_idea_group = beua_fortress_ideas
+	}
+	
+	defensiveness = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_40 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_weapon_quality_ideas
+		has_idea_group = spy_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_weapon_quality_ideas
+		full_idea_group = spy_ideas
+	}
+	
+	siege_ability = 0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_41 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_war_production_ideas
+		has_idea_group = trade_ideas 
+	}
+
+	allow = {
+		full_idea_group = beua_war_production_ideas
+		full_idea_group = trade_ideas 
+	}
+	
+	fire_damage = 0.08
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_42 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_fortress_ideas
+		has_idea_group = beua_society_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_fortress_ideas
+		full_idea_group = beua_society_ideas
+	}
+	
+	hostile_attrition = 2
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_43 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_colonial_empire_ideas
+		OR = {
+			has_idea_group = religious_ideas   
+			has_idea_group = beua_elven_supremacy_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = beua_colonial_empire_ideas
+		OR = {
+			full_idea_group = religious_ideas 
+			full_idea_group = beua_elven_supremacy_ideas
+		}	
+	}
+	
+	global_colonial_growth = 20
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_colonists = 1 }
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { num_of_colonies = 1 }
+		}
+	}
+}
+
+beua_policy_dip_44 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_colonial_empire_ideas
+		has_idea_group = economic_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_colonial_empire_ideas
+		full_idea_group = economic_ideas
+	}
+	
+	global_tariffs = 0.15
+	trade_efficiency = 0.1
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { trade_income_percentage = 0.1 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.2
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.3
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.4
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.5
+		}	
+	}
+}
+
+beua_policy_dip_45 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_colonial_empire_ideas
+		has_idea_group = offensive_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_colonial_empire_ideas
+		full_idea_group = offensive_ideas
+	}
+	
+	naval_forcelimit_modifier = 0.25
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_46 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_colonial_empire_ideas
+		has_idea_group = quality_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_colonial_empire_ideas
+		full_idea_group = quality_ideas
+	}
+	
+	colonist_placement_chance = 0.15
+	global_colonial_growth = 10
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_colonists = 1 }
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { num_of_colonies = 1 }
+		}
+	}
+}
+
+beua_policy_dip_47 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_colonial_empire_ideas
+		has_idea_group = quantity_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_colonial_empire_ideas
+		full_idea_group = quantity_ideas
+	}
+	
+	colonists = 1
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_colonists = 1 }
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { num_of_colonies = 1 }
+		}
+	}
+}
+
+beua_policy_dip_48 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_colonial_empire_ideas
+		has_idea_group = infrastructure_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_colonial_empire_ideas
+		full_idea_group = infrastructure_ideas
+	}
+	
+	colonist_placement_chance = 0.10			
+	reduced_liberty_desire = 10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_49 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_colonial_empire_ideas
+		has_idea_group = beua_standing_army
+	}
+
+	allow = {
+		full_idea_group = beua_colonial_empire_ideas
+		full_idea_group = beua_standing_army
+	}
+	
+	land_forcelimit_modifier = 0.2
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_50 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_colonial_empire_ideas
+		has_idea_group = mercenary_ideas 
+	}
+
+	allow = {
+		full_idea_group = beua_colonial_empire_ideas
+		full_idea_group = mercenary_ideas 
+	}
+	
+	mercenary_manpower = 0.25
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_51 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_colonial_empire_ideas
+		has_idea_group = beua_weapon_quality_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_colonial_empire_ideas
+		full_idea_group = beua_weapon_quality_ideas
+	}
+	
+	reinforce_speed = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_52 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_colonial_empire_ideas
+		has_idea_group = beua_fortress_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_colonial_empire_ideas
+		full_idea_group = beua_fortress_ideas
+	}
+	
+	fort_maintenance_modifier = -0.25
+	reduced_liberty_desire = 5
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_53 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_amphibious_ideas
+		has_idea_group = humanist_ideas 
+	}
+
+	allow = {
+		full_idea_group = beua_amphibious_ideas
+		full_idea_group = humanist_ideas 
+	}
+	
+	num_accepted_cultures = 1
+	naval_forcelimit_modifier = 0.15
+	
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 1.5
+			is_at_war = yes
+		}
+	}
+}
+
+beua_policy_dip_54 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_amphibious_ideas
+		has_idea_group = quality_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_amphibious_ideas
+		full_idea_group = quality_ideas
+	}
+	
+	naval_maintenance_modifier = -0.15
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_55 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_amphibious_ideas
+		has_idea_group = offensive_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_amphibious_ideas
+		full_idea_group = offensive_ideas
+	}
+	
+	naval_morale = 0.15
+	range = 0.2
+	
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 1.5
+			is_at_war = yes
+		}
+	}
+}
+
+beua_policy_dip_56 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_amphibious_ideas
+		has_idea_group = quantity_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_amphibious_ideas
+		full_idea_group = quantity_ideas
+	}
+	
+	range = 0.5
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_57 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_amphibious_ideas
+		has_idea_group = beua_health_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_amphibious_ideas
+		full_idea_group = beua_health_ideas
+	}
+	
+	navy_tradition = 1
+	range = 0.25
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_58 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_amphibious_ideas
+		has_idea_group = beua_standing_army
+	}
+
+	allow = {
+		full_idea_group = beua_amphibious_ideas
+		full_idea_group = beua_standing_army
+	}
+	
+	global_manpower_modifier = 0.25
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_59 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_amphibious_ideas
+		has_idea_group = mercenary_ideas 
+	}
+
+	allow = {
+		full_idea_group = beua_amphibious_ideas
+		full_idea_group = mercenary_ideas 
+	}
+	
+	mercenary_cost = -0.1
+	mercenary_manpower = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_60 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = court_ideas
+		has_idea_group = beua_jurisprudence_ideas
+	}
+
+	allow = {
+		full_idea_group = court_ideas
+		full_idea_group = beua_jurisprudence_ideas
+	}
+	
+	improve_relation_modifier = 0.2
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_61 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = court_ideas
+		has_idea_group = beua_health_ideas
+	}
+
+	allow = {
+		full_idea_group = court_ideas
+		full_idea_group = beua_health_ideas
+	}
+	
+	global_institution_spread = 0.2
+	embracement_cost = -0.25
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_62 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = court_ideas
+		has_idea_group = beua_weapon_quality_ideas
+	}
+
+	allow = {
+		full_idea_group = court_ideas
+		full_idea_group = beua_weapon_quality_ideas
+	}
+	
+	merchants = 1
+	global_trade_power = 0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_63 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_nationalism_ideas
+		has_idea_group = humanist_ideas 
+	}
+
+	allow = {
+		full_idea_group = beua_nationalism_ideas
+		full_idea_group = humanist_ideas 
+	}
+	
+	enemy_core_creation = 0.5
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_64 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_nationalism_ideas
+		has_idea_group = quantity_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_nationalism_ideas
+		full_idea_group = quantity_ideas
+	}
+	
+	global_manpower = 15
+	global_sailors = 4500
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_65 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_nationalism_ideas
+		has_idea_group = mercenary_ideas 
+	}
+
+	allow = {
+		full_idea_group = beua_nationalism_ideas
+		full_idea_group = mercenary_ideas 
+	}
+	
+	hostile_attrition = 2
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_66 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_society_ideas
+		has_idea_group = humanist_ideas 
+	}
+
+	allow = {
+		full_idea_group = beua_society_ideas
+		full_idea_group = humanist_ideas 
+	}
+	
+	tolerance_heathen = 1
+	tolerance_heretic = 1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_67 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_society_ideas
+		has_idea_group = defensive_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_society_ideas
+		full_idea_group = defensive_ideas
+	}
+	
+	defensiveness = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_68 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_society_ideas
+		has_idea_group = offensive_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_society_ideas
+		full_idea_group = offensive_ideas
+	}
+	
+	embracement_cost = -0.5
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_69 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_society_ideas
+		has_idea_group = infrastructure_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_society_ideas
+		full_idea_group = infrastructure_ideas
+	}
+	
+	global_tariffs = 0.25
+	
+	ai_will_do = {
+		factor = 1
+				
+	}
+}
+
+beua_policy_dip_70 = {
+	monarch_power = DIP	
+
+	potential = {
+		has_idea_group = beua_assimilation_ideas
+		has_idea_group = administrative_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_assimilation_ideas
+		full_idea_group = administrative_ideas
+	}
+	
+	native_assimilation = 0.5
+	diplomatic_annexation_cost = -0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_71 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_assimilation_ideas
+		has_idea_group = innovativeness_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_assimilation_ideas
+		full_idea_group = innovativeness_ideas
+	}
+	
+	global_foreign_trade_power = 0.3		
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { trade_income_percentage = 0.1 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.2
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.3
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.4
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.5
+		}	
+	}
+}
+
+beua_policy_dip_72 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_assimilation_ideas
+		has_idea_group = offensive_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_assimilation_ideas
+		full_idea_group = offensive_ideas
+	}
+	
+	global_missionary_strength = 0.02
+	culture_conversion_cost = -0.1
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			religious_unity = 1
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { religious_unity = 0.8 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { religious_unity = 0.6 }
+		}			
+		modifier = {
+			factor = 1.5
+			NOT = { religious_unity = 0.4 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { religious_unity = 0.2 }
+		}			
+	}
+}
+
+beua_policy_dip_73 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_assimilation_ideas
+		has_idea_group = quantity_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_assimilation_ideas
+		full_idea_group = quantity_ideas
+	}
+	
+	cav_to_inf_ratio = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_74 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_assimilation_ideas
+		has_idea_group = infrastructure_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_assimilation_ideas
+		full_idea_group = infrastructure_ideas
+	}
+	
+	colonist_placement_chance = 0.25
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_75 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_assimilation_ideas
+		has_idea_group = beua_weapon_quality_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_assimilation_ideas
+		full_idea_group = beua_weapon_quality_ideas
+	}
+	
+	
+	mil_tech_cost_modifier = -0.1
+	trade_efficiency = 0.075
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { trade_income_percentage = 0.1 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.2
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.3
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.4
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.5
+		}	
+	}
+}
+
+beua_policy_dip_76 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = defensive_ideas
+		OR = {
+			has_idea_group = beua_imperialist_ambition_ideas
+			has_idea_group = beua_imperialism_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = defensive_ideas
+		OR = {
+			full_idea_group = beua_imperialism_ideas
+			full_idea_group = beua_imperialist_ambition_ideas
+		}
+	}
+	
+	defensiveness = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_77 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_general_staff_ideas
+		OR = {
+			has_idea_group = beua_imperialist_ambition_ideas
+			has_idea_group = beua_imperialism_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = beua_general_staff_ideas
+		OR = {
+			full_idea_group = beua_imperialism_ideas
+			full_idea_group = beua_imperialist_ambition_ideas
+		}
+	}
+	
+	land_maintenance_modifier = -0.05
+	land_forcelimit_modifier = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_78 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_fortress_ideas
+		OR = {
+			has_idea_group = beua_imperialist_ambition_ideas
+			has_idea_group = beua_imperialism_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = beua_fortress_ideas
+		OR = {
+			full_idea_group = beua_imperialism_ideas
+			full_idea_group = beua_imperialist_ambition_ideas
+		}
+	}
+	
+	defensiveness = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_79 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = diplomatic_ideas
+		has_idea_group = beua_jurisprudence_ideas
+	}
+
+	allow = {
+		full_idea_group = diplomatic_ideas
+		full_idea_group = beua_jurisprudence_ideas
+		NOT = {
+			calc_true_if = {
+				amount = 2
+				has_active_policy = beua_policy_adm_30
+				has_active_policy = beua_policy_adm_40
+				has_active_policy = beua_policy_adm_67
+				has_active_policy = beua_policy_adm_105
+				has_active_policy = beua_policy_adm_123
+				has_active_policy = beua_policy_adm_136
+				has_active_policy = beua_policy_adm_148
+				has_active_policy = beua_policy_adm_194
+				has_active_policy = beua_policy_dip_79
+				has_active_policy = beua_policy_dip_91
+			}
+		}
+	}
+	
+	interest = -2				
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_80 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = diplomatic_ideas
+		has_idea_group = beua_health_ideas
+	}
+
+	allow = {
+		full_idea_group = diplomatic_ideas
+		full_idea_group = beua_health_ideas
+	}
+	
+	reduced_liberty_desire = 10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_81 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = diplomatic_ideas
+		has_idea_group = beua_state_administration_ideas
+	}
+
+	allow = {
+		full_idea_group = diplomatic_ideas
+		full_idea_group = beua_state_administration_ideas
+	}
+	
+	diplomats = 1
+	diplomatic_annexation_cost = -0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_82 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = diplomatic_ideas
+		has_idea_group = beua_standing_army
+	}
+
+	allow = {
+		full_idea_group = diplomatic_ideas
+		full_idea_group = beua_standing_army
+	}
+	
+	ae_impact = -0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_83 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = diplomatic_ideas
+		has_idea_group = beua_weapon_quality_ideas
+	}
+
+	allow = {
+		full_idea_group = diplomatic_ideas
+		full_idea_group = beua_weapon_quality_ideas
+	}
+	
+	mil_tech_cost_modifier = -0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_84 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = diplomatic_ideas
+		has_idea_group = beua_fortress_ideas
+	}
+
+	allow = {
+		full_idea_group = diplomatic_ideas
+		full_idea_group = beua_fortress_ideas
+	}
+	
+	diplomatic_reputation = 1.5
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_85 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = spy_ideas 
+		has_idea_group = beua_jurisprudence_ideas
+	}
+
+	allow = {
+		full_idea_group = spy_ideas 
+		full_idea_group = beua_jurisprudence_ideas
+	}
+	
+	global_spy_defence = 0.35
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_86 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = spy_ideas 
+		has_idea_group = beua_health_ideas
+	}
+
+	allow = {
+		full_idea_group = spy_ideas 
+		full_idea_group = beua_health_ideas
+	}
+	
+	idea_cost = -0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_87 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = exploration_ideas
+		has_idea_group = beua_health_ideas
+	}
+
+	allow = {
+		full_idea_group = exploration_ideas
+		full_idea_group = beua_health_ideas
+	}
+	
+	colonist_placement_chance = 0.15
+	global_colonial_growth = 10
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_colonists = 1 }
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { num_of_colonies = 1 }
+		}
+	}
+}
+
+beua_policy_dip_88 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = exploration_ideas
+		has_idea_group = beua_conscription_ideas
+	}
+
+	allow = {
+		full_idea_group = exploration_ideas
+		full_idea_group = beua_conscription_ideas
+	}
+	
+	trade_efficiency = 0.15
+	trade_range_modifier = 0.25
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { trade_income_percentage = 0.1 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.2
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.3
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.4
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.5
+		}	
+	}
+}
+
+beua_policy_dip_89 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = exploration_ideas
+		has_idea_group = beua_standing_army
+	}
+
+	allow = {
+		full_idea_group = exploration_ideas
+		full_idea_group = beua_standing_army
+	}
+	
+	global_sailors_modifier = 0.25
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_90 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = exploration_ideas
+		has_idea_group = beua_fortress_ideas
+	}
+
+	allow = {
+		full_idea_group = exploration_ideas
+		full_idea_group = beua_fortress_ideas
+	}
+	
+	defensiveness = 0.1
+	siege_ability = 0.075
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_91 = {
+	monarch_power = DIP				
+
+	potential = {
+		has_idea_group = influence_ideas 
+		has_idea_group = beua_state_administration_ideas
+	}
+
+	allow = {
+		full_idea_group = influence_ideas 
+		full_idea_group = beua_state_administration_ideas
+		NOT = {
+			calc_true_if = {
+				amount = 2
+				has_active_policy = beua_policy_adm_30
+				has_active_policy = beua_policy_adm_40
+				has_active_policy = beua_policy_adm_67
+				has_active_policy = beua_policy_adm_105
+				has_active_policy = beua_policy_adm_123
+				has_active_policy = beua_policy_adm_136
+				has_active_policy = beua_policy_adm_148
+				has_active_policy = beua_policy_adm_194
+				has_active_policy = beua_policy_dip_79
+				has_active_policy = beua_policy_dip_91
+			}
+		}
+	}
+	
+	heir_chance = 2
+	interest = -1			
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_92 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = influence_ideas 
+		has_idea_group = beua_general_staff_ideas
+	}
+
+	allow = {
+		full_idea_group = influence_ideas 
+		full_idea_group = beua_general_staff_ideas
+	}
+	
+	yearly_absolutism = 1.0
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_93 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = influence_ideas 
+		has_idea_group = beua_weapon_quality_ideas
+	}
+
+	allow = {
+		full_idea_group = influence_ideas 
+		full_idea_group = beua_weapon_quality_ideas
+	}
+	
+	land_forcelimit = 10
+	naval_forcelimit = 20
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_94 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = influence_ideas 
+		has_idea_group = beua_fortress_ideas
+	}
+
+	allow = {
+		full_idea_group = influence_ideas 
+		full_idea_group = beua_fortress_ideas
+	}
+	
+	fort_maintenance_modifier = -0.25
+	garrison_size = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_95 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = influence_ideas 
+		has_idea_group = beua_war_production_ideas
+	}
+
+	allow = {
+		full_idea_group = influence_ideas 
+		full_idea_group = beua_war_production_ideas
+	}
+	
+	ae_impact = -0.1
+	
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_96 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = maritime_ideas
+		has_idea_group = beua_jurisprudence_ideas
+	}
+	
+	allow = {
+		full_idea_group = maritime_ideas
+		full_idea_group = beua_jurisprudence_ideas
+	}
+	
+	global_ship_cost = -0.15
+	global_ship_recruit_speed = -0.25
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_97 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = maritime_ideas
+		has_idea_group = beua_conscription_ideas
+	}
+
+	allow = {
+		full_idea_group = maritime_ideas
+		full_idea_group = beua_conscription_ideas
+	}
+	
+	sailors_recovery_speed = 0.25
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_98 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = maritime_ideas
+		has_idea_group = beua_standing_army
+	}
+
+	allow = {
+		full_idea_group = maritime_ideas
+		full_idea_group = beua_standing_army
+	}
+	
+	global_sailors_modifier = 0.25
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_99 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = maritime_ideas
+		has_idea_group = beua_weapon_quality_ideas
+	}
+
+	allow = {
+		full_idea_group = maritime_ideas
+		full_idea_group = beua_weapon_quality_ideas
+	}
+	
+	heavy_ship_power = 0.075
+	galley_power = 0.075
+	light_ship_power = 0.075
+	transport_power = 0.075
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_100 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = maritime_ideas
+		has_idea_group = beua_fortress_ideas
+	}
+
+	allow = {
+		full_idea_group = maritime_ideas
+		full_idea_group = beua_fortress_ideas
+	}
+	
+	heavy_ship_cost = -0.2
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_101 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = maritime_ideas
+		has_idea_group = beua_war_production_ideas
+	}
+
+	allow = {
+		full_idea_group = maritime_ideas
+		full_idea_group = beua_war_production_ideas
+	}
+	
+	global_ship_cost = -0.2
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_102 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = trade_ideas 
+		has_idea_group = beua_health_ideas
+	}
+
+	allow = {
+		full_idea_group = trade_ideas 
+		full_idea_group = beua_health_ideas
+	}
+	
+	merchants = 1
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { trade_income_percentage = 0.1 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.2
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.3
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.4
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.5
+		}	
+	}
+}
+
+beua_policy_dip_103 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = trade_ideas 
+		has_idea_group = beua_state_administration_ideas
+	}
+
+	allow = {
+		full_idea_group = trade_ideas 
+		full_idea_group = beua_state_administration_ideas
+	}
+	
+	caravan_power = 0.15
+	trade_steering = 0.1
+	embargo_efficiency = 0.25
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { trade_income_percentage = 0.1 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.2
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.3
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.4
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.5
+		}	
+	}
+}
+
+beua_policy_dip_104 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = trade_ideas 
+		has_idea_group = beua_general_staff_ideas
+	}
+
+	allow = {
+		full_idea_group = trade_ideas 
+		full_idea_group = beua_general_staff_ideas
+	}
+	
+	merchants = 1
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { trade_income_percentage = 0.1 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.2
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.3
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.4
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.5
+		}	
+	}
+}
+
+beua_policy_dip_105 = {
+	monarch_power = DIP		
+
+	potential = {
+		has_idea_group = trade_ideas 
+		has_idea_group = beua_conscription_ideas
+	}
+
+	allow = {
+		full_idea_group = trade_ideas 
+		full_idea_group = beua_conscription_ideas
+	}
+	
+	global_prov_trade_power_modifier = 0.2
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { trade_income_percentage = 0.1 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.2
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.3
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.4
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.5
+		}	
+	}
+}
+
+beua_policy_dip_106 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = trade_ideas 
+		has_idea_group = beua_fortress_ideas
+	}
+
+	allow = {
+		full_idea_group = trade_ideas 
+		full_idea_group = beua_fortress_ideas
+	}
+	
+	trade_efficiency = 0.1
+	light_ship_power = 0.15
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { trade_income_percentage = 0.1 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.2
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.3
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.4
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.5
+		}	
+	}
+}
+
+beua_policy_dip_107 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_weapon_quality_ideas
+		has_idea_group = expansion_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_weapon_quality_ideas
+		full_idea_group = expansion_ideas
+	}
+	
+	range = 0.5
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_108 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_war_production_ideas
+		OR = {
+			has_idea_group = theocracy_gov_ideas
+			has_idea_group = aristocracy_ideas
+			has_idea_group = horde_gov_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = beua_war_production_ideas
+		OR = {
+			full_idea_group = theocracy_gov_ideas
+			full_idea_group = aristocracy_ideas
+			full_idea_group = horde_gov_ideas
+		}
+	}
+	
+	global_own_trade_power = 0.2
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { trade_income_percentage = 0.1 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.2
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.3
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.4
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.5
+		}	
+	}
+}
+
+beua_policy_dip_109 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_conscription_ideas
+		OR = {
+			has_idea_group = naval_ideas
+			has_idea_group = beua_amphibious_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = beua_conscription_ideas
+		OR = {
+			full_idea_group = naval_ideas
+			full_idea_group = beua_amphibious_ideas
+		}
+	}
+	
+	global_sailors_modifier = 0.25
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_110 = {
+	monarch_power = DIP
+	potential = {
+		has_idea_group = quantity_ideas
+		OR = {
+			has_idea_group = naval_ideas
+			has_idea_group = beua_amphibious_ideas
+		}		
+	}
+
+	allow = {
+		full_idea_group = quantity_ideas
+		OR = {
+			full_idea_group = naval_ideas
+			full_idea_group = beua_amphibious_ideas
+		}
+	}
+	
+	naval_forcelimit_modifier = 0.33
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_111 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = mercenary_ideas 
+		OR = {
+			has_idea_group = naval_ideas
+			has_idea_group = beua_amphibious_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = mercenary_ideas 
+		OR = {
+			full_idea_group = naval_ideas
+			full_idea_group = beua_amphibious_ideas
+		}
+	}
+	
+	privateer_efficiency = 1
+	naval_maintenance_modifier = -0.1
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_112 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_jurisprudence_ideas
+		OR = {
+			has_idea_group = naval_ideas
+			has_idea_group = beua_amphibious_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = beua_jurisprudence_ideas
+		OR = {
+			full_idea_group = naval_ideas
+			full_idea_group = beua_amphibious_ideas
+		}
+	}
+	
+	naval_morale = 0.15
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_113 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = defensive_ideas
+		OR = {
+			has_idea_group = naval_ideas
+			has_idea_group = beua_amphibious_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = defensive_ideas
+		OR = {
+			full_idea_group = naval_ideas
+			full_idea_group = beua_amphibious_ideas
+		}
+	}
+	
+	defensiveness = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_114 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_amphibious_ideas
+		has_idea_group = plutocracy_ideas
+			
+	}
+	allow = {
+		full_idea_group = beua_amphibious_ideas
+		full_idea_group = plutocracy_ideas
+	}
+	
+	navy_tradition = 1
+	naval_forcelimit = 25
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_115 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_amphibious_ideas
+		has_idea_group = beua_fortress_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_amphibious_ideas
+		full_idea_group = beua_fortress_ideas
+	}
+	
+	galley_power = 0.075
+	capture_ship_chance = 0.075
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_116 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_militarism_ideas
+		has_idea_group = spy_ideas 
+	}
+
+	allow = {
+		full_idea_group = beua_militarism_ideas
+		full_idea_group = spy_ideas 
+	}
+	
+	global_spy_defence = 0.35
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_117 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_militarism_ideas
+		has_idea_group = exploration_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_militarism_ideas
+		full_idea_group = exploration_ideas
+	}
+	
+	global_colonial_growth = 35
+	native_uprising_chance = 0.5
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_118 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_militarism_ideas
+		has_idea_group = maritime_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_militarism_ideas
+		full_idea_group = maritime_ideas
+	}
+	
+	naval_morale = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_119 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_militarism_ideas
+		has_idea_group = naval_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_militarism_ideas
+		full_idea_group = naval_ideas
+	}
+	
+	heavy_ship_power = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_120 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_militarism_ideas
+		has_idea_group = beua_amphibious_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_militarism_ideas
+		full_idea_group = beua_amphibious_ideas
+	}
+	
+	galley_power = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_121 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_militarism_ideas
+		has_idea_group = naval_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_militarism_ideas
+		full_idea_group = naval_ideas
+	}
+	
+	light_ship_power = 0.15
+	transport_power = 0.15
+	privateer_efficiency = 1.0
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_122 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_militarism_ideas
+		has_idea_group = beua_assimilation_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_militarism_ideas
+		full_idea_group = beua_assimilation_ideas
+	}
+	
+	global_manpower_modifier = 0.25
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_123 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_militarism_ideas
+		has_idea_group = court_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_militarism_ideas
+		full_idea_group = court_ideas
+	}
+	
+	war_exhaustion = -0.02
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_124 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_militarism_ideas
+		has_idea_group = beua_amphibious_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_militarism_ideas
+		full_idea_group = beua_amphibious_ideas
+	}
+	
+	defensiveness = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_125 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_militarism_ideas
+		OR = {
+			has_idea_group = beua_imperialist_ambition_ideas
+			has_idea_group = beua_imperialism_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = beua_militarism_ideas
+		OR = {
+			full_idea_group = beua_imperialism_ideas
+			full_idea_group = beua_imperialist_ambition_ideas
+		}
+	}
+	
+	global_autonomy = -0.05
+	imperial_authority = 0.25
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_126 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = influence_ideas 
+		OR = {
+			has_idea_group = beua_strategic_ideas
+			has_idea_group = beua_serpentspine_ideas
+			has_idea_group = beua_legionary_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = influence_ideas 
+		OR = {
+			full_idea_group = beua_strategic_ideas
+			full_idea_group = beua_serpentspine_ideas
+			full_idea_group = beua_legionary_ideas
+		}
+	}
+	
+	land_morale = 0.08
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_127 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = maritime_ideas
+		OR = {
+			has_idea_group = beua_strategic_ideas
+			has_idea_group = beua_serpentspine_ideas
+			has_idea_group = beua_legionary_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = maritime_ideas
+		OR = {
+			full_idea_group = beua_strategic_ideas
+			full_idea_group = beua_serpentspine_ideas
+			full_idea_group = beua_legionary_ideas
+		}
+	}
+	
+	galley_power = 0.075
+	heavy_ship_power = 0.075
+	light_ship_power = 0.075
+	transport_power = 0.075
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_128 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = naval_ideas
+		OR = {
+			has_idea_group = beua_strategic_ideas
+			has_idea_group = beua_serpentspine_ideas
+			has_idea_group = beua_legionary_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = naval_ideas
+		OR = {
+			full_idea_group = beua_strategic_ideas
+			full_idea_group = beua_serpentspine_ideas
+			full_idea_group = beua_legionary_ideas
+		}
+	}
+	
+	navy_tradition = 1
+	naval_morale = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_129 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_amphibious_ideas
+		OR = {
+			has_idea_group = beua_strategic_ideas
+			has_idea_group = beua_serpentspine_ideas
+			has_idea_group = beua_legionary_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = beua_amphibious_ideas
+		OR = {
+			full_idea_group = beua_strategic_ideas
+			full_idea_group = beua_serpentspine_ideas
+			full_idea_group = beua_legionary_ideas
+		}
+	}
+	
+	galley_power = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_130 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = naval_ideas
+		OR = {
+			full_idea_group = beua_strategic_ideas
+			full_idea_group = beua_serpentspine_ideas
+			full_idea_group = beua_legionary_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = naval_ideas
+		OR = {
+			full_idea_group = beua_strategic_ideas
+			full_idea_group = beua_serpentspine_ideas
+			full_idea_group = beua_legionary_ideas
+		}
+	}
+	
+	heavy_ship_power = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_131 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_assimilation_ideas
+		OR = {
+			has_idea_group = beua_strategic_ideas
+			has_idea_group = beua_serpentspine_ideas
+			has_idea_group = beua_legionary_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = beua_assimilation_ideas
+		OR = {
+			full_idea_group = beua_strategic_ideas
+			full_idea_group = beua_serpentspine_ideas
+			full_idea_group = beua_legionary_ideas
+		}
+	}
+	
+	build_cost = -0.05
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_132 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_amphibious_ideas
+		OR = {
+			has_idea_group = beua_strategic_ideas
+			has_idea_group = beua_serpentspine_ideas
+			has_idea_group = beua_legionary_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = beua_amphibious_ideas
+		OR = {
+			full_idea_group = beua_strategic_ideas
+			full_idea_group = beua_serpentspine_ideas
+			full_idea_group = beua_legionary_ideas
+		}
+	}
+	
+	naval_morale = 0.1
+	naval_forcelimit_modifier = 0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_133 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_nationalism_ideas
+		OR = {
+			has_idea_group = beua_strategic_ideas
+			has_idea_group = beua_serpentspine_ideas
+			has_idea_group = beua_legionary_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = beua_nationalism_ideas
+		OR = {
+			full_idea_group = beua_strategic_ideas
+			full_idea_group = beua_serpentspine_ideas
+			full_idea_group = beua_legionary_ideas
+		}
+	}
+	
+	enemy_core_creation = 0.5
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_134 = {
+	monarch_power = DIP
+
+	potential = {
+		OR = {
+			has_idea_group = beua_strategic_ideas
+			has_idea_group = beua_serpentspine_ideas
+			has_idea_group = beua_legionary_ideas
+		}
+		OR = {
+			has_idea_group = beua_imperialist_ambition_ideas
+			has_idea_group = beua_imperialism_ideas
+		}
+	}
+
+	allow = {
+		OR = {
+			full_idea_group = beua_strategic_ideas
+			full_idea_group = beua_serpentspine_ideas
+			full_idea_group = beua_legionary_ideas
+		}
+		OR = {
+			full_idea_group = beua_imperialism_ideas
+			full_idea_group = beua_imperialist_ambition_ideas
+		}
+	}
+	
+	num_accepted_cultures = 1
+	trade_steering = 0.25
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_135 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = quality_ideas
+		OR = {
+			has_idea_group = beua_amphibious_ideas
+			has_idea_group = naval_ideas	
+		}
+	}
+
+	allow = {
+		full_idea_group = quality_ideas
+		OR = {
+			full_idea_group = beua_amphibious_ideas
+			full_idea_group = naval_ideas
+		}
+	}
+	
+	naval_morale = 0.15
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+beua_policy_dip_136 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_shock_ideas
+		has_idea_group = spy_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_shock_ideas
+		full_idea_group = spy_ideas
+	}
+	
+	cav_to_inf_ratio = 0.15	
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_137 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_shock_ideas
+		has_idea_group = trade_ideas 
+	}
+
+	allow = {
+		full_idea_group = beua_shock_ideas
+		full_idea_group = trade_ideas 
+	}
+	
+	embargo_efficiency = 0.25
+	global_foreign_trade_power = 0.2
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_138 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_shock_ideas
+		has_idea_group = exploration_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_shock_ideas
+		full_idea_group = exploration_ideas
+	}
+	
+	land_forcelimit_modifier = 0.2
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_139 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_shock_ideas
+		has_idea_group = naval_ideas 
+	}
+
+	allow = {
+		full_idea_group = beua_shock_ideas
+		full_idea_group = naval_ideas 
+	}
+	
+	heavy_ship_power = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_140 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_shock_ideas
+		has_idea_group = naval_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_shock_ideas
+		full_idea_group = naval_ideas
+	}
+	
+	light_ship_power = 0.2
+	transport_power = 0.2
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_141 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_shock_ideas
+		has_idea_group = beua_amphibious_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_shock_ideas
+		full_idea_group = beua_amphibious_ideas
+	}
+	
+	galley_power = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_142 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_shock_ideas
+		has_idea_group = beua_colonial_empire_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_shock_ideas
+		full_idea_group = beua_colonial_empire_ideas
+	}
+	
+	reduced_liberty_desire = 10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_143 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_shock_ideas
+		has_idea_group = beua_society_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_shock_ideas
+		full_idea_group = beua_society_ideas
+	}
+	
+	culture_conversion_cost = -0.2
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_144 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_shock_ideas
+		has_idea_group = beua_amphibious_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_shock_ideas
+		full_idea_group = beua_amphibious_ideas
+	}
+	
+	global_sailors = 5000
+	naval_forcelimit = 20
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_145 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_shock_ideas
+		OR = {
+			has_idea_group = beua_imperialist_ambition_ideas
+			has_idea_group = beua_imperialism_ideas
+		}
+	}
+	allow = {
+		full_idea_group = beua_shock_ideas
+		OR = {
+			full_idea_group = beua_imperialism_ideas
+			full_idea_group = beua_imperialist_ambition_ideas
+		}
+	}
+	
+	global_sailors = 15000
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_146 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_fire_ideas
+		has_idea_group = spy_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_fire_ideas
+		full_idea_group = spy_ideas
+	}
+	
+	diplomatic_reputation = 0.75
+	diplomatic_upkeep = 1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_147 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_fire_ideas
+		has_idea_group = diplomatic_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_fire_ideas
+		full_idea_group = diplomatic_ideas
+	}
+	
+	manpower_recovery_speed = 0.2
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_148 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_fire_ideas
+		has_idea_group = maritime_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_fire_ideas
+		full_idea_group = maritime_ideas
+	}
+	
+	heavy_ship_power = 0.075
+	galley_power = 0.075
+	light_ship_power = 0.075
+	transport_power = 0.075
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_149 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_fire_ideas
+		has_idea_group = beua_jurisprudence_ideas 
+	}
+
+	allow = {
+		full_idea_group = beua_fire_ideas
+		full_idea_group = beua_jurisprudence_ideas 
+	}
+	
+	province_warscore_cost = -0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_150 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_fire_ideas
+		has_idea_group = naval_ideas 
+	}
+
+	allow = {
+		full_idea_group = beua_fire_ideas
+		full_idea_group = naval_ideas 
+	}
+	
+	heavy_ship_power = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_151 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_fire_ideas
+		has_idea_group = naval_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_fire_ideas
+		full_idea_group = naval_ideas
+	}
+
+	light_ship_power = 0.3
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_152 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_fire_ideas
+		has_idea_group = beua_amphibious_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_fire_ideas
+		full_idea_group = beua_amphibious_ideas
+	}
+	
+	galley_power = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_153 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_fire_ideas
+		has_idea_group = beua_society_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_fire_ideas
+		full_idea_group = beua_society_ideas
+	}
+	
+	yearly_absolutism = 1.0
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_154 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_fire_ideas
+		has_idea_group = court_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_fire_ideas
+		full_idea_group = court_ideas
+	}
+	
+	improve_relation_modifier = 0.2
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_155 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_fire_ideas
+		has_idea_group = beua_nationalism_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_fire_ideas
+		full_idea_group = beua_nationalism_ideas
+	}
+	
+	land_maintenance_modifier = -0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_156 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_fire_ideas
+		has_idea_group = beua_state_administration_ideas 
+	}
+
+	allow = {
+		full_idea_group = beua_fire_ideas
+		full_idea_group = beua_state_administration_ideas 
+	}
+	
+	trade_efficiency = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_157 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_centralism_ideas
+		has_idea_group = diplomatic_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_centralism_ideas
+		full_idea_group = diplomatic_ideas
+	}
+	
+	diplomats = 1
+	diplomatic_upkeep = 1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_158 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_centralism_ideas
+		has_idea_group = influence_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_centralism_ideas
+		full_idea_group = influence_ideas
+	}
+	
+	improve_relation_modifier = 0.2
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_159 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_centralism_ideas
+		has_idea_group = trade_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_centralism_ideas
+		full_idea_group = trade_ideas
+		NOT = {
+			calc_true_if = {
+				amount = 3
+				has_active_policy = beua_policy_adm_13
+				has_active_policy = beua_policy_adm_48
+				has_active_policy = beua_policy_adm_71
+				has_active_policy = beua_policy_adm_89
+				has_active_policy = beua_policy_adm_107
+				has_active_policy = beua_policy_adm_149
+				has_active_policy = beua_policy_adm_159
+				has_active_policy = beua_policy_adm_173
+				has_active_policy = beua_policy_adm_181
+				has_active_policy = beua_policy_adm_208
+				has_active_policy = beua_policy_dip_159
+				has_active_policy = beua_policy_dip_169
+				has_active_policy = beua_policy_dip_180
+				has_active_policy = beua_policy_dip_220
+			}
+		}
+	}
+	
+	development_cost = -0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_160 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_centralism_ideas
+		has_idea_group = exploration_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_centralism_ideas
+		full_idea_group = exploration_ideas
+	}
+	
+	colonists = 1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_161 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_centralism_ideas
+		has_idea_group = maritime_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_centralism_ideas
+		full_idea_group = maritime_ideas
+	}
+	
+	naval_forcelimit_modifier = 0.1
+	naval_maintenance_modifier = -0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_162 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_centralism_ideas
+		has_idea_group = naval_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_centralism_ideas
+		full_idea_group = naval_ideas
+	}
+	
+	naval_forcelimit_modifier = 0.15
+	global_sailors_modifier = 0.25
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_163 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_centralism_ideas
+		has_idea_group = naval_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_centralism_ideas
+		full_idea_group = naval_ideas
+	}
+	
+	naval_forcelimit_modifier = 0.33
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_164 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_centralism_ideas
+		has_idea_group = beua_amphibious_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_centralism_ideas
+		full_idea_group = beua_amphibious_ideas
+	}
+	
+	naval_forcelimit = 20
+	global_sailors = 2000
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_165 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_centralism_ideas
+		has_idea_group = beua_colonial_empire_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_centralism_ideas
+		full_idea_group = beua_colonial_empire_ideas
+	}
+	
+	global_tariffs = 0.25
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_166 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_centralism_ideas
+		has_idea_group = beua_assimilation_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_centralism_ideas
+		full_idea_group = beua_assimilation_ideas
+	}
+	
+	global_colonial_growth = 15
+	culture_conversion_cost = -0.15
+	
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+beua_policy_dip_167 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_centralism_ideas
+		OR = {
+			has_idea_group = beua_strategic_ideas
+			has_idea_group = beua_serpentspine_ideas
+			has_idea_group = beua_legionary_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = beua_centralism_ideas
+		OR = {
+			full_idea_group = beua_strategic_ideas
+			full_idea_group = beua_serpentspine_ideas
+			full_idea_group = beua_legionary_ideas
+		}
+	}
+	
+	diplomats = 1
+	diplomatic_reputation = 0.75
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_168 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_decentralism_ideas
+		has_idea_group = spy_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_decentralism_ideas
+		full_idea_group = spy_ideas
+	}
+	
+	province_warscore_cost = -0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_169 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_decentralism_ideas
+		has_idea_group = trade_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_decentralism_ideas
+		full_idea_group = trade_ideas
+		NOT = {
+			calc_true_if = {
+				amount = 3
+				has_active_policy = beua_policy_adm_13
+				has_active_policy = beua_policy_adm_48
+				has_active_policy = beua_policy_adm_71
+				has_active_policy = beua_policy_adm_89
+				has_active_policy = beua_policy_adm_107
+				has_active_policy = beua_policy_adm_149
+				has_active_policy = beua_policy_adm_159
+				has_active_policy = beua_policy_adm_173
+				has_active_policy = beua_policy_adm_181
+				has_active_policy = beua_policy_adm_208
+				has_active_policy = beua_policy_dip_159
+				has_active_policy = beua_policy_dip_169
+				has_active_policy = beua_policy_dip_180
+				has_active_policy = beua_policy_dip_220
+			}
+		}
+	}
+	
+	development_cost = -0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_170 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_decentralism_ideas
+		has_idea_group = exploration_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_decentralism_ideas
+		full_idea_group = exploration_ideas
+	}
+	
+	colonists = 1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_171 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_decentralism_ideas
+		has_idea_group = maritime_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_decentralism_ideas
+		full_idea_group = maritime_ideas
+	}
+	
+	navy_tradition = 2
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_172 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_decentralism_ideas
+		has_idea_group = naval_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_decentralism_ideas
+		full_idea_group = naval_ideas
+	}
+	
+	naval_morale = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_173 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_decentralism_ideas
+		has_idea_group = naval_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_decentralism_ideas
+		full_idea_group = naval_ideas
+	}
+	
+	heavy_ship_power = 0.075
+	galley_power = 0.075
+	light_ship_power = 0.075
+	transport_power = 0.075
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_174 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_decentralism_ideas
+		has_idea_group = beua_colonial_empire_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_decentralism_ideas
+		full_idea_group = beua_colonial_empire_ideas
+	}
+	
+	range = 0.5
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_175 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_decentralism_ideas
+		has_idea_group = beua_assimilation_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_decentralism_ideas
+		full_idea_group = beua_assimilation_ideas
+	}
+	
+	num_accepted_cultures = 1
+	culture_conversion_cost = -0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_176 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_decentralism_ideas
+		has_idea_group = court_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_decentralism_ideas
+		full_idea_group = court_ideas
+	}
+	
+	yearly_absolutism = 1.0
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_177 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_decentralism_ideas
+		has_idea_group = beua_amphibious_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_decentralism_ideas
+		full_idea_group = beua_amphibious_ideas
+	}
+	
+	range = 0.5
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_178 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_magocratic_ideas
+		has_idea_group = innovative_ideas
+	}
+	
+	allow = {
+		full_idea_group = beua_magocratic_ideas
+		full_idea_group = innovative_ideas
+	}
+
+	monarch_lifespan = 0.25
+	
+	ai_will_do = {
+		factor = 1
+	}	
+}
+
+beua_policy_dip_179 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_artificery_ideas
+		has_idea_group = beua_assimilation_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_artificery_ideas
+		full_idea_group = beua_assimilation_ideas
+	}
+	
+	culture_conversion_cost = -0.15
+	technology_cost = -0.05
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_180 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_artificery_ideas
+		has_idea_group = beua_society_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_artificery_ideas
+		full_idea_group = beua_society_ideas
+		NOT = {
+			calc_true_if = {
+				amount = 3
+				has_active_policy = beua_policy_adm_13
+				has_active_policy = beua_policy_adm_48
+				has_active_policy = beua_policy_adm_71
+				has_active_policy = beua_policy_adm_89
+				has_active_policy = beua_policy_adm_107
+				has_active_policy = beua_policy_adm_149
+				has_active_policy = beua_policy_adm_159
+				has_active_policy = beua_policy_adm_173
+				has_active_policy = beua_policy_adm_181
+				has_active_policy = beua_policy_adm_208
+				has_active_policy = beua_policy_dip_159
+				has_active_policy = beua_policy_dip_169
+				has_active_policy = beua_policy_dip_180
+				has_active_policy = beua_policy_dip_220
+			}
+		}
+	}
+	
+	innovativeness_gain = 0.35
+	development_cost = -0.05
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_181 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_artificery_ideas
+		has_idea_group = propoganda0
+	}
+
+	allow = {
+		full_idea_group = beua_artificery_ideas
+		full_idea_group = propoganda0
+	}
+	
+	global_spy_defence = 0.3
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_182 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_artificery_ideas
+		OR = {
+			has_idea_group = beua_imperialist_ambition_ideas
+			has_idea_group = beua_imperialism_ideas
+		}
+	}
+	allow = {
+		full_idea_group = beua_artificery_ideas
+		OR = {
+			full_idea_group = beua_imperialist_ambition_ideas
+			full_idea_group = beua_imperialism_ideas
+		}
+	}
+	
+	prestige = 0.5
+	production_efficiency = 0.1
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_183 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_artificery_ideas
+		OR = {
+			has_idea_group = naval_ideas
+			has_idea_group = beua_amphibious_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = beua_artificery_ideas
+		OR = {
+			full_idea_group = naval_ideas
+			full_idea_group = beua_amphibious_ideas
+		}
+	}
+	
+	heavy_ship_power = 0.15
+	galley_power = 0.15
+	naval_morale = -0.1
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_184 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_magocratic_ideas
+		has_idea_group = innovativeness_ideas
+	}
+	allow = {
+		full_idea_group = beua_magocratic_ideas
+		full_idea_group = innovativeness_ideas
+	}
+	
+	all_power_cost = -0.025
+	technology_cost = 0.025
+	tec_technomancy_influence = 0.1
+	
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_185 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_magocratic_ideas
+		has_idea_group = defensive_ideas
+	}
+	allow = {
+		full_idea_group = beua_magocratic_ideas
+		full_idea_group = defensive_ideas
+	}
+	
+	hostile_attrition = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_186 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_magocratic_ideas
+		has_idea_group = economic_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_magocratic_ideas
+		full_idea_group = economic_ideas
+	}
+	
+	global_trade_goods_size_modifier = 0.1
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_187 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_magocratic_ideas
+		has_idea_group = beua_health_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_magocratic_ideas
+		full_idea_group = beua_health_ideas
+	}
+	
+	idea_cost = -0.075
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_188 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_magocratic_ideas
+		OR = { 
+			has_idea_group = aristocracy_ideas
+			has_idea_group = plutocracy_ideas
+			has_idea_group = theocracy_gov_ideas
+			has_idea_group = horde_gov_ideas
+		}
+	}
+	
+	allow = {
+		full_idea_group = beua_magocratic_ideas
+		OR = { 
+			full_idea_group = aristocracy_ideas
+			full_idea_group = plutocracy_ideas
+			full_idea_group = theocracy_gov_ideas
+			full_idea_group = horde_gov_ideas
+		}
+	}
+	
+	advisor_cost = -0.15
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_189 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_magocratic_ideas
+		has_idea_group = beua_standing_army
+	}
+
+	allow = {
+		full_idea_group = beua_magocratic_ideas
+		full_idea_group = beua_standing_army
+	}
+	
+	prestige = 0.5
+	diplomatic_reputation = 0.75
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_190 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_magocratic_ideas
+		has_idea_group = beua_weapon_quality_ideas
+	}
+	
+	allow = {
+		full_idea_group = beua_magocratic_ideas
+		full_idea_group = beua_weapon_quality_ideas
+	}
+	
+	mages_loyalty_modifier = 0.15
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_191 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_magocratic_ideas
+		has_idea_group = beua_fortress_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_magocratic_ideas
+		full_idea_group = beua_fortress_ideas
+	}
+	
+	defensiveness = 0.25
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_192 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_magocratic_ideas
+		has_idea_group = beua_decentralism_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_magocratic_ideas
+		full_idea_group = beua_decentralism_ideas
+	}
+	
+	idea_cost = -0.075
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_193 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_artificery_ideas
+		has_idea_group = spy_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_artificery_ideas
+		full_idea_group = spy_ideas
+	}
+	
+	spy_offence = 0.5
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_194 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_artificery_ideas
+		has_idea_group = influence_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_artificery_ideas
+		full_idea_group = influence_ideas
+	}
+	
+	ae_impact = -0.1
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_195 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_artificery_ideas
+		has_idea_group = trade_ideas
+	}
+	allow = {
+		full_idea_group = beua_artificery_ideas
+		full_idea_group = trade_ideas
+	}
+	
+	trade_efficiency = 0.15
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_196 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_artificery_ideas
+		has_idea_group = exploration_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_artificery_ideas
+		full_idea_group = exploration_ideas
+	}
+	
+	colonists = 1
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_197 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_artificery_ideas
+		has_idea_group = maritime_ideas
+	}
+	allow = {
+		full_idea_group = beua_artificery_ideas
+		full_idea_group = maritime_ideas
+	}
+	
+	naval_forcelimit_modifier = 0.25
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_198 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_magocratic_ideas
+		has_idea_group = quantity_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_magocratic_ideas
+		full_idea_group = quantity_ideas
+	}
+	
+	global_manpower_modifier = 0.25
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_199 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_magocratic_ideas
+		has_idea_group = humanist_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_magocratic_ideas
+		full_idea_group = humanist_ideas
+	}
+	
+	tolerance_heretic = 2
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_200 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_monstrous_ideas
+		has_idea_group = beua_jurisprudence_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_monstrous_ideas
+		full_idea_group = beua_jurisprudence_ideas
+	}
+	
+	yearly_corruption = -0.15
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_201 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_monstrous_ideas
+		OR = { 
+			has_idea_group = aristocracy_ideas
+			has_idea_group = plutocracy_ideas
+			has_idea_group = theocracy_gov_ideas
+			has_idea_group = horde_gov_ideas
+		}
+	}
+
+	allow = {
+		full_idea_group = beua_monstrous_ideas
+		OR = { 
+			full_idea_group = aristocracy_ideas
+			full_idea_group = plutocracy_ideas
+			full_idea_group = theocracy_gov_ideas
+			full_idea_group = horde_gov_ideas
+		}
+	}
+	
+	improve_relation_modifier = 0.2
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_202 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_monstrous_ideas
+		has_idea_group = mercenary_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_monstrous_ideas
+		full_idea_group = mercenary_ideas
+	}
+	
+	diplomatic_reputation = 1.5
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_203 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_monstrous_ideas
+		has_idea_group = beua_weapon_quality_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_monstrous_ideas
+		full_idea_group = beua_weapon_quality_ideas
+	}
+	
+	trade_efficiency = 0.15
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_204 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_monstrous_ideas
+		has_idea_group = beua_centralism_ideas
+	}
+	allow = {
+		full_idea_group = beua_monstrous_ideas
+		full_idea_group = beua_centralism_ideas
+	}
+	
+	max_absolutism = 15
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_205 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_monstrous_ideas
+		has_idea_group = beua_decentralism_ideas
+	}
+	allow = {
+		full_idea_group = beua_monstrous_ideas
+		full_idea_group = beua_decentralism_ideas
+	}
+	
+	vassal_forcelimit_bonus = 0.5
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_206 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_industrial_ideas
+		has_idea_group = spy_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_industrial_ideas
+		full_idea_group = spy_ideas
+	}
+	
+	spy_offence = 0.25
+	global_spy_defence = 0.25
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_207 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_industrial_ideas
+		has_idea_group = diplomatic_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_industrial_ideas
+		full_idea_group = diplomatic_ideas
+	}
+	
+	improve_relation_modifier = 0.2
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_208 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_industrial_ideas
+		has_idea_group = influence_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_industrial_ideas
+		full_idea_group = influence_ideas
+	}
+	
+	build_cost = -0.05
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_209 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_industrial_ideas
+		has_idea_group = trade_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_industrial_ideas
+		full_idea_group = trade_ideas
+	}
+	
+	merchants = 1
+	global_trade_power = 0.15
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_210 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_industrial_ideas
+		has_idea_group = exploration_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_industrial_ideas
+		full_idea_group = exploration_ideas
+	}
+	
+	global_trade_power = 0.2
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_211 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_industrial_ideas
+		has_idea_group = maritime_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_industrial_ideas
+		full_idea_group = maritime_ideas
+	}
+	
+	leader_naval_fire = 1
+	navy_tradition_decay = 0.002
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_212 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_industrial_ideas
+		OR = {
+		has_idea_group = naval_ideas
+		has_idea_group = beua_amphibious_ideas
+		}
+	}
+	allow = {
+		full_idea_group = beua_industrial_ideas
+		OR = {
+		full_idea_group = naval_ideas
+		full_idea_group = beua_amphibious_ideas
+		}
+	}
+	
+	global_naval_engagement_modifier = 0.2
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_213 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_industrial_ideas
+		has_idea_group = beua_colonial_empire_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_industrial_ideas
+		full_idea_group = beua_colonial_empire_ideas
+	}
+	
+	global_ship_trade_power = 0.33
+	merchants = 1
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_214 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_industrial_ideas
+		has_idea_group = beua_society_ideas
+	}
+	allow = {
+		full_idea_group = beua_industrial_ideas
+		full_idea_group = beua_society_ideas
+	}
+	
+	global_trade_goods_size_modifier = 0.075
+	global_manpower_modifier = 0.15
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_215 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_industrial_ideas
+		has_idea_group = propoganda0
+	}
+
+	allow = {
+		full_idea_group = beua_industrial_ideas
+		full_idea_group = propoganda0
+	}
+	
+	global_institution_spread = 0.25
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_216 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_industrial_ideas
+		has_idea_group = beua_nationalism_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_industrial_ideas
+		full_idea_group = beua_nationalism_ideas
+	}
+	
+	global_trade_goods_size_modifier = 0.15
+	diplomatic_reputation = -1
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_217 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_artificery_ideas
+		has_idea_group = diplomatic_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_artificery_ideas
+		full_idea_group = diplomatic_ideas
+	}
+	
+	diplomatic_reputation = 1.5
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_218 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_artificery_ideas
+		has_idea_group = beua_colonial_empire_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_artificery_ideas
+		full_idea_group = beua_colonial_empire_ideas
+	}
+	
+	liberty_desire_from_subject_development = -0.2
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_219 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_imperial_ideas
+		has_idea_group = offensive_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_imperial_ideas
+		full_idea_group = offensive_ideas
+	}
+	
+	ae_impact = -0.1
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_220 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_imperial_ideas
+		has_idea_group = economic_ideas
+	}
+	allow = {
+		full_idea_group = beua_imperial_ideas
+		full_idea_group = economic_ideas
+		NOT = {
+			calc_true_if = {
+				amount = 3
+				has_active_policy = beua_policy_adm_13
+				has_active_policy = beua_policy_adm_48
+				has_active_policy = beua_policy_adm_71
+				has_active_policy = beua_policy_adm_89
+				has_active_policy = beua_policy_adm_107
+				has_active_policy = beua_policy_adm_149
+				has_active_policy = beua_policy_adm_159
+				has_active_policy = beua_policy_adm_173
+				has_active_policy = beua_policy_adm_181
+				has_active_policy = beua_policy_adm_208
+				has_active_policy = beua_policy_dip_159
+				has_active_policy = beua_policy_dip_169
+				has_active_policy = beua_policy_dip_180
+				has_active_policy = beua_policy_dip_220
+			}
+		}
+	}
+	
+	development_cost = -0.05
+	diplomatic_reputation = 0.75
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_221 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_imperial_ideas
+		has_idea_group = expansion_ideas
+	}
+	allow = {
+		full_idea_group = beua_imperial_ideas
+		full_idea_group = expansion_ideas
+	}
+	
+	colonists = 1
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_222 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_imperial_ideas
+		has_idea_group = beua_jurisprudence_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_imperial_ideas
+		full_idea_group = beua_jurisprudence_ideas
+	}
+	
+	imperial_authority_value = 0.05
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_223 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_imperial_ideas
+		OR = { 
+			has_idea_group = aristocracy_ideas
+			has_idea_group = plutocracy_ideas
+			has_idea_group = theocracy_gov_ideas
+			has_idea_group = horde_gov_ideas
+		}
+	}
+	allow = {
+		full_idea_group = beua_imperial_ideas
+		OR = { 
+			full_idea_group = aristocracy_ideas
+			full_idea_group = plutocracy_ideas
+			full_idea_group = theocracy_gov_ideas
+			full_idea_group = horde_gov_ideas
+		}
+	}
+	
+	diplomatic_reputation = 1.5
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_224 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_imperial_ideas
+		has_idea_group = beua_state_administration_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_imperial_ideas
+		full_idea_group = beua_state_administration_ideas
+	}
+	
+	improve_relation_modifier = 0.2
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_225 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_imperial_ideas
+		has_idea_group = beua_centralism_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_imperial_ideas
+		full_idea_group = beua_centralism_ideas
+	}
+	
+	imperial_authority = 0.1
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_dip_226 = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = beua_imperial_ideas
+		has_idea_group = beua_decentralism_ideas
+	}
+
+	allow = {
+		full_idea_group = beua_imperial_ideas
+		full_idea_group = beua_decentralism_ideas
+	}
+	
+	vassal_forcelimit_bonus = 0.5
+
+	ai_will_do = {
+		factor = 1
+	}
+}
