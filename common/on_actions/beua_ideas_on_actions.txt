@@ -143,7 +143,9 @@ on_province_owner_change = {
 			NOT = {
 				has_province_modifier = beua_subterranean_bastion
 			}
+			fort_level = 1
 			development = 15
+			continent = serpentspine
 		}
 		hidden_effect = {
 			add_province_modifier = { 
@@ -225,4 +227,33 @@ on_explorer_recruited = {
 # [beua_militarism_idea_7]
 on_yearly_pulse = {
 	beua_arcane_support_effect = yes
+}
+
+# Random Flavour Events
+on_four_year_pulse_3 = {
+	random_events = {
+		# [beua_jurisprudence_ideas]
+		100 = beua_jurisprudence_ideas_event.1
+		100 = beua_jurisprudence_ideas_event.2
+		100 = beua_jurisprudence_ideas_event.3
+		100 = beua_jurisprudence_ideas_event.4
+		100 = beua_jurisprudence_ideas_event.5
+		100 = beua_jurisprudence_ideas_event.6
+		100 = beua_jurisprudence_ideas_event.7
+		100 = beua_jurisprudence_ideas_event.8
+		100 = beua_jurisprudence_ideas_event.9
+		100 = beua_jurisprudence_ideas_event.10
+
+		# [beua_health_ideas]
+		100 = beua_health_ideas_event.1
+		100 = beua_health_ideas_event.2
+		100 = beua_health_ideas_event.3
+		100 = beua_health_ideas_event.4
+		100 = beua_health_ideas_event.5
+		100 = beua_health_ideas_event.6
+		100 = beua_health_ideas_event.7
+		100 = beua_health_ideas_event.8
+		100 = beua_health_ideas_event.9
+		100 = beua_health_ideas_event.10
+	}
 }

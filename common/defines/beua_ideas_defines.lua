@@ -1,3 +1,8 @@
+-- NDiplomacy
+NDefines.NDiplomacy.TRUCE_YEARS = 5
+NDefines.NDiplomacy.SCALED_TRUCE_YEARS = 5
+NDefines.NDiplomacy.COALITION_YEARS = 15
+
 -- NCountry
 NDefines.NCountry.ABANDON_IDEAGROUP_REFUND = 0.15
 NDefines.NCountry.ADVISOR_COST_INCREASE_PER_YEAR = 0.01
@@ -7,8 +12,8 @@ NDefines.NCountry.FREE_IDEA_GROUP_COST  = 4
 NDefines.NCountry.IDEA_TO_TECH = -0.01
 NDefines.NCountry.INNOVATIVENESS_FIRST_PICKED_IDEA = 1.0
 NDefines.NCountry.MAX_ACTIVE_POLICIES = 9
-NDefines.NCountry.MAX_IDEA_GROUPS_FROM_SAME_CATEGORY = 0.35
-NDefines.NCountry.POWER_MAX = 1499
+NDefines.NCountry.MAX_IDEA_GROUPS_FROM_SAME_CATEGORY = 0.5
+NDefines.NCountry.POWER_MAX = 1999
 NDefines.NCountry.PS_BUY_IDEA = 300
 
 -- NEconomy

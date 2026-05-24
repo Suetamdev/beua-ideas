@@ -39,8 +39,8 @@ beua_elven_supremacy_ideas = {
 		culture_conversion_cost = -0.25
 	}
 	beua_elven_supremacy_idea_7 = {
-		manpower_recovery_speed = 0.15
-		drill_gain_modifier = -0.2
+		manpower_recovery_speed = 0.25
+		drill_gain_modifier = -0.1
 	}
 	
 	ai_will_do = {
@@ -79,7 +79,7 @@ beua_jurisprudence_ideas = {
 	category = ADM
 
 	bonus = {
-		ae_impact = -0.1
+		ae_impact = -0.2
 	}
 	
 	beua_jurisprudence_idea_1 = {
@@ -93,22 +93,22 @@ beua_jurisprudence_ideas = {
 		yearly_corruption = -0.1
 	}
 	beua_jurisprudence_idea_3 = {
-		idea_cost = -0.005
+		idea_cost = -0.15
 	}
 	beua_jurisprudence_idea_4 = {
-		trade_efficiency = 0.1
+		trade_efficiency = 0.15
 	}
 	beua_jurisprudence_idea_5 = {
-		interest = -1
+		interest = -0.5
 	}
 	beua_jurisprudence_idea_6 = {
-		core_creation = -0.1
-		diplomatic_annexation_cost = -0.1
+		core_creation = -0.15
+		diplomatic_annexation_cost = -0.15
 	}
 	beua_jurisprudence_idea_7 = {
 		tolerance_heathen = 1
 		tolerance_heretic = 1
-		enemy_core_creation = 0.1
+		enemy_core_creation = 0.15
 	}
 	
 	ai_will_do = {
@@ -136,22 +136,24 @@ beua_health_ideas = {
 	}
 		
 	beua_health_idea_1 = {
-		production_efficiency = 0.1
+		production_efficiency = 0.15
 	}
 	beua_health_idea_2 = {
 		defensiveness = 0.15
 	}
 	beua_health_idea_3 = {
 		global_manpower_modifier = 0.15
+		manpower_recovery_speed = 0.1
 	}
 	beua_health_idea_4 = {
-		siege_ability = 0.1
+		siege_ability = 0.15
 	}
 	beua_health_idea_5 = {
-		manpower_recovery_speed = 0.15
+		land_attrition = -0.1
+		naval_attrition = -0.1
 	}
 	beua_health_idea_6 = {
-		idea_cost = -0.005
+		idea_cost = -0.15
 	}
 	beua_health_idea_7 = {
 		global_tax_modifier = 0.15
@@ -162,7 +164,7 @@ beua_health_ideas = {
 }
 
 ########################################################
-####### Public Administration                    #######
+####### State Administration                    #######
 ########################################################
 
 beua_state_administration_ideas = {
@@ -173,22 +175,24 @@ beua_state_administration_ideas = {
 	}
 		
 	beua_state_administration_idea_1 = {
-		governing_capacity_modifier = 0.2
+		governing_capacity_modifier = 0.1
+		state_governing_cost = -0.05
 	}
 	beua_state_administration_idea_2 = {
 		caravan_power = 0.2
 	}
 	beua_state_administration_idea_3 = {
-		yearly_corruption = -0.1
+		all_estate_loyalty_equilibrium = 0.1
 	}
 	beua_state_administration_idea_4 = {
-		state_maintenance_modifier = -0.25
+		state_maintenance_modifier = -0.15
+		centralize_state_cost = -0.1
 	}
 	beua_state_administration_idea_5 = {
 		reform_progress_growth = 0.1
 	}
 	beua_state_administration_idea_6 = {
-		all_estate_loyalty_equilibrium = 0.05
+		yearly_corruption = -0.1
 	}
 	beua_state_administration_idea_7 = {
 		global_autonomy = -0.025
@@ -240,7 +244,7 @@ beua_centralism_ideas = {
 	beua_centralism_idea_7 = {
 		free_adm_policy = 1
 		free_dip_policy = 1
-		expand_administration_cost = 0.5
+		expand_administration_cost = 0.25
 	}
 	
 	ai_will_do = {

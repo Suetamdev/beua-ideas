@@ -1,6 +1,7 @@
 ﻿l_english:
  # Strategic Ideas
  beua_strategic_ideas:0 "Strategic Ideas"
+ beua_strategic_ideas_bonus:0 "Full Strategic"
  beua_strategic_idea_1:0 "Marching Drills"
  beua_strategic_idea_1_desc:0 "Ideal fighting conditions are often made by outspeeding and outpositioning an enemy army. By regularly training our armies for faster travel, we can better obtain the high ground."
  beua_strategic_idea_2:0 "Silver Lining"
@@ -18,6 +19,7 @@
 
  # Serpentspine Ideas
  beua_serpentspine_ideas:0 "Serpentspine Ideas"
+ beua_serpentspine_ideas_bonus:0 "Full Serpentspine"
  beua_serpentspine_idea_1:0 "Dwarven Citadels"
  beua_serpentspine_idea_1_desc:0 "Built upon generations of dwarven engineering, the fortresses and defenses dotting the Serpentspine are renowned for their defensibility. \n\n§YProvinces developed with at least 15 Development and a Fort receive:§!\nFort Level: §G+1§W\nLocal Garrison Size: §G+15.0%§W\n"
  beua_serpentspine_idea_2:0 "Hostile Ground"
@@ -35,6 +37,7 @@
 
  # Legionary Ideas
  beua_legionary_ideas:0 "Legionary Ideas"
+ beua_legionary_ideas_bonus:0 "Full Legionary"
  beua_legionary_idea_1:0 "Phlanx Formation"
  beua_legionary_idea_1_desc:0 "Before the age of black powder infantry stood at the core of the army, a particularly effective tactic was the phlanx formation designed to stop cavalry or large monster charges."
  beua_legionary_idea_2:0 "Legionnaire System"
@@ -52,6 +55,7 @@
 
  # General Staff Ideas
  beua_general_staff_ideas:0 "General Staff Ideas"
+ beua_general_staff_ideas_bonus:0 "Full General Staff"
  beua_general_staff_1:0 "Theory of Shock Combat"
  beua_general_staff_1_desc:0 "By studying age -old tactics and cavalry maneuvers, our generals become masters at surprising and stunning the enemy."
  beua_general_staff_2:0 "Theory of Ranged Combat"
@@ -68,7 +72,8 @@
  beua_general_staff_7_desc:0 "A proper military requires many capable leaders filling many roles. By encouraging its expansion, we can rapidly improve our army. \n\nArmy Tradition from recruiting generals: §G+2§W \n\nNaval Tradition from recruiting admirals: §G+3§W\n"
 
  # Standing Army Ideas
- beua_standing_army:0 "Standing Army Ideas"
+ beua_standing_army_ideas:0 "Standing Army Ideas"
+ beua_standing_army_ideas_bonus:0 "Full Standing Army"
  beua_standing_army_1:0 "Specialized Infantry Training"
  beua_standing_army_1_desc:0 "Various new implementations and techniques vastly improve the effectiveness of the frontline in a battle, thus making our infantrymen excel in the midst of the fight."
  beua_standing_army_2:0 "Cavalry Round Tactics"
@@ -86,6 +91,7 @@
 
  # Conscription Ideas
  beua_conscription_ideas:0 "Conscription Ideas"
+ beua_conscription_ideas_bonus:0 "Full Conscription"
  beua_conscription_idea_1:0 "Quick Mobilisation"
  beua_conscription_idea_1_desc:0 "We can rally our troops very quickly because of our great preparation."
  beua_conscription_idea_2:0 "Not One Step Back!"
@@ -103,6 +109,7 @@
 
  # Weapon Quality Ideas
  beua_weapon_quality_ideas:0 "Weapon Quality Ideas"
+ beua_weapon_quality_ideas_bonus:0 "Full Weapon Quality"
  beua_weapon_quality_idea_1:0 "Weapon Production"
  beua_weapon_quality_idea_1_desc:0 "A coordinated production of weapons is crucial to equipping a big army."
  beua_weapon_quality_idea_2:0 "Quality Infantry Weapons"
@@ -120,6 +127,7 @@
  
  # Fortress Ideas
  beua_fortress_ideas:0 "Fortress Ideas"
+ beua_fortress_ideas_bonus:0 "Full Fortress"
  beua_fortress_idea_1:0 "Defensive Artillery"
  beua_fortress_idea_1_desc:0 "Keep the enemy in check with defensive artillery fire."
  beua_fortress_idea_2:0 "Better Fort Administration"
@@ -137,6 +145,7 @@
 
  # Militarism Ideas
  beua_militarism_ideas:0 "Militarism Ideas"
+ beua_militarism_ideas_bonus:0 "Full Militarism"
  beua_militarism_idea_1:0 "To Arms!"
  beua_militarism_idea_1_desc:0 "Before we can enact further military reforms, we must rally them to our cause."
  beua_militarism_idea_2:0 "Officer Career"
@@ -154,6 +163,7 @@
 
  # Artificery Ideas
  beua_artificery_ideas:0 "Artificery Ideas"
+ beua_artificery_ideas_bonus:0 "Full Artificery"
  beua_artificery_idea_1:0 "Treatise on Evocation Magic"
  beua_artificery_idea_1_desc:0 "The Magic Missile knows where it is at all times. It knows this because it knows where it isn't."
  beua_artificery_idea_2:0 "Bionic Implants"
@@ -171,6 +181,7 @@
 
  # War Production Ideas
  beua_war_production_ideas:0 "War Production Ideas"
+ beua_war_production_ideas_bonus:0 "Full War Production"
  beua_war_production_idea_1:0 "Infantry Weapon Manufactory Production"
  beua_war_production_idea_1_desc:0 "Producing infantry weapons in manufactories is much cheaper than producing them independently."
  beua_war_production_idea_2:0 "Expanded Support Companies"
@@ -188,6 +199,7 @@
 
  # Shock Ideas
  beua_shock_ideas:0 "Shock Tactics"
+ beua_shock_ideas_bonus:0 "Full Shock Tactics"
  beua_shock_idea_1:0 "Sudden Assault"
  beua_shock_idea_1_desc:0 "If our enemies rely on the pounding of artillery and fire, we must move fast and quickly overwhelm them to minimize our losses."
  beua_shock_idea_2:0 "Overlapping Attack"
@@ -205,6 +217,7 @@
 
  # Fire Ideas
  beua_fire_ideas:0 "Fire Ideas"
+ beua_fire_ideas_bonus:0 "Full Fire"
  beua_fire_idea_1:0 "Concentrated Volleys"
  beua_fire_idea_1_desc:0 "The wrath of a charging foe can be subdued with suppressing fire."
  beua_fire_idea_2:0 "Siege Cannons"

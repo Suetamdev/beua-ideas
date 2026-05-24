@@ -1060,7 +1060,7 @@ beua_policy_dip_36 = {
 	monarch_power = DIP
 
 	potential = {
-		has_idea_group = beua_standing_army
+		has_idea_group = beua_standing_army_ideas
 		OR = {
 			has_idea_group = naval_ideas
 			has_idea_group = beua_amphibious_ideas
@@ -1068,7 +1068,7 @@ beua_policy_dip_36 = {
 	}
 
 	allow = {
-		full_idea_group = beua_standing_army
+		full_idea_group = beua_standing_army_ideas
 		OR = {
 			full_idea_group = naval_ideas
 			full_idea_group = beua_amphibious_ideas
@@ -1086,12 +1086,12 @@ beua_policy_dip_37 = {
 	monarch_power = DIP
 
 	potential = {
-		has_idea_group = beua_standing_army
+		has_idea_group = beua_standing_army_ideas
 		has_idea_group = influence_ideas 
 	}
 
 	allow = {
-		full_idea_group = beua_standing_army
+		full_idea_group = beua_standing_army_ideas
 		full_idea_group = influence_ideas 
 	}
 	
@@ -1397,12 +1397,12 @@ beua_policy_dip_49 = {
 
 	potential = {
 		has_idea_group = beua_colonial_empire_ideas
-		has_idea_group = beua_standing_army
+		has_idea_group = beua_standing_army_ideas
 	}
 
 	allow = {
 		full_idea_group = beua_colonial_empire_ideas
-		full_idea_group = beua_standing_army
+		full_idea_group = beua_standing_army_ideas
 	}
 	
 	land_forcelimit_modifier = 0.2
@@ -1597,12 +1597,12 @@ beua_policy_dip_58 = {
 
 	potential = {
 		has_idea_group = beua_amphibious_ideas
-		has_idea_group = beua_standing_army
+		has_idea_group = beua_standing_army_ideas
 	}
 
 	allow = {
 		full_idea_group = beua_amphibious_ideas
-		full_idea_group = beua_standing_army
+		full_idea_group = beua_standing_army_ideas
 	}
 	
 	global_manpower_modifier = 0.25
@@ -2182,12 +2182,12 @@ beua_policy_dip_82 = {
 
 	potential = {
 		has_idea_group = diplomatic_ideas
-		has_idea_group = beua_standing_army
+		has_idea_group = beua_standing_army_ideas
 	}
 
 	allow = {
 		full_idea_group = diplomatic_ideas
-		full_idea_group = beua_standing_army
+		full_idea_group = beua_standing_army_ideas
 	}
 	
 	ae_impact = -0.1
@@ -2352,12 +2352,12 @@ beua_policy_dip_89 = {
 
 	potential = {
 		has_idea_group = exploration_ideas
-		has_idea_group = beua_standing_army
+		has_idea_group = beua_standing_army_ideas
 	}
 
 	allow = {
 		full_idea_group = exploration_ideas
-		full_idea_group = beua_standing_army
+		full_idea_group = beua_standing_army_ideas
 	}
 	
 	global_sailors_modifier = 0.25
@@ -2561,12 +2561,12 @@ beua_policy_dip_98 = {
 
 	potential = {
 		has_idea_group = maritime_ideas
-		has_idea_group = beua_standing_army
+		has_idea_group = beua_standing_army_ideas
 	}
 
 	allow = {
 		full_idea_group = maritime_ideas
-		full_idea_group = beua_standing_army
+		full_idea_group = beua_standing_army_ideas
 	}
 	
 	global_sailors_modifier = 0.25
@@ -4575,7 +4575,9 @@ beua_policy_dip_178 = {
 		full_idea_group = innovativeness_ideas
 	}
 
-	monarch_lifespan = 0.25
+	monarch_lifespan = 0.15
+	mages_estate_experience_mod = 0.1
+	mages_ruler_experience_mod = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -4833,12 +4835,12 @@ beua_policy_dip_189 = {
 
 	potential = {
 		has_idea_group = beua_magocratic_ideas
-		has_idea_group = beua_standing_army
+		has_idea_group = beua_standing_army_ideas
 	}
 
 	allow = {
 		full_idea_group = beua_magocratic_ideas
-		full_idea_group = beua_standing_army
+		full_idea_group = beua_standing_army_ideas
 	}
 	
 	prestige = 0.5

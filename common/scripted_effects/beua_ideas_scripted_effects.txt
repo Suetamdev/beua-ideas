@@ -339,6 +339,7 @@ beua_apply_development_modifiers = {
 
             if = {
                 limit = {
+                    fort_level = 1
                     development = 15
                     continent = serpentspine
                 }

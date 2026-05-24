@@ -1,0 +1,126 @@
+﻿l_english:
+ # Elven Supremacy Ideas Events
+ # Dont Exist
+
+ # Jurisprudence Ideas Events
+ # Event 1
+ beua_jurisprudence_ideas_event.1.t:0 "Attack on Civil Rights"
+ beua_jurisprudence_ideas_event.1.d:0 "Our Minister of Justice is trying to undermine the Civil Rights granted by your majesty for quite so time now. Now several petitions have gotten your attention pleading for you to intervene."
+ beua_jurisprudence_ideas_event.1.a:0 "Declare that everything will stay the same"
+ beua_jurisprudence_ideas_event.1.b:0 "Openup for reforms"
+ 
+ # Event 2
+ beua_jurisprudence_ideas_event.2.t:0 "Independent Jurisdiction"
+ beua_jurisprudence_ideas_event.2.d:0 "Our judges will do their job as they please. They haven't been the target of extern influence for quite some time now. Therefore trust in their jurisdiction has grown considerably but we also lost some influence over them."
+ beua_jurisprudence_ideas_event.2.a:0 "We will not get involved"
+ beua_jurisprudence_ideas_event.2.b:0 "Maybe we should overthink that"
+ beua_jurisprudence_ideas_event.2.b.m:0 "Interference in Jurisdiction"
+
+ # Event 3
+ beua_jurisprudence_ideas_event.3.t:0 "Judicial Congress"
+ beua_jurisprudence_ideas_event.3.d:0 "There's a big Judicial Congress hold in our capital right now. Great Names have come to attend to this meeting, making it a big step towards international law."
+ beua_jurisprudence_ideas_event.3.a:0 "A great day for jurisdiction"
+ beua_jurisprudence_ideas_event.3.a.m:0 "Judicial Congress"
+ 
+ # Event 4
+ beua_jurisprudence_ideas_event.4.t:0 "University Founding"
+ beua_jurisprudence_ideas_event.4.d:0 "After years of built time a new university funded by [Root.GetName] is finally completed. A great day for the country!"
+ beua_jurisprudence_ideas_event.4.a:0 "Good!"
+
+ # Event 5
+ beua_jurisprudence_ideas_event.5.t:0 "New Professorship"
+ beua_jurisprudence_ideas_event.5.d:0 "We decided to fund a new professorship for one of our best universities. This will not only help our advancement efforts but also strengthen our contol over that said university."
+ beua_jurisprudence_ideas_event.5.a:0 "To Scholarship"
+
+ # Event 6
+ beua_jurisprudence_ideas_event.6.t:0 "Judicial Pundit"
+ beua_jurisprudence_ideas_event.6.d:0 "This man is truly a judicial genius. Some already call him a legend, being an excellent lawyer in court and a philosopher on the sides."
+ beua_jurisprudence_ideas_event.6.a:0 "He truly is great!"
+ beua_jurisprudence_ideas_event.6.a.m:0 "Judicial Pundit: §Y$VAL$%§!"
+
+ # Event 7
+ beua_jurisprudence_ideas_event.7.t:0 "Important Adjudgement"
+ beua_jurisprudence_ideas_event.7.d:0 "Our High Court came to a very important adjudgement. This will greatly affect jurisdiction in the future."
+ beua_jurisprudence_ideas_event.7.a:0 "An important day"
+ beua_jurisprudence_ideas_event.7.a.m:0 "Important Precedent"
+
+ # Event 8
+ beua_jurisprudence_ideas_event.8.t:0 "Bribed Judge"
+ beua_jurisprudence_ideas_event.8.d:0 "Some time ago a this very judge was accused of bribery before but now our apprehensions were came true. He infact has taken money from various parties to influence his rulings."
+ beua_jurisprudence_ideas_event.8.a:0 "Kick him out of Office"
+ beua_jurisprudence_ideas_event.8.a.m:0 "Bribed Judge"
+
+ # Event 9
+ beua_jurisprudence_ideas_event.9.t:0 "Reactionary Tendencies"
+ beua_jurisprudence_ideas_event.9.d:0 "Uneasy times! People discuss the value and necessity of their civil rights and shockingly many of them seem willing to give up on them and instead demand strong leadership leading them into the future."
+ beua_jurisprudence_ideas_event.9.a:0 "Defend Civil Rights"
+ beua_jurisprudence_ideas_event.9.a.m:0 "Civil Rights Defended"
+ beua_jurisprudence_ideas_event.9.b:0 "Who cares?"
+ beua_jurisprudence_ideas_event.9.b.m:0 "Reactionary Rhetoric"
+
+ # Event 10
+
+ beua_jurisprudence_ideas_event.10.t:0 "Judicial Scandal"
+ beua_jurisprudence_ideas_event.10.d:0 "Our Minister of Justice has uncovered a corrupt network in our jurisdiction. Judges, helpers and administrators were bribed and have gained great influence over the processes in our administration. As things are working pretty well still at the surface we need to decide if we want to enact drastic measures or leave it be for the moment."
+ beua_jurisprudence_ideas_event.10.a:0 "Clean up the mess"
+ beua_jurisprudence_ideas_event.10.b:0 "Do nothing"
+ beua_jurisprudence_ideas_event.10.b.m:0 "Old Felt"
+
+ # Health Ideas Events
+ # Event 1
+ beua_health_ideas_event.1.t:0 "New Medicine discovered"
+ beua_health_ideas_event.1.d:0 "A medical genius has found new ways of using a common plant, making a certain tea together with other ingredients from it that's helping a great deal against fewer."
+ beua_health_ideas_event.1.a:0 "It's a breakthrough!"
+
+ # Event 2
+ beua_health_ideas_event.2.t:0 "Private Hospital opened"
+ beua_health_ideas_event.2.d:0 "A local merchant guild has given back to our great city and found a hospital both for rich and poor people."
+ beua_health_ideas_event.2.a:0 "Sweet!"
+
+ # Event 3
+ beua_health_ideas_event.3.t:0 "Reduction of Infant Deaths"
+ beua_health_ideas_event.3.d:0 "Through sheer effort of trying to educate our people in basic hygiene we could reduce our infant deaths considerably."
+ beua_health_ideas_event.3.a:0 "The gods are on our side!"
+ beua_health_ideas_event.3.a.m:0 "Decrease of Infant Death"
+
+ # Event 4
+ beua_health_ideas_event.4.t:0 "Doctor Education pays off"
+ beua_health_ideas_event.4.d:0 "By financing doctor education we could infact reduce the amount of frauds and butchers trying to sell their wisdom on the streets."
+ beua_health_ideas_event.4.a:0 "To be expected"
+ beua_health_ideas_event.4.a.m:0 "Doctor Education Pays Off"
+
+# Event 5
+ beua_health_ideas_event.5.t:0 "Eastern Medicine"
+ beua_health_ideas_event.5.d:0 "Other places in the world have different means of treating similar illnesses. We can learn from them and incooperate what works better in their places than in ours in our arsenal."
+ beua_health_ideas_event.5.a:0 "We won't discriminate"
+ beua_health_ideas_event.5.a.m:0 "Eastern Medicine"
+
+# Event 6
+ beua_health_ideas_event.6.t:0 "Doctor Society"
+ beua_health_ideas_event.6.d:0 "The doctor society is having a forum in our capital. New ways of treatment and ethical questions are discussed there. We are sure that we can profit from constant exchange between the experts and are sure that science will profit from it."
+ beua_health_ideas_event.6.a:0 "A step in the right direction"
+ beua_health_ideas_event.6.a.m:0 "Doctor Society"
+
+# Event 7
+ beua_health_ideas_event.7.t:0 "Plague out of control"
+ beua_health_ideas_event.7.d:0 "Lately a plague is devestating our provinces. Our doctors are as powerless as the frauds, the church and  the government."
+ beua_health_ideas_event.7.a:0 "Close the Doors"
+ 
+# Event 8
+ beua_health_ideas_event.8.t:0 "Mercury"
+ beua_health_ideas_event.8.d:0 "Mercury was already used by the Castanorians as a way of treating illness. Although lately some voices have been heard wanting to ban mercury from using it as a medicine. They say nothing good comes from taking it."
+ beua_health_ideas_event.8.a:0 "Ban Mercury to be used as medicine"
+ beua_health_ideas_event.8.b:0 "But it works!"
+ beua_health_ideas_event.8.b.m:0 "Mercury Treatment Banned"
+ 
+# Event 9
+ beua_health_ideas_event.9.t:0 "Phlebotomy"
+ beua_health_ideas_event.9.d:0 "Phlebotomy is a wide known therapy. However some state that it rather weakens the body of the patient in most cases instead of being beneficial. We can see the pros and cons of the treatment and need to decide whether to banish it in most cases or not."
+ beua_health_ideas_event.9.a:0 "An old fashioned treatment"
+ beua_health_ideas_event.9.b:0 "Why not?"
+ beua_health_ideas_event.9.b.m:0 "Phlebotomy Banned"
+
+# Event 10
+ beua_health_ideas_event.10.t:0 "Losing Confidence in Hospitals"
+ beua_health_ideas_event.10.d:0 "Lately our people have lost confidance in our hospitals and doctors. A terrible plague has killed many people and it seems many people will rather seek out the butchers and frauds selling them amulets and potions made of horse piss rather than realy doctors."
+ beua_health_ideas_event.10.a:0 "Bad news!"

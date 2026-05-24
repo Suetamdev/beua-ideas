@@ -1,6 +1,7 @@
 ﻿l_english:
  # Assimilation Ideas
  beua_assimilation_ideas:0 "Assimilation Ideas"
+ beua_assimilation_ideas_bonus:0 "Full Assimilation"
  beua_assimilation_idea_1: "Settlement Program"
  beua_assimilation_idea_1_desc: "Most peoples would rather stay in their local community, and remain divided. To ensure our cultural and racial diversity, we should encourage new families to migrate internally within our country."
  beua_assimilation_idea_2: "Fast Integration"
@@ -18,6 +19,7 @@
 
  # Nationalism Ideas
  beua_nationalism_ideas:0 "Nationalism Ideas"
+ beua_nationalism_ideas_bonus:0 "Full Nationalism"
  beua_nationalism_idea_1:0 "Aimed Propaganda"
  beua_nationalism_idea_1_desc:0 "No true sons of our nation will turn down the call to arms."
  beua_nationalism_idea_2:0 "Acquisition of Living Space"
@@ -35,6 +37,7 @@
 
  # Society Ideas
  beua_society_ideas:0 "Society Ideas"
+ beua_society_ideas_bonus:0 "Full Society"
  beua_society_idea_1:0 "War Bonds"
  beua_society_idea_1_desc:0 "War bonds will help us to pay our soldiers."
  beua_society_idea_2:0 "Exchange Program"
@@ -52,6 +55,7 @@
 
  # Imperialist Ambition Ideas
  beua_imperialist_ambition_ideas:0 "Imperialist Ambition Ideas"
+ beua_imperialist_ambition_ideas_bonus:0 "Full Imperialist Ambition"
  beua_imperialist_ambition_idea_1:0 "Harvest Festival"
  beua_imperialist_ambition_idea_1_desc:0 "At our yearly harvest festival we can show our people our gratitude and kindness. We will feed the poor and show how gracious we are."
  beua_imperialist_ambition_idea_2:0 "Centre of Power"
@@ -69,6 +73,7 @@
 
  # Imperialism Ideas
  beua_imperialism_ideas:0 "Imperialism Ideas"
+ beua_imperialism_ideas_bonus:0 "Full Imperialism"
  beua_imperialism_idea_1:0 "Glorious Past"
  beua_imperialism_idea_1_desc:0 "Our glorious past helps us always keep the shine of glory."
  beua_imperialism_idea_2:0 "Under Our Wings"
@@ -86,6 +91,7 @@
 
  # Amphibious Ideas
  beua_amphibious_ideas:0 "Amphibious Ideas"
+ beua_amphibious_ideas_bonus:0 "Full Amphibious"
  beua_amphibious_idea_1:0 "Mariner Academies"
  beua_amphibious_idea_1_desc:0 "By founding state-funded schools for prospecting sailors, we can nurture a growing pool of available seamen and ship industries."
  beua_amphibious_idea_2:0 "Orcish Rowmen"
@@ -103,6 +109,7 @@
 
  # Colonial Empire Ideas
  beua_colonial_empire_ideas:0 "Colonial Empire Ideas"
+ beua_colonial_empire_ideas_bonus:0 "Full Colonial Empire"
  beua_colonial_empire_idea_1:0 "Autonomous Adventurers"
  beua_colonial_empire_idea_1_desc:0 "We don't need to pay people discovering the land. Independent adventurers will do that for us."
  beua_colonial_empire_idea_2:0 "Colonial Oversight"
@@ -120,6 +127,7 @@
 
  # Magocratic Ideas
  beua_magocratic_ideas:0 "Magocratic Ideas"
+ beua_magocratic_ideas_bonus:0 "Full Magocracy"
  beua_magocratic_idea_1:0 "Ancient Tradition"
  beua_magocratic_idea_1_desc:0 "Mages have always held a position of power in society, this has resulted in an increased stability in ours."
  beua_magocratic_idea_2:0 "Private Studies"
@@ -137,6 +145,7 @@
 
  # Monstrous Ideas
  beua_monstrous_ideas:0 "Monstrous Ideas"
+ beua_monstrous_ideas_bonus:0 "Full Monstrous"
  beua_monstrous_idea_1:0 "War Economy"
  beua_monstrous_idea_1_desc:0 "It surprises nobody to hear that our nation relies on the trade of slaves and loot. Indeed, we are quite good at what we do."
  beua_monstrous_idea_2:0 "Conquered Bureaucrats"
@@ -154,6 +163,7 @@
 
  # Imperial Ideas
  beua_imperial_ideas:0 "Imperial Ideas"
+ beua_imperial_ideas_bonus:0 "Full Imperial"
  beua_imperial_idea_1:0 "A Velvet Glove"
  beua_imperial_idea_1_desc:0 "Fellow nations find us simply charming, can you imagine anyone accusing us of fabricating frivelous claims on their land? Preposterous."
  beua_imperial_idea_2:0 "Citadel Rennovation"

@@ -1,0 +1,56 @@
+########################################################
+####### Elven Supremacy                          #######
+########################################################
+####### Dont Exist
+
+########################################################
+####### Jurisprudence                            #######
+########################################################
+beua_jurisprudence_ideas_event.2.b.m = {
+	global_unrest = 2
+}
+beua_jurisprudence_ideas_event.3.a.m = {
+	idea_cost = -0.075
+}
+beua_jurisprudence_ideas_event.7.a.m = {
+	tolerance_heathen = 1
+	tolerance_heretic = 1
+}
+beua_jurisprudence_ideas_event.8.a.m = {
+	yearly_corruption = 0.1
+	global_unrest = 1
+}
+beua_jurisprudence_ideas_event.9.a.m = {
+	global_unrest = -1
+}
+beua_jurisprudence_ideas_event.9.b.m = {
+	tolerance_heathen = -1
+	tolerance_heretic = -1
+}
+beua_jurisprudence_ideas_event.10.b.m = {
+	yearly_corruption = 0.25
+}
+
+########################################################
+####### Health                                   #######
+########################################################
+beua_health_ideas_event.3.a.m = {
+	global_manpower_modifier = 0.1
+}
+beua_health_ideas_event.4.a.m = {
+	manpower_recovery_speed = 0.2
+}
+beua_health_ideas_event.5.a.m = {
+	idea_cost = -0.075
+}
+beua_health_ideas_event.6.a.m = {
+	technology_cost = -0.05
+}
+beua_health_ideas_event.8.b.m = {
+	idea_cost = 0.05
+	manpower_recovery_speed = 0.15
+}
+beua_health_ideas_event.9.b.m = {
+	idea_cost = 0.05
+	manpower_recovery_speed = 0.15
+}

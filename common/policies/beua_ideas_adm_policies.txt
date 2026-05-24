@@ -456,7 +456,7 @@ beua_policy_adm_14 = {
 	potential = {
 		has_idea_group = beua_health_ideas
 		OR = {
-			has_idea_group = beua_standing_army 
+			has_idea_group = beua_standing_army_ideas 
 			has_idea_group = beua_conscription_ideas
 		}
 	}
@@ -464,7 +464,7 @@ beua_policy_adm_14 = {
 	allow = {
 		full_idea_group = beua_health_ideas
 		OR = {
-			full_idea_group = beua_standing_army 
+			full_idea_group = beua_standing_army_ideas 
 			full_idea_group = beua_conscription_ideas
 		}
 	}
@@ -796,12 +796,12 @@ beua_policy_adm_28 = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = beua_standing_army
+		has_idea_group = beua_standing_army_ideas
 		has_idea_group = administrative_ideas
 	}
 
 	allow = {
-		full_idea_group = beua_standing_army
+		full_idea_group = beua_standing_army_ideas
 		full_idea_group = administrative_ideas
 	}
 	
@@ -2358,12 +2358,12 @@ beua_policy_adm_84 = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = beua_standing_army
+		has_idea_group = beua_standing_army_ideas
 		has_idea_group = economic_ideas
 	}
 
 	allow = {
-		full_idea_group = beua_standing_army
+		full_idea_group = beua_standing_army_ideas
 		full_idea_group = economic_ideas
 	}
 	
@@ -2391,12 +2391,12 @@ beua_policy_adm_85 = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = beua_standing_army
+		has_idea_group = beua_standing_army_ideas
 		has_idea_group = humanist_ideas 
 	}
 
 	allow = {
-		full_idea_group = beua_standing_army
+		full_idea_group = beua_standing_army_ideas
 		full_idea_group = humanist_ideas 
 	}
 	
@@ -2411,12 +2411,12 @@ beua_policy_adm_86 = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = beua_standing_army
+		has_idea_group = beua_standing_army_ideas
 		has_idea_group = expansion_ideas
 	}
 
 	allow = {
-		full_idea_group = beua_standing_army
+		full_idea_group = beua_standing_army_ideas
 		full_idea_group = expansion_ideas
 	}
 	
@@ -2431,7 +2431,7 @@ beua_policy_adm_87 = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = beua_standing_army
+		has_idea_group = beua_standing_army_ideas
 		OR = {
 			has_idea_group = religious_ideas   
 			has_idea_group = beua_elven_supremacy_ideas
@@ -2439,7 +2439,7 @@ beua_policy_adm_87 = {
 	}
 
 	allow = {
-		full_idea_group = beua_standing_army
+		full_idea_group = beua_standing_army_ideas
 		OR = {
 			full_idea_group = religious_ideas 
 			full_idea_group = beua_elven_supremacy_ideas
@@ -2478,12 +2478,12 @@ beua_policy_adm_88 = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = beua_standing_army
+		has_idea_group = beua_standing_army_ideas
 		has_idea_group = beua_jurisprudence_ideas
 	}
 	
 	allow = {
-		full_idea_group = beua_standing_army
+		full_idea_group = beua_standing_army_ideas
 		full_idea_group = beua_jurisprudence_ideas
 	}
 	
@@ -2498,11 +2498,11 @@ beua_policy_adm_89 = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = beua_standing_army
+		has_idea_group = beua_standing_army_ideas
 		has_idea_group = infrastructure_ideas
 	}
 	allow = {
-		full_idea_group = beua_standing_army
+		full_idea_group = beua_standing_army_ideas
 		full_idea_group = infrastructure_ideas
 		NOT = {
 			calc_true_if = {
@@ -2537,12 +2537,12 @@ beua_policy_adm_90 = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = beua_standing_army
+		has_idea_group = beua_standing_army_ideas
 		has_idea_group = beua_state_administration_ideas
 	}
 
 	allow = {
-		full_idea_group = beua_standing_army
+		full_idea_group = beua_standing_army_ideas
 		full_idea_group = beua_state_administration_ideas
 	}
 	
@@ -4207,12 +4207,12 @@ beua_policy_adm_153 = {
 
 	potential = {
 		has_idea_group = beua_centralism_ideas
-		has_idea_group = beua_standing_army
+		has_idea_group = beua_standing_army_ideas
 	}
 
 	allow = {
 		full_idea_group = beua_centralism_ideas
-		full_idea_group = beua_standing_army
+		full_idea_group = beua_standing_army_ideas
 	}
 	
 	land_forcelimit_modifier = 0.2
@@ -4477,12 +4477,12 @@ beua_policy_adm_165 = {
 
 	potential = {
 		has_idea_group = beua_decentralism_ideas
-		has_idea_group = beua_standing_army
+		has_idea_group = beua_standing_army_ideas
 	}
 
 	allow = {
 		full_idea_group = beua_decentralism_ideas
-		full_idea_group = beua_standing_army
+		full_idea_group = beua_standing_army_ideas
 	}
 
 	land_forcelimit_modifier = 0.1
@@ -5441,20 +5441,19 @@ beua_policy_adm_199 = {
 	potential = {
 		has_idea_group = beua_magocratic_ideas
 		OR = {
-		has_idea_group = religious_ideas
-		has_idea_group = beua_elven_supremacy_ideas
+			has_idea_group = religious_ideas
+			has_idea_group = beua_elven_supremacy_ideas
 		}
 	}
 	allow = {
 		full_idea_group = beua_magocratic_ideas
 		OR = {
-		full_idea_group = religious_ideas
-		full_idea_group = beua_elven_supremacy_ideas
+			full_idea_group = religious_ideas
+			full_idea_group = beua_elven_supremacy_ideas
 		}
 	}
 	
 	global_heretic_missionary_strength = 0.03
-	
 
 	ai_will_do = {
 		factor = 1

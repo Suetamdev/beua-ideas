@@ -5,8 +5,7 @@ beua_ai_startup_bonus = {
 	trigger = {
 		ai = yes
 	}
-	idea_cost = -0.25
-	max_absolutism = 30
+	idea_cost = -0.15
 	build_cost = -0.1
 }
 

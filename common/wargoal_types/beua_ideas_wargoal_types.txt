@@ -3,9 +3,9 @@ beua_coastal_invasion = {
 	type = take_province
 	
 	attacker = {
-		badboy_factor = 1.0
+		badboy_factor = 1
 		prestige_factor = 1
-		peace_cost_factor = 1.0	
+		peace_cost_factor = 1
 		
 		allowed_provinces = {
 			has_port = yes
@@ -42,16 +42,15 @@ beua_serpentspine_reclamation = {
 	type = superiority
 
 	attacker = {
-		badboy_factor = 0.5
+		badboy_factor = 0.25
 		prestige_factor = 1
-		peace_cost_factor = 0.75
+		peace_cost_factor = 0.5
 
 		allowed_provinces = {
 			OR = {
 				superregion = west_serpentspine_superregion
 				superregion = east_serpentspine_superregion
 			}
-
 		}
 
 		peace_options = {
@@ -63,9 +62,9 @@ beua_serpentspine_reclamation = {
 	}
 
 	defender = {
-		badboy_factor = 0.5
+		badboy_factor = 0.25
 		prestige_factor = 1
-		peace_cost_factor = 0.75
+		peace_cost_factor = 0.5
 
 		allowed_provinces = {
 			OR = {

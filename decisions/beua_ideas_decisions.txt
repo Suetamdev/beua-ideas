@@ -1,0 +1,85 @@
+country_decisions = {
+	beua_materialize_innovative_breakthroughs = {
+		potential = {
+			NOT = {
+				has_estate = estate_artificers
+			}
+		}
+
+		allow = {
+			innovativeness = 25
+			AND = {
+				adm_power = 175
+				dip_power = 175
+				mil_power = 175
+			}
+		}
+
+		effect = {
+			add_adm_power = -175
+			add_dip_power = -175
+			add_mil_power = -175
+
+			if = {
+				limit = {
+					innovativeness = 100
+				}
+				random_list = {
+					90 = {
+						country_event = {
+							id = magic_artificery_setup.1
+								days = 1
+						}
+						change_innovativeness = -10
+					}
+					10 = { change_innovativeness = -10 }
+				}
+			}
+			else_if = {
+				limit = {
+					innovativeness = 80
+				}
+				random_list = {
+					75 = {
+						country_event = {
+							id = magic_artificery_setup.1
+								days = 1
+						}
+						change_innovativeness = -10
+					}
+					25 = { change_innovativeness = -10 }
+				}
+			}
+			else_if = {
+				limit = {
+					innovativeness = 60
+				}
+				random_list = {
+					50 = {
+						country_event = {
+							id = magic_artificery_setup.1
+								days = 1
+						}
+						change_innovativeness = -10
+					}
+					50 = { change_innovativeness = -10 }
+				}
+			}
+			else = {
+				random_list = {
+					25 = {
+						country_event = {
+							id = magic_artificery_setup.1
+								days = 1
+						}
+						change_innovativeness = -10
+					}
+					75 = { change_innovativeness = -10 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

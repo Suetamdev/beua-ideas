@@ -92,7 +92,7 @@ beua_nationalism_ideas = {
 		manpower_in_own_culture_provinces = 0.25
 	}
 	beua_nationalism_idea_2 = {
-		administrative_efficiency = 0.001
+		administrative_efficiency = 0.05
 		effect = { 
 			set_country_flag = focusing_is_free_flag 
 			hidden_effect = {
