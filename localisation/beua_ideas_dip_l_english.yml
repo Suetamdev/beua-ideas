@@ -79,7 +79,7 @@
  beua_imperialism_idea_2:0 "Under Our Wings"
  beua_imperialism_idea_2_desc:0 "The poor fools surrounding us would be better off in our empire - they just don't know it yet.\n\n§GCasus Belli§W to vassalize neighbours with less than 150 development\n"
  beua_imperialism_idea_3:0 "Sphere of Influence"
- beua_imperialism_idea_3_desc:0 "True power is not merely measured by the land we hold, but by the shadow we cast. \n\n§TEnables converting §YVassals§! and §YClient States§! into §YDominions§!§!. §RYou need to have idea:§! §YCo-Prosperity(Decentralism Ideas)§! or §YPostal Service(Influence Ideas)§!\n\n"
+ beua_imperialism_idea_3_desc:0 "True power is not merely measured by the land we hold, but by the shadow we cast. \n\n§TEnables converting §YVassals§! and §YClient States§! into §YDominions§!§!.\n\n"
  beua_imperialism_idea_4:0 "Imperial Fleet"
  beua_imperialism_idea_4_desc:0 "The fleet of an empire needs to be big."
  beua_imperialism_idea_5:0 "The Law of the Jungle"

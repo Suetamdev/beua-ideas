@@ -18,7 +18,7 @@ beua_policy_adm_1 = {
 	}
 
 	global_unrest = -1
-	religious_unity = 0.2
+	religious_unity = 0.25
 
 	ai_will_do = {
 		factor = 1
@@ -127,8 +127,9 @@ beua_policy_adm_3 = {
 		}	
 	}
 	
-	religious_unity = 0.2
-	global_missionary_strength = 0.01
+	religious_unity = 0.15
+	tolerance_heathen = 1
+	tolerance_heretic = 1
  
 	ai_will_do = {
 		factor = 1
@@ -175,7 +176,7 @@ beua_policy_adm_4 = {
 	}
 	
 	religious_unity = 0.2
-	global_heretic_missionary_strength = 0.015
+	global_heretic_missionary_strength = 0.03
 
 	ai_will_do = {
 		factor = 1
@@ -237,6 +238,7 @@ beua_policy_adm_6 = {
 	}
 	
 	advisor_cost = -0.15
+	innovativeness_gain = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -256,7 +258,8 @@ beua_policy_adm_7 = {
 		full_idea_group = beua_assimilation_ideas 
 	}
 	
-	global_institution_spread = 0.2
+	global_unrest = -1
+	years_of_nationalism = -5
 	
 	ai_will_do = {
 		factor = 1
@@ -276,9 +279,8 @@ beua_policy_adm_8 = {
 		full_idea_group = trade_ideas 
 	}
 	
-	global_tax_modifier = 0.1
-	production_efficiency = 0.075
-	trade_efficiency = 0.075
+	production_efficiency = 0.1
+	trade_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -319,6 +321,7 @@ beua_policy_adm_9 = {
 	}
 	
 	land_attrition = -0.1
+	unjustified_demands = -0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -338,7 +341,8 @@ beua_policy_adm_10 = {
 		full_idea_group = beua_society_ideas
 	}
 	
-	idea_cost = -0.075
+	idea_cost = -0.1
+	global_institution_spread = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -358,6 +362,7 @@ beua_policy_adm_11 = {
 	}
 	
 	global_trade_goods_size_modifier = 0.1
+	production_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -393,7 +398,6 @@ beua_policy_adm_12 = {
 			has_idea_group = beua_imperialist_ambition_ideas
 			has_idea_group = beua_imperialism_ideas
 		}
-			
 	}
 	allow = {
 		full_idea_group = infrastructure_ideas
@@ -403,9 +407,9 @@ beua_policy_adm_12 = {
 		}
 	}
 	
-	global_tax_modifier = 0.15
-	production_efficiency = 0.1
-	
+	prestige = 0.5
+	great_project_upgrade_cost = -0.15
+
 	ai_will_do = {
 		factor = 1
 	}
@@ -443,7 +447,7 @@ beua_policy_adm_13 = {
 	}
 	
 	development_cost = -0.05 
-	diplomatic_reputation = 0.75
+	diplomatic_reputation = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -551,6 +555,7 @@ beua_policy_adm_17 = {
 	}
 	
 	land_attrition = -0.15
+	reinforce_speed = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -659,6 +664,7 @@ beua_policy_adm_22 = {
 	}
 	
 	missionaries = 1
+	tolerance_own = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -698,8 +704,8 @@ beua_policy_adm_23 = {
 		full_idea_group = beua_fortress_ideas
 	}
 	
-	land_maintenance_modifier = -0.05
-	land_forcelimit_modifier = 0.15
+	global_sailors_modifier = 0.15
+	defensiveness = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -719,7 +725,7 @@ beua_policy_adm_24 = {
 		full_idea_group = plutocracy_ideas
 	}
 	
-	republican_tradition = 0.2
+	republican_tradition = 0.3
 	
 	ai_will_do = {
 		factor = 1
@@ -765,7 +771,7 @@ beua_policy_adm_26 = {
 		}
 	}
 	
-	core_creation = -0.15
+	core_creation = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -785,7 +791,7 @@ beua_policy_adm_27 = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	siege_ability = 0.1
+	siege_ability = 0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -806,6 +812,7 @@ beua_policy_adm_28 = {
 	}
 	
 	land_maintenance_modifier = -0.1
+	global_tax_modifier = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -865,7 +872,7 @@ beua_policy_adm_30 = {
 		full_idea_group = administrative_ideas
 		NOT = {
 			calc_true_if = {
-				amount = 2
+				amount = 3
 				has_active_policy = beua_policy_adm_30
 				has_active_policy = beua_policy_adm_40
 				has_active_policy = beua_policy_adm_67
@@ -881,7 +888,7 @@ beua_policy_adm_30 = {
 	}
 	
 	inflation_reduction = 0.05
-	interest = -1
+	interest = -0.5
 	
 	ai_will_do = {
 		factor = 1
@@ -908,7 +915,7 @@ beua_policy_adm_31 = {
 	}
 	
 	defensiveness = 0.1
-	siege_ability = 0.075
+	siege_ability = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -971,7 +978,8 @@ beua_policy_adm_34 = {
 		full_idea_group = beua_general_staff_ideas
 	}
 	
-	free_leader_pool = 2
+	free_leader_pool = 2 
+	advisor_pool = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -991,7 +999,7 @@ beua_policy_adm_35 = {
 		full_idea_group = administrative_ideas
 	}
 	
-	governing_capacity_modifier = 0.2
+	governing_capacity_modifier = 0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -1011,7 +1019,8 @@ beua_policy_adm_36 = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	state_maintenance_modifier = -0.75
+	state_maintenance_modifier = -0.25
+	trade_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1042,10 +1051,11 @@ beua_policy_adm_37 = {
 	}
 	
 	legitimacy = 1
-	meritocracy = 0.5
 	republican_tradition = 0.2
 	devotion = 1
 	horde_unity = 1
+	meritocracy = 0.5
+	diplomatic_reputation = 0.5
 	
 	ai_will_do = {
 		factor = 1
@@ -1065,7 +1075,7 @@ beua_policy_adm_38 = {
 		full_idea_group = beua_jurisprudence_ideas
 	}
 	
-	global_autonomy = -0.1
+	global_autonomy = -0.05
 	global_unrest = -1
 	
 	ai_will_do = {
@@ -1086,8 +1096,9 @@ beua_policy_adm_39 = {
 		full_idea_group = infrastructure_ideas
 	}
 	
-	build_cost = -0.05
-	
+	range = 0.25
+	sailors_recovery_speed = 0.1
+
 	ai_will_do = {
 		factor = 1
 	}
@@ -1106,7 +1117,7 @@ beua_policy_adm_40 = {
 		full_idea_group = administrative_ideas
 		NOT = {
 			calc_true_if = {
-				amount = 2
+				amount = 3
 				has_active_policy = beua_policy_adm_30
 				has_active_policy = beua_policy_adm_40
 				has_active_policy = beua_policy_adm_67
@@ -1122,7 +1133,7 @@ beua_policy_adm_40 = {
 	}
 	
 	global_tax_modifier = 0.15
-	interest = -1
+	interest = -0.5
 	
 	ai_will_do = {
 		factor = 1
@@ -1138,8 +1149,8 @@ beua_policy_adm_41 = {
 			has_idea_group = religious_ideas   
 			has_idea_group = beua_elven_supremacy_ideas
 		}
-			
 	}
+
 	allow = {
 		full_idea_group = court_ideas
 		OR = {
@@ -1168,7 +1179,7 @@ beua_policy_adm_42 = {
 		full_idea_group = beua_state_administration_ideas
 	}
 	
-	global_institution_spread = 0.1
+	reform_progress_growth = 0.1
 	state_maintenance_modifier = -0.5
 	
 	ai_will_do = {
@@ -1222,6 +1233,7 @@ beua_policy_adm_44 = {
 	}
 	
 	years_of_nationalism = -5
+	global_rebel_suppression_efficiency = 0.5
 	
 	ai_will_do = {
 		factor = 1
@@ -1242,6 +1254,7 @@ beua_policy_adm_45 = {
 	}
 	
 	same_culture_advisor_cost = -0.15
+	tolerance_own = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1269,7 +1282,8 @@ beua_policy_adm_46 = {
 		}
 	}
 	
-	global_autonomy = -0.15
+	global_autonomy = -0.1
+	global_unrest = -1
 	
 	ai_will_do = {
 		factor = 1
@@ -1289,7 +1303,7 @@ beua_policy_adm_47 = {
 		full_idea_group = beua_jurisprudence_ideas
 	}
 	
-	governing_capacity_modifier = 0.2
+	governing_capacity_modifier = 0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -1361,7 +1375,7 @@ beua_policy_adm_49 = {
 	}
 	
 	global_tax_modifier = 0.1
-	production_efficiency = 0.075
+	production_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1440,7 +1454,8 @@ beua_policy_adm_51 = {
 		full_idea_group = beua_state_administration_ideas 
 	}
 	
-	state_maintenance_modifier = -0.75
+	state_maintenance_modifier = -0.25
+	all_estate_loyalty_equilibrium = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -1460,7 +1475,8 @@ beua_policy_adm_52 = {
 		full_idea_group = administrative_ideas
 	}
 	
-	state_maintenance_modifier = -0.75
+	state_maintenance_modifier = -0.25
+	yearly_corruption = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1512,8 +1528,8 @@ beua_policy_adm_54 = {
 		full_idea_group = expansion_ideas
 	}
 	
-	religious_unity = 0.2
-	tolerance_own = 2
+	religious_unity = 0.15
+	tolerance_own = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -1554,6 +1570,7 @@ beua_policy_adm_55 = {
 	}
 	
 	global_institution_spread = 0.25
+	embracement_cost = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1574,6 +1591,7 @@ beua_policy_adm_56 = {
 	}
 	
 	land_forcelimit = 10
+	land_forcelimit_modifier = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -1594,6 +1612,7 @@ beua_policy_adm_57 = {
 	}
 	
 	advisor_cost = -0.15
+	global_tax_modifier = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -1625,8 +1644,9 @@ beua_policy_adm_58 = {
 		full_idea_group = expansion_ideas
 	}
 	
-	core_creation = -0.15
-	
+	core_creation = -0.1
+	native_uprising_chance = -0.25
+
 	ai_will_do = {
 		factor = 1
 	}
@@ -1691,7 +1711,7 @@ beua_policy_adm_60 = {
 		full_idea_group = beua_war_production_ideas
 	}
 	
-	global_trade_goods_size_modifier = 0.05
+	global_trade_goods_size_modifier = 0.1
 	production_efficiency = 0.1
 	
 	ai_will_do = {
@@ -1738,7 +1758,7 @@ beua_policy_adm_61 = {
 		}
 	}
 	
-	governing_capacity_modifier = 0.2
+	governing_capacity_modifier = 0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -1803,7 +1823,7 @@ beua_policy_adm_63 = {
 		}
 	}
 	
-	advisor_pool = 5
+	advisor_pool = 3
 	
 	ai_will_do = {
 		factor = 1
@@ -1830,6 +1850,7 @@ beua_policy_adm_64 = {
 	}
 	
 	idea_cost = -0.1
+	core_creation = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -1855,8 +1876,8 @@ beua_policy_adm_65 = {
 		}
 	}
 	
-	global_institution_spread = 0.1
-	innovativeness_gain = 0.25
+	global_institution_spread = 0.15
+	innovativeness_gain = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -1882,7 +1903,7 @@ beua_policy_adm_66 = {
 		}
 	}
 	
-	state_maintenance_modifier = -0.5
+	state_maintenance_modifier = -0.25
 	yearly_corruption = -0.1
 	
 	ai_will_do = {
@@ -1903,7 +1924,7 @@ beua_policy_adm_67 = {
 		full_idea_group = beua_state_administration_ideas
 		NOT = {
 			calc_true_if = {
-				amount = 2
+				amount = 3
 				has_active_policy = beua_policy_adm_30
 				has_active_policy = beua_policy_adm_40
 				has_active_policy = beua_policy_adm_67
@@ -1918,8 +1939,8 @@ beua_policy_adm_67 = {
 		}
 	}
 	
-	interest = -1
-	yearly_corruption = -0.2
+	interest = -0.5
+	yearly_corruption = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1987,7 +2008,8 @@ beua_policy_adm_70 = {
 		full_idea_group = beua_health_ideas
 	}
 	
-	technology_cost = -0.1
+	technology_cost = -0.05
+	reduced_liberty_desire = 5
 	
 	ai_will_do = {
 		factor = 1
@@ -2027,7 +2049,7 @@ beua_policy_adm_71 = {
 	}
 	
 	development_cost = -0.05
-	build_cost = -0.035
+	build_cost = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -2047,8 +2069,8 @@ beua_policy_adm_72 = {
 		full_idea_group = beua_health_ideas
 	}
 	
-	garrison_size = 0.5
-	global_garrison_growth = 0.2
+	garrison_size = 0.15
+	global_garrison_growth = 0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -2068,8 +2090,7 @@ beua_policy_adm_73 = {
 		full_idea_group = beua_jurisprudence_ideas
 	}
 	
-	global_autonomy = -0.2
-
+	global_autonomy = -0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -2090,7 +2111,7 @@ beua_policy_adm_74 = {
 	}
 	
 	global_tax_modifier = 0.1
-	production_efficiency = 0.075
+	production_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2122,8 +2143,8 @@ beua_policy_adm_75 = {
 		full_idea_group = beua_jurisprudence_ideas
 	}
 	
-	global_missionary_strength = 0.01
-	missionaries = 1
+	global_unrest = -1
+	ae_impact = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -2163,7 +2184,8 @@ beua_policy_adm_76 = {
 		full_idea_group = beua_state_administration_ideas
 	}
 	
-	state_maintenance_modifier = -0.75
+	state_maintenance_modifier = -0.5
+	governing_capacity_modifier = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -2205,7 +2227,8 @@ beua_policy_adm_78 = {
 		full_idea_group = humanist_ideas 
 	}
 	
-	army_tradition = 0.75
+	army_tradition = 0.5
+	harsh_treatment_cost = -0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -2236,7 +2259,7 @@ beua_policy_adm_79 = {
 	}
 	
 	free_leader_pool = 1
-	advisor_pool = 3
+	advisor_pool = 2
 	
 	ai_will_do = {
 		factor = 1
@@ -2263,6 +2286,7 @@ beua_policy_adm_80 = {
 	}
 	
 	missionaries = 1
+	land_morale = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -2303,10 +2327,11 @@ beua_policy_adm_81 = {
 	}
 	
 	legitimacy = 1
-	meritocracy = 0.5
 	republican_tradition = 0.2
 	devotion = 1
 	horde_unity = 1
+	meritocracy = 0.5
+	stability_cost_modifier = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2326,8 +2351,8 @@ beua_policy_adm_82 = {
 		full_idea_group = beua_health_ideas
 	}
 	
-	sailors_recovery_speed = 0.15
-	manpower_recovery_speed = 0.15
+	sailors_recovery_speed = 0.1
+	manpower_recovery_speed = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2347,7 +2372,8 @@ beua_policy_adm_83 = {
 		full_idea_group = beua_state_administration_ideas
 	}
 	
-	reinforce_speed = 0.25
+	reinforce_speed = 0.15
+	movement_speed = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -2401,6 +2427,7 @@ beua_policy_adm_85 = {
 	}
 	
 	land_maintenance_modifier = -0.1
+	global_unrest = -1
 	
 	ai_will_do = {
 		factor = 1
@@ -2547,6 +2574,7 @@ beua_policy_adm_90 = {
 	}
 	
 	land_maintenance_modifier = -0.1
+	reinforce_speed = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2593,7 +2621,8 @@ beua_policy_adm_92 = {
 		full_idea_group = beua_jurisprudence_ideas
 	}
 	
-	yearly_corruption = -0.2
+	yearly_corruption = -0.15
+	mercenary_manpower = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2619,7 +2648,8 @@ beua_policy_adm_93 = {
 		}	
 	}
 	
-	missionaries = 1			
+	missionaries = 1
+	manpower_recovery_speed = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2658,9 +2688,9 @@ beua_policy_adm_94 = {
 		full_idea_group = beua_conscription_ideas
 		full_idea_group = administrative_ideas
 	}
-	
-	global_regiment_cost = -0.10
-	global_regiment_recruit_speed = -0.5
+
+	global_regiment_cost = -0.1
+	global_regiment_recruit_speed = -0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -2680,9 +2710,9 @@ beua_policy_adm_95 = {
 		full_idea_group = economic_ideas
 	}
 
-	trade_efficiency = 0.075
+	trade_efficiency = 0.05
 	global_tax_modifier = 0.1
-	production_efficiency = 0.075
+	production_efficiency = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -2722,8 +2752,8 @@ beua_policy_adm_96 = {
 		full_idea_group = expansion_ideas
 	}
 	
-	years_of_nationalism = -3
-	yearly_corruption = -0.1
+	years_of_nationalism = -5
+	yearly_corruption = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -2743,7 +2773,8 @@ beua_policy_adm_97 = {
 		full_idea_group = beua_jurisprudence_ideas
 	}
 	
-	land_morale = 0.08
+	land_morale = 0.05
+	land_forcelimit_modifier = 0.1
 	
 	ai_will_do = {
 		factor = 5
@@ -2787,7 +2818,7 @@ beua_policy_adm_99 = {
 		full_idea_group = beua_state_administration_ideas
 	}
 	
-	global_manpower_modifier = 0.25
+	global_manpower_modifier = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -2808,7 +2839,7 @@ beua_policy_adm_100 = {
 	}
 	
 	reinforce_speed = 0.1
-	land_attrition = -0.1
+	land_attrition = -0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -2836,7 +2867,8 @@ beua_policy_adm_101 = {
 		full_idea_group = humanist_ideas 
 	}
 	
-	global_tax_modifier = 0.25
+	trade_efficiency = 0.1
+	global_trade_power = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -2856,7 +2888,8 @@ beua_policy_adm_102 = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	global_institution_spread = 0.25
+	global_institution_spread = 0.15
+	production_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2876,7 +2909,7 @@ beua_policy_adm_103 = {
 		full_idea_group = beua_jurisprudence_ideas
 	}
 	
-	embargo_efficiency = 0.25
+	embargo_efficiency = 0.15
 	production_efficiency = 0.1
 	
 	ai_will_do = {
@@ -2918,7 +2951,8 @@ beua_policy_adm_104 = {
 	}
 	
 	idea_cost = -0.1
-	
+	land_maintenance_modifier = -0.05
+
 	ai_will_do = {
 		factor = 1
 	}
@@ -2937,7 +2971,7 @@ beua_policy_adm_105 = {
 		full_idea_group = beua_state_administration_ideas
 		NOT = {
 			calc_true_if = {
-				amount = 2
+				amount = 3
 				has_active_policy = beua_policy_adm_30
 				has_active_policy = beua_policy_adm_40
 				has_active_policy = beua_policy_adm_67
@@ -2952,7 +2986,7 @@ beua_policy_adm_105 = {
 		}
 	}
 	
-	interest = -2
+	interest = -1
 	
 	ai_will_do = {
 		factor = 1
@@ -3025,7 +3059,7 @@ beua_policy_adm_107 = {
 	}
 	
 	fort_maintenance_modifier = -0.15
-	development_cost = -0.05		
+	development_cost = -0.05	
 	
 	ai_will_do = {
 		factor = 1
@@ -3046,7 +3080,7 @@ beua_policy_adm_108 = {
 	}
 	
 	state_maintenance_modifier = -0.5
-	yearly_corruption = -0.1
+	yearly_corruption = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -3066,7 +3100,7 @@ beua_policy_adm_109 = {
 		full_idea_group = expansion_ideas
 	}
 	
-	global_trade_goods_size_modifier = 0.05
+	global_trade_goods_size_modifier = 0.1
 	production_efficiency = 0.1
 	
 	ai_will_do = {
@@ -3113,6 +3147,7 @@ beua_policy_adm_110 = {
 		}	
 	}
 	
+	religious_unity = 0.1
 	tolerance_heathen = 1
 	tolerance_heretic = 1
 	
@@ -3134,8 +3169,8 @@ beua_policy_adm_111 = {
 		full_idea_group = humanist_ideas 
 	}
 	
-	global_regiment_cost = -0.15
-	global_regiment_recruit_speed = -0.3
+	global_regiment_cost = -0.1
+	global_regiment_recruit_speed = -0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -3156,7 +3191,7 @@ beua_policy_adm_112 = {
 	}
 	
 	production_efficiency = 0.1
-	global_trade_goods_size_modifier = 0.05
+	global_trade_goods_size_modifier = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3196,8 +3231,8 @@ beua_policy_adm_113 = {
 		full_idea_group = beua_health_ideas
 	}
 	
-	manpower_recovery_speed = 0.15
-	sailors_recovery_speed = 0.15
+	manpower_recovery_speed = 0.1
+	sailors_recovery_speed = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3223,7 +3258,8 @@ beua_policy_adm_114 = {
 		}
 	}
 	
-	naval_attrition = -0.5
+	naval_attrition = -0.15
+	allowed_marine_fraction = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3257,7 +3293,8 @@ beua_policy_adm_115 = {
 		}
 	}
 	
-	global_ship_cost = -0.25
+	global_ship_cost = -0.15
+	naval_forcelimit_modifier = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3304,6 +3341,7 @@ beua_policy_adm_116 = {
 	devotion = 1
 	horde_unity = 1
 	republican_tradition = 0.2
+	global_ship_trade_power = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3323,8 +3361,8 @@ beua_policy_adm_117 = {
 		full_idea_group = economic_ideas
 	}
 	
-	production_efficiency = 0.075
-	galley_cost = -0.15
+	production_efficiency = 0.1
+	galley_cost = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3364,7 +3402,7 @@ beua_policy_adm_118 = {
 		full_idea_group = administrative_ideas
 	}
 	
-	land_morale = 0.08
+	land_morale = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3432,7 +3470,8 @@ beua_policy_adm_121 = {
 		full_idea_group = beua_health_ideas
 	}
 	
-	global_trade_goods_size_modifier = 0.1
+	manpower_recovery_speed = 0.1
+	reinforce_speed = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3472,7 +3511,7 @@ beua_policy_adm_123 = {
 		full_idea_group = beua_society_ideas
 		NOT = {
 			calc_true_if = {
-				amount = 2
+				amount = 3
 				has_active_policy = beua_policy_adm_30
 				has_active_policy = beua_policy_adm_40
 				has_active_policy = beua_policy_adm_67
@@ -3487,8 +3526,8 @@ beua_policy_adm_123 = {
 		}
 	}
 	
-	interest = -1
-	inflation_reduction = 0.1
+	interest = -0.5
+	inflation_reduction = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -3513,6 +3552,7 @@ beua_policy_adm_124 = {
 	republican_tradition = 0.2
 	devotion = 1
 	horde_unity = 1
+	global_manpower_modifier = 0.05
 	
 	ai_will_do = {
 		factor = 1	
@@ -3552,8 +3592,8 @@ beua_policy_adm_126 = {
 		full_idea_group = economic_ideas
 	}
 	
-	global_institution_spread = 0.1
-	embracement_cost = -0.2
+	global_institution_spread = 0.25
+	embracement_cost = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3573,7 +3613,8 @@ beua_policy_adm_127 = {
 		full_idea_group = expansion_ideas
 	}
 	
-	movement_speed = 0.2		
+	movement_speed = 0.1
+	land_morale = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -3601,7 +3642,7 @@ beua_policy_adm_128 = {
 		full_idea_group = beua_jurisprudence_ideas
 	}
 	
-	land_morale = 0.08					
+	land_morale = 0.1				
 	
 	ai_will_do = {
 		factor = 1
@@ -3656,7 +3697,8 @@ beua_policy_adm_130 = {
 		}
 	}
 	
-	land_forcelimit = 15
+	land_forcelimit = 10
+	land_forcelimit_modifier = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -3752,7 +3794,7 @@ beua_policy_adm_134 = {
 		full_idea_group = expansion_ideas
 	}
 	
-	diplomatic_annexation_cost = -0.15
+	province_warscore_cost = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3772,7 +3814,7 @@ beua_policy_adm_135 = {
 		full_idea_group = administrative_ideas
 	}
 	
-	global_missionary_strength = 0.02
+	global_missionary_strength = 0.03
 	
 	ai_will_do = {
 		factor = 1
@@ -3792,7 +3834,7 @@ beua_policy_adm_136 = {
 		full_idea_group = infrastructure_ideas
 		NOT = {
 			calc_true_if = {
-				amount = 2
+				amount = 3
 				has_active_policy = beua_policy_adm_30
 				has_active_policy = beua_policy_adm_40
 				has_active_policy = beua_policy_adm_67
@@ -3807,7 +3849,7 @@ beua_policy_adm_136 = {
 		}
 	}
 	
-	interest = -2
+	interest = -1
 	
 	ai_will_do = {
 		factor = 1
@@ -3848,6 +3890,7 @@ beua_policy_adm_138 = {
 	}
 	
 	global_trade_goods_size_modifier = 0.1
+	production_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3878,7 +3921,8 @@ beua_policy_adm_139 = {
 	meritocracy = 0.5
 	devotion = 1
 	horde_unity = 1
-	
+	religious_unity = 0.05
+
 	ai_will_do = {
 		factor = 1
 	}
@@ -3908,7 +3952,7 @@ beua_policy_adm_140 = {
 	}
 	
 	artillery_cost = -0.1
-	infantry_cost = -0.1			
+	infantry_cost = -0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -3928,7 +3972,8 @@ beua_policy_adm_141 = {
 		full_idea_group = economic_ideas
 	}
 	
-	production_efficiency = 0.15
+	production_efficiency = 0.1
+	reinforce_speed = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3949,6 +3994,7 @@ beua_policy_adm_142 = {
 	}
 	
 	siege_ability = 0.1
+	artillery_barrage_cost = -0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -3969,7 +4015,7 @@ beua_policy_adm_143 = {
 	}
 	
 	reinforce_speed = 0.15
-	manpower_recovery_speed = 0.15
+	manpower_recovery_speed = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3995,7 +4041,7 @@ beua_policy_adm_144 = {
 		}
 	}
 	
-	prestige = 2
+	prestige = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -4016,6 +4062,7 @@ beua_policy_adm_145 = {
 	}
 	
 	global_trade_goods_size_modifier = 0.1
+	production_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -4036,6 +4083,7 @@ beua_policy_adm_146 = {
 	}
 	
 	idea_cost = -0.1
+	global_spy_defence = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -4055,7 +4103,7 @@ beua_policy_adm_147 = {
 		full_idea_group = defensive_ideas
 	}
 	
-	build_cost = -0.05
+	build_cost = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -4075,7 +4123,7 @@ beua_policy_adm_148 = {
 		full_idea_group = beua_society_ideas
 		NOT = {
 			calc_true_if = {
-				amount = 2
+				amount = 3
 				has_active_policy = beua_policy_adm_30
 				has_active_policy = beua_policy_adm_40
 				has_active_policy = beua_policy_adm_67
@@ -4090,7 +4138,7 @@ beua_policy_adm_148 = {
 		}
 	}
 	
-	interest = -2
+	interest = -1
 	
 	ai_will_do = {
 		factor = 1
@@ -4149,7 +4197,8 @@ beua_policy_adm_150 = {
 		full_idea_group = beua_amphibious_ideas
 	}
 	
-	range = 0.5
+	range = 0.25
+	global_ship_repair = 0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -4175,7 +4224,7 @@ beua_policy_adm_151 = {
 		}
 	}
 	
-	build_cost = -0.05
+	core_creation = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -4235,7 +4284,7 @@ beua_policy_adm_154 = {
 		full_idea_group = beua_general_staff_ideas
 	}
 	
-	land_maintenance_modifier = -0.035
+	land_maintenance_modifier = -0.05
 	naval_maintenance_modifier = -0.05
 	fort_maintenance_modifier = -0.15
 	
@@ -4257,7 +4306,8 @@ beua_policy_adm_155 = {
 		full_idea_group = mercenary_ideas
 	}
 	
-	mercenary_manpower = 0.5
+	mercenary_manpower = 0.15
+	merc_maintenance_modifier = -0.05
 
 	ai_will_do = {
 		factor = 1	
@@ -4278,6 +4328,7 @@ beua_policy_adm_156 = {
 	}
 	
 	siege_ability = 0.1
+	artillery_cost = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -4298,6 +4349,7 @@ beua_policy_adm_157 = {
 	}
 	
 	defensiveness = 0.15
+	garrison_size = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -4318,7 +4370,7 @@ beua_policy_adm_158 = {
 	}
 	
 	army_tradition = 0.5
-	army_tradition_decay = -0.007
+	army_tradition_decay = -0.005
 	
 	ai_will_do = {
 		factor = 1
@@ -4377,7 +4429,8 @@ beua_policy_adm_160 = {
 		full_idea_group = influence_ideas
 	}
 	
-	build_cost = -0.05
+	vassal_forcelimit_bonus = 0.5
+	allow_client_states = yes 
 	
 	ai_will_do = {
 		factor = 1
@@ -4396,9 +4449,9 @@ beua_policy_adm_161 = {
 		full_idea_group = beua_decentralism_ideas
 		full_idea_group = offensive_ideas
 	}
-	
-	advisor_pool = 2
-	imperial_authority_value = 0.1
+
+	reinforce_speed = 0.1
+	movement_speed = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -4418,7 +4471,7 @@ beua_policy_adm_162 = {
 		full_idea_group = beua_society_ideas
 	}
 	
-	reduced_liberty_desire = 10
+	reduced_liberty_desire = 15
 	
 	ai_will_do = {
 		factor = 1
@@ -4443,9 +4496,9 @@ beua_policy_adm_163 = {
 			full_idea_group = beua_imperialist_ambition_ideas
 		}
 	}
-	
-	global_tax_modifier = 0.15
-	production_efficiency = 0.1
+
+	advisor_pool = 2
+	imperial_authority_value = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -4465,7 +4518,8 @@ beua_policy_adm_164 = {
 		full_idea_group = beua_nationalism_ideas
 	}
 	
-	enemy_core_creation = 0.5
+	enemy_core_creation = 0.25
+	hostile_attrition = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -4506,7 +4560,7 @@ beua_policy_adm_166 = {
 		full_idea_group = beua_general_staff_ideas
 	}
 	
-	global_manpower_modifier = 0.25
+	global_manpower_modifier = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -4526,8 +4580,8 @@ beua_policy_adm_167 = {
 		full_idea_group = mercenary_ideas
 	}
 	
-	mercenary_manpower = 0.25
-	war_exhaustion_cost = -0.2
+	mercenary_manpower = 0.15
+	allow_client_states = yes
 	
 	ai_will_do = {
 		factor = 1
@@ -4547,6 +4601,7 @@ beua_policy_adm_168 = {
 	}
 	
 	build_cost = -0.05
+	production_efficiency = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -4567,6 +4622,7 @@ beua_policy_adm_169 = {
 	}
 	
 	global_trade_goods_size_modifier = 0.1
+	production_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -4587,6 +4643,7 @@ beua_policy_adm_170 = {
 	}
 	
 	advisor_cost = -0.15
+	yearly_corruption = -0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -4606,7 +4663,8 @@ beua_policy_adm_171 = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	idea_cost = -0.075
+	idea_cost = -0.1
+	defensiveness = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -4749,7 +4807,8 @@ beua_policy_adm_175 = {
 		full_idea_group = beua_serpentspine_ideas
 	}
 
-	min_autonomy_in_territories = -0.1
+	yearly_corruption = -0.1
+	global_autonomy = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -4770,7 +4829,7 @@ beua_policy_adm_176 = {
 	}	
 	
 	production_efficiency = 0.1
-	religious_unity = 0.2
+	religious_unity = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -4831,7 +4890,8 @@ beua_policy_adm_177 = {
 		full_idea_group = beua_serpentspine_ideas
 	}
 
-	production_efficiency = 0.15
+	production_efficiency = 0.1
+	artillery_cost = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -4851,7 +4911,8 @@ beua_policy_adm_178 = {
 		full_idea_group = beua_serpentspine_ideas
 	}
 
-	movement_speed = 0.10
+	movement_speed = 0.05
+	expand_infrastructure_cost_modifier = -0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -4959,7 +5020,8 @@ beua_policy_adm_181 = {
 		}
 	}
 		
-	development_cost = -0.1
+	development_cost = -0.05
+    artificers_capacity = 5
 		
 	ai_will_do = {
 		factor = 1	
@@ -4979,7 +5041,8 @@ beua_policy_adm_182 = {
 		full_idea_group = expansion_ideas
 	}
 
-	governing_capacity_modifier = 0.15
+	governing_capacity_modifier = 0.05
+	artificers_capacity = 5
 	
 	ai_will_do = {
 		factor = 1
@@ -4999,7 +5062,8 @@ beua_policy_adm_183 = {
 		full_idea_group = beua_artificery_ideas
 	}
 
-	min_autonomy_in_territories = -0.1
+    artificers_capacity = 5
+	global_tax_modifier = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -5019,7 +5083,8 @@ beua_policy_adm_184 = {
 		full_idea_group = beua_artificery_ideas
 	}
 
-	production_efficiency = 0.15
+    artificers_capacity = 5
+	production_efficiency = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -5039,8 +5104,9 @@ beua_policy_adm_185 = {
 		full_idea_group = beua_artificery_ideas
 	}	
 	
-	production_efficiency = 0.1
-	religious_unity = 0.2
+	religious_unity = 0.15
+	tolerance_heathen = 1
+	tolerance_heretic = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -5101,7 +5167,8 @@ beua_policy_adm_186 = {
 		full_idea_group = beua_artificery_ideas
 	}
 
-	caravan_power = 0.25
+	artificers_invention_slots = 1
+	expand_infrastructure_cost_modifier = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -5127,7 +5194,8 @@ beua_policy_adm_187 = {
 		full_idea_group = beua_artificery_ideas
 	}
 
-	innovativeness_gain = 0.5
+	innovativeness_gain = 0.25
+	advisor_cost = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -5146,7 +5214,7 @@ beua_policy_adm_188 = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	female_advisor_chance = 0.1
+	female_advisor_chance = 0.15
 	advisor_pool = 2
 
 	ai_will_do = {
@@ -5173,7 +5241,8 @@ beua_policy_adm_189 = {
 		full_idea_group = beua_legionary_ideas
 	}
 	
-	establish_order_cost = -0.25
+	establish_order_cost = -0.15
+	global_missionary_strength = 0.01
 
 	ai_will_do = {
 		factor = 1
@@ -5232,7 +5301,8 @@ beua_policy_adm_192 = {
 		full_idea_group = beua_legionary_ideas
 	}
 
-	war_exhaustion = -0.02
+	war_exhaustion = -0.05
+	land_maintenance_modifier = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -5253,7 +5323,7 @@ beua_policy_adm_193 = {
 	}	
 	
 	production_efficiency = 0.1
-	religious_unity = 0.2
+	religious_unity = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -5314,7 +5384,7 @@ beua_policy_adm_194 = {
 		full_idea_group = beua_legionary_ideas
 		NOT = {
 			calc_true_if = {
-				amount = 2
+				amount = 3
 				has_active_policy = beua_policy_adm_30
 				has_active_policy = beua_policy_adm_40
 				has_active_policy = beua_policy_adm_67
@@ -5329,7 +5399,7 @@ beua_policy_adm_194 = {
 		}
 	}
 
-	interest = -2
+	interest = -1
 	
 	ai_will_do = {
 		factor = 1
@@ -5349,7 +5419,8 @@ beua_policy_adm_195 = {
 		full_idea_group = beua_legionary_ideas
 	}
 
-	movement_speed = 0.10
+	movement_speed = 0.1
+	land_morale = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -5375,6 +5446,7 @@ beua_policy_adm_196 = {
 		full_idea_group = beua_legionary_ideas
 	}
 
+	army_tradition = 0.5
 	harsh_treatment_cost = -0.25
 	
 	ai_will_do = {
@@ -5395,6 +5467,7 @@ beua_policy_adm_197 = {
 	}
 	
 	yearly_corruption = -0.15
+	advisor_cost = -0.1
 
 	ai_will_do = {
 		factor = 1
@@ -5429,6 +5502,7 @@ beua_policy_adm_198 = {
 	horde_unity = 1
 	devotion = 1
 	meritocracy = 1
+	advisor_cost = -0.05
 
 	ai_will_do = {
 		factor = 1
@@ -5453,6 +5527,7 @@ beua_policy_adm_199 = {
 		}
 	}
 	
+	religious_unity = 0.2
 	global_heretic_missionary_strength = 0.03
 
 	ai_will_do = {
@@ -5493,7 +5568,9 @@ beua_policy_adm_201 = {
 		full_idea_group = beua_state_administration_ideas
 	}
 	
-	embracement_cost = -0.15
+	mages_estate_experience_mod = 0.15
+	mages_mana_regen_mult = 0.05
+	state_maintenance_modifier = -0.1
 
 	ai_will_do = {
 		factor = 1
@@ -5513,7 +5590,9 @@ beua_policy_adm_202 = {
 		full_idea_group = beua_centralism_ideas
 	}
 	
-	global_tax_modifier = 0.25
+	mages_estate_experience_mod = 0.15
+	mages_mana_regen_mult = 0.05
+	global_tax_modifier = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -5553,6 +5632,7 @@ beua_policy_adm_204 = {
 	}
 	
 	colonist_placement_chance = 0.05
+	native_uprising_chance = -0.5
 
 	ai_will_do = {
 		factor = 1
@@ -5598,7 +5678,9 @@ beua_policy_adm_206 = {
 		}
 	}
 	
-	global_missionary_strength = 0.02
+	religious_unity = 0.15
+	tolerance_heathen = 1
+	tolerance_heretic = 1
 
 	ai_will_do = {
 		factor = 1
@@ -5619,6 +5701,7 @@ beua_policy_adm_207 = {
 	}
 	
 	technology_cost = -0.05
+	innovativeness_gain = 0.15
 
 	ai_will_do = {
 		factor = 1
@@ -5658,7 +5741,7 @@ beua_policy_adm_208 = {
 	}
 	
 	development_cost = -0.05
-	build_cost = -0.035
+	build_cost = -0.05
 
 	ai_will_do = {
 		factor = 1
@@ -5677,7 +5760,8 @@ beua_policy_adm_209 = {
 		full_idea_group = expansion_ideas
 	}
 	
-	min_autonomy_in_territories = -0.1
+	liberty_desire_from_subject_development = -0.15
+	reduced_liberty_desire = 10
 
 	ai_will_do = {
 		factor = 1
@@ -5696,7 +5780,7 @@ beua_policy_adm_210 = {
 		full_idea_group = beua_health_ideas
 	}
 	
-	global_manpower_modifier = 0.25
+	global_manpower_modifier = 0.2
 
 	ai_will_do = {
 		factor = 1
@@ -5716,7 +5800,8 @@ beua_policy_adm_211 = {
 		full_idea_group = administrative_ideas
 	}
 	
-	global_autonomy = -0.075
+	global_autonomy = -0.05
+	global_tax_modifier = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -5736,7 +5821,8 @@ beua_policy_adm_212 = {
 		full_idea_group = humanist_ideas
 	}
 	
-	years_of_nationalism = -4
+	years_of_nationalism = -5
+	stability_cost_modifier = -0.15
 
 	ai_will_do = {
 		factor = 1
@@ -5756,8 +5842,8 @@ beua_policy_adm_213 = {
 		full_idea_group = beua_industrial_ideas
 	}
 	
-	global_trade_goods_size_modifier = 0.075
-	build_cost = -0.035
+	global_trade_goods_size_modifier = 0.1
+	production_efficiency = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -5777,7 +5863,8 @@ beua_policy_adm_214 = {
 		full_idea_group = defensive_ideas
 	}
 	
-	reinforce_speed = 0.33
+	global_garrison_growth = 0.1
+	manpower_recovery_speed = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -5843,7 +5930,8 @@ beua_policy_adm_217 = {
 		full_idea_group = mercenary_ideas
 	}
 	
-	mercenary_cost = -0.2
+	mercenary_cost = -0.15
+	merc_maintenance_modifier = -0.1
 
 	ai_will_do = {
 		factor = 1
@@ -5885,6 +5973,7 @@ beua_policy_adm_219 = {
 	}
 	
 	build_cost = -0.05
+	global_regiment_recruit_speed = -0.1
 
 	ai_will_do = {
 		factor = 1
@@ -5904,8 +5993,8 @@ beua_policy_adm_220 = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	technology_cost = -0.05
-	tec_brilliance_influence = 0.1
+	artificers_capacity = 5
+	artificers_research_time = -0.15
 
 	ai_will_do = {
 		factor = 1
@@ -5925,7 +6014,8 @@ beua_policy_adm_221 = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	innovativeness_gain = 0.5
+	innovativeness_gain = 0.25
+	advisor_cost = -0.1
 
 	ai_will_do = {
 		factor = 1
@@ -5943,6 +6033,9 @@ beua_policy_adm_222 = {
 		}
 	}
 
+	missionaries = 1
+	global_missionary_strength = 0.02
+
 	allow = {
 		full_idea_group = beua_imperial_ideas
 		OR = {
@@ -5950,8 +6043,6 @@ beua_policy_adm_222 = {
 			full_idea_group = beua_elven_supremacy_ideas
 		}
 	}
-	
-	global_religious_conversion_resistance = 0.25
 
 	ai_will_do = {
 		factor = 1
@@ -6051,8 +6142,8 @@ beua_policy_adm_227 = {
 		full_idea_group = beua_industrial_ideas
 	}
 	
-	global_trade_goods_size_modifier = 0.075
-	build_cost = -0.035
+	global_trade_goods_size_modifier = 0.1
+	production_efficiency = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -6072,8 +6163,8 @@ beua_policy_adm_228 = {
 		full_idea_group = beua_magocratic_ideas
 	}
 	
-	global_tax_modifier = 0.15
-	global_autonomy = -0.05
+	mages_mana_capacity = 25
+	max_estate_spell_levels = 1
 
 	ai_will_do = {
 		factor = 1
@@ -6114,6 +6205,7 @@ beua_policy_adm_230 = {
 	}
 	
 	global_monthly_devastation = -0.25
+	fort_maintenance_modifier = -0.1
 
 	ai_will_do = {
 		factor = 1

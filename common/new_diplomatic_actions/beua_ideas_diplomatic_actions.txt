@@ -262,18 +262,9 @@ beua_dominion_create = {
 
 	is_visible = {
 		OR = { 
-			AND = {
-				has_idea = beua_imperialism_idea_3 
-				has_idea = beua_decentralism_idea_7 
-			}
-			AND = {
-				has_idea = beua_imperialism_idea_3 
-				has_idea = postal_service 
-			}
-			AND = {
-				has_idea = beua_decentralism_idea_7 
-				has_idea = postal_service 
-			}
+			has_idea = beua_imperialism_idea_3 
+			has_idea = beua_decentralism_idea_7 
+			has_idea = postal_service 
 		}
 		
 		FROM = {

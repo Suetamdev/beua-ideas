@@ -105,7 +105,7 @@
  beua_decentralism_idea_6:0 "Pluralistic Governance"
  beua_decentralism_idea_6_desc:0 "An empire of our size is home to many peoples. By establishing broad regional assemblies and legally recognizing the traditions of our diverse cultural groups, we alleviate administrative strain and expand our capacity to rule."
  beua_decentralism_idea_7:0 "Co-Prosperity"
- beua_decentralism_idea_7_desc:0 "By establishing the economic prosperity of our subjects, we secure our own wealth through their tributes.\n\n§TEnables converting §YVassals§! and §YClient States§! into §YDominions§!§!. §RRequires having completed §YSphere of Influence§! (Imperialism Ideas) or §YPostal Service§! (Influence Ideas)§!\n"
+ beua_decentralism_idea_7_desc:0 "By establishing the economic prosperity of our subjects, we secure our own wealth through their tributes.\n\n§TEnables converting §YVassals§! and §YClient States§! into §YDominions§!§!.\n\n"
 
  # Industrial Ideas
  beua_industrial_ideas:0 "Industrial Ideas"
@@ -123,4 +123,4 @@
  beua_industrial_idea_6:0 "Mechanized Logistics"
  beua_industrial_idea_6_desc:0 "The rumbling of engines is ever present wherever our armies march. With horseless carriages now carrying men and supplies at revolutionary speeds, our armies can utilize the new philosophy of \"thunder warfare\" to overwhelm our foes."
  beua_industrial_idea_7:0 "Integrated Supply Chains"
- beua_industrial_idea_7_desc:0 "By streamlining the flow of raw materials to manufacturing hubs, we maximize the output of every workshop.\n\nDeveloping a province with §GDiplomatic Power§! provides increasing bonuses:\nAt §Y25 Development§!: Grants §GSimple Production§! (+2.5% Production Efficiency).\nAt §Y50 Development§!: Upgrades to §GComplex Production§! (+5% Production Efficiency and §G+1§! Artificer Capacity).\n\n"
+ beua_industrial_idea_7_desc:0 "By streamlining the flow of raw materials to manufacturing hubs, we maximize the output of every workshop.\n\nDeveloping a province provides increasing bonuses:\nAt §Y25 Development§!: Grants §GSimple Production§! (+2.5% Production Efficiency).\nAt §Y50 Development§!: Upgrades to §GComplex Production§! (+5% Production Efficiency and §G+1§! Artificer Capacity).\n\n"

@@ -585,7 +585,7 @@ beua_policy_dip_19 = {
 		full_idea_group = plutocracy_ideas
 	}
 	
-	range = 0.5
+	range = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -1564,7 +1564,7 @@ beua_policy_dip_56 = {
 		full_idea_group = quantity_ideas
 	}
 	
-	range = 0.5
+	range = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -2114,7 +2114,7 @@ beua_policy_dip_79 = {
 		full_idea_group = beua_jurisprudence_ideas
 		NOT = {
 			calc_true_if = {
-				amount = 2
+				amount = 3
 				has_active_policy = beua_policy_adm_30
 				has_active_policy = beua_policy_adm_40
 				has_active_policy = beua_policy_adm_67
@@ -2401,7 +2401,7 @@ beua_policy_dip_91 = {
 		full_idea_group = beua_state_administration_ideas
 		NOT = {
 			calc_true_if = {
-				amount = 2
+				amount = 3
 				has_active_policy = beua_policy_adm_30
 				has_active_policy = beua_policy_adm_40
 				has_active_policy = beua_policy_adm_67
@@ -2879,7 +2879,7 @@ beua_policy_dip_107 = {
 		full_idea_group = expansion_ideas
 	}
 	
-	range = 0.5
+	range = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -4494,7 +4494,7 @@ beua_policy_dip_174 = {
 		full_idea_group = beua_colonial_empire_ideas
 	}
 	
-	range = 0.5
+	range = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -4555,7 +4555,7 @@ beua_policy_dip_177 = {
 		full_idea_group = beua_amphibious_ideas
 	}
 	
-	range = 0.5
+	range = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -4734,7 +4734,6 @@ beua_policy_dip_184 = {
 	all_power_cost = -0.025
 	technology_cost = 0.025
 	tec_technomancy_influence = 0.1
-	
 
 	ai_will_do = {
 		factor = 1
