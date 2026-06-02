@@ -1054,7 +1054,7 @@ beua_policy_adm_37 = {
 	republican_tradition = 0.2
 	devotion = 1
 	horde_unity = 1
-	meritocracy = 0.5
+	meritocracy = 0.2
 	diplomatic_reputation = 0.5
 	
 	ai_will_do = {
@@ -2330,7 +2330,7 @@ beua_policy_adm_81 = {
 	republican_tradition = 0.2
 	devotion = 1
 	horde_unity = 1
-	meritocracy = 0.5
+	meritocracy = 0.2
 	stability_cost_modifier = -0.1
 	
 	ai_will_do = {
@@ -3337,7 +3337,7 @@ beua_policy_adm_116 = {
 	}
 	
 	legitimacy = 1
-	meritocracy = 0.5
+	meritocracy = 0.2
 	devotion = 1
 	horde_unity = 1
 	republican_tradition = 0.2
@@ -3548,7 +3548,7 @@ beua_policy_adm_124 = {
 	}
 	
 	legitimacy = 1
-	meritocracy = 0.5
+	meritocracy = 0.2
 	republican_tradition = 0.2
 	devotion = 1
 	horde_unity = 1
@@ -3918,7 +3918,7 @@ beua_policy_adm_139 = {
 	
 	legitimacy = 1
 	republican_tradition = 0.2
-	meritocracy = 0.5
+	meritocracy = 0.2
 	devotion = 1
 	horde_unity = 1
 	religious_unity = 0.05
@@ -5501,7 +5501,7 @@ beua_policy_adm_198 = {
 	republican_tradition = 0.2
 	horde_unity = 1
 	devotion = 1
-	meritocracy = 1
+	meritocracy = 0.2
 	advisor_cost = -0.05
 
 	ai_will_do = {

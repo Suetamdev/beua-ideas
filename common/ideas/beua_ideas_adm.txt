@@ -84,10 +84,10 @@ beua_jurisprudence_ideas = {
 	
 	beua_jurisprudence_idea_1 = {
 		legitimacy = 1
-		republican_tradition = 0.3
+		republican_tradition = 0.25
 		horde_unity = 1
 		devotion = 1
-		meritocracy = 1
+		meritocracy = 0.25
 	}
 	beua_jurisprudence_idea_2 = {
 		yearly_corruption = -0.1
