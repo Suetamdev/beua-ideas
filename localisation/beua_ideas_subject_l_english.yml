@@ -7,9 +7,6 @@
  beua_appanage_is_our:0 "§Y$NAME$§! is our Appanage."
  is_beua_appanage:0 "Is Subject Type Appanage"
 
- beua_appanage_too_much_liberty_desire:0 "§R- Liberty Desire of §Y[From.GetName]§! is above §Y25§!.§!"
- beua_appanage_not_same_dynasty:0 "§R- The ruler of §Y[From.GetName]§! is not of our Dynasty. Only our own kin can be granted a Appanage.§!"
-
  # Subject Dominion
  beua_dominion:0 "Dominion"
  beua_dominion_title:0 "Dominion"

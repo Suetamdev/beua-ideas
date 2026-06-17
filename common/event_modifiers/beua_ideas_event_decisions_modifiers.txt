@@ -1,0 +1,6 @@
+########################################################
+####### Political Intervention Strain 			 #######
+########################################################
+beua_political_intervention_strain = {
+	diplomatic_reputation = -0.5
+}

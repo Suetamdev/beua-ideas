@@ -18,7 +18,7 @@ beua_policy_dip_1 = {
 	}	
 	
 	trade_efficiency = 0.1
-	global_ship_repair = 0.2
+	global_ship_repair = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -64,8 +64,8 @@ beua_policy_dip_2 = {
 		}
 	}	
 	
-	global_tariffs = 0.2
-	global_ship_repair = 0.1
+	global_tariffs = 0.15
+	global_ship_repair = 0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -176,6 +176,7 @@ beua_policy_dip_5 = {
 	}	
 	
 	caravan_power = 0.25
+	trade_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 0.7
@@ -241,7 +242,7 @@ beua_policy_dip_7 = {
 	}	
 	
 	leader_naval_fire = 1
-	navy_tradition_decay = 0.002
+	navy_tradition_decay = 0.005
 	
 	ai_will_do = {
 		factor = 1
@@ -282,7 +283,7 @@ beua_policy_dip_8 = {
 	}
 	
 	leader_naval_shock = 1
-	navy_tradition_decay = 0.002
+	navy_tradition_decay = 0.005
 	
 	ai_will_do = {
 		factor = 1
@@ -316,7 +317,8 @@ beua_policy_dip_9 = {
 		}
 	}	
 	
-	naval_morale = 0.15
+	global_unrest = -1
+	naval_morale = 0.1
 	
 	ai_will_do = {
 		factor = 0.8
@@ -369,8 +371,8 @@ beua_policy_dip_11 = {
 		full_idea_group = beua_colonial_empire_ideas
 	}
 	
-	global_colonial_growth = 20
-	global_tariffs = 0.2
+	global_colonial_growth = 10
+	global_tariffs = 0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -426,7 +428,6 @@ beua_policy_dip_13 = {
 	}
 	
 	colonists = 1
-	colonist_placement_chance = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -453,8 +454,9 @@ beua_policy_dip_14 = {
 		full_idea_group = naval_ideas
 		full_idea_group = beua_weapon_quality_ideas
 	}
-	
-	naval_morale = 0.15
+
+	naval_morale = 0.1
+	trade_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -474,8 +476,9 @@ beua_policy_dip_15 = {
 		full_idea_group = influence_ideas 
 	}
 	
-	diplomatic_reputation = 1.5
-	
+	diplomatic_reputation = 1
+	reduced_liberty_desire = 10
+
 	ai_will_do = {
 		factor = 1
 	}
@@ -494,7 +497,8 @@ beua_policy_dip_16 = {
 		full_idea_group = beua_assimilation_ideas
 	}
 	
-	diplomatic_annexation_cost = -0.125
+	diplomatic_annexation_cost = -0.1
+	global_unrest = -1
 	
 	ai_will_do = {
 		factor = 1
@@ -586,6 +590,7 @@ beua_policy_dip_19 = {
 	}
 	
 	range = 0.25
+	native_assimilation = 0.5
 	
 	ai_will_do = {
 		factor = 1
@@ -621,7 +626,8 @@ beua_policy_dip_20 = {
 		}
 	}
 	
-	global_tariffs = 0.25
+	global_tariffs = 0.15
+	global_colonial_growth = 10
 	
 	ai_will_do = {
 		factor = 1
@@ -729,8 +735,8 @@ beua_policy_dip_24 = {
 		}	
 	}
 	
-	diplomatic_reputation = 0.75
-	improve_relation_modifier = 0.1			
+	diplomatic_reputation = 1
+	improve_relation_modifier = 0.15	
 	
 	ai_will_do = {
 		factor = 1
@@ -760,7 +766,8 @@ beua_policy_dip_25 = {
 		}	
 	}
 	
-	diplomatic_annexation_cost = -0.15
+	diplomatic_annexation_cost = -0.1
+	global_unrest = -1
 	
 	ai_will_do = {
 		factor = 1
@@ -780,7 +787,7 @@ beua_policy_dip_26 = {
 		full_idea_group = beua_conscription_ideas
 	}
 	
-	land_maintenance_modifier = -0.1
+	land_maintenance_modifier = -0.15
 	
 	ai_will_do = {
 		factor = 5
@@ -804,7 +811,7 @@ beua_policy_dip_27 = {
 		full_idea_group = expansion_ideas
 	}
 	
-	global_ship_cost = -0.25
+	global_ship_cost = -0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -837,10 +844,10 @@ beua_policy_dip_28 = {
 		}
 	}
 	
-	heavy_ship_power = 0.075
-	galley_power = 0.075
-	light_ship_power = 0.075
-	transport_power = 0.075
+	heavy_ship_power = 0.05
+	galley_power = 0.05
+	light_ship_power = 0.05
+	transport_power = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -868,7 +875,7 @@ beua_policy_dip_29 = {
 		full_idea_group = economic_ideas
 	}
 	
-	trade_range_modifier = 0.25
+	trade_range_modifier = 0.2
 	trade_steering = 0.25
 	
 	ai_will_do = {
@@ -930,6 +937,7 @@ beua_policy_dip_31 = {
 	}
 	
 	defensiveness = 0.2
+	garrison_size = 0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -961,7 +969,8 @@ beua_policy_dip_32 = {
 		}	
 	}
 	
-	religious_unity = 0.5
+	tolerance_own = 1
+	religious_unity = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -987,7 +996,7 @@ beua_policy_dip_33 = {
 		}
 	}
 	
-	land_maintenance_modifier = -0.1
+	land_maintenance_modifier = -0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -1023,7 +1032,7 @@ beua_policy_dip_34 = {
 		}
 	}
 	
-	ae_impact = -0.1
+	ae_impact = -0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -1050,6 +1059,8 @@ beua_policy_dip_35 = {
 	}
 	
 	diplomatic_annexation_cost = -0.15
+	tolerance_heretic = 1
+	tolerance_heathen = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -1075,7 +1086,7 @@ beua_policy_dip_36 = {
 		}
 	}
 	
-	global_sailors = 10000
+	global_sailors = 15000
 	
 	ai_will_do = {
 		factor = 1
@@ -1095,7 +1106,7 @@ beua_policy_dip_37 = {
 		full_idea_group = influence_ideas 
 	}
 	
-	ae_impact = -0.1
+	ae_impact = -0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -1116,7 +1127,7 @@ beua_policy_dip_38 = {
 	}
 	
 	naval_morale = 0.15
-	navy_tradition = 1
+	navy_tradition = 0.5
 	
 	ai_will_do = {
 		factor = 1
@@ -1145,6 +1156,7 @@ beua_policy_dip_39 = {
 	}
 	
 	defensiveness = 0.15
+	diplomatic_reputation = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -1165,6 +1177,7 @@ beua_policy_dip_40 = {
 	}
 	
 	siege_ability = 0.1
+	spy_offence = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -1184,7 +1197,7 @@ beua_policy_dip_41 = {
 		full_idea_group = trade_ideas 
 	}
 	
-	fire_damage = 0.08
+	fire_damage = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1230,7 +1243,7 @@ beua_policy_dip_43 = {
 		}	
 	}
 	
-	global_colonial_growth = 20
+	global_colonial_growth = 25
 	
 	ai_will_do = {
 		factor = 1
@@ -1327,7 +1340,7 @@ beua_policy_dip_46 = {
 		full_idea_group = quality_ideas
 	}
 	
-	colonist_placement_chance = 0.15
+	colonist_placement_chance = 0.05
 	global_colonial_growth = 10
 	
 	ai_will_do = {
@@ -1384,7 +1397,7 @@ beua_policy_dip_48 = {
 		full_idea_group = infrastructure_ideas
 	}
 	
-	colonist_placement_chance = 0.10			
+	colonist_placement_chance = 0.05	
 	reduced_liberty_desire = 10
 	
 	ai_will_do = {
@@ -1425,7 +1438,8 @@ beua_policy_dip_50 = {
 		full_idea_group = mercenary_ideas 
 	}
 	
-	mercenary_manpower = 0.25
+	mercenary_manpower = 0.15
+	allow_client_states = yes
 	
 	ai_will_do = {
 		factor = 1
@@ -1446,6 +1460,7 @@ beua_policy_dip_51 = {
 	}
 	
 	reinforce_speed = 0.15
+	reinforce_cost_modifier = -0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -1511,7 +1526,7 @@ beua_policy_dip_54 = {
 		full_idea_group = quality_ideas
 	}
 	
-	naval_maintenance_modifier = -0.15
+	naval_maintenance_modifier = -0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -1565,6 +1580,7 @@ beua_policy_dip_56 = {
 	}
 	
 	range = 0.25
+	allowed_marine_fraction = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1584,7 +1600,7 @@ beua_policy_dip_57 = {
 		full_idea_group = beua_health_ideas
 	}
 	
-	navy_tradition = 1
+	navy_tradition = 0.5
 	range = 0.25
 	
 	ai_will_do = {
@@ -1646,6 +1662,7 @@ beua_policy_dip_60 = {
 		full_idea_group = beua_jurisprudence_ideas
 	}
 	
+	diplomatic_reputation = 1
 	improve_relation_modifier = 0.2
 	
 	ai_will_do = {
@@ -1728,8 +1745,8 @@ beua_policy_dip_64 = {
 		full_idea_group = quantity_ideas
 	}
 	
-	global_manpower = 15
-	global_sailors = 4500
+	global_manpower = 7500
+	global_sailors = 7500
 	
 	ai_will_do = {
 		factor = 1
@@ -1769,6 +1786,7 @@ beua_policy_dip_66 = {
 		full_idea_group = humanist_ideas 
 	}
 	
+	religious_unity = 0.15
 	tolerance_heathen = 1
 	tolerance_heretic = 1
 	
@@ -1791,6 +1809,7 @@ beua_policy_dip_67 = {
 	}
 	
 	defensiveness = 0.15
+	global_unrest = -1
 	
 	ai_will_do = {
 		factor = 1
@@ -1830,7 +1849,8 @@ beua_policy_dip_69 = {
 		full_idea_group = infrastructure_ideas
 	}
 	
-	global_tariffs = 0.25
+	global_unrest = -1
+	expand_infrastructure_cost_modifier = -0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -1872,7 +1892,8 @@ beua_policy_dip_71 = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	global_foreign_trade_power = 0.3		
+	global_foreign_trade_power = 0.2
+	trade_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1953,7 +1974,8 @@ beua_policy_dip_73 = {
 		full_idea_group = quantity_ideas
 	}
 	
-	cav_to_inf_ratio = 0.15
+	manpower_recovery_speed = 0.1
+	culture_conversion_cost = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1973,7 +1995,7 @@ beua_policy_dip_74 = {
 		full_idea_group = infrastructure_ideas
 	}
 	
-	colonist_placement_chance = 0.25
+	colonist_placement_chance = 0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -1993,9 +2015,8 @@ beua_policy_dip_75 = {
 		full_idea_group = beua_weapon_quality_ideas
 	}
 	
-	
 	mil_tech_cost_modifier = -0.1
-	trade_efficiency = 0.075
+	trade_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2042,6 +2063,7 @@ beua_policy_dip_76 = {
 	}
 	
 	defensiveness = 0.15
+	garrison_size = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -2094,7 +2116,8 @@ beua_policy_dip_78 = {
 		}
 	}
 	
-	defensiveness = 0.15
+	defensiveness = 0.25
+	garrison_size = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2129,7 +2152,7 @@ beua_policy_dip_79 = {
 		}
 	}
 	
-	interest = -2				
+	interest = -1	
 	
 	ai_will_do = {
 		factor = 1
@@ -2149,7 +2172,7 @@ beua_policy_dip_80 = {
 		full_idea_group = beua_health_ideas
 	}
 	
-	reduced_liberty_desire = 10
+	reduced_liberty_desire = 15
 	
 	ai_will_do = {
 		factor = 1
@@ -2190,7 +2213,7 @@ beua_policy_dip_82 = {
 		full_idea_group = beua_standing_army_ideas
 	}
 	
-	ae_impact = -0.1
+	ae_impact = -0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -2210,7 +2233,7 @@ beua_policy_dip_83 = {
 		full_idea_group = beua_weapon_quality_ideas
 	}
 	
-	mil_tech_cost_modifier = -0.1
+	mil_tech_cost_modifier = -0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -2230,7 +2253,8 @@ beua_policy_dip_84 = {
 		full_idea_group = beua_fortress_ideas
 	}
 	
-	diplomatic_reputation = 1.5
+	diplomatic_reputation = 1
+	defensiveness = 0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -2251,6 +2275,7 @@ beua_policy_dip_85 = {
 	}
 	
 	global_spy_defence = 0.35
+	state_maintenance_modifier = -0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -2271,6 +2296,7 @@ beua_policy_dip_86 = {
 	}
 	
 	idea_cost = -0.1
+	spy_offence = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2290,7 +2316,7 @@ beua_policy_dip_87 = {
 		full_idea_group = beua_health_ideas
 	}
 	
-	colonist_placement_chance = 0.15
+	colonist_placement_chance = 0.05
 	global_colonial_growth = 10
 	
 	ai_will_do = {
@@ -2319,7 +2345,7 @@ beua_policy_dip_88 = {
 		full_idea_group = beua_conscription_ideas
 	}
 	
-	trade_efficiency = 0.15
+	trade_efficiency = 0.1
 	trade_range_modifier = 0.25
 	
 	ai_will_do = {
@@ -2360,7 +2386,8 @@ beua_policy_dip_89 = {
 		full_idea_group = beua_standing_army_ideas
 	}
 	
-	global_sailors_modifier = 0.25
+	global_sailors_modifier = 0.2
+	naval_forcelimit_modifier = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2381,7 +2408,7 @@ beua_policy_dip_90 = {
 	}
 	
 	defensiveness = 0.1
-	siege_ability = 0.075
+	siege_ability = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2416,7 +2443,6 @@ beua_policy_dip_91 = {
 		}
 	}
 	
-	heir_chance = 2
 	interest = -1			
 	
 	ai_will_do = {
@@ -2437,7 +2463,7 @@ beua_policy_dip_92 = {
 		full_idea_group = beua_general_staff_ideas
 	}
 	
-	yearly_absolutism = 1.0
+	yearly_absolutism = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -2479,7 +2505,7 @@ beua_policy_dip_94 = {
 	}
 	
 	fort_maintenance_modifier = -0.25
-	garrison_size = 0.15
+	garrison_size = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2499,8 +2525,7 @@ beua_policy_dip_95 = {
 		full_idea_group = beua_war_production_ideas
 	}
 	
-	ae_impact = -0.1
-	
+	ae_impact = -0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -2569,7 +2594,7 @@ beua_policy_dip_98 = {
 		full_idea_group = beua_standing_army_ideas
 	}
 	
-	global_sailors_modifier = 0.25
+	global_sailors_modifier = 0.3
 	
 	ai_will_do = {
 		factor = 1
@@ -2589,10 +2614,10 @@ beua_policy_dip_99 = {
 		full_idea_group = beua_weapon_quality_ideas
 	}
 	
-	heavy_ship_power = 0.075
-	galley_power = 0.075
-	light_ship_power = 0.075
-	transport_power = 0.075
+	heavy_ship_power = 0.05
+	galley_power = 0.05
+	light_ship_power = 0.05
+	transport_power = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -2620,7 +2645,7 @@ beua_policy_dip_100 = {
 		full_idea_group = beua_fortress_ideas
 	}
 	
-	heavy_ship_cost = -0.2
+	heavy_ship_cost = -0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -2677,6 +2702,7 @@ beua_policy_dip_102 = {
 	}
 	
 	merchants = 1
+	trade_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2759,6 +2785,7 @@ beua_policy_dip_104 = {
 	}
 	
 	merchants = 1
+	global_regiment_cost = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2798,7 +2825,8 @@ beua_policy_dip_105 = {
 		full_idea_group = beua_conscription_ideas
 	}
 	
-	global_prov_trade_power_modifier = 0.2
+	land_maintenance_modifier = -0.1
+	global_monthly_devastation = -0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -2839,7 +2867,7 @@ beua_policy_dip_106 = {
 	}
 	
 	trade_efficiency = 0.1
-	light_ship_power = 0.15
+	light_ship_power = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2880,6 +2908,7 @@ beua_policy_dip_107 = {
 	}
 	
 	range = 0.25
+	global_colonial_growth = 10
 	
 	ai_will_do = {
 		factor = 1
@@ -2953,7 +2982,7 @@ beua_policy_dip_109 = {
 		}
 	}
 	
-	global_sailors_modifier = 0.25
+	global_sailors_modifier = 0.3
 	
 	ai_will_do = {
 		factor = 1
@@ -3012,8 +3041,8 @@ beua_policy_dip_111 = {
 		}
 	}
 	
-	privateer_efficiency = 1
-	naval_maintenance_modifier = -0.1
+	privateer_efficiency = 0.5
+	naval_maintenance_modifier = -0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -3047,6 +3076,7 @@ beua_policy_dip_112 = {
 		}
 	}
 	
+	navy_tradition = 0.5
 	naval_morale = 0.15
 	
 	ai_will_do = {
@@ -3082,6 +3112,7 @@ beua_policy_dip_113 = {
 	}
 	
 	defensiveness = 0.15
+	blockade_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3101,7 +3132,7 @@ beua_policy_dip_114 = {
 		full_idea_group = plutocracy_ideas
 	}
 	
-	navy_tradition = 1
+	navy_tradition = 0.5
 	naval_forcelimit = 25
 	
 	ai_will_do = {
@@ -3130,8 +3161,8 @@ beua_policy_dip_115 = {
 		full_idea_group = beua_fortress_ideas
 	}
 	
-	galley_power = 0.075
-	capture_ship_chance = 0.075
+	galley_power = 0.01
+	capture_ship_chance = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3159,6 +3190,7 @@ beua_policy_dip_116 = {
 		full_idea_group = spy_ideas 
 	}
 	
+	morale_damage = 0.05
 	global_spy_defence = 0.35
 	
 	ai_will_do = {
@@ -3179,8 +3211,8 @@ beua_policy_dip_117 = {
 		full_idea_group = exploration_ideas
 	}
 	
-	global_colonial_growth = 35
-	native_uprising_chance = 0.5
+	global_colonial_growth = 30
+	native_uprising_chance = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -3200,6 +3232,7 @@ beua_policy_dip_118 = {
 		full_idea_group = maritime_ideas
 	}
 	
+	navy_tradition = 0.5
 	naval_morale = 0.15
 	
 	ai_will_do = {
@@ -3220,7 +3253,7 @@ beua_policy_dip_119 = {
 		full_idea_group = naval_ideas
 	}
 	
-	heavy_ship_power = 0.15
+	heavy_ship_power = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3260,9 +3293,9 @@ beua_policy_dip_121 = {
 		full_idea_group = naval_ideas
 	}
 	
-	light_ship_power = 0.15
-	transport_power = 0.15
-	privateer_efficiency = 1.0
+	light_ship_power = 0.1
+	transport_power = 0.1
+	privateer_efficiency = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -3302,7 +3335,8 @@ beua_policy_dip_123 = {
 		full_idea_group = court_ideas
 	}
 	
-	war_exhaustion = -0.02
+	war_exhaustion = -0.05
+	diplomatic_reputation = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -3323,6 +3357,7 @@ beua_policy_dip_124 = {
 	}
 	
 	defensiveness = 0.15
+	garrison_damage = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -3349,7 +3384,7 @@ beua_policy_dip_125 = {
 	}
 	
 	global_autonomy = -0.05
-	imperial_authority = 0.25
+	imperial_authority = 0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -3377,7 +3412,7 @@ beua_policy_dip_126 = {
 		}
 	}
 	
-	land_morale = 0.08
+	land_morale = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3405,10 +3440,10 @@ beua_policy_dip_127 = {
 		}
 	}
 	
-	galley_power = 0.075
-	heavy_ship_power = 0.075
-	light_ship_power = 0.075
-	transport_power = 0.075
+	galley_power = 0.05
+	heavy_ship_power = 0.05
+	light_ship_power = 0.05
+	transport_power = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -3436,7 +3471,7 @@ beua_policy_dip_128 = {
 		}
 	}
 	
-	navy_tradition = 1
+	navy_tradition = 0.5
 	naval_morale = 0.15
 	
 	ai_will_do = {
@@ -3478,9 +3513,9 @@ beua_policy_dip_130 = {
 	potential = {
 		has_idea_group = naval_ideas
 		OR = {
-			full_idea_group = beua_strategic_ideas
-			full_idea_group = beua_serpentspine_ideas
-			full_idea_group = beua_legionary_ideas
+			has_idea_group = beua_strategic_ideas
+			has_idea_group = beua_serpentspine_ideas
+			has_idea_group = beua_legionary_ideas
 		}
 	}
 
@@ -3493,7 +3528,7 @@ beua_policy_dip_130 = {
 		}
 	}
 	
-	heavy_ship_power = 0.15
+	heavy_ship_power = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3521,7 +3556,7 @@ beua_policy_dip_131 = {
 		}
 	}
 	
-	build_cost = -0.05
+	build_cost = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3639,7 +3674,8 @@ beua_policy_dip_135 = {
 		}
 	}
 	
-	naval_morale = 0.15
+	ship_durability = 0.05
+	naval_morale = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -3667,7 +3703,8 @@ beua_policy_dip_136 = {
 		full_idea_group = spy_ideas
 	}
 	
-	cav_to_inf_ratio = 0.15	
+	hostile_attrition = 1
+	shock_damage = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -3728,7 +3765,7 @@ beua_policy_dip_139 = {
 		full_idea_group = naval_ideas 
 	}
 	
-	heavy_ship_power = 0.15
+	heavy_ship_power = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3748,8 +3785,8 @@ beua_policy_dip_140 = {
 		full_idea_group = naval_ideas
 	}
 	
-	light_ship_power = 0.2
-	transport_power = 0.2
+	light_ship_power = 0.1
+	transport_power = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3789,7 +3826,7 @@ beua_policy_dip_142 = {
 		full_idea_group = beua_colonial_empire_ideas
 	}
 	
-	reduced_liberty_desire = 10
+	reduced_liberty_desire = 15
 	
 	ai_will_do = {
 		factor = 1
@@ -3875,7 +3912,7 @@ beua_policy_dip_146 = {
 		full_idea_group = spy_ideas
 	}
 	
-	diplomatic_reputation = 0.75
+	diplomatic_reputation = 1
 	diplomatic_upkeep = 1
 	
 	ai_will_do = {
@@ -3916,10 +3953,10 @@ beua_policy_dip_148 = {
 		full_idea_group = maritime_ideas
 	}
 	
-	heavy_ship_power = 0.075
-	galley_power = 0.075
-	light_ship_power = 0.075
-	transport_power = 0.075
+	heavy_ship_power = 0.05
+	galley_power = 0.05
+	light_ship_power = 0.05
+	transport_power = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -3959,7 +3996,7 @@ beua_policy_dip_150 = {
 		full_idea_group = naval_ideas 
 	}
 	
-	heavy_ship_power = 0.15
+	heavy_ship_power = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3979,7 +4016,8 @@ beua_policy_dip_151 = {
 		full_idea_group = naval_ideas
 	}
 
-	light_ship_power = 0.3
+	light_ship_power = 0.1
+	trade_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -4019,7 +4057,7 @@ beua_policy_dip_153 = {
 		full_idea_group = beua_society_ideas
 	}
 	
-	yearly_absolutism = 1.0
+	yearly_absolutism = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -4039,6 +4077,7 @@ beua_policy_dip_154 = {
 		full_idea_group = court_ideas
 	}
 	
+	num_accepted_cultures = 1
 	improve_relation_modifier = 0.2
 	
 	ai_will_do = {
@@ -4059,7 +4098,7 @@ beua_policy_dip_155 = {
 		full_idea_group = beua_nationalism_ideas
 	}
 	
-	land_maintenance_modifier = -0.1
+	land_maintenance_modifier = -0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -4120,6 +4159,7 @@ beua_policy_dip_158 = {
 		full_idea_group = influence_ideas
 	}
 	
+	num_accepted_cultures = 1
 	improve_relation_modifier = 0.2
 	
 	ai_will_do = {
@@ -4221,7 +4261,7 @@ beua_policy_dip_162 = {
 	}
 	
 	naval_forcelimit_modifier = 0.15
-	global_sailors_modifier = 0.25
+	global_sailors_modifier = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -4262,7 +4302,7 @@ beua_policy_dip_164 = {
 	}
 	
 	naval_forcelimit = 20
-	global_sailors = 2000
+	global_sailors = 5000
 	
 	ai_will_do = {
 		factor = 1
@@ -4282,7 +4322,8 @@ beua_policy_dip_165 = {
 		full_idea_group = beua_colonial_empire_ideas
 	}
 	
-	global_tariffs = 0.25
+	global_colonial_growth = 10
+	global_tariffs = 0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -4332,7 +4373,7 @@ beua_policy_dip_167 = {
 	}
 	
 	diplomats = 1
-	diplomatic_reputation = 0.75
+	diplomatic_reputation = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -4431,7 +4472,7 @@ beua_policy_dip_171 = {
 		full_idea_group = maritime_ideas
 	}
 	
-	navy_tradition = 2
+	navy_tradition = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -4452,6 +4493,7 @@ beua_policy_dip_172 = {
 	}
 	
 	naval_morale = 0.15
+	navy_tradition = 0.5
 	
 	ai_will_do = {
 		factor = 1
@@ -4471,10 +4513,10 @@ beua_policy_dip_173 = {
 		full_idea_group = naval_ideas
 	}
 	
-	heavy_ship_power = 0.075
-	galley_power = 0.075
-	light_ship_power = 0.075
-	transport_power = 0.075
+	heavy_ship_power = 0.05
+	galley_power = 0.05
+	light_ship_power = 0.05
+	transport_power = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -4495,6 +4537,7 @@ beua_policy_dip_174 = {
 	}
 	
 	range = 0.25
+	global_colonial_growth = 10
 	
 	ai_will_do = {
 		factor = 1
@@ -4535,7 +4578,7 @@ beua_policy_dip_176 = {
 		full_idea_group = court_ideas
 	}
 	
-	yearly_absolutism = 1.0
+	yearly_absolutism = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -4556,6 +4599,7 @@ beua_policy_dip_177 = {
 	}
 	
 	range = 0.25
+	global_colonial_growth = 10
 	
 	ai_will_do = {
 		factor = 1
@@ -4576,8 +4620,8 @@ beua_policy_dip_178 = {
 	}
 
 	monarch_lifespan = 0.15
-	mages_estate_experience_mod = 0.1
-	mages_ruler_experience_mod = 0.1
+	mages_estate_experience_mod = 0.15
+	mages_ruler_experience_mod = 0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -4636,7 +4680,7 @@ beua_policy_dip_180 = {
 			}
 		}
 	}
-	
+		
 	innovativeness_gain = 0.35
 	development_cost = -0.05
 
@@ -4658,7 +4702,8 @@ beua_policy_dip_181 = {
 		full_idea_group = court_ideas
 	}
 	
-	global_spy_defence = 0.3
+	global_spy_defence = 0.25
+	diplomatic_reputation = 1
 
 	ai_will_do = {
 		factor = 1
@@ -4683,7 +4728,7 @@ beua_policy_dip_182 = {
 		}
 	}
 	
-	prestige = 0.5
+	artificers_capacity = 5
 	production_efficiency = 0.1
 
 	ai_will_do = {
@@ -4710,9 +4755,8 @@ beua_policy_dip_183 = {
 		}
 	}
 	
-	heavy_ship_power = 0.15
-	galley_power = 0.15
-	naval_morale = -0.1
+	heavy_ship_power = 0.75
+	galley_power = 0.75
 
 	ai_will_do = {
 		factor = 1
@@ -4732,7 +4776,7 @@ beua_policy_dip_184 = {
 	}
 	
 	all_power_cost = -0.025
-	technology_cost = 0.025
+	mages_monthly_experience = 0.15
 	tec_technomancy_influence = 0.1
 
 	ai_will_do = {
@@ -4752,7 +4796,8 @@ beua_policy_dip_185 = {
 		full_idea_group = defensive_ideas
 	}
 	
-	hostile_attrition = 2
+	mages_mana_capacity = 25
+	hostile_attrition = 1
 
 	ai_will_do = {
 		factor = 1
@@ -4773,6 +4818,7 @@ beua_policy_dip_186 = {
 	}
 	
 	global_trade_goods_size_modifier = 0.1
+	production_efficiency = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -4792,7 +4838,8 @@ beua_policy_dip_187 = {
 		full_idea_group = beua_health_ideas
 	}
 	
-	idea_cost = -0.075
+	idea_cost = -0.1
+	monarch_lifespan = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -4822,7 +4869,8 @@ beua_policy_dip_188 = {
 		}
 	}
 	
-	advisor_cost = -0.15
+	advisor_cost = -0.1
+	mages_mana_capacity = 25
 
 	ai_will_do = {
 		factor = 1
@@ -4843,7 +4891,7 @@ beua_policy_dip_189 = {
 	}
 	
 	prestige = 0.5
-	diplomatic_reputation = 0.75
+	diplomatic_reputation = 1
 
 	ai_will_do = {
 		factor = 1
@@ -4863,7 +4911,8 @@ beua_policy_dip_190 = {
 		full_idea_group = beua_weapon_quality_ideas
 	}
 	
-	mages_loyalty_modifier = 0.15
+	mages_loyalty_modifier = 0.1
+	mages_estate_experience_mod = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -4883,7 +4932,8 @@ beua_policy_dip_191 = {
 		full_idea_group = beua_fortress_ideas
 	}
 	
-	defensiveness = 0.25
+	defensiveness = 0.15
+	hostile_attrition = 1
 
 	ai_will_do = {
 		factor = 1
@@ -4903,7 +4953,8 @@ beua_policy_dip_192 = {
 		full_idea_group = beua_decentralism_ideas
 	}
 	
-	idea_cost = -0.075
+	idea_cost = -0.1
+	mages_mana_capacity = 25
 
 	ai_will_do = {
 		factor = 1
@@ -4924,6 +4975,7 @@ beua_policy_dip_193 = {
 	}
 	
 	spy_offence = 0.5
+	envoy_travel_time = -0.25
 
 	ai_will_do = {
 		factor = 1
@@ -4943,7 +4995,7 @@ beua_policy_dip_194 = {
 		full_idea_group = influence_ideas
 	}
 	
-	ae_impact = -0.1
+	ae_impact = -0.15
 
 	ai_will_do = {
 		factor = 1
@@ -5041,7 +5093,9 @@ beua_policy_dip_199 = {
 		full_idea_group = humanist_ideas
 	}
 	
-	tolerance_heretic = 2
+	idea_cost = -0.05
+	tolerance_heretic = 1
+	tolerance_heathen = 1
 
 	ai_will_do = {
 		factor = 1
@@ -5062,6 +5116,7 @@ beua_policy_dip_200 = {
 	}
 	
 	yearly_corruption = -0.15
+	advisor_cost = -0.1
 
 	ai_will_do = {
 		factor = 1
@@ -5091,6 +5146,7 @@ beua_policy_dip_201 = {
 		}
 	}
 	
+	num_accepted_cultures = 1
 	improve_relation_modifier = 0.2
 
 	ai_will_do = {
@@ -5111,7 +5167,8 @@ beua_policy_dip_202 = {
 		full_idea_group = mercenary_ideas
 	}
 	
-	diplomatic_reputation = 1.5
+	diplomatic_reputation = 1
+	mercenary_manpower = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -5150,7 +5207,8 @@ beua_policy_dip_204 = {
 		full_idea_group = beua_centralism_ideas
 	}
 	
-	max_absolutism = 15
+	max_absolutism = 10 
+	yearly_corruption = -0.1
 
 	ai_will_do = {
 		factor = 1
@@ -5169,7 +5227,8 @@ beua_policy_dip_205 = {
 		full_idea_group = beua_decentralism_ideas
 	}
 	
-	vassal_forcelimit_bonus = 0.5
+	vassal_forcelimit_bonus = 0.25
+	monarch_power_tribute = 1
 
 	ai_will_do = {
 		factor = 1
@@ -5210,6 +5269,7 @@ beua_policy_dip_207 = {
 		full_idea_group = diplomatic_ideas
 	}
 	
+	num_accepted_cultures = 1
 	improve_relation_modifier = 0.2
 
 	ai_will_do = {
@@ -5231,6 +5291,7 @@ beua_policy_dip_208 = {
 	}
 	
 	build_cost = -0.05
+	production_efficiency = 0.05
 
 	ai_will_do = {
 		factor = 1
@@ -5251,7 +5312,7 @@ beua_policy_dip_209 = {
 	}
 	
 	merchants = 1
-	global_trade_power = 0.15
+	global_trade_power = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -5292,7 +5353,7 @@ beua_policy_dip_211 = {
 	}
 	
 	leader_naval_fire = 1
-	navy_tradition_decay = 0.002
+	navy_tradition_decay = 0.005
 
 	ai_will_do = {
 		factor = 1
@@ -5337,7 +5398,7 @@ beua_policy_dip_213 = {
 		full_idea_group = beua_colonial_empire_ideas
 	}
 	
-	global_ship_trade_power = 0.33
+	global_ship_trade_power = 0.15
 	merchants = 1
 
 	ai_will_do = {
@@ -5357,7 +5418,7 @@ beua_policy_dip_214 = {
 		full_idea_group = beua_society_ideas
 	}
 	
-	global_trade_goods_size_modifier = 0.075
+	global_trade_goods_size_modifier = 0.1
 	global_manpower_modifier = 0.15
 
 	ai_will_do = {
@@ -5378,7 +5439,8 @@ beua_policy_dip_215 = {
 		full_idea_group = court_ideas
 	}
 	
-	global_institution_spread = 0.25
+	global_institution_spread = 0.2
+	embracement_cost = -0.25
 
 	ai_will_do = {
 		factor = 1
@@ -5398,7 +5460,7 @@ beua_policy_dip_216 = {
 		full_idea_group = beua_nationalism_ideas
 	}
 	
-	global_trade_goods_size_modifier = 0.15
+	global_trade_goods_size_modifier = 0.2
 	diplomatic_reputation = -1
 
 	ai_will_do = {
@@ -5419,7 +5481,8 @@ beua_policy_dip_217 = {
 		full_idea_group = diplomatic_ideas
 	}
 	
-	diplomatic_reputation = 1.5
+	diplomatic_reputation = 1
+	artificers_research_time = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -5440,6 +5503,7 @@ beua_policy_dip_218 = {
 	}
 	
 	liberty_desire_from_subject_development = -0.2
+	reduced_liberty_desire = 10
 
 	ai_will_do = {
 		factor = 1
@@ -5459,7 +5523,7 @@ beua_policy_dip_219 = {
 		full_idea_group = offensive_ideas
 	}
 	
-	ae_impact = -0.1
+	ae_impact = -0.15
 
 	ai_will_do = {
 		factor = 1
@@ -5498,7 +5562,7 @@ beua_policy_dip_220 = {
 	}
 	
 	development_cost = -0.05
-	diplomatic_reputation = 0.75
+	diplomatic_reputation = 1
 
 	ai_will_do = {
 		factor = 1
@@ -5566,8 +5630,9 @@ beua_policy_dip_223 = {
 		}
 	}
 	
-	diplomatic_reputation = 1.5
-
+	diplomatic_reputation = 1
+	improve_relation_modifier = 0.15	
+	
 	ai_will_do = {
 		factor = 1
 	}
@@ -5586,6 +5651,7 @@ beua_policy_dip_224 = {
 		full_idea_group = beua_state_administration_ideas
 	}
 	
+	num_accepted_cultures = 1
 	improve_relation_modifier = 0.2
 
 	ai_will_do = {
@@ -5606,7 +5672,8 @@ beua_policy_dip_225 = {
 		full_idea_group = beua_centralism_ideas
 	}
 	
-	imperial_authority = 0.1
+	global_autonomy = -0.05
+	imperial_authority = 0.15
 
 	ai_will_do = {
 		factor = 1
@@ -5627,6 +5694,7 @@ beua_policy_dip_226 = {
 	}
 	
 	vassal_forcelimit_bonus = 0.5
+	allow_client_states = yes 
 
 	ai_will_do = {
 		factor = 1

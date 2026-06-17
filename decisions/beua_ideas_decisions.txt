@@ -9,30 +9,32 @@ country_decisions = {
 		allow = {
 			innovativeness = 25
 			AND = {
-				adm_power = 175
-				dip_power = 175
-				mil_power = 175
+				adm_power = 125
+				dip_power = 125
+				mil_power = 125
 			}
 		}
 
 		effect = {
-			add_adm_power = -175
-			add_dip_power = -175
-			add_mil_power = -175
+			add_adm_power = -125
+			add_dip_power = -125
+			add_mil_power = -125
 
 			if = {
 				limit = {
 					innovativeness = 100
 				}
 				random_list = {
-					90 = {
+					95 = {
 						country_event = {
 							id = magic_artificery_setup.1
 								days = 1
 						}
 						change_innovativeness = -10
 					}
-					10 = { change_innovativeness = -10 }
+					5 = { 
+						change_innovativeness = -2
+					}
 				}
 			}
 			else_if = {
@@ -40,14 +42,16 @@ country_decisions = {
 					innovativeness = 80
 				}
 				random_list = {
-					75 = {
+					80 = {
 						country_event = {
 							id = magic_artificery_setup.1
 								days = 1
 						}
 						change_innovativeness = -10
 					}
-					25 = { change_innovativeness = -10 }
+					20 = {
+						change_innovativeness = -3
+					}
 				}
 			}
 			else_if = {
@@ -55,29 +59,34 @@ country_decisions = {
 					innovativeness = 60
 				}
 				random_list = {
-					50 = {
+					60 = {
 						country_event = {
 							id = magic_artificery_setup.1
 								days = 1
 						}
 						change_innovativeness = -10
 					}
-					50 = { change_innovativeness = -10 }
+					40 = { 
+						change_innovativeness = -4
+					}
 				}
 			}
 			else = {
 				random_list = {
-					25 = {
+					35 = {
 						country_event = {
 							id = magic_artificery_setup.1
 								days = 1
 						}
 						change_innovativeness = -10
 					}
-					75 = { change_innovativeness = -10 }
+					65 = { 
+						change_innovativeness = -5
+					}
 				}
 			}
 		}
+
 		ai_will_do = {
 			factor = 0
 		}

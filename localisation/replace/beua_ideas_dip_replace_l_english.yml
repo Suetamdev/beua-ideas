@@ -1,6 +1,7 @@
 ﻿l_english:
  #Court Ideas
+ respected_authority_desc:0 "Our authority carries the weight of our ruler's grandeur. As such it brings with it certainty, prestige and an air of superiority.\nReduced Max Absolutism Impact from Privileges: §G-20.0%§! \n§TEnables a decision to forcefully change the government of a subject.§! \n"
  court_embassies_desc:0 "Establishing diplomatic communication posts between us and our allies is a vital addition to our court's influence.\n\n§TEnables converting §YVassals§! and §YClient States§! into §YAppanages§!§!. §RThey need to have same dynasty Family to maintain loyalty§!"
-
+ 
  #Influence Ideas
  postal_service_desc:0 "With communications being what they are, it is difficult to ensure that our diplomatic dispatches arrive in a timely fashion. Creating a network of post offices and courier rest stops will make it easier for our voice to be heard in distant lands. \n\n§TEnables converting §YVassals§! and §YClient States§! into §YDominions§!§!.\n\n"

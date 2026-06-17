@@ -2,6 +2,63 @@ beua_appanage = {}
 beua_dominion = {}
 beua_client_dominion = {} 
 
+beua_appanage = {
+	copy_from = appanage
+	count = vassal
+
+    sprite = GFX_icon_beua_appanage
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_beua_appanage
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_beua_appanage
+	
+	# Properties:
+	max_government_rank = 2
+	overlord_enforce_peace_attacking = yes
+	overlord_protects_external = yes
+	can_have_subjects_of_other_types = yes
+	overlord_can_fabricate_for = yes
+	can_gain_favors = yes
+	must_accept_cta_from_overlord = yes
+	favors_cost_to_join_offensive_wars = 5
+	joins_overlords_wars = no
+	
+	base_liberty_desire = 15.0
+	liberty_desire_development_ratio = 0.15
+	liberty_desire_same_dynasty = -30.0
+	liberty_desire_revolution = 0
+	military_focus = 1.2
+
+	relative_power_class = 1
+	should_quit_wars_on_activation = yes
+
+	can_fight = {
+		independent_nations = yes
+		same_overlord = beua_appanage
+		other_overlord = all
+	}
+	can_rival = {
+		independent_nations = yes
+		same_overlord = beua_appanage
+		other_overlord = all
+	}
+	can_ally = {
+		independent_nations = yes
+		same_overlord = beua_appanage
+		other_overlord = all
+	}
+	
+	modifier_overlord = clear
+	modifier_subject = clear
+	modifier_subject = {
+		modifier = beua_appanage_subject
+	}
+	modifier_overlord = {
+		modifier = beua_appanage_overlord
+	}
+
+	overlord_opinion_modifier = beua_is_beua_appanage
+	subject_opinion_modifier = beua_is_beua_appanage
+}
+
 beua_dominion = {
 	copy_from = default
 
@@ -74,59 +131,3 @@ beua_client_dominion = {
 	}
 }
 
-beua_appanage = {
-	copy_from = appanage
-	count = vassal
-
-    sprite = GFX_icon_beua_appanage
-	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_beua_appanage
-	diplomacy_subject_sprite = GFX_icon_diplomacy_am_beua_appanage
-	
-	# Properties:
-	max_government_rank = 2
-	overlord_enforce_peace_attacking = yes
-	overlord_protects_external = yes
-	can_have_subjects_of_other_types = yes
-	overlord_can_fabricate_for = yes
-	can_gain_favors = yes
-	must_accept_cta_from_overlord = yes
-	favors_cost_to_join_offensive_wars = 5
-	joins_overlords_wars = no
-	
-	base_liberty_desire = 15.0
-	liberty_desire_development_ratio = 0.15
-	liberty_desire_same_dynasty = -30.0
-	liberty_desire_revolution = 0
-	military_focus = 1.2
-
-	relative_power_class = 1
-	should_quit_wars_on_activation = yes
-
-	can_fight = {
-		independent_nations = yes
-		same_overlord = beua_appanage
-		other_overlord = all
-	}
-	can_rival = {
-		independent_nations = yes
-		same_overlord = beua_appanage
-		other_overlord = all
-	}
-	can_ally = {
-		independent_nations = yes
-		same_overlord = beua_appanage
-		other_overlord = all
-	}
-	
-	modifier_overlord = clear
-	modifier_subject = clear
-	modifier_subject = {
-		modifier = beua_appanage_subject
-	}
-	modifier_overlord = {
-		modifier = beua_appanage_overlord
-	}
-
-	overlord_opinion_modifier = beua_is_beua_appanage
-	subject_opinion_modifier = beua_is_beua_appanage
-}

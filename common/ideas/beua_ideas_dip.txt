@@ -12,14 +12,15 @@ beua_assimilation_ideas = {
 	}
 
 	bonus = {
-		diplomatic_reputation = 1.5
+		diplomatic_reputation = 2
 	}
 
 	beua_assimilation_idea_1 = {
-		culture_conversion_cost = -0.25
+		culture_conversion_cost = -0.3
 	}
 	beua_assimilation_idea_2 = {
 		diplomatic_annexation_cost = -0.15
+		reduced_liberty_desire = 5
 	}
 	beua_assimilation_idea_3 = {
 		global_manpower_modifier = 0.1
@@ -39,19 +40,19 @@ beua_assimilation_ideas = {
 	}
 	beua_assimilation_idea_4 = {
 		years_of_nationalism = -5
+		global_unrest = -1
 	}
 	beua_assimilation_idea_5 = {
 		reinforce_speed = 0.2
 	}
 	beua_assimilation_idea_6 = {
-		reform_progress_growth = 0.2
-		stability_cost_modifier = 0.25
+		reform_progress_growth = 0.1
+		stability_cost_modifier = -0.1
 	}
 	beua_assimilation_idea_7 = {
 		promote_culture_cost = -0.25
 		num_accepted_cultures = 3
 	}
-
 	
 	ai_will_do = {
 		factor = 0.34
@@ -110,14 +111,14 @@ beua_nationalism_ideas = {
 	}
 	beua_nationalism_idea_3 = {
 		hostile_attrition = 1
-		tolerance_heathen = -2
-		tolerance_heretic = -2
+		defensiveness = 0.1
 	}
 	beua_nationalism_idea_4 = {
-		defensiveness = 0.15
+		development_cost_in_primary_culture = -0.1
 	}
 	beua_nationalism_idea_5 = {
-		reinforce_cost_modifier = -0.2
+		reinforce_cost_modifier = -0.15
+		manpower_recovery_speed = 0.1
 	}
 	beua_nationalism_idea_6 = {
 		global_unrest = -2
@@ -153,23 +154,25 @@ beua_society_ideas = {
 		land_maintenance_modifier = -0.1
 	}
 	beua_society_idea_2 = {
-		improve_relation_modifier = 0.2
+		improve_relation_modifier = 0.15
+		diplomatic_reputation = 1
 	}
 	beua_society_idea_3 = {
-		state_maintenance_modifier = -0.2
+		state_maintenance_modifier = -0.25
 	}
 	beua_society_idea_4 = {
 		advisor_cost = -0.15
 	}
 	beua_society_idea_5 = {
-		global_spy_defence = 0.33
+		all_power_cost = -0.025
+		reform_progress_growth = 0.1
 	}
 	beua_society_idea_6 = {
 		global_unrest = -2
 	}
 	beua_society_idea_7 = {
-		all_power_cost = -0.025
-		reform_progress_growth = 0.1
+		global_spy_defence = 0.25
+		defensiveness = 0.05
 	}
 	
 	ai_will_do = {
@@ -212,12 +215,14 @@ beua_imperialist_ambition_ideas = {
 	}
 	beua_imperialist_ambition_idea_4 = {
 		naval_forcelimit = 15
+		naval_forcelimit_modifier = 0.1
 	}
 	beua_imperialist_ambition_idea_5 = {
 		land_forcelimit = 10
+		land_forcelimit_modifier  = 0.05
 	}
 	beua_imperialist_ambition_idea_6 = {
-		reinforce_cost_modifier = -0.2
+		reinforce_cost_modifier = -0.25
 	}
 	beua_imperialist_ambition_idea_7 = {
 		diplomatic_upkeep = 1
@@ -241,7 +246,7 @@ beua_imperialism_ideas = {
 	category = DIP
 
 	bonus = {
-		governing_capacity_modifier = 0.15
+		governing_capacity_modifier = 0.2
 	}
 		
 	trigger = {
@@ -256,24 +261,25 @@ beua_imperialism_ideas = {
 	
 	beua_imperialism_idea_1 = {
 		prestige_decay = -0.005
-		state_governing_cost = -0.1
+		state_governing_cost = -0.05
 	}
 	beua_imperialism_idea_2 = {
 		# add_cb = cb_imperial_subjugation
 		diplomatic_upkeep = 1
 	}
 	beua_imperialism_idea_3 = {
-		accept_vassalization_reasons = 10
+		accept_vassalization_reasons = 15
 		# Enables converting Vassals and Client States into Dominions
 	}
 	beua_imperialism_idea_4 = {
-		naval_forcelimit_modifier = 0.2
+		naval_forcelimit_modifier = 0.25
 	}
 	beua_imperialism_idea_5 = {
-		core_creation = -0.1
+		core_creation = -0.15
+		province_warscore_cost = -0.1
 	}
 	beua_imperialism_idea_6 = {
-		land_forcelimit_modifier = 0.15
+		land_forcelimit_modifier = 0.25
 	}
 	beua_imperialism_idea_7 = {
 		global_tax_modifier = 0.15
@@ -305,8 +311,9 @@ beua_amphibious_ideas = {
 	}
 
 	beua_amphibious_idea_1 = {
-		global_sailors_modifier = 0.20
-		naval_tradition_from_battle = 0.15
+		allowed_marine_fraction = 0.1
+		global_sailors_modifier = 0.25
+		naval_tradition_from_battle = 0.33
 	}
 	beua_amphibious_idea_2 = {
 		galley_power = 0.20
@@ -325,11 +332,24 @@ beua_amphibious_ideas = {
 		ship_trade_power_modifier = 0.15
 	}
 	beua_amphibious_idea_6 = {
-		capture_ship_chance = 0.15
-		privateer_efficiency = 0.15
+		#Discipline = 0.05 on marine regiments
+		capture_ship_chance = 0.1
+		privateer_efficiency = 0.1
+		effect = {
+			add_country_modifier = { 
+				name = beua_amphibious_boarding_gear
+				duration = -1 
+			}
+		}
+		removed_effect = { 
+			hidden_effect = {
+				remove_country_modifier = beua_amphibious_boarding_gear
+			}
+		}
 	}
 	beua_amphibious_idea_7 = {
 		disengagement_chance = 0.15
+		movement_speed_in_fleet_modifier = 0.25
 	}
 	
 	ai_will_do = {
@@ -384,7 +404,8 @@ beua_colonial_empire_ideas = {
 		diplomatic_upkeep = 2
 	}
 	beua_colonial_empire_idea_3 = {
-		global_tariffs = 0.5
+		global_tariffs = 0.15
+		envoy_travel_time = -0.1
 	}
 	beua_colonial_empire_idea_4 = {
 		global_manpower_modifier = 0.05
@@ -394,7 +415,7 @@ beua_colonial_empire_ideas = {
 		naval_forcelimit_modifier = 0.25
 	}
 	beua_colonial_empire_idea_6 = {
-		build_cost = -0.2
+		build_cost = -0.05
 		trade_steering = 0.15
 	}
 	beua_colonial_empire_idea_7 = {
@@ -556,8 +577,8 @@ beua_magocratic_ideas = {
 
 	bonus = {
 		all_power_cost = -0.025
-		technology_cost = 0.05
 		mages_loyalty_modifier = 0.1
+		mages_mana_capacity = 25
 		khelorvalshi_loyalty_modifier = 0.1
 		tec_technomancy_influence = 0.05
 	}
@@ -567,7 +588,8 @@ beua_magocratic_ideas = {
 	}
 
 	beua_magocratic_idea_1 = {
-		stability_cost_modifier = -0.2
+		stability_cost_modifier = -0.15
+		advisor_cost = -0.05
 	}
 	beua_magocratic_idea_2 = {
 		embracement_cost = -0.1
@@ -579,7 +601,7 @@ beua_magocratic_ideas = {
 	}
 	beua_magocratic_idea_4 = {
 		diplomatic_reputation = 1
-		improve_relation_modifier = 0.1
+		improve_relation_modifier = 0.15
 	}
 	beua_magocratic_idea_5 = {
 		siege_ability = 0.15
@@ -587,7 +609,7 @@ beua_magocratic_ideas = {
 	}
 	beua_magocratic_idea_6 = {
 		spy_offence = 0.33
-		global_spy_defence = 0.2
+		global_spy_defence = 0.25
 	}
 	beua_magocratic_idea_7 = {
 		monarch_lifespan = 0.25
@@ -701,11 +723,12 @@ beua_imperial_ideas = {
 		diplomats = 1
 	}
 	beua_imperial_idea_6 = {
-		manpower_against_imperial_enemies = 0.1
+		manpower_against_imperial_enemies = 5000
 		#+0.5 goods produced on urban and dwarven holds at 25 development
 	}
 	beua_imperial_idea_7 = {
-		reasons_to_elect = 25
+		reasons_to_elect = 15
+		improve_relation_modifier = 0.1
 	}
 
 	ai_will_do = {

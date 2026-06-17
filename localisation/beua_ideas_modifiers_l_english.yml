@@ -50,6 +50,10 @@
  # AI Start Bonus
  beua_ai_startup_bonus:0 "AI Start Bonus"
 
+ # Political Intervention Strain
+ beua_political_intervention_strain:0 "Political Intervention Strain"
+ desc_beua_political_intervention_strain:0 "The act of intervening in the political affairs of other nations can lead to significant strain on our own political landscape."
+
  # Archmage - Pushing the Limits Bonus
  beua_archmage_necromancy:0 "Limit Break: Necromancy"
  desc_beua_archmage_necromancy:0 "Comprehensive insight into the soul-tether allows us to halt the decay of consciousness and command the cycle of life."
@@ -83,6 +87,10 @@
  beua_arcane_support_8:0 "Arcane Support - Level VIII"
  beua_arcane_support_9:0 "Arcane Support - Level IX"
  beua_arcane_support_10:0 "Arcane Support - Level X"
+
+ # Marine Regiments: 
+ beua_amphibious_boarding_gear:0 "Amphibious Boarding Gear"
+ desc_beua_amphibious_boarding_gear:0 "Specialized equipment designed for marines to board enemy ships more effectively, including grappling hooks, boarding planks, and reinforced armor."
 
  # Artificer Regiments
  beua_artificer_bionic_implants:0 "Bionic Implants"

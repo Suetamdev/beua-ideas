@@ -1,27 +1,27 @@
 ﻿l_english:
- beua_policy_dip_1:0 "Harbor Administration"
- desc_beua_policy_dip_1:0 "Establish a national office for the administration and maintenance of our harbors."
+ beua_policy_dip_1:0 "National Harbor Directorate"
+ desc_beua_policy_dip_1:0 "Establishing a dedicated state directorate for harbor maintenance ensures our maritime gateways operate at peak economic and military capacity. Our merchants enjoy streamlined, highly efficient shipping lanes, while our warships benefit from fully funded emergency repair networks across the realm."
 
  beua_policy_dip_2:0 "Supply Convoys"
  desc_beua_policy_dip_2:0 "Ensure that our overseas holdings have regular access to supplies from the homeland."
 
- beua_policy_dip_3:0 "Colonial Restrictions"
- desc_beua_policy_dip_3:0 "Strict rules have been established in regards to trade and production to increase control over our colonies."
+ beua_policy_dip_3:0 "Holy Chartered Concessions"
+ desc_beua_policy_dip_3:0 "Our colonial enterprises must serve both the treasury and the heavens. By implementing rigorous trade restrictions that bar non-believers and heretics from operating in our overseas ports, we aggressively spread the state faith across our territories, reinforcing our continental religious unity while locking down lucrative tariff streams."
 
- beua_policy_dip_4:0 "Fortified Trading Posts"
- desc_beua_policy_dip_4:0 "Establishing trading posts in foreign lands is vital to our economic interests, but they tend to be at risk to attack from foreign powers and hostile locals. By providing each with a small garrison we can reduce this risk."
+ beua_policy_dip_4:0 "Chartered Factory Presidencies"
+ desc_beua_policy_dip_4:0 "Establishing commercial footholds in foreign markets is highly lucrative, but they face constant subversion from rival realms and local syndicates. By backing our merchant cartels with state-administered naval garrisons and permanent customs houses, we forcefully secure a massive share of foreign trade power and optimize our domestic trade efficiency."
 
- beua_policy_dip_5:0 "The Cooperation Act"
- desc_beua_policy_dip_5:0 "Encourage cooperation among our traders so that they work together to take control of lucrative trade routes."
+ beua_policy_dip_5:0 "The Coordinated Port Act"
+ desc_beua_policy_dip_5:0 "Encouraging strict cooperation between our naval commanders and garrisoned fortress engineers allows us to establish impenetrable maritime havens. With our ports completely safe from foreign raiding and blockades, our trade networks can function with unmatched security, guiding wealth deep into our inland trade routes."
 
- beua_policy_dip_6:0 "The Naval Supremacy Act"
- desc_beua_policy_dip_6:0 "A strict training regime for our sailors will ensure that our ship crews understand how to most efficiently conduct a blockade or embargo."
+ beua_policy_dip_6:0 "Total Naval Mobilization Act"
+ desc_beua_policy_dip_6:0 "By adapting our wartime industrial infrastructure to mass-produce naval hulls and armaments, we can sustain an overwhelming presence at sea. This massive expansion of our force limit allows us to deploy dense lines of warships to completely seal off enemy coastlines, rendering our commercial embargoes utterly inescapable."
 
  beua_policy_dip_7:0 "The Nautical Education Act"
  desc_beua_policy_dip_7:0 "Ensure a high standard of education for our naval officers so that they will understand the vital principles of gunnery in battles."
 
- beua_policy_dip_8:0 "Zealous Captains"
- desc_beua_policy_dip_8:0 "Select our captains to be men of faith and fire who have no qualms about boarding enemy ships to get to grips with the heathen."
+ beua_policy_dip_8:0 "Admiralty of the Faithful"
+ desc_beua_policy_dip_8:0 "Select our captains to be men of faith and fire who have no qualms about boarding enemy ships to get to grips with the heathen. Their fanatical aggression in close-quarters melee brings unmatched shock to enemy lines, ensuring our holy naval exploits are never forgotten."
 
  beua_policy_dip_9:0 "The Naval Inspection Act"
  desc_beua_policy_dip_9:0 "Create an inspection board to look after the well-being of the regular sailors in our navy."
@@ -32,17 +32,17 @@
  beua_policy_dip_11:0 "Department of Colonies"
  desc_beua_policy_dip_11:0 "The Department of Colonies is occupied with colonial matters."
 
- beua_policy_dip_12:0 "Act of Harbours"
- desc_beua_policy_dip_12:0 "The Act of Harbours ensures peace and order."
+ beua_policy_dip_12:0 "Grand Admiralty Registry Act"
+ desc_beua_policy_dip_12:0 "By deploying central state administrators to systematically catalog, tax, and upgrade every harbor and timber forest in the realm, we lift the logistical bottlenecks of naval expansion. This massive bureaucratic undertaking allows us to construct and maintain an immense armada far beyond our previous limits."
 
- beua_policy_dip_13:0 "Minister of Colonies"
- desc_beua_policy_dip_13:0 "The Minister of Colonies travels colonies and is responsible for finding new ones."
+ beua_policy_dip_13:0 "Ministry of Colonial Affairs"
+ desc_beua_policy_dip_13:0 "Expanding into untamed frontiers requires more than just wandering adventurers—it requires rigorous state organization. By establishing a dedicated Ministry of Colonial Affairs, we centralize our cartography, funding, and outward migration under a single office, guaranteeing a steady flow of brave settlers and resources to our overseas frontiers."
 
  beua_policy_dip_14:0 "Fighting Trade Ships"
  desc_beua_policy_dip_14:0 "Our merchants know how to defend themselves against pirates and other opponents."
 
- beua_policy_dip_15:0 "Jurisdiction Doctrine"
- desc_beua_policy_dip_15:0 "Jurisdiction works out the similarities between two countries and thus furthers the understanding of the two."
+ beua_policy_dip_15:0 "Imperial Jurisdiction Doctrine"
+ desc_beua_policy_dip_15:0 "By formalizing a sophisticated legal framework that harmonizes the laws, privileges, and treaties between our realm and foreign states, we establish an unshakeable standard of international justice. This mastery of jurisprudence elevates our standing on the world stage, ensuring our diplomats speak with absolute, universally respected authority."
 
  beua_policy_dip_16:0 "Act of Medical Help"
  desc_beua_policy_dip_16:0 "Medical Help in newly conquered teritory helps us to get accepted."
@@ -68,8 +68,8 @@
  beua_policy_dip_23:0 "The Colonial Expansion Act"
  desc_beua_policy_dip_23:0 "We want to expand. We will pay additional colonists."
 
- beua_policy_dip_24:0 "Social Victory Doctrine"
- desc_beua_policy_dip_24:0 "Our society is very attracting. Our state will profit from that as well."
+ beua_policy_dip_24:0 "Prestige and Integration Doctrine"
+ desc_beua_policy_dip_24:0 "Our societal model—perfected by our state structures—stands as a beacon of unmatched prestige across Haless and Cannor. By aggressively projecting this cultural excellence abroad, we disarm foreign suspicions, accelerate the natural assimilation of neighboring peoples, and ensure our diplomats are welcomed with open arms in every foreign court."
 
  beua_policy_dip_25:0 "War Propaganda"
  desc_beua_policy_dip_25:0 "Our society will support us in war times indefinitely."
@@ -80,14 +80,14 @@
  beua_policy_dip_27:0 "Public Fleet Program"
  desc_beua_policy_dip_27:0 "The state has decided to adopt a fleet program."
 
- beua_policy_dip_28:0 "Act of Small Improvements"
- desc_beua_policy_dip_28:0 "With many small improvements we can greatly improve the efficiency if our navy."
+ beua_policy_dip_28:0 "Naval Component Standardization Act"
+ desc_beua_policy_dip_28:0 "True superiority at sea is won through a thousand minor engineering triumphs. By applying the strict principles of our weapon quality doctrines to our shipyards, we have introduced a wave of iterative upgrades—from reinforced cannon mountings to standardized block-and-tackle rigging. These cumulative adjustments significantly maximize the combat efficiency of every vessel in our fleet, from the smallest transport to the grandest flagship."
 
  beua_policy_dip_29:0 "Merchant Protection Act"
  desc_beua_policy_dip_29:0 "Chased merchants can find shelter in our bases."
 
- beua_policy_dip_30:0 "Scorched Earth"
- desc_beua_policy_dip_30:0 "The tactic of scorched earth is improving our defensive capabilities."
+ beua_policy_dip_30:0 "National Partisan Mandate"
+ desc_beua_policy_dip_30:0 "An occupying army can only survive if it can live off our land. By instilling a fanatical nationalist resolve across our populace, our citizenry transforms into a permanent, phantom resistance. Destroying vital infrastructure and constant hit-and-run guerilla raids ensure that foreign invaders face catastrophic, relentless attrition for every single mile they dare to march."
 
  beua_policy_dip_31:0 "General Perseverance"
  desc_beua_policy_dip_31:0 "Our men will not surrender."
@@ -95,14 +95,14 @@
  beua_policy_dip_32:0 "Divine Devotion Act"
  desc_beua_policy_dip_32:0 "The divine devotion to fight for your land and king is inspiring our people."
 
- beua_policy_dip_33:0 "Imperial Strive for Power"
- desc_beua_policy_dip_33:0 "As an empire we need a big army and a big navy."
+ beua_policy_dip_33:0 "Imperial Logistics Mandate"
+ desc_beua_policy_dip_33:0 "An empire's ambitions are only as grand as the armies it can afford to sustain. By streamlining military supply lines, standardizing iron rations, and leveraging imperial tribute to subsidize our garrisons, we can dramatically lower the upkeep of our forces. This administrative efficiency allows us to field a colossally massive land army without bankrupting the state treasury."
 
  beua_policy_dip_34:0 "Imperial Diplomacy Act"
  desc_beua_policy_dip_34:0 "As an empire we can do things other countries can't do and get away with it."
 
- beua_policy_dip_35:0 "Imperial Influence Act"
- desc_beua_policy_dip_35:0 "Through our sheer power we enjoy great political influence."
+ beua_policy_dip_35:0 "Imperial Pax Act"
+ desc_beua_policy_dip_35:0 "True empire is built not just by breaking walls, but by building a house large enough to hold all peoples. By guaranteeing absolute legal protection and religious tolerance for heathens and heretics within our expanding borders, we transform our conquests from bitter occupations into peaceful integrations. Our subjects embrace our rule willingly, drastically lowering the cost of fully annexing them into our domain."
 
  beua_policy_dip_36:0 "Professional Seamen"
  desc_beua_policy_dip_36:0 "We have many professional seamen."
@@ -117,10 +117,10 @@
  desc_beua_policy_dip_39:0 "Our fortresses are always up to date."
 
  beua_policy_dip_40:0 "Modern Siege Equipment Doctrine"
- desc_beua_policy_dip_40:0 "With the general improvement of fortresses we need to develop modern siege equipment."
+ desc_beua_policy_dip_40:0 "As the architecture of global fortifications evolves, our offensive capabilities must advance in kind. By deploying field scouts and clandestine agents to meticulously chart enemy bastion layouts, our weapons foundries can design specialized, state-of-the-art breaching engines and high-caliber ordnance tailored specifically to shatter their defenses."
 
  beua_policy_dip_41:0 "Quality Manufactories Act"
- desc_beua_policy_dip_41:0 "Our manufactories are the best in the known world."
+ desc_beua_policy_dip_41:0 "Our manufactories are universally recognized as the finest in the known world. By tightly regulating our trade lanes to feed our premium workshops the highest grade materials, our state artisans can produce matchless, military-grade firearms and pristine black powder. When our regiments take the field, their superior weaponry delivers unmatched, catastrophic fire phases against our enemies."
 
  beua_policy_dip_42:0 "Famishment Doctrine"
  desc_beua_policy_dip_42:0 "We will make sure the enemy will starve in our lands while we hold the supplies in our fortresses."
@@ -140,14 +140,14 @@
  beua_policy_dip_47:0 "Mass Colonisation Act"
  desc_beua_policy_dip_47:0 "We focus on gobbeling up as much land as possible."
 
- beua_policy_dip_48:0 "Colonial Build Program"
- desc_beua_policy_dip_48:0 "Having a colonial build program will enable us to use our resources most efficiently."
+ beua_policy_dip_48:0 "Colonial Infrastructure Mandate"
+ desc_beua_policy_dip_48:0 "A truly enduring empire is built with brick, mortar, and iron rails. By exporting our advanced infrastructural master plans directly to our overseas territories, we turn chaotic frontier settlements into highly efficient, state-engineered hubs. Standardizing local roadways and harbor works heavily accelerates the flow of incoming settlers, while linking their local economies directly to the capital keeps their liberty desire firmly in check."
 
  beua_policy_dip_49:0 "Colonial Army"
  desc_beua_policy_dip_49:0 "We need a big enough army to defend both our motherland and our colonies."
 
- beua_policy_dip_50:0 "Colonial Mercenaries"
- desc_beua_policy_dip_50:0 "Through our colonial expansion our potential mercenary pool will grow considerably."
+ beua_policy_dip_50:0 "Chartered Protectorate Mandate"
+ desc_beua_policy_dip_50:0 "True colonial mastery lies in delegation. This mandate authorizes our colonial administrators to form autonomous client states and hire local mercenary corporations to police our distant borders. By relying on native blades and professional sellswords who know the terrain, we ensure our global trade interests remain fiercely protected while freeing our main legions for continental conflicts."
 
  beua_policy_dip_51:0 "Weapons from Oversea"
  desc_beua_policy_dip_51:0 "Weapon supplies from overseas will enable us to compensate our losses faster than before."
@@ -156,7 +156,7 @@
  desc_beua_policy_dip_52:0 "It will be essential to fortify our colonies."
 
  beua_policy_dip_53:0 "Cultural Cooperation Doctrine"
- desc_beua_policy_dip_53:0 "Through cultural cooperation we can improve the administration of our overseas land."
+ desc_beua_policy_dip_53:0 "Through deliberate cultural cooperation, we can radically optimize the administration of our far-flung overseas lands. Granting equal legal status to the distinct societies along our trade routes eliminates provincial unrest and fosters mutual respect. This enlightened approach turns foreign ports into enthusiastic extensions of our home realm, ready to construct and supply our grand standing navies."
 
  beua_policy_dip_54:0 "Base Drydocks"
  desc_beua_policy_dip_54:0 "Damaged ships can be repaired in our oversea bases and don't need to be brought back home. That will save us a lot of money."
@@ -164,11 +164,11 @@
  beua_policy_dip_55:0 "Offensive Base Concept"
  desc_beua_policy_dip_55:0 "Our bases are an integral part of our offensive strategy."
 
- beua_policy_dip_56:0 "Mass Quarters"
- desc_beua_policy_dip_56:0 "Our bases are fantastically equipped to support a lot of troops there."
+ beua_policy_dip_56:0 "Amphibious Staging Program"
+ desc_beua_policy_dip_56:0 "Projecting power across vast oceans requires specialized infrastructure at home and abroad. By expanding our coastal garrisons into massive, state-of-the-art staging grounds, we can comfortably supply and house immense numbers of troops right at the water's edge. These optimized naval barracks heavily extend our operational range and provide the perfect training environment to comfortably maintain dedicated divisions of elite marines."
 
- beua_policy_dip_57:0 "Health Standards"
- desc_beua_policy_dip_57:0 "Health standards in our army will decrease our losses suffered by illness and general attrition."
+ beua_policy_dip_57:0 "Naval Sanitation Standards"
+ desc_beua_policy_dip_57:0 "The greatest enemy of an armada is not foreign steel, but disease and confinement. By enforcing strict dietary regulations, standardizing fresh water preservation, and assigning dedicated medical officers to our long-distance expeditions, we drastically reduce losses suffered by shipboard illness. Keeping our veteran crews healthy and active vastly extends our operational range and preserves our proud naval tradition."
 
  beua_policy_dip_58:0 "Constant Crews"
  desc_beua_policy_dip_58:0 "We always have some men guarding our bases. That will free up more men to fight in the regular army."
@@ -179,9 +179,9 @@
  beua_policy_dip_60:0 "Just Land Doctrine"
  desc_beua_policy_dip_60:0 "Our judiciary is impartial and just. That will improve our reputation in foreign lands."
 
- beua_policy_dip_61:0 "State Health Care"
- desc_beua_policy_dip_61:0 "The state will support to build a public health care system."
-
+ beua_policy_dip_61:0 "State Welfare Codification Act"
+ desc_beua_policy_dip_61:0 "When the royal court actively finances and oversees the physical well-being of its citizenry, the entire state benefits. Standardizing civic health standards across our provinces minimizes societal disruption and keeps our urban centers booming with activity. This administrative harmony creates a highly progressive environment where cutting-edge global innovations and philosophies are rapidly adopted across our territory."
+ 
  beua_policy_dip_62:0 "Best Weapons of the World"
  desc_beua_policy_dip_62:0 "Our propaganda proclaims proudly that our weapons are the greatest in the world."
 
@@ -197,17 +197,17 @@
  beua_policy_dip_66:0 "Social Tolerance"
  desc_beua_policy_dip_66:0 "We are tolerant people, which makes it a lot easier to deal with other religions."
 
- beua_policy_dip_67:0 "Social Cohesion"
- desc_beua_policy_dip_67:0 "Our society is as thick as thieves."
+ beua_policy_dip_67:0 "Civic Solidarity Edict"
+ desc_beua_policy_dip_67:0 "Internal peace and external security are two sides of the same coin. This edict builds deep institutional solidarity across our provinces, successfully driving down global unrest. Because our people feel profoundly invested in the survival of our collective state, our towns transform into stubborn points of resistance, radically delaying enemy siege progress through sheer civilian defiance."
 
- beua_policy_dip_68:0 "War Bonds"
- desc_beua_policy_dip_68:0 "Our people can now buy war bonds to support our army."
+ beua_policy_dip_68:0 "Patriotic Development Bonds"
+ desc_beua_policy_dip_68:0 "To field an army capable of total victory, our technology must never fall behind. By issuing specialized state bonds backed by the patriotic pride of our unified society, we allow citizens to directly invest their personal wealth into the nation's future. This massive influx of public capital allows our administrators to rapidly modernize our infrastructure, cutting the cost of embracing new global institutions completely in half."
 
- beua_policy_dip_69:0 "Individual Production Efficiency Increase Act"
- desc_beua_policy_dip_69:0 "We bank on the creativity of our factory owners."
+ beua_policy_dip_69:0 "Civic Planning Act"
+ desc_beua_policy_dip_69:0 "Rapid urban growth often breeds chaos, but under a structured society, it breeds prosperity. By modernizing our zoning laws and streamlining public engineering pipelines, we can expand our cities' vital infrastructure at a fraction of the usual cost. Providing clean public spaces, organized housing, and efficient sanitation drastically improves daily quality of life, soothing civic anxieties and keeping global unrest firmly suppressed."
 
- beua_policy_dip_70:0 "State Assimilation"
- desc_beua_policy_dip_70:0 "We have great experience integrating our vassals."
+ beua_policy_dip_70:0 "Administrative Assimilation Directive"
+ desc_beua_policy_dip_70:0 "By aligning the core machinery of our central government with a dedicated policy of cultural absorption, we eliminate the traditional bottlenecks of imperial growth. Indigenous peoples on our colonial frontiers are rapidly transitioned into productive taxpayers, while our diplomatic corps utilizes these shared administrative structures to smoothly dissolve and integrate our dependencies at a minimal expense to the crown."
 
  beua_policy_dip_71:0 "Innovative Trade Contracts"
  desc_beua_policy_dip_71:0 "Through innovative trade contracts we can increase our influcence in foreign states greatly."
@@ -215,29 +215,29 @@
  beua_policy_dip_72:0 "Offensive Assimilation"
  desc_beua_policy_dip_72:0 "We will offensively push our culture in conquered lands."
 
- beua_policy_dip_73:0 "Wide Spread of Assimilation Resources"
- desc_beua_policy_dip_73:0 "We are keen to distribute our resources as good as possible to achieve the best effect."
+ beua_policy_dip_73:0 "Uniform Levies Act"
+ desc_beua_policy_dip_73:0 "To sustain an army capable of policing our massive territories, we must look to the populations we absorb. By smoothing over regional friction and integrating newly assimilated cultures into our national fabric, we turn yesterday's subjects into today's fierce patriots. Standardizing their training and language under our logistical machine allows us to effortlessly tap into vast provincial manpower reserves, rapidly replenishing our frontline regiments."
 
- beua_policy_dip_74:0 "Individual Funding"
- desc_beua_policy_dip_74:0 "We will fund individual projects that we deem useful."
-
+ beua_policy_dip_74:0 "Frontier Logistical Mandate"
+ desc_beua_policy_dip_74:0 "True territorial expansion relies on the speed of our supply lines. This mandate bridges our infrastructural genius with our assimilation programs, driving continuous roads and supply hubs straight into uncharted territories. Linking new settlements directly to the imperial core ensures a massive, uninterrupted flow of incoming families and materials, rapidly cementing our permanent presence on the frontier."
+ 
  beua_policy_dip_75:0 "Technical Exchange"
  desc_beua_policy_dip_75:0 "We will profit from technical exchange with other people."
 
  beua_policy_dip_76:0 "Border Security Act"
  desc_beua_policy_dip_76:0 "Our borders need to be secure at all costs."
 
- beua_policy_dip_77:0 "Imperial General Staff"
- desc_beua_policy_dip_77:0 "Our general staff is constantly trying to improve the army."
+ beua_policy_dip_77:0 "Grand General Staff Mobilization"
+ desc_beua_policy_dip_77:0 "When the absolute territorial ambitions of the crown are directly synchronized with our finest strategic minds, the entire nation transforms into an efficient engine of war. By formalizing a unified command structure across all imperial armies and aggressively optimization our frontline supply networks, we slash unnecessary administrative waste. This logistic efficiency allows us to comfortably maintain significantly lower maintenance costs while fielding an immensely larger standing army to secure our global destiny."
 
  beua_policy_dip_78:0 "Fortress Inspector"
- desc_beua_policy_dip_78:0 "Fortress inspectors will evaluate the efficiency of our forts."
+ desc_beua_policy_dip_78:0 "Fortress inspectors will guarantee the efficiency of our forts."
 
- beua_policy_dip_79:0 "Private International Law"
- desc_beua_policy_dip_79:0 "If necessary we will enforce foreign law which will bring us great respect all over the world."
+ beua_policy_dip_79:0 "International Credit Concordat"
+ desc_beua_policy_dip_79:0 "When the absolute integrity of our courts is matched by a flawless international reputation, global banking institutions treat our state with unparalleled reverence. By codifying strict legal protections for cross-border investments and standardizing financial contract laws, we transform our realm into a gold standard for international credit. Foreign bankers and merchant guilds compete to offer us their capital, enabling us to secure massive state loans at unprecedentedly low interest rates."
 
- beua_policy_dip_80:0 "Vassal Health Support"
- desc_beua_policy_dip_80:0 "We will support our vassals with our health care system."
+ beua_policy_dip_80:0 "Edict of Benevolent Patronage"
+ desc_beua_policy_dip_80:0 "When an empire prioritizes the health and safety of its subjects, the seeds of rebellion find no fertile soil. This edict standardizes humanitarian relief and public health initiatives across all of our global dependencies. Providing this unmatched standard of safety and institutional care ensures that our vassals remain fundamentally satisfied with our oversight, willingly remaining under our grand imperial banner."
 
  beua_policy_dip_81:0 "Diplomatic Service"
  desc_beua_policy_dip_81:0 "The diplomatic service will be a good connection between us and our vassals."
@@ -251,32 +251,32 @@
  beua_policy_dip_84:0 "Fortress Presence"
  desc_beua_policy_dip_84:0 "Our fortresses will always be a sign of our dominance."
 
- beua_policy_dip_85:0 "Anti Espionage Law"
- desc_beua_policy_dip_85:0 "Our anti espionage law will make life difficult for spies."
+ beua_policy_dip_85:0 "Judicial Security Mandate"
+ desc_beua_policy_dip_85:0 "A secure state must be both legally incorruptible and impenetrable to foreign subversion. By integrating our intelligence networks directly into our judicial framework, counter-espionage becomes an official, systematic process of national law. Simultaneously, this extreme legal oversight roots out local bureaucratic waste and administrative corruption across our provinces—drastically reducing state maintenance costs while casting an unyielding web of defense against enemy infiltrators."
 
- beua_policy_dip_86:0 "Foreign Bribery"
- desc_beua_policy_dip_86:0 "We will bribe everyone who might be useful to us in foreign lands."
+ beua_policy_dip_86:0 "Academic Reconnaissance Act"
+ desc_beua_policy_dip_86:0 "Knowledge is the ultimate currency of the modern era. By tasking our covert operatives with infiltrating foreign universities, alchemical guilds, and medical academies, we can systematically siphon away our rivals' intellectual breakthroughs. This unparalleled pipeline of stolen academic data and administrative research allows our state planners to formulate new national concepts at a fraction of the usual cost, while heavily boosting our operational efficiency abroad."
 
- beua_policy_dip_87:0 "Balanced Provisions"
- desc_beua_policy_dip_87:0 "Balanced provisions are important to prevent diseases."
+ beua_policy_dip_87:0 "Colonial Health and Safety Act"
+ desc_beua_policy_dip_87:0 "When an empire guarantees physical safety and modern medical care even at the bleeding edge of the map, pioneers will cross oceans to get there. This act funds the establishment of permanent field hospitals and clean water infrastructure in our overseas territories from day one. Eradicating the traditional terrors of frontier sickness sparks an unprecedented wave of colonial migration, accelerating our expansion across the globe."
 
  beua_policy_dip_88:0 "Useful Contacts"
  desc_beua_policy_dip_88:0 "Some contacts might be very useful in the future."
 
- beua_policy_dip_89:0 "Professional Explorers"
- desc_beua_policy_dip_89:0 "Our explorers are professionals."
+ beua_policy_dip_89:0 "Professional Fleet Integration Act"
+ desc_beua_policy_dip_89:0 "To safeguard an empire that spans oceans, the professional standards of our standing military must extend to our high seas. By establishing permanent naval academies and structured career benefits across our maritime provinces and frontier colonies, we turn sailing into a highly sought-after state career. This rigorous institutional pipeline massively expands our reserves of trained sailors, allowing our high command to comfortably field and maintain a significantly larger standing navy."
 
  beua_policy_dip_90:0 "Fortress Innovation Act"
- desc_beua_policy_dip_90:0 "Because of our great experience we can make our forts stronger and think about new ways winning sieges more quickly."
+ desc_beua_policy_dip_90:0 "Drawing upon generations of grand defensive experience, our strategists have devised revolutionary ways to modernize our national strongholds. This comprehensive act heavily reinforces the physical durability of our fortresses, while simultaneously training our engineering corps in innovative, highly efficient sapping techniques to conclude foreign sieges more quickly and decisively."
 
- beua_policy_dip_91:0 "Organised Togetherness"
- desc_beua_policy_dip_91:0 "When there is no heir to the throne a country can fall into a political crisis or even into a succession war. We need to avoid that at all costs and think about some ways to produce an heir."
+ beua_policy_dip_91:0 "Sovereign Credit Consolidation Act"
+ desc_beua_policy_dip_91:0 "When flawless domestic administration is backed by sweeping international influence, an empire's financial word becomes absolute law. By streamlining our treasury's accounting practices and leveraging our immense diplomatic prestige among global banking cartels, we establish an unshakeable standard of sovereign credit. Foreign syndicates and client states compete to back our grand public initiatives, allowing us to command massive state loans at minimal interest rates."
 
  beua_policy_dip_92:0 "Penetration of Nobility"
  desc_beua_policy_dip_92:0 "The nobility is very important in our country."
 
- beua_policy_dip_93:0 "Local Influence"
- desc_beua_policy_dip_93:0 "Through local optimisation we can boost our influence there."
+ beua_policy_dip_93:0 "Imperial Arsenal Expansion"
+ desc_beua_policy_dip_93:0 "By utilizing our vast diplomatic influence to secure raw materials from our dependencies and applying our superior weapon-smithing methods to assembly lines, we can mass-produce arms on an unprecedented scale. This massive influx of standardized weaponry allows us to rapidly outfit tens of thousands of new frontline soldiers and supply a wave of newly constructed warships, expanding our standing military limits across land and sea."
 
  beua_policy_dip_94:0 "Local Fortress Advisor"
  desc_beua_policy_dip_94:0 "We will improve our fortresses with local military engineers and advisors."
@@ -284,80 +284,80 @@
  beua_policy_dip_95:0 "Consolation of Foreign Countries"
  desc_beua_policy_dip_95:0 "We always try to keep foreign opinions about us neutral at worst."
 
- beua_policy_dip_96:0 "Public Account Lists"
- desc_beua_policy_dip_96:0 "Through public account lists we can avoid paying too much for investments."
+ beua_policy_dip_96:0 "Naval Procurement Directive"
+ desc_beua_policy_dip_96:0 "By integrating our nation's advanced legal framework directly into our coastal infrastructure, we optimize our entire shipbuilding sector. This comprehensive directive regulates raw material supply lines and organizes dockyard labor under centralized state supervision. Eliminating waste and establishing clear construction quotas allows our empire to comfortably build a massive armada at minimized expenses and record-breaking speeds."
 
- beua_policy_dip_97:0 "Marine Conscription"
- desc_beua_policy_dip_97:0 "We need the conscription to also benefit the navy."
+ beua_policy_dip_97:0 "Marine Conscription Act"
+ desc_beua_policy_dip_97:0 "Our military mobilization must not end at the shoreline. By expanding our state conscription framework to encompass all coastal provinces, commercial ports, and river communities, we can systematically tap into our nation's vast maritime population. Standardizing naval draft rosters and registration protocols ensures that our naval reserves are continuously replenished, providing an uninterrupted stream of fresh, capable deckhands and sailors to rapidly replace our fleet's casualties."
 
  beua_policy_dip_98:0 "Active Seamen Recruitment"
  desc_beua_policy_dip_98:0 "We will actively recruit seamen for our fleet."
 
- beua_policy_dip_99:0 "Naval Quality Weapons"
- desc_beua_policy_dip_99:0 "We will ensure that our ships only get the best quality of weapons we can offer."
+ beua_policy_dip_99:0 "Naval Quality Weapons Act"
+ desc_beua_policy_dip_99:0 "We will ensure that our fleets are outfitted exclusively with the highest quality armaments our foundries can produce. By standardizing our finest weapon designs for maritime combat and supplying our ships with premium heavy munitions, we eliminate structural defects and maximize the lethal efficiency of our broadsides on the global stage."
 
  beua_policy_dip_100:0 "Floating Fortress Act"
  desc_beua_policy_dip_100:0 "Heavy Ships are the backbone of our navy. We need to do everything we can to produce them as cost effective as possible."
 
- beua_policy_dip_101:0 "War Fleet Build Program"
- desc_beua_policy_dip_101:0 "Our fleet build program will cost us a lot of money."
+ beua_policy_dip_101:0 "Naval Industrial Mobilization Act"
+ desc_beua_policy_dip_101:0 "When the entire industrial capacity of our wartime economy is directed toward the high seas, our shipyards transform into unstoppable engines of mass production. This act centralizes the procurement of strategic naval materials—such as premium timber, canvas, and iron armaments—under a unified state production board. Stripping away commercial middlemen and standardizing modular hull designs allows us to mass-produce grand war fleets at a fraction of their traditional costs."
 
  beua_policy_dip_102:0 "Resilient Merchants"
- desc_beua_policy_dip_102:0 "Our merchants won't be discomposed easily."
+ desc_beua_policy_dip_102:0 "Our merchant classes are the lifeblood of the economy, and they must not be easily discomposed by foreign outbreaks, physical exhaustion, or regional crises. By integrating advanced health doctrines directly into our trade charters, we safeguard our trade representatives against the typical hazards of international travel. This unyielding physical and structural resilience ensures our commercial operations run with absolute continuity, allowing us to confidently outmaneuver our competitors in every market."
 
  beua_policy_dip_103:0 "Administrative Support for Merchants Act"
- desc_beua_policy_dip_103:0 "The state is doing everyting it can to ease the merchants work."
+ desc_beua_policy_dip_103:0 "The state is doing everything it can to ease the merchants work."
 
  beua_policy_dip_104:0 "Military Merchant"
  desc_beua_policy_dip_104:0 "One from the army budget paid merchants will focus on requiring military goods in foreign lands."
 
- beua_policy_dip_105:0 "Useful Contacts"
- desc_beua_policy_dip_105:0 "Some contacts might be very useful in the future."
+ beua_policy_dip_105:0 "Logistical Supply Act"
+ desc_beua_policy_dip_105:0 "Using trade routes to supply our conscripts lowers army costs and helps war-torn provinces recover quickly."
 
  beua_policy_dip_106:0 "Trade Bases"
  desc_beua_policy_dip_106:0 "We will maintain trade bases to protect our trade ships and improve our efficiency."
 
- beua_policy_dip_107:0 "Colonial Range Act"
- desc_beua_policy_dip_107:0 "Because of the great quality of our ships we can travel far away."
+ beua_policy_dip_107:0 "Armed Expedition Act"
+ desc_beua_policy_dip_107:0 "Equipping our pioneers with premium weaponry allows them to venture further and secure new colonies much faster."
 
  beua_policy_dip_108:0 "Customs Station"
  desc_beua_policy_dip_108:0 "Custom stations will help us to control trade in our land."
 
  beua_policy_dip_109:0 "Seafaring Focus"
- desc_beua_policy_dip_109:0 "We use the conscription to expand our navy greatly."
+ desc_beua_policy_dip_109:0 "We extend our military conscription framework to coastal regions to greatly expand our naval manpower and fleet capacity."
 
- beua_policy_dip_110:0 "Additional Docks"
- desc_beua_policy_dip_110:0 "We will invest a good chunk of money to raise our fleet capacity."
+ beua_policy_dip_110:0 "Mass Fleet Initiative"
+ desc_beua_policy_dip_110:0 "Applying our massive logistics and manpower networks to our shipyards allows us to maintain a vastly larger navy."
 
- beua_policy_dip_111:0 "Pirate Fleet Act"
- desc_beua_policy_dip_111:0 "Recruiting pirates will hurt our enemies economy."
+ beua_policy_dip_111:0 "Privateer Contracts Act"
+ desc_beua_policy_dip_111:0 "Hiring mercenary sailors and licensed privateers lowers our official naval maintenance while massively disrupting enemy trade."
 
- beua_policy_dip_112:0 "Admiralty Law"
- desc_beua_policy_dip_112:0 "Admiralty Law is boosting the morale of our men."
+ beua_policy_dip_112:0 "Naval Articles of War"
+ desc_beua_policy_dip_112:0 "Introducing strict legal codes and fair judicial rights for our crews enforces iron discipline and heavily boosts naval morale."
 
- beua_policy_dip_113:0 "Marine Defensive Morale"
- desc_beua_policy_dip_113:0 "Our navy is determined to not waver even in difficult situations."
+ beua_policy_dip_113:0 "Coastal Defense Act"
+ desc_beua_policy_dip_113:0 "Coordinates coastal fortresses with our fleet patrols to maximize fort defense and heavily optimize naval blockades."
 
- beua_policy_dip_114:0 "Galley Law"
- desc_beua_policy_dip_114:0 "Our republic will count on a big number of galleys."
+ beua_policy_dip_114:0 "Maritime Levy Act"
+ desc_beua_policy_dip_114:0 "Leverages merchant wealth to expand our naval force limit and sustain top-tier naval tradition through galley warfare."
 
  beua_policy_dip_115:0 "Boarding maneuvers"
  desc_beua_policy_dip_115:0 "While Boarding has long been a part of naval warfare, our captains and crews go about it more vigorously than most. By fearlessly closing the distance and fiercely attacking, our navy is gaining a reputation for their shock tactics."
 
- beua_policy_dip_116:0 "Social Discretion"
- desc_beua_policy_dip_116:0 "Our people are wary talking to foreigners about our military."
+ beua_policy_dip_116:0 "Psychological Warfare Act"
+ desc_beua_policy_dip_116:0 "Using military intelligence and field subversion allows our armies to inflict more morale damage while locking down domestic security."
 
  beua_policy_dip_117:0 "Kill the Natives!"
  desc_beua_policy_dip_117:0 "We are not interested in living with the natives. We will kill them when we have the chance. That will increase security for our colonists, but will greatly upset the natives."
  
- beua_policy_dip_118:0 "Sailors for the State"
- desc_beua_policy_dip_118:0 "We take great pride in our navy."
+ beua_policy_dip_118:0 "Naval Militarism Act"
+ desc_beua_policy_dip_118:0 "Applying strict militaristic discipline to our crews fosters top-tier naval tradition and unmatched morale in battle."
 
- beua_policy_dip_119:0 "Homogeneous Cannons"
- desc_beua_policy_dip_119:0 "Our ships will be equipped with one cannon type only."
+ beua_policy_dip_119:0 "Heavy Broadside Directive"
+ desc_beua_policy_dip_119:0 "Brings martial discipline and heavy artillery drills to our largest warships, significantly boosting heavy ship combat power."
 
- beua_policy_dip_120:0 "Cannister Shot"
- desc_beua_policy_dip_120:0 "We will equip our galleys with cannister shots. That will give us great a advantage when fighting in close combat."
+ beua_policy_dip_120:0 "Canister Shot"
+ desc_beua_policy_dip_120:0 "Equipping our galleys with canister shot gives us a massive advantage during close-quarters naval combat."
 
  beua_policy_dip_121:0 "Trade War"
  desc_beua_policy_dip_121:0 "We are ready to fight our wars with all the might of our fleet - even if we have to use pirates."
@@ -365,8 +365,8 @@
  beua_policy_dip_122:0 "Fast Assimilation"
  desc_beua_policy_dip_122:0 "Fast assimilation helps foreigners to swiftly adapt to our way of life."
 
- beua_policy_dip_123:0 "We will win!"
- desc_beua_policy_dip_123:0 "Our propaganda will always tell that we are going to win. We are almost believing it ourselves."
+ beua_policy_dip_123:0 "Martial Court Protocol"
+ desc_beua_policy_dip_123:0 "Aligning military prestige with court diplomacy elevates our global reputation while keeping domestic war exhaustion low."
 
  beua_policy_dip_124:0 "Long Arm"
  desc_beua_policy_dip_124:0 "We can always strike quickly thanks to our bases."
@@ -377,77 +377,77 @@
  beua_policy_dip_126:0 "Iron Morale"
  desc_beua_policy_dip_126:0 "Our petty officers will ensure that our troops are as motivated as a man can be."
 
- beua_policy_dip_127:0 "Attack in Formation"
- desc_beua_policy_dip_127:0 "Our fleet will always attack in formation. May the winds be with us."
+ beua_policy_dip_127:0 "Maritime Integration Act"
+ desc_beua_policy_dip_127:0 "Applies advanced strategic coordination to our shipyards, optimizing the combat power of every vessel in our service."
 
- beua_policy_dip_128:0 "Ship of the Line Chord"
- desc_beua_policy_dip_128:0 "Our ships are strung like pearls on a chord."
+ beua_policy_dip_128:0 "Strategic Naval Command"
+ desc_beua_policy_dip_128:0 "Integrating high-level military planning into our naval leadership builds stellar tradition and unmatched fleet morale."
 
  beua_policy_dip_129:0 "Ram Rotte"
- desc_beua_policy_dip_129:0 "Our galleys will attack in rottes."
+ desc_beua_policy_dip_129:0 "Our galleys will advance and attack in coordinated rottes, maximizing our ramming efficiency and close-combat impact."
 
- beua_policy_dip_130:0 "Trade Protection"
- desc_beua_policy_dip_130:0 "We are doing everything to protect our trade ships."
+ beua_policy_dip_130:0 "Line of Battle Command"
+ desc_beua_policy_dip_130:0 "Integrates advanced legionary and strategic line formations into our navy, maximizing the combat impact of our heavy warships."
 
- beua_policy_dip_131:0 "Simple Formations"
- desc_beua_policy_dip_131:0 "Our formations are easy to understand - but still very effective."
+ beua_policy_dip_131:0 "Assimilated Labor Act"
+ desc_beua_policy_dip_131:0 "Integrating local techniques and human resources into our strategic logistics network heavily reduces construction costs."
 
- beua_policy_dip_132:0 "Constant Formation Drill"
- desc_beua_policy_dip_132:0 "Our navy can always train for the worst scenario because of the numerous bases we have."
+ beua_policy_dip_132:0 "Coastal Projection Directive"
+ desc_beua_policy_dip_132:0 "Coordinates high-level strategic planning with our amphibious fleets to sustain a larger, highly motivated fighting navy."
 
  beua_policy_dip_133:0 "Against the Enemy"
  desc_beua_policy_dip_133:0 "We will withstand against any foreign oppression."
 
- beua_policy_dip_134:0 "Imperial Attraction"
- desc_beua_policy_dip_134:0 "Our empire is big and attractive."
+ beua_policy_dip_134:0 "Imperial Integration Mandate"
+ desc_beua_policy_dip_134:0 "Combines strategic statecraft with imperial ambition to efficiently accept local cultures and redirect provincial trade to the capital."
 
  beua_policy_dip_135:0 "Quality Ships"
  desc_beua_policy_dip_135:0 "Our ships are of the best available quality. The crew believes in their material."
 
- beua_policy_dip_136:0 "Hinterland Mercenaries"
- desc_beua_policy_dip_136:0 "We will support local groups in enemy lands to devastate our enemies' land."
+ beua_policy_dip_136:0 "Partisan Network Act"
+ desc_beua_policy_dip_136:0 "Coordinating local spy rings with vanguard cells ensures that invaders bleed for every inch of our soil, leaving them ripe for a decisive counter-shock."
 
- beua_policy_dip_137:0 "Quick Embargo"
- desc_beua_policy_dip_137:0 "We will hit our enemy hard and unprepared."
-
+ beua_policy_dip_137:0 "Trade Enforcement Mandate"
+ desc_beua_policy_dip_137:0 "Applies bold, assertive state doctrines to our merchant operations, isolating our competitors and securing foreign wealth."
+ 
  beua_policy_dip_138:0 "Present Army"
  desc_beua_policy_dip_138:0 "Our army will be present in all regions of our realm."
 
- beua_policy_dip_139:0 "Broadside Defence"
- desc_beua_policy_dip_139:0 "We have learned how to defend against broadsides more effectively."
+ beua_policy_dip_139:0 "Capital Ship Assault Act"
+ desc_beua_policy_dip_139:0 "Combines frontline shock doctrine with naval mastery to turn our heavy vessels into aggressive instruments of ocean dominance.".
 
- beua_policy_dip_140:0 "Better Trade Ships"
- desc_beua_policy_dip_140:0 "Our Trade Ships and our transporters know how to defend themselves."
+ beua_policy_dip_140:0 "Defensive Flotilla Mandate"
+ desc_beua_policy_dip_140:0 "Our trade ships and transports are trained in shock defensive tactics, ensuring they know how to defend themselves against hostile raiders."
 
  beua_policy_dip_141:0 "Boarding Attacks"
  desc_beua_policy_dip_141:0 "Our galleys will be well equipped for boarding maneuvers."
 
- beua_policy_dip_142:0 "Making Examples"
- desc_beua_policy_dip_142:0 "We will be making examples of people getting out of line."
+ beua_policy_dip_142:0 "Subjugation of Overseas Subjects"
+ desc_beua_policy_dip_142:0 "Combines frontline shock doctrines with colonial governance to systematically suppress revolutionary ideas before they take root."
 
- beua_policy_dip_143:0 "Cultural Guideline"
- desc_beua_policy_dip_143:0 "Our society will respect our cultural guidelines."
+ beua_policy_dip_143:0 "Forced Social Realignment"
+ desc_beua_policy_dip_143:0 "Applies rigorous and aggressive state frameworks to newly acquired territories, heavily reducing the cost of converting provincial cultures."
 
- beua_policy_dip_144:0 "Defend the Base!"
- desc_beua_policy_dip_144:0 "We will defend our fleet bases to the last man."
+ beua_policy_dip_144:0 "Marine Levy Enactment"
+ desc_beua_policy_dip_144:0 "Enforces rapid naval conscription programs across our coastlines to sustain a much larger and rapidly reinforced combat fleet."
 
- beua_policy_dip_145:0 "Imperial Sailors"
- desc_beua_policy_dip_145:0 "Our empire needs many sailors and we make this job very attractive."
+ beua_policy_dip_145:0 "Imperial Sailor Levies"
+ desc_beua_policy_dip_145:0 "Enforces aggressive maritime conscription laws across our conquered coasts, heavily expanding our global pool of available sailors."
 
- beua_policy_dip_146:0 "War Hero Diplomacy"
- desc_beua_policy_dip_146:0 "Our war heroes will be of use after the war by making them diplomats."
+ beua_policy_dip_146:0 "Statecraft Deterrence Mandate"
+ desc_beua_policy_dip_146:0 "Integrates military fire doctrines with secret networks to heavily optimize our global diplomatic standing."
 
- beua_policy_dip_147:0 "Family Replenishment"
- desc_beua_policy_dip_147:0 "We will use our family ties to get more men for the front."
+ beua_policy_dip_147:0 "Foreign Levy Treaties"
+ desc_beua_policy_dip_147:0 "Coordinates high-level diplomacy with our fire-doctrine recruitment centers to rapidly replenish our frontline casualties."
+ 
+ beua_policy_dip_148:0 "Universal Fleet Armament Act"
+ desc_beua_policy_dip_148:0 "Integrates modern cannon artillery advancements across all ship classifications, giving every vessel in our fleet a decisive edge in naval combat."
 
- beua_policy_dip_148:0 "Standardised Cannons"
- desc_beua_policy_dip_148:0 "By using only one type of cannons we can improve the efficiency of our fleets."
+ beua_policy_dip_149:0 "Statutory Annexation Mandate"
+ desc_beua_policy_dip_149:0 "Uses the threat of our modern firearms and the expertise of our legal scholars to formalize territorial claims swiftly during peace negotiations."
 
- beua_policy_dip_149:0 "Law of War"
- desc_beua_policy_dip_149:0 "A fair law of war will earn us respect in enemy ranks."
-
- beua_policy_dip_150:0 "Joined Broadside"
- desc_beua_policy_dip_150:0 "We will coordinate not only the cannons of one ship, but of an armada."
+ beua_policy_dip_150:0 "Naval Gunnery Advancement"
+ desc_beua_policy_dip_150:0 "Introduces advanced firearm balistics and standardized heavy cannon foundry to our war fleets, heavily increasing the combat power of our heavy ships."
 
  beua_policy_dip_151:0 "Tough Trade Ships"
  desc_beua_policy_dip_151:0 "Our trade ships need to be prepared for war."
@@ -455,14 +455,14 @@
  beua_policy_dip_152:0 "Galley Cannons"
  desc_beua_policy_dip_152:0 "Our galleys are armed with first class cannons, just like our bigger ships."
 
- beua_policy_dip_153:0 "Fiery Society"
- desc_beua_policy_dip_153:0 "Our society loves the courtlife."
+ beua_policy_dip_153:0 "Enforced Civic Order Act"
+ desc_beua_policy_dip_153:0 "Uses the discipline of our modern military to suppress domestic dissent and centralize authority, granting a steady increase to yearly absolutism."
 
- beua_policy_dip_154:0 "Defend the Cities"
- desc_beua_policy_dip_154:0 "Our propaganda will ensure that we have enough volunteers to defend our cities."
+ beua_policy_dip_154:0 "Imperial Court Integration"
+ desc_beua_policy_dip_154:0 "Combines the overwhelming prestige of our modern military with court diplomacy to welcome foreign elites and accelerate diplomatic reconciliation."
 
- beua_policy_dip_155:0 "National Wallet"
- desc_beua_policy_dip_155:0 "Our men don't care if their pay is late."
+ beua_policy_dip_155:0 "Patriotic Conscription Act"
+ desc_beua_policy_dip_155:0 "Inspires our regiments with deep nationalism and rigorous fire discipline, heavily reducing total army maintenance through civic duty."
 
  beua_policy_dip_156:0 "State Weapon Trade"
  desc_beua_policy_dip_156:0 "The weapon trade is regulated by the state."
@@ -470,77 +470,77 @@
  beua_policy_dip_157:0 "Central Representation"
  desc_beua_policy_dip_157:0 "Our representation is centralized in the capital."
 
- beua_policy_dip_158:0 "General Influencing"
- desc_beua_policy_dip_158:0 "Our foreign policy is perfectly coordinated."
+ beua_policy_dip_158:0 "Centralized Integration Act"
+ desc_beua_policy_dip_158:0 "Combines systematic state centralism with diplomatic influence to smoothly incorporate regional cultures into our administrative core."
 
- beua_policy_dip_159:0 "Trade Centers"
- desc_beua_policy_dip_159:0 "Through central control we can improve the trade power of our provinces."
+ beua_policy_dip_159:0 "Monopolized Development Act"
+ desc_beua_policy_dip_159:0 "Uses centralized trade profits to systematically fund and optimize domestic production, manpower, and taxation networks."
 
- beua_policy_dip_160:0 "Colonial Agency"
- desc_beua_policy_dip_160:0 "By finding a Colonial Agency we can support more colonies."
+ beua_policy_dip_160:0 "Colonial Agency Mandate"
+ desc_beua_policy_dip_160:0 "By founding a dedicated Colonial Agency, our centralized bureaucracy can directly manage and support additional overseas settlements."
 
- beua_policy_dip_161:0 "Registration of Ships"
- desc_beua_policy_dip_161:0 "By registrating every ship we can decrease our maintenance."
+ beua_policy_dip_161:0 "State Dockyard Standardization"
+ desc_beua_policy_dip_161:0 "Brings all shipwright infrastructure under central supervision, expanding our maximum fleet capacity while cutting maintenance costs through administrative efficiency."
 
- beua_policy_dip_162:0 "Heavy Ship Expansion"
- desc_beua_policy_dip_162:0 "Through expanding our fleets we will create lots of jobs."
+ beua_policy_dip_162:0 "Naval Register Mandate"
+ desc_beua_policy_dip_162:0 "Imposes strict state supervision over all maritime activities, drastically boosting our global sailor reserves and maximum naval force limits."
 
- beua_policy_dip_163:0 "Trade Ship Expansion"
- desc_beua_policy_dip_163:0 "We will expand our trade fleet."
+ beua_policy_dip_163:0 "Grand Naval Armaments Act"
+ desc_beua_policy_dip_163:0 "Directs the entire command of our centralized bureaucracy toward shipwright production, unlocking a colossal increase in our maximum fleet capacity."
 
- beua_policy_dip_164:0 "Galley Expansion"
- desc_beua_policy_dip_164:0 "We will show our presence by building a galley fleet."
+ beua_policy_dip_164:0 "Centralized Navy Yards Act"
+ desc_beua_policy_dip_164:0 "Funds flat infrastructure expansions across our shoreline, providing a vast and immediate increase to both fleet capacity and sailor reserves."
 
- beua_policy_dip_165:0 "Auditors"
- desc_beua_policy_dip_165:0 "By hiring auditors we will keep track of what our colonial nations are doing."
+ beua_policy_dip_165:0 "Crown Colony Integration"
+ desc_beua_policy_dip_165:0 "Brings colonial administration directly under royal oversight, optimizing infrastructure growth and extracting greater economic revenue."
 
- beua_policy_dip_166:0 "Colonial Assimilation"
- desc_beua_policy_dip_166:0 "We will do everything to assimilate the natives."
+ beua_policy_dip_166:0 "State Assimilation Mandate"
+ desc_beua_policy_dip_166:0 "Applies centralized administrative weight to cultural integration, accelerating overseas colonial growth while cutting the cost of domestic assimilation."
 
- beua_policy_dip_167:0 "Central Tactics"
- desc_beua_policy_dip_167:0 "By applying good tactics we can reach our goals easier."
+ beua_policy_dip_167:0 "Sovereign Envoy Directive"
+ desc_beua_policy_dip_167:0 "Uses centralized state authority to project absolute confidence abroad, making our diplomatic demands impossible to ignore."
 
- beua_policy_dip_168:0 "Give Them An Inch"
- desc_beua_policy_dip_168:0 "And they will take a mile."
+ beua_policy_dip_168:0 "Opportunistic Border Dissolution"
+ desc_beua_policy_dip_168:0 "Weaponizes espionage networks alongside decentralized logistics to aggressively tear down and claim foreign regional borders."
 
- beua_policy_dip_169:0 "Diverse Trade Interests"
- desc_beua_policy_dip_169:0 "Because of our diverse interests we need to split our resources."
+ beua_policy_dip_169:0 "Decentralized Mercantile Urbanism"
+ desc_beua_policy_dip_169:0 "Fosters regional commercial autonomy to significantly reduce the cost of expanding provincial development."
 
- beua_policy_dip_170:0 "Vast Colonies"
- desc_beua_policy_dip_170:0 "By expanding our number of colonies, growth will be hurt, but we can claim more territory."
+ beua_policy_dip_170:0 "Proprietary Colony Grants"
+ desc_beua_policy_dip_170:0 "Delegates colonial expansion to regional lords and corporate charters, heavily increasing our capacity to establish new settlements."
 
- beua_policy_dip_171:0 "Experience is Trump"
- desc_beua_policy_dip_171:0 "We will use the experience of our captains as well as the experience of our rivals."
+ beua_policy_dip_171:0 "Maritime Guild Autonomy"
+ desc_beua_policy_dip_171:0 "Empowers regional seafaring communities and coastal councils, fostering an organic and elite annual navy tradition through lifelong practical experience."
 
- beua_policy_dip_172:0 "Lone Fighters"
- desc_beua_policy_dip_172:0 "Our heavy ships will keep fighting even when surrounded."
+ beua_policy_dip_172:0 "Decentralized Maritime Doctrine"
+ desc_beua_policy_dip_172:0 "Mobilizes regional coastal initiatives to secure a substantial boost to both naval morale and annual tradition."
 
- beua_policy_dip_173:0 "Trade Protection"
- desc_beua_policy_dip_173:0 "We will need every ship to protect our trade."
+ beua_policy_dip_173:0 "Provincial Shipwright Innovation"
+ desc_beua_policy_dip_173:0 "Encourages competitive shipwright designs across autonomous dockyards, granting a systematic combat bonus to all vessel classes."
 
- beua_policy_dip_174:0 "Discover the new world!"
- desc_beua_policy_dip_174:0 "By finding more colonial regions we will be quicker than our rivals."
+ beua_policy_dip_174:0 "Decentralized Outpost Grants"
+ desc_beua_policy_dip_174:0 "Allows provincial trading companies to spearhead deep-sea expeditions, pushing our colonial range boundaries to new horizons."
 
  beua_policy_dip_175:0 "Accept, then assimilate."
  desc_beua_policy_dip_175:0 "Before assimilating foreign cultures we'll need to accept them first."
 
  beua_policy_dip_176:0 "Decentralized Propaganda"
- desc_beua_policy_dip_176:0 "Our propaganda is as cunning as it can be."
+ desc_beua_policy_dip_176:0 "Our propaganda is as cunning as it can be. By letting local courts shape the crown's narrative, we solidify absolute royal authority with local consent."
 
- beua_policy_dip_177:0 "Many Bases"
- desc_beua_policy_dip_177:0 "It is important to maintain as many fleetbases as possible."
+ beua_policy_dip_177:0 "Littoral Frontier Grants"
+ desc_beua_policy_dip_177:0 "Authorizes local coastal councils to establish self-sustaining naval outposts, expanding the reach of our overseas colonial network."
 
- beua_policy_dip_178:0 "Magocratic Innovative"
- desc_beua_policy_dip_178:0 "We will invest in innovative technologies to enhance our naval capabilities."
+ beua_policy_dip_178:0 "High Academy Curriculum"
+ desc_beua_policy_dip_178:0 "Blends academic innovation with institutional wizardry. Our magocratic state structures theoretical research to yield unprecedented practical experience for court magi and rulers alike."
 
  beua_policy_dip_179:0 "Test Subject Acquisition"
  desc_beua_policy_dip_179:0 "We will establish a program to acquire test subjects for research and development purposes."
 
- beua_policy_dip_180:0 "Public Schooling Act"
- desc_beua_policy_dip_180:0 "We will implement a public schooling system to educate our citizens and promote literacy."
+ beua_policy_dip_180:0 "Artificer Patent Standardization"
+ desc_beua_policy_dip_180:0 "Directs civic resources toward the widespread adoption of magical inventions, unlocking rapid nation-wide technological breakthrough and cheaper urban expansion."
 
- beua_policy_dip_181:0 "Automated Censorship Act"
- desc_beua_policy_dip_181:0 "We will implement automated systems to monitor and censor information to maintain state security and public order."
+ beua_policy_dip_181:0 "The Ward-Engine Court Act"
+ desc_beua_policy_dip_181:0 "Equips our diplomatic halls with advanced artificer countermeasures and localized anti-scrying wards, neutralizing foreign infiltration while projecting absolute state prestige."
 
  beua_policy_dip_182:0 "Court Artificer Initiative"
  desc_beua_policy_dip_182:0 "We will establish a court-sponsored program to support and promote the development of artificery, fostering innovation and craftsmanship in our society."
@@ -548,62 +548,62 @@
  beua_policy_dip_183:0 "Experimental Ship Designs"
  desc_beua_policy_dip_183:0 "We will invest in the research and development of experimental ship designs to enhance our naval capabilities."
 
- beua_policy_dip_184:0 "Technomancer Decree"
- desc_beua_policy_dip_184:0 "We will establish a program to recruit and train technomancers to harness the power of technology and magic in our naval forces."
+ beua_policy_dip_184:0 "Systematic Technomancy Mandate"
+ desc_beua_policy_dip_184:0 "Establishes institutional frameworks for technological sorcery, optimizing overall monarchical management and expanding technomantic prominence."
 
- beua_policy_dip_185:0 "Firestorm Decree"
- desc_beua_policy_dip_185:0 "We will develop and deploy advanced firestorm technologies to enhance our naval warfare capabilities."
+ beua_policy_dip_185:0 "The Leyline Fortification Network"
+ desc_beua_policy_dip_185:0 "Anchors specialized arcane batteries within our defensive lines, heavily expanding our magi's maximum mana pools while draining the lifeforce of encroaching invaders."
 
  beua_policy_dip_186:0 "Land Fertilization Act"
  desc_beua_policy_dip_186:0 "We will implement advanced agricultural techniques to improve crop yields and support our growing population."
 
- beua_policy_dip_187:0 "Witch Doctor Act"
- desc_beua_policy_dip_187:0 "We will support the use of traditional witch doctors to enhance our agricultural practices and ensure food security."
+ beua_policy_dip_187:0 "Edict of Physical Purification"
+ desc_beua_policy_dip_187:0 "Blends magocratic oversight with health frameworks to secure longer reigns and an efficient progression of national ideas."
 
- beua_policy_dip_188:0 "Court Mage Act"
- desc_beua_policy_dip_188:0 "We will establish a program to recruit and train court mages to enhance our magical capabilities and support our governance."
+ beua_policy_dip_188:0 "The Arcane Privy Council Act"
+ desc_beua_policy_dip_188:0 "Formally integrates high-ranking spellcasters into the state's executive council, vastly lowering advisor upkeep while expanding our magi's total mana pool."
 
- beua_policy_dip_189:0 "Professional Wizard Act"
- desc_beua_policy_dip_189:0 "We will establish a program to recruit and train professional wizards to enhance our magical capabilities and support our governance."
+ beua_policy_dip_189:0 "Regimented Battlemage Mandate"
+ desc_beua_policy_dip_189:0 "By standardizing magical training under rigid standing army protocols, we project an image of unmatched arcane discipline that echoes across foreign courts."
 
  beua_policy_dip_190:0 "Quality Spellbook Act"
- desc_beua_policy_dip_190:0 "We will establish a program to produce high-quality spellbooks for our mages."
+ desc_beua_policy_dip_190:0 "Establishes a state program to manufacture standardized, high-quality grimmoires with protective runes. Safeguarding their complex research stabilizes our mages' loyalty and accelerates their overall magical experience."
 
- beua_policy_dip_191:0 "Abjuration Act"
- desc_beua_policy_dip_191:0 "We will establish a program to enhance our defensive magical capabilities and protect our realm from external threats."
+ beua_policy_dip_191:0 "Runic Masonry Mandate"
+ desc_beua_policy_dip_191:0 "Inscribes protective structural runes across all territorial keeps, delaying enemy breach capabilities and exposing local siege camps to hostile elemental manipulation."
 
- beua_policy_dip_192:0 "Spellbook Exchange Act"
- desc_beua_policy_dip_192:0 "We will establish a program to facilitate the exchange of spellbooks between wizards, promoting collaboration and the sharing of magical knowledge."
+ beua_policy_dip_192:0 "Edict of Provincial Thaumaturgy"
+ desc_beua_policy_dip_192:0 "Allows local governance to support autonomous magical circles, lowering international conceptual costs and optimizing continuous mana storage."
 
- beua_policy_dip_193:0 "Communication Bugging Act"
- desc_beua_policy_dip_193:0 "We will implement advanced magical surveillance techniques to monitor and intercept communications, ensuring state security and the prevention of dissent."
+ beua_policy_dip_193:0 "Mana Signal Interception Directive"
+ desc_beua_policy_dip_193:0 "Authorizes the deployment of clandestine listening charms across major diplomatic and public channels, locking down counter-intelligence threats and optimizing envoy communication speeds."
 
- beua_policy_dip_194:0 "Mad Artificer Rationality Act"
- desc_beua_policy_dip_194:0 "We will promote the rational and systematic study of artificery, encouraging innovation and the responsible use of magical technology."
+ beua_policy_dip_194:0 "Technomantic Concessions Directive"
+ desc_beua_policy_dip_194:0 "Uses valuable artificer devices and industrial contracts as diplomatic leverage during peace talks, minimizing the geopolitical friction caused by our territorial growth."
 
- beua_policy_dip_195:0 "Baubles and Trinkets Act"
- desc_beua_policy_dip_195:0 "We will promote the production and trade of baubles and trinkets, fostering a culture of craftsmanship and artistic expression."
+ beua_policy_dip_195:0 "Artificer Trade Monopolies"
+ desc_beua_policy_dip_195:0 "Leverages unique, state-sanctioned mechanical exports and patented storage methods to dominate foreign nodes and bolster national mercantile efficiency."
 
- beua_policy_dip_196:0 "Land Surveillance Act"
- desc_beua_policy_dip_196:0 "We will implement advanced magical surveillance techniques to monitor and intercept communications, ensuring state security and the prevention of dissent."
+ beua_policy_dip_196:0 "The Vanguard Artificer Corps"
+ desc_beua_policy_dip_196:0 "Dispatches specialized artificer-colonists to oversee the construction of advanced settlements, accelerating territorial expansion through mechanical infrastructure."
 
- beua_policy_dip_197:0 "Mechanim Sailor Initiative"
- desc_beua_policy_dip_197:0 "We will establish a program to recruit and train mechanim sailors, enhancing our naval capabilities through the integration of technology and magic."
+ beua_policy_dip_197:0 "Mechanized Sailor Initiative"
+ desc_beua_policy_dip_197:0 "Equips our naval vessels with automated navigation and steam-assisted rigging, allowing us to maintain a significantly larger fleet by reducing the manpower required for vessel operation."
+ 
+ beua_policy_dip_198:0 "Edict of Arcane Recruitment"
+ desc_beua_policy_dip_198:0 "Integrates magocratic health protocols into state conscription to provide a massive boost to our total manpower availability."
 
- beua_policy_dip_198:0 "Detect Life"
- desc_beua_policy_dip_198:0 "We will develop and implement advanced magical techniques to detect and identify life forms, enhancing our reconnaissance and intelligence capabilities."
+ beua_policy_dip_199:0 "The Arcane Enlightenment Act"
+ desc_beua_policy_dip_199:0 "By prioritizing scientific reason and philosophical freedom over religious dogma, we foster an era of intellectual growth that facilitates the rapid development of new national ideas."
 
- beua_policy_dip_199:0 "Multifaceted Magic Decree"
- desc_beua_policy_dip_199:0 "We will implement a multifaceted approach to magic regulation, balancing innovation with safety and ethical considerations."
+ beua_policy_dip_200:0 "Edict of Exotic Bureaucracy"
+ desc_beua_policy_dip_200:0 "Integrates monstrous entities into the civil service framework, utilizing their unique lifespans and knowledge to reduce administrative decay and advisor salary costs."
 
- beua_policy_dip_200:0 "Tribal Law Declaration"
- desc_beua_policy_dip_200:0 "We will recognize and formalize the traditional laws and customs of tribal communities within our realm, ensuring their rights and autonomy while promoting integration into the broader society."
+ beua_policy_dip_201:0 "Edict of Universal Hospitality"
+ desc_beua_policy_dip_201:0 "Mandates state-funded celebrations that bridge the divide between mortal societies and our monstrous subjects, drastically improving internal and external diplomatic relations."
 
- beua_policy_dip_201:0 "State Funded Feasts"
- desc_beua_policy_dip_201:0 "We will establish a program to fund and promote feasts and celebrations within our realm, fostering a sense of community and cultural pride."
-
- beua_policy_dip_202:0 "Hero Exchange Program"
- desc_beua_policy_dip_202:0 "We will establish a program to facilitate the exchange of heroes and champions between nations, fostering goodwill and collaboration."
+ beua_policy_dip_202:0 "Diplomatic Hero Loan Act"
+ desc_beua_policy_dip_202:0 "We offer our most fearsome monstrous champions as honorary mercenaries to friendly powers, elevating our diplomatic reputation and securing vital manpower contracts."
 
  beua_policy_dip_203:0 "Weapons Dealing Decree"
  desc_beua_policy_dip_203:0 "We will establish regulations for the trade and distribution of weapons, ensuring that they are only supplied to trusted allies and legitimate military forces."
@@ -611,20 +611,20 @@
  beua_policy_dip_204:0 "Routine Court Purges"
  desc_beua_policy_dip_204:0 "We will implement routine purges of our courts to eliminate corruption and ensure the loyalty of our judges and officials."
 
- beua_policy_dip_205:0 "Tributary Levy Act"
- desc_beua_policy_dip_205:0 "We will implement a tributary levy system to ensure a steady flow of resources from our vassals and tributaries, strengthening our economy and military."
+ beua_policy_dip_205:0 "Monstrous Suzerainty Act"
+ desc_beua_policy_dip_205:0 "Positions monstrous overseers as provincial governors, enforcing a strict tribute of knowledge and manpower from our vassal states to bolster the central realm."
 
  beua_policy_dip_206:0 "Spy Toolkit Initiative"
  desc_beua_policy_dip_206:0 "We will develop and distribute specialized tools and equipment for our spies, enhancing their effectiveness and operational capabilities."
 
- beua_policy_dip_207:0 "Mile High Club"
- desc_beua_policy_dip_207:0 "We will establish a program to promote and support aerial exploration and travel, fostering innovation and collaboration in the skies."
+ beua_policy_dip_207:0 "Industrial Integration Act"
+ desc_beua_policy_dip_207:0 "By disseminating our advanced industrial standards and manufacturing techniques, we foster deep cultural ties with foreign neighbors, facilitating the integration of diverse populations into our sphere of influence."
 
  beua_policy_dip_208:0 "Industry Motivation Act"
  desc_beua_policy_dip_208:0 "We will implement policies to incentivize and support industrial growth, fostering innovation and economic development."
 
- beua_policy_dip_209:0 "Invisible Hand Act"
- desc_beua_policy_dip_209:0 "We will promote free market principles and reduce government intervention in the economy, allowing the invisible hand of the market to drive growth and innovation."
+ beua_policy_dip_209:0 "Merchant-Industrialist Union"
+ desc_beua_policy_dip_209:0 "Integrates our industrial output directly into our mercantile guilds, granting us a dominant commercial foothold across international trade nodes."
 
  beua_policy_dip_210:0 "Colonial Markets Initiative"
  desc_beua_policy_dip_210:0 "We will establish and promote colonial markets to enhance trade and economic integration between our colonies and the motherland."
@@ -632,26 +632,26 @@
  beua_policy_dip_211:0 "Naval Academy Foundation"
  desc_beua_policy_dip_211:0 "We will establish a naval academy to train and educate our naval officers, ensuring a skilled and capable navy."
 
- beua_policy_dip_212:0 "Navy Modernization Act"
- desc_beua_policy_dip_212:0 "We will implement a comprehensive modernization program for our navy, focusing on advanced technology, training, and infrastructure improvements."
+ beua_policy_dip_212:0 "Shipyard Standardisation Edict"
+ desc_beua_policy_dip_212:0 "By mass-producing naval parts and naval weaponry in state-controlled industrial complexes, we ensure our sailors possess superior equipment during naval engagements."
 
  beua_policy_dip_213:0 "Enforcement of Foreign Markets"
  desc_beua_policy_dip_213:0 "We will implement measures to enforce our trade agreements and protect our economic interests in foreign markets."
 
- beua_policy_dip_214:0 "Industrial Society Act"
- desc_beua_policy_dip_214:0 "We will promote the development of an industrial society, focusing on manufacturing, technology, and urbanization to drive economic growth."
-
+ beua_policy_dip_214:0 "Edict of Productive Society"
+ desc_beua_policy_dip_214:0 "By aligning urban social structures with manufacturing goals, we maximize the output of our workshops while ensuring a healthy, mobilized citizenry."
+ 
  beua_policy_dip_215:0 "Newspaper Proliferation Act"
- desc_beua_policy_dip_215:0 "We will promote the establishment and growth of newspapers and media outlets to ensure a well-informed populace and foster public discourse."
+ desc_beua_policy_dip_215:0 "We will promote the establishment and growth of newspapers and media outlets to ensure a well-informed populace and foster public discourse, effectively accelerating the spread of new ideas and institutional knowledge."
 
  beua_policy_dip_216:0 "Nationalization Act"
  desc_beua_policy_dip_216:0 "We will implement a nationalization act to bring key industries and resources under state control, ensuring that they serve the public good and contribute to the nation's prosperity."
 
- beua_policy_dip_217:0 "Communication Filter Initiative"
- desc_beua_policy_dip_217:0 "We will implement the Communication Filter Initiative to enhance the security and efficiency of our diplomatic communications, ensuring that sensitive information is protected and only accessible to authorized personnel."
+ beua_policy_dip_217:0 "The Artificer Exchange Pact"
+ desc_beua_policy_dip_217:0 "We leverage our nation's technological marvels to secure favorable diplomatic standing, while our guilds accelerate their research to maintain our prestige as the world's leading artificers."
 
- beua_policy_dip_218:0 "Crystal Ball Act"
- desc_beua_policy_dip_218:0 "We will implement the Crystal Ball Act to enhance our predictive capabilities in diplomacy, allowing us to anticipate and respond to international developments more effectively."
+ beua_policy_dip_218:0 "Edict of Perpetual Oversight"
+ desc_beua_policy_dip_218:0 "Leverages our artificer-crafted surveillance technology to monitor distant realms, enforcing loyalty through superior predictive insight and immediate administrative response."
 
  beua_policy_dip_219:0 "Aggressive Negotiations Act"
  desc_beua_policy_dip_219:0 "We will adopt a more aggressive stance in our diplomatic negotiations, using both incentives and threats to achieve our goals."
@@ -659,20 +659,20 @@
  beua_policy_dip_220:0 "Imperial Cities Act"
  desc_beua_policy_dip_220:0 "We will promote the development and growth of our imperial cities, enhancing their infrastructure, economy, and cultural significance within the empire."
 
- beua_policy_dip_221:0 "Anbennarian Aelantir Initiative"
- desc_beua_policy_dip_221:0 "We will establish the Anbennarian Aelantir Initiative to promote cultural exchange and collaboration between our empire and the Aelantir region, fostering goodwill and mutual understanding."
+ beua_policy_dip_221:0 "The Aelantir Colonial Initiative"
+ desc_beua_policy_dip_221:0 "By prioritizing the colonization of the Aelantir frontier through state-sponsored migration, we establish a permanent cultural and administrative bridge to these distant lands."
 
- beua_policy_dip_222:0 "Anbennarian Law Directive"
- desc_beua_policy_dip_222:0 "We will implement the Anbennarian Law Directive to strengthen our legal framework and ensure the protection of individual rights and freedoms within our empire."
+ beua_policy_dip_222:0 "Imperial Codification Act"
+ desc_beua_policy_dip_222:0 "By formalizing our imperial decrees into a comprehensive legal framework, we consolidate our rule and ensure the stability and obedience of our subjects under the law."
 
  beua_policy_dip_223:0 "Magister Diplomat Act"
  desc_beua_policy_dip_223:0 "We will implement the Magister Diplomat Act to enhance the training and education of our diplomatic corps, ensuring they are well-equipped to navigate the complexities of international relations."
 
- beua_policy_dip_224:0 "Esmaria Decree"
- desc_beua_policy_dip_224:0 "We will implement the Esmaria Decree to promote the development of aerial transportation and communication systems, enhancing our empire's relations."
+ beua_policy_dip_224:0 "Edict of Administrative Tolerance"
+ desc_beua_policy_dip_224:0 "Our civil servants are trained to respect and integrate local customs into our imperial administration, allowing for greater cultural acceptance and enhanced diplomatic standing."
 
  beua_policy_dip_225:0 "Shepherd Act"
  desc_beua_policy_dip_225:0 "We will implement the Shepherd Act to promote the welfare and rights of pastoral communities within our empire, ensuring their voices are heard and their needs are met."
 
- beua_policy_dip_226:0 "Imperial Levy Act"
- desc_beua_policy_dip_226:0 "We will implement the Imperial Levy Act to establish a system of conscription and military service, ensuring that our empire can effectively respond to external threats and maintain a strong defense."
+ beua_policy_dip_226:0 "Statute of Delegated Sovereignty"
+ desc_beua_policy_dip_226:0 "Empowers local client states to handle their own affairs while mandating that their martial strength serves the greater glory of the Empire."

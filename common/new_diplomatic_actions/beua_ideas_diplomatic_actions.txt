@@ -1,3 +1,155 @@
+########################################################
+####### Force Government Change          		 #######
+########################################################
+beua_force_government_change = {
+	category = influence
+
+	require_acceptance = no
+
+	is_visible = {
+		has_idea = respected_authority
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_other_than_tributary_trigger = yes
+			OR = {
+				NOT = { dynasty = ROOT }
+				NOT = { culture_group = ROOT }
+				NOT = { religion = ROOT }
+				NOT = { government = ROOT }
+			}
+		}
+	}
+
+	is_allowed = {
+		if = {
+			limit = { 
+				FROM = { liberty_desire = 50 } 
+			}
+			custom_trigger_tooltip = {
+				tooltip = beua_force_government_change_is_rebellious
+				FROM = { NOT = { liberty_desire = 50 } }
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = beua_political_intervention_strain
+			}
+			custom_trigger_tooltip = {
+				tooltip = beua_force_government_change_cooldown
+				NOT = { has_country_modifier = beua_political_intervention_strain }
+			}
+		}
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_other_than_tributary_trigger = yes
+			OR = {
+				NOT = { dynasty = ROOT }
+				NOT = { culture_group = ROOT }
+				NOT = { religion = ROOT }
+				NOT = { government = ROOT }
+			}
+		}
+	}
+
+	on_accept = {
+		add_country_modifier = {
+			name = beua_political_intervention_strain
+			duration = 9125
+		}
+
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						government = monarchy
+					}
+				}
+			}
+			add_mil_power = -250
+
+			FROM = {
+				add_liberty_desire = 25
+				change_government = monarchy
+			}
+		}
+
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						culture_group = ROOT
+					}
+				}
+			}
+			add_dip_power = -250
+
+			FROM = {
+				add_liberty_desire = 25
+				change_primary_culture = ROOT
+
+				capital_scope = {
+					change_culture = ROOT
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						religion = ROOT
+					}
+				}
+			}
+			add_adm_power = -250
+
+			FROM = {
+				add_liberty_desire = 25
+				change_religion = ROOT
+
+				capital_scope = {
+					change_religion = ROOT
+					FROM = { NOT = { religion = ROOT } }
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						dynasty = ROOT
+					}
+				}
+			}
+			add_adm_power = -75
+			add_dip_power = -75
+			add_mil_power = -75
+
+			FROM = {
+				add_liberty_desire = 25
+				define_ruler = {
+					dynasty = ROOT
+					culture = ROOT
+					religion = ROOT
+					min_age = 20
+					max_age = 40
+				}
+				define_heir = {
+					dynasty = ROOT
+					culture = ROOT
+					religion = ROOT
+					min_age = 0
+					max_age = 15
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		always = no
+	}
+}
 
 ########################################################
 ####### Subject Appanage           				 #######
@@ -13,6 +165,7 @@ beua_appanage_promote_heir = {
 		has_idea = court_embassies
 		has_government_attribute = heir
 		FROM = {
+			dynasty = ROOT
 			is_subject_of = ROOT
 			is_subject_of_type = beua_appanage
 			has_government_attribute = heir
@@ -24,7 +177,7 @@ beua_appanage_promote_heir = {
 				FROM = { liberty_desire = 50 }
 			}
 			custom_trigger_tooltip = {
-				tooltip = FROM_IS_REBELLIOUS_TT
+				tooltip = beua_appanage_promote_heir_from_is_rebellious
 				FROM = { liberty_desire = 50 }
 			}
 		}
@@ -33,7 +186,7 @@ beua_appanage_promote_heir = {
 				has_heir = yes
 			}
 			custom_trigger_tooltip = {
-				tooltip = ROOT_HAS_HEIR_TT
+				tooltip = beua_appanage_promote_heir_root_has_heir
 				has_heir = no
 			}
 		}
@@ -42,7 +195,7 @@ beua_appanage_promote_heir = {
 				FROM = { has_heir = no }
 			}
 			custom_trigger_tooltip = {
-				tooltip = FROM_HAS_NO_HEIR_TT
+				tooltip = beua_appanage_promote_heir_from_has_no_heir
 				FROM = { has_heir = YES }
 			}
 		}
@@ -82,14 +235,14 @@ beua_appanage_create = {
 		if = {
 			limit = { FROM = { liberty_desire = 25 } }
 			custom_trigger_tooltip = {
-				tooltip = beua_appanage_too_much_liberty_desire
+				tooltip = beua_appanage_create_too_much_liberty_desire
 				FROM = { NOT = { liberty_desire = 25 } }
 			}
 		}
 		if = {
 			limit = { FROM = { NOT = { government = monarchy } } }
 			custom_trigger_tooltip = {
-				tooltip = FROM_IS_NOT_MONARCHY
+				tooltip = beua_appanage_create_from_is_not_monarchy
 				FROM = { government = monarchy }
 			}
 		}
@@ -101,7 +254,7 @@ beua_appanage_create = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = FROM_IS_NOT_VASSAL_OF_ROOT
+				tooltip = beua_appanage_create_from_is_not_vassal_of_root
 				FROM = {
 					OR = {
 						is_subject_of_type = vassal
@@ -113,7 +266,7 @@ beua_appanage_create = {
 		if = {
 			limit = { FROM = { NOT = { dynasty = ROOT } } }
 			custom_trigger_tooltip = {
-				tooltip = beua_appanage_not_same_dynasty
+				tooltip = beua_appanage_create_not_same_dynasty
 				FROM = { dynasty = ROOT }
 			}
 		}
@@ -283,7 +436,7 @@ beua_dominion_create = {
 		if = {
 			limit = { FROM = { liberty_desire = 25 } }
 			custom_trigger_tooltip = {
-				tooltip = create_dominion_from_vassal_too_much_liberty_desire
+				tooltip = beua_dominion_create_too_much_liberty_desire
 				FROM = { NOT = { liberty_desire = 25 } }
 			}
 		}

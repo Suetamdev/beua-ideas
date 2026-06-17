@@ -1,9 +1,21 @@
 ﻿l_english:
+ #
+ beua_force_government_change:0 "Force Government Change"
+ beua_force_government_change_title:0 "Force Government Change"
+ beua_force_government_change_tooltip:0 "Forcefully replace the subject's current ruling dynasty, primary culture, state religion, or government form to match our own, securing total political and cultural alignment."
+ beua_force_government_change_desc:0 "Directly intervene in our subject's internal affairs to enforce absolute systemic alignment.\n\n§RThis action will trigger an international backlash, giving us '-0.5 Diplomatic Reputation' for 25 years.§!\n§WThis action can only be used once every §Y25 years§!.§!\n\n§YIf they are not a Monarchy:§!\n- Government changes to §YMonarchy§!.\n- We lose §R-250§! Military Power.\n- Subject gains §R+25%§! Liberty Desire and a negative opinion modifier.\n\n§YIf they have a different Culture Group:§!\n- Primary and Capital culture changes to §Your Culture§!.\n- We lose §R-250§! Diplomatic Power.\n- Subject gains §R+25%§! Liberty Desire and a negative opinion modifier.\n\n§YIf they practice a different Religion:§!\n- State and Capital religion changes to §Your Religion§!.\n- We lose §R-250§! Administrative Power.\n- Subject gains §R+25%§! Liberty Desire and a negative opinion modifier.\n\n§YIf they do not share our Dynasty:§!\n- New Ruler and Heir of §Your Dynasty, Culture, and Religion§!.\n- We lose §R-75§! ADM, DIP, and MIL Power.\n- Subject gains §R+25%§! Liberty Desire and a negative opinion modifier."
+ beua_force_government_change_is_rebellious:0 "§R- §Y[From.GetName]§! has over §Y50%§! Liberty Desire.§!"
+ beua_force_government_change_cooldown:0 "Our diplomatic apparatus has overseen a massive systemic restructuring too recently. We must wait 25 years before forcing alignment again another country."
+
  # Appanage Create
  beua_appanage_create:0 "Land an Appanage"
  beua_appanage_create_title:0 "Lannd an Appanage"
  beua_appanage_create_desc:0 "Are you sure you want to land an Appanage in §Y[From.GetName]§!?\n\n§YReformed Appanages§! represent a modernized feudal contract where the crown provides for its cadet branches in exchange for unwavering military service. \n\nUnlike standard vassals, these 'Brother Kingdoms' are exceptionally loyal to their kin, gaining §G-30.0%§! Liberty Desire if ruled by the same dynasty. They are designed to be powerful march-like states that contribute significantly to our power.\n\n§YBenefits for the Overlord:§!\nEach Appanage increases §GAll Estate Loyalty Equilibrium§! by §G+2.5%§!.\n\n§YMilitary Service:§!\nAppanages maintain their own sovereign interests and §Rdo not join our wars by default§!. Calling them to arms requires the expenditure of §Y5 Favors§!.\n\n§YBenefits for the Subject:§!\n§G+0.5§! Yearly Legitimacy\n§G+10.0%§! Land Forcelimit Modifier\n§G+10.0%§! Naval Forcelimit Modifier\n\n§YAdministrative Burdens:§!\nDue to their high autonomy and sovereign privileges, they suffer:\n§R-6.0§! Global Tax Income\n§R+15.0%§! Development Cost"
  beua_appanage_create_tooltip:0 "We will formally grant the title of §YAppanage§! to the current ruler, establishing them as a recognized §YCadet Branch§! of our house. As kin, they will be significantly more loyal, provided our dynasty remains on their throne."
+ beua_appanage_create_too_much_liberty_desire:0 "§R- Liberty Desire of §Y[From.GetName]§! is above §Y25§!.§!"
+ beua_appanage_create_from_is_not_monarchy:0 "§R- §Y[From.GetName]§! is NOT a §YMonarchy§!.§!"
+ beua_appanage_create_from_is_not_vassal_of_root:0 "§R- §Y[From.GetName]§! is not a §YVassal§! of §Y[Root.GetName]§!.§!"
+ beua_appanage_create_not_same_dynasty:0 "§R- The ruler of §Y[From.GetName]§! is not of our Dynasty. Only our own kin can be granted a Appanage.§!"
 
  # Appanage Release
  beua_appanage_release:0 "Dissolve the Appanage"
@@ -16,6 +28,9 @@
  beua_appanage_promote_heir_title:0 "Appoint Crown Prince"
  beua_appanage_promote_heir_desc:0 "Do you wish to appoint §Y[From.Heir.GetName]§!, heir to our appanage of §Y[From.GetName]§!, to the [From.GetCrownPrincePrincess] of the §Y[Root.GetAdjective]§! throne?"
  beua_appanage_promote_heir_tooltip:0 "Appoint an heir from our appanage subject and turn them into an heir to our throne."
+ beua_appanage_promote_heir_from_is_rebellious:0 "§R- §Y[From.GetName]§! has over §Y50%§! Liberty Desire.§!"
+ beua_appanage_promote_heir_root_has_heir:0 "§R- §Y[Root.GetName]§! has already an heir.§!"
+ beua_appanage_promote_heir_from_has_no_heir:0 "§R- §Y[From.GetName]§! has no heir.§!"
 
  # Appanage Grant War Rights
  beua_appanage_grant_war_rights:0 "Grant War Rights"

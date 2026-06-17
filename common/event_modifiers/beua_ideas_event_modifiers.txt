@@ -114,6 +114,15 @@ beua_subterranean_bastion = {
 }
 
 ########################################################
+####### Marine Regiments		    			 #######
+########################################################
+beua_amphibious_boarding_gear = {
+	is_marine_modifier = yes
+
+	discipline = 0.05
+}
+
+########################################################
 ####### Artificer Regiments		    			 #######
 ########################################################
 beua_artificer_bionic_implants = {
