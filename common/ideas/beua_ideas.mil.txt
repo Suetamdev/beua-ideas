@@ -20,31 +20,33 @@ beua_strategic_ideas = {
 	}
 	
 	beua_strategic_idea_1 = {
-		ae_impact = 0.1
-		siege_ability = 0.20
+		movement_speed = 0.05
+		siege_ability = 0.15
 	}
 	beua_strategic_idea_2 = {
-		global_supply_limit_modifier = 1
-		land_attrition = -0.35
+		global_supply_limit_modifier = 0.1
+		land_attrition = -0.15
 	}
 	beua_strategic_idea_3 = {
-        cavalry_power = 0.025
-    	infantry_power = 0.025
-    	artillery_power = 0.025
+        cavalry_power = 0.05
+    	infantry_power = 0.05
+    	artillery_power = 0.05
+		land_maintenance_modifier = 0.05
 	}
 	beua_strategic_idea_4 = {
-		reinforce_speed = 0.15
+		reinforce_speed = 0.25
 	}
 	beua_strategic_idea_5 = {
-		province_warscore_cost = -0.1
-		global_regiment_recruit_speed = 0.33
+		land_attrition = -0.1
+		manpower_recovery_speed = 0.1
 	}
 	beua_strategic_idea_6 = {
 		defensiveness = 0.15
+		garrison_size = 0.1
 	}
 	beua_strategic_idea_7 = {
 		land_forcelimit_modifier = 0.15
-        diplomatic_reputation = 0.5
+        diplomatic_reputation = 1
 	}
 	
 	ai_will_do = {
@@ -84,7 +86,7 @@ beua_serpentspine_ideas = {
 	category = MIL
 
 	bonus = {
-		great_project_upgrade_cost = -0.25
+		monthly_gold_inflation_modifier = -0.25
 		administrative_efficiency = 0.05
 	}
 
@@ -106,6 +108,7 @@ beua_serpentspine_ideas = {
 		#Fort level +1 and 15% Local Garrison Size in Serpentspine Region with provinces developed that have 15 or more development
 	}
 	beua_serpentspine_idea_2 = {
+		great_project_upgrade_cost = -0.15
 		build_time = -0.1
 	}
 	beua_serpentspine_idea_3 = {
@@ -116,14 +119,14 @@ beua_serpentspine_ideas = {
 		garrison_damage = 0.1
 	}
 	beua_serpentspine_idea_5 = {
-		shock_damage_received = -0.1
+		shock_damage_received = -0.05
 	}
 	beua_serpentspine_idea_6 = {
-		backrow_artillery_damage = 0.1
-		reinforce_speed = -0.25
+		backrow_artillery_damage = 0.15
+		reinforce_speed = -0.1
 	}
 	beua_serpentspine_idea_7 = {
-		army_tradition = 0.025
+		army_tradition = 0.1
 		# add_cb = cb_beua_serpentspine_reclamation
 	}
 
@@ -165,29 +168,29 @@ beua_legionary_ideas = {
 	
 	beua_legionary_idea_1 = {
 		shock_damage_received = -0.05
-		reserves_organisation = -0.20
+		land_morale = 0.05
 	}
 	beua_legionary_idea_2 = {
 		infantry_cost = -0.15
 	}
 	beua_legionary_idea_3 = {
 		army_tradition_decay = -0.005
-		global_missionary_strength = 0.05
+		global_missionary_strength = 0.03
 	}
 	beua_legionary_idea_4 = {
 		manpower_recovery_speed = 0.15
 		#gain manpower from converting land
 	}
 	beua_legionary_idea_5 = {
-		vassal_forcelimit_bonus = 0.50
+		vassal_forcelimit_bonus = 0.25
 		infantry_power = 0.1
 	}
 	beua_legionary_idea_6 = {
-		shock_damage = 0.15
+		shock_damage = 0.1
 	}
 	beua_legionary_idea_7 = {
 		liberty_desire_from_subject_development = -0.20
-		global_regiment_cost = 0.10
+		global_regiment_cost = 0.05
 	}
 
 	ai_will_do = {
@@ -211,12 +214,12 @@ beua_general_staff_ideas = {
 	category = MIL
 
 	bonus = {
-		free_leader_pool = 2
+		free_leader_pool = 3
 	}
 		
 	beua_general_staff_1 = {
-		leader_cost = 0.50
-		army_tradition = 0.75
+		leader_cost = 0.25
+		army_tradition = 0.5
 	}
 	beua_general_staff_2 = {
 		max_general_fire = 1
@@ -230,7 +233,7 @@ beua_general_staff_ideas = {
 		leader_naval_shock = 1
 	}
 	beua_general_staff_5 = {
-		army_tradition_decay = -0.0075
+		army_tradition_decay = -0.01
 	}
 	beua_general_staff_6 = {
 		max_general_siege = 1
@@ -265,7 +268,7 @@ beua_standing_army_ideas = {
 	
 	beua_standing_army_1 = {
 		drill_gain_modifier = 0.5
-		manpower_recovery_speed = -0.2
+		manpower_recovery_speed = -0.15
 	}
 	beua_standing_army_2 = {
 		infantry_shock = 0.15
@@ -276,13 +279,13 @@ beua_standing_army_ideas = {
 		shock_damage = 0.05
 	}
 	beua_standing_army_4 = {
-		artillery_fire = 0.2
+		artillery_fire = 0.15
 		fire_damage = 0.05
 	}
 	beua_standing_army_5 = {
 		capped_by_forcelimit = yes	 
-		special_unit_forcelimit = 0.2
-		drill_decay_modifier = -0.20
+		special_unit_forcelimit = 0.15
+		drill_decay_modifier = -0.15
 	}
 	beua_standing_army_6 = {
 		siege_ability = 0.1
@@ -317,7 +320,7 @@ beua_conscription_ideas = {
 
 	bonus = {
 		regiment_manpower_usage = -0.15
-		movement_speed = -0.15
+		movement_speed = -0.05
 	}
 		
 	trigger = {
@@ -327,28 +330,31 @@ beua_conscription_ideas = {
 	}
 	
 	beua_conscription_idea_1 = {
-		max_absolutism = -10
+		reinforce_speed = 0.1
 		land_attrition = -0.15
 	}
 	beua_conscription_idea_2 = {
-		manpower_recovery_speed = 0.25
+		manpower_recovery_speed = 0.15
+		sailors_recovery_speed = 0.1
 	}
 	beua_conscription_idea_3 = {
 		global_manpower_modifier = 0.15
-		reserves_organisation = 0.20
+		global_sailors_modifier = 0.1
 	}
 	beua_conscription_idea_4 = {
-		fort_maintenance_modifier = -0.2
+		fort_maintenance_modifier = -0.15
+		build_cost = -0.05
 	}
 	beua_conscription_idea_5 = {
-		land_morale_constant = 0.5
-		drill_decay_modifier = 0.33
+		land_morale = 0.05
+		drill_decay_modifier = -0.10
 	}
 	beua_conscription_idea_6 = {
 		morale_damage_received = -0.05
 	}
 	beua_conscription_idea_7 = {
-		land_forcelimit_modifier  = 0.15
+		land_forcelimit_modifier = 0.1
+		naval_forcelimit_modifier = 0.05
 		reinforce_speed = 0.15
 	}
 	
@@ -369,21 +375,20 @@ beua_weapon_quality_ideas = {
 	}
 		
 	beua_weapon_quality_idea_1 = {
-		reinforce_speed = -0.20
+		reinforce_speed = -0.15
 		mil_tech_cost_modifier = -0.1
 	}
 	beua_weapon_quality_idea_2 = {
-		reserves_organisation = 0.20
+		reserves_organisation = 0.25
 	}
 	beua_weapon_quality_idea_3 = {
 		yearly_army_professionalism = 0.0025	
 	}
 	beua_weapon_quality_idea_4 = {
-		infantry_power = 0.05
+		infantry_power = 0.1
 	}
 	beua_weapon_quality_idea_5 = {
-		cavalry_power = 0.05
-		reinforce_cost_modifier = 0.20
+		cavalry_power = 0.1
 	}
 	beua_weapon_quality_idea_6 = {
 		backrow_artillery_damage = 0.1
@@ -405,25 +410,26 @@ beua_fortress_ideas = {
 	category = MIL
 
 	bonus = {
-		garrison_size = 0.75
+		garrison_size = 0.5
+		max_hostile_attrition = 1
 	}
 	
 	beua_fortress_idea_1 = {
-		global_garrison_growth = 1
+		global_garrison_growth = 0.25
 		defensiveness = 0.1
 	}
 	beua_fortress_idea_2 = {
 		fort_maintenance_modifier = -0.25
 	}
 	beua_fortress_idea_3 = {
-		shock_damage_received = -0.075
+		shock_damage_received = -0.05
 	}
 	beua_fortress_idea_4 = {
-		fire_damage_received = -0.075
+		fire_damage_received = -0.05
 	}
 	beua_fortress_idea_5 = {
 		hostile_attrition = 1
-		max_hostile_attrition = 2
+		max_hostile_attrition = 1
 	}
 	beua_fortress_idea_6 = {
 		artillery_power = 0.1
@@ -431,7 +437,7 @@ beua_fortress_ideas = {
 	}
 	beua_fortress_idea_7 = {
 		defensiveness = 0.2
-		garrison_damage = 0.15
+		garrison_damage = 0.25
 	}
 	
 	ai_will_do = {
@@ -464,7 +470,7 @@ beua_militarism_ideas = {
 	}
 	beua_militarism_idea_2 = {
 		free_leader_pool = 1
-		army_tradition_decay = -0.005
+		army_tradition_decay = -0.01
 	}
 	beua_militarism_idea_3 = {
 		global_manpower_modifier = 0.1
@@ -472,7 +478,7 @@ beua_militarism_ideas = {
 	}
 	beua_militarism_idea_4 = {
 		leader_land_shock = 1
-		army_tradition_from_battle = 0.5
+		army_tradition_from_battle = 0.25
 	}
 	beua_militarism_idea_5 = {
 		global_garrison_growth = 0.25
@@ -480,7 +486,7 @@ beua_militarism_ideas = {
 	}
 	beua_militarism_idea_6 = {
 		land_forcelimit_modifier = 0.15
-		shock_damage = 0.1
+		fire_damage = 0.05
 	}
 	beua_militarism_idea_7 = {
 		#Grants +1.5% shock damage for every cored mage tower
@@ -500,8 +506,8 @@ beua_artificery_ideas = {
 	category = MIL
 
 	bonus = {
-		free_leader_pool = 1
 		artificers_loyalty_modifier = 0.1	#Anbennar
+		artificers_invention_slots = 1
 		tec_brilliance_influence = 0.05
 	}
 
@@ -510,8 +516,10 @@ beua_artificery_ideas = {
 	}
 
 	beua_artificery_idea_1 = {
-		mil_tech_cost_modifier = -0.1
+		mil_tech_cost_modifier = -0.05
+		innovativeness_gain = 0.25
 	}
+
 	beua_artificery_idea_2 = {
 		#Discipline = 0.05 on artificer regiments
 		effect = {
@@ -525,10 +533,10 @@ beua_artificery_ideas = {
 				remove_country_modifier = beua_artificer_bionic_implants
 			}
 		}
-		manpower_recovery_speed = -0.1
+		manpower_recovery_speed = -0.15
 	}
 	beua_artificery_idea_3 = {
-		#Drill decay and attrition -15% on artificer regiments
+		#Drill decay and Attrition -15% on artificer regiments
 		effect = {
 			add_country_modifier = { 
 				name = beua_artificer_emergency_exit
@@ -540,10 +548,10 @@ beua_artificery_ideas = {
 				remove_country_modifier = beua_artificer_emergency_exit
 			}
 		}
-		drill_decay_modifier = -0.01
+		drill_decay_modifier = -0.05
 	}
 	beua_artificery_idea_4 = {
-		#fire_damage_received = -0.1 and shock_damage_received = -0.1 on artificer regiments
+		#Fire damage received = -0.1 and shock_damage_received = -0.05 on artificer regiments
 		effect = {
 			add_country_modifier = { 
 				name = beua_artificer_smart_armor
@@ -555,13 +563,13 @@ beua_artificery_ideas = {
 				remove_country_modifier = beua_artificer_smart_armor
 			}
 		}
-		fire_damage_received = -0.005
+		shock_damage_received = -0.05
 	}
 	beua_artificery_idea_5 = {
 		artificers_capacity = 10
 	}
 	beua_artificery_idea_6 = {
-		#infantry_shock = 0.15 on artificer regiments
+		#infantry_fire = 0.15 on artificer regiments
 		effect = {
 			add_country_modifier = { 
 				name = beua_artificer_evocation_drones
@@ -573,10 +581,10 @@ beua_artificery_ideas = {
 				remove_country_modifier = beua_artificer_evocation_drones
 			}
 		}
-		shock_damage = 0.05
+		fire_damage = 0.05
 	}
 	beua_artificery_idea_7 = {
-		artificers_invention_slots = 1
+		development_cost = -0.05
 		artificers_research_time = -0.25
 	}
 
@@ -604,27 +612,27 @@ beua_war_production_ideas = {
 	category = MIL
 
 	bonus = {
-		land_morale = 0.075
+		land_morale = 0.1
 	}
 	trigger = {
 		mil_tech = 11
 	}
 	
 	beua_war_production_idea_1 = {
-		infantry_cost = -0.15
+		infantry_cost = -0.2
 		army_tradition = -0.5
 	}
 	beua_war_production_idea_2 = {
-		cavalry_cost = -0.15
-		artillery_cost = -0.15
+		cavalry_cost = -0.1
+		artillery_cost = -0.1
 	}
 	beua_war_production_idea_3 = {
 		build_time = -0.15
-		build_cost = -0.1
+		build_cost = -0.05
 	}
 	beua_war_production_idea_4 = {
-		hull_size_modifier = 0.1
-		allowed_marine_fraction = 0.2
+		global_supply_limit_modifier = 0.1
+		land_attrition = -0.1
 	}
 	beua_war_production_idea_5 = {
 		fire_damage = 0.1
@@ -632,7 +640,7 @@ beua_war_production_ideas = {
 	}
 	beua_war_production_idea_6 = {
 		global_trade_goods_size_modifier = 0.1
-		war_exhaustion_cost = 0.30
+		war_exhaustion_cost = 0.25
 	}
 	beua_war_production_idea_7 = {
 		naval_forcelimit_modifier = 0.15
@@ -668,33 +676,35 @@ beua_shock_ideas = {
 	bonus = {
 		cavalry_shock = 0.3
 		infantry_shock = 0.3
-		cavalry_fire = -0.10
-		infantry_fire = -0.10
+		artillery_shock = 0.3
+		cavalry_fire = -0.15
+		infantry_fire = -0.15
+		artillery_fire = -0.15
 	}
 		
 	beua_shock_idea_1 = {
-		morale_damage_received = -0.1
-	}
-	beua_shock_idea_2 = {
-		reserves_organisation = 0.15
 		fire_damage_received = -0.1
 	}
+	beua_shock_idea_2 = {
+		morale_damage = 0.05
+	}
 	beua_shock_idea_3 = {
-		cav_to_inf_ratio = 0.1
-		infantry_cost = -0.15
+		movement_speed = 0.1
+		cavalry_cost = -0.05
 	}
 	beua_shock_idea_4 = {
-		shock_damage = 0.1
-		fire_damage = -0.15
+		shock_damage = 0.15
+		fire_damage = -0.05
 	}
 	beua_shock_idea_5 = {
-		reinforce_speed = 0.15
+		cavalry_power = 0.1
 	}
 	beua_shock_idea_6 = {
-		cavalry_power = 0.10
-		infantry_power = 0.10
+		cavalry_flanking = 0.25
+		cav_to_inf_ratio = 0.1
 	}
 	beua_shock_idea_7 = {
+		max_general_shock = 1
 		leader_land_shock = 1
 	}
 	
@@ -744,34 +754,37 @@ beua_fire_ideas = {
 	}
 	
 	bonus = {
-		infantry_fire = 0.15
-		artillery_fire = 0.10
-		cavalry_fire = 0.6
-		infantry_shock = -0.1
-		cavalry_shock = -0.3
+		infantry_fire = 0.3
+		cavalry_fire = 0.3
+		artillery_fire = 0.3
+		infantry_shock = -0.15
+		cavalry_shock = -0.15
+		artillery_shock = -0.15
 	}
 	
 	beua_fire_idea_1 = {
-		army_tradition_decay = -0.005
+		shock_damage_received = -0.1
 	}
 	beua_fire_idea_2 = {
-		artillery_levels_available_vs_fort = 3
-		infantry_power = 0.05
+		morale_damage_received = -0.05
 	}
 	beua_fire_idea_3 = {
-		artillery_cost = -0.15
+		defensiveness = 0.15
+		infantry_cost = -0.05
 	}
 	beua_fire_idea_4 = {
-		fire_damage = 0.1
-		shock_damage = -0.15
+		fire_damage = 0.15
+		shock_damage = -0.05
 	}
 	beua_fire_idea_5 = {
-		defensiveness = 0.15
+		infantry_power = 0.1
 	}
 	beua_fire_idea_6 = {
+		artillery_power = 0.05
 		backrow_artillery_damage = 0.05
 	}
 	beua_fire_idea_7 = {
+		max_general_fire = 1
 		leader_land_fire = 1
 	}
 	

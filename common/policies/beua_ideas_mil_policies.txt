@@ -17,7 +17,7 @@ beua_policy_mil_1 = {
 		}	
 	}
 	
-	land_morale = 0.06
+	land_morale = 0.05
 	siege_ability = 0.05
 
 	ai_will_do = {
@@ -48,7 +48,8 @@ beua_policy_mil_2 = {
 		}	
 	}
 
-	land_morale = 0.08
+	land_morale = 0.1
+	global_missionary_strength = 0.01
 	
 	ai_will_do = {
 		factor = 1.2
@@ -92,7 +93,7 @@ beua_policy_mil_4 = {
 		full_idea_group = beua_war_production_ideas
 	}
 	
-	fire_damage = 0.08
+	fire_damage = 0.1
 	
 	ai_will_do = {
 		factor = 5
@@ -186,7 +187,7 @@ beua_policy_mil_7 = {
 		full_idea_group = offensive_ideas
 	}
 	
-	land_morale = 0.08
+	land_morale = 0.1
 	
 	ai_will_do = {
 		factor = 5
@@ -238,7 +239,7 @@ beua_policy_mil_9 = {
 		full_idea_group = beua_conscription_ideas
 	}
 	
-	global_manpower = 5
+	global_manpower = 10000
 	
 	ai_will_do = {
 		factor = 1
@@ -380,7 +381,6 @@ beua_policy_mil_13 = {
 	
 	leader_naval_fire = 1
 	leader_naval_shock = 1
-	navy_tradition_decay = 0.003
 	
 	ai_will_do = {
 		factor = 1
@@ -408,8 +408,8 @@ beua_policy_mil_14 = {
 		full_idea_group = beua_general_staff_ideas
 	}
 	
-
 	leader_naval_manuever = 1
+	leader_naval_fire = 1 
 	
 	ai_will_do = {
 		factor = 5
@@ -434,8 +434,6 @@ beua_policy_mil_15 = {
 	}
 	
 	leader_land_shock = 1
-	leader_land_fire = 1
-	army_tradition_decay = 0.004
 	
 	ai_will_do = {
 		factor = 1
@@ -455,7 +453,8 @@ beua_policy_mil_16 = {
 		full_idea_group = beua_conscription_ideas
 	}
 	
-	global_manpower_modifier = 0.25
+	land_attrition = -0.1
+	war_exhaustion = -0.05
 	
 	ai_will_do = {
 		factor = 5
@@ -479,8 +478,8 @@ beua_policy_mil_17 = {
 		full_idea_group = beua_war_production_ideas
 	}
 	
+	global_trade_goods_size_modifier = 0.1
 	production_efficiency = 0.1
-	global_trade_goods_size_modifier = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -526,7 +525,7 @@ beua_policy_mil_18 = {
 		}
 	}
 	
-	mercenary_manpower = 1.0
+	mercenary_manpower = 0.3
 	
 	ai_will_do = {
 		factor = 1
@@ -595,9 +594,9 @@ beua_policy_mil_20 = {
 		full_idea_group = beua_society_ideas
 	}
 	
-	infantry_power = 0.035
-	cavalry_power = 0.035
-	artillery_power = 0.035
+	infantry_power = 0.05
+	cavalry_power = 0.05
+	artillery_power = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -625,9 +624,9 @@ beua_policy_mil_21 = {
 		full_idea_group = administrative_ideas
 	}
 	
-	infantry_power = 0.035
-	cavalry_power = 0.035
-	artillery_power = 0.035
+	infantry_power = 0.05
+	cavalry_power = 0.05
+	artillery_power = 0.05
 	
 	ai_will_do = {
 		factor = 10
@@ -647,9 +646,9 @@ beua_policy_mil_22 = {
 		full_idea_group = economic_ideas
 	}
 	
-	land_maintenance_modifier = -0.035
+	land_maintenance_modifier = -0.05
 	naval_maintenance_modifier = -0.05
-	production_efficiency = 0.075
+	production_efficiency = 0.01
 	
 	ai_will_do = {
 		factor = 1
@@ -748,7 +747,7 @@ beua_policy_mil_24 = {
 		full_idea_group = beua_nationalism_ideas
 	}
 	
-	land_morale = 0.08
+	land_morale = 0.1
 	
 	ai_will_do = {
 		factor = 5
@@ -778,8 +777,8 @@ beua_policy_mil_25 = {
 		}
 	}
 	
-	infantry_power = 0.065
-	land_morale = 0.06
+	infantry_power = 0.05
+	land_morale = 0.05
 	
 	ai_will_do = {
 		factor = 5
@@ -823,9 +822,9 @@ beua_policy_mil_27 = {
 		full_idea_group = economic_ideas
 	}
 	
-	infantry_power = 0.035
-	cavalry_power = 0.035
-	artillery_power = 0.035
+	infantry_power = 0.05
+	cavalry_power = 0.05
+	artillery_power = 0.05
 	
 	ai_will_do = {
 		factor = 10
@@ -845,7 +844,7 @@ beua_policy_mil_28 = {
 		full_idea_group = trade_ideas 
 	}
 	
-	land_morale = 0.08
+	land_morale = 0.1
 	
 	ai_will_do = {
 		factor = 5
@@ -869,7 +868,8 @@ beua_policy_mil_29 = {
 		full_idea_group = administrative_ideas
 	}
 	
-	fire_damage_received = -0.04	
+	defensiveness = 0.15
+	fort_maintenance_modifier = -0.2	
 	
 	ai_will_do = {
 		factor = 1
@@ -900,7 +900,7 @@ beua_policy_mil_30 = {
 	}
 	
 	army_tradition = 0.5
-	shock_damage_received = -0.025
+	diplomats = 1
 	
 	ai_will_do = {
 		factor = 5
@@ -924,7 +924,8 @@ beua_policy_mil_31 = {
 		full_idea_group = defensive_ideas
 	}
 	
-	fire_damage_received = -0.04	
+	global_colonial_growth = 20
+	native_uprising_chance = -0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -944,9 +945,9 @@ beua_policy_mil_32 = {
 		full_idea_group = beua_war_production_ideas
 	}
 	
-	infantry_power = 0.035
-	cavalry_power = 0.035
-	artillery_power = 0.035
+	infantry_power = 0.05
+	cavalry_power = 0.05
+	artillery_power = 0.05
 	
 	ai_will_do = {
 		factor = 5
@@ -976,6 +977,7 @@ beua_policy_mil_33 = {
 		}	
 	}
 	
+	religious_unity = 0.1
 	tolerance_heathen = 1
 	tolerance_heretic = 1
 	
@@ -997,7 +999,7 @@ beua_policy_mil_34 = {
 		full_idea_group = defensive_ideas
 	}
 	
-	fire_damage_received = -0.04	
+	fire_damage_received = -0.05	
 	
 	ai_will_do = {
 		factor = 5
@@ -1070,8 +1072,8 @@ beua_policy_mil_36 = {
 		full_idea_group = beua_war_production_ideas
 	}
 	
-	land_morale = 0.06
-	infantry_power = 0.065
+	land_morale = 0.05
+	infantry_power = 0.05
 	
 	ai_will_do = {
 		factor = 5
@@ -1145,6 +1147,7 @@ beua_policy_mil_38 = {
 	}
 	
 	global_trade_goods_size_modifier = 0.1
+	production_efficiency = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1184,8 +1187,7 @@ beua_policy_mil_39 = {
 		full_idea_group = offensive_ideas
 	}
 	
-	land_morale = 0.08
-
+	land_morale = 0.1
 	
 	ai_will_do = {
 		factor = 5
@@ -1258,7 +1260,7 @@ beua_policy_mil_41 = {
 		full_idea_group = beua_weapon_quality_ideas
 	}
 	
-	land_morale = 0.08
+	land_morale = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1278,8 +1280,8 @@ beua_policy_mil_42 = {
 		full_idea_group = quality_ideas
 	}
 	
-	artillery_power = 0.065
-	cavalry_power = 0.065
+	artillery_power = 0.05
+	cavalry_power = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1299,7 +1301,7 @@ beua_policy_mil_43 = {
 		full_idea_group = beua_war_production_ideas
 	}
 	
-	global_trade_goods_size_modifier = 0.05
+	global_trade_goods_size_modifier = 0.1
 	production_efficiency = 0.1
 	
 	ai_will_do = {
@@ -1344,7 +1346,7 @@ beua_policy_mil_45 = {
 		full_idea_group = defensive_ideas
 	}
 	
-	land_morale = 0.08
+	land_morale = 0.1
 	
 	ai_will_do = {
 		factor = 5
@@ -1368,8 +1370,8 @@ beua_policy_mil_46 = {
 		full_idea_group = beua_general_staff_ideas
 	}
 	
-	land_morale = 0.06
-	free_leader_pool = 1
+	land_morale = 0.05
+	free_leader_pool = 2
 	
 	ai_will_do = {
 		factor = 1
@@ -1389,7 +1391,7 @@ beua_policy_mil_47 = {
 		full_idea_group = beua_standing_army_ideas
 	}
 	
-	cavalry_power = 0.065
+	cavalry_power = 0.1
 	cav_to_inf_ratio = 0.1
 	
 	ai_will_do = {
@@ -1410,7 +1412,8 @@ beua_policy_mil_48 = {
 		full_idea_group = mercenary_ideas 
 	}
 	
-	global_manpower_modifier = 0.25
+	mercenary_manpower = 0.15
+	allow_client_states = yes
 	
 	ai_will_do = {
 		factor = 1
@@ -1491,7 +1494,7 @@ beua_policy_mil_50 = {
 		}
 	}
 	
-	fire_damage = 0.08
+	fire_damage = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1517,7 +1520,7 @@ beua_policy_mil_51 = {
 		}
 	}
 	
-	global_manpower = 20
+	global_manpower = 10000
 	
 	ai_will_do = {
 		factor = 1
@@ -1543,8 +1546,9 @@ beua_policy_mil_52 = {
 		}
 	}
 	
-	infantry_power = 0.065
-	cavalry_power = 0.065
+
+	infantry_power = 0.05
+	cavalry_power = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1570,9 +1574,9 @@ beua_policy_mil_53 = {
 		}
 	}
 	
-	infantry_power = 0.035
-	cavalry_power = 0.035
-	artillery_power = 0.035
+	infantry_power = 0.05
+	cavalry_power = 0.05
+	artillery_power = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -1593,6 +1597,7 @@ beua_policy_mil_54 = {
 	}
 	
 	idea_cost = -0.1
+	core_creation = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -1612,8 +1617,8 @@ beua_policy_mil_55 = {
 		full_idea_group = beua_war_production_ideas
 	}
 	
-	land_morale = 0.06
-	siege_ability = 0.05
+	land_morale = 0.05
+	siege_ability = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1653,9 +1658,8 @@ beua_policy_mil_56 = {
 		full_idea_group = beua_general_staff_ideas
 	}
 	
-	land_morale = 0.06
+	land_morale = 0.05
 	siege_ability = 0.05
-	
 	
 	ai_will_do = {
 		factor = 5
@@ -1741,8 +1745,6 @@ beua_policy_mil_59 = {
 	
 	leader_naval_manuever = 1
 	leader_land_manuever = 1
-	leader_siege = 1
-	army_tradition_decay = 0.002
 	
 	ai_will_do = {
 		factor = 1
@@ -1770,6 +1772,7 @@ beua_policy_mil_60 = {
 		full_idea_group = beua_weapon_quality_ideas
 	}
 	
+	land_morale = 0.05
 	infantry_cost = -0.15
 	
 	ai_will_do = {
@@ -1790,7 +1793,7 @@ beua_policy_mil_61 = {
 		full_idea_group = beua_war_production_ideas
 	}
 
-	cavalry_power = 0.065
+	cavalry_power = 0.1
 	cav_to_inf_ratio = 0.1
 	
 	ai_will_do = {
@@ -1832,7 +1835,6 @@ beua_policy_mil_63 = {
 	}
 	
 	heavy_ship_power = 0.1
-	galley_power = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1860,7 +1862,7 @@ beua_policy_mil_64 = {
 		full_idea_group = beua_standing_army_ideas
 	}
 	
-	land_morale = 0.08
+	land_morale = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1929,8 +1931,7 @@ beua_policy_mil_66 = {
 		full_idea_group = beua_state_administration_ideas
 	}
 	
-	land_morale = 0.08
-	
+	land_morale = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -1950,9 +1951,9 @@ beua_policy_mil_67 = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	infantry_power = 0.035
-	cavalry_power = 0.035
-	artillery_power = 0.035
+	infantry_power = 0.05
+	cavalry_power = 0.05
+	artillery_power = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -1997,7 +1998,7 @@ beua_policy_mil_68 = {
 		}
 	}
 	
-	discipline = 0.05
+	mercenary_discipline = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -2027,7 +2028,6 @@ beua_policy_mil_69 = {
 	
 	global_manpower_modifier = 0.25
 	
-	
 	ai_will_do = {
 		factor = 1
 	}
@@ -2046,9 +2046,9 @@ beua_policy_mil_70 = {
 		full_idea_group = humanist_ideas 
 	}
 	
-	infantry_power = 0.035
-	cavalry_power = 0.035
-	artillery_power = 0.035
+	infantry_power = 0.05
+	cavalry_power = 0.05
+	artillery_power = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -2117,8 +2117,8 @@ beua_policy_mil_72 = {
 		full_idea_group = plutocracy_ideas
 	}
 	
-	infantry_power = 0.065
-	cavalry_power = 0.065
+	infantry_power = 0.05
+	cavalry_power = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2172,9 +2172,7 @@ beua_policy_mil_74 = {
 		}
 	}
 	
-	leader_land_fire = 1
 	leader_land_shock = 1
-	army_tradition_decay = 0.004
 	
 	ai_will_do = {
 		factor = 1
@@ -2243,7 +2241,7 @@ beua_policy_mil_76 = {
 		full_idea_group = expansion_ideas
 	}
 	
-	shock_damage_received = -0.04
+	shock_damage_received = -0.05
 	
 	ai_will_do = {
 		factor = 5
@@ -2267,9 +2265,7 @@ beua_policy_mil_77 = {
 		full_idea_group = humanist_ideas 
 	}
 	
-	shock_damage_received = -0.025
-	fire_damage_received = -0.025
-	
+	fire_damage_received = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -2289,7 +2285,7 @@ beua_policy_mil_78 = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	land_morale = 0.08
+	land_morale = 0.1
 	
 	ai_will_do = {
 		factor = 5
@@ -2314,7 +2310,7 @@ beua_policy_mil_79 = {
 	}
 	
 	global_garrison_growth = 0.2
-	global_manpower_modifier = 0.2
+	defensiveness = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2334,8 +2330,8 @@ beua_policy_mil_80 = {
 		full_idea_group = plutocracy_ideas
 	}
 	
-	global_trade_goods_size_modifier = 0.1
-	global_tax_modifier = -0.2
+	global_trade_goods_size_modifier = 0.15
+	global_tax_modifier = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -2375,7 +2371,7 @@ beua_policy_mil_81 = {
 		full_idea_group = infrastructure_ideas
 	}
 	
-	fire_damage = 0.08
+	fire_damage = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2395,7 +2391,8 @@ beua_policy_mil_82 = {
 		full_idea_group = beua_fortress_ideas
 	}
 	
-	heavy_ship_power = 0.15
+	heavy_ship_power = 0.05
+	ship_durability = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -2423,7 +2420,7 @@ beua_policy_mil_83 = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	global_manpower = 5
+	global_manpower = 10000
 	
 	ai_will_do = {
 		factor = 1
@@ -2443,9 +2440,9 @@ beua_policy_mil_84 = {
 		full_idea_group = economic_ideas
 	}
 	
-	infantry_power = 0.035
-	cavalry_power = 0.035
-	artillery_power = 0.035
+	infantry_power = 0.05
+	cavalry_power = 0.05
+	artillery_power = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -2584,7 +2581,7 @@ beua_policy_mil_88 = {
 		}
 	}
 	
-	land_morale = 0.06
+	land_morale = 0.05
 	shock_damage = 0.05
 	
 	ai_will_do = {
@@ -2605,9 +2602,8 @@ beua_policy_mil_89 = {
 		full_idea_group = beua_state_administration_ideas
 	}
 	
-	leader_land_fire = 1
-	shock_damage_received = -0.025
-	army_tradition_decay = 0.002
+	reinforce_speed = 0.15
+	army_tradition_decay = 0.005
 	
 	ai_will_do = {
 		factor = 1
@@ -2672,7 +2668,7 @@ beua_policy_mil_91 = {
 		full_idea_group = influence_ideas 
 	}
 	
-	shock_damage = 0.08
+	shock_damage = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2692,7 +2688,7 @@ beua_policy_mil_92 = {
 		full_idea_group = trade_ideas 
 	}
 	
-	fire_damage = 0.08
+	fire_damage = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2712,9 +2708,7 @@ beua_policy_mil_93 = {
 		full_idea_group = beua_colonial_empire_ideas
 	}
 	
-	infantry_power = 0.065
-	global_manpower_modifier = 0.15
-	
+	global_manpower_modifier = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -2734,8 +2728,7 @@ beua_policy_mil_94 = {
 		full_idea_group = administrative_ideas
 	}
 	
-	shock_damage_received = -0.025
-	fire_damage_received = -0.025
+	fire_damage_received = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -2806,7 +2799,7 @@ beua_policy_mil_96 = {
 		}	
 	}
 	
-	shock_damage = 0.08
+	shock_damage = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2833,7 +2826,7 @@ beua_policy_mil_97 = {
 		}
 	}
 	
-	fire_damage_received = -0.04
+	fire_damage_received = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -2871,8 +2864,8 @@ beua_policy_mil_98 = {
 		}
 	}
 	
-	infantry_power = 0.065
-	shock_damage = 0.06
+	infantry_power = 0.05
+	shock_damage = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -2900,8 +2893,7 @@ beua_policy_mil_99 = {
 		}
 	}
 	
-	fire_damage = 0.05
-	fire_damage_received = -0.025
+	fire_damage = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2928,7 +2920,7 @@ beua_policy_mil_100 = {
 		}
 	}
 	
-	shock_damage = 0.08
+	shock_damage = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2945,8 +2937,8 @@ beua_policy_mil_101 = {
 			has_idea_group = beua_serpentspine_ideas
 			has_idea_group = beua_legionary_ideas
 		}
-			
 	}
+
 	allow = {
 		full_idea_group = diplomatic_ideas
 		OR = {
@@ -2956,7 +2948,7 @@ beua_policy_mil_101 = {
 		}
 	}
 	
-	land_morale = 0.08
+	land_morale = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -2984,7 +2976,7 @@ beua_policy_mil_102 = {
 		}
 	}
 	
-	shock_damage_received = -0.04
+	shock_damage_received = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -3012,7 +3004,7 @@ beua_policy_mil_103 = {
 		}
 	}
 	
-	fire_damage_received = -0.04
+	fire_damage_received = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -3068,7 +3060,6 @@ beua_policy_mil_105 = {
 	
 	leader_naval_manuever = 1
 	leader_naval_shock = 1
-	navy_tradition_decay = 0.002
 	
 	ai_will_do = {
 		factor = 1
@@ -3097,7 +3088,7 @@ beua_policy_mil_106 = {
 	}
 	
 	trade_efficiency = 0.1
-	global_trade_goods_size_modifier = 0.05
+	global_trade_goods_size_modifier = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3123,7 +3114,7 @@ beua_policy_mil_107 = {
 		}
 	}
 	
-	shock_damage_received = -0.04
+	shock_damage_received = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -3153,7 +3144,7 @@ beua_policy_mil_108 = {
 		}	
 	}
 	
-	shock_damage = 0.08
+	shock_damage = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3173,9 +3164,8 @@ beua_policy_mil_109 = {
 		full_idea_group = diplomatic_ideas
 	}
 	
-	shock_damage = 0.06
+	shock_damage = 0.05
 	leader_siege = 1
-	army_tradition_decay = 0.002
 	
 	ai_will_do = {
 		factor = 1
@@ -3215,7 +3205,7 @@ beua_policy_mil_111 = {
 		full_idea_group = economic_ideas
 	}
 	
-	shock_damage_received = -0.04
+	shock_damage_received = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -3235,10 +3225,10 @@ beua_policy_mil_112 = {
 		full_idea_group = maritime_ideas
 	}
 	
-	heavy_ship_power = 0.075
-	galley_power = 0.075
-	light_ship_power = 0.075
-	transport_power = 0.075
+	heavy_ship_power = 0.05
+	galley_power = 0.05
+	light_ship_power = 0.05
+	transport_power = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -3258,7 +3248,7 @@ beua_policy_mil_113 = {
 		full_idea_group = humanist_ideas
 	}
 	
-	fire_damage_received = -0.04	
+	fire_damage_received = -0.05	
 	
 	ai_will_do = {
 		factor = 1
@@ -3278,7 +3268,7 @@ beua_policy_mil_114 = {
 		full_idea_group = beua_assimilation_ideas 
 	}
 	
-	cavalry_power = 0.065		
+	cavalry_power = 0.1
 	cav_to_inf_ratio = 0.1
 	
 	ai_will_do = {
@@ -3299,7 +3289,7 @@ beua_policy_mil_115 = {
 		full_idea_group = court_ideas
 	}
 	
-	global_manpower = 5
+	global_manpower = 10000
 	
 	ai_will_do = {
 		factor = 1
@@ -3319,8 +3309,7 @@ beua_policy_mil_116 = {
 		full_idea_group = beua_nationalism_ideas
 	}
 	
-	shock_damage = 0.05
-	shock_damage_received = -0.025
+	shock_damage = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3340,7 +3329,7 @@ beua_policy_mil_117 = {
 		full_idea_group = beua_centralism_ideas
 	}
 	
-	shock_damage = 0.08
+	shock_damage = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3379,7 +3368,7 @@ beua_policy_mil_119 = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	fire_damage_received = -0.04
+	fire_damage_received = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -3399,7 +3388,7 @@ beua_policy_mil_120 = {
 		full_idea_group = influence_ideas
 	}
 	
-	shock_damage_received = -0.04
+	shock_damage_received = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -3419,7 +3408,7 @@ beua_policy_mil_121 = {
 		full_idea_group = trade_ideas 
 	}
 	
-	fire_damage = 0.08
+	fire_damage = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3439,7 +3428,7 @@ beua_policy_mil_122 = {
 		full_idea_group = exploration_ideas
 	}
 	
-	fire_damage = 0.08
+	fire_damage = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3459,7 +3448,7 @@ beua_policy_mil_123 = {
 		full_idea_group = expansion_ideas
 	}
 	
-	land_morale = 0.08
+	land_morale = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3479,7 +3468,7 @@ beua_policy_mil_124 = {
 		full_idea_group = administrative_ideas
 	}
 	
-	fire_damage = 0.08
+	fire_damage = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3499,7 +3488,7 @@ beua_policy_mil_125 = {
 		full_idea_group = humanist_ideas
 	}
 	
-	land_morale = 0.08
+	land_morale = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3519,7 +3508,7 @@ beua_policy_mil_126 = {
 		full_idea_group = beua_jurisprudence_ideas 
 	}
 	
-	land_morale = 0.08			
+	land_morale = 0.1			
 	
 	ai_will_do = {
 		factor = 1
@@ -3539,7 +3528,7 @@ beua_policy_mil_127 = {
 		full_idea_group = beua_colonial_empire_ideas
 	}
 	
-	fire_damage_received = -0.04
+	fire_damage_received = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -3559,7 +3548,7 @@ beua_policy_mil_128 = {
 		full_idea_group = beua_assimilation_ideas 
 	}
 	
-	fire_damage = 0.08
+	fire_damage = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3579,7 +3568,8 @@ beua_policy_mil_129 = {
 		full_idea_group = beua_amphibious_ideas
 	}
 	
-	fire_damage = 0.08
+	fire_damage = 0.05
+	siege_blockade_progress = 1
 	
 	ai_will_do = {
 		factor = 1
@@ -3599,7 +3589,7 @@ beua_policy_mil_130 = {
 		full_idea_group = beua_decentralism_ideas
 	}
 	
-	fire_damage_received = -0.04
+	fire_damage_received = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -3619,8 +3609,8 @@ beua_policy_mil_131 = {
 		full_idea_group = offensive_ideas
 	}
 	
-	land_morale = 0.06
-	artillery_power = 0.065
+	land_morale = 0.05
+	artillery_power = 0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -3640,7 +3630,8 @@ beua_policy_mil_132 = {
 		full_idea_group = quality_ideas
 	}
 	
-	leader_naval_manuever = 2
+	leader_naval_manuever = 1
+	navy_tradition_decay = -0.005
 	
 	ai_will_do = {
 		factor = 1
@@ -3705,7 +3696,7 @@ beua_policy_mil_134 = {
 		full_idea_group = beua_conscription_ideas 
 	}
 	
-	manpower_recovery_speed = 0.2
+	manpower_recovery_speed = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -3746,7 +3737,8 @@ beua_policy_mil_136 = {
 		full_idea_group = defensive_ideas
 	}
 	
-	land_morale = 0.08
+	defensiveness = 0.1
+	garrison_size = 0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -3766,8 +3758,8 @@ beua_policy_mil_137 = {
 		full_idea_group = quality_ideas
 	}
 	
-	infantry_power = 0.065
-	cavalry_power = 0.065
+	infantry_power = 0.05
+	cavalry_power = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3827,7 +3819,7 @@ beua_policy_mil_140 = {
 		full_idea_group = beua_conscription_ideas 
 	}
 	
-	land_morale = 0.08
+	land_morale = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3847,7 +3839,7 @@ beua_policy_mil_141 = {
 		full_idea_group = beua_fortress_ideas 
 	}
 	
-	shock_damage = 0.08
+	shock_damage = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3875,7 +3867,7 @@ beua_policy_mil_142 = {
 		}
 	}
 	
-	shock_damage = 0.08
+	shock_damage = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -3896,7 +3888,7 @@ beua_policy_mil_143 = {
 	}
 
 	mages_mana_regen_mult = 0.25
-	mages_mana_capacity = 50
+	mages_mana_capacity = 30
 	artificers_capacity = 50
 	
 	ai_will_do = {
@@ -3917,8 +3909,9 @@ beua_policy_mil_144 = {
 		full_idea_group = beua_serpentspine_ideas
 	}
 
-	fire_damage_received = -0.04
-	
+	mages_mana_capacity = 25
+	mages_mana_regen_mult = 0.05
+
 	ai_will_do = {
 		factor = 1
 	}	
@@ -3937,6 +3930,7 @@ beua_policy_mil_145 = {
 		full_idea_group = beua_legionary_ideas
 	}
 
+	land_attrition = -0.1
 	leader_land_manuever = 1
 	
 	ai_will_do = {
@@ -3956,7 +3950,8 @@ beua_policy_mil_146 = {
 		full_idea_group = beua_health_ideas
 	}
 	
-	defensiveness = 0.25
+	artificers_capacity = 5
+	defensiveness = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -3976,7 +3971,9 @@ beua_policy_mil_147 = {
 		full_idea_group = beua_nationalism_ideas
 	}
 	
-	fire_damage = 0.08
+	artificers_capacity = 5
+	artificers_research_time = -0.05
+	artificers_loyalty_modifier = 0.05
 
 	ai_will_do = {
 		factor = 1
@@ -3997,7 +3994,6 @@ beua_policy_mil_148 = {
 	}
 	
 	leader_land_shock = 1
-	army_tradition_decay = 0.002
 
 	ai_will_do = {
 		factor = 1
@@ -4018,7 +4014,6 @@ beua_policy_mil_149 = {
 	}
 	
 	leader_land_shock = 1
-	army_tradition_decay = 0.002
 
 	ai_will_do = {
 		factor = 1
@@ -4039,7 +4034,6 @@ beua_policy_mil_150 = {
 	}
 	
 	mercenary_discipline = 0.05
-	mercenary_manpower = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -4059,7 +4053,7 @@ beua_policy_mil_151 = {
 		full_idea_group = beua_conscription_ideas
 	}
 	
-	shock_damage = 0.08
+	shock_damage = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -4098,7 +4092,8 @@ beua_policy_mil_153 = {
 		full_idea_group = beua_militarism_ideas
 	}
 	
-	hostile_attrition = 2
+	hostile_attrition = 1
+	max_hostile_attrition = 1
 
 	ai_will_do = {
 		factor = 1
@@ -4118,8 +4113,7 @@ beua_policy_mil_154 = {
 		full_idea_group = beua_shock_ideas
 	}
 	
-	shock_damage = 0.05
-	fire_damage_received = 0.025
+	max_general_shock = 1
 
 	ai_will_do = {
 		factor = 1
@@ -4139,8 +4133,7 @@ beua_policy_mil_155 = {
 		full_idea_group = beua_fire_ideas
 	}
 	
-	fire_damage = 0.05
-	shock_damage_received = -0.025
+	max_general_fire = 1
 
 	ai_will_do = {
 		factor = 1
@@ -4160,7 +4153,7 @@ beua_policy_mil_156 = {
 		full_idea_group = quality_ideas
 	}
 	
-	shock_damage_received = -0.04
+	shock_damage_received = -0.05
 
 	ai_will_do = {
 		factor = 1
@@ -4200,7 +4193,7 @@ beua_policy_mil_158 = {
 		full_idea_group = defensive_ideas
 	}
 	
-	army_tradition = 0.75
+	army_tradition = 1
 
 	ai_will_do = {
 		factor = 1
@@ -4219,7 +4212,7 @@ beua_policy_mil_159 = {
 		full_idea_group = quality_ideas
 	}
 	
-	land_morale = 0.08
+	land_morale = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -4239,7 +4232,7 @@ beua_policy_mil_160 = {
 		full_idea_group = quantity_ideas
 	}
 	
-	land_forcelimit_modifier = 0.2
+	land_forcelimit_modifier = 0.25
 
 	ai_will_do = {
 		factor = 1
@@ -4280,6 +4273,7 @@ beua_policy_mil_162 = {
 	}
 	
 	drill_gain_modifier = 0.33
+	drill_decay_modifier = -0.1
 
 	ai_will_do = {
 		factor = 1
@@ -4298,7 +4292,7 @@ beua_policy_mil_163 = {
 		full_idea_group = beua_conscription_ideas
 	}
 	
-	land_morale = 0.08
+	land_morale = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -4317,6 +4311,7 @@ beua_policy_mil_164 = {
 		full_idea_group = beua_fortress_ideas
 	}
 	
+	defensiveness = 0.15
 	fort_maintenance_modifier = -0.2
 
 	ai_will_do = {
@@ -4337,7 +4332,7 @@ beua_policy_mil_165 = {
 		full_idea_group = beua_state_administration_ideas
 	}
 	
-	caravan_power = 0.2
+	caravan_power = 0.25
 	trade_efficiency = 0.1
 
 	ai_will_do = {
@@ -4366,7 +4361,8 @@ beua_policy_mil_166 = {
 		}
 	}
 	
-	movement_speed = 0.15
+	movement_speed = 0.1
+	land_attrition = -0.1
 
 	ai_will_do = {
 		factor = 1
@@ -4386,7 +4382,7 @@ beua_policy_mil_167 = {
 		full_idea_group = beua_militarism_ideas
 	}
 	
-	shock_damage = 0.08
+	shock_damage = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -4407,6 +4403,7 @@ beua_policy_mil_168 = {
 	}
 	
 	cavalry_power = 0.1
+	cav_to_inf_ratio = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -4427,6 +4424,7 @@ beua_policy_mil_169 = {
 	}
 	
 	artillery_cost = -0.15
+	infantry_cost = -0.1
 
 	ai_will_do = {
 		factor = 1
@@ -4446,7 +4444,8 @@ beua_policy_mil_170 = {
 		full_idea_group = offensive_ideas
 	}
 	
-	movement_speed = 0.15
+	movement_speed = 0.05
+	artillery_levels_available_vs_fort = 1
 
 	ai_will_do = {
 		factor = 1
@@ -4511,7 +4510,8 @@ beua_policy_mil_172 = {
 		full_idea_group = quantity_ideas
 	}
 	
-	land_maintenance_modifier = -0.1
+	land_maintenance_modifier = -0.05
+	production_efficiency = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -4531,7 +4531,8 @@ beua_policy_mil_173 = {
 		full_idea_group = beua_general_staff_ideas
 	}
 	
-	army_tradition_decay = -0.01
+	global_trade_power = 0.1
+	army_tradition_decay = -0.005
 
 	ai_will_do = {
 		factor = 1
@@ -4577,7 +4578,7 @@ beua_policy_mil_174 = {
 	}
 	
 	discipline = 0.05
-	global_trade_goods_size_modifier = -0.1
+	global_trade_goods_size_modifier = -0.05
 
 	ai_will_do = {
 		factor = 1
@@ -4598,7 +4599,6 @@ beua_policy_mil_175 = {
 	}
 	
 	global_manpower_modifier = 0.25
-	global_regiment_cost = 0.075
 
 	ai_will_do = {
 		factor = 1
@@ -4619,7 +4619,7 @@ beua_policy_mil_176 = {
 	}
 	
 	defensiveness = 0.3
-	fort_maintenance_modifier = 0.25
+	fort_maintenance_modifier = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -4647,9 +4647,7 @@ beua_policy_mil_177 = {
 		}
 	}
 	
-	movement_speed = 0.2
 	siege_ability = 0.15
-	land_maintenance_modifier = 0.25
 
 	ai_will_do = {
 		factor = 1
@@ -4691,7 +4689,7 @@ beua_policy_mil_179 = {
 		full_idea_group = beua_shock_ideas
 	}
 	
-	shock_damage = 0.08
+	shock_damage = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -4730,7 +4728,7 @@ beua_policy_mil_181 = {
 		full_idea_group = defensive_ideas
 	}
 	
-	land_morale = 0.06
+	land_morale = 0.05
 	improve_relation_modifier = 0.15
 
 	ai_will_do = {
@@ -4813,6 +4811,7 @@ beua_policy_mil_185 = {
 	}
 	
 	drill_gain_modifier = 0.33
+	drill_decay_modifier = -0.1
 
 	ai_will_do = {
 		factor = 1
@@ -4832,7 +4831,8 @@ beua_policy_mil_186 = {
 		full_idea_group = mercenary_ideas
 	}
 	
-	mercenary_cost = -0.2
+	mercenary_cost = -0.1
+	merc_maintenance_modifier = -0.05
 
 	ai_will_do = {
 		factor = 1
@@ -4852,7 +4852,7 @@ beua_policy_mil_187 = {
 		full_idea_group = beua_weapon_quality_ideas
 	}
 	
-	fire_damage = 0.08
+	fire_damage = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -4901,14 +4901,14 @@ beua_policy_mil_189 = {
 		}
 	}
 	
-	shock_damage_received = -0.04
+	shock_damage_received = -0.05
 
 	ai_will_do = {
 		factor = 1
 	}
 }
 
-homebrew.policy.123 = {
+beua_policy_mil_190 = {
 	monarch_power = MIL
 
 	potential = {
@@ -4942,7 +4942,7 @@ beua_policy_mil_191 = {
 		full_idea_group = beua_shock_ideas
 	}
 	
-	cavalry_power = 0.065
+	cavalry_power = 0.1
 	cavalry_cost = -0.1
 
 	ai_will_do = {
@@ -4964,6 +4964,7 @@ beua_policy_mil_192 = {
 	}
 	
 	artillery_cost = -0.15
+	infantry_cost = -0.1
 
 	ai_will_do = {
 		factor = 1

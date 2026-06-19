@@ -13,7 +13,7 @@ NDefines.NCountry.IDEA_TO_TECH = -0.01
 NDefines.NCountry.INNOVATIVENESS_FIRST_PICKED_IDEA = 1.0
 NDefines.NCountry.MAX_ACTIVE_POLICIES = 9
 NDefines.NCountry.MAX_IDEA_GROUPS_FROM_SAME_CATEGORY = 0.5
-NDefines.NCountry.POWER_MAX = 1999
+NDefines.NCountry.POWER_MAX = 2499
 NDefines.NCountry.PS_BUY_IDEA = 300
 
 -- NEconomy

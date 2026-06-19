@@ -124,7 +124,7 @@ beua_nationalism_ideas = {
 		global_unrest = -2
 	}
 	beua_nationalism_idea_7 = {
-		shock_damage_received = -0.1
+		shock_damage_received = -0.05
 	}
 	
 	ai_will_do = {

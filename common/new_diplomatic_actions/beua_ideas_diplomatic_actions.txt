@@ -109,7 +109,6 @@ beua_force_government_change = {
 
 				capital_scope = {
 					change_religion = ROOT
-					FROM = { NOT = { religion = ROOT } }
 				}
 			}
 		}
@@ -139,8 +138,7 @@ beua_force_government_change = {
 					dynasty = ROOT
 					culture = ROOT
 					religion = ROOT
-					min_age = 0
-					max_age = 15
+					age = 5
 				}
 			}
 		}

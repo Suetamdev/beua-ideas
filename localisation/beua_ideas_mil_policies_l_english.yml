@@ -5,44 +5,44 @@
  beua_policy_mil_2:0 "Field Priests and Soldier's Prayer Books"
  desc_beua_policy_mil_2:0 "We must strive to instill zeal in our soldiers and make them willing to sacrifice themselves for our holy cause. At any time we must ensure that there is a great number of priests to care for the spiritual health of our men in the field, to lead them in worship and to take care of them when their lives end. We must also ensure that they are never without prayer books or any other religious material they might desire during our campaigns."
  
- beua_policy_mil_3:0 "Standard Mercenary Contracts"
- desc_beua_policy_mil_3:0 "Standard Mercenary Contracts help us to reduce the maintenance we have to pay our mercenaries."
+ beua_policy_mil_3:0 "Standardized Mercenary Contracts"
+ desc_beua_policy_mil_3:0 "By centralizing our hiring processes and standardizing the terms of service, we have ensured that our mercenary companies are bound by rigid legal codes. This uniformity of discipline, enforced through strict administrative oversight, allows us to extract maximum efficiency from our hired blades."
 
- beua_policy_mil_4:0 "Production Planning"
- desc_beua_policy_mil_4:0 "By planning our production we can estimate future losses and compensate them before they happen."
+ beua_policy_mil_4:0 "Technocratic Warfare"
+ desc_beua_policy_mil_4:0 "We have replaced the chaos of the front line with the cold logic of the factory. Our administrative records dictate our manufacturing, and our manufacturing dictates the rhythm of battle; our fire output is now the ultimate expression of state-wide technical efficiency."
 
- beua_policy_mil_5:0 "Act of Technical Advancement"
- desc_beua_policy_mil_5:0 "The Act of Technical Advancement improves the abilities of our economy and our soldiers."
+ beua_policy_mil_5:0 "Institutional Discipline"
+ desc_beua_policy_mil_5:0 "Our military excellence is the result of refined logistics and superior equipment. With modern infrastructure supporting our barracks and training fields, and high-quality weaponry in every soldier's hand, our army has evolved into a highly disciplined, professional force."
 
- beua_policy_mil_6:0 "National Construction Program"
- desc_beua_policy_mil_6:0 "The National Construction program prioritises important construction projects."
+ beua_policy_mil_6:0 "Centralized Training Hubs"
+ desc_beua_policy_mil_6:0 "We have consolidated our military education into a network of national training hubs. With expert command staff guiding the curriculum and modern infrastructure providing the space to drill, our forces gain proficiency at an unprecedented rate."
 
- beua_policy_mil_7:0 "Medical Front Care"
- desc_beua_policy_mil_7:0 "Medical Front Care raises the chance of our soldiers surviving."
+ beua_policy_mil_7:0 "Vitality Doctrine"
+ desc_beua_policy_mil_7:0 "A healthy soldier is a confident soldier. By applying modern sanitation and medical oversight to our offensive maneuver training, we have eliminated the lethargy that plagues lesser armies. Our forces march further and fight harder, knowing their bodies are as resilient as their resolve."
 
- beua_policy_mil_8:0 "Act of Balanced Naval Supplies"
- desc_beua_policy_mil_8:0 "It is very important to watch your diet on long voyages."
+ beua_policy_mil_8:0 "Sanitized Seafaring"
+ desc_beua_policy_mil_8:0 "Naval power is as much about logistics as it is about cannon fire. By optimizing life at sea through strict health protocols, we reduce attrition and ensure that our fighting force remains at peak strength, ready to engage at a moment's notice."
 
- beua_policy_mil_9:0 "Side by Side Fighting Doctrine"
- desc_beua_policy_mil_9:0 "There is great solidarity in our society."
+ beua_policy_mil_9:0 "Inclusive Mobilization"
+ desc_beua_policy_mil_9:0 "We have successfully dismantled the barriers that once limited our recruitment to select groups. By extending the honor of military service to all newly integrated populations, we have tapped into a vast, previously ignored reservoir of potential manpower."
 
- beua_policy_mil_10:0 "Foreign Battle Tactics Act"
- desc_beua_policy_mil_10:0 "We will learn from foreign battle tactics and maybe even use them also."
+ beua_policy_mil_10:0 "Unified Vanguard"
+ desc_beua_policy_mil_10:0 "By integrating the martial traditions of our newest citizens with our own rigorous training standards, we have forged an infantry force of unmatched capability. Every regiment is now a distillation of the best fighting techniques from across our diverse realm."
 
- beua_policy_mil_11:0 "Committed Society"
- desc_beua_policy_mil_11:0 "Our Society feels indebted to our state."
+ beua_policy_mil_11:0 "Social Mobilization Acts"
+ desc_beua_policy_mil_11:0 "We have reshaped the relationship between the state and its subjects. By ingraining martial service as a pillar of our social identity, we ensure that every citizen contributes to a culture of discipline, hardening our military from the ground up."
 
- beua_policy_mil_12:0 "Hawkish Society"
- desc_beua_policy_mil_12:0 "Our society is hawkish."
+ beua_policy_mil_12:0 "Martial Meritocracy"
+ desc_beua_policy_mil_12:0 "In our society, status is earned through the mastery of the finest weaponry. By fostering a culture that celebrates technical proficiency and combat readiness, we ensure that our soldiers approach every engagement with a disciplined focus that is simply unmatched."
 
- beua_policy_mil_13:0 "Nautic Society"
- desc_beua_policy_mil_13:0 "Our society is keen on the navy."
+ beua_policy_mil_13:0 "Integrated Naval Command"
+ desc_beua_policy_mil_13:0 "Naval warfare is a calculated extension of our strategic planning. By subjecting our admirals to the rigorous analytical standards of the general staff, we have optimized our fleet leadership for maximum impact, ensuring every broadside and boarding maneuver is executed with absolute precision."
 
  beua_policy_mil_14:0 "General Staff: Navy Focus Act"
  desc_beua_policy_mil_14:0 "The general staff was told to concentrate on educating new admirals."
 
- beua_policy_mil_15:0 "Proud Generals"
- desc_beua_policy_mil_15:0 "Our generals are proud of their land."
+ beua_policy_mil_15:0 "Nationalized Staff Oversight"
+ desc_beua_policy_mil_15:0 "We have synthesized the raw energy of our nationalist movement with the analytical rigor of our command staff. Our leaders are now trained to exploit this national fervor, transforming our infantry into a precise, high-impact instrument capable of delivering devastating shock strikes."
 
  beua_policy_mil_16:0 "War Enthusiasm"
  desc_beua_policy_mil_16:0 "The war enthusiasm is unbroken."
@@ -53,158 +53,158 @@
  beua_policy_mil_18:0 "Imperial Mercenaries Act"
  desc_beua_policy_mil_18:0 "With an empire this big we need to be able to raise more mercenaries."
 
- beua_policy_mil_19:0 "Quality of Weapons School Act"
- desc_beua_policy_mil_19:0 "Our general staff is greatly influenced by the quality of weapons school."
+ beua_policy_mil_19:0 "Protocol of the Grand Staff"
+ desc_beua_policy_mil_19:0 "The intersection of high politics and grand strategy has resulted in a new, stringent code of military discipline. Under this protocol, the court’s influence reinforces the General Staff’s authority, ensuring our forces remain orderly, professional, and entirely focused on the preservation of our national glory."
 
- beua_policy_mil_20:0 "The Social Penetration Act"
- desc_beua_policy_mil_20:0 "Our general staff's acceptance in the society is huge."
+ beua_policy_mil_20:0 "Standardized Combat Efficiency"
+ desc_beua_policy_mil_20:0 "Our military performance is the direct output of our national organization. By optimizing the link between our societal structure and our General Staff’s tactical protocols, we have maximized the lethality of our combined arms, ensuring superior performance across all branches of service."
 
- beua_policy_mil_21:0 "Continous Maneuvers Act"
- desc_beua_policy_mil_21:0 "We always do maneuvers to improve our capabilities."
+ beua_policy_mil_21:0 "Bureau of Military Excellence"
+ desc_beua_policy_mil_21:0 "By institutionalizing the cooperation between our administrative apparatus and our General Staff, we have streamlined the delivery of resources, equipment, and intelligence to the front lines. This administrative precision translates directly into superior combat efficiency for all branches of our army."
 
- beua_policy_mil_22:0 "Quick Supplies Act"
- desc_beua_policy_mil_22:0 "Quick supplies can decide a battle. The general staff does know this well."
+ beua_policy_mil_22:0 "Military-Industrial Optimization"
+ desc_beua_policy_mil_22:0 "By aligning the strategic requirements of the General Staff with the productive power of our economy, we have achieved a new level of fiscal efficiency. Our military now operates with reduced overhead, while our industrial base benefits from the organizational discipline of our top command."
 
- beua_policy_mil_23:0 "Intensive Weaponry Education Act"
- desc_beua_policy_mil_23:0 "Our troops need to be educated in all kinds of weaponry. That will improve their quality drastically."
+ beua_policy_mil_23:0 "Comprehensive Weaponry Mastery Act"
+ desc_beua_policy_mil_23:0 "To ensure our standing army remains the finest in the world, we have instituted a comprehensive training program. Soldiers are now required to demonstrate technical proficiency in a wide array of weaponry, ensuring that our forces possess the versatility and discipline needed to dominate any engagement."
 
- beua_policy_mil_24:0 "Department of Defence"
- desc_beua_policy_mil_24:0 "The Department of Defence is occupied by the matters of national defense."
+ beua_policy_mil_24:0 "Sovereign Combat Standards"
+ desc_beua_policy_mil_24:0 "Professionalism without passion is a machine without an engine. By cultivating a deep sense of national purpose within our standing army, we have elevated our troops' morale to unprecedented levels, ensuring that our soldiers remain steadfast and lethal in the face of any threat."
 
- beua_policy_mil_25:0 "Defence of House and Home Act"
- desc_beua_policy_mil_25:0 "Our men fight to defend house and home."
+ beua_policy_mil_25:0 "Homeland Defense Integration Act"
+ desc_beua_policy_mil_25:0 "By institutionalizing the defense of our sovereign soil as the core mission of our standing forces, we have galvanized our troops' resolve. Every soldier now serves with the clear understanding that they are the primary defenders of our people, our properties, and our prosperity."
 
  beua_policy_mil_26:0 "Management of Workers Act"
  desc_beua_policy_mil_26:0 "Through specific management of our workers we can muster more men for the army."
 
- beua_policy_mil_27:0 "Weaponry Capitalism Act"
- desc_beua_policy_mil_27:0 "The one who produces the best weapons will get the deal."
+ beua_policy_mil_27:0 "State-Sponsored Arms Program"
+ desc_beua_policy_mil_27:0 "By aligning our national treasury with our most advanced manufacturing research, we have effectively bridged the gap between economy and lethality. Every soldier is now equipped with the finest weapons our industry can provide, ensuring absolute superiority on the battlefield."
 
- beua_policy_mil_28:0 "Quality Army Act"
- desc_beua_policy_mil_28:0 "Our army just has quality."
+ beua_policy_mil_28:0 "Elite Trade-Armament Protocol"
+ desc_beua_policy_mil_28:0 "This protocol mandates the direct investment of trade profits into military research and material acquisition. The result is a standardized level of weapon quality that is unrivaled, ensuring that our troops go into battle with the absolute best equipment, reinforcing their unwavering morale."
 
  beua_policy_mil_29:0 "Fortress Doctrine"
  desc_beua_policy_mil_29:0 "Our experience with fortresses help us managing them very efficiently."
 
- beua_policy_mil_30:0 "School of Defence Act"
- desc_beua_policy_mil_30:0 "Our general staff is greatly influenced by the school of defence."
+ beua_policy_mil_30:0 "Sovereign Bastion Doctrine"
+ desc_beua_policy_mil_30:0 "Our nation is secured behind a calculated grid of state-of-the-art fortifications. With our borders rendered impassable, our diplomatic corps is free to project our national interests across the world, while the constant state of readiness of our garrisons keeps our army tradition at its peak."
 
- beua_policy_mil_31:0 "Colonial Enthusiasm"
- desc_beua_policy_mil_31:0 "Our colonies have a great reputation. Going to sea was never this attractive."
+ beua_policy_mil_31:0 "Strategic Colonial Garrisoning"
+ desc_beua_policy_mil_31:0 "We have institutionalized the defense of our colonial territories, treating every new settlement as a strategic asset. Our defensive military posture has significantly mitigated the threat of native uprisings, providing the stability necessary for our population centers to flourish."
 
- beua_policy_mil_32:0 "Colony at War Act"
- desc_beua_policy_mil_32:0 "When we are at war the colonies will have to take their part in winning that war."
+ beua_policy_mil_32:0 "Integrated Imperial Ordnance Act"
+ desc_beua_policy_mil_32:0 "This act mandates the total integration of our colonial resource chains into our national war production system. By streamlining the supply of critical materials, we have optimized the lethality of our military assets, ensuring our forces are the best-equipped fighting force in the world."
 
  beua_policy_mil_33:0 "Religious Diplomacy"
  desc_beua_policy_mil_33:0 "The policy of religious diplomacy will bring us great support in all of our society."
 
- beua_policy_mil_34:0 "Base Defence Doctrine"
- desc_beua_policy_mil_34:0 "Keeping our bases well protected is essential for us."
+ beua_policy_mil_34:0 "Maritime Bastion Initiative"
+ desc_beua_policy_mil_34:0 "To ensure the security of our maritime borders, the state has mandated a rigorous integration of defensive training and amphibious maneuvering. Our troops are now trained to minimize exposure and maintain operational discipline under fire, rendering our coastlines a death trap for any would-be invader."
 
- beua_policy_mil_35:0 "Modern Base Defence Act"
- desc_beua_policy_mil_35:0 "Through modern defence strategies we can boost both our defence and our ability to break an enemy defence."
+ beua_policy_mil_35:0 "Expeditionary Ordnance Standards"
+ desc_beua_policy_mil_35:0 "To ensure operational success during complex amphibious landings, we have mandated a strict standardization of ordnance quality. This focus on technological excellence provides our troops with the reliable hardware necessary to maintain absolute discipline in the chaos of a beachhead assault."
 
- beua_policy_mil_36:0 "Marine Base Supply System"
- desc_beua_policy_mil_36:0 "Having a supply system will decrease the chance that we run out of food, should we suddenly come under siege."
+ beua_policy_mil_36:0 "Expeditionary Support Doctrine"
+ desc_beua_policy_mil_36:0 "We have institutionalized the support of our expeditionary forces, ensuring that every amphibious landing is backed by the full weight of our industrial war machine. This commitment to front-line excellence has significantly enhanced the morale and lethal output of our ground troops in all landing operations."
 
  beua_policy_mil_37:0 "Best Army of the World"
  desc_beua_policy_mil_37:0 "We are convinced that our army is the best in the world."
 
- beua_policy_mil_38:0 "Production Enthusiasm Act"
- desc_beua_policy_mil_38:0 "Every man will go happy to work."
+ beua_policy_mil_38:0 "State Industrial Promotion Act"
+ desc_beua_policy_mil_38:0 "By leveraging the influence of the Court to incentivize our labor force, we have aligned societal aspirations with our industrial output goals. This unified focus on production has fundamentally increased the efficiency and scale of our manufacturing base, turning every factory into a source of national prestige."
 
- beua_policy_mil_39:0 "Offensive Mentality"
- desc_beua_policy_mil_39:0 "We are offensive people and are sure to get what we want."
+ beua_policy_mil_39:0 "National Offensive Coordination"
+ desc_beua_policy_mil_39:0 "By aligning our military's offensive maneuvers with the collective fervor of our populace, we have achieved a new level of operational synchronization. Our forces now operate with an inherent advantage in morale, allowing them to maintain the initiative and drive forward with unwavering intensity."
 
- beua_policy_mil_40:0 "In the State We Trust"
- desc_beua_policy_mil_40:0 "We trust the tactics and techniques applied by our administration and our generals."
+ beua_policy_mil_40:0 "State Meritocratic Doctrine"
+ desc_beua_policy_mil_40:0 "We have replaced outdated traditions with a disciplined, meritocratic hierarchy. By trusting in the proven technical standards of our administration and the strategic expertise of our General Staff, our soldiers operate with a level of professional cohesion and discipline that is unrivaled."
 
- beua_policy_mil_41:0 "In the State We Trust"
- desc_beua_policy_mil_41:0 "We trust the tactics and techniques applied by our administration and our generals."
+ beua_policy_mil_41:0 "Doctrine of National Lethality"
+ desc_beua_policy_mil_41:0 "We have institutionalized the synthesis between our national fervor and our technological superiority. By arming our most dedicated citizens with state-of-the-art weaponry, we have forged a military force whose morale is as unyielding as the quality of the arms they carry."
 
- beua_policy_mil_42:0 "War Bonds"
- desc_beua_policy_mil_42:0 "Our people can now buy war bonds to support our army."
+ beua_policy_mil_42:0 "Elite Vanguard Doctrine"
+ desc_beua_policy_mil_42:0 "Our societal reforms have prioritized the cultivation of elite combat roles. By aligning our administrative resources with our highest quality standards, we ensure that our cavalry and artillery regiments possess the technical excellence and professional dedication required to dominate the field."
 
  beua_policy_mil_43:0 "Production Patriotism"
  desc_beua_policy_mil_43:0 "Our people love working for our state."
 
- beua_policy_mil_44:0 "Quasi Integration of Mercenaries"
- desc_beua_policy_mil_44:0 "The mercenaries we hire are almost as close to our people as our regular army is."
+ beua_policy_mil_44:0 "Auxiliary Integration Doctrine"
+ desc_beua_policy_mil_44:0 "We have institutionalized the professional assimilation of our auxiliary forces. By treating our mercenary contracts with the same rigor as our national levies, we have fostered a unified military culture that guarantees consistent discipline across all active regiments."
 
- beua_policy_mil_45:0 "United against the Enemy"
- desc_beua_policy_mil_45:0 "Our people are united against our enemies even when things are dire."
+ beua_policy_mil_45:0 "Consolidated Defensive Identity"
+ desc_beua_policy_mil_45:0 "We have synchronized our defensive posture with our assimilation policies to build a truly unified realm. This dual-focus approach ensures that our military, drawn from diverse territories, operates with a single, high-morale objective: the total security of the state."
 
  beua_policy_mil_46:0 "Foreign Generals"
  desc_beua_policy_mil_46:0 "We will hire foreign, promising generals."
 
  beua_policy_mil_47:0 "Foreign Tactics"
- desc_beua_policy_mil_47:0 "We are ready to employ tactics of other people in our strategy."
+ desc_beua_policy_mil_47:0 "We have institutionalized the systematic analysis and integration of diverse military doctrines found across our realm. By converting these foreign tactical paradigms into standardized training modules for our standing army, we have achieved a significant enhancement in our cavalry’s operational efficiency and maneuverability."
 
  beua_policy_mil_48:0 "Integration of Mercenaries"
- desc_beua_policy_mil_48:0 "Through integration of former mercenaries we can boost our potential draftees."
+ desc_beua_policy_mil_48:0 "We have standardized the assimilation of mercenary cohorts into our national manpower reserves while concurrently implementing a new administrative framework for client states. By applying our systematic integration protocols to both personnel and territory, we have expanded our capacity for both military mobilization and regional governance."
 
  beua_policy_mil_49:0 "Imperial Guard"
  desc_beua_policy_mil_49:0 "Our guard is one of the best trained guards in the world."
 
- beua_policy_mil_50:0 "Imperial Selection"
- desc_beua_policy_mil_50:0 "We can be picky with our choice of recruits."
+ beua_policy_mil_50:0 "Doctrine of Decisive Firepower"
+ desc_beua_policy_mil_50:0 "Our imperial ambitions demand a military capable of crushing resistance with professional precision. By prioritizing quality in our artillery and infantry arms, we have developed a doctrine of decisive firepower, ensuring that our forces remain the dominant authority in any encounter."
 
  beua_policy_mil_51:0 "Registration Act"
  desc_beua_policy_mil_51:0 "We will register all men that can fight for our country in times of war."
 
  beua_policy_mil_52:0 "Imperial Quality Management"
- desc_beua_policy_mil_52:0 "Our imperial officials will ensure the quality of our weapons produced."
+ desc_beua_policy_mil_52:0 "Our imperial officials will ensure the quality of our produced weapons."
 
- beua_policy_mil_53:0 "Production Requisition"
- desc_beua_policy_mil_53:0 "In times of war we need all of our resources for war production."
+ beua_policy_mil_53:0 "Sovereign Supply Supremacy"
+ desc_beua_policy_mil_53:0 "The state mandates the absolute prioritization of military manufacturing to support our imperial reach. Through this policy, our armories and workshops are bound to the service of the empire, providing our soldiers with the equipment superiority needed to enforce our sovereignty across the world."
+ 
+ beua_policy_mil_54:0 "Strategic Integration Protocols"
+ desc_beua_policy_mil_54:0 "By aligning our diplomatic channels with the analytical capabilities of our General Staff, we have created a seamless process for territorial assimilation. These standardized protocols reduce the administrative and bureaucratic burden of integrating new domains, allowing for more efficient expansion."
 
- beua_policy_mil_54:0 "International Military Cooperation"
- desc_beua_policy_mil_54:0 "Our general staff always tries to stay in touch with developments in other lands."
+ beua_policy_mil_55:0 "Strategic Siege Standardization"
+ desc_beua_policy_mil_55:0 "We have standardized our siege engineering and logistical support, ensuring that our artillery and vanguard units operate with maximum efficacy. By integrating intelligence from our diplomatic network with our superior war production, we can dismantle any defensive position with systematic, predictable speed."
 
- beua_policy_mil_55:0 "Trade Contracts"
- desc_beua_policy_mil_55:0 "It is very advisable to negotiate lucrative trade contracts."
+ beua_policy_mil_56:0 "Strategic Reconnaissance Framework"
+ desc_beua_policy_mil_56:0 "Our military excellence is built upon a foundation of absolute information superiority. This framework ensures that our General Staff is continuously supported by our covert agencies, providing the tactical edge necessary to maintain high morale and execute rapid, calculated sieges against even the most hardened targets."
 
- beua_policy_mil_56:0 "Military Espionage"
- desc_beua_policy_mil_56:0 "We will gain important knowledge about our enemies armies that could prove essential in battle."
-
- beua_policy_mil_57:0 "Siege Spies"
- desc_beua_policy_mil_57:0 "We will try to have spies in enemy fortresses."
+ beua_policy_mil_57:0 "Advanced Fortification Subversion"
+ desc_beua_policy_mil_57:0 "Our military doctrine recognizes that the most effective way to breach a fortress is to know its weaknesses from within. We have professionalized the subversion of enemy defenses, providing our artillery units with precise intelligence that dramatically increases their effectiveness on the field."
 
  beua_policy_mil_58:0 "Industrial Espionage"
  desc_beua_policy_mil_58:0 "Our industrial espionage might gain us interesting knowledge that we could put to use in our land."
 
  beua_policy_mil_59:0 "Inspirational Journeys"
- desc_beua_policy_mil_59:0 "We will fund trips for our admirals to gain crucial knowledge about the world and the sea."
+ desc_beua_policy_mil_59:0 "We have institutionalized global field-research expeditions for our high-ranking command staff. By systematically documenting foreign terrain, naval currents, and logistics networks, our officers are equipped with the analytical data necessary to optimize troop and fleet movement across any environment, ensuring unparalleled operational agility."
 
- beua_policy_mil_60:0 "Cheap Production Act"
- desc_beua_policy_mil_60:0 "Producing cheap, good weapons requires practice."
+ beua_policy_mil_60:0 "Frontier Industrial Standardization"
+ desc_beua_policy_mil_60:0 "We have synchronized our remote-outpost supply chains with our core industrial production protocols. By standardizing infantry equipment for use in both colonial and domestic theaters, we have achieved a significant reduction in unit costs and a marked increase in the morale of our expeditionary forces."
 
- beua_policy_mil_61:0 "Raze Act"
- desc_beua_policy_mil_61:0 "Our men are allowed to raze everything that falls into their hands."
+ beua_policy_mil_61:0 "Strategic Cavalry Integration"
+ desc_beua_policy_mil_61:0 "Our military expansion relies on the versatility of our mobile regiments. By integrating high-quality manufacturing standards with our colonial and exploratory agendas, we have optimized our cavalry’s performance and composition, ensuring our mobile vanguard remains the definitive force in any new landscape."
 
- beua_policy_mil_62:0 "Population Influence"
- desc_beua_policy_mil_62:0 "We will influence our people carefully."
+ beua_policy_mil_62:0 "Sovereign Mobilization Authority"
+ desc_beua_policy_mil_62:0 "The state now exercises total authority over the mobilization of our demographic assets. By integrating our subject states into our national draft framework, we have secured a vast reserve of manpower, ensuring our capacity to project force is never limited by domestic shortages."
 
- beua_policy_mil_63:0 "Improved Naval Tactics"
- desc_beua_policy_mil_63:0 "The continued development of new naval tactics is essential."
+ beua_policy_mil_63:0 "Capital Ship Doctrine"
+ desc_beua_policy_mil_63:0 "Our maritime dominance is sustained by the professional coordination of our heavy naval assets. Through the oversight of the General Staff, we have synchronized our fleet’s combat readiness and technological capabilities, ensuring our heavy ships remain the unrivaled arbiters of naval superiority."
 
- beua_policy_mil_64:0 "Constant Supply Act"
- desc_beua_policy_mil_64:0 "Good trade practices will ensure the supply of our army."
+ beua_policy_mil_64:0 "Mercantile Military Foundation"
+ desc_beua_policy_mil_64:0 "We have synchronized our national trade revenues with the operational requirements of our standing army. This fiscal alignment ensures that our soldiers are consistently well-supplied and remunerated, fostering a culture of professional discipline and high morale throughout our military ranks."
 
- beua_policy_mil_65:0 "Defence Discipline"
- desc_beua_policy_mil_65:0 "The discipline in our fortresses is incredible."
+ beua_policy_mil_65:0 "Jurisprudential Garrison Standards"
+ desc_beua_policy_mil_65:0 "Our defensive posture is reinforced by a rigorous adherence to imperial law. By applying jurisdictional standards to the garrisoned units, we have cultivated a culture of professional discipline that transforms every fortress into a bastion of unwavering imperial order."
 
- beua_policy_mil_66:0 "Organised Retreat Areas"
- desc_beua_policy_mil_66:0 "We will organise retreat areas where our army can fall back to, if it gets defeated."
+ beua_policy_mil_66:0 "Institutionalized Border Security"
+ desc_beua_policy_mil_66:0 "By aligning our defensive strategy with the analytical rigor of our state administration, we have created a seamless system for border maintenance and garrison support. This institutional commitment ensures that our frontline forces are always well-equipped and confident in the logistical backing of the state."
 
  beua_policy_mil_67:0 "Innovative Training Act"
  desc_beua_policy_mil_67:0 "Through innovative training we can boost the quality of our troops."
 
- beua_policy_mil_68:0 "Health Control Act"
- desc_beua_policy_mil_68:0 "We will control the health of the mercenaries we hire to prevent epidemics."
+ beua_policy_mil_68:0 "Professionalized Expeditionary Care"
+ desc_beua_policy_mil_68:0 "Our reliance on auxiliary forces requires a rigorous approach to their maintenance and well-being. By extending our imperial health standards to our mercenary contractors, we have fostered a more reliable and disciplined force, ensuring our hired battalions perform at a standard consistent with our professional infantry."
 
- beua_policy_mil_69:0 "State Pride"
- desc_beua_policy_mil_69:0 "Our army is making the state and the people proud."
+ beua_policy_mil_69:0 "Mandatory Service Standard"
+ desc_beua_policy_mil_69:0 "Our military expansion relies on the professional coordination between the state administration and our societal leaders. This policy standardizes mandatory service across the board, ensuring our traditional social foundations serve as a robust, reliable, and constantly replenished pool of manpower for the imperial army."
 
  beua_policy_mil_70:0 "Humanist Army"
  desc_beua_policy_mil_70:0 "An army fighting for ideals is a strong army."
@@ -212,74 +212,74 @@
  beua_policy_mil_71:0 "Innovative Training Act"
  desc_beua_policy_mil_71:0 "Through innovative training we can boost the quality of our troops."
 
- beua_policy_mil_72:0 "For the Republic!"
- desc_beua_policy_mil_72:0 "An army fighting for their republic is a strong army."
+ beua_policy_mil_72:0 "Mercantile Mobilization Doctrine"
+ desc_beua_policy_mil_72:0 "Our military might is directly proportional to our economic prosperity. This doctrine leverages plutocratic wealth to refine our conscription and training programs, ensuring that every soldier and horseman in our service benefits from world-class equipment and elite combat instruction."
 
  beua_policy_mil_73:0 "Blessing Cannons Act"
- desc_beua_policy_mil_73:0 "Our priests will bless our cannons, this giving them divine power."
+ desc_beua_policy_mil_73:0 "The state mandates the sanctification of all artillery batteries to align our military capacity with our religious institutions. This act ensures that our gunners operate with the supreme confidence that they are the instruments of imperial will, guaranteeing precision and unrelenting fire superiority."
 
- beua_policy_mil_74:0 "Monarchic School"
- desc_beua_policy_mil_74:0 "Our generals are loyal to the monarchy."
+ beua_policy_mil_74:0 "Institutionalized Martial Superiority"
+ desc_beua_policy_mil_74:0 "We have standardized the deployment of advanced metallurgical and weapon systems for our high-ranking commanders. By ensuring our leaders are equipped with state-of-the-art armaments, we provide them the tactical advantage necessary to deliver devastating shock strikes that break enemy lines with mathematical precision."
 
- beua_policy_mil_75:0 "Parliamentary Quality Management"
- desc_beua_policy_mil_75:0 "The parliment is keeping a keen eye on quality management."
+ beua_policy_mil_75:0 "Mercantile Professionalism Directive"
+ desc_beua_policy_mil_75:0 "Our military excellence is the product of sustained investment in high-quality weaponry and professional training. This directive aligns our commercial strength with our military quality standards, fostering a culture of rigorous discipline and unwavering operational readiness across our entire army."
 
- beua_policy_mil_76:0 "Fortress Expansion Act"
- desc_beua_policy_mil_76:0 "Its always important to keep building fortresses."
+ beua_policy_mil_76:0 "Frontier Fortification"
+ desc_beua_policy_mil_76:0 "We have standardized the rapid construction of defenses in new territories, ensuring our troops are shielded from enemy shock attacks."
 
- beua_policy_mil_77:0 "Humanist Conviction"
- desc_beua_policy_mil_77:0 "Our garrisons defending the fortresses are sure to do the right thing by holding out."
+ beua_policy_mil_77:0 "Humanist Garrison Doctrine"
+ desc_beua_policy_mil_77:0 "Our defensive superiority is founded on the harmony between our population and our fortifications. By maintaining an enlightened environment within our garrisons, we have fostered a resilient defensive network that is highly resistant to the pressures of modern bombardment."
 
- beua_policy_mil_78:0 "Innovative Defence"
- desc_beua_policy_mil_78:0 "We always try to find new, innovative ways to hold out longer in our fortresses."
+ beua_policy_mil_78:0 "Advanced Defensive Engineering"
+ desc_beua_policy_mil_78:0 "Our engineers are at the forefront of military science, developing revolutionary designs for our fortifications. This constant innovation ensures our garrisons are always protected by the most advanced technology, instilling unwavering morale in our soldiers who know they serve behind the world's most capable defenses."
 
- beua_policy_mil_79:0 "Fortress Safety Law"
- desc_beua_policy_mil_79:0 "We won't let our fortresses be undermined by spies."
+ beua_policy_mil_79:0 "Jurisprudential Defensive Doctrine"
+ desc_beua_policy_mil_79:0 "Our defensive capability is anchored in the professional application of imperial law to our fortifications. This doctrine ensures that our garrisons are treated with the full protection and resources required by law, fostering a resilient defensive culture that excels at endurance and rapid recovery."
 
  beua_policy_mil_80:0 "Tax Incentive Act"
  desc_beua_policy_mil_80:0 "We will give burghers tax incentives to boost their productivity."
 
- beua_policy_mil_81:0 "Building Boom Act"
- desc_beua_policy_mil_81:0 "Sometimes it is essential to improve production in times of war. The building boom act will help."
+ beua_policy_mil_81:0 "Industrial Firepower Initiative"
+ desc_beua_policy_mil_81:0 "We have synchronized our manufacturing output with our national transport hubs, providing our infantry with a constant, high-quality stream of ammunition."
 
  beua_policy_mil_82:0 "Floating Fortresses"
  desc_beua_policy_mil_82:0 "Our heavy ships are floating fortresses and almost indestructible."
 
- beua_policy_mil_83:0 "Long Term of Service"
- desc_beua_policy_mil_83:0 "Our recruits will serve for a very long time. Only like this we can ensure our quality army."
+ beua_policy_mil_83:0 "Career Military Mandate"
+ desc_beua_policy_mil_83:0 "We have standardized the length of military service to ensure a consistent, highly trained force. By retaining veterans for longer periods, we guarantee the continued combat excellence of the imperial ranks."
 
- beua_policy_mil_84:0 "Economic Coherence"
- desc_beua_policy_mil_84:0 "Our men know that their families won't starve when they are away in times of war."
+ beua_policy_mil_84:0 "Unified Force Standardization"
+ desc_beua_policy_mil_84:0 "By aligning our national economic capacity with our militaristic ambitions, we have implemented a comprehensive standardization program. This ensures that every infantryman, cavalryman, and artillery battery is equipped to peak combat standards, maximizing the lethal potential of our entire armed forces."
 
  beua_policy_mil_85:0 "Conqueror Tradition"
  desc_beua_policy_mil_85:0 "We are conquerors - our army will reflect that tradition."
 
- beua_policy_mil_86:0 "For Humanism"
- desc_beua_policy_mil_86:0 "Some of our battles are very emotional. We will fight for our ideals."
+ beua_policy_mil_86:0 "Rational Combat Doctrine"
+ desc_beua_policy_mil_86:0 "Our military efficiency is built upon a foundation of enlightened discipline. By integrating humanistic education into our martial training, we produce soldiers who fight with superior clarity and analytical precision, maximizing the lethal impact of every engagement."
 
- beua_policy_mil_87:0 "Just Punishment"
- desc_beua_policy_mil_87:0 "Our men know how to behave. But if they don't the punishment will be just, not draconic."
+ beua_policy_mil_87:0 "Codified Martial Discipline"
+ desc_beua_policy_mil_87:0 "By integrating our militaristic traditions with our comprehensive legal code, we have established a rigid administrative framework for soldier conduct. This codification ensures that discipline is not merely a cultural trait, but a legally mandated standard maintained across all ranks."
 
- beua_policy_mil_88:0 "For the Government"
- desc_beua_policy_mil_88:0 "Not all governments are popular, but we are masters to tell the people who to hate."
+ beua_policy_mil_88:0 "Elite Sovereign Doctrine"
+ desc_beua_policy_mil_88:0 "The strength of our armed forces is a reflection of our state’s own authority. This doctrine formalizes the commitment of our ruling class to the martial arts, ensuring that our armies are motivated by the highest ideals and capable of delivering devastating shock strikes on the battlefield."
 
- beua_policy_mil_89:0 "Officer Tests"
- desc_beua_policy_mil_89:0 "We are not longer that dependend on birthright. Men who are talented will be promoted."
+ beua_policy_mil_89:0 "Logistical Readiness Doctrine"
+ desc_beua_policy_mil_89:0 "Our military superiority relies on the swift and efficient replenishment of our forces. Through superior state administration, we minimize downtime during campaigns and uphold our long-standing martial traditions, ensuring our army remains a constant, professional force."
 
- beua_policy_mil_90:0 "Dynastic Wars"
- desc_beua_policy_mil_90:0 "Our men are used to conquering foreign thrones."
+ beua_policy_mil_90:0 "Imperial Foreign Projection Act"
+ desc_beua_policy_mil_90:0 "The state mandates that our military and diplomatic services operate in perfect synergy. This act enforces a standard of iron-clad discipline across our ranks, ensuring our soldiers remain the most capable, controlled, and effective instruments of our imperial authority."
 
- beua_policy_mil_91:0 "Inciting Songs"
- desc_beua_policy_mil_91:0 "Our men will sing when assaulting when they charge the enemy with bloodlust."
+ beua_policy_mil_91:0 "Rhythmic Assault Protocol"
+ desc_beua_policy_mil_91:0 "By integrating synchronized war chants into our standard assault maneuvers, we harness the collective psyche of our soldiers. This ritualistic discipline induces a controlled bloodlust that elevates the impact of our initial shock charges against enemy lines."
 
- beua_policy_mil_92:0 "Ammunition Supplies"
- desc_beua_policy_mil_92:0 "Our supplies will never run out, never!"
+ beua_policy_mil_92:0 "Imperial Munitions Act"
+ desc_beua_policy_mil_92:0 "The state mandates that no battery shall ever face a shortage of ordnance. By integrating our trade routes into our military supply grid, we guarantee that our artillery maintains a lethal, continuous fire superiority over any adversary."
 
  beua_policy_mil_93:0 "Colonial Regiments"
  desc_beua_policy_mil_93:0 "Our colonies have grown so big that we can exploit them for men, even full regiments."
 
- beua_policy_mil_94:0 "Petty Officer"
- desc_beua_policy_mil_94:0 "Our petty officers will organise the formation and keep everybody in line."
+ beua_policy_mil_94:0 "Coordinated Defensive Positioning"
+ desc_beua_policy_mil_94:0 "By integrating our strategic military doctrine with centralized administrative oversight, we have optimized the defensive posture of our frontline units. Our forces are now adept at maneuvering and entrenching with such efficiency that they effectively mitigate the lethality of incoming enemy fire."
 
  beua_policy_mil_95:0 "Iron Will"
  desc_beua_policy_mil_95:0 "Our men are standing strong and won't be shattered easily."
@@ -287,20 +287,20 @@
  beua_policy_mil_96:0 "Heavens Will It"
  desc_beua_policy_mil_96:0 "The gods are surely on our side, especialy when we are storming towards the enemy."
 
- beua_policy_mil_97:0 "Early Field Fortification"
- desc_beua_policy_mil_97:0 "We are experimenting with field fortifications."
+ beua_policy_mil_97:0 "Standardized Field Engineering"
+ desc_beua_policy_mil_97:0 "Our engineering divisions have developed modular designs for field fortifications. By implementing these standardized defensive structures at the onset of any engagement, our units significantly mitigate the impact of enemy bombardment."
 
- beua_policy_mil_98:0 "State Guard"
- desc_beua_policy_mil_98:0 "Fighting in the state guard is the biggest honour achievable for a peasant boy."
+ beua_policy_mil_98:0 "Institutional Martial Excellence"
+ desc_beua_policy_mil_98:0 "By aligning our foundational government structure with our elite military traditions, we have fostered an environment where infantry excellence is the primary metric of state power. This synergy ensures our shock regiments represent the absolute peak of our martial capability."
 
  beua_policy_mil_99:0 "Fire Drills"
  desc_beua_policy_mil_99:0 "Our regiments are perfectly trained. They know when to fire, that way we can maximize enemy casualties and minimize our own."
 
- beua_policy_mil_100:0 "Scouts"
- desc_beua_policy_mil_100:0 "Our scouts will tell us the perfect locations and moments when to charge the enemy forces."
+ beua_policy_mil_100:0 "Subversive Shock Doctrine"
+ desc_beua_policy_mil_100:0 "Our tactical lethality is enhanced by a deep intelligence framework. By pinpointing and exploiting enemy vulnerabilities before the engagement begins, our forces ensure that every shock maneuver is delivered with precise, destabilizing impact."
 
- beua_policy_mil_101:0 "Fight for the King"
- desc_beua_policy_mil_101:0 "Our men fight for their king."
+ beua_policy_mil_101:0 "Imperial Global Standing Act"
+ desc_beua_policy_mil_101:0 "The state mandates the total synchronization of our diplomatic status with our military ethos. This act formalizes our status as a dominant global power, imbuing our troops with the conviction that their service is the foundation of our international supremacy."
 
  beua_policy_mil_102:0 "Counterattack"
  desc_beua_policy_mil_102:0 "By doing quick counterattacks we can nullify the enemy charges."
@@ -308,8 +308,8 @@
  beua_policy_mil_103:0 "Field Scouts"
  desc_beua_policy_mil_103:0 "We will always know on what terrain we fight. And we will use that terrain to our best advantage."
 
- beua_policy_mil_104:0 "Colonial Development"
- desc_beua_policy_mil_104:0 "We will expand our colonies to support our armies in the homeland with men."
+ beua_policy_mil_104:0 "Global Recruitment Doctrine"
+ desc_beua_policy_mil_104:0 "The strength of our empire lies in our ability to mobilize resources on a global scale. This doctrine formalizes the process of recruiting and training troops across our colonial borders, ensuring that our armies remain replenished by a steady influx of standardized, elite-trained personnel."
 
  beua_policy_mil_105:0 "Outstanding Captains"
  desc_beua_policy_mil_105:0 "Our captains are well trained and most of them are very skilled. You won't find many incapable."
@@ -317,77 +317,77 @@
  beua_policy_mil_106:0 "Production Propaganda"
  desc_beua_policy_mil_106:0 "We will tell our people what we have to tell them to push our production to the limit."
 
- beua_policy_mil_107:0 "Blessing"
- desc_beua_policy_mil_107:0 "A blessing from the lord!"
+ beua_policy_mil_107:0 "Sanctification Protocol"
+ desc_beua_policy_mil_107:0 "By formalizing the spiritual or cultural heritage of our troops, we have reinforced the cohesion of our vanguard formations. This protocol ensures that our soldiers maintain their resolve and defensive integrity when faced with the most intense shock engagements."
 
- beua_policy_mil_108:0 "Guard"
- desc_beua_policy_mil_108:0 "The guard will be a perfect example for the rest of our troops."
+ beua_policy_mil_108:0 "Elite Institutional Strike Doctrine"
+ desc_beua_policy_mil_108:0 "The lethality of our shock troops is a testament to the commitment of our ruling institutions. This doctrine mandates that our infantry be equipped and trained to prioritize overwhelming aggression, ensuring our forces can shatter enemy lines with unparalleled precision and force."
 
- beua_policy_mil_109:0 "Dynastic Fate"
- desc_beua_policy_mil_109:0 "We are chosen to rule the world."
+ beua_policy_mil_109:0 "Strategic Capitulation Doctrine"
+ desc_beua_policy_mil_109:0 "The ultimate goal of our military campaigns is the decisive resolution of hostilities. This doctrine empowers our commanders to utilize both shock-force superiority and diplomatic influence to compel enemy garrisons to yield, effectively reducing the time and resources wasted in protracted sieges."
 
  beua_policy_mil_110:0 "Influence the people"
  desc_beua_policy_mil_110:0 "Our criers will always tell stories about our great army."
 
- beua_policy_mil_111:0 "Economic Shock"
- desc_beua_policy_mil_111:0 "We will do everything to fight a commercial crisis."
+ beua_policy_mil_111:0 "Imperial Quality Assurance Act"
+ desc_beua_policy_mil_111:0 "The state mandates the highest manufacturing standards for all infantry and shock-troop defensive gear. This act ensures that our economic power is directly reflected in the survivability of our troops, rendering them nearly impervious to the shock damage of our enemies."
 
- beua_policy_mil_112:0 "Boarding Experience"
- desc_beua_policy_mil_112:0 "Our sailors have great experience boarding enemy ships."
+ beua_policy_mil_112:0 "Integrated Boarding Doctrine"
+ desc_beua_policy_mil_112:0 "By applying our specialized shock-tactics training to our maritime forces, we have professionalized the boarding maneuver. Our sailors and marines are now trained to execute high-impact boarding actions with systematic precision, significantly increasing the combat efficacy of our entire fleet."
 
- beua_policy_mil_113:0 "Humanist Ceasefire"
- desc_beua_policy_mil_113:0 "We will agree to ceasefire in certain situations."
+ beua_policy_mil_113:0 "Humanist Defensive Protocol"
+ desc_beua_policy_mil_113:0 "The strength of our military is built upon the unity of our people. This protocol mandates the inclusion of humanist outreach within our shock regiments, fostering a profound sense of purpose that enables our forces to withstand the chaos of sustained fire with unmatched composure."
 
- beua_policy_mil_114:0 "Horse People"
- desc_beua_policy_mil_114:0 "We can learn from the great horse people of this world."
+ beua_policy_mil_114:0 "Cavalry Assimilation Doctrine"
+ desc_beua_policy_mil_114:0 "We have systematically analyzed the tactical frameworks utilized by nomadic equestrian cultures. By incorporating these specialized mounted maneuvers and training methods into our own shock-tactical manuals, we have significantly elevated the lethality and organizational capacity of our cavalry divisions."
 
  beua_policy_mil_115:0 "Shocking Propaganda"
  desc_beua_policy_mil_115:0 "Shocking propaganda about our enemies will motivate our young ones to fight."
 
- beua_policy_mil_116:0 "National Fight"
- desc_beua_policy_mil_116:0 "We will fight as one for our country."
+ beua_policy_mil_116:0 "National Mobilization Doctrine"
+ desc_beua_policy_mil_116:0 "By aligning our military shock tactics with the collective fervor of our citizenry, we have achieved a new standard of combat intensity. Our regiments now operate as a unified instrument of the state, ensuring that every strike carries the full weight and conviction of our national identity."
 
- beua_policy_mil_117:0 "Central Maneuvers"
- desc_beua_policy_mil_117:0 "With big maneuvers we can raise the efficiency of our troops."
+ beua_policy_mil_117:0 "Unified Offensive Mandate"
+ desc_beua_policy_mil_117:0 "The state mandates that all military maneuvers be synchronized with our centralized strategic planning. Through this directive, we empower our frontline forces to deliver crushing shock strikes with the full, undistracted weight of the sovereign's authority."
 
- beua_policy_mil_118:0 "Decentralized Recruitment"
- desc_beua_policy_mil_118:0 "Through decentral recruitment we can register many more men."
+ beua_policy_mil_118:0 "Distributed Levies"
+ desc_beua_policy_mil_118:0 "Delegating recruitment to local administrators allows us to tap into manpower reserves across the entire empire."
 
- beua_policy_mil_119:0 "Cover"
- desc_beua_policy_mil_119:0 "We will provide cover for our artillery to improve their efficiency."
+ beua_policy_mil_119:0 "Adaptive Ballistic Defense"
+ desc_beua_policy_mil_119:0 "Through the systematic study of enemy fire-power, we have developed advanced tactical countermeasures. Our regiments are now trained to constantly adapt their positioning, utilizing real-time battlefield data to effectively minimize damage from incoming volleys."
 
- beua_policy_mil_120:0 "Feint"
- desc_beua_policy_mil_120:0 "We will be deceiving the enemy firepower."
+ beua_policy_mil_120:0 "Counter-Fire Misdirection Protocol"
+ desc_beua_policy_mil_120:0 "We have standardized the usage of feints as a primary defensive measure. By creating complex tactical signatures that confuse enemy fire-control systems, we successfully induce errors in their targeting, significantly reducing the incoming damage to our primary formations."
 
  beua_policy_mil_121:0 "Weapon Trade"
  desc_beua_policy_mil_121:0 "We will import better weapons from other countries and copy them if it suits us."
 
- beua_policy_mil_122:0 "Scouts"
- desc_beua_policy_mil_122:0 "If we know the battlefield better than the enemy, we'll have a great advantage."
+ beua_policy_mil_122:0 "Expeditionary Fire Superiority"
+ desc_beua_policy_mil_122:0 "By adapting our artillery and infantry fire doctrines to the unique requirements of our exploratory expeditions, we have ensured universal lethality. Our fire-teams are now capable of deploying standardized, high-output suppression tactics regardless of the operational theater."
 
- beua_policy_mil_123:0 "At home in foreign land"
- desc_beua_policy_mil_123:0 "Our men feel at home in enemy lands."
+ beua_policy_mil_123:0 "Sustained Campaign Protocol"
+ desc_beua_policy_mil_123:0 "We have institutionalized the psychological and logistical readiness required for protracted foreign deployment. By eliminating the environmental stressors of occupied territory, our forces operate with the same efficiency and confidence abroad as they do within the imperial heartland."
 
- beua_policy_mil_124:0 "Controlled Firepower"
- desc_beua_policy_mil_124:0 "We will reconduct our firepower to reach the best results."
+ beua_policy_mil_124:0 "Optimized Firepower"
+ desc_beua_policy_mil_124:0 "We have refined our logistics and drill to ensure our firepower is used as efficiently and effectively as possible."
 
- beua_policy_mil_125:0 "Humanist Ideal"
- desc_beua_policy_mil_125:0 "Our men fight for a just cause."
+ beua_policy_mil_125:0 "Humanist Conviction"
+ desc_beua_policy_mil_125:0 "Our soldiers fight with high morale, knowing they serve a just and enlightened cause."
 
- beua_policy_mil_126:0 "War Conventions"
- desc_beua_policy_mil_126:0 "War Conventions will ensure our soldiers to be treated well if they fall into enemy hands."
+ beua_policy_mil_126:0 "Lawful Shock Doctrine"
+ desc_beua_policy_mil_126:0 "By grounding our aggressive shock tactics in a robust legal framework, we ensure our troops fight with the unwavering conviction of men acting in accordance with the law. This fusion of martial force and legal authority elevates morale across all front-line regiments."
 
- beua_policy_mil_127:0 "Colonial Wars"
- desc_beua_policy_mil_127:0 "Our veterans know the battlefield better than their home. We will make use of that."
+ beua_policy_mil_127:0 "Imperial Expeditionary Defense"
+ desc_beua_policy_mil_127:0 "The state mandates the adoption of survival tactics forged in our colonial territories. By utilizing the advanced situational awareness of our veteran corps, we ensure that our formations are protected by techniques proven effective in the most hostile theaters of the world."
 
- beua_policy_mil_128:0 "Terrain Adjustment"
- desc_beua_policy_mil_128:0 "We will use the terrain to our advantage."
+ beua_policy_mil_128:0 "Topographical Fire Optimization"
+ desc_beua_policy_mil_128:0 "By integrating localized geographic data with our standard fire-support doctrines, we have developed a methodology to manipulate terrain for offensive gain. Our forces now consistently position their artillery and firing lines to exploit environmental advantages, maximizing our total ballistic efficiency."
 
- beua_policy_mil_129:0 "Artillery Support"
- desc_beua_policy_mil_129:0 "We are very creative when it comes to finding new targets for our artillery."
+ beua_policy_mil_129:0 "Coordinated Shoreward Fire Support"
+ desc_beua_policy_mil_129:0 "We have engineered a standard protocol for maintaining fire superiority during amphibious transitions. By synchronizing our naval and land-based artillery, we ensure that our forces land under the cover of a continuous, high-impact suppression barrage."
 
- beua_policy_mil_130:0 "Decentralized March"
- desc_beua_policy_mil_130:0 "Through marching innovatively and surprising we will surprise our enemy."
+ beua_policy_mil_130:0 "Adaptive Marching"
+ desc_beua_policy_mil_130:0 "Our decentralized marching tactics prevent the enemy from focusing their fire. By remaining unpredictable and dispersed, our forces successfully mitigate incoming ballistic damage."
 
  beua_policy_mil_131:0 "Great Offensive"
  desc_beua_policy_mil_131:0 "A well planned offensive can be very efficient."
@@ -395,107 +395,107 @@
  beua_policy_mil_132:0 "Captain Degree"
  desc_beua_policy_mil_132:0 "By assigning captain degrees we can be sure that our naval leaders are competent."
 
- beua_policy_mil_133:0 "Big Maneuvers"
- desc_beua_policy_mil_133:0 "Big Maneuvers help us form a formidable army."
+ beua_policy_mil_133:0 "Centralized Force Standardization"
+ desc_beua_policy_mil_133:0 "The state mandates total uniformity for all levied formations. By centralizing our military command structures, we eliminate the variance common in large armies, ensuring that our massive numbers operate with the precision of a professional core."
 
  beua_policy_mil_134:0 "Central Recruiting"
  desc_beua_policy_mil_134:0 "Central Recruiting Stations will gurantee us new recruits."
 
- beua_policy_mil_135:0 "Weapons Production"
- desc_beua_policy_mil_135:0 "Weapons Production is important for the success of war."
+ beua_policy_mil_135:0 "State-Managed Armament Doctrine"
+ desc_beua_policy_mil_135:0 "The state oversees all aspects of military manufacturing. By centralizing the supply chain, we ensure that every unit is equipped with the finest tools of war, solidifying our superiority on every front of engagement."
 
  beua_policy_mil_136:0 "Local Defenders"
  desc_beua_policy_mil_136:0 "We will use local troops to defend the cities."
 
- beua_policy_mil_137:0 "Decentralized Armament"
- desc_beua_policy_mil_137:0 "We will produce weapons everywhere in the country."
+ beua_policy_mil_137:0 "Regional Excellence Mandate"
+ desc_beua_policy_mil_137:0 "While the imperial quality standard remains absolute, operational execution is delegated to our regional lords. This balance of autonomy and rigor ensures our infantry and cavalry are trained to the highest possible degree of professional proficiency."
 
- beua_policy_mil_138:0 "Decentralized Recruiting"
- desc_beua_policy_mil_138:0 "We will find more recruits if we are present in every county."
+ beua_policy_mil_138:0 "Distributed Manpower Acquisition"
+ desc_beua_policy_mil_138:0 "We have standardized recruitment protocols across all local territories. By delegating authority to local administrators, we have achieved maximum efficiency in manpower acquisition, effectively transforming our entire reach into a continuous supply of personnel."
 
- beua_policy_mil_139:0 "Small Harbours"
- desc_beua_policy_mil_139:0 "By splitting our fleet we are more secure from raids."
+ beua_policy_mil_139:0 "Distributed Naval Command"
+ desc_beua_policy_mil_139:0 "By delegating operational authority to our regional naval hubs, we have fostered a high level of local readiness and commitment. Our crews now operate with the conviction of protectors defending their own coastal domains, significantly enhancing our naval morale."
 
- beua_policy_mil_140:0 "Motivated Army"
- desc_beua_policy_mil_140:0 "Conscripts are much more motivated than mercenaries."
+ beua_policy_mil_140:0 "Regional Levies"
+ desc_beua_policy_mil_140:0 "By handling recruitment locally, our soldiers serve with men they know, which significantly improves our army's morale."
 
- beua_policy_mil_141:0 "Fortress Assault Maneuver"
- desc_beua_policy_mil_141:0 "We will train to assault fortresses."
+ beua_policy_mil_141:0 "Active Defense Doctrine"
+ desc_beua_policy_mil_141:0 "Our local commanders are empowered to transform defensive positions into staging grounds for sudden, devastating strikes."
 
- beua_policy_mil_142:0 "Secret Deployment"
- desc_beua_policy_mil_142:0 "Our armies have the ability to attack out of nowhere."
+ beua_policy_mil_142:0 "Decentralized Vanguard Doctrine"
+ desc_beua_policy_mil_142:0 "Superior shock performance is achieved when specialized formations operate with independent command authority. This doctrine ensures that our vanguard units can react instantaneously to battlefield openings, delivering punishing blows without waiting for central authorization."
 
  beua_policy_mil_143:0 "Arcane-Technocratic Accord"
  desc_beua_policy_mil_143:0 "For too long, mages and artificers viewed each other as rivals. By bridging the gap between traditional spellcraft and modern invention, our mages now use artificer stabilization rigs to channel raw mana safely, while artificers use direct arcane loops to fuel their clockwork weapons with limitless energy. Together, they are unstoppable."
 
- beua_policy_mil_144:0 "Ballistic Proof Shields"
- desc_beua_policy_mil_144:0 "We will develop advanced ballistic proof shields to enhance the protection of our soldiers on the battlefield."
+ beua_policy_mil_144:0 "Runic Energy Harnessing"
+ desc_beua_policy_mil_144:0 "Through the study and application of mountain-based runes, we have increased the efficiency and capacity of our magical infrastructure."
 
- beua_policy_mil_145:0 "Stamina Enchantment"
- desc_beua_policy_mil_145:0 "We will use magical practices to enhance the stamina and endurance of our soldiers."
+ beua_policy_mil_145:0 "Arcane Expeditionary Protocols"
+ desc_beua_policy_mil_145:0 "By integrating our legionary command structures with magocratic logistical divination, we have revolutionized our field mobility. Our forces now navigate complex terrain with preternatural efficiency, significantly reducing attrition during prolonged deployments."
 
- beua_policy_mil_146:0 "Water Filtration Act"
- desc_beua_policy_mil_146:0 "We will implement a system of water filtration to ensure the health and well-being of our troops."
+ beua_policy_mil_146:0 "Artificer-Supported Defense"
+ desc_beua_policy_mil_146:0 "Our defensive works are now retrofitted with life-support and sanitation systems powered by local artificers, significantly increasing both their structural integrity and long-term viability under siege."
 
- beua_policy_mil_147:0 "Artificer Nationalization Act"
- desc_beua_policy_mil_147:0 "We will nationalize the artificer guilds to ensure that their innovations benefit the state."
+ beua_policy_mil_147:0 "Nationalized Artificer Command"
+ desc_beua_policy_mil_147:0 "The state hereby asserts total oversight of all artificery guilds. By integrating these expert bodies into our national research apparatus, we ensure that every breakthrough is immediately leveraged for the benefit of the collective empire."
 
- beua_policy_mil_148:0 "Junior War Wizard Act"
- desc_beua_policy_mil_148:0 "We will establish a program to recruit and train junior war wizards to support our military efforts."
+ beua_policy_mil_148:0 "Arcane Offensive Integration"
+ desc_beua_policy_mil_148:0 "By institutionalizing the deployment of specialized mages within our offensive formations, we have achieved a new standard of combat coordination. These practitioners provide the precise tactical enhancements necessary to deliver devastating shock strikes on the battlefield."
 
- beua_policy_mil_149:0 "War Wizard Initiative"
- desc_beua_policy_mil_149:0 "We will establish a program to recruit and train war wizards to enhance our military capabilities."
+ beua_policy_mil_149:0 "Arcane Strategic Command"
+ desc_beua_policy_mil_149:0 "By integrating our highest-ranking war wizards into the General Staff, we have created an unprecedented synergy between arcane talent and military doctrine. These master casters now provide direct oversight of our shock tactics, ensuring every offensive strike is backed by state-authorized magical superiority."
 
  beua_policy_mil_150:0 "Battlemage Act"
- desc_beua_policy_mil_150:0 "We will establish a program to recruit and train battlemages to enhance our military capabilities."
+ desc_beua_policy_mil_150:0 "We have standardized our training for mercenary mages, ensuring they fight with the same discipline as our own soldiers."
 
- beua_policy_mil_151:0 "Student Mage Internship"
- desc_beua_policy_mil_151:0 "We will establish a program to recruit and train student mages to support our magical efforts."
+ beua_policy_mil_151:0 "Magical Combat Integration"
+ desc_beua_policy_mil_151:0 "Our conscription system is now augmented by magocratic evaluation, allowing us to deploy recruits according to their inherent arcane and physical capacity. This ensures our front lines are bolstered by specialized shock troops capable of decisive breakthroughs."
 
  beua_policy_mil_152:0 "Magic Forges Initiative"
  desc_beua_policy_mil_152:0 "We will establish magical forges to enhance the production of enchanted weapons and armor for our troops."
 
  beua_policy_mil_153:0 "Magetower Barrage Act"
- desc_beua_policy_mil_153:0 "We will establish a program to enhance the defensive capabilities of our magetowers, allowing them to unleash devastating magical barrages on enemy forces."
+ desc_beua_policy_mil_153:0 "We have synchronized our magetowers to unleash coordinated magical barrages, creating a lethal environment for any invaders attempting to cross our borders."
 
- beua_policy_mil_154:0 "Evocation Act"
- desc_beua_policy_mil_154:0 "We will establish a program to enhance the evocation capabilities of our mages, allowing them to summon powerful elemental forces in battle."
+ beua_policy_mil_154:0 "Command-Level Arcane Augmentation"
+ desc_beua_policy_mil_154:0 "The state mandates that all high-ranking commanders be supported by a magocratic advisory staff. This integration allows our leaders to exploit battlefield vulnerabilities with superior intensity, ensuring every shock assault is decisive."
 
- beua_policy_mil_155:0 "Artillery Enchantment Act"
- desc_beua_policy_mil_155:0 "We will establish a program to enhance the capabilities of our artillery through magical means, allowing for more powerful and accurate bombardments."
+ beua_policy_mil_155:0 "Arcane Ballistics Integration"
+ desc_beua_policy_mil_155:0 "By integrating our magocratic research into our artillery and ranged doctrines, we have enabled our commanders to apply magical precision to every volley. Our field officers now use arcane targeting arrays to maximize the destructive output of our fire formations."
 
- beua_policy_mil_156:0 "Damestear Weapons Act"
- desc_beua_policy_mil_156:0 "We will develop and produce advanced weaponry using Damestear technology, enhancing our military capabilities."
+ beua_policy_mil_156:0 "Damestear Armament Act"
+ desc_beua_policy_mil_156:0 "By standardizing Damestear-reinforced plating across our elite formations, we have achieved a new threshold in defensive durability. These advanced materials effectively neutralize the kinetic energy of enemy shock charges, ensuring our battle lines remain unbroken."
 
  beua_policy_mil_157:0 "Wallbreaker Initiative"
  desc_beua_policy_mil_157:0 "We will establish a program to train and equip specialized troops to breach enemy fortifications and defenses, allowing for more effective assaults on fortified positions."
 
- beua_policy_mil_158:0 "Oral Folklore Act"
- desc_beua_policy_mil_158:0 "We will promote the collection and preservation of oral folklore traditions, ensuring that the stories and legends of our people are passed down through generations."
+ beua_policy_mil_158:0 "Folklore Integration Act"
+ desc_beua_policy_mil_158:0 "We have consolidated our oral traditions to better inform our military identity. The preservation of these ancestral monster-legends significantly enhances the martial tradition and defensive resolve of our armies."
 
- beua_policy_mil_159:0 "Elite Spirit Initiative"
- desc_beua_policy_mil_159:0 "We will establish a program to enhance the morale and fighting spirit of our troops, ensuring they are motivated and ready to face any challenge on the battlefield."
+ beua_policy_mil_159:0 "Primal Combat Conditioning"
+ desc_beua_policy_mil_159:0 "By integrating our monstrous heritage into standard military training, we have cultivated a warrior class with unparalleled resolve. These elite units are conditioned to harness their inherent ferocity, ensuring they maintain maximum combat efficiency and unwavering morale in the face of any opposition."
 
  beua_policy_mil_160:0 "Total War Act"
  desc_beua_policy_mil_160:0 "We will adopt a total war strategy, mobilizing all resources and manpower to achieve victory at any cost."
 
- beua_policy_mil_161:0 "Military Reform Act"
- desc_beua_policy_mil_161:0 "We will implement a series of reforms aimed at modernizing our military structure, improving training, and enhancing the overall effectiveness of our armed forces."
+ beua_policy_mil_161:0 "Monstrous Command Standardization"
+ desc_beua_policy_mil_161:0 "By integrating our monstrous regiments into the formal General Staff doctrine, we have eliminated the chaos inherent in primitive warfare. These forces now operate within a structured, highly professional chain of command, ensuring our unique assets perform with consistent tactical precision."
 
- beua_policy_mil_162:0 "Bootcamp Act"
- desc_beua_policy_mil_162:0 "We will establish a bootcamp program to provide intensive training for new recruits, ensuring they are well-prepared for the challenges of military service."
+ beua_policy_mil_162:0 "Beast-Infantry Drills"
+ desc_beua_policy_mil_162:0 "We have standardized the training regimen for our monstrous infantry, significantly increasing the speed of combat drill acquisition and ensuring long-term tactical proficiency."
 
- beua_policy_mil_163:0 "Mass Assault Doctrine"
- desc_beua_policy_mil_163:0 "We will adopt a mass assault doctrine, focusing on overwhelming enemy positions with concentrated force and rapid maneuvers."
+ beua_policy_mil_163:0 "Mass Monstrous Levy"
+ desc_beua_policy_mil_163:0 "Our conscription efforts now leverage the raw combat drive of our monstrous subjects, ensuring that our mass-mobilized armies possess the high morale needed for total victory."
 
- beua_policy_mil_164:0 "Engineer Slavery Act"
- desc_beua_policy_mil_164:0 "We will establish a program to recruit and train engineers to support our military efforts."
+ beua_policy_mil_164:0 "Hard-Labor Fortification Initiative"
+ desc_beua_policy_mil_164:0 "By tasking our monstrous subject populations with the construction and maintenance of imperial fortifications, we have achieved a highly efficient defensive infrastructure. These laborers provide the raw, tireless output required to keep our fortresses perpetually upgraded and reinforced at minimal state expense."
 
  beua_policy_mil_165:0 "Banditry Protection Act"
  desc_beua_policy_mil_165:0 "We will implement measures to protect our trade routes and supply lines from bandit attacks."
 
  beua_policy_mil_166:0 "Swarm Tactics Initiative"
- desc_beua_policy_mil_166:0 "We will adopt swarm tactics, focusing on overwhelming enemy forces with rapid, coordinated attacks from multiple directions."
+ desc_beua_policy_mil_166:0 "We have standardized swarm-maneuver tactics for our monstrous infantry, allowing for rapid, coordinated strikes that bypass traditional logistical bottlenecks and overwhelm hostile forces."
 
  beua_policy_mil_167:0 "Militarized Horde Act"
  desc_beua_policy_mil_167:0 "We will adopt a militarized approach to our horde tactics, focusing on discipline and organization to enhance our combat effectiveness."
@@ -503,44 +503,44 @@
  beua_policy_mil_168:0 "Monstrous Herding Act"
  desc_beua_policy_mil_168:0 "We will implement a program to domesticate and train monstrous creatures, utilizing them as a unique asset in our military forces."
 
- beua_policy_mil_169:0 "Stolen Cannons Initiative"
- desc_beua_policy_mil_169:0 "We will establish a program to recover and repurpose cannons and artillery pieces that have been lost or abandoned in previous conflicts."
+ beua_policy_mil_169:0 "Industrial Salvage Initiative"
+ desc_beua_policy_mil_169:0 "We have standardized the recovery and integration of ordnance abandoned on the field of battle. By applying industrial-grade refurbishing protocols to this captured material, we have significantly optimized our military procurement costs, ensuring our armies are equipped with minimal state expenditure."
 
- beua_policy_mil_170:0 "Army on Wheels Act"
- desc_beua_policy_mil_170:0 "We will implement a program to enhance the mobility and logistics of our army, allowing for rapid deployment and maneuverability on the battlefield."
+ beua_policy_mil_170:0 "Imperial Rapid-Assault Doctrine"
+ desc_beua_policy_mil_170:0 "The state mandates that all offensive operations be supported by high-speed artillery mobility teams. This industrial synergy ensures our armies maintain relentless momentum, allowing us to deploy superior firepower against fortified positions without sacrificing our forward pace."
 
- beua_policy_mil_171:0 "Standardized Firearms Act"
- desc_beua_policy_mil_171:0 "We will implement a standardized firearms program to improve the quality and reliability of our infantry weapons."
+ beua_policy_mil_171:0 "Precision Armament Standard"
+ desc_beua_policy_mil_171:0 "By mandating total interchangeability in our firearms production, we have removed the unpredictability of field-serviced equipment. This industrial-grade uniformity ensures every soldier is armed with a reliable, high-performance weapon, fostering an unmatched level of professional discipline within our ranks."
 
  beua_policy_mil_172:0 "Ammunition Production Act"
- desc_beua_policy_mil_172:0 "We will establish a program to increase the production of ammunition, ensuring our forces are well-equipped for sustained combat."
+ desc_beua_policy_mil_172:0 "Our standardized approach to mass-producing munitions has optimized our industrial output and simplified logistical chains. This program ensures that our large-scale army deployments are both economically sustainable and fully prepared for sustained combat."
 
- beua_policy_mil_173:0 "Military Textbook Proliferation Act"
- desc_beua_policy_mil_173:0 "We will promote the widespread distribution of military textbooks and training materials to ensure that our troops are well-versed in the latest tactics and strategies."
+ beua_policy_mil_173:0 "Imperial Trade-Control Act"
+ desc_beua_policy_mil_173:0 "The state enforces the use of our professional military apparatus to secure the stability of our global trade networks. Through this command oversight, we ensure that our commercial influence remains uncontested, while our standing legions maintain their prestige through constant, meaningful engagement."
 
- beua_policy_mil_174:0 "Factory Specialization Act"
- desc_beua_policy_mil_174:0 "We will implement a factory specialization program to enhance the efficiency and output of our military-industrial complex."
+ beua_policy_mil_174:0 "Imperial Armament Priority"
+ desc_beua_policy_mil_174:0 "The state hereby mandates that all industrial production be redirected toward the sustained operational capacity of our professional standing forces. This ruthless prioritization ensures our soldiers possess the highest standard of equipment, effectively sharpening the iron discipline of our imperial protectors at the expense of commercial surplus."
 
- beua_policy_mil_175:0 "Mobilization Act"
- desc_beua_policy_mil_175:0 "We will implement a mobilization act to ensure that our military forces are prepared for rapid deployment and can respond effectively to any threats."
+ beua_policy_mil_175:0 "Unified Recruitment Act"
+ desc_beua_policy_mil_175:0 "We have standardized our national conscription procedures, syncing them with our industrial output capabilities. This integration has dramatically streamlined the intake of new troops, allowing for the rapid and sustained expansion of our military reserves."
 
  beua_policy_mil_176:0 "Fortress Renovation Act"
  desc_beua_policy_mil_176:0 "We will implement a fortress renovation act to upgrade and fortify our existing military fortifications, ensuring they are capable of withstanding modern warfare."
 
  beua_policy_mil_177:0 "Thunder Warfare Decree"
- desc_beua_policy_mil_177:0 "We will implement a thunder warfare decree to enhance our military capabilities through the integration of advanced technology and tactics, ensuring our forces are prepared for the challenges of modern warfare."
+ desc_beua_policy_mil_177:0 "Our military has integrated industrial-grade artillery logistics into our tactical command structure. This synthesis allows our forces to maintain an unprecedented siege velocity, turning the act of fortress-breaching into a streamlined imperial administrative process."
 
  beua_policy_mil_178:0 "Mechanist Decree"
- desc_beua_policy_mil_178:0 "We will implement a mechanist decree to promote the development and integration of advanced machinery and technology within our military forces, enhancing their effectiveness and efficiency on the battlefield."
+ desc_beua_policy_mil_178:0 "We have institutionalized the Mechanist doctrine across all military production sectors. This centralized oversight accelerates the integration of advanced technology, significantly increasing manufacturing output while reducing the maintenance burdens of our standing legions."
 
  beua_policy_mil_179:0 "Cavalry Modernization Act"
  desc_beua_policy_mil_179:0 "We will implement a cavalry modernization act to upgrade our cavalry units with the latest equipment and training, ensuring they remain a formidable force on the battlefield."
 
- beua_policy_mil_180:0 "Artillery Bombardment Decree"
- desc_beua_policy_mil_180:0 "We will implement an artillery bombardment decree to enhance our long-range strike capabilities, allowing us to deliver devastating firepower on enemy positions from a distance."
+ beua_policy_mil_180:0 "Imperial Fire-Superiority Act"
+ desc_beua_policy_mil_180:0 "The state hereby dictates that all artillery units must operate at maximum industrial capacity. Through the enforcement of rigorous bombardment protocols and the use of high-grade munitions, we guarantee that our fire superiority remains an insurmountable barrier to all who oppose the empire."
 
- beua_policy_mil_181:0 "Mother Bear Act"
- desc_beua_policy_mil_181:0 "We will adopt a policy of protecting our interests and allies with unwavering resolve, ensuring that any threats to our realm are met with overwhelming force."
+ beua_policy_mil_181:0 "Guardian Sovereignty Doctrine"
+ desc_beua_policy_mil_181:0 "The empire acknowledges its obligation to provide a defensive shield for its subordinate states and strategic partners. By projecting a posture of absolute resolve, we maintain the stability of our influence network, ensuring that any transgression against our interests or those of our allies is met with rapid, overwhelming retaliation."
 
  beua_policy_mil_182:0 "Imperial Elite Act"
  desc_beua_policy_mil_182:0 "We will establish a program to recruit and train an elite cadre of soldiers, ensuring that our most capable warriors are prepared to defend the empire and its interests."
@@ -548,14 +548,14 @@
  beua_policy_mil_183:0 "Imperial Campaigns Act"
  desc_beua_policy_mil_183:0 "We will adopt a strategy of conducting imperial campaigns to expand our influence and control over key territories, utilizing both military force and diplomatic efforts to achieve our objectives."
 
- beua_policy_mil_184:0 "Model Officer Program"
- desc_beua_policy_mil_184:0 "We will implement the Model Officer Program to identify and promote exemplary officers within our ranks, fostering a culture of excellence and leadership throughout the military."
+ beua_policy_mil_184:0 "Bureaucratic Command Standardization"
+ desc_beua_policy_mil_184:0 "We have standardized the operational and administrative procedures of our military leadership. This systemic approach ensures that our forces become more disciplined and professional with each passing season, creating a military infrastructure that perpetually refines its own efficiency."
 
- beua_policy_mil_185:0 "Army of Unity Decree"
- desc_beua_policy_mil_185:0 "We will implement the Army of Unity Decree to promote cohesion and solidarity among our military forces, ensuring that all branches work together seamlessly to achieve our strategic objectives."
+ beua_policy_mil_185:0 "Continuous Readiness Protocol"
+ desc_beua_policy_mil_185:0 "By integrating rigorous, repetitive training into our permanent military structure, we have codified a state of perpetual combat readiness that minimizes the atrophy of martial discipline."
 
- beua_policy_mil_186:0 "Heroes of the Empire"
- desc_beua_policy_mil_186:0 "We will implement the Heroes of the Empire program to recognize and reward acts of valor and heroism among our military personnel, fostering a culture of bravery and dedication to the empire."
+ beua_policy_mil_186:0 "Imperial Auxiliary Act"
+ desc_beua_policy_mil_186:0 "The empire authorizes the extensive use of state-vetted private contractors to supplement our legions. Through rigid cost-control and logistical oversight, these auxiliary units provide the necessary force projection required for imperial expansion at a fraction of standard maintenance costs."
 
  beua_policy_mil_187:0 "Imperial Musket Standardization Act"
  desc_beua_policy_mil_187:0 "We will implement the Imperial Musket Standardization Act to standardize the production and distribution of muskets within our military forces, ensuring that all soldiers are equipped with reliable and effective weaponry."
@@ -563,14 +563,14 @@
  beua_policy_mil_188:0 "Edict of Wexkeep"
  desc_beua_policy_mil_188:0 "We will implement the Edict of Wexkeep to fortify our border defenses and enhance the security of our frontier regions, ensuring that our empire remains safe from external threats."
 
- beua_policy_mil_189:0 "Lilac Initiative"
- desc_beua_policy_mil_189:0 "We will implement the Lilac Initiative to promote the use of advanced reconnaissance and intelligence-gathering techniques, ensuring that our military is always one step ahead of potential threats."
+ beua_policy_mil_189:0 "Lilac Intelligence Protocol"
+ desc_beua_policy_mil_189:0 "We have institutionalized advanced reconnaissance techniques to monitor potential threats. This high-level situational awareness enables our forces to brace against incoming attacks, effectively mitigating shock damage by denying the enemy the element of surprise."
 
- beua_policy_mil_190:0 "Imperial Mobilization Act"
- desc_beua_policy_mil_190:0 "We will implement the Imperial Mobilization Act to streamline the process of mobilizing our military forces in times of crisis, ensuring a rapid and efficient response to threats against the empire."
+ beua_policy_mil_190:0 "Total Mobilization Protocol"
+ desc_beua_policy_mil_190:0 "By refining our national administrative and logistical frameworks, we have achieved a radical expansion of our deployable force limit. This integration of industrial efficiency into our military command allows us to maintain a significantly larger standing force while simultaneously driving down individual unit maintenance costs."
 
  beua_policy_mil_191:0 "Imperial Knights Initiative"
- desc_beua_policy_mil_191:0 "We will implement the Imperial Knights Initiative to establish a prestigious order of knights dedicated to the defense of the empire, promoting chivalry and martial excellence among our nobility."
+ desc_beua_policy_mil_191:0 "We have standardized our heavy cavalry units into a dedicated shock-force. This initiative enhances their tactical lethality while streamlining their maintenance costs, cementing their role as the empire’s premier mobile striking force."
 
- beua_policy_mil_192:0 "Imperial Guns Initiative"
- desc_beua_policy_mil_192:0 "We will implement the Imperial Guns Initiative to enhance the production and deployment of artillery and firearms within our military, ensuring that our forces are equipped with the most advanced weaponry available."
+ beua_policy_mil_192:0 "Imperial Firepower Mandate"
+ desc_beua_policy_mil_192:0 "The state hereby prohibits the use of non-standard munitions and weaponry within the legions. By enforcing strict adherence to our industrial output templates, we have streamlined the acquisition process for both infantry firearms and heavy ordnance, ensuring the dominance of our technological superiority at a reduced fiscal burden."
