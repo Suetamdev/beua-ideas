@@ -4,12 +4,24 @@ spriteTypes = {
 		texturefile = "gfx//interface//subject//icon_beua_appanage.dds"
 	}
 	spriteType = {
-		name = "GFX_icon_diplomacy_am_appanage"
+		name = "GFX_icon_diplomacy_am_beua_appanage"
 		texturefile = "gfx//interface//subject//icon_diplomacy_am_beua_appanage.dds"
 	}
 	spriteType = {
-		name = "GFX_icon_diplomacy_lead_appanage"
+		name = "GFX_icon_diplomacy_lead_beua_appanage"
 		texturefile = "gfx//interface//subject//icon_diplomacy_lead_beua_appanage.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_beua_brother_kingdom"
+		texturefile = "gfx//interface//subject//icon_beua_brother_kingdom.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_brother_kingdom"
+		texturefile = "gfx//interface//subject//icon_diplomacy_am_beua_brother_kingdom.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_brother_kingdom"
+		texturefile = "gfx//interface//subject//icon_diplomacy_lead_beua_brother_kingdom.dds"
 	}
 	spriteType = {
 		name = "GFX_icon_beua_dominion_subject_type"

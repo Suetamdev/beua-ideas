@@ -15,7 +15,7 @@ beua_force_government_change = {
 				NOT = { dynasty = ROOT }
 				NOT = { culture_group = ROOT }
 				NOT = { religion = ROOT }
-				NOT = { government = ROOT }
+				NOT = { government = monarchy }
 			}
 		}
 	}
@@ -46,7 +46,7 @@ beua_force_government_change = {
 				NOT = { dynasty = ROOT }
 				NOT = { culture_group = ROOT }
 				NOT = { religion = ROOT }
-				NOT = { government = ROOT }
+				NOT = { government = monarchy }
 			}
 		}
 	}
@@ -70,6 +70,7 @@ beua_force_government_change = {
 			FROM = {
 				add_liberty_desire = 25
 				change_government = monarchy
+				add_government_reform = feudalism_reform
 			}
 		}
 
@@ -170,6 +171,10 @@ beua_appanage_promote_heir = {
 		}
 	}
 	is_allowed = {
+		has_idea = court_embassies
+		FROM = {
+			is_subject_of = ROOT
+		}
 		if = {
 			limit = {
 				FROM = { liberty_desire = 50 }
@@ -230,6 +235,10 @@ beua_appanage_create = {
 		}
 	}
 	is_allowed = {
+		has_idea = court_embassies
+		FROM = {
+			is_subject_of = ROOT
+		}
 		if = {
 			limit = { FROM = { liberty_desire = 25 } }
 			custom_trigger_tooltip = {
@@ -270,11 +279,13 @@ beua_appanage_create = {
 		}
 	}
 	on_accept = {
-		FROM = { grant_independence = { keep_liberty_desire = yes } }
 		create_subject = {
 			subject_type = beua_appanage
 			subject = FROM
 			keep_liberty_desire = yes
+		}
+		FROM = {
+			add_government_reform = feudalism_reform
 		}
 	}
 
@@ -288,14 +299,16 @@ beua_appanage_release = {
 	category = influence
 	require_acceptance = no
 	is_visible = {
-		has_idea = court_embassies
 		FROM = {
 			is_subject_of = ROOT
 			is_subject_of_type = beua_appanage
 		}
 	}
 	is_allowed = {
-		always = yes
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = beua_appanage
+		}
 	}
 	on_accept = {
 		FROM = {
@@ -351,7 +364,10 @@ beua_appanage_grant_war_rights = {
 		}
 	}
 	is_allowed = {
-		always = yes
+		has_idea = court_embassies
+		FROM = {
+			is_subject_of = ROOT
+		}
 	}
 	on_accept = {
 		FROM = {
@@ -381,7 +397,10 @@ beua_appanage_revoke_war_rights = {
 		}
 	}
 	is_allowed = {
-		always = yes
+		has_idea = court_embassies
+		FROM = {
+			is_subject_of = ROOT
+		}
 	}
 	on_accept = {
 		FROM = {
@@ -400,6 +419,602 @@ beua_appanage_revoke_war_rights = {
 
 	ai_will_do = {
 		always = no
+	}
+}
+
+########################################################
+####### Subject Brother Kingdom					 #######
+########################################################
+
+beua_establish_brother_kingdom = {
+	category = influence
+
+	alert_index = 6
+	alert_tooltip = beua_establish_brother_kingdom_alert_tooltip
+
+	require_acceptance = yes
+
+	is_visible = {
+		has_idea = international_nobility
+		FROM = {
+			government = monarchy
+			has_regency = no
+			NOT = {
+				OR = {
+					is_subject_of_type = beua_appanage
+					is_subject_of_type = beua_brother_kingdom
+					is_subject_of_type = personal_union
+				}
+			}
+		}
+	}
+
+	is_allowed = {
+		has_idea = international_nobility
+		NOT = { has_subject_of_type = beua_brother_kingdom }
+		is_at_war = no
+		months_of_ruling = 24
+		NOT = { 
+			truce_with = FROM 
+		}
+		FROM = {
+			is_at_war = no
+			months_of_ruling = 24
+			dynasty = ROOT
+		}
+		if = {
+			limit = {
+				FROM = {
+					is_subject_of = ROOT
+				}
+			}
+			FROM = {
+				NOT = { liberty_desire = 50 }
+			}
+		}
+	}
+
+	on_accept = {
+		create_subject = {
+			subject = FROM
+			subject_type = beua_brother_kingdom
+			keep_liberty_desire = yes
+		}
+		add_truce_with = FROM
+		FROM = {
+			if = {
+				limit = {
+					has_government_attribute = has_ruler_election
+				}
+				change_government = monarchy
+				add_government_reform = feudalism_reform
+			}
+		}
+	}
+
+	on_decline = {
+		FROM = {
+			clr_country_flag = beua_declined_establish_brother_kingdom
+			set_country_flag = beua_declined_establish_brother_kingdom
+			}
+		add_opinion = {
+			who = FROM
+			modifier = beua_declined_establish_brother_kingdom_opinion
+		}
+	}
+
+	ai_acceptance = {
+		add_entry = {
+            name = beua_ai_acceptance_diplomatic_opinion
+			export_to_variable = {
+				variable_name = ai_value
+				value = opinion
+				who = FROM
+				with = ROOT
+			}
+			multiply_variable = {
+				which = ai_value 
+				value = 0.125
+			}
+        }
+		add_entry = {
+			name = beua_ai_acceptance_trust_towards_root
+			export_to_variable = {
+				variable_name = ai_value
+				value = trust
+				who = FROM
+				with = ROOT
+			}			
+			subtract_variable = { 
+				which = ai_value
+				value = 50
+			}
+			#1 trust = +4 ai points
+			multiply_variable = {
+				which = ai_value
+				value = 0.4
+			}
+		}
+		add_entry = {
+			name = beua_ai_acceptance_diplomatic_reputation
+			export_to_variable = {
+				variable_name = ai_value
+				value = trigger_value:diplomatic_reputation
+			}
+			#1 rep = 5
+			multiply_variable = {
+				which = ai_value
+				value = 5
+			}
+		}
+		add_entry = {
+			name = beua_ai_acceptance_total_development
+			export_to_variable = {
+				variable_name = ai_value
+				value = total_development
+				who = FROM
+			}
+			#8 dev = -1
+			multiply_variable = {
+				which = ai_value
+				value = -0.125
+			}
+		}
+		add_entry = {
+			name = beua_ai_acceptance_diplomatic_has_subjects
+			limit = {
+				FROM = { num_of_subjects = 1 }
+			}
+			export_to_variable = {
+				variable_name = ai_value
+				value = 1
+			}
+			multiply_variable = {
+				which = ai_value
+				value = -25
+			}
+		}
+		add_entry = {
+			name = beua_ai_acceptance_attitude_neutral
+			limit = { FROM = { ai_attitude = { who = ROOT attitude = attitude_neutral } } }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = -20 }
+		}
+		add_entry = {
+			name = beua_ai_acceptance_attitude_rivalry
+			limit = { FROM = { ai_attitude = { who = ROOT attitude = attitude_rivalry } } }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = -1000 }
+		}
+		add_entry = {
+			name = beua_ai_acceptance_attitude_hostile
+			limit = { FROM = { ai_attitude = { who = ROOT attitude = attitude_hostile } } }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = -1000 }
+		}
+		add_entry = {
+			name = beua_ai_acceptance_attitude_friendly
+			limit = { FROM = { ai_attitude = { who = ROOT attitude = attitude_friendly } } }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = 20 }
+		}
+		add_entry = {
+			name = beua_ai_acceptance_attitude_threatened
+			limit = { FROM = { ai_attitude = { who = ROOT attitude = attitude_threatened } } }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = 20 }
+		}
+		add_entry = {
+			name = beua_ai_acceptance_attitude_outraged
+			limit = { FROM = { ai_attitude = { who = ROOT attitude = attitude_outraged } } }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = -1000 }
+		}
+		add_entry = {
+			name = beua_ai_acceptance_attitude_domineering
+			limit = { FROM = { ai_attitude = { who = ROOT attitude = attitude_domineering } } }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = -1000 }
+		}
+	}
+
+	ai_will_do = {
+		NOT = { personal_union = 2 }
+		FROM = {
+			is_emperor = no
+			OR = {
+				NOT = { has_country_flag = beua_declined_establish_brother_kingdom }
+				had_country_flag = { flag = beua_declined_establish_brother_kingdom days = 1825 }
+			}
+			NOT = { is_subject_of = ROOT }
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 3
+					OR = {
+						is_core = ROOT
+						is_permanent_claim = ROOT
+					}
+				}
+			}
+		}
+		OR = {
+			marriage_with = FROM
+			alliance_with = FROM
+		}
+	}
+}
+
+beua_make_brother_kingdom_to_personal_union = {
+	category = influence
+
+	alert_index = 2
+	alert_tooltip = beua_make_brother_kingdom_to_personal_union_alert_tooltip
+
+	require_acceptance = yes
+
+	is_visible = {
+		has_idea = international_nobility
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = beua_brother_kingdom
+		}
+	}
+
+	is_allowed = {
+		has_idea = international_nobility
+		hidden_trigger = {
+			FROM = {
+				is_subject_of = ROOT
+				is_subject_of_type = beua_brother_kingdom
+			}
+		}
+		months_of_ruling = 24
+		FROM = {
+			months_of_ruling = 24
+			dynasty = ROOT
+		}
+		if = {
+			limit = {
+				FROM = {
+					is_subject_of = ROOT
+				}
+			}
+			FROM = {
+				NOT = { liberty_desire = 50 }
+			}
+		}
+		FROM = {
+			custom_trigger_tooltip = {
+				tooltip = beua_make_brother_kingdom_to_personal_union_at_least_subject_for_25_years
+				years_in_vassalage_under = {
+					who = ROOT
+					years = 25
+					all_subject_country = yes
+				}
+			}
+		}
+	}
+
+	on_accept = {
+		create_subject = {
+			subject = FROM
+			subject_type = personal_union
+			keep_liberty_desire = yes
+		}
+	}
+
+	on_decline = {
+		if = {
+			add_prestige = -10
+			FROM = {
+				add_legitimacy = -5
+				clr_country_flag = beua_make_brother_kingdom_to_personal_union
+				set_country_flag = beua_make_brother_kingdom_to_personal_union
+			}
+		}
+	}
+
+	ai_acceptance = {
+		add_entry = {
+            name = beua_ai_acceptance_diplomatic_opinion
+			export_to_variable = {
+				variable_name = ai_value
+				value = opinion
+				who = FROM
+				with = ROOT
+			}
+			multiply_variable = {
+				which = ai_value 
+				value = 0.125
+			}
+        }
+		add_entry = {
+			name = beua_ai_acceptance_trust_towards_root
+			export_to_variable = {
+				variable_name = ai_value
+				value = trust
+				who = FROM
+				with = ROOT
+			}			
+			subtract_variable = { 
+				which = ai_value
+				value = 50
+			}
+			#1 trust = +4 ai points
+			multiply_variable = {
+				which = ai_value
+				value = 0.4
+			}
+		}
+		add_entry = {
+			name = beua_ai_acceptance_diplomatic_reputation
+			export_to_variable = {
+				variable_name = ai_value
+				value = trigger_value:diplomatic_reputation
+			}
+			#1 rep = 5
+			multiply_variable = {
+				which = ai_value
+				value = 5
+			}
+		}
+		add_entry = {
+			name = beua_ai_acceptance_total_development
+			export_to_variable = {
+				variable_name = ai_value
+				value = total_development
+				who = FROM
+			}
+			#8 dev = -1
+			multiply_variable = {
+				which = ai_value
+				value = -0.125
+			}
+		}
+		add_entry = {
+			name = beua_ai_acceptance_diplomatic_has_subjects
+			limit = {
+				FROM = { num_of_subjects = 1 }
+			}
+			export_to_variable = {
+				variable_name = ai_value
+				value = 1
+			}
+			multiply_variable = {
+				which = ai_value
+				value = -25
+			}
+		}
+		add_entry = {
+			name = beua_ai_acceptance_attitude_neutral
+			limit = { FROM = { ai_attitude = { who = ROOT attitude = attitude_neutral } } }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = -20 }
+		}
+		add_entry = {
+			name = beua_ai_acceptance_attitude_rivalry
+			limit = { FROM = { ai_attitude = { who = ROOT attitude = attitude_rivalry } } }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = -1000 }
+		}
+		add_entry = {
+			name = beua_ai_acceptance_attitude_hostile
+			limit = { FROM = { ai_attitude = { who = ROOT attitude = attitude_hostile } } }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = -1000 }
+		}
+		add_entry = {
+			name = beua_ai_acceptance_attitude_friendly
+			limit = { FROM = { ai_attitude = { who = ROOT attitude = attitude_friendly } } }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = 20 }
+		}
+		add_entry = {
+			name = beua_ai_acceptance_attitude_threatened
+			limit = { FROM = { ai_attitude = { who = ROOT attitude = attitude_threatened } } }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = 20 }
+		}
+		add_entry = {
+			name = beua_ai_acceptance_attitude_outraged
+			limit = { FROM = { ai_attitude = { who = ROOT attitude = attitude_outraged } } }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = -1000 }
+		}
+		add_entry = {
+			name = beua_ai_acceptance_attitude_domineering
+			limit = { FROM = { ai_attitude = { who = ROOT attitude = attitude_domineering } } }
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = -1000 }
+		}
+	}
+
+	ai_will_do = {
+		prestige = 1
+		FROM = {
+			has_opinion = {
+				who = ROOT
+				value = 100
+			}
+		}
+	}
+}
+
+beua_make_personal_union_to_brother_kingdom = {
+	category = influence
+
+	require_acceptance = no
+
+	is_visible = {
+		has_idea = international_nobility
+		has_heir = yes
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = personal_union
+			government = monarchy
+		}
+	}
+
+	is_allowed = {
+		has_idea = international_nobility
+		hidden_trigger = {
+			has_heir = yes
+			FROM = {
+				is_subject_of = ROOT
+				is_subject_of_type = personal_union
+				government = monarchy
+			}
+		}
+		has_regency = no
+		months_of_ruling = 60
+		legitimacy = 80
+		heir_age = 15
+		NOT = { truce_with = FROM }
+		is_at_war = no
+		FROM = {
+			is_at_war = no
+		}
+	}
+
+	on_accept = {
+		create_subject = {
+			subject = FROM
+			subject_type = brother_kingdom
+			keep_liberty_desire = yes
+		}
+
+		exile_heir_as = beua_new_brother_kingdom_ruler_from
+		
+		FROM = {
+				if = {
+					limit = {
+					has_government_attribute = has_ruler_election
+				}
+				change_government = monarchy
+				add_government_reform = feudalism_reform
+			}
+			define_ruler = {
+				dynasty = ROOT
+				claim = 100
+				age = 20
+				male = yes
+			}
+			set_heir = beua_new_brother_kingdom_ruler_from
+			kill_ruler = yes
+			add_stability = 1
+			add_liberty_desire = -10
+		}
+	}
+
+	ai_will_do = {
+		always = no
+	}
+}
+
+beua_join_brother_kingdom_wars = {
+	category = alliance
+
+	alert_index = 5
+	alert_tooltip = beua_join_brother_kingdom_wars_tooltip
+
+	require_acceptance = no
+
+	is_visible = {
+		has_idea = international_nobility
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = beua_brother_kingdom
+			is_at_war = yes
+		}
+		NOT = {
+			is_in_war = {
+				participants = FROM
+			}
+		}
+	}
+
+	is_allowed = {
+		has_idea = international_nobility
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = beua_brother_kingdom
+			is_at_war = yes
+		}
+		NOT = {
+			is_in_war = {
+				participants = FROM
+			}
+		}
+	}
+
+	on_accept = {
+		join_all_offensive_wars_of = FROM
+	}
+
+	on_decline = {
+	
+	}
+
+	ai_acceptance = {
+		
+	}
+
+	ai_will_do = {
+		always = yes
+	}
+}
+
+beua_cancel_brother_kingdom = {
+	category = influence
+
+	require_acceptance = no
+
+	is_visible = {
+		has_idea = international_nobility
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = beua_brother_kingdom
+		}
+	}
+
+	is_allowed = {
+		has_idea = international_nobility
+		hidden_trigger = {
+			FROM = {
+				is_subject_of = ROOT
+				is_subject_of_type = beua_brother_kingdom
+			}
+		}
+		NOT = { truce_with = FROM }
+		prestige = 0
+	}
+
+	on_accept = {
+		FROM = {
+			if = {
+				limit = {
+					NOT = { liberty_desire = 50 }
+				}
+				add_opinion = {
+					who = ROOT
+					modifier = vassal_abandoned
+				}
+			}
+			grant_independence = yes
+			add_truce_with = ROOT
+		}
+		add_truce_with = FROM
+		add_prestige = -25
+	}
+
+	ai_will_do = {
+		FROM = {
+			liberty_desire = 100
+			years_in_vassalage_under = {
+				who = ROOT
+				years = 50
+			}
+		}
 	}
 }
 
@@ -431,6 +1046,9 @@ beua_dominion_create = {
 	}
 
 	is_allowed = {
+		FROM = {
+			is_subject_of = ROOT
+		}
 		if = {
 			limit = { FROM = { liberty_desire = 25 } }
 			custom_trigger_tooltip = {

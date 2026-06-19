@@ -5,3 +5,13 @@ beua_is_beua_appanage = {
 beua_is_beua_dominion = {
 	opinion = 50
 }
+
+beua_is_brother_kingdom = {
+	opinion = 75
+}
+
+beua_declined_establish_brother_kingdom_opinion = {
+	opinion = -25
+	yearly_decay = 1
+	min = -100
+}

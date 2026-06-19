@@ -15,6 +15,31 @@ beua_appanage_subject = {
 }
 
 ########################################################
+####### Subject Borther Kingdom					 #######
+########################################################
+
+beua_brother_kingdom_subject = {
+	monarch_admin_power = 1
+	monarch_diplomatic_power = 1
+	monarch_military_power = 1
+}
+
+beua_brother_kingdom_other_religion_subject = {
+	liberty_desire = 25
+}
+
+beua_brother_kingdom_other_culture_group_subject = {
+	liberty_desire = 10
+}
+
+beua_brother_kingdom_overlord = {
+	legitimacy = 0.1
+	heir_chance = 0.1
+	manpower_recovery_speed = 0.05
+}
+
+
+########################################################
 ####### Subject Dominion 		                 #######
 ########################################################
 

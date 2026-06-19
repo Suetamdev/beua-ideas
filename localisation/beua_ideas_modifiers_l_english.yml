@@ -33,10 +33,18 @@
  beua_urban_industry:0 "Urban Industry"
  desc_beua_urban_industry:0 "The sprawling urban centers of Anbennar serve as major centers of industry."
 
- # Subject Dominion
+ # Subject Appanage
  beua_appanage_overlord:0 "Appanage Overlord"
  beua_appanage_subject:0 "Appanage Subject"
  beua_is_beua_appanage:0 "Appanage"
+
+ # Subject Brother Kingdom
+ beua_brother_kingdom_overlord:0 "Brother Kingdom Overlord"
+ beua_brother_kingdom_subject:0 "Brother Kingdom Subject"
+ beua_brother_kingdom_other_religion_subject:0 "Doesn't follow the true faith"
+ beua_brother_kingdom_other_culture_group_subject:0 "Is not in the same culture group"
+ beua_is_beua_brother_kingdom:0 "Brother Kingdom"
+ beua_declined_establish_brother_kingdom_opinion: "Demand for Brother Kingdom declined"
 
  # Subject Dominion
  beua_dominion_overlord:0 "Dominion Overlord"

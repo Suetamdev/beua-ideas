@@ -1,0 +1,14 @@
+﻿l_english:
+ # AI Reasons
+ beua_ai_acceptance_diplomatic_opinion:0 "Their opinion of us"
+ beua_ai_acceptance_trust_towards_root:0 "Their trust of us"
+ beua_ai_acceptance_diplomatic_reputation:0 "Diplomatic Reputation"
+ beua_ai_acceptance_total_development:0 "Due to their total development"
+ beua_ai_acceptance_diplomatic_has_subjects:0 "Has subjects of its own"
+ beua_ai_acceptance_attitude_neutral:0 "Neutral attitude towards us"
+ beua_ai_acceptance_attitude_rivalry:0 "Rivalry attitude towards us"
+ beua_ai_acceptance_attitude_hostile:0 "Hostile attitude towards us"
+ beua_ai_acceptance_attitude_friendly:0 "Friendly attitude towards us"
+ beua_ai_acceptance_attitude_threatened:0 "Threatened attitude towards us"
+ beua_ai_acceptance_attitude_outraged:0 "Outraged attitude towards us"
+ beua_ai_acceptance_attitude_domineering:0 "Domineering attitude towards us"

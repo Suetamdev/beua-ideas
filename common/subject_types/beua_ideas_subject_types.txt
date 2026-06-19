@@ -1,4 +1,5 @@
 beua_appanage = {}
+beua_brother_kingdom = {}
 beua_dominion = {}
 beua_client_dominion = {} 
 
@@ -43,6 +44,7 @@ beua_appanage = {
 	can_ally = {
 		independent_nations = yes
 		same_overlord = beua_appanage
+		same_overlord = beua_brother_kingdom
 		other_overlord = all
 	}
 	
@@ -57,6 +59,97 @@ beua_appanage = {
 
 	overlord_opinion_modifier = beua_is_beua_appanage
 	subject_opinion_modifier = beua_is_beua_appanage
+}
+
+beua_brother_kingdom = {
+	copy_from = default
+	count = personal_union
+
+	# Graphics:
+	sprite = GFX_icon_beua_brother_kingdom
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_brother_kingdom
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_brother_kingdom
+
+	# Properties:
+	overlord_can_attack = no
+	can_have_subjects_of_other_types = yes
+	overlord_protects_external = yes
+	gets_help_with_rebels = yes
+	allows_taking_land_without_independence = yes
+	can_concentrate_development = no
+	can_have_great_projects_moved_by_overlord = no
+	extend_trading_range = yes
+
+	max_government_rank = 2
+
+	liberty_desire_negative_prestige = 0.5
+	forcelimit_to_overlord = 0.1
+	military_focus = 0.66
+
+	relative_power_class = 1
+	diplomacy_view_class = 1
+
+	should_quit_wars_on_activation = no
+
+	can_fight = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_rival = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_ally = {
+		same_overlord = vassal
+		same_overlord = beua_appanage
+		same_overlord = beua_brother_kingdom
+	}
+	can_marry = {
+		same_overlord = vassal
+		same_overlord = beua_appanage
+		same_overlord = beua_brother_kingdom
+	}
+
+	# Subject Interactions:
+	send_officers = yes
+	divert_trade = yes
+	enforce_culture = yes
+	siphon_income = yes
+	grant_core_claim = no
+	send_additional_troops = yes
+	contribute_to_capital = yes
+	conscript_general = yes
+	block_settlement_growth = no
+	allow_settlement_growth = no
+
+	# Modifiers:
+	modifier_subject = clear
+	modifier_subject = {
+		modifier = beua_brother_kingdom_subject
+	}
+	modifier_subject = {
+		trigger = {
+			NOT = { religion = FROM }
+		}
+		modifier = beua_brother_kingdom_other_religion_subject
+	}
+	modifier_subject = {
+		trigger = {
+			NOT = { culture_group = FROM }
+		}
+		modifier = beua_brother_kingdom_other_culture_group_subject
+	}
+
+	modifier_overlord = clear
+	modifier_overlord = {
+		modifier = beua_brother_kingdom_overlord
+	}
+	modifier_overlord = {
+		modifier = vassal_subject
+	}
+
+	overlord_opinion_modifier = beua_is_brother_kingdom
+	subject_opinion_modifier = beua_is_brother_kingdom
 }
 
 beua_dominion = {
