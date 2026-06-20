@@ -15,3 +15,19 @@ beua_declined_establish_brother_kingdom_opinion = {
 	yearly_decay = 1
 	min = -100
 }
+
+beua_is_sister_republic = {
+	opinion = 75
+}
+
+beua_declined_establish_sister_republic_opinion = {
+	opinion = -25
+	yearly_decay = 1
+	min = -100
+}
+
+beua_declined_ask_for_sister_republic_opinion = {
+	opinion = -25
+	yearly_decay = 1
+	min = -100
+}

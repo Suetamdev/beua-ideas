@@ -1,10 +1,16 @@
 ﻿l_english:
  #Court Ideas
  respected_authority_desc:0 "Our authority carries the weight of our ruler's grandeur. As such it brings with it certainty, prestige and an air of superiority.\nReduced Max Absolutism Impact from Privileges: §G-20.0%§! \n§TEnables a decision to forcefully change the government of a subject.§! \n"
- court_embassies_desc:0 "Establishing diplomatic communication posts between us and our allies is a vital addition to our court's influence.\n\n§TEnables converting §YVassals§! and §YClient States§! into §YAppanages§!§!. §RThey need to have same dynasty Family to maintain loyalty§!"
+ court_embassies_desc:0 "Establishing diplomatic communication posts between us and our allies is a vital addition to our court's influence.\n\n§TEnables converting §YVassals§! and §YClient States§! into §YAppanages§!§!. §RMust share our dynasty to maintain loyalty.§!"
  
  #Influence Ideas
  postal_service_desc:0 "With communications being what they are, it is difficult to ensure that our diplomatic dispatches arrive in a timely fashion. Creating a network of post offices and courier rest stops will make it easier for our voice to be heard in distant lands. \n\n§TEnables converting §YVassals§! and §YClient States§! into §YDominions§!§!.\n\n"
 
  #Aristocracy Ideas
  international_nobility_desc:0 "International relations are a tricky business. Some say that the merchant class who are used to dealing with foreigners are best for this. Those who say this ignore the kindred ties that our noble families have established through the years, these ties should be taken advantage of to help our cause diplomatically. \n\n§TEnables establishing a §YBrother Kingdom§! with an independent nation or subject of the same dynasty. Note: Only one Brother Kingdom can be maintained at a time.§!"
+
+ # Divine Ideas
+ conviction_of_sin_desc:0 "The paladin may fight for the faithful, but it is the humble cleric that the common man knows best. We should ensure that there is no shortage of initiates or funding for them – it is through the work of the clerics that our people truly feel the gods protecting them. \n\n§TRequires our nation to be a §YRepublic§! or §YTheocracy§! to establish a §YSister Republic§! with an independent nation or subject of the same government form. Note: Only one Sister Republic can be maintained at a time.§!"
+
+ # Plutocracy Ideas
+ free_subjects_desc:0 "Although giving a servant a damn good thrashing might be satisfying, it is not the best way to actually get them to work harder. Some natural philosopher has hit on the idea of making profit the prime motivation for people, if we replace monetary rents with payment in kind, our peasants will be incentivized to produce more. \n\n§TRequires our nation to be a §YRepublic§! or §YTheocracy§! to establish a §YSister Republic§! with an independent nation or subject of the same government form. Note: Only one Sister Republic can be maintained at a time.§!"

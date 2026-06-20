@@ -14,8 +14,12 @@ beua_appanage_subject = {
 	naval_forcelimit_modifier = 0.1
 }
 
+beua_appanage_same_dinasty_subject = {
+	liberty_desire = -30
+}
+
 ########################################################
-####### Subject Borther Kingdom					 #######
+####### Subject Brother Kingdom					 #######
 ########################################################
 
 beua_brother_kingdom_subject = {
@@ -65,6 +69,28 @@ beua_client_dominion_subject = {
 	global_tax_income = -3
 	min_autonomy_in_territories = -0.1
 	development_cost = 0.25
+}
+
+########################################################
+####### Subject Sister Republic					 #######
+########################################################
+
+beua_sister_republic_subject = {
+	development_cost = -0.1
+	build_cost = -0.1
+	production_efficiency = 0.15
+	candidate_random_bonus = 1
+}
+
+beua_sister_republic_subject_low_development_modifier = {
+	liberty_desire = 25
+}
+
+beua_sister_republic_overlord = {
+	development_cost = -0.1
+	build_cost = -0.1
+	production_efficiency = 0.15
+	candidate_random_bonus = 1
 }
 
 ########################################################

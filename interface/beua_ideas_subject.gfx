@@ -35,4 +35,16 @@ spriteTypes = {
 		name = "GFX_icon_diplomacy_lead_beua_dominion_subject_type"
 		texturefile = "gfx/interface//subject//icon_diplomacy_lead_beua_dominion_subject_type.dds"
 	}
+	spriteType = {
+		name = "GFX_icon_beua_sister_republic"
+		texturefile = "gfx//interface//subject//icon_beua_sister_republic.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_beua_sister_republic"
+		texturefile = "gfx//interface//subject//icon_diplomacy_am_beua_sister_republic.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_beua_sister_republic"
+		texturefile = "gfx//interface//subject//icon_diplomacy_lead_beua_sister_republic.dds"
+	}
 }

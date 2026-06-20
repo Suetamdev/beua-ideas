@@ -48,3 +48,12 @@
  beua_dominion_integration:0 "Increase Integration"
  beua_dominion_exempt_tax:0 "Grant Tax Exemptions"
  beua_dominion_covert:0 "Investigate Independance Movements"
+
+ # Subject Sister Republic
+ beua_sister_republic: "Sister Republic"
+ beua_sister_republic_title: "Sister Republic"
+ beua_sister_republic_title_plural: "Sister Republics"
+ beua_sister_republic_long_desc: "A Sister Republic behaves similarly to a personal union. However, it is less restricted in its diplomacy and cannot break on the ruler's death. It can only be established by republics and theocracies and a country can have only §Y1§! Sister Republic. If the overlord and the Sister Republic do not have the same government (republic or theocracy) anymore, the Sister Republic will become free and enter an alliance with its former overlord. Both the overlord and the Sister Republic gain an equal bonus to development cost, construction cost and production efficiency.\n"
+ beua_sister_republic_is_our: "§Y$NAME$§! is our Sister Republic."
+ beua_sister_republic_no_overlord_dow: "You cannot declare war on your own Sister Republic."
+ is_beua_sister_republic:0 "Is Subject Type Sister Republic"

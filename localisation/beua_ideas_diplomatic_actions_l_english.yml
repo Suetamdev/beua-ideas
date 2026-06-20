@@ -15,7 +15,6 @@
  beua_appanage_create_too_much_liberty_desire:0 "§R- Liberty Desire of §Y[From.GetName]§! is above §Y25§!.§!"
  beua_appanage_create_from_is_not_monarchy:0 "§R- §Y[From.GetName]§! is NOT a §YMonarchy§!.§!"
  beua_appanage_create_from_is_not_vassal_of_root:0 "§R- §Y[From.GetName]§! is not a §YVassal§! of §Y[Root.GetName]§!.§!"
- beua_appanage_create_not_same_dynasty:0 "§R- The ruler of §Y[From.GetName]§! is not of our Dynasty. Only our own kin can be granted a Appanage.§!"
 
  # Appanage Release
  beua_appanage_release:0 "Dissolve the Appanage"
@@ -44,51 +43,78 @@
  beua_appanage_revoke_war_rights_desc:0 "Do you wish to revoke war rights to §Y[From.GetName]§!, forbiding them to declare their own wars other than wars for independence?\nThis action will increase §Y[From.GetName]§!'s liberty desire by §R20.0%§! and worsen their opinion of §Y[Root.GetName]§! by §R-50§!."
  beua_appanage_revoke_war_rights_tooltip:0 "Revoke our subject's right to wage wars against foreign powers on their own."
 
- # Establish Brother Kingdom
- beua_establish_brother_kingdom:0 "Establish Brother Kingdom"
- beua_establish_brother_kingdom_title:0 "Establish Brother Kingdom"
- beua_establish_brother_kingdom_desc:0 "Do you want to offer §Y[From.GetName]§! to become our Brother Kingdom? \n\nA Brother Kingdom must have the same dynasty as its overlord and can be converted into a personal union after §Y25 years§!. It joins its overlord's wars, but is barely restricted in its diplomacy. It gains a bonus to future ruler skill in all categories and grants its overlord a bonus to legitimacy, heir chance and manpower recovery speed. A Brother Kingdom can declare its independence diplomatically, which the overlord can decline, leading to an independence war. It can only be established by independent nations in other independent nations or vassals with the same dynasty."
- beua_establish_brother_kingdom_tooltip:0 "Make §Y[From.GetName]§! a [Root.GetAdjective] §YBrother Kingdom§!.\n\nA Brother Kingdom must have the same dynasty as its overlord and can be converted into a personal union after §Y25 years§!. It joins its overlord's wars, but is barely restricted in its diplomacy. It gains a bonus to future ruler skill in all categories and grants its overlord a bonus to legitimacy, heir chance and manpower recovery speed. A Brother Kingdom can declare its independence diplomatically, which the overlord can decline, leading to an independence war. It can only be established by independent nations in other independent nations or vassals with the same dynasty."
- beua_establish_brother_kingdom_alert_tooltip:0 "Establish Brother Kingdom"
- beua_establish_brother_kingdom_dialog:0 "§Y[This.GetName]§! offers us that we become their §YBrother Kingdom§!. \n\nA Brother Kingdom must have the same dynasty as its overlord and can be converted into a personal union after §Y25 years§!. It joins its overlord's wars, but is barely restricted in its diplomacy. It gains a bonus to future ruler skill in all categories and grants its overlord a bonus to legitimacy, heir chance and manpower recovery speed. A Brother Kingdom can declare its independence diplomatically, which the overlord can decline, leading to an independence war. It can only be established by independent nations in other independent nations or vassals with the same dynasty. \n\nDo you want to accept?"
+ # Appanage Join Wars
+ beua_appanage_join_wars:0 "Join Appanage War"
+ beua_appanage_join_wars_title:0 "Join Appanage War"
+ beua_appanage_join_wars_desc:0 "Commit our military forces to join the ongoing offensive wars of our §YAppanage§!, §Y[From.GetName]§!."
+ beua_appanage_join_wars_tooltip:0 "Join the offensive wars of our §YAppanage§!.\n"
+ beua_appanage_join_wars_alert_tooltip:0 "Join Appanage War"
 
- # Make Brother Kingdom To Personal Union
- beua_make_brother_kingdom_to_personal_union: "Convert to Personal Union"
- beua_make_brother_kingdom_to_personal_union_title: "Convert to Personal Union"
- beua_make_brother_kingdom_to_personal_union_desc: "Do you want to demand from §Y[From.GetName]§! to become our Personal Union? \n[personal_union_desc]"
- beua_make_brother_kingdom_to_personal_union_tooltip: "Make your Brother Kingdom §Y[From.GetName]§! to a §YPersonal Union§!.\n"
- beua_make_brother_kingdom_to_personal_union_alert_tooltip: "Convert to Personal Union"
- beua_make_brother_kingdom_to_personal_union_dialog: "§Y[This.GetName]§! demands that we become their §YPersonal Union§!. \n[personal_union_desc] \nDo you want to accept?"
- beua_make_brother_kingdom_to_personal_union_at_least_subject_for_25_years: "Is a subject under §Y[Root.GetName]§! for at least §Y25 years§! (currently §Y[From.GetYearsUnderCurrentOverlord]§!)"
+ # Brother Kingdom Establish 
+ beua_brother_kingdom_establish:0 "Establish Brother Kingdom"
+ beua_brother_kingdom_establish_title:0 "Establish Brother Kingdom"
+ beua_brother_kingdom_establish_desc:0 "Do you want to offer §Y[From.GetName]§! to become our Brother Kingdom? \n\nA Brother Kingdom must have the same dynasty as its overlord and can be converted into a personal union after §Y25 years§!. It joins its overlord's wars, but is barely restricted in its diplomacy. It gains a bonus to future ruler skill in all categories and grants its overlord a bonus to legitimacy, heir chance and manpower recovery speed. A Brother Kingdom can declare its independence diplomatically, which the overlord can decline, leading to an independence war. It can only be established by independent nations in other independent nations or vassals with the same dynasty."
+ beua_brother_kingdom_establish_tooltip:0 "Make §Y[From.GetName]§! a [Root.GetAdjective] §YBrother Kingdom§!.\n\nA Brother Kingdom must have the same dynasty as its overlord and can be converted into a personal union after §Y25 years§!. It joins its overlord's wars, but is barely restricted in its diplomacy. It gains a bonus to future ruler skill in all categories and grants its overlord a bonus to legitimacy, heir chance and manpower recovery speed. A Brother Kingdom can declare its independence diplomatically, which the overlord can decline, leading to an independence war. It can only be established by independent nations in other independent nations or vassals with the same dynasty."
+ beua_brother_kingdom_establish_alert_tooltip:0 "Establish Brother Kingdom"
+ beua_brother_kingdom_establish_dialog:0 "§Y[This.GetName]§! offers us that we become their §YBrother Kingdom§!. \n\nA Brother Kingdom must have the same dynasty as its overlord and can be converted into a personal union after §Y25 years§!. It joins its overlord's wars, but is barely restricted in its diplomacy. It gains a bonus to future ruler skill in all categories and grants its overlord a bonus to legitimacy, heir chance and manpower recovery speed. A Brother Kingdom can declare its independence diplomatically, which the overlord can decline, leading to an independence war. It can only be established by independent nations in other independent nations or vassals with the same dynasty. \n\nDo you want to accept?"
 
- # Make Personal Union To Brother Kingdom
- beua_make_personal_union_to_brother_kingdom:0 "Convert to Brother Kingdom"
- beua_make_personal_union_to_brother_kingdom_title:0 "Convert to Brother Kingdom"
- beua_make_personal_union_to_brother_kingdom_desc:0 "Do you want to make your heir §Y[Root.Heir.GetName]§! (£adm£ §G[Root.GetHeirAdm]§! / £dip£ §G[Root.GetHeirDip]§! / £mil£ §G[Root.GetHeirMil]§!) the ruler of §Y[From.GetName]§!? \n\nThis will change their liberty desire by §G-10%§!. [Root.Heir.GetSheHeCap] will be removed as your heir, and §Y[From.GetName]§! will be integrated as a §YBrother Kingdom§!.\n\n§YBrother Kingdom Status:§!\nA Brother Kingdom must have the same dynasty as its overlord and can be converted into a personal union after §Y25 years§!. It joins its overlord's wars, but is barely restricted in its diplomacy. It gains a bonus to future ruler skill in all categories and grants its overlord a bonus to legitimacy, heir chance, and manpower recovery speed. A Brother Kingdom can declare its independence diplomatically, which the overlord can decline, leading to an independence war. It can only be established by independent nations in other independent nations or vassals with the same dynasty."
- beua_make_personal_union_to_brother_kingdom_tooltip:0 "Make your Personal Union §Y[From.GetName]§! a §YBrother Kingdom§!.\n\n§YBrother Kingdom Status:§!\nA Brother Kingdom must have the same dynasty as its overlord and can be converted into a personal union after §Y25 years§!. It joins its overlord's wars, but is barely restricted in its diplomacy. It gains a bonus to future ruler skill in all categories and grants its overlord a bonus to legitimacy, heir chance, and manpower recovery speed. A Brother Kingdom can declare its independence diplomatically, which the overlord can decline, leading to an independence war. It can only be established by independent nations in other independent nations or vassals with the same dynasty."
+ # Brother Kingdom To Personal Union
+ beua_brother_kingdom_to_personal_union: "Convert to Personal Union"
+ beua_brother_kingdom_to_personal_union_title: "Convert to Personal Union"
+ beua_brother_kingdom_to_personal_union_desc: "Do you want to demand from §Y[From.GetName]§! to become our Personal Union? \n[personal_union_desc]"
+ beua_brother_kingdom_to_personal_union_tooltip: "Make your Brother Kingdom §Y[From.GetName]§! to a §YPersonal Union§!.\n"
+ beua_brother_kingdom_to_personal_union_alert_tooltip: "Convert to Personal Union"
+ beua_brother_kingdom_to_personal_union_dialog: "§Y[This.GetName]§! demands that we become their §YPersonal Union§!. \n[personal_union_desc] \nDo you want to accept?"
+ beua_brother_kingdom_to_personal_union_at_least_subject_for_25_years: "Is a subject under §Y[Root.GetName]§! for at least §Y25 years§! (currently §Y[From.GetYearsUnderCurrentOverlord]§!)"
 
- # Join Brother Kingdom Wars
- beua_join_brother_kingdom_wars:0 "Join Brother Kingdom Wars"
- beua_join_brother_kingdom_wars_title:0 "Join Brother Kingdom Wars"
- beua_join_brother_kingdom_wars_desc:0 "Our forces are mobilized to support the ongoing offensive campaigns of our §YBrother Kingdom§!, §Y[From.GetName]§!."
- beua_join_brother_kingdom_wars_tooltip:0 "Commit our forces to join the offensive wars of our §YBrother Kingdom§!.\n"
- beua_join_brother_kingdom_alert_tooltip:0 "Join Brother Kingdom Wars"
+ # Brother Kingdom Personal Union To Brother Kingdom
+ beua_brother_kingdom_personal_union_to_brother_kingdom:0 "Convert to Brother Kingdom"
+ beua_brother_kingdom_personal_union_to_brother_kingdom_title:0 "Convert to Brother Kingdom"
+ beua_brother_kingdom_personal_union_to_brother_kingdom_desc:0 "Do you want to make your heir §Y[Root.Heir.GetName]§! (£adm£ §G[Root.GetHeirAdm]§! / £dip£ §G[Root.GetHeirDip]§! / £mil£ §G[Root.GetHeirMil]§!) the ruler of §Y[From.GetName]§!? \n\nThis will change their liberty desire by §G-10%§!. [Root.Heir.GetSheHeCap] will be removed as your heir, and §Y[From.GetName]§! will be integrated as a §YBrother Kingdom§!.\n\n§YBrother Kingdom Status:§!\nA Brother Kingdom must have the same dynasty as its overlord and can be converted into a personal union after §Y25 years§!. It joins its overlord's wars, but is barely restricted in its diplomacy. It gains a bonus to future ruler skill in all categories and grants its overlord a bonus to legitimacy, heir chance, and manpower recovery speed. A Brother Kingdom can declare its independence diplomatically, which the overlord can decline, leading to an independence war. It can only be established by independent nations in other independent nations or vassals with the same dynasty."
+ beua_brother_kingdom_personal_union_to_brother_kingdom_tooltip:0 "Make your Personal Union §Y[From.GetName]§! a §YBrother Kingdom§!.\n\n§YBrother Kingdom Status:§!\nA Brother Kingdom must have the same dynasty as its overlord and can be converted into a personal union after §Y25 years§!. It joins its overlord's wars, but is barely restricted in its diplomacy. It gains a bonus to future ruler skill in all categories and grants its overlord a bonus to legitimacy, heir chance, and manpower recovery speed. A Brother Kingdom can declare its independence diplomatically, which the overlord can decline, leading to an independence war. It can only be established by independent nations in other independent nations or vassals with the same dynasty."
 
- # Cancel Brother Kingdom
- beua_cancel_brother_kingdom: "Release Brother Kingdom"
- beua_cancel_brother_kingdom_title: "Release Brother Kingdom"
- beua_cancel_brother_kingdom_desc: "Cancel the dependency of §Y[From.GetName]§! of us. This will decrease their opinion about us by §R-200§!, if their liberty desire is below §Y50%§!. We will also lose §R25§! prestige and gain a truce with them for §Y5 years§!."
- beua_cancel_brother_kingdom_tooltip: "Cancel the vassalisation of §Y[From.GetName]§! and grant them independence.\n"
+ # Brother Kingdom Join Wars
+ beua_brother_kingdom_join_wars:0 "Join Brother Kingdom Wars"
+ beua_brother_kingdom_join_wars_title:0 "Join Brother Kingdom Wars"
+ beua_brother_kingdom_join_wars_desc:0 "Our forces are mobilized to support the ongoing offensive campaigns of our §YBrother Kingdom§!, §Y[From.GetName]§!."
+ beua_brother_kingdom_join_wars_tooltip:0 "Commit our forces to join the offensive wars of our §YBrother Kingdom§!.\n"
+ beua_brother_kingdom_join_wars_alert_tooltip:0 "Join Brother Kingdom Wars"
+
+ # Brother Kingdom Release
+ beua_brother_kingdom_release: "Release Brother Kingdom"
+ beua_brother_kingdom_release_title: "Release Brother Kingdom"
+ beua_brother_kingdom_release_desc: "Cancel the dependency of §Y[From.GetName]§! of us. This will decrease their opinion about us by §R-200§!, if their liberty desire is below §Y50%§!. We will also lose §R25§! prestige and gain a truce with them for §Y5 years§!."
+ beua_brother_kingdom_release_tooltip: "Cancel the vassalisation of §Y[From.GetName]§! and grant them independence.\n"
  
- # Create Dominion From Vassal
+ # Dominion Create
  beua_dominion_create:0 "Establish Dominion"
  beua_dominion_create_title:0 "Establish Dominion"
  beua_dominion_create_tooltip:0 "We can make §Y[From.GetName]§! a dominion, guarenteeing their autonomy but also increasing their loyalty and unlocking new interactions."
  beua_dominion_create_desc:0 "This action will make §Y[From.GetName]§! a dominion, guarenteeing their autonomy but also increasing their loyalty and unlocking new interactions."
  beua_dominion_create_too_much_liberty_desire:0 "§R- Liberty Desire of §Y[From.GetName]§! is above §Y25§!.§!"
 
- # Rescind Dominion Status
+ # Dominion Rescind
  beua_dominion_rescind:0 "Rescind Dominion Status"
  beua_dominion_rescind_title:0 "Rescind Dominion Status"
  beua_dominion_rescind_tooltip:0 "We can turn §Y[From.GetName]§! back into a regular vassal, §Rincreasing their liberty desire by 25 and reducing our stability by 1.§!"
  beua_dominion_rescind_desc:0 "This action will turn §Y[From.GetName]§! back into a regular vassal, §Rincreasing their liberty desire by 25 and reducing our stability by 1.§!"
+
+ # Establish Sister Republic
+ beua_sister_republic_establish_title: "Establish Sister Republic"
+ beua_sister_republic_establish_desc: "Do you want to offer §Y[From.GetName]§! to become our Sister Republic? \n[sister_republic_desc]"
+ beua_sister_republic_establish_tooltip: "Make §Y[From.GetName]§! to a [Root.GetAdjective] §YSister Republic§!.\n"
+ beua_sister_republic_establish_alert_tooltip: "Establish Sister Republic"
+ beua_sister_republic_establish_dialog: "§Y[This.GetName]§! offers us that we become their §YSister Republic§!. \n[sister_republic_desc] \nDo you want to accept?"
+ beua_sister_republic_establish_has_at_least_one_third_of_prev_total_development:0 "§R- §Y[From.GetName]§! does not have at least 33% of the total development of §Y[Prev.GetName]§!.§!"
+
+ # Release Sister Republic
+ beua_sister_republic_release_title: "Release Sister Republic"
+ beua_sister_republic_release_desc: "Cancel the dependency of §Y[From.GetName]§! of us. This will decrease their opinion about us by §R-200§!, if their liberty desire is below §Y50%§!. We will also lose §R25§! prestige and gain a truce with them for §Y5 years§!."
+ beua_sister_republic_release_tooltip: "Cancel the vassalisation of §Y[From.GetName]§! and grant them independence.\n"
+
+ # Join Sister Republic Wars
+ beua_sister_republic_join_wars:0 "Join Sister Republic War"
+ beua_sister_republic_join_wars_title:0 "Join Sister Republic War"
+ beua_sister_republic_join_wars_desc:0 "Commit our military forces to join the ongoing offensive wars of our §YSister Republic§!, §Y[From.GetName]§!."
+ beua_sister_republic_join_wars_tooltip:0 "Join the offensive wars of our §YSister Republic§!.\n"
+ beua_sister_republic_join_wars_alert_tooltip:0 "Join Sister Republic War"

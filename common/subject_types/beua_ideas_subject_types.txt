@@ -1,7 +1,8 @@
 beua_appanage = {}
 beua_brother_kingdom = {}
 beua_dominion = {}
-beua_client_dominion = {} 
+beua_client_dominion = {}
+beua_sister_republic = {}
 
 beua_appanage = {
 	copy_from = appanage
@@ -33,18 +34,16 @@ beua_appanage = {
 
 	can_fight = {
 		independent_nations = yes
-		same_overlord = beua_appanage
 		other_overlord = all
 	}
 	can_rival = {
 		independent_nations = yes
-		same_overlord = beua_appanage
 		other_overlord = all
 	}
 	can_ally = {
-		independent_nations = yes
+		same_overlord = vassal
 		same_overlord = beua_appanage
-		same_overlord = beua_brother_kingdom
+		independent_nations = yes
 		other_overlord = all
 	}
 	
@@ -102,12 +101,14 @@ beua_brother_kingdom = {
 	can_ally = {
 		same_overlord = vassal
 		same_overlord = beua_appanage
-		same_overlord = beua_brother_kingdom
+		independent_nations = yes
+		other_overlord = all
 	}
 	can_marry = {
 		same_overlord = vassal
 		same_overlord = beua_appanage
-		same_overlord = beua_brother_kingdom
+		independent_nations = yes
+		other_overlord = all
 	}
 
 	# Subject Interactions:
@@ -175,7 +176,7 @@ beua_dominion = {
 	cities_required_for_bonuses = 5
 	liberty_desire_development_ratio = 0.1
 	liberty_desire_same_dynasty = -5.0
-	pays_overlord = 1.0							
+	pays_overlord = 1.0			
 	forcelimit_to_overlord = 0.1	
 	naval_forcelimit_to_overlord = 0.1				
 	military_focus = 1.0
@@ -185,7 +186,6 @@ beua_dominion = {
 	restoration_cb = cb_disloyal_vassal
 
 	scutage = yes
-	place_relative_on_throne = yes
 	divert_trade = yes
 	grant_core_claim = yes
 	grant_province = yes
@@ -222,5 +222,105 @@ beua_client_dominion = {
 	modifier_overlord = {
 		modifier = beua_client_dominion_overlord
 	}
+}
+
+beua_sister_republic = {
+	copy_from = default
+	count = vassal
+
+	# Graphics:
+	sprite = GFX_icon_beua_sister_republic
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_beua_sister_republic
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_beua_sister_republic
+
+	# Properties:
+	has_overlords_ruler = no
+	can_be_integrated = yes
+	overlord_can_attack = no
+	can_have_subjects_of_other_types = yes
+	takes_diplo_slot = no
+	overlord_protects_external = yes
+	gets_help_with_rebels = yes
+	allows_taking_land_without_independence = yes
+	can_transfer_in_peace = no
+	can_concentrate_development = no
+	can_have_great_projects_moved_by_overlord = no
+	extend_trading_range = yes
+	seize_court_resources = yes
+
+	trust_on_start = 60
+
+	base_liberty_desire = -5.0
+	liberty_desire_negative_prestige = 1.5
+	military_focus = 0.66
+
+	relative_power_class = 1
+	diplomacy_view_class = 1
+
+	should_quit_wars_on_activation = no
+
+	can_fight = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_rival = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_ally = {
+		same_overlord = vassal
+		same_overlord = beua_appanage
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_marry = {
+		same_overlord = vassal
+		same_overlord = beua_appanage
+		independent_nations = yes
+		other_overlord = all
+	}
+
+	restoration_cb = cb_disloyal_vassal
+
+	# Subject Interactions:
+	support_loyalists = yes
+	send_officers = yes
+	placate_rulers = no
+	enforce_religion = yes
+	enforce_culture = yes
+	siphon_income = yes
+	seize_territory = yes
+	send_additional_troops = yes
+	block_settlement_growth = no
+	allow_settlement_growth = no
+
+	# Modifiers:
+	modifier_subject = clear
+	modifier_subject = {
+		modifier = subject_nation
+	}
+	modifier_subject = {
+		trigger = {
+			NOT = { liberty_desire = 50 }
+		}
+		modifier = beua_sister_republic_subject
+	}
+	modifier_subject = {
+		trigger = {
+			NOT = { development_of_overlord_fraction = 0.25 }
+		}
+		modifier = beua_sister_republic_subject_low_development_modifier
+	}
+
+	modifier_overlord = clear
+	modifier_overlord = {
+		trigger = {
+			NOT = { liberty_desire = 50 }
+		}
+		modifier = beua_sister_republic_overlord
+	}
+
+	overlord_opinion_modifier = beua_is_sister_republic
+	subject_opinion_modifier = beua_is_sister_republic
 }
 

@@ -55,6 +55,14 @@
  beua_client_dominion_overlord:0 "Client Dominion Overlord"
  beua_client_dominion_subject:0 "Client Dominion Subject"
 
+ # Subject Sister Republic
+ beua_sister_republic_overlord:0 "Sister Republic Overlord"
+ beua_sister_republic_subject:0 "Sister Republic Subject"
+ beua_sister_republic_subject_low_development_modifier:0 "Sister Republic Subject Low Development"
+ beua_is_beua_sister_republic:0 "Sister Republic"
+ beua_declined_establish_sister_republic_opinion:0 "Demand for Sister Republic declined"
+ beua_declined_ask_for_sister_republic_opinion:0 "Demand for Sister Republic declined"
+
  # AI Start Bonus
  beua_ai_startup_bonus:0 "AI Start Bonus"
 
