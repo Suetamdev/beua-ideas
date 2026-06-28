@@ -104,8 +104,8 @@ beua_serpentspine_ideas = {
 	}
 
 	beua_serpentspine_idea_1 = {
-		fort_maintenance_modifier = 0.25
-		#Fort level +1 and 15% Local Garrison Size in Serpentspine Region with provinces developed that have 15 or more development
+		fort_maintenance_modifier = 0.05
+		#Fort level +1 and 15% Local Garrison and 15% Fort Maintenance Size in Serpentspine Region with provinces developed that have 15 or more development with a fort
 	}
 	beua_serpentspine_idea_2 = {
 		great_project_upgrade_cost = -0.15
@@ -115,7 +115,7 @@ beua_serpentspine_ideas = {
 		infantry_power = 0.1
 	}
 	beua_serpentspine_idea_4 = {
-		defensiveness = 0.2
+		defensiveness = 0.15
 		garrison_damage = 0.1
 	}
 	beua_serpentspine_idea_5 = {

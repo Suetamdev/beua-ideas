@@ -111,6 +111,7 @@ beua_urban_industry = {
 beua_subterranean_bastion = {
 	fort_level = 1
 	local_garrison_size = 0.15
+	local_fort_maintenance_modifier = 0.15
 }
 
 ########################################################

@@ -3887,7 +3887,7 @@ beua_policy_mil_143 = {
 		full_idea_group = beua_artificery_ideas
 	}
 
-	mages_mana_regen_mult = 0.25
+	mages_mana_regen_mult = 0.3
 	mages_mana_capacity = 30
 	artificers_capacity = 50
 	
@@ -3910,7 +3910,7 @@ beua_policy_mil_144 = {
 	}
 
 	mages_mana_capacity = 25
-	mages_mana_regen_mult = 0.05
+	mages_mana_regen_mult = 0.1
 
 	ai_will_do = {
 		factor = 1

@@ -1,10 +1,10 @@
 -- NDiplomacy
 NDefines.NDiplomacy.TRUCE_YEARS = 5
-NDefines.NDiplomacy.SCALED_TRUCE_YEARS = 5
-NDefines.NDiplomacy.COALITION_YEARS = 15
+NDefines.NDiplomacy.SCALED_TRUCE_YEARS = 10
+NDefines.NDiplomacy.COALITION_YEARS = 20
 
 -- NCountry
-NDefines.NCountry.ABANDON_IDEAGROUP_REFUND = 0.15
+NDefines.NCountry.ABANDON_IDEAGROUP_REFUND = 0.25
 NDefines.NCountry.ADVISOR_COST_INCREASE_PER_YEAR = 0.01
 NDefines.NCountry.BASE_MP_TO_MANPOWER = 0.2
 NDefines.NCountry.BASE_POSSIBLE_POLICIES = 4

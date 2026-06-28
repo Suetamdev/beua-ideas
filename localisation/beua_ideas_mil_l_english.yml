@@ -21,7 +21,7 @@
  beua_serpentspine_ideas:0 "Serpentspine Ideas"
  beua_serpentspine_ideas_bonus:0 "Full Serpentspine"
  beua_serpentspine_idea_1:0 "Dwarven Citadels"
- beua_serpentspine_idea_1_desc:0 "Built upon generations of dwarven engineering, our fortresses are legendary. \n\n§YProvinces developed with at least 15 Development and a Fort receive:§!\nFort Level: §G+1§W\nLocal Garrison Size: §G+15.0%§W"
+ beua_serpentspine_idea_1_desc:0 "Built upon generations of dwarven engineering, our fortresses are legendary. \n\n§YProvinces with at least 15 Development located in the Serpentspine region receive:§!Fort Level: §G+1§W, Local Garrison Size: §G+15.0%§W, and Local Fort Maintenance: §R+15.0%§W\n\n"
  beua_serpentspine_idea_2:0 "Architectural Mastery"
  beua_serpentspine_idea_2_desc:0 "The deeps require constant maintenance and grand construction projects to remain habitable. Our mastery over stone allows us to restore ancient wonders and expand our holds with unprecedented speed."
  beua_serpentspine_idea_3:0 "Mithril Plating"
