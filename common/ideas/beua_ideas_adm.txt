@@ -378,7 +378,7 @@ beua_industrial_ideas = {
 		global_supply_limit_modifier = 0.25
 	}
 	beua_industrial_idea_7 = {
-		#+5% goods produced at 25 development, and +10% goods produced and +1 Artificers Capacity at 50 development
+		#+5% goods produced at 15 development, and +10% goods produced and +1 Artificers Capacity at 30 development
 		artificers_loyalty_modifier = 0.05
 	}
 

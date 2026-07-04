@@ -70,6 +70,10 @@
  beua_political_intervention_strain:0 "Political Intervention Strain"
  desc_beua_political_intervention_strain:0 "The act of intervening in the political affairs of other nations can lead to significant strain on our own political landscape."
 
+ # Political Intervention Strain
+ beua_materialize_innovative_breakthroughs_breakthrough_attempt:0 "Innovative Instability"
+ beua_materialize_innovative_breakthroughs_breakthrough_attempt_desc:0 "We have recently attempted to force a rapid societal evolution in our scientific class. Our administration and academic structures are currently stabilizing the volatility caused by this endeavor."
+
  # Archmage - Pushing the Limits Bonus
  beua_archmage_necromancy:0 "Limit Break: Necromancy"
  desc_beua_archmage_necromancy:0 "Comprehensive insight into the soul-tether allows us to halt the decay of consciousness and command the cycle of life."

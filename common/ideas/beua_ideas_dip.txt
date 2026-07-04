@@ -724,7 +724,7 @@ beua_imperial_ideas = {
 	}
 	beua_imperial_idea_6 = {
 		manpower_against_imperial_enemies = 5000
-		#+0.5 goods produced on urban and dwarven holds at 25 development
+		#+0.5 goods produced on urban and dwarven holds at 20 development
 	}
 	beua_imperial_idea_7 = {
 		reasons_to_elect = 15

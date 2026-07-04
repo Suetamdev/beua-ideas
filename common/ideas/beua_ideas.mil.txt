@@ -86,7 +86,7 @@ beua_serpentspine_ideas = {
 	category = MIL
 
 	bonus = {
-		monthly_gold_inflation_modifier = -0.25
+		monthly_gold_inflation_modifier = -0.2
 		administrative_efficiency = 0.05
 	}
 

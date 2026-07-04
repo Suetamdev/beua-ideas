@@ -266,7 +266,7 @@ beua_apply_development_modifiers = {
 
             if = {
                 limit = {
-                    development = 50
+                    development = 30
                 }
 
                 if = {
@@ -287,7 +287,7 @@ beua_apply_development_modifiers = {
             }
             else_if = {
                 limit = {
-                    development = 25
+                    development = 15
                     NOT = { has_province_modifier = beua_supply_chain_simple_modifier }
                     NOT = { has_province_modifier = beua_supply_chain_complex_modifier }
                 }
@@ -311,7 +311,7 @@ beua_apply_development_modifiers = {
 
             if = {
                 limit = {
-                    development = 25
+                    development = 20
                     OR = {
                         has_terrain = dwarven_hold
                         has_terrain = dwarven_hold_surface

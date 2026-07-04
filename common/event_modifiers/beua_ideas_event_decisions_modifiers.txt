@@ -4,3 +4,10 @@
 beua_political_intervention_strain = {
 	diplomatic_reputation = -0.5
 }
+
+########################################################
+####### Breakthrough Attempt					 #######
+########################################################
+beua_materialize_innovative_breakthroughs_breakthrough_attempt = {
+	innovativeness_gain = -1
+}
