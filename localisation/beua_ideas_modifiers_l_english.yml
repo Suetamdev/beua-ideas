@@ -121,3 +121,8 @@
  desc_beua_artificer_smart_armor:0 "Mithrilhide, son. It hardens in response to physical trauma."\n§RCaution§W: Side effects may include headaches, nausea, muscle pains, restricted bowel movements, heart murmurs, and temporary loss of magic potential. Do not take Mithrilhide (patent pending) more than once within 24 hours. Ask your doctor if Mithrilhide is right for you."
  beua_artificer_evocation_drones:0 "Evocation Drones"
  desc_beua_artificer_evocation_drones:0 "Mages standing far away from a battle can cast war magic into a transmutation device and have it come out of the turret of a wheeled drone. This drone runs on an engine and can be controlled through a scrying crystal."
+
+ # Artificer Infrastructure 
+  artifice_unlocked_basic:0 "Basic Artificer Infrastructure"
+  artifice_unlocked_advanced:0 "Advanced Artificer Infrastructure"
+  artifice_unlocked_expert:0 "Expert Artificer Infrastructure"

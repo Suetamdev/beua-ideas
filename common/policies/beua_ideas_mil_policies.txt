@@ -230,16 +230,104 @@ beua_policy_mil_9 = {
 	monarch_power = MIL
 
 	potential = {
+		current_age = age_of_discovery
 		has_idea_group = beua_assimilation_ideas
 		has_idea_group = beua_conscription_ideas
 	}
 
 	allow = {
+		current_age = age_of_discovery
 		full_idea_group = beua_assimilation_ideas
 		full_idea_group = beua_conscription_ideas
+		OR = {
+			NOT = { has_active_policy = beua_policy_mil_9_1 }
+			NOT = { has_active_policy = beua_policy_mil_9_2 }
+			NOT = { has_active_policy = beua_policy_mil_9_3 }
+		}
 	}
 	
-	global_manpower = 10000
+	global_manpower = 10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_mil_9_1 = {
+	monarch_power = MIL
+
+	potential = {
+		current_age = age_of_reformation
+		has_idea_group = beua_assimilation_ideas
+		has_idea_group = beua_conscription_ideas
+	}
+
+	allow = {
+		current_age = age_of_reformation
+		full_idea_group = beua_assimilation_ideas
+		full_idea_group = beua_conscription_ideas
+		OR = {
+			NOT = { has_active_policy = beua_policy_mil_9 }
+			NOT = { has_active_policy = beua_policy_mil_9_2 }
+			NOT = { has_active_policy = beua_policy_mil_9_3 }
+		}
+	}
+	
+	global_manpower = 15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_mil_9_2 = {
+	monarch_power = MIL
+
+	potential = {
+		current_age = age_of_absolutism
+		has_idea_group = beua_assimilation_ideas
+		has_idea_group = beua_conscription_ideas
+	}
+
+	allow = {
+		current_age = age_of_absolutism
+		full_idea_group = beua_assimilation_ideas
+		full_idea_group = beua_conscription_ideas
+		OR = {
+			NOT = { has_active_policy = beua_policy_mil_9 }
+			NOT = { has_active_policy = beua_policy_mil_9_1 }
+			NOT = { has_active_policy = beua_policy_mil_9_3 }
+		}
+	}
+	
+	global_manpower = 20
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_mil_9_3 = {
+	monarch_power = MIL
+
+	potential = {
+		current_age = age_of_revolutions
+		has_idea_group = beua_assimilation_ideas
+		has_idea_group = beua_conscription_ideas
+	}
+
+	allow = {
+		current_age = age_of_revolutions
+		full_idea_group = beua_assimilation_ideas
+		full_idea_group = beua_conscription_ideas
+		OR = {
+			NOT = { has_active_policy = beua_policy_mil_9 }
+			NOT = { has_active_policy = beua_policy_mil_9_1 }
+			NOT = { has_active_policy = beua_policy_mil_9_2 }
+		}
+	}
+	
+	global_manpower = 25
 	
 	ai_will_do = {
 		factor = 1
@@ -1505,6 +1593,7 @@ beua_policy_mil_51 = {
 	monarch_power = MIL
 
 	potential = {
+		current_age = age_of_discovery
 		has_idea_group = beua_standing_army_ideas
 		OR = {
 			has_idea_group = beua_imperialist_ambition_ideas
@@ -1512,15 +1601,120 @@ beua_policy_mil_51 = {
 		}
 	}
 
-	allow = {	
+	allow = {
+		current_age = age_of_discovery
 		full_idea_group = beua_standing_army_ideas
 		OR = {
 			full_idea_group = beua_imperialism_ideas
 			full_idea_group = beua_imperialist_ambition_ideas
 		}
+		OR = {
+			NOT = { has_active_policy = beua_policy_mil_51_1 }
+			NOT = { has_active_policy = beua_policy_mil_51_2 }
+			NOT = { has_active_policy = beua_policy_mil_51_3 }
+		}
 	}
 	
-	global_manpower = 10000
+	global_manpower = 10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_mil_51_1 = {
+	monarch_power = MIL
+
+	potential = {
+		current_age = age_of_reformation
+		has_idea_group = beua_standing_army_ideas
+		OR = {
+			has_idea_group = beua_imperialist_ambition_ideas
+			has_idea_group = beua_imperialism_ideas
+		}
+	}
+
+	allow = {
+		current_age = age_of_reformation
+		full_idea_group = beua_standing_army_ideas
+		OR = {
+			full_idea_group = beua_imperialism_ideas
+			full_idea_group = beua_imperialist_ambition_ideas
+		}
+		OR = {
+			NOT = { has_active_policy = beua_policy_mil_51 }
+			NOT = { has_active_policy = beua_policy_mil_51_2 }
+			NOT = { has_active_policy = beua_policy_mil_51_3 }
+		}
+	}
+	
+	global_manpower = 15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_mil_51_2 = {
+	monarch_power = MIL
+
+	potential = {
+		current_age = age_of_absolutism
+		has_idea_group = beua_standing_army_ideas
+		OR = {
+			has_idea_group = beua_imperialist_ambition_ideas
+			has_idea_group = beua_imperialism_ideas
+		}
+	}
+
+	allow = {
+		current_age = age_of_absolutism
+		full_idea_group = beua_standing_army_ideas
+		OR = {
+			full_idea_group = beua_imperialism_ideas
+			full_idea_group = beua_imperialist_ambition_ideas
+		}
+		OR = {
+			NOT = { has_active_policy = beua_policy_mil_51 }
+			NOT = { has_active_policy = beua_policy_mil_51_1 }
+			NOT = { has_active_policy = beua_policy_mil_51_3 }
+		}
+	}
+	
+	global_manpower = 20
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_mil_51_3 = {
+	monarch_power = MIL
+
+	potential = {
+		current_age = age_of_revolutions
+		has_idea_group = beua_standing_army_ideas
+		OR = {
+			has_idea_group = beua_imperialist_ambition_ideas
+			has_idea_group = beua_imperialism_ideas
+		}
+	}
+
+	allow = {
+		current_age = age_of_revolutions
+		full_idea_group = beua_standing_army_ideas
+		OR = {
+			full_idea_group = beua_imperialism_ideas
+			full_idea_group = beua_imperialist_ambition_ideas
+		}
+		OR = {
+			NOT = { has_active_policy = beua_policy_mil_51 }
+			NOT = { has_active_policy = beua_policy_mil_51_1 }
+			NOT = { has_active_policy = beua_policy_mil_51_2 }
+		}
+	}
+	
+	global_manpower = 25
 	
 	ai_will_do = {
 		factor = 1
@@ -2411,16 +2605,104 @@ beua_policy_mil_83 = {
 	monarch_power = MIL
 
 	potential = {
+		current_age = age_of_discovery
 		has_idea_group = beua_militarism_ideas
 		has_idea_group = innovativeness_ideas
 	}
 
 	allow = {
+		current_age = age_of_discovery
 		full_idea_group = beua_militarism_ideas
 		full_idea_group = innovativeness_ideas
+		OR = {
+			NOT = { has_active_policy = beua_policy_mil_83_1 }
+			NOT = { has_active_policy = beua_policy_mil_83_2 }
+			NOT = { has_active_policy = beua_policy_mil_83_3 }
+		}
 	}
 	
-	global_manpower = 10000
+	global_manpower = 10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_mil_83_1 = {
+	monarch_power = MIL
+
+	potential = {
+		current_age = age_of_reformation
+		has_idea_group = beua_militarism_ideas
+		has_idea_group = innovativeness_ideas
+	}
+
+	allow = {
+		current_age = age_of_reformation
+		full_idea_group = beua_militarism_ideas
+		full_idea_group = innovativeness_ideas
+		OR = {
+			NOT = { has_active_policy = beua_policy_mil_83 }
+			NOT = { has_active_policy = beua_policy_mil_83_2 }
+			NOT = { has_active_policy = beua_policy_mil_83_3 }
+		}
+	}
+	
+	global_manpower = 15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_mil_83_2 = {
+	monarch_power = MIL
+
+	potential = {
+		current_age = age_of_absolutism
+		has_idea_group = beua_militarism_ideas
+		has_idea_group = innovativeness_ideas
+	}
+
+	allow = {
+		current_age = age_of_absolutism
+		full_idea_group = beua_militarism_ideas
+		full_idea_group = innovativeness_ideas
+		OR = {
+			NOT = { has_active_policy = beua_policy_mil_83 }
+			NOT = { has_active_policy = beua_policy_mil_83_1 }
+			NOT = { has_active_policy = beua_policy_mil_83_3 }
+		}
+	}
+	
+	global_manpower = 20
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_mil_83_3 = {
+	monarch_power = MIL
+
+	potential = {
+		current_age = age_of_revolutions
+		has_idea_group = beua_militarism_ideas
+		has_idea_group = innovativeness_ideas
+	}
+
+	allow = {
+		current_age = age_of_revolutions
+		full_idea_group = beua_militarism_ideas
+		full_idea_group = innovativeness_ideas
+		OR = {
+			NOT = { has_active_policy = beua_policy_mil_83 }
+			NOT = { has_active_policy = beua_policy_mil_83_1 }
+			NOT = { has_active_policy = beua_policy_mil_83_2 }
+		}
+	}
+	
+	global_manpower = 25
 	
 	ai_will_do = {
 		factor = 1
@@ -3280,16 +3562,104 @@ beua_policy_mil_115 = {
 	monarch_power = MIL
 
 	potential = {
+		current_age = age_of_discovery
 		has_idea_group = beua_shock_ideas
 		has_idea_group = court_ideas
 	}
 
 	allow = {
+		current_age = age_of_discovery
 		full_idea_group = beua_shock_ideas
 		full_idea_group = court_ideas
+		OR = {
+			NOT = { has_active_policy = beua_policy_mil_115_1 }
+			NOT = { has_active_policy = beua_policy_mil_115_2 }
+			NOT = { has_active_policy = beua_policy_mil_115_3 }
+		}
 	}
 	
-	global_manpower = 10000
+	global_manpower = 10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_mil_115_1 = {
+	monarch_power = MIL
+
+	potential = {
+		current_age = age_of_reformation
+		has_idea_group = beua_shock_ideas
+		has_idea_group = court_ideas
+	}
+
+	allow = {
+		current_age = age_of_reformation
+		full_idea_group = beua_shock_ideas
+		full_idea_group = court_ideas
+		OR = {
+			NOT = { has_active_policy = beua_policy_mil_115 }
+			NOT = { has_active_policy = beua_policy_mil_115_2 }
+			NOT = { has_active_policy = beua_policy_mil_115_3 }
+		}
+	}
+	
+	global_manpower = 15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_mil_115_2 = {
+	monarch_power = MIL
+
+	potential = {
+		current_age = age_of_absolutism
+		has_idea_group = beua_shock_ideas
+		has_idea_group = court_ideas
+	}
+
+	allow = {
+		current_age = age_of_absolutism
+		full_idea_group = beua_shock_ideas
+		full_idea_group = court_ideas
+		OR = {
+			NOT = { has_active_policy = beua_policy_mil_115 }
+			NOT = { has_active_policy = beua_policy_mil_115_1 }
+			NOT = { has_active_policy = beua_policy_mil_115_3 }
+		}
+	}
+	
+	global_manpower = 20
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+beua_policy_mil_115_3 = {
+	monarch_power = MIL
+
+	potential = {
+		current_age = age_of_revolutions
+		has_idea_group = beua_shock_ideas
+		has_idea_group = court_ideas
+	}
+
+	allow = {
+		current_age = age_of_revolutions
+		full_idea_group = beua_shock_ideas
+		full_idea_group = court_ideas
+		OR = {
+			NOT = { has_active_policy = beua_policy_mil_115 }
+			NOT = { has_active_policy = beua_policy_mil_115_1 }
+			NOT = { has_active_policy = beua_policy_mil_115_2 }
+		}
+	}
+	
+	global_manpower = 25
 	
 	ai_will_do = {
 		factor = 1
@@ -3885,11 +4255,94 @@ beua_policy_mil_143 = {
 	allow = {
 		full_idea_group = beua_magocratic_ideas
 		full_idea_group = beua_artificery_ideas
+		OR = {
+			has_country_modifier = magical_infrastructure_1
+			has_country_modifier = magical_infrastructure_2
+			has_country_modifier = magical_infrastructure_3
+			has_country_modifier = magical_infrastructure_4
+		}
+		OR = {
+			has_country_flag = artifice_unlocked_basic
+			has_country_flag = artifice_unlocked_advanced
+			has_country_flag = artifice_unlocked_expert
+		}
+		OR = {
+			NOT = { has_active_policy = beua_policy_mil_143_1 }
+			NOT = { has_active_policy = beua_policy_mil_143_2 }
+		}
+	}
+
+	mages_mana_regen_mult = 0.2
+	mages_mana_capacity = 50
+	artificers_capacity = 25
+	
+	ai_will_do = {
+		factor = 1
+	}	
+}
+
+beua_policy_mil_143_1 = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = beua_magocratic_ideas
+		has_idea_group = beua_artificery_ideas
+	}
+	
+	allow = {
+		full_idea_group = beua_magocratic_ideas
+		full_idea_group = beua_artificery_ideas
+		OR = {
+			has_country_modifier = magical_infrastructure_2
+			has_country_modifier = magical_infrastructure_3
+			has_country_modifier = magical_infrastructure_4
+		}
+		OR = {
+			has_country_flag = artifice_unlocked_advanced
+			has_country_flag = artifice_unlocked_expert
+		}
+		OR = {
+			NOT = { has_active_policy = beua_policy_mil_143 }
+			NOT = { has_active_policy = beua_policy_mil_143_2 }
+		}
+	}
+
+	mages_mana_regen_mult = 0.25
+	mages_mana_capacity = 75
+	artificers_capacity = 50
+	
+	ai_will_do = {
+		factor = 1
+	}	
+}
+
+beua_policy_mil_143_2 = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = beua_magocratic_ideas
+		has_idea_group = beua_artificery_ideas
+	}
+	
+	allow = {
+		full_idea_group = beua_magocratic_ideas
+		full_idea_group = beua_artificery_ideas
+		OR = {
+			has_country_modifier = magical_infrastructure_3
+			has_country_modifier = magical_infrastructure_4
+		}
+		OR = {
+			has_country_flag = artifice_unlocked_expert
+		}
+		OR = {
+			NOT = { has_active_policy = beua_policy_mil_143 }
+			NOT = { has_active_policy = beua_policy_mil_143_1 }
+		}
 	}
 
 	mages_mana_regen_mult = 0.3
-	mages_mana_capacity = 30
-	artificers_capacity = 50
+	mages_mana_capacity = 100
+	artificers_capacity = 75
 	
 	ai_will_do = {
 		factor = 1

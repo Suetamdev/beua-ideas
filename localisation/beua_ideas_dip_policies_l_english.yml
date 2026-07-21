@@ -105,7 +105,16 @@
  desc_beua_policy_dip_35:0 "True empire is built not just by breaking walls, but by building a house large enough to hold all peoples. By guaranteeing absolute legal protection and religious tolerance for heathens and heretics within our expanding borders, we transform our conquests from bitter occupations into peaceful integrations. Our subjects embrace our rule willingly, drastically lowering the cost of fully annexing them into our domain."
 
  beua_policy_dip_36:0 "Professional Seamen"
- desc_beua_policy_dip_36:0 "We have many professional seamen."
+ desc_beua_policy_dip_36:0 "We have begun standardizing the training of our sailors. By focusing on fundamental seamanship and discipline, we are ensuring a more reliable and effective crew for our vessels."
+
+ beua_policy_dip_36_1:0 "Advanced Maritime Specialization"
+ desc_beua_policy_dip_36_1:0 "Naval service is now a career, not a draft. We have established specialized academies for navigation, gunnery, and maintenance, creating a dedicated officer and NCO class that commands our ships with superior precision."
+
+ beua_policy_dip_36_2:0 "Imperial Naval Doctrine"
+ desc_beua_policy_dip_36_2:0 "Our naval forces are now governed by a unified doctrine of professional excellence. With constant drills and rigorous selection processes, our fleets operate with a level of coordination and tactical efficiency that turns every sailor into a veteran of the high seas."
+
+ beua_policy_dip_36_3:0 "Total Maritime Supremacy"
+ desc_beua_policy_dip_36_3:0 "The sea is now our domain. Our sailors are not merely trained; they are born into the naval life. With total state support for our maritime infrastructure, we have cultivated a navy of unmatched expertise that dominates the waves and ensures the eternal reach of our empire."
 
  beua_policy_dip_37:0 "Casus Belli Act"
  desc_beua_policy_dip_37:0 "Our capabilites to make a war just are incredible through our army's tradition."
@@ -187,9 +196,18 @@
 
  beua_policy_dip_63:0 "Educated Population"
  desc_beua_policy_dip_63:0 "Our population is relatively educated and will not drift to another state easily."
-
+ 
  beua_policy_dip_64:0 "War Enthusiasm"
- desc_beua_policy_dip_64:0 "We have no trouble finding new recruits."
+ desc_beua_policy_dip_64:0 "Our recent victories have bolstered the public's confidence. We are having little trouble finding new recruits eager to serve the flag and earn glory on the battlefield."
+
+ beua_policy_dip_64_1:0 "Fervent Martial Spirit"
+ desc_beua_policy_dip_64_1:0 "The populace has embraced a culture of martial pride. Military service is now seen as the highest calling, ensuring a steady stream of volunteers and maintaining high morale among our ranks."
+
+ beua_policy_dip_64_2:0 "Total War Mobilization"
+ desc_beua_policy_dip_64_2:0 "A spirit of righteous combat has permeated all levels of society. Our people view our ongoing conflicts as essential, leading to an unprecedented influx of recruits who are willing to sacrifice everything for the nation's victory."
+
+ beua_policy_dip_64_3:0 "The Martial Ethos"
+ desc_beua_policy_dip_64_3:0 "The state and the soldier are one. Our entire national identity is defined by our martial prowess, creating a society where every citizen considers it their sacred duty to serve, rendering our manpower reserves effectively inexhaustible."
 
  beua_policy_dip_65:0 "Mercenary Defence Act"
  desc_beua_policy_dip_65:0 "Applying this strategy, our enemy will find nothing but wasteland."
@@ -276,7 +294,16 @@
  desc_beua_policy_dip_92:0 "The nobility is very important in our country."
 
  beua_policy_dip_93:0 "Imperial Arsenal Expansion"
- desc_beua_policy_dip_93:0 "By utilizing our vast diplomatic influence to secure raw materials from our dependencies and applying our superior weapon-smithing methods to assembly lines, we can mass-produce arms on an unprecedented scale. This massive influx of standardized weaponry allows us to rapidly outfit tens of thousands of new frontline soldiers and supply a wave of newly constructed warships, expanding our standing military limits across land and sea."
+ desc_beua_policy_dip_93:0 "By utilizing our diplomatic influence to secure raw materials and applying superior smithing methods, we have begun to standardize arms production, allowing us to better supply our standing forces."
+
+ beua_policy_dip_93_1:0 "Centralized Industrial Supply"
+ desc_beua_policy_dip_93_1:0 "We have integrated our dependencies into a cohesive supply chain. Through state-managed assembly lines, we now mass-produce standardized weaponry, significantly increasing our capacity to field larger armies and fleets."
+
+ beua_policy_dip_93_2:0 "Logistical Warfare Dominance"
+ desc_beua_policy_dip_93_2:0 "Our weapon-smithing methods have been perfected for rapid deployment. We can now outfit entire legions and naval squadrons on demand, ensuring that our frontline soldiers and warships never lack for advanced equipment."
+
+ beua_policy_dip_93_3:0 "Total War Industrialization"
+ desc_beua_policy_dip_93_3:0 "The empire is now one singular, humming engine of production. By harnessing the collective resources of our subjects, we sustain an unprecedented scale of mobilization, rendering our land and sea limits secondary to the sheer, relentless throughput of our state-controlled armories."
 
  beua_policy_dip_94:0 "Local Fortress Advisor"
  desc_beua_policy_dip_94:0 "We will improve our fortresses with local military engineers and advisors."
@@ -429,10 +456,28 @@
  desc_beua_policy_dip_143:0 "Applies rigorous and aggressive state frameworks to newly acquired territories, heavily reducing the cost of converting provincial cultures."
 
  beua_policy_dip_144:0 "Marine Levy Enactment"
- desc_beua_policy_dip_144:0 "Enforces rapid naval conscription programs across our coastlines to sustain a much larger and rapidly reinforced combat fleet."
+ desc_beua_policy_dip_144:0 "We have initiated targeted naval conscription programs across our coastlines, allowing us to rapidly reinforce our combat fleet and sustain a larger naval presence."
+
+ beua_policy_dip_144_1:0 "Systematic Coastal Mobilization"
+ desc_beua_policy_dip_144_1:0 "By centralizing our coastal registry, we have streamlined the levy process. Our ability to replace losses at sea is now significantly improved, ensuring our fleets remain battle-ready even during prolonged conflicts."
+
+ beua_policy_dip_144_2:0 "Integrated Maritime Reserves"
+ desc_beua_policy_dip_144_2:0 "Our naval recruitment is now fully integrated into our regional administrative structure. We can now tap into vast maritime reserves on demand, maintaining a fleet size that dwarfs our historical capacity."
+
+ beua_policy_dip_144_3:0 "Total Naval Conscription Doctrine"
+ desc_beua_policy_dip_144_3:0 "The sea is our birthright. We have instituted a universal maritime service mandate that treats every coastal citizen as an active reserve. Our fleet is now effectively inexhaustible, fueled by the relentless, state-enforced mobilization of our entire maritime population."
 
  beua_policy_dip_145:0 "Imperial Sailor Levies"
- desc_beua_policy_dip_145:0 "Enforces aggressive maritime conscription laws across our conquered coasts, heavily expanding our global pool of available sailors."
+ desc_beua_policy_dip_145:0 "We have enforced aggressive maritime conscription laws across our recently conquered coasts, significantly expanding our immediate pool of available sailors."
+
+ beua_policy_dip_145_1:0 "Systematized Subject Recruitment"
+ desc_beua_policy_dip_145_1:0 "The recruitment apparatus has been extended to all subject territories. We now actively integrate conquered coastal populations into our naval hierarchy, creating a reliable pipeline of manpower for our global fleet operations."
+
+ beua_policy_dip_145_2:0 "Global Maritime Integration"
+ desc_beua_policy_dip_145_2:0 "By standardizing service requirements across our entire empire, we have turned our overseas territories into the primary engine of our naval strength. Our ability to project power globally is now limited only by the reach of our imperial administration."
+
+ beua_policy_dip_145_3:0 "Universal Imperial Naval Mandate"
+ desc_beua_policy_dip_145_3:0 "The ocean belongs to the Empire, and all who dwell upon its shores serve it. Our levies are no longer a mere policy; they are a fundamental constant of imperial rule, ensuring that our naval reserves are drawn from the vast, inexhaustible entirety of our global holdings."
 
  beua_policy_dip_146:0 "Statecraft Deterrence Mandate"
  desc_beua_policy_dip_146:0 "Integrates military fire doctrines with secret networks to heavily optimize our global diplomatic standing."
@@ -487,9 +532,18 @@
 
  beua_policy_dip_163:0 "Grand Naval Armaments Act"
  desc_beua_policy_dip_163:0 "Directs the entire command of our centralized bureaucracy toward shipwright production, unlocking a colossal increase in our maximum fleet capacity."
-
+ 
  beua_policy_dip_164:0 "Centralized Navy Yards Act"
- desc_beua_policy_dip_164:0 "Funds flat infrastructure expansions across our shoreline, providing a vast and immediate increase to both fleet capacity and sailor reserves."
+ desc_beua_policy_dip_164:0 "We have initiated wide-scale infrastructure expansions across our primary coastlines, providing an immediate increase to both our fleet capacity and the stability of our sailor reserves."
+
+ beua_policy_dip_164_1:0 "Imperial Shipyard Standardization"
+ desc_beua_policy_dip_164_1:0 "By centralizing our naval logistics, we have transformed disparate local docks into a unified network of imperial shipyards. This coordination allows for faster construction and a significantly larger active fleet."
+
+ beua_policy_dip_164_2:0 "Total Maritime Industrialization"
+ desc_beua_policy_dip_164_2:0 "Our shorelines have been entirely restructured for naval production. Every coastal province now hosts specialized facilities capable of supporting advanced vessel types, ensuring our dominance over the high seas is absolute."
+
+ beua_policy_dip_164_3:0 "The Sovereign Naval Complex"
+ desc_beua_policy_dip_164_3:0 "The Empire's capacity to build and man ships is now effectively limitless. Our maritime infrastructure has merged with our state administrative apparatus, turning our entire coastline into a single, seamless engine of naval projection."
 
  beua_policy_dip_165:0 "Crown Colony Integration"
  desc_beua_policy_dip_165:0 "Brings colonial administration directly under royal oversight, optimizing infrastructure growth and extracting greater economic revenue."

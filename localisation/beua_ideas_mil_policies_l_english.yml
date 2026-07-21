@@ -24,7 +24,16 @@
  desc_beua_policy_mil_8:0 "Naval power is as much about logistics as it is about cannon fire. By optimizing life at sea through strict health protocols, we reduce attrition and ensure that our fighting force remains at peak strength, ready to engage at a moment's notice."
 
  beua_policy_mil_9:0 "Inclusive Mobilization"
- desc_beua_policy_mil_9:0 "We have successfully dismantled the barriers that once limited our recruitment to select groups. By extending the honor of military service to all newly integrated populations, we have tapped into a vast, previously ignored reservoir of potential manpower."
+ desc_beua_policy_mil_9:0 "We have begun dismantling the barriers that once limited our recruitment to select groups. By extending the honor of military service to newly integrated populations, we are tapping into a vital, previously ignored reservoir of manpower."
+
+ beua_policy_mil_9_1:0 "Broadened Military Suffrage"
+ desc_beua_policy_mil_9_1:0 "Service is now a path to recognition for all subjects. By standardizing training for diverse cultures and demographics, we have successfully expanded our available recruit pool and fostered a deeper sense of imperial unity through shared struggle."
+
+ beua_policy_mil_9_2:0 "Universal Levies"
+ desc_beua_policy_mil_9_2:0 "The distinction between 'core' and 'auxiliary' demographics has been abolished. Every province, regardless of heritage or culture, is now integrated into our standardized mobilization structure, providing a relentless influx of soldiers to our banners."
+
+ beua_policy_mil_9_3:0 "Total Imperial Integration"
+ desc_beua_policy_mil_9_3:0 "Our military is now the primary engine of assimilation. By demanding service from every corner of the realm, we have created a monolithic martial force where heritage is secondary to the state—an unstoppable army fueled by the collective sacrifice of all our people."
 
  beua_policy_mil_10:0 "Unified Vanguard"
  desc_beua_policy_mil_10:0 "By integrating the martial traditions of our newest citizens with our own rigorous training standards, we have forged an infantry force of unmatched capability. Every regiment is now a distillation of the best fighting techniques from across our diverse realm."
@@ -149,8 +158,17 @@
  beua_policy_mil_50:0 "Doctrine of Decisive Firepower"
  desc_beua_policy_mil_50:0 "Our imperial ambitions demand a military capable of crushing resistance with professional precision. By prioritizing quality in our artillery and infantry arms, we have developed a doctrine of decisive firepower, ensuring that our forces remain the dominant authority in any encounter."
 
- beua_policy_mil_51:0 "Registration Act"
- desc_beua_policy_mil_51:0 "We will register all men that can fight for our country in times of war."
+ beua_policy_mil_51:0 "Military Registration Act"
+ desc_beua_policy_mil_51:0 "We have begun a systematic census to identify all able-bodied men eligible for service. This ensures we have a clear overview of our manpower reserves when the nation is called to defend itself."
+
+ beua_policy_mil_51_1:0 "Mandatory Conscription Registry"
+ desc_beua_policy_mil_51_1:0 "Registration is no longer merely an observation; it is a legal requirement. Every citizen of age is now tracked in our national service database, allowing for rapid mobilization and efficient replacement of losses in the field."
+
+ beua_policy_mil_51_2:0 "Total Demographic Mobilization"
+ desc_beua_policy_mil_51_2:0 "Our registry has been expanded to encompass all aspects of labor and potential combat roles. We now possess the granular data to rotate, draft, and deploy our entire population based on the immediate strategic requirements of our grand strategy."
+
+ beua_policy_mil_51_3:0 "The Universal Service Doctrine"
+ desc_beua_policy_mil_51_3:0 "The distinction between civilian and soldier has been erased. Our national registry is now a permanent mobilization apparatus that dictates the life of every citizen. From the moment of maturity, every individual is a reserve in the service of the state's endless martial ambition."
 
  beua_policy_mil_52:0 "Imperial Quality Management"
  desc_beua_policy_mil_52:0 "Our imperial officials will ensure the quality of our produced weapons."
@@ -248,6 +266,15 @@
  beua_policy_mil_83:0 "Career Military Mandate"
  desc_beua_policy_mil_83:0 "We have standardized the length of military service to ensure a consistent, highly trained force. By retaining veterans for longer periods, we guarantee the continued combat excellence of the imperial ranks."
 
+ beua_policy_mil_83_1:0 "Professional Corps Integration"
+ desc_beua_policy_mil_83_1:0 "Military service is now a life-long vocation. We have established dedicated training academies and permanent barracks, transforming our soldiers into a standing professional corps that remains combat-ready at all times."
+
+ beua_policy_mil_83_2:0 "Martial Bureaucracy"
+ desc_beua_policy_mil_83_2:0 "The military has become the primary pillar of our governance. By centralizing promotion structures and standardizing veteran benefits, we have ensured that our entire administrative state serves the perpetual needs of our legions."
+
+ beua_policy_mil_83_3:0 "Total Martial Supremacy"
+ desc_beua_policy_mil_83_3:0 "Service is no longer a mandate; it is the essence of our existence. From birth, our citizens are molded into soldiers, and our entire economy is optimized for war. The imperial ranks are no longer just an army; they are the iron manifestation of our nation's will."
+
  beua_policy_mil_84:0 "Unified Force Standardization"
  desc_beua_policy_mil_84:0 "By aligning our national economic capacity with our militaristic ambitions, we have implemented a comprehensive standardization program. This ensures that every infantryman, cavalryman, and artillery battery is equipped to peak combat standards, maximizing the lethal potential of our entire armed forces."
 
@@ -342,7 +369,16 @@
  desc_beua_policy_mil_114:0 "We have systematically analyzed the tactical frameworks utilized by nomadic equestrian cultures. By incorporating these specialized mounted maneuvers and training methods into our own shock-tactical manuals, we have significantly elevated the lethality and organizational capacity of our cavalry divisions."
 
  beua_policy_mil_115:0 "Shocking Propaganda"
- desc_beua_policy_mil_115:0 "Shocking propaganda about our enemies will motivate our young ones to fight."
+ desc_beua_policy_mil_115:0 "By circulating gruesome tales of enemy atrocities, we ignite a fierce sense of duty and indignation in our youth, hardening their resolve for the battles ahead."
+
+ beua_policy_mil_115_1:0 "Systematic Atrocity Exposure"
+ desc_beua_policy_mil_115_1:0 "We have refined our propaganda efforts into a state-run machine. By broadcasting graphic accounts of enemy threats daily, we cultivate a deep, unshakable national hatred that fuels our military recruitment."
+
+ beua_policy_mil_115_2:0 "Total Psychological Mobilization"
+ desc_beua_policy_mil_115_2:0 "The distinction between truth and weaponized narrative has dissolved. Our propaganda now fully consumes the public consciousness, ensuring that every citizen—young or old—views the enemy as a primal existential threat that must be eradicated."
+
+ beua_policy_mil_115_3:0 "Absolute Ideological Dominance"
+ desc_beua_policy_mil_115_3:0 "Our propaganda has become the very heartbeat of the nation. By weaving terrifying tales of our enemies into our culture and education, we have created a society that finds its only purpose in constant, righteous war. The enemy does not merely lose; they are erased from our collective psyche."
 
  beua_policy_mil_116:0 "National Mobilization Doctrine"
  desc_beua_policy_mil_116:0 "By aligning our military shock tactics with the collective fervor of our citizenry, we have achieved a new standard of combat intensity. Our regiments now operate as a unified instrument of the state, ensuring that every strike carries the full weight and conviction of our national identity."
@@ -426,7 +462,13 @@
  desc_beua_policy_mil_142:0 "Superior shock performance is achieved when specialized formations operate with independent command authority. This doctrine ensures that our vanguard units can react instantaneously to battlefield openings, delivering punishing blows without waiting for central authorization."
 
  beua_policy_mil_143:0 "Arcane-Technocratic Accord"
- desc_beua_policy_mil_143:0 "For too long, mages and artificers viewed each other as rivals. By bridging the gap between traditional spellcraft and modern invention, our mages now use artificer stabilization rigs to channel raw mana safely, while artificers use direct arcane loops to fuel their clockwork weapons with limitless energy. Together, they are unstoppable."
+ desc_beua_policy_mil_143:0 "For too long, mages and artificers viewed each other as rivals. By establishing basic communication channels, we have allowed our mages to utilize rudimentary artificer stabilizers to ground their mana, while our artificers have begun experimenting with simple arcane power loops."
+
+ beua_policy_mil_143_1:0 "Advanced Arcane-Technocratic Integration"
+ desc_beua_policy_mil_143_1:0 "The success of our initial accord has paved the way for deeper cooperation. Our mages now actively employ artificer-designed rigs to channel raw mana safely, while our artificers have begun integrating direct arcane feedback loops to fuel their clockwork weapons with significantly higher energy output."
+
+ beua_policy_mil_143_2:0 "Arcane-Technocratic Synthesis"
+ desc_beua_policy_mil_143_2:0 "The distinction between mage and artificer has all but vanished. By fully bridging the gap between spellcraft and modern invention, our mages wield complex stabilization matrices to master chaotic currents, while our artificers employ perfected arcane engines to grant their clockwork weapons limitless potential. Together, they are truly unstoppable."
 
  beua_policy_mil_144:0 "Runic Energy Harnessing"
  desc_beua_policy_mil_144:0 "Through the study and application of mountain-based runes, we have increased the efficiency and capacity of our magical infrastructure."

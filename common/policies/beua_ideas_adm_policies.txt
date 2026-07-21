@@ -5150,7 +5150,7 @@ beua_policy_adm_185 = {
 		modifier = {
 			factor = 1.5
 			production_income_percentage = 0.5
-		}	
+		}
 	}
 }
 
