@@ -23,12 +23,12 @@ country_event = {
 	}
 	
 	option = {
-		name = beua_jurisprudence_ideas_event.1.a
+		name = beua_jurisprudence_ideas_event.1.1
 		add_stability = -1
 	}
 	
 	option = {
-		name = beua_jurisprudence_ideas_event.1.b
+		name = beua_jurisprudence_ideas_event.1.2
 		add_stability_or_adm_power = yes
 		reduce_estate_nobles_loyalty_effect = yes
 	}
@@ -47,9 +47,7 @@ country_event = {
 
 	trigger = {
 		has_idea_group = beua_jurisprudence_ideas
-		NOT = { 
-			has_country_modifier = beua_jurisprudence_ideas_event.2.b.m 
-		}	
+		NOT = { has_country_modifier = beua_jurisprudence_ideas_event.2.2.m }	
 	}	
 
 	mean_time_to_happen = {
@@ -57,15 +55,15 @@ country_event = {
 	}
 	
 	option = {
-		name = beua_jurisprudence_ideas_event.2.a
+		name = beua_jurisprudence_ideas_event.2.1
 		add_prestige = 15
 	}
 	
 	option = {
-		name = beua_jurisprudence_ideas_event.2.b
+		name = beua_jurisprudence_ideas_event.2.2
 		add_legitimacy = 10
 		add_country_modifier = {
-			name = "beua_jurisprudence_ideas_event.2.b.m"
+			name = "beua_jurisprudence_ideas_event.2.2.m"
 			duration = 3650
 		}
 	}
@@ -83,9 +81,7 @@ country_event = {
 
 	trigger = {
 		has_idea_group = beua_jurisprudence_ideas
-		NOT = { 
-			has_country_modifier = beua_jurisprudence_ideas_event.3.a.m 
-		}	
+		NOT = { has_country_modifier = beua_jurisprudence_ideas_event.3.1.m }	
 	}	
 
 	mean_time_to_happen = {
@@ -93,9 +89,9 @@ country_event = {
 	}
 	
 	option = {
-		name = beua_jurisprudence_ideas_event.3.a
+		name = beua_jurisprudence_ideas_event.3.1
 		add_country_modifier = {
-			name = "beua_jurisprudence_ideas_event.3.a.m"
+			name = "beua_jurisprudence_ideas_event.3.1.m"
 			duration = 3650
 		}
 	}
@@ -120,7 +116,7 @@ country_event = {
 	}
 	
 	option = {
-		name = beua_jurisprudence_ideas_event.4.a
+		name = beua_jurisprudence_ideas_event.4.1
 		add_adm_power = 50
 		add_dip_power = 50
 		add_estate_burghers_loyalty_effect = yes
@@ -146,7 +142,7 @@ country_event = {
 	}
 	
 	option = {
-		name = beua_jurisprudence_ideas_event.5.a
+		name = beua_jurisprudence_ideas_event.5.1
 		add_years_of_income = -0.2
 		define_advisor = {
 			type = natural_scientist
@@ -175,18 +171,23 @@ country_event = {
 	}
 	
 	option = {
-		name = beua_jurisprudence_ideas_event.6.a
+		name = beua_jurisprudence_ideas_event.6.1
 		add_stability_or_adm_power = yes
 		define_advisor = {
 			type = statesman
 			discount = yes
 			skill = 2
-		}	
-		add_estate_influence_modifier = {
-			estate = estate_burghers
-			desc = beua_jurisprudence_ideas_event.6.a.m
-			influence = 10
-			duration = 7300
+		}
+		if = {
+			limit = {
+				has_estate = estate_burghers
+			}
+			add_estate_influence_modifier = {
+				estate = estate_burghers
+				desc = beua_jurisprudence_ideas_event.6.1.m
+				influence = 10
+				duration = 7300
+			}
 		}
 	}
 }
@@ -203,9 +204,7 @@ country_event = {
 
 	trigger = {
 		has_idea_group = beua_jurisprudence_ideas
-		NOT = { 
-			has_country_modifier = beua_jurisprudence_ideas_event.7.a.m 
-		}	
+		NOT = { has_country_modifier = beua_jurisprudence_ideas_event.7.1.m }	
 	}	
 
 	mean_time_to_happen = {
@@ -213,9 +212,9 @@ country_event = {
 	}
 	
 	option = {
-		name = beua_jurisprudence_ideas_event.7.a
+		name = beua_jurisprudence_ideas_event.7.1
 		add_country_modifier = {
-			name = "beua_jurisprudence_ideas_event.7.a.m"
+			name = "beua_jurisprudence_ideas_event.7.1.m"
 			duration = 3650
 		}
 	}
@@ -233,9 +232,7 @@ country_event = {
 
 	trigger = {
 		has_idea_group = beua_jurisprudence_ideas
-		NOT = {
-			has_country_modifier = beua_jurisprudence_ideas_event.8.a.m
-		}	
+		NOT = { has_country_modifier = beua_jurisprudence_ideas_event.8.1.m }	
 	}	
 
 	mean_time_to_happen = {
@@ -243,9 +240,9 @@ country_event = {
 	}
 	
 	option = {
-		name = beua_jurisprudence_ideas_event.8.a
+		name = beua_jurisprudence_ideas_event.8.1
 		add_country_modifier = {
-			name = "beua_jurisprudence_ideas_event.8.a.m"
+			name = "beua_jurisprudence_ideas_event.8.1.m"
 			duration = 3650
 		}
 	}
@@ -263,10 +260,10 @@ country_event = {
 
 	trigger = {
 		has_idea_group = beua_jurisprudence_ideas
-		NOT = { 
+		NOT = {
 			OR = {
-			has_country_modifier = beua_jurisprudence_ideas_event.9.a.m
-			has_country_modifier = beua_jurisprudence_ideas_event.9.b.m
+				has_country_modifier = beua_jurisprudence_ideas_event.9.1.m
+				has_country_modifier = beua_jurisprudence_ideas_event.9.2.m
 			}
 		}
 	}	
@@ -276,20 +273,20 @@ country_event = {
 	}
 	
 	option = {
-		name = beua_jurisprudence_ideas_event.9.a
+		name = beua_jurisprudence_ideas_event.9.1
 		add_estate_burghers_loyalty_effect = yes
 		reduce_estate_church_loyalty_effect = yes
 		reduce_estate_nobles_loyalty_effect = yes
 		add_country_modifier = {
-			name = "beua_jurisprudence_ideas_event.9.a.m"
+			name = "beua_jurisprudence_ideas_event.9.1.m"
 			duration = 3650
 		}
 	}
 	
 	option = {
-		name = beua_jurisprudence_ideas_event.9.b
+		name = beua_jurisprudence_ideas_event.9.2
 		add_country_modifier = {
-			name = "beua_jurisprudence_ideas_event.9.b.m"
+			name = "beua_jurisprudence_ideas_event.9.2.m"
 			duration = 3650
 		}
 	}
@@ -307,8 +304,17 @@ country_event = {
 
 	trigger = {
 		has_idea_group = beua_jurisprudence_ideas
-		NOT = { 
-			has_country_modifier = beua_jurisprudence_ideas_event.10.b.m 
+		NOT = { has_country_modifier = beua_jurisprudence_ideas_event.10.2.m }
+		OR = {
+			employed_advisor = {
+				category = ADM
+			}
+			employed_advisor = {
+				category = DIP
+			}
+			employed_advisor = {
+				category = MIL
+			}
 		}
 	}	
 
@@ -317,7 +323,7 @@ country_event = {
 	}
 	
 	option = {
-		name = beua_jurisprudence_ideas_event.10.a
+		name = beua_jurisprudence_ideas_event.10.1
 		if = {
 			limit = {
 				employed_advisor = {
@@ -345,9 +351,9 @@ country_event = {
 	}
 	
 	option = {
-		name = beua_jurisprudence_ideas_event.10.b
+		name = beua_jurisprudence_ideas_event.10.2
 		add_country_modifier = {
-			name = "beua_jurisprudence_ideas_event.10.b.m"
+			name = "beua_jurisprudence_ideas_event.10.2.m"
 			duration = 3650
 		}
 	}

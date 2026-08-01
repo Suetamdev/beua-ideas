@@ -23,7 +23,7 @@ country_event = {
 	}
 	
 	option = {
-		name = beua_health_ideas_event.1.a
+		name = beua_health_ideas_event.1.1
 		add_prestige = 10
 		add_dip_power = 100
 	}
@@ -48,7 +48,7 @@ country_event = {
 	}
 	
 	option = {
-		name = beua_health_ideas_event.2.a
+		name = beua_health_ideas_event.2.1
 		add_stability_or_adm_power = yes
 		add_estate_church_loyalty_effect = yes
 	}
@@ -66,9 +66,7 @@ country_event = {
 
 	trigger = {
 		has_idea_group = beua_health_ideas
-		NOT = { 
-			has_country_modifier = beua_health_ideas_event.3.a.m 
-		}
+		NOT = { has_country_modifier = beua_health_ideas_event.3.1.m }
 	}	
 
 	mean_time_to_happen = {
@@ -76,9 +74,9 @@ country_event = {
 	}
 	
 	option = {
-		name = beua_health_ideas_event.3.a
+		name = beua_health_ideas_event.3.1
 		add_country_modifier = {
-			name = "beua_health_ideas_event.3.a.m"
+			name = "beua_health_ideas_event.3.1.m"
 			duration = 7300
 		}
 	}
@@ -96,9 +94,7 @@ country_event = {
 
 	trigger = {
 		has_idea_group = beua_health_ideas
-		NOT = { 
-			has_country_modifier = beua_health_ideas_event.4.a.m 
-		}
+		NOT = { has_country_modifier = beua_health_ideas_event.4.1.m }
 	}	
 
 	mean_time_to_happen = {
@@ -106,9 +102,9 @@ country_event = {
 	}
 	
 	option = {
-		name = beua_health_ideas_event.4.a
+		name = beua_health_ideas_event.4.1
 		add_country_modifier = {
-			name = "beua_health_ideas_event.4.a.m"
+			name = "beua_health_ideas_event.4.1.m"
 			duration = 3650
 		}
 		
@@ -127,9 +123,7 @@ country_event = {
 
 	trigger = {
 		has_idea_group = beua_health_ideas
-		NOT = { 
-			has_country_modifier = beua_health_ideas_event.5.a.m 
-		}	
+		NOT = { has_country_modifier = beua_health_ideas_event.5.1.m }	
 	}	
 
 	mean_time_to_happen = {
@@ -137,11 +131,11 @@ country_event = {
 	}
 	
 	option = {
-		name = beua_health_ideas_event.5.a
+		name = beua_health_ideas_event.5.1
 		add_country_modifier = {
-				name = "beua_health_ideas_event.5.a.m"
-				duration = 3650
-			}
+			name = "beua_health_ideas_event.5.1.m"
+			duration = 3650
+		}
 		reduce_estate_church_loyalty_effect = yes
 	}
 }
@@ -158,9 +152,7 @@ country_event = {
 
 	trigger = {
 		has_idea_group = beua_health_ideas
-		NOT = { 
-			has_country_modifier = beua_health_ideas_event.6.a.m
-		}
+		NOT = { has_country_modifier = beua_health_ideas_event.6.1.m }
 	}	
 
 	mean_time_to_happen = {
@@ -168,9 +160,9 @@ country_event = {
 	}
 	
 	option = {
-		name = beua_health_ideas_event.6.a
+		name = beua_health_ideas_event.6.1
 		add_country_modifier = {
-			name = "beua_health_ideas_event.6.a.m"
+			name = "beua_health_ideas_event.6.1.m"
 			duration = 3650
 		}
 	}
@@ -195,7 +187,7 @@ country_event = {
 	}
 	
 	option = {
-		name = beua_health_ideas_event.7.a
+		name = beua_health_ideas_event.7.1
 		add_yearly_manpower = -2
 	}
 }
@@ -212,9 +204,7 @@ country_event = {
 
 	trigger = {
 		has_idea_group = beua_health_ideas
-		NOT = { 
-			has_country_modifier = beua_health_ideas_event.8.b.m
-		}
+		NOT = { has_country_modifier = beua_health_ideas_event.8.2.m }
 	}	
 
 	mean_time_to_happen = {
@@ -222,16 +212,16 @@ country_event = {
 	}
 	
 	option = {
-		name = beua_health_ideas_event.8.a
+		name = beua_health_ideas_event.8.1
 		add_yearly_manpower = -1
 		add_estate_nobles_loyalty_effect = yes
 	}
 	
 	option = {
-		name = beua_health_ideas_event.8.b
+		name = beua_health_ideas_event.8.2
 		reduce_estate_burghers_loyalty_effect = yes
 		add_country_modifier = {
-			name = "beua_health_ideas_event.8.b.m"
+			name = "beua_health_ideas_event.8.2.m"
 			duration = 3650
 		}
 	}
@@ -249,9 +239,7 @@ country_event = {
 
 	trigger = {
 		has_idea_group = beua_health_ideas
-		NOT = { 
-			has_country_modifier = beua_health_ideas_event.9.b.m 
-		}
+		NOT = { has_country_modifier = beua_health_ideas_event.9.2.m }
 	}	
 
 	mean_time_to_happen = {
@@ -259,16 +247,16 @@ country_event = {
 	}
 	
 	option = {
-		name = beua_health_ideas_event.9.a
+		name = beua_health_ideas_event.9.1
 		add_yearly_manpower = -1
 		add_estate_church_loyalty_effect = yes
 	}
 	
 	option = {
-		name = beua_health_ideas_event.9.b
+		name = beua_health_ideas_event.9.2
 		reduce_estate_burghers_loyalty_effect = yes
 		add_country_modifier = {
-			name = "beua_health_ideas_event.9.b.m"
+			name = "beua_health_ideas_event.9.2.m"
 			duration = 3650
 		}
 	}
@@ -293,7 +281,7 @@ country_event = {
 	}
 	
 	option = {
-		name =  beua_health_ideas_event.10.a
+		name =  beua_health_ideas_event.10.1
 		add_stability = -1
 	}
 }

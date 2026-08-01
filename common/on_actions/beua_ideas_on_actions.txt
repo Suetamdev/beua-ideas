@@ -52,14 +52,13 @@ on_province_owner_change = {
 			owner = {
 				has_idea = beua_industrial_idea_7
 			}
-			OR = {
-				NOT = { 
+			NOT = {
+				OR = {
 					has_province_modifier = beua_supply_chain_simple_modifier
-				}
-				NOT = { 
 					has_province_modifier = beua_supply_chain_complex_modifier
-            	}
+				}
 			}
+			
 			development = 15
         }
 
@@ -230,7 +229,7 @@ on_yearly_pulse = {
 }
 
 # Random Flavour Events
-on_five_year_pulse_3 = {
+on_four_year_pulse_3 = {
 	random_events = {
 		# [beua_jurisprudence_ideas]
 		100 = beua_jurisprudence_ideas_event.1
@@ -255,5 +254,233 @@ on_five_year_pulse_3 = {
 		100 = beua_health_ideas_event.8
 		100 = beua_health_ideas_event.9
 		100 = beua_health_ideas_event.10
+
+		# [beua_state_administration_ideas]
+		100 = beua_state_administration_ideas_event.1
+		100 = beua_state_administration_ideas_event.2
+		100 = beua_state_administration_ideas_event.3
+		100 = beua_state_administration_ideas_event.4
+		100 = beua_state_administration_ideas_event.5
+		100 = beua_state_administration_ideas_event.6
+		100 = beua_state_administration_ideas_event.7
+		100 = beua_state_administration_ideas_event.8
+		100 = beua_state_administration_ideas_event.9
+		100 = beua_state_administration_ideas_event.10
+
+		# [beua_centralism_ideas]
+		100 = beua_centralism_ideas_event.1
+		100 = beua_centralism_ideas_event.2
+		100 = beua_centralism_ideas_event.3
+		100 = beua_centralism_ideas_event.4
+		100 = beua_centralism_ideas_event.5
+		100 = beua_centralism_ideas_event.6
+		100 = beua_centralism_ideas_event.7
+		100 = beua_centralism_ideas_event.8
+		100 = beua_centralism_ideas_event.9
+		100 = beua_centralism_ideas_event.10
+
+		# [beua_decentralism_ideas]
+		100 = beua_decentralism_ideas_event.1
+		100 = beua_decentralism_ideas_event.2
+		100 = beua_decentralism_ideas_event.3
+		100 = beua_decentralism_ideas_event.4
+		100 = beua_decentralism_ideas_event.5
+		100 = beua_decentralism_ideas_event.6
+		100 = beua_decentralism_ideas_event.7
+		100 = beua_decentralism_ideas_event.8
+		100 = beua_decentralism_ideas_event.9
+		100 = beua_decentralism_ideas_event.10
+
+		# [beua_industrial_ideas]
+		100 = beua_industrial_ideas_event.1
+		100 = beua_industrial_ideas_event.2
+		100 = beua_industrial_ideas_event.3
+		100 = beua_industrial_ideas_event.4
+		100 = beua_industrial_ideas_event.5
+		100 = beua_industrial_ideas_event.6
+		100 = beua_industrial_ideas_event.7
+		100 = beua_industrial_ideas_event.8
+		100 = beua_industrial_ideas_event.9
+		100 = beua_industrial_ideas_event.10
+
+		# [beua_assimilation_ideas]
+		100 = beua_assimilation_ideas_event.1
+		100 = beua_assimilation_ideas_event.2
+		100 = beua_assimilation_ideas_event.3
+		100 = beua_assimilation_ideas_event.4
+		100 = beua_assimilation_ideas_event.5
+		100 = beua_assimilation_ideas_event.6
+		100 = beua_assimilation_ideas_event.7
+		100 = beua_assimilation_ideas_event.8
+		100 = beua_assimilation_ideas_event.9
+		100 = beua_assimilation_ideas_event.10
+
+		# [beua_nationalism_ideas]
+		100 = beua_nationalism_ideas_event.1
+		100 = beua_nationalism_ideas_event.2
+		100 = beua_nationalism_ideas_event.3
+		100 = beua_nationalism_ideas_event.4
+		100 = beua_nationalism_ideas_event.5
+		100 = beua_nationalism_ideas_event.6
+		100 = beua_nationalism_ideas_event.7
+		100 = beua_nationalism_ideas_event.8
+		100 = beua_nationalism_ideas_event.9
+		100 = beua_nationalism_ideas_event.10
+
+		# [beua_society_ideas]
+		100 = beua_society_ideas_event.1
+		100 = beua_society_ideas_event.2
+		100 = beua_society_ideas_event.3
+		100 = beua_society_ideas_event.4
+		100 = beua_society_ideas_event.5
+		100 = beua_society_ideas_event.6
+		100 = beua_society_ideas_event.7
+		100 = beua_society_ideas_event.8
+		100 = beua_society_ideas_event.9
+		100 = beua_society_ideas_event.10
+
+		# [beua_imperialist_ambition_ideas|beua_imperialism_ideas]
+		100 = beua_imperialist_ambition_and_imperialism_ideas_event.1
+		100 = beua_imperialist_ambition_and_imperialism_ideas_event.2
+		100 = beua_imperialist_ambition_and_imperialism_ideas_event.3
+		100 = beua_imperialist_ambition_and_imperialism_ideas_event.4
+		100 = beua_imperialist_ambition_and_imperialism_ideas_event.5
+		100 = beua_imperialist_ambition_and_imperialism_ideas_event.6
+		100 = beua_imperialist_ambition_and_imperialism_ideas_event.7
+		100 = beua_imperialist_ambition_and_imperialism_ideas_event.8
+		100 = beua_imperialist_ambition_and_imperialism_ideas_event.9
+		100 = beua_imperialist_ambition_and_imperialism_ideas_event.10
+
+		# [beua_amphibious_ideas]
+		100 = beua_amphibious_ideas_event.1
+		100 = beua_amphibious_ideas_event.2
+		100 = beua_amphibious_ideas_event.3
+		100 = beua_amphibious_ideas_event.4
+		100 = beua_amphibious_ideas_event.5
+		100 = beua_amphibious_ideas_event.6
+		100 = beua_amphibious_ideas_event.7
+		100 = beua_amphibious_ideas_event.8
+		100 = beua_amphibious_ideas_event.9
+		100 = beua_amphibious_ideas_event.10
+		
+		# [beua_colonial_empire_ideas]
+		100 = beua_colonial_empire_ideas_event.1
+		100 = beua_colonial_empire_ideas_event.2
+		100 = beua_colonial_empire_ideas_event.3
+		100 = beua_colonial_empire_ideas_event.4
+		100 = beua_colonial_empire_ideas_event.5
+		100 = beua_colonial_empire_ideas_event.6
+		100 = beua_colonial_empire_ideas_event.7
+		100 = beua_colonial_empire_ideas_event.8
+		100 = beua_colonial_empire_ideas_event.9
+		100 = beua_colonial_empire_ideas_event.10
+
+		# [beua_magocratic_ideas]
+		100 = beua_magocratic_ideas_event.1
+		100 = beua_magocratic_ideas_event.2
+		100 = beua_magocratic_ideas_event.3
+		100 = beua_magocratic_ideas_event.4
+		100 = beua_magocratic_ideas_event.5
+		100 = beua_magocratic_ideas_event.6
+		100 = beua_magocratic_ideas_event.7
+		100 = beua_magocratic_ideas_event.8
+		100 = beua_magocratic_ideas_event.9
+		100 = beua_magocratic_ideas_event.10
+
+ 		# [beua_monstrous_ideas]
+		100 = beua_monstrous_ideas_event.1
+		100 = beua_monstrous_ideas_event.2
+		100 = beua_monstrous_ideas_event.3
+		100 = beua_monstrous_ideas_event.4
+		100 = beua_monstrous_ideas_event.5
+		100 = beua_monstrous_ideas_event.6
+		100 = beua_monstrous_ideas_event.7
+		100 = beua_monstrous_ideas_event.8
+		100 = beua_monstrous_ideas_event.9
+		100 = beua_monstrous_ideas_event.10
+
+		# [beua_imperial_ideas]
+		100 = beua_imperial_ideas_event.1
+		100 = beua_imperial_ideas_event.2
+		100 = beua_imperial_ideas_event.3
+		100 = beua_imperial_ideas_event.4
+		100 = beua_imperial_ideas_event.5
+		100 = beua_imperial_ideas_event.6
+		100 = beua_imperial_ideas_event.7
+		100 = beua_imperial_ideas_event.8
+		100 = beua_imperial_ideas_event.9
+		100 = beua_imperial_ideas_event.10
+
+		# [beua_strateic_ideas|beua_serpentspine_ideas|beua_legionary_ideas]
+		100 = beua_strategic_and_serpentspine_and_legionary_event.1
+		100 = beua_strategic_and_serpentspine_and_legionary_event.2
+		100 = beua_strategic_and_serpentspine_and_legionary_event.3
+		100 = beua_strategic_and_serpentspine_and_legionary_event.4
+		100 = beua_strategic_and_serpentspine_and_legionary_event.5
+		100 = beua_strategic_and_serpentspine_and_legionary_event.6
+		100 = beua_strategic_and_serpentspine_and_legionary_event.7
+		100 = beua_strategic_and_serpentspine_and_legionary_event.8
+		100 = beua_strategic_and_serpentspine_and_legionary_event.9
+		100 = beua_strategic_and_serpentspine_and_legionary_event.10
+
+		# [beua_general_staff_ideas]
+		100 = beua_general_staff_ideas_event.1
+		100 = beua_general_staff_ideas_event.2
+		100 = beua_general_staff_ideas_event.3
+		100 = beua_general_staff_ideas_event.4
+		100 = beua_general_staff_ideas_event.5
+		100 = beua_general_staff_ideas_event.6
+		100 = beua_general_staff_ideas_event.7
+		100 = beua_general_staff_ideas_event.8
+		100 = beua_general_staff_ideas_event.9
+		100 = beua_general_staff_ideas_event.10
+
+ 		# [beua_standing_army_ideas]
+		100 = beua_standing_army_ideas_event.1
+		100 = beua_standing_army_ideas_event.2
+		100 = beua_standing_army_ideas_event.3
+		100 = beua_standing_army_ideas_event.4
+		100 = beua_standing_army_ideas_event.5
+		100 = beua_standing_army_ideas_event.6
+		100 = beua_standing_army_ideas_event.7
+		100 = beua_standing_army_ideas_event.8
+		100 = beua_standing_army_ideas_event.9
+		100 = beua_standing_army_ideas_event.10
+
+		# [beua_conscription_ideas]
+		100 = beua_conscription_ideas_event.1
+		100 = beua_conscription_ideas_event.2
+		100 = beua_conscription_ideas_event.3
+		100 = beua_conscription_ideas_event.4
+		100 = beua_conscription_ideas_event.5
+		100 = beua_conscription_ideas_event.6
+		100 = beua_conscription_ideas_event.7
+		100 = beua_conscription_ideas_event.8
+		100 = beua_conscription_ideas_event.9
+		100 = beua_conscription_ideas_event.10
+
+		# [beua_conscription_ideas]
+		100 = beua_weapon_quality_ideas_event.1
+		100 = beua_weapon_quality_ideas_event.2
+		100 = beua_weapon_quality_ideas_event.3
+		100 = beua_weapon_quality_ideas_event.4
+		100 = beua_weapon_quality_ideas_event.5
+		100 = beua_weapon_quality_ideas_event.6
+		100 = beua_weapon_quality_ideas_event.7
+		100 = beua_weapon_quality_ideas_event.8
+		100 = beua_weapon_quality_ideas_event.9
+		100 = beua_weapon_quality_ideas_event.10
+
+		# [beua_fortress_ideas]
+		100 = beua_fortress_ideas_event.1
+		100 = beua_fortress_ideas_event.2
+		100 = beua_fortress_ideas_event.3
+		100 = beua_fortress_ideas_event.4
+		100 = beua_fortress_ideas_event.5
+		100 = beua_fortress_ideas_event.6
+		100 = beua_fortress_ideas_event.7
+		100 = beua_fortress_ideas_event.8
+		100 = beua_fortress_ideas_event.9
+		100 = beua_fortress_ideas_event.10
 	}
 }

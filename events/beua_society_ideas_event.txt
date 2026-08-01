@@ -1,0 +1,323 @@
+namespace = beua_society_ideas_event
+
+########################################################
+####### Society                                  #######
+########################################################
+
+# Event 1
+country_event = {
+	id = beua_society_ideas_event.1
+	title = beua_society_ideas_event.1.t
+	desc = beua_society_ideas_event.1.d
+	
+	picture = THEATRE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_society_ideas
+		NOT = { has_country_modifier = beua_society_ideas_event.1.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_society_ideas_event.1.1
+		add_country_modifier = {
+			name = "beua_society_ideas_event.1.1.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 2
+country_event = {
+	id = beua_society_ideas_event.2
+	title = beua_society_ideas_event.2.t
+	desc = beua_society_ideas_event.2.d
+	
+	picture = THEATRE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_society_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_society_ideas_event.2.1
+		random_owned_province = {
+			limit = {
+				is_state = yes
+				}
+			add_base_production = 2	
+		}
+	}
+	
+	option = {
+		name = beua_society_ideas_event.2.2
+		add_prestige = 10
+	}
+}
+
+# Event 3
+country_event = {
+	id = beua_society_ideas_event.3
+	title = beua_society_ideas_event.3.t
+	desc = beua_society_ideas_event.3.d
+	
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_society_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_society_ideas_event.3.1
+		random_list = {
+			33 = { add_adm_power = 50 }
+			34 = { add_dip_power = 50 }
+			33 = { add_mil_power = 50 }
+		}
+	}
+	
+	option = {
+		name = beua_society_ideas_event.3.2
+		random_list = {
+			33 = { add_prestige = 15 }
+			34 = { add_years_of_income = 1 }
+			33 = { add_yearly_manpower = 1 }
+		}
+	}
+}
+
+# Event 4
+country_event = {
+	id = beua_society_ideas_event.4
+	title = beua_society_ideas_event.4.t
+	desc = beua_society_ideas_event.4.d
+	
+	picture = CITY_DEVELOPMENT_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_society_ideas
+		NOT = { has_country_modifier = beua_society_ideas_event.4.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_society_ideas_event.4.1
+		add_country_modifier = {
+			name = "beua_society_ideas_event.4.1.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 5
+country_event = {
+	id = beua_society_ideas_event.5
+	title = beua_society_ideas_event.5.t
+	desc = beua_society_ideas_event.5.d
+	
+	picture = INVENTION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_society_ideas
+		NOT = { has_country_modifier = beua_society_ideas_event.5.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_society_ideas_event.5.1
+		add_country_modifier = {
+			name = "beua_society_ideas_event.5.1.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 6
+country_event = {
+	id = beua_society_ideas_event.6
+	title = beua_society_ideas_event.6.t
+	desc = beua_society_ideas_event.6.d
+	
+	picture = BIG_BOOK_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_society_ideas
+		NOT = { has_country_modifier = beua_society_ideas_event.6.1.m }	
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_society_ideas_event.6.1
+		add_country_modifier = {
+			name = "beua_society_ideas_event.6.1.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 7
+country_event = {
+	id = beua_society_ideas_event.7
+	title = beua_society_ideas_event.7.t
+	desc = beua_society_ideas_event.7.d
+	
+	picture = SPY_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_society_ideas
+		NOT = { has_country_modifier = beua_society_ideas_event.7.2.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_society_ideas_event.7.1
+		add_years_of_income = -1
+	}
+	
+	option = {
+		name = beua_society_ideas_event.7.2
+		add_country_modifier = {
+			name = "beua_society_ideas_event.7.2.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 8
+country_event = {
+	id = beua_society_ideas_event.8
+	title = beua_society_ideas_event.8.t
+	desc = beua_society_ideas_event.8.d
+	
+	picture = REFORM_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_society_ideas
+		war_exhaustion = 5
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_society_ideas_event.8.1
+		add_war_exhaustion = -3
+	}
+	
+	option = {
+		name = beua_society_ideas_event.8.2
+		add_war_exhaustion = 5
+		add_navy_tradition = 10
+		add_army_tradition = 10
+		add_army_professionalism = 0.05
+	}
+}
+
+# Event 9
+country_event = {
+	id = beua_society_ideas_event.9
+	title = beua_society_ideas_event.9.t
+	desc = beua_society_ideas_event.9.d
+	
+	picture = BAD_WITH_MONARCH_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_society_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_society_ideas_event.9.1
+		add_legitimacy = -20
+		add_republican_tradition = -10
+		add_devotion = -10
+		add_horde_unity = -10
+	}
+}
+
+# Event 10
+country_event = {
+	id = beua_society_ideas_event.10
+	title = beua_society_ideas_event.10.t
+	desc = beua_society_ideas_event.10.d
+	
+	picture = DEATH_OF_HEIR_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_society_ideas
+		NOT = {
+			OR = {
+				has_country_modifier = beua_society_ideas_event.10.1.m
+				has_country_modifier = beua_society_ideas_event.10.2.m
+			}
+		}
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_society_ideas_event.10.1
+		add_years_of_income = -1
+		add_country_modifier = {
+			name = "beua_society_ideas_event.10.1.m"
+			duration = 1825
+		}
+	}
+	
+	option = {
+		name = beua_society_ideas_event.10.2
+		add_country_modifier = {
+			name = "beua_society_ideas_event.10.2.m"
+			duration = 1825
+		}
+	}
+}

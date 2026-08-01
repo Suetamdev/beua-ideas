@@ -1,0 +1,286 @@
+namespace = beua_state_administration_ideas_event
+
+########################################################
+####### State Administration                     #######
+########################################################
+
+# Event 1
+country_event = {
+	id = beua_state_administration_ideas_event.1
+	title = beua_state_administration_ideas_event.1.t
+	desc = beua_state_administration_ideas_event.1.d
+	
+	picture = GREAT_BUILDING_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_state_administration_ideas
+		NOT = { has_country_modifier = beua_state_administration_ideas_event.1.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_state_administration_ideas_event.1.1
+		add_country_modifier = {
+			name = "beua_state_administration_ideas_event.1.1.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 2
+country_event = {
+	id = beua_state_administration_ideas_event.2
+	title = beua_state_administration_ideas_event.2.t
+	desc = beua_state_administration_ideas_event.2.d
+	
+	picture = UNIVERSITY_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_state_administration_ideas
+		NOT = { has_country_modifier = beua_state_administration_ideas_event.2.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_state_administration_ideas_event.2.1
+		add_country_modifier = {
+			name = "beua_state_administration_ideas_event.2.1.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 3
+country_event = {
+	id = beua_state_administration_ideas_event.3
+	title = "beua_state_administration_ideas_event.3.t"
+	desc = "beua_state_administration_ideas_event.3.d"
+	
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_state_administration_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "beua_state_administration_ideas_event.3.1"
+		add_stability_or_adm_power = yes
+		add_estate_burghers_loyalty_effect = yes
+	}
+}
+
+# Event 4
+country_event = {
+	id = beua_state_administration_ideas_event.4
+	title = beua_state_administration_ideas_event.4.t
+	desc = beua_state_administration_ideas_event.4.d
+	
+	picture = ADVISOR_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_state_administration_ideas
+		employed_advisor = {
+			category = ADM
+		}
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_state_administration_ideas_event.4.1
+		add_adm_power = 50
+		define_advisor = {
+			type = treasurer
+			discount = yes
+			skill = 2
+		}	
+	}
+}
+
+# Event 5
+country_event = {
+	id = beua_state_administration_ideas_event.5
+	title = beua_state_administration_ideas_event.5.t
+	desc = beua_state_administration_ideas_event.5.d
+	
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_state_administration_ideas
+		NOT = { has_country_modifier = beua_state_administration_ideas_event.5.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_state_administration_ideas_event.5.1
+		add_country_modifier = {
+			name = "beua_state_administration_ideas_event.5.1.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 6
+country_event = {
+	id = beua_state_administration_ideas_event.6
+	title = beua_state_administration_ideas_event.6.t
+	desc = beua_state_administration_ideas_event.6.d
+	
+	picture = BIG_BOOK_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_state_administration_ideas
+		NOT = { has_country_modifier = beua_state_administration_ideas_event.6.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_state_administration_ideas_event.6.1
+		add_country_modifier = {
+			name = "beua_state_administration_ideas_event.6.1.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 7
+country_event = {
+	id = beua_state_administration_ideas_event.7
+	title = beua_state_administration_ideas_event.7.t
+	desc = beua_state_administration_ideas_event.7.d
+	
+	picture = ACCUSATION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_state_administration_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_state_administration_ideas_event.7.1
+		add_stability = -1
+	}
+}
+
+# Event 8
+country_event = {
+	id = beua_state_administration_ideas_event.8
+	title = beua_state_administration_ideas_event.8.t
+	desc = beua_state_administration_ideas_event.8.d
+	
+	picture = REVOLUTION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_state_administration_ideas
+		NOT = { has_country_modifier = "beua_state_administration_ideas_event.8.1.m"}	
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "beua_state_administration_ideas_event.8.1"
+		add_country_modifier = {
+			name = "beua_state_administration_ideas_event.8.1.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 9
+country_event = {
+	id = beua_state_administration_ideas_event.9
+	title = beua_state_administration_ideas_event.9.t
+	desc = beua_state_administration_ideas_event.9.d
+	
+	picture = CORRUPTION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_state_administration_ideas
+		NOT = { has_country_modifier = beua_state_administration_ideas_event.9.1.m }	
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "beua_state_administration_ideas_event.9.1"
+		add_corruption = 1
+		add_years_of_income = -0.2
+		add_country_modifier = {
+			name = "beua_state_administration_ideas_event.9.1.m"
+			duration = 3650
+		}
+	}
+	
+	option = {
+		name = "beua_state_administration_ideas_event.9.2"
+		add_corruption = 1
+	}
+}
+
+# Event 10
+country_event = {
+	id = beua_state_administration_ideas_event.10
+	title = beua_state_administration_ideas_event.10.t
+	desc = beua_state_administration_ideas_event.10.d
+	
+	picture = ASSASSINATION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_state_administration_ideas
+		has_adm_advisor = yes
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "beua_state_administration_ideas_event.10.1"
+		remove_advisor_by_category = ADM	
+	}
+}

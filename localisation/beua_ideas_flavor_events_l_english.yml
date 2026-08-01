@@ -6,121 +6,1348 @@
  # Event 1
  beua_jurisprudence_ideas_event.1.t:0 "Attack on Civil Rights"
  beua_jurisprudence_ideas_event.1.d:0 "Our Minister of Justice is trying to undermine the Civil Rights granted by your majesty for quite so time now. Now several petitions have gotten your attention pleading for you to intervene."
- beua_jurisprudence_ideas_event.1.a:0 "Declare that everything will stay the same"
- beua_jurisprudence_ideas_event.1.b:0 "Openup for reforms"
+ beua_jurisprudence_ideas_event.1.1:0 "Declare that everything will stay the same"
+ beua_jurisprudence_ideas_event.1.2:0 "Openup for reforms"
  
  # Event 2
  beua_jurisprudence_ideas_event.2.t:0 "Independent Jurisdiction"
  beua_jurisprudence_ideas_event.2.d:0 "Our judges will do their job as they please. They haven't been the target of extern influence for quite some time now. Therefore trust in their jurisdiction has grown considerably but we also lost some influence over them."
- beua_jurisprudence_ideas_event.2.a:0 "We will not get involved"
- beua_jurisprudence_ideas_event.2.b:0 "Maybe we should overthink that"
- beua_jurisprudence_ideas_event.2.b.m:0 "Interference in Jurisdiction"
+ beua_jurisprudence_ideas_event.2.1:0 "We will not get involved"
+ beua_jurisprudence_ideas_event.2.2:0 "Maybe we should overthink that"
+ beua_jurisprudence_ideas_event.2.2.m:0 "Interference in Jurisdiction"
 
  # Event 3
  beua_jurisprudence_ideas_event.3.t:0 "Judicial Congress"
  beua_jurisprudence_ideas_event.3.d:0 "There's a big Judicial Congress hold in our capital right now. Great Names have come to attend to this meeting, making it a big step towards international law."
- beua_jurisprudence_ideas_event.3.a:0 "A great day for jurisdiction"
- beua_jurisprudence_ideas_event.3.a.m:0 "Judicial Congress"
+ beua_jurisprudence_ideas_event.3.1:0 "A great day for jurisdiction"
+ beua_jurisprudence_ideas_event.3.1.m:0 "Judicial Congress"
  
  # Event 4
  beua_jurisprudence_ideas_event.4.t:0 "University Founding"
  beua_jurisprudence_ideas_event.4.d:0 "After years of built time a new university funded by [Root.GetName] is finally completed. A great day for the country!"
- beua_jurisprudence_ideas_event.4.a:0 "Good!"
+ beua_jurisprudence_ideas_event.4.1:0 "Good!"
 
  # Event 5
  beua_jurisprudence_ideas_event.5.t:0 "New Professorship"
  beua_jurisprudence_ideas_event.5.d:0 "We decided to fund a new professorship for one of our best universities. This will not only help our advancement efforts but also strengthen our contol over that said university."
- beua_jurisprudence_ideas_event.5.a:0 "To Scholarship"
+ beua_jurisprudence_ideas_event.5.1:0 "To Scholarship"
 
  # Event 6
  beua_jurisprudence_ideas_event.6.t:0 "Judicial Pundit"
  beua_jurisprudence_ideas_event.6.d:0 "This man is truly a judicial genius. Some already call him a legend, being an excellent lawyer in court and a philosopher on the sides."
- beua_jurisprudence_ideas_event.6.a:0 "He truly is great!"
- beua_jurisprudence_ideas_event.6.a.m:0 "Judicial Pundit: §Y$VAL$%§!"
+ beua_jurisprudence_ideas_event.6.1:0 "He truly is great!"
+ beua_jurisprudence_ideas_event.6.1.m:0 "Judicial Pundit: §Y$VAL$%§!"
 
  # Event 7
  beua_jurisprudence_ideas_event.7.t:0 "Important Adjudgement"
  beua_jurisprudence_ideas_event.7.d:0 "Our High Court came to a very important adjudgement. This will greatly affect jurisdiction in the future."
- beua_jurisprudence_ideas_event.7.a:0 "An important day"
- beua_jurisprudence_ideas_event.7.a.m:0 "Important Precedent"
+ beua_jurisprudence_ideas_event.7.1:0 "An important day"
+ beua_jurisprudence_ideas_event.7.1.m:0 "Important Precedent"
 
  # Event 8
  beua_jurisprudence_ideas_event.8.t:0 "Bribed Judge"
  beua_jurisprudence_ideas_event.8.d:0 "Some time ago a this very judge was accused of bribery before but now our apprehensions were came true. He infact has taken money from various parties to influence his rulings."
- beua_jurisprudence_ideas_event.8.a:0 "Kick him out of Office"
- beua_jurisprudence_ideas_event.8.a.m:0 "Bribed Judge"
+ beua_jurisprudence_ideas_event.8.1:0 "Kick him out of Office"
+ beua_jurisprudence_ideas_event.8.1.m:0 "Bribed Judge"
 
  # Event 9
  beua_jurisprudence_ideas_event.9.t:0 "Reactionary Tendencies"
  beua_jurisprudence_ideas_event.9.d:0 "Uneasy times! People discuss the value and necessity of their civil rights and shockingly many of them seem willing to give up on them and instead demand strong leadership leading them into the future."
- beua_jurisprudence_ideas_event.9.a:0 "Defend Civil Rights"
- beua_jurisprudence_ideas_event.9.a.m:0 "Civil Rights Defended"
- beua_jurisprudence_ideas_event.9.b:0 "Who cares?"
- beua_jurisprudence_ideas_event.9.b.m:0 "Reactionary Rhetoric"
+ beua_jurisprudence_ideas_event.9.1:0 "Defend Civil Rights"
+ beua_jurisprudence_ideas_event.9.1.m:0 "Civil Rights Defended"
+ beua_jurisprudence_ideas_event.9.2:0 "Who cares?"
+ beua_jurisprudence_ideas_event.9.2.m:0 "Reactionary Rhetoric"
 
  # Event 10
 
  beua_jurisprudence_ideas_event.10.t:0 "Judicial Scandal"
  beua_jurisprudence_ideas_event.10.d:0 "Our Minister of Justice has uncovered a corrupt network in our jurisdiction. Judges, helpers and administrators were bribed and have gained great influence over the processes in our administration. As things are working pretty well still at the surface we need to decide if we want to enact drastic measures or leave it be for the moment."
- beua_jurisprudence_ideas_event.10.a:0 "Clean up the mess"
- beua_jurisprudence_ideas_event.10.b:0 "Do nothing"
- beua_jurisprudence_ideas_event.10.b.m:0 "Old Felt"
+ beua_jurisprudence_ideas_event.10.1:0 "Clean up the mess"
+ beua_jurisprudence_ideas_event.10.2:0 "Do nothing"
+ beua_jurisprudence_ideas_event.10.2.m:0 "Old Felt"
 
  # Health Ideas Events
  # Event 1
  beua_health_ideas_event.1.t:0 "New Medicine discovered"
  beua_health_ideas_event.1.d:0 "A medical genius has found new ways of using a common plant, making a certain tea together with other ingredients from it that's helping a great deal against fewer."
- beua_health_ideas_event.1.a:0 "It's a breakthrough!"
+ beua_health_ideas_event.1.1:0 "It's a breakthrough!"
 
  # Event 2
  beua_health_ideas_event.2.t:0 "Private Hospital opened"
  beua_health_ideas_event.2.d:0 "A local merchant guild has given back to our great city and found a hospital both for rich and poor people."
- beua_health_ideas_event.2.a:0 "Sweet!"
+ beua_health_ideas_event.2.1:0 "Sweet!"
 
  # Event 3
  beua_health_ideas_event.3.t:0 "Reduction of Infant Deaths"
  beua_health_ideas_event.3.d:0 "Through sheer effort of trying to educate our people in basic hygiene we could reduce our infant deaths considerably."
- beua_health_ideas_event.3.a:0 "The gods are on our side!"
- beua_health_ideas_event.3.a.m:0 "Decrease of Infant Death"
+ beua_health_ideas_event.3.1:0 "The gods are on our side!"
+ beua_health_ideas_event.3.1.m:0 "Decrease of Infant Death"
 
  # Event 4
  beua_health_ideas_event.4.t:0 "Doctor Education pays off"
  beua_health_ideas_event.4.d:0 "By financing doctor education we could infact reduce the amount of frauds and butchers trying to sell their wisdom on the streets."
- beua_health_ideas_event.4.a:0 "To be expected"
- beua_health_ideas_event.4.a.m:0 "Doctor Education Pays Off"
+ beua_health_ideas_event.4.1:0 "To be expected"
+ beua_health_ideas_event.4.1.m:0 "Doctor Education Pays Off"
 
-# Event 5
+ # Event 5
  beua_health_ideas_event.5.t:0 "Eastern Medicine"
  beua_health_ideas_event.5.d:0 "Other places in the world have different means of treating similar illnesses. We can learn from them and incooperate what works better in their places than in ours in our arsenal."
- beua_health_ideas_event.5.a:0 "We won't discriminate"
- beua_health_ideas_event.5.a.m:0 "Eastern Medicine"
+ beua_health_ideas_event.5.1:0 "We won't discriminate"
+ beua_health_ideas_event.5.1.m:0 "Eastern Medicine"
 
-# Event 6
+ # Event 6
  beua_health_ideas_event.6.t:0 "Doctor Society"
  beua_health_ideas_event.6.d:0 "The doctor society is having a forum in our capital. New ways of treatment and ethical questions are discussed there. We are sure that we can profit from constant exchange between the experts and are sure that science will profit from it."
- beua_health_ideas_event.6.a:0 "A step in the right direction"
- beua_health_ideas_event.6.a.m:0 "Doctor Society"
+ beua_health_ideas_event.6.1:0 "A step in the right direction"
+ beua_health_ideas_event.6.1.m:0 "Doctor Society"
 
-# Event 7
+ # Event 7
  beua_health_ideas_event.7.t:0 "Plague out of control"
  beua_health_ideas_event.7.d:0 "Lately a plague is devestating our provinces. Our doctors are as powerless as the frauds, the church and  the government."
- beua_health_ideas_event.7.a:0 "Close the Doors"
+ beua_health_ideas_event.7.1:0 "Close the Doors"
  
-# Event 8
+ # Event 8
  beua_health_ideas_event.8.t:0 "Mercury"
  beua_health_ideas_event.8.d:0 "Mercury was already used by the Castanorians as a way of treating illness. Although lately some voices have been heard wanting to ban mercury from using it as a medicine. They say nothing good comes from taking it."
- beua_health_ideas_event.8.a:0 "Ban Mercury to be used as medicine"
- beua_health_ideas_event.8.b:0 "But it works!"
- beua_health_ideas_event.8.b.m:0 "Mercury Treatment Banned"
+ beua_health_ideas_event.8.1:0 "Ban Mercury to be used as medicine"
+ beua_health_ideas_event.8.2:0 "But it works!"
+ beua_health_ideas_event.8.2.m:0 "Mercury Treatment Banned"
  
-# Event 9
+ # Event 9
  beua_health_ideas_event.9.t:0 "Phlebotomy"
  beua_health_ideas_event.9.d:0 "Phlebotomy is a wide known therapy. However some state that it rather weakens the body of the patient in most cases instead of being beneficial. We can see the pros and cons of the treatment and need to decide whether to banish it in most cases or not."
- beua_health_ideas_event.9.a:0 "An old fashioned treatment"
- beua_health_ideas_event.9.b:0 "Why not?"
- beua_health_ideas_event.9.b.m:0 "Phlebotomy Banned"
+ beua_health_ideas_event.9.1:0 "An old fashioned treatment"
+ beua_health_ideas_event.9.2:0 "Why not?"
+ beua_health_ideas_event.9.2.m:0 "Phlebotomy Banned"
 
-# Event 10
+ # Event 10
  beua_health_ideas_event.10.t:0 "Losing Confidence in Hospitals"
  beua_health_ideas_event.10.d:0 "Lately our people have lost confidance in our hospitals and doctors. A terrible plague has killed many people and it seems many people will rather seek out the butchers and frauds selling them amulets and potions made of horse piss rather than realy doctors."
- beua_health_ideas_event.10.a:0 "Bad news!"
+ beua_health_ideas_event.10.1:0 "Bad news!"
+
+ # State Administration
+ # Event 1
+ beua_state_administration_ideas_event.1.t:0 "State Archives built"
+ beua_state_administration_ideas_event.1.d:0 "We have built a new state archive where all relevant information of our state and existance will be stored and kept for our following generations."
+ beua_state_administration_ideas_event.1.1:0 "A good idea"
+ beua_state_administration_ideas_event.1.1.m:0 "State Archive Established"
+
+ # Event 2
+ beua_state_administration_ideas_event.2.t:0 "Administrative Court going strong"
+ beua_state_administration_ideas_event.2.d:0 "Through establishing a strong administrative court we have ensured that our administration is much more efficient than before."
+ beua_state_administration_ideas_event.2.1:0 "Good work!"
+ beua_state_administration_ideas_event.2.1.m:0 "Administrative Court Established"
+
+ # Event 3
+ beua_state_administration_ideas_event.3.t:0 "Reliable Administration"
+ beua_state_administration_ideas_event.3.d:0 "Our administration is predictable in their rulings. That's why our people have great trust in our administration, because they know that everyone will get equally treated when demanding something."
+ beua_state_administration_ideas_event.3.1:0 "Legal Certainty for our people"
+
+ # Event 4
+ beua_state_administration_ideas_event.4.t:0 "Province Administrator loved"
+ beua_state_administration_ideas_event.4.d:0 "One of our state administrators of our provinces is loved for is genius work in his provinces. He truly is a man of honour and one of our best bureaucrats."
+ beua_state_administration_ideas_event.4.1:0 "Great work!"
+
+ # Event 5
+ beua_state_administration_ideas_event.5.t:0 "Trusted Officials"
+ beua_state_administration_ideas_event.5.d:0 "Our state officials have worked hard for the last couple of years to get the trust of our people. The last case of corruption lies years behind us. They really deserve our trust."
+ beua_state_administration_ideas_event.5.1:0 "Very good"
+ beua_state_administration_ideas_event.5.1.m:0 "Trusted Official"
+ 
+ # Event 6
+ beua_state_administration_ideas_event.6.t:0 "Harmonize Processes"
+ beua_state_administration_ideas_event.6.d:0 "Through evaluating some of our work processes we have achieved far greater efficiency than before."
+ beua_state_administration_ideas_event.6.1:0 "That is efficient"
+ beua_state_administration_ideas_event.6.1.m:0 "Processes Simplified"
+
+ # Event 7
+ beua_state_administration_ideas_event.7.t:0 "Province Administrator hated"
+ beua_state_administration_ideas_event.7.d:0 "One of our province administrators is hated by his provinces. We do not really understand why, because technically he is a good man. However one could say that he is not that careful with hiding his contempt for certain local customs."
+ beua_state_administration_ideas_event.7.1:0 "That's how it is"
+
+ # Event 8
+ beua_state_administration_ideas_event.8.t:0 "Archive in Flames"
+ beua_state_administration_ideas_event.8.d:0 "One of our state archives has caught fire when a lightning bolt hit its roof last night."
+ beua_state_administration_ideas_event.8.1:0 "A terrible loss"
+ beua_state_administration_ideas_event.8.1.m:0 "Archive Destroyed"
+
+ # Event 9 
+ beua_state_administration_ideas_event.9.t:0 "Corrupt Syndicate in our Administration"
+ beua_state_administration_ideas_event.9.d:0 "We discovered that a corrupt syndicate has partly taken over our administration and is using a combination of bribarey and terror to undermine our policies and make money. Technically the efficiency of our administration is still acceptable but we cannot let this continue."
+ beua_state_administration_ideas_event.9.1:0 "Fight to destroy the Syndicate"
+ beua_state_administration_ideas_event.9.1.m:0 "Fighting Corruption"
+ beua_state_administration_ideas_event.9.2:0 "That's how it is"
+
+ # Event 10
+ beua_state_administration_ideas_event.10.t:0 "Administrator Murdered"
+ beua_state_administration_ideas_event.10.d:0 "Our dearest advisor was found dead in his chambers. We do not know yet whether he was victim to a palace intrigue or maybe had an unhappy ending to an affair. What we certainly know is: He is dead."
+ beua_state_administration_ideas_event.10.1:0 "Oh no!"
+
+ # Centralism Ideas Events
+ # Event 1
+ beua_centralism_ideas_event.1.t:0 "Great Census"
+ beua_centralism_ideas_event.1.d:0 "We have ordered a great census of the population in our realm. When we know how many subjects we have, we can better estimte how much tax, production and trade money we might make in the next couple of years."
+ beua_centralism_ideas_event.1.1:0 "Interesting results"
+ beua_centralism_ideas_event.1.1.m:0 "Census"
+
+ # Event 2
+ beua_centralism_ideas_event.2.t:0 "Great Land Surveying"
+ beua_centralism_ideas_event.2.d:0 "A land survey is important to exactly determine the value of our lands."
+ beua_centralism_ideas_event.2.1:0 "Important information"
+ beua_centralism_ideas_event.2.1.m:0 "Land Survey"
+
+ # Event 3
+ beua_centralism_ideas_event.3.t:0 "Capital Development"
+ beua_centralism_ideas_event.3.d:0 "Our capital needs to be the most prosperous metropolis of the world. We are eager to develop it to the most amazing city in the whole wide world."
+ beua_centralism_ideas_event.3.1:0 "Our Capital is very important"
+
+ # Event 4
+ beua_centralism_ideas_event.4.t:0 "Estate Control"
+ beua_centralism_ideas_event.4.d:0 "Through central organisation of the state we can only concentrate the most powerful estates of the country in the capital and thus control them easier as we only have one place where we really have to watch them."
+ beua_centralism_ideas_event.4.1:0 "They will do as we command"
+
+ # Event 5
+ beua_centralism_ideas_event.5.t:0 "Capital Tourism"
+ beua_centralism_ideas_event.5.d:0 "Tourism is an underrated way of making money. By attracting the tourists of the world we can ensure that foreign money flows into our coffers."
+ beua_centralism_ideas_event.5.1:0 "The greatest City in the World"
+ beua_centralism_ideas_event.5.1.m:0 "Capital Tourism"
+
+ # Event 6
+ beua_centralism_ideas_event.6.t:0 "Trade Boom"
+ beua_centralism_ideas_event.6.d:0 "The centralisation of trade in our trade capital will allow us to a attract even more trade to our lands."
+ beua_centralism_ideas_event.6.1:0 "Excellent"
+ beua_centralism_ideas_event.6.1.m:0 "Trade Boom"
+
+ # Event 7
+ beua_centralism_ideas_event.7.t:0 "Province Autonomy Agenda"
+ beua_centralism_ideas_event.7.d:0 "Some of our provinces demand higher autonomy. However that goes against our way of thinking centralistic. We as a centralist state need to be able to controll all of our provinces from the capital."
+ beua_centralism_ideas_event.7.1:0 "Argue against it"
+ beua_centralism_ideas_event.7.1.m:0 "Autonomy Desires Suppressed"
+ beua_centralism_ideas_event.7.2:0 "Make small concessions"
+ beua_centralism_ideas_event.7.2.m:0 "Small Autonomy Concessions"
+ 
+ # Event 8
+ beua_centralism_ideas_event.8.t:0 "Corruption in National Bank"
+ beua_centralism_ideas_event.8.d:0 "We have found that the highest banker of our national bank has been filling his own coffers with state money and even has built quite a network to cover the losses. We really need to clean house here."
+ beua_centralism_ideas_event.8.1:0 "Kill all the Bankers"
+
+ # Event 9
+ beua_centralism_ideas_event.9.t:0 "Raid of Money Transport"
+ beua_centralism_ideas_event.9.d:0 "Our Minister of Finances is in shock. An important transport of state money has been raided. Thousands of crowns were stolen, leaving us in despair."
+ beua_centralism_ideas_event.9.1:0 "Find those responsible"
+
+ # Event 10
+ beua_centralism_ideas_event.10.t:0 "Long Communication Paths"
+ beua_centralism_ideas_event.10.d:0 "Due to a huge realm and the need of all communication flowing back to our capital before we can act ona important news our abilities to quickly react to crisis is limited."
+ beua_centralism_ideas_event.10.1:0 "The disadvantages of a huge realm"
+ beua_centralism_ideas_event.10.1.m:0 "Long Communication Ways"
+
+ # Decentralism Ideas Events
+ # Event 1
+ beua_decentralism_ideas_event.1.t:0 "Federalism works"
+ beua_decentralism_ideas_event.1.d:0 "By granting our provinces a certain amount of autonomy we can ensure that they stay loyal to our rule as they mainly administrate themselves."
+ beua_decentralism_ideas_event.1.1:0 "Very good"
+
+ # Event 2
+ beua_decentralism_ideas_event.2.t:0 "Broad Infrastructure Development"
+ beua_decentralism_ideas_event.2.d:0 "By spreading our money over the whole country we can develop our infrastructure in many locations at once. By doing that we also ensure that our land develops evenly."
+ beua_decentralism_ideas_event.2.1:0 "Excellent news"
+ beua_decentralism_ideas_event.2.1.m:0 "Wide Infrastructure Development"
+
+ # Event 3
+ beua_decentralism_ideas_event.3.t:0 "The State is present"
+ beua_decentralism_ideas_event.3.d:0 "Through our decentralized strategy our state is present even in far away regions. That's how we react to problems rather swiftly and ensure short communication ways."
+ beua_decentralism_ideas_event.3.1:0 "That's how it has to be"
+
+ # Event 4
+ beua_decentralism_ideas_event.4.t:0 "Faithful Estates"
+ beua_decentralism_ideas_event.4.d:0 "Through our decentralized administration the estates won't have to focus in one area. This will limit their influence by itself and apart from that we can easier work at their base."
+ beua_decentralism_ideas_event.4.1:0 "Reward them!"
+ beua_decentralism_ideas_event.4.2:0 "Such behaviour should be expected"
+
+ # Event 5
+ beua_decentralism_ideas_event.5.t:0 "Oversea Possessions"
+ beua_decentralism_ideas_event.5.d:0 "Our oversear possessions are dear to us. By showing the people there that we truly care for them we are strengthening our rule there just by doing our job."
+ beua_decentralism_ideas_event.5.1:0 "They will be states at some point"
+ beua_decentralism_ideas_event.5.1.m:0 "New States Promised"
+ beua_decentralism_ideas_event.5.2:0 "They will always be provinces of second grade"
+ beua_decentralism_ideas_event.5.2.m:0 "Provinces of Second Grade"
+
+ # Event 6
+ beua_decentralism_ideas_event.6.t:0 "Development"
+ beua_decentralism_ideas_event.6.d:0 "The development of rural lands is important to ensure that our people have enough to eat at all times. Through decentralized food production we can keep famines to a minimum."
+ beua_decentralism_ideas_event.6.1:0 "Invest in Infrastructure"
+ beua_decentralism_ideas_event.6.2:0 "Invest in our People"
+
+ # Event 7
+ beua_decentralism_ideas_event.7.t:0 "Desired Autonomy"
+ beua_decentralism_ideas_event.7.d:0 "Despite our great efforts to grant as much autonomy to provinces a certain state demands even more autonomy and is reluctant to make any compromises."
+ beua_decentralism_ideas_event.7.1:0 "Suppress them brutally"
+ beua_decentralism_ideas_event.7.2:0 "Try to negotiate"
+
+ # Event 8
+ beua_decentralism_ideas_event.8.t:0 "Lost control"
+ beua_decentralism_ideas_event.8.d:0 "We have practically lost control over one of our provinces. The local population has stopped communicating with our officals and even kicked them out of the province. Some even say the province is in open rebellion and some of our citizens were already murdered."
+ beua_decentralism_ideas_event.8.1:0 "Send substitutes"
+
+ # Event 9
+ beua_decentralism_ideas_event.9.t:0 "Administrator chased out"
+ beua_decentralism_ideas_event.9.d:0 "Worrying messages have reached us from one of our provinces. A local administrator has been chased out by the population."
+ beua_decentralism_ideas_event.9.1:0 "That's a bad sign"
+ beua_decentralism_ideas_event.9.1.m:0 "Administrators Chased Away"
+
+ # Event 10
+ beua_decentralism_ideas_event.10.t:0 "Decentralization on the rise"
+ beua_decentralism_ideas_event.10.d:0 "We have learned that more and more seperatists are rising in our lands and plan to shatter our realm into small rivaling states again."
+ beua_decentralism_ideas_event.10.1:0 "What is this nonsense?"
+ beua_decentralism_ideas_event.10.1.m:0 "Decentralization on a Rise"
+
+ # Industrial Ideas Events
+ # Event 1
+ beua_industrial_ideas_event.1.t:0 "Mass Urbanization"
+ beua_industrial_ideas_event.1.d:0 "Our burgeoning industry has been making a name for itself, and the promise of new jobs has attracted throngs of peasants from the countryside to our city gates. This wave of urbanization could make our cities greater than ever before, if we capitalize on this trend."
+ beua_industrial_ideas_event.1.1:0 ""Let's get developing!""
+ beua_industrial_ideas_event.1.1.m:0 "Urbanization Wave"
+ 
+ # Event 2
+ beua_industrial_ideas_event.2.t:0 "Tyranny of the Factory Owner"
+ beua_industrial_ideas_event.2.d:0 "In our industrializing society, the state gives lots of favoritsm towards the hard-working factory owners who have enabled our country's surge of manufacturing. However, one of these owners has been discovered to be unfairly exploiting their workforce. Worse still, they aren't even paying us any kickbacks! Should we leave them alone, their business practices will be left unchecked, but forcing them off their land will take a few bribes..."
+ beua_industrial_ideas_event.2.1:0 "One factory is a drop in an ocean, let it be."
+ beua_industrial_ideas_event.2.1.m:0 "Tyranny of the Factory Owner"
+ beua_industrial_ideas_event.2.2:0 "That factory is worth as many bribes as it takes!"
+ beua_industrial_ideas_event.2.3:0 "That tyrant is an enemy of the people! Send in the army!"
+
+ # Event 3
+ beua_industrial_ideas_event.3.t:0 "The Factory Fire of [beua_industrial_ideas_event.3.c.GetName]"
+ beua_industrial_ideas_event.3.d:0 "We have never expected working conditions to take priority over productivity, that is simply how factories work. However, tragedy has struck a textile factory in [beua_industrial_ideas_event.3.c.GetName] today, as 40 workers burned alive during a factory fire, 60 more died from suffocation, and another 50 died from jumping to their deaths, marking it as the deadliest industrial accident in [Root.GetAdjective] history. The cause was the factory owner, who had locked all the doors to prevent unallowed worker breaks. This egregious display of malpractice has the streets of [beua_industrial_ideas_event.3.c.GetName] filled with protestors and mourners, demanding justice for those who died. Perhaps we should listen to them?"
+ beua_industrial_ideas_event.3.1:0 "Clear the protestors - and get them back to work!"
+ beua_industrial_ideas_event.3.1.m:0 "Worker Riots"
+ beua_industrial_ideas_event.3.2:0 "It is high time we insitute new safety standards."
+ beua_industrial_ideas_event.3.2.m:0 "Factory Reforms"
+ beua_industrial_ideas_event.3.3:0 "Bring the factory owner to court! The workers of the world will know justice!"
+ beua_industrial_ideas_event.3.3.m:0 "Worker's Justice"
+ beua_industrial_ideas_event.3.4:0 "The Mechanists know how to keep a factory opertaional, leave it to them."
+ beua_industrial_ideas_event.3.4.m:0 "Mechanist Quotas"
+ 
+ # Event 4
+ beua_industrial_ideas_event.4.t:0 "New Census"
+ beua_industrial_ideas_event.4.d:0 "A growing city is bound to hide new bodies to tax and draft. Thanks to our most recent census, we can more efficiently tax our population."
+ beua_industrial_ideas_event.4.1:0 "Pay up!"
+
+ # Event 5
+ beua_industrial_ideas_event.5.t:0 "Captain of Industry"
+ beua_industrial_ideas_event.5.d:0 "It is through the simple motivation of personal gain that many factory owners and manufacturing companies were first started. As the fires of industry flare up in [Root.GetName], one man in particular has amassed a fortune through their business, and through their continued personal interest they continue to fuel [Root.GetName]'s industrialization at increasingly faster rates."
+ beua_industrial_ideas_event.5.1:0 "He is clearly worthy of assisting the court!"
+ beua_industrial_ideas_event.5.2:0 "The richer he is, the richer we get."
+ beua_industrial_ideas_event.5.2.m:0 "Captain of Industry"
+
+ # Event 6 
+ beua_industrial_ideas_event.6.t:0 "Productivity Boom"
+ beua_industrial_ideas_event.6.d:0 "Our policies of rapid industrialization are beginning to bear fruit. A factory in [beua_industrial_ideas_event.6.c.GetName] is reporting unprecedented levels of productivity, fueled by cheap labor and state subsidies."
+ beua_industrial_ideas_event.6.m:0 "Production Boom"
+ beua_industrial_ideas_event.6.1:0 ""Business is booming.""
+ beua_industrial_ideas_event.6.2:0 "Perhaps the Cooperatists can make this temporary boost last longer."
+ 
+ # Event 7
+ beua_industrial_ideas_event.7.t:0 "Labor Shortages"
+ beua_industrial_ideas_event.7.d:0 "As our nation expands its industry, it is becoming increasingly clear how precious a resource our workforce is. With every new business, every new factory, the competition for manhours grows higher and higher. Business owners have started suggesting that $COUNTRY$ should do something about it. Extend the business day by an hour, lower the minimum age by a year, whatever it takes to increase the flow of bodies into the factories. These policies would surely lead to growing our industry, but it could very well lead to a decline in education in our generation."
+ beua_industrial_ideas_event.7.1:0 "Of course!"
+ beua_industrial_ideas_event.7.1.m:0 "Loose Labor Laws"
+ beua_industrial_ideas_event.7.2:0 "Let the market sort itself out."
+
+ # Event 8
+ beua_industrial_ideas_event.8.t:0 "Devaluation"
+ beua_industrial_ideas_event.8.d:0 "We have enjoyed the great wealth that our industry has alowed us, as our capacity to produce has let us establish monopolistic control over local markets. However, a shortcoming is presenting itself as of late: we are producing too much. There are only so many customers willing to buy our wares, and as we continue to flood the global economy with cheap goods, we have had to continously lower our prices to match the competition. At this rate, factories will begin shutting down and we will be facing a minor unemployment crisis."
+ beua_industrial_ideas_event.8.1:0 "Unfortunate, but unavoidable"
+ beua_industrial_ideas_event.8.1.m:0 "Oversaturated Market"
+ beua_industrial_ideas_event.8.2:0 "Buy back our excess goods, mint more coins if we have to!"
+
+ # Event 9
+ beua_industrial_ideas_event.9.t:0 "Opportunities for Artificers"
+ beua_industrial_ideas_event.9.d:0 "As advances in artificery are made across Halann, we are reminded time and again that an artificer works at their best surrounding by the hum of machines and the smog of a modern city. Our country's focus on industry has nurtured an environment for arttificery to flourish, and the artificers of our court are more than happy to do us favors in return."
+ beua_industrial_ideas_event.9.1:0 "Let's make use of their good will"
+ 
+ # Event 10
+ beua_industrial_ideas_event.10.t:0 "A Powerful Middle Class"
+ beua_industrial_ideas_event.10.d:0 "Our country's focus on industry has created a powerful middle class, of which have become grateful for their recent increase in opportunities. Local governors and guilds have gifted $MONARCH$ with a pool of crowns, with the expectation of further wealth to come for them... and $MONARCH$, of course."
+ beua_industrial_ideas_event.10.1:0 "I won't say no to that."
+
+ # Assimilation Ideas Events
+ # Event 1
+ beua_assimilation_ideas_event.1.t:0 "Good connection to the gods"
+ beua_assimilation_ideas_event.1.d:0 "Our country just is under divine protection."
+ beua_assimilation_ideas_event.1.1:0 "That is nice!"
+ beua_assimilation_ideas_event.1.2:0 "Keep it together"
+ 
+ # Event 2
+ beua_assimilation_ideas_event.2.t:0 "Fraternization of Cultures"
+ beua_assimilation_ideas_event.2.d:0 "Cultural exchange has lead to us not feeling that different towards our brothers anymore. We can almost forget that we once even were different."
+ beua_assimilation_ideas_event.2.1:0 "My Brother?"
+ beua_assimilation_ideas_event.2.2:0 "My Brother!"
+
+ # Event 3
+ beua_assimilation_ideas_event.3.t:0 "Mutual Cultural Influence"
+ beua_assimilation_ideas_event.3.d:0 "Pluralism can be chance. By adopting certain cultural aspects we can assimilate our brothers faster."
+ beua_assimilation_ideas_event.3.1:0 "We can learn from one another"
+ beua_assimilation_ideas_event.3.1.m:0 "Cultural Pluralism"
+
+ # Event 4
+ beua_assimilation_ideas_event.4.t:0 "Missionaries Welcome"
+ beua_assimilation_ideas_event.4.d:0 "Due to our tolerant attitude and our forgiving nature our religion is enjoying an excellent repuation in neighbouring countries. Because of that our travelling missionaries will be welcome there most of the time."
+ beua_assimilation_ideas_event.4.1:0 "God bless them!"
+ beua_assimilation_ideas_event.4.1.m:0 "Missionaries Welcome"
+
+ # Event 5
+ beua_assimilation_ideas_event.5.t:0 "Schools"
+ beua_assimilation_ideas_event.5.d:0 "By introducing schools to public life we can form the children of our enemies to be our friends."
+ beua_assimilation_ideas_event.5.1:0 "Education is very important"
+ beua_assimilation_ideas_event.5.1.m:0 "Educational Institutions"
+
+ # Event 6
+ beua_assimilation_ideas_event.6.t:0 "National Pride put into a new Perspective"
+ beua_assimilation_ideas_event.6.d:0 "National pride is a bourgeois concept and not suited for an assimilated society."
+ beua_assimilation_ideas_event.6.1:0 "Good!"
+ beua_assimilation_ideas_event.6.1.m:0 "National Pride Relativized"
+
+ # Event 7
+ beua_assimilation_ideas_event.7.t:0 "Neo National Movement"
+ beua_assimilation_ideas_event.7.d:0 "Lately more and more voices are heard demanding going back to their cultural identities. That is bad news for us."
+ beua_assimilation_ideas_event.7.1:0 "Suppress them all!"
+ beua_assimilation_ideas_event.7.1.m:0 "Neo National Movement"
+ beua_assimilation_ideas_event.7.2:0 "Bribe their leaders"
+
+ # Event 8
+ beua_assimilation_ideas_event.8.t:0 "Liberal Politician Murdered"
+ beua_assimilation_ideas_event.8.d:0 "One of our greatest bridgebuilders a famous politician has been murdered on the streets while giving a speech."
+ beua_assimilation_ideas_event.8.1:0 "We will miss him"
+ beua_assimilation_ideas_event.8.2:0 "He was a troublemaker"
+
+ # Event 9
+ beua_assimilation_ideas_event.9.t:0 "Charismatic Seperatist Leader"
+ beua_assimilation_ideas_event.9.d:0 "A seperarist movement in out country has found a new charismatic leader which will surely cement their determination."
+ beua_assimilation_ideas_event.9.1:0 "Order his assassination"
+ beua_assimilation_ideas_event.9.1.m:0 "Suspicious Death of Seperatist"
+ beua_assimilation_ideas_event.9.2:0 "Argue against him"
+ beua_assimilation_ideas_event.9.2.m:0 "Fiery Debate"
+
+ # Event 10
+ beua_assimilation_ideas_event.10.t:0 "Culture Shock"
+ beua_assimilation_ideas_event.10.d:0 "More and more people are of the oppinion that the cultures in our country are way too different to live together with."
+ beua_assimilation_ideas_event.10.1:0 "Damn!"
+ beua_assimilation_ideas_event.10.1.m:0 "Cultural Shock"
+
+ # Nationalism Ideas Events
+ # Event 1
+ beua_nationalism_ideas_event.1.t:0 "Loyal Club founded"
+ beua_nationalism_ideas_event.1.d:0 "Recently a club supporting the country and government by organising propaganda or doing other things has been founded in the capital."
+ beua_nationalism_ideas_event.1.1:0 "They have our support"
+
+ # Event 2
+ beua_nationalism_ideas_event.2.t:0 "Nationalists want to help the state"
+ beua_nationalism_ideas_event.2.d:0 "The nationalist want to help the state with their workforce, not only sit by and give suggestions."
+ beua_nationalism_ideas_event.2.1:0 "Tell them what to do"
+ beua_nationalism_ideas_event.2.1.m:0 "Nationalist Help Accepted"
+ beua_nationalism_ideas_event.2.2:0 "We don't need them right now"
+ beua_nationalism_ideas_event.2.2.m:0 "Nationalist Help Declined"
+
+ # Event 3
+ beua_nationalism_ideas_event.3.t:0 "Famous Nationalist honoured"
+ beua_nationalism_ideas_event.3.d:0 "A famous nationalist has been honoured by the government for his efforts to clean the streets of our capital of bandits."
+ beua_nationalism_ideas_event.3.1:0 "Well deserved"
+
+ # Event 4
+ beua_nationalism_ideas_event.4.t:0 "Nationalist General"
+ beua_nationalism_ideas_event.4.d:0 "We discovered that one of our most influential generals is a secret nationalist and was quite openly talking about military secrets in his club."
+ beua_nationalism_ideas_event.4.1:0 "Pension him now"
+ beua_nationalism_ideas_event.4.2:0 "And, your point?"
+
+ # Event 5
+ beua_nationalism_ideas_event.5.t:0 "Nationalist attacks foreign Visitor"
+ beua_nationalism_ideas_event.5.d:0 "An incident has caught wide attention. A nationalist has attacked a foreign visitor of our capital. He is just a tourist and as far as we can see he did nothing suspicious to warrant the attack."
+ beua_nationalism_ideas_event.5.1:0 "Execute the Nationalist"
+ beua_nationalism_ideas_event.5.1.m:0 "Enormous Diplomatic Incident"
+ beua_nationalism_ideas_event.5.2:0 "He surely had a good reason for his actions"
+ beua_nationalism_ideas_event.5.2.m:0 "Catastrophic Diplomatic Incident"
+
+ # Event 6
+ beua_nationalism_ideas_event.6.t:0 "Nationalist is first in the breach"
+ beua_nationalism_ideas_event.6.d:0 "Chance discovered that a nationalist was first into the breach."
+ beua_nationalism_ideas_event.6.1:0 "A shining example"
+ beua_nationalism_ideas_event.6.2:0 "Ok"
+
+ # Event 7
+ beua_nationalism_ideas_event.7.t:0 "Nationalists turn aggressive"
+ beua_nationalism_ideas_event.7.d:0 "The nationalists turn more and more aggressive towards everyone not entirely sharing the same oppinion as them. We have come to the conclusion that we somehow need to limit their influence or we will be on the verge of civil war soon."
+ beua_nationalism_ideas_event.7.1:0 "Forbid the most aggressive club"
+ beua_nationalism_ideas_event.7.1.m:0 "Nationalist Club Banned"
+ beua_nationalism_ideas_event.7.2:0 "Arrest the leaders"
+ beua_nationalism_ideas_event.7.2.m:0 "Nationalist Arsonist Arrested"
+ 
+ # Event 8
+ beua_nationalism_ideas_event.8.t:0 "Dissent on the Streets"
+ beua_nationalism_ideas_event.8.d:0 "The nationalists are unhappy with our policies and are protesting on the streets."
+ beua_nationalism_ideas_event.8.1:0 "Terrible!"
+ 
+ # Event 9
+ beua_nationalism_ideas_event.9.t:0 "Nationalists charge National Archives"
+ beua_nationalism_ideas_event.9.d:0 "Nationalists have learned rumors about a map lying in our archives not showing our country but one of our rivals with all of our territory occupied. They should know that this is just a historic relict but they want to burn it officially despite that knowledge."
+ beua_nationalism_ideas_event.9.1:0 "Send the garrison and take it back"
+ beua_nationalism_ideas_event.9.2:0 "Wait until they leave the archive"
+
+ # Event 10
+ beua_nationalism_ideas_event.10.t:0 "Minister discovered as hidden Nationalist"
+ beua_nationalism_ideas_event.10.d:0 "One of our ministers has been discovered as being a hidden nationalist. Normally we try to balance out the estates in our country and finding out about the connections of this minister has tipped the balance."
+ beua_nationalism_ideas_event.10.1:0 "Fire him immediately"
+ beua_nationalism_ideas_event.10.2:0 "And, your point?"
+ 
+ # Society Ideas Events
+ # Event 1
+ beua_society_ideas_event.1.t:0 "Society very lively lately"
+ beua_society_ideas_event.1.d:0 "Society is energetic, lively, optimistic and loving at the moment. We could no hope for a better environment."
+ beua_society_ideas_event.1.1:0 "That's good news"
+ beua_society_ideas_event.1.1.m:0 "Good Society Life"
+
+ # Event 2
+ beua_society_ideas_event.2.t:0 "Coffeehouses popular"
+ beua_society_ideas_event.2.d:0 "Coffeehouses are very popular with the intellectuals. They are meeting points for social or political discussion, exchange over art or just to meet interesting people."
+ beua_society_ideas_event.2.1:0 "Two pieces of sugar, please"
+ beua_society_ideas_event.2.2:0 "And what about tea?"
+
+ # Event 3
+ beua_society_ideas_event.3.t:0 "Discussion Culture"
+ beua_society_ideas_event.3.d:0 "The society is very open to discussion at the moment. Almost all topics are accepted. Maybe this is the beginning of a new Renaissance."
+ beua_society_ideas_event.3.1:0 "To be or not to be"
+ beua_society_ideas_event.3.2:0 "that is the question"
+
+ # Event 4
+ beua_society_ideas_event.4.t:0 "Quick Mailing Routes"
+ beua_society_ideas_event.4.d:0 "Steady correspondence and thus the need for latters to be delivered as quickly as possible have lead to be efficient mailing routes in our realm."
+ beua_society_ideas_event.4.1:0 "Communication is important"
+ beua_society_ideas_event.4.1.m:0 "Short Postal Ways"
+ 
+ # Event 5
+ beua_society_ideas_event.5.t:0 "Intellectual May"
+ beua_society_ideas_event.5.d:0 "Our Intellectuals are as productive as ever. The philosophers already call this year the year of the intellectuals."
+ beua_society_ideas_event.5.1:0 "Big Times!"
+ beua_society_ideas_event.5.1.m:0 "Intellectual May"
+ 
+ # Event 6
+ beua_society_ideas_event.6.t:0 "Academic Correspondence"
+ beua_society_ideas_event.6.d:0 "Universities and academies are in constanct correspondence. Sharing knowledge is much easier like this."
+ beua_society_ideas_event.6.1:0 "Great!"
+ beua_society_ideas_event.6.1.m:0 "Academic Correspondence"
+ 
+ # Event 7
+ beua_society_ideas_event.7.t:0 "Escape in Private Life"
+ beua_society_ideas_event.7.d:0 "Our people are fed up with state and society and only care about their well being."
+ beua_society_ideas_event.7.1:0 "Relight their fire"
+ beua_society_ideas_event.7.2:0 "Oh well..."
+ beua_society_ideas_event.7.2.m:0 "Retreat to Private Life"
+ 
+ # Event 8
+ beua_society_ideas_event.8.t:0 "War support dwindling"
+ beua_society_ideas_event.8.d:0 "People are not fond of our war. If we lose the support of the intellectuals the common folk will follow soon."
+ beua_society_ideas_event.8.1:0 "Talk about Peace"
+ beua_society_ideas_event.8.2:0 "Push it through"
+
+ # Event 9
+ beua_society_ideas_event.9.t:0 "Suppression of Lower Classes"
+ beua_society_ideas_event.9.d:0 "The intellectuals are critisizing our oppression of the lower classes. Although not really wanting them to unlock their full potential they believe that a little less oppression would be more humanist."
+ beua_society_ideas_event.9.1:0 "That's how it is"
+ 
+ # Event 10
+ beua_society_ideas_event.10.t:0 "Great Depression"
+ beua_society_ideas_event.10.d:0 "The overall mood in society is on an all time low. People are committing suicide or sliding into dark deeds is becoming a common phenomenon."
+ beua_society_ideas_event.10.1:0 "Bring back the optimism"
+ beua_society_ideas_event.10.1.m:0 "Great Depression Counter Measures"
+ beua_society_ideas_event.10.2:0 "Times will change again"
+ beua_society_ideas_event.10.2.m:0 "Great Depression"
+
+ # Imperialist Ambition and Imperialism Ideas Events
+ # Event 1
+ beua_imperialist_ambition_and_imperialism_ideas_event.1.t:0 "New Leader of Guard appointed"
+ beua_imperialist_ambition_and_imperialism_ideas_event.1.d:0 "We have appointed a new leader of our personel guard. He is a man of great honour and a talented and trusted officer."
+ beua_imperialist_ambition_and_imperialism_ideas_event.1.1:0 "Very good!"
+
+ # Event 2
+ beua_imperialist_ambition_and_imperialism_ideas_event.2.t:0 "Charismatic Liaison Officer"
+ beua_imperialist_ambition_and_imperialism_ideas_event.2.d:0 "One of our liaison officers is the most attractive and charming man of the realm. Even men cannot escape his charm."
+ beua_imperialist_ambition_and_imperialism_ideas_event.2.1:0 "Promote him!"
+ beua_imperialist_ambition_and_imperialism_ideas_event.2.2:0 "Expose him more to the public"
+ beua_imperialist_ambition_and_imperialism_ideas_event.2.2.m:0 "Charismatic Liaison Officer"
+
+ # Event 3
+ beua_imperialist_ambition_and_imperialism_ideas_event.3.t:0 "Wave of Conquests"
+ beua_imperialist_ambition_and_imperialism_ideas_event.3.d:0 "Our territory has been greatly enhanced over the last couple of months."
+ beua_imperialist_ambition_and_imperialism_ideas_event.3.1:0 "Keep the momentum!"
+ beua_imperialist_ambition_and_imperialism_ideas_event.3.1.m:0 "Wave of Conquest"
+
+ # Event 4
+ beua_imperialist_ambition_and_imperialism_ideas_event.4.t:0 "Constant Renewal"
+ beua_imperialist_ambition_and_imperialism_ideas_event.4.d:0 "By striving for constant renewal our country should be less affectable by decadence."
+ beua_imperialist_ambition_and_imperialism_ideas_event.4.1:0 "To Progress!"
+
+ # Event 5
+ beua_imperialist_ambition_and_imperialism_ideas_event.5.t:0 "Snobbery"
+ beua_imperialist_ambition_and_imperialism_ideas_event.5.d:0 "Some of our intellectuals and officers think we are the greatest country on this earth. They only see our good qualiies and ignore the problems we have."
+ beua_imperialist_ambition_and_imperialism_ideas_event.5.1:0 "Those arrogant idiots!"
+ beua_imperialist_ambition_and_imperialism_ideas_event.5.2:0 "Let them talk"
+
+ # Event 6
+ beua_imperialist_ambition_and_imperialism_ideas_event.6.t:0 "Old Traditions questioned"
+ beua_imperialist_ambition_and_imperialism_ideas_event.6.d:0 "Sometimes old traditions need to be questioned in order to reform them or replace them with something better suited to the current situation."
+ beua_imperialist_ambition_and_imperialism_ideas_event.6.1:0 "Even Traditions need to change from time to time"
+ beua_imperialist_ambition_and_imperialism_ideas_event.6.2:0 "Leave them be"
+
+ # Event 7
+ beua_imperialist_ambition_and_imperialism_ideas_event.7.t:0 "Every Realm will perish"
+ beua_imperialist_ambition_and_imperialism_ideas_event.7.d:0 "It should be common knowledge that no realm will stay the same or even exist forever."
+ beua_imperialist_ambition_and_imperialism_ideas_event.7.1:0 "Aul-Dwarov lasted over a 5000 years"
+ beua_imperialist_ambition_and_imperialism_ideas_event.7.2:0 "It is true though"
+ beua_imperialist_ambition_and_imperialism_ideas_event.7.2.m:0 "Learning from History"
+
+ # Event 8
+ beua_imperialist_ambition_and_imperialism_ideas_event.8.t:0 "The End Times for $COUNTRY$?"
+ beua_imperialist_ambition_and_imperialism_ideas_event.8.d:0 "Some people say that the realm is doomed. Are they right?"
+ beua_imperialist_ambition_and_imperialism_ideas_event.8.1:0 "Nonsense!"
+ beua_imperialist_ambition_and_imperialism_ideas_event.8.1.m:0 "The End Times"
+ beua_imperialist_ambition_and_imperialism_ideas_event.8.2:0 "Maybe they are right"
+
+ # Event 9
+ beua_imperialist_ambition_and_imperialism_ideas_event.9.t:0 "Castanorian Decadence"
+ beua_imperialist_ambition_and_imperialism_ideas_event.9.d:0 "The decadence in the realm reminds us of the castanorian decadence. Some of our scholars see this decadence as the main reason for Castanor to perish."
+ beua_imperialist_ambition_and_imperialism_ideas_event.9.1:0 "Live the reputation"
+ beua_imperialist_ambition_and_imperialism_ideas_event.9.1.m:0 "Decadence Accepted"
+ beua_imperialist_ambition_and_imperialism_ideas_event.9.2:0 "Deny it!"
+ beua_imperialist_ambition_and_imperialism_ideas_event.9.2.m:0 "Decadence Grainsaid"
+
+ # Event 10
+ beua_imperialist_ambition_and_imperialism_ideas_event.10.t:0 "Bloated Administration"
+ beua_imperialist_ambition_and_imperialism_ideas_event.10.d:0 "Balancing the administration of a realm is never easy. One has to weigh between a huge machine where every noble has an important position or a smaller but more efficient administration."
+ beua_imperialist_ambition_and_imperialism_ideas_event.10.1:0 "Reduce our administration"
+ beua_imperialist_ambition_and_imperialism_ideas_event.10.1.m:0 "Administration Scaled-Down"
+ beua_imperialist_ambition_and_imperialism_ideas_event.10.2:0 "We are an empire!"
+ beua_imperialist_ambition_and_imperialism_ideas_event.10.2.m:0 "Ignored Problems in Administration"
+
+ # Amphibious Ideas Events
+ # Event 1
+ beua_amphibious_ideas_event.1.t:0 "New Galley Rams"
+ beua_amphibious_ideas_event.1.d:0 "One of our engineers is said to have invented a new class of galley rams. He is stating that those rams are revolutionary and much better than anything we have seen before."
+ beua_amphibious_ideas_event.1.1:0 "Test then first"
+ beua_amphibious_ideas_event.1.1.m:0 "Innovative Rams in Testing"
+ beua_amphibious_ideas_event.1.2:0 "Order them now"
+ beua_amphibious_ideas_event.1.2.m:0 "Innovative Rams for the Fleet"
+
+ # Event 2 
+ beua_amphibious_ideas_event.2.t:0 "Damerian Fire?"
+ beua_amphibious_ideas_event.2.d:0 "One of our expert alchemists came to us, totally excited, telling us that he reinvented a so-called "Damerian Fire" and can reproduce it for military purposes."
+ beua_amphibious_ideas_event.2.1:0 "Finance more tests"
+ beua_amphibious_ideas_event.2.2:0 "Sounds fake to me"
+
+ # Event 3
+ beua_amphibious_ideas_event.3.t:0 "Famous Veteran emerges"
+ beua_amphibious_ideas_event.3.d:0 "A hero from an almost forgotten naval battle reemerged. While we believed him long dead or at least lost for our services he is willing to return to us now."
+ beua_amphibious_ideas_event.3.1:0 "We believed him dead"
+
+ # Event 4
+ beua_amphibious_ideas_event.4.t:0 "Shanties"
+ beua_amphibious_ideas_event.4.d:0 "Singing is a good way to lift the spirit of our seamen. We have instituted some bards to write patriotic shanties for our navy that can be sung on board and in battle."
+ beua_amphibious_ideas_event.4.1:0 "What do you do with a drunken sailor?"
+ beua_amphibious_ideas_event.4.1.m:0 "Shanties"
+
+ # Event 5
+ beua_amphibious_ideas_event.5.t:0 "The whole Horizon"
+ beua_amphibious_ideas_event.5.d:0 "If we would line up our whole navy the whole horizon would be covered by them."
+ beua_amphibious_ideas_event.5.1:0 "The whole Horizon!"
+ 
+ # Event 6
+ beua_amphibious_ideas_event.6.t:0 "Maritime Deterrent"
+ beua_amphibious_ideas_event.6.d:0 "Our naval capacities and strength are known world wide. Potential enemies will not dare to challenge us."
+ beua_amphibious_ideas_event.6.1:0 "They know, we are superior"
+
+ # Event 7
+ beua_amphibious_ideas_event.7.t:0 "Famous shipbuilder dies"
+ beua_amphibious_ideas_event.7.d:0 "One of our most famous shipbuilders, the builder of our flagship has dies last night. We served us well."
+ beua_amphibious_ideas_event.7.1:0 "We still needed him"
+ beua_amphibious_ideas_event.7.1.m:0 "Famous Shipwright Died"
+
+ # Event 8
+ beua_amphibious_ideas_event.8.t:0 "Engineer defects"
+ beua_amphibious_ideas_event.8.d:0 "One of our engineers defected to one of our rivals. We don't think that he had such valuable information that our naval superiority is in danger but his defection certainly hurts us."
+ beua_amphibious_ideas_event.8.1:0 "Bastard!"
+ beua_amphibious_ideas_event.8.1.m:0 "Engineer Defected"
+
+ # Event 9
+ beua_amphibious_ideas_event.9.t:0 "Not even close to Damerian Fire"
+ beua_amphibious_ideas_event.9.d:0 "Recent tests have showed that an expert that has promised us damerian fire could not deliver for weeks. We funded him and it seems that our money wasn't worth the investment."
+ beua_amphibious_ideas_event.9.1:0 "Execute the fraud"
+ beua_amphibious_ideas_event.9.2:0 "Kick him out"
+
+ # Event 10
+ beua_amphibious_ideas_event.10.t:0 "Lost Skirmish"
+ beua_amphibious_ideas_event.10.d:0 "A small skirmish with some ships of one of our rivals occured. We were surprised by them and took some losses already. What should we do?"
+ beua_amphibious_ideas_event.10.1:0 "Retreat!"
+ beua_amphibious_ideas_event.10.2:0 "Fight to the last ship"
+
+ # Colonial Empire Ideas Events
+ # Event 1
+ beua_colonial_empire_ideas_event.1.t:0 "Colonial Adventures"
+ beua_colonial_empire_ideas_event.1.d:0 "Colonial veterans and colonists are very popular right now. They won't pay their drinks in the taverns if they tell enough stories about their adventures in the colonies."
+ beua_colonial_empire_ideas_event.1.1:0 "Tell me more!"
+ 
+ # Event 2
+ beua_colonial_empire_ideas_event.2.t:0 "Colonial Literature"
+ beua_colonial_empire_ideas_event.2.d:0 "Literature telling stories about colonial life is very popular in our society right now. It wouldn't be surprising if this would lead to a colonial boom."
+ beua_colonial_empire_ideas_event.2.1:0 "Can they even read?"
+ beua_colonial_empire_ideas_event.2.1.m:0 "Colonial Literature"
+
+ # Event 3
+ beua_colonial_empire_ideas_event.3.t:0 "Escape in the Unknown"
+ beua_colonial_empire_ideas_event.3.d:0 "Many poor people fighting for survival at home might find new hope in the far away lands of our colonies."
+ beua_colonial_empire_ideas_event.3.1:0 "Everyone can become rich"
+ beua_colonial_empire_ideas_event.3.1.m:0 "Escape in the Unknown"
+
+ # Event 4
+ beua_colonial_empire_ideas_event.4.t:0 "Discovery Spirit"
+ beua_colonial_empire_ideas_event.4.d:0 "Society is curious. Everyone loves to hear about our famous explorers discovering lands and nations we didn't even know existed!"
+ beua_colonial_empire_ideas_event.4.1:0 "Support them"
+ beua_colonial_empire_ideas_event.4.1.m:0 "Spirit of Discovery"
+
+ # Event 5
+ beua_colonial_empire_ideas_event.5.t:0 "Research Trip"
+ beua_colonial_empire_ideas_event.5.d:0 "The colonies hold interesting possibilities in terms of flora and fauna. We could learn so much about plants and maybe even discover new medicine."
+ beua_colonial_empire_ideas_event.5.1:0 "Finanze these trips"
+ beua_colonial_empire_ideas_event.5.1.m:0 "Public Research Trips"
+ beua_colonial_empire_ideas_event.5.2:0 "They can pay that themselves"
+ beua_colonial_empire_ideas_event.5.2.m:0 "Private Research Trips"
+
+ # Event 6
+ beua_colonial_empire_ideas_event.6.t:0 "Honest Govenor"
+ beua_colonial_empire_ideas_event.6.d:0 "One of our colonial govenors is very loyal to the nation and brought to our attention that there is some dissent with our leadership growing in the colonies."
+ beua_colonial_empire_ideas_event.6.1:0 "A good man!"
+ 
+ # Event 7
+ beua_colonial_empire_ideas_event.7.t:0 "Efficient Colonial Administration"
+ beua_colonial_empire_ideas_event.7.d:0 "Managing the colonies is a difficult task. However our great experience in that management has lead us to not making the same mistakes twice. Colonial Administration is working very well right now."
+ beua_colonial_empire_ideas_event.7.1:0 "Great!"
+ beua_colonial_empire_ideas_event.7.1.m:0 "Efficient Colonial Administration"
+
+ # Event 8
+ beua_colonial_empire_ideas_event.8.t:0 "Corrupt Govenor"
+ beua_colonial_empire_ideas_event.8.d:0 "One of our govenors was bribed by some of our colonial subjects to ignore growing dissent in the colony. Even worse: He openly sympathizes with their aims."
+ beua_colonial_empire_ideas_event.8.1:0 "Replace him"
+ beua_colonial_empire_ideas_event.8.2:0 "Ignore the corruption"
+ beua_colonial_empire_ideas_event.8.2.m:0 "Corrupt Governor"
+
+ # Event 9
+ beua_colonial_empire_ideas_event.9.t:0 "Embargo of Recruits"
+ beua_colonial_empire_ideas_event.9.d:0 "Our colonial nations have declared in a joint declaration that they will no longer supply our wars with men."
+ beua_colonial_empire_ideas_event.9.m:0 "Embargo of Recruits"
+ beua_colonial_empire_ideas_event.9.1:0 "Damn those Colonies"
+ beua_colonial_empire_ideas_event.9.2:0 "We will not forget this"
+
+ # Event 10
+ beua_colonial_empire_ideas_event.10.t:0 "Native War"
+ beua_colonial_empire_ideas_event.10.d:0 "A huge native uprising occured on one of our colonies. Small skirmishes escalated quickly into a full scale war. Our subject is under great pressure and it is reported that many civillians were already killed by the rebels."
+ beua_colonial_empire_ideas_event.10.m:0 "Native War"
+ beua_colonial_empire_ideas_event.10.1:0 "Fight them!"
+ beua_colonial_empire_ideas_event.10.2:0 "Try to negotiate"
+
+ # Magocratic Ideas Events
+ # Event 1
+ beua_magocratic_ideas_event.1.t: "A Planetouched Child"
+ beua_magocratic_ideas_event.1.d: "A child has been born into our dynasty bearing the unmistakable mark of the outer planes—a rare, planar-touched heritage pulsing with immense magical potential. While traditionalists murmur warnings of instability, others see this wondrous birth as a supreme blessing for our reigning house."
+ beua_magocratic_ideas_event.1.1: "Acknowledge them as our true heir."
+ beua_magocratic_ideas_event.1.2: "Send them away to study in secret."
+
+ # Event 2
+ beua_magocratic_ideas_event.2.t:0 "Renowned Mage"
+ beua_magocratic_ideas_event.2.d:0 "Our policies of promoting the status of mages within [Root.GetName] has borne fruit, and a skilled mage has arrived in $CAPITAL_CITY$ seeking a position in $MONARCH$'s court."
+ beua_magocratic_ideas_event.2.1:0 ""By all means!""
+ 
+ # Event 3
+ beua_magocratic_ideas_event.3.t:0 "A War Wizard Appears"
+ beua_magocratic_ideas_event.3.d:0 "Any experienced general or tactician will say that magic is a potent force on the battlefield. A common mage can blast apart foes many times their size with evocation magic, block blades and gunfire with abjuration magic, and use unconventional tactics with illusion magic. All of this increases over tenfold with War Wizards, rare and unusually powerful graduates of our very own academy who walk across battlefields as an unstoppable force of nature and can turn the tides of a battle by themselves. Today, one of these elite battlemages has stepped forward to offer their direct service to $MONARCH$, though their salary demands are wildly out of proportion to anybody else in [Root.GetName]'s military."
+ beua_magocratic_ideas_event.3.1:0 "Pay them whatever they want!"
+ beua_magocratic_ideas_event.3.2:0 "No, our treasury does not serve the whims of a single man."
+
+ # Event 4
+ beua_magocratic_ideas_event.4.t:0 "A Favor From the Mages"
+ beua_magocratic_ideas_event.4.d:0 "Our country's preferential treatment of the magical elite has them in our debt. As a token of good faith, the mages have gathered to present $MONARCH$ a favor - whatever spell [Root.Monarch.GetSheHe] wants, they will do for free."
+ beua_magocratic_ideas_event.4.1:0 "We should use this gift wisely."
+
+ # Event 5
+ beua_magocratic_ideas_event.5.t:0 "Reclusive Abjurer"
+ beua_magocratic_ideas_event.5.d:0 "The practice of abjuration magic can be described as the art of keeping things away from you. In this respect, a certain [Root.GetAdjective] mage has taken to heart, shutting his doors to all who seek him. This would not concern us, were it not for how this mage is also particularly adept at abjuration magic, and could be a great use to use if he simply opened up to us."
+ beua_magocratic_ideas_event.5.1:0 "Make some concessions for him."
+ beua_magocratic_ideas_event.5.1.m:0 "Skilled Abjurer"
+ beua_magocratic_ideas_event.5.2:0 "Let him stay in his hole."
+ beua_magocratic_ideas_event.5.2.m:0 "Abjurer's Protection"
+ 
+ # Event 6
+ beua_magocratic_ideas_event.6.t:0 "Coinmaker Mages"
+ beua_magocratic_ideas_event.6.d:0 "Transmutation magic, the art of turning something into something else, has always attracted prospective mages with a singular promise: wealth. If it's non-magical and can be found naturally, you can hire an transmuter to make it, and that includes precious metals like gems, diamonds and most importantly gold. This practice, however, is extremely illegal, as any merchant can staunchly attest to the problems of simply printing more money. Illegal or no, new reports have come in that these "coinmaker mages" have been sighted in [Root.GetName], and have gone as far as to reach out to the court for formal recognition."
+ beua_magocratic_ideas_event.6.1:0 "Demand a cut of their profits in exchange for protection."
+ beua_magocratic_ideas_event.6.1.m:0 "Coinmaker Mages"
+ beua_magocratic_ideas_event.6.2:0 "See these greedy fools out of [Root.GetName]"
+
+ # Event 7
+ beua_magocratic_ideas_event.7.t:0 "Magisters and Loyalty"
+ beua_magocratic_ideas_event.7.d:0 "As magisters, our mages have close ties to the Magisterium, the official head of mage society in Cannor. These foreign ties come with benefits, with official approval leading to a powerful class of mages. However, there always remains a question as to where these magisters' loyalty truly lies. Perhaps some "reminders" are in order?"
+ beua_magocratic_ideas_event.7.1:0 "We best keep the Magisterium on our good side."
+ beua_magocratic_ideas_event.7.2:0 "The mages should learn they aren't in the Magisterium, they're in [Root.GetName]."
+ beua_magocratic_ideas_event.7.2.m:0 "Distanced from Magisterium: §Y$VAL$%§!"
+ 
+ # Event 8
+ beua_magocratic_ideas_event.8.t:0 "Smoke and Mirrors"
+ beua_magocratic_ideas_event.8.d:0 "Today, a skilled illusion mage has approached the court with an offer of his services. Normally, illusion magic has very few practical applications, and many mages only study illusion magic as a secondary school. Mages like this one, though, can bend perceptions and play tricks on the mind with such skill that they rival the spies and assassins of organized guilds."
+ beua_magocratic_ideas_event.8.1:0 "A useful ally."
+ beua_magocratic_ideas_event.8.1.m:0 "Skilled Illusionist"
+
+ # Event 9
+ beua_magocratic_ideas_event.9.t:0 "Lich Hunts"
+ beua_magocratic_ideas_event.9.d:0 "Necromancy, the forbidden art of manipulating life, is so despised that the faintest evidence of its practice can be enough to damn a mage's career. This has resulted in a recent trend of paranoia and accusations among our mages, as a wave of "Lich Hunts" has them pointing fingers and sometimes even planting evidence of others practicing necromancy. Hundreds of mages have found themselves wrongfully tried and convicted, and hundreds more live in fear that they might be next."
+ beua_magocratic_ideas_event.9.1:0 "Crack down on this injustice!"
+ beua_magocratic_ideas_event.9.2:0 "Liches? In $COUNTRY$? Hunt them down!"
+ 
+ # Event 10
+ beua_magocratic_ideas_event.10.t:0 "A Matter of Aptitude"
+ beua_magocratic_ideas_event.10.d:0 "Our country's focus on promoting the practice of magic has done wonders, but has also ignored an important matter - what about the non-mages? Administrators, diplomats and officers alike have been left disgruntled as mages continue to receive preferential treatment. Should this continue, we should expect a serious division between the magical elite and everyone else."
+ beua_magocratic_ideas_event.10.1:0 "Good, magic is everything."
+ beua_magocratic_ideas_event.10.1.m:0 "Magocracy Enforced"
+ beua_magocratic_ideas_event.10.2:0 "We can make some allowances."
+
+ # Monstrous Ideas Events
+ # Event 1
+ beua_monstrous_ideas_event.1.t:0 "Demonsterization?"
+ beua_monstrous_ideas_event.1.d:0 "With our embracement of monstrous virtues, we have gathered enough respect and clout among our peers to push through radical reforms. With the world moving faster every day, a new, "demonsterized" $COUNTRY$ may be what we need to make a name for ourselves."
+ beua_monstrous_ideas_event.1.1:0 "Civilization is an inevitability."
+ beua_monstrous_ideas_event.1.2:0 "No, our duty is to our people, and not of foreigners."
+
+ # Event 2
+ beua_monstrous_ideas_event.2.t:0 "Orcs of War"
+ beua_monstrous_ideas_event.2.d:0 "Among our orcish population, two twin brothers stand out. The brothers are known among their local community as peerless warriors and rivals. One brother, the smarter of the pair, can strike a foe down by hitting their exact weak spot, while the other, the stronger, would instead just smash through whatever hide or armor resists him. These two orcs have appeared today at our court, each boasting of their own power while denouncing the other. Should we recruit one, they would definitely impart their tactics on whoever they lead into battle. Who do we support?"
+ beua_monstrous_ideas_event.2.1:0 "Cunningly Brutal"
+ beua_monstrous_ideas_event.2.2:0 "Brutally Cunning"
+ 
+ # Event 3
+ beua_monstrous_ideas_event.3.t:0 "An Odd Hunt"
+ beua_monstrous_ideas_event.3.d:0 "Harpies, being monogendered, are known for kidnapping mates and bringing them to their nest. This is no different in $COUNTRY$, but as of late stranger and stranger mates have been showing up. What should be some poor souls snatched from the side of a road, are instead learned scholars, devout missionaries, traders looking to make connections, and even the odd thrillseeker. This unexpected surge in willing mates has helped not only to keep unruly mates in line, but also increase the flow of information and ideas in $CAPITAL_CITY$."
+ beua_monstrous_ideas_event.3.1:0 "An intresting development."
+ beua_monstrous_ideas_event.3.1.m:0 "Odd Mates"
+ beua_monstrous_ideas_event.3.2:0 "Mates should keep their conversation to pillow talk."
+ beua_monstrous_ideas_event.3.2.m:0 "Restriction of mates' speech"
+ 
+ # Event 4
+ beua_monstrous_ideas_event.4.t:0 "Backyard Tycoons"
+ beua_monstrous_ideas_event.4.d:0 "Goblins have gained a reputation recently of building and settling towns at breakneck speed, of which there is no better example than [gobbo_industrialize.GetName]. Their chaotic influx of urbanization and proto-industrialization has been leaving their neighborhoods in complete disarray, with buildings breaking safety regulations and overly eager goblins building their own furnaces and workshops in their backyards. Should this be allowed to continue, this expansion will surely lead to oversights and loopholes in our tax collection... but might create a lasting impact on our cities' sizes."
+ beua_monstrous_ideas_event.4.1:0 "Allow them to continue."
+ beua_monstrous_ideas_event.4.1.m:0 "Unchecked Goblin Influx"
+ beua_monstrous_ideas_event.4.2:0 "We must restore order!"
+ beua_monstrous_ideas_event.4.2.m:0 "Restricted Goblin Immigration"
+
+ # Event 5
+ beua_monstrous_ideas_event.5.t:0 "Absolute Rule, Absolute Distrust"
+ beua_monstrous_ideas_event.5.d:0 "Lately, $MONARCH$ has been feeling unwell. They have been seeing things, visions of a traitor in [Root.Monarch.GetHerHis] court. But who could it be? $MONARCH$ won't be able to sleep until a culprit has been found, and a culprit WILL be found."
+ beua_monstrous_ideas_event.5.1:0 ""The governors, they're to blame!""
+ beua_monstrous_ideas_event.5.1.m:0 "Purged Administrators"
+ beua_monstrous_ideas_event.5.2:0 ""Those damn diplomats, surely it's them!""
+ beua_monstrous_ideas_event.5.2.m:0 "Purged Diplomats"
+ beua_monstrous_ideas_event.5.3:0 ""The army, they're out to get me!""
+ beua_monstrous_ideas_event.5.3.m:0 "Purged Officers"
+ beua_monstrous_ideas_event.5.4:0 ""I'm surrounded by enemies!""
+ beua_monstrous_ideas_event.5.4.m:0 "Purged Cabinet"
+
+ # Event 6
+ beua_monstrous_ideas_event.6.t:0 "Prisoners of War"
+ beua_monstrous_ideas_event.6.d:0 "It can be difficult to acquire good slaves. Some are too weak, others die of disease, and even more simply escape captivity. The country's state of war, however, has led to an opportunity to collect prisoners of war and sell them off as slave labor. As former soldiers, these prisoners are strong and resilient, and is of a higher stock. Should we endorse this development, we can expand our networks of slavers and buyers."
+ beua_monstrous_ideas_event.6.1:0 "Why work, when your enemies can work for you?"
+ beua_monstrous_ideas_event.6.2:0 "Our Gnollish population would love this!"
+ beua_monstrous_ideas_event.6.3:0 "No, we shouldn't stoop to such levels."
+ 
+ # Event 7
+ beua_monstrous_ideas_event.7.t:0 "Adventurers in $COUNTRY$"
+ beua_monstrous_ideas_event.7.d:0 "Our country has been plagued by adventurers as of late. Seeking to kill our people either as professionals, sporters or as vigilantes, these so-called "heroes" loot and pillage the countryside. Local miltias have so far been unable to stop them, but perhaps an official intervention may do the trick?"
+ beua_monstrous_ideas_event.7.1:0 "Raise the banners! They will regret hurting our people!"
+ beua_monstrous_ideas_event.7.2:0 "They will go away on their own."
+ beua_monstrous_ideas_event.7.2.m:0 "Adventurer Warbands"
+ 
+ # Event 8
+ beua_monstrous_ideas_event.8.t:0 "Border Skirmishes"
+ beua_monstrous_ideas_event.8.d:0 "Borders can be hard to tell apart, and some of our people have taken to migrating across national boundaries. This has sparked an incident, as [Root.GetAdjective] soldiers have just attacked a neighbor independantly from our army's command. [beua_border_skirmish.GetName] has demanded an official apology from us, and has mobilized troops in preparation of war.. what shall we do?"
+ beua_monstrous_ideas_event.8.1:0 "If they're looking for a fight, they picked the wrong army!"
+ beua_monstrous_ideas_event.8.2:0 "Surely, there is a peacful solution?"
+
+ # Event 9
+ beua_monstrous_ideas_event.9.t:0 "Monstrous Tradition"
+ beua_monstrous_ideas_event.9.d:0 "The long and important heritage of our peoples has not gone unnoticed by $COUNTRY$. A recent festival was held celebrating our history, and was a moment of cultural unity."
+ beua_monstrous_ideas_event.9.1:0 "We are [Root.GetAdjective]"
+
+ # Event 10
+ beua_monstrous_ideas_event.10.t:0 "Out With The Old?"
+ beua_monstrous_ideas_event.10.d:0 "$COUNTRY$ cares deeply for its monstrous heritage, but this has led to a problem: what about our military? The tactics of old are starting to give way to new weapons of war, but our generals and officiers are still being taught to fight as their ancestors did. Debates within the [Root.GetAdjective] court have begun flaring up over this issue, and whether or not to push for a modernizede army."
+ beua_monstrous_ideas_event.10.1:0 "We can be just as brutal and savage with guns as we were with steel!"
+ beua_monstrous_ideas_event.10.1.m:0 "Demonsterfication of Military"
+ beua_monstrous_ideas_event.10.2:0 "Reject technology, return to monke."
+
+ # Imperial Ideas Events
+ # Event 1
+ beua_imperial_ideas_event.1.t:0 "The Human Question"
+ beua_imperial_ideas_event.1.d:0 "The overwhelming majority of citizens within the Empire of Anbennar are humans. Best defined by their resourcefulness and socialbility, it is no exaggeration to say that humans are the glue that keeps the empire together. It is therefore of the upmost importance to consider the positions of humans within $COUNTRY$, and to remember that their electors in the empire are keenly interested in promting human rights."
+ beua_imperial_ideas_event.1.1:0 "We can make some concessions."
+ beua_imperial_ideas_event.1.1.m:0 "Concessions to Humans"
+ beua_imperial_ideas_event.1.2:0 "Let's not try changing the status quo."
+ 
+ # Event 2
+ beua_imperial_ideas_event.2.t:0 "The Halfling Question"
+ beua_imperial_ideas_event.2.d:0 "Halflings have had it rough. Born of a smaller stature, with no great nation to call its home, their dreams of independence are surpressed by the comfort of food and company in duchies and kingdoms that couldn't care less for them. But perhaps our fair lands of $COUNTRY$ could welcome them with open arms? The halfling elector of the empire keeps an eye on its charges, and would surely notice any change in our policies."
+ beua_imperial_ideas_event.2.1:0 "Halflings are welcome in $COUNTRY$!"
+ beua_imperial_ideas_event.2.1.m.1:0 "Concessions to the Halflings"
+ beua_imperial_ideas_event.2.1.m.2:0 "Concessions to the Halflings"
+ beua_imperial_ideas_event.2.2:0 "Let them be somebody else's problem."
+
+ # Event 3
+ beua_imperial_ideas_event.3.t:0 "The Elven Question"
+ beua_imperial_ideas_event.3.d:0 "The long-lived Elves are few, but mighty. Indeed, some of them lived to experience both the birth of Anbennar and the end of the Greentide. Their pride and arrogance is matched by their magical talent and centuries of experience, just being associated with an elf is a great honor among anbennarians. That same prestige could be ours, should be allow the elves greater privileges in $COUNTRY$. Their imperial elector would surely appreciate the gesture."
+ beua_imperial_ideas_event.3.1:0 "An elf is a powerful ally to have."
+ beua_imperial_ideas_event.3.1.m:0 "Concessions to the Elves"
+ beua_imperial_ideas_event.3.2:0 "Remember the Age of Masks!"
+
+ # Event 4
+ beua_imperial_ideas_event.4.t:0 "The Dwarven Question"
+ beua_imperial_ideas_event.4.d:0 "If there's a hole in the ground, chances are a dwarf dug it. Hardworking and stubborn, the dwarves trace their history back to the fall of Aul-Dwarov, and have since earned a reputation as smiths and craftsmen within Anbennar. A dwarf always remembers a favor owed - we can put them in our debt by forgiving their loans and and giving out tax breaks for dwarves. Their imperial elector would surely appreciate the gesture."
+ beua_imperial_ideas_event.4.1:0 "We could do with workers like them."
+ beua_imperial_ideas_event.4.1.m:0 "Concessions to the Dwarvens"
+ beua_imperial_ideas_event.4.2:0 "The last thing we need are dwarves driving out local businesses."
+ 
+ # Event 5
+ beua_imperial_ideas_event.5.t:0 "The Gnomish Question"
+ beua_imperial_ideas_event.5.d:0 "Gnomes are what many first think of when hearing the word "artificer." Though the Gnomish Heirarchy has fallen centuries ago, the gnomes do not share the defeatist attitude of the halflings, and have turned their frustrations onto their work to craft technological marvels. In these changing times, gnomish ingenuity is becoming more valuable than ever - and giving them a place among our intelligensia would give a good impression to the gnomes of the empire."
+ beua_imperial_ideas_event.5.1:0 "We could do with new minds in our cabinet."
+ beua_imperial_ideas_event.5.1.m.1:0 "Concessions to the Gnomes"
+ beua_imperial_ideas_event.5.1.m.2:0 "Concessions to the Gnomes"
+ beua_imperial_ideas_event.5.2:0 "Gnomes are irrelevant in Anbennar politics"
+
+ # Event 6
+ beua_imperial_ideas_event.6.t:0 "The Half-Elven Question"
+ beua_imperial_ideas_event.6.d:0 "A remarkable quality of humans is their willingness and ability to breed with anything that has two legs. Half-Elves are a result of this trait, born from the desire to have magically gifted proginey in an empire dominated by powerful mages. Half-Elf nobility has been a defining trait of Anbennar for centuries, and it would do us well to favor these poweful men. The Magisterium is particularly interested in the rights of half-elves, and would look on us favorably if we promote their acceptance."
+ beua_imperial_ideas_event.6.1:0 "Silver blood shines the brightest."
+ beua_imperial_ideas_event.6.1.m:0 "Concessions to the Half-Elves"
+ beua_imperial_ideas_event.6.2:0 "We should look to the future, not the past."
+
+ # Event 7
+ beua_imperial_ideas_event.7.t:0 "Imperial Debate"
+ beua_imperial_ideas_event.7.d:0 "A long tradition of the Empire of Anbennar is the election of the emperor between the electors. But elections also run down to more local affairs, and in one of $COUNTRY$'s courts there has been a dispute regarding a law that the emperor has recently passed. A vote was taken, and all are in agreement that $COUNTRY$ should oppose this law in the higher courts of law."
+ beua_imperial_ideas_event.7.1:0 "We should push back and support the emperor."
+ beua_imperial_ideas_event.7.1.m:0 "Supports Imperial Authority"
+ beua_imperial_ideas_event.7.2:0 "The people have spoken, we shall oppose the emperor"
+ beua_imperial_ideas_event.7.2.m:0 "Opposes Imperial Authority"
+
+ # Event 8
+ beua_imperial_ideas_event.8.t:0 "Securing The Emperorship"
+ beua_imperial_ideas_event.8.d:0 "$COUNTRY$'s status as the Emperor of Anbennar is secure, for now. However, the system of electing a new emperor upon the former's death always leaves a question hanging in the air - what if nobody votes for us a second time? If the Dove Throne is to be secured, we must secure the electors' loyalty, by any means necessary. An advisor has approached $MONARCH$ with an idea - a tax exemption. If the emperor were to reward the electors and prince for their loyalty with a tax break, the imperial coffers might be emptied but our future will be full and bright."
+ beua_imperial_ideas_event.8.1:0 "Friends are more valuable than money."
+ beua_imperial_ideas_event.8.1.m.1:0 "Reduced Imperial Taxes"
+ beua_imperial_ideas_event.8.1.m.2:0 "Exemption from Imperial tax"
+ beua_imperial_ideas_event.8.2:0 "No, the treasury couldn't afford it."
+
+ # Event 9
+ beua_imperial_ideas_event.9.t:0 "Merchant League in [beua_imperial_ideas_event.9.c.GetName]"
+ beua_imperial_ideas_event.9.d:0 "[beua_imperial_ideas_event.9.c.GetName] is a rich and properous province within $COUNTRY$, and its position within local trade routes has made it an attractive location for merchants to do business. However, as of late a league of indepedent merchants have moved in, and are threatening our own control over the city's business. Of course, we could allow these upstarts to continue their business, as our treatment of them would undoubtedly earn the favor of the imperial elector Damescrown. But can we risk our own trade networks?"
+ beua_imperial_ideas_event.9.1:0 "Wealth is meant to be shared."
+ beua_imperial_ideas_event.9.1.m.1:0 "Concessions to the Merchant League"
+ beua_imperial_ideas_event.9.1.m.2:0 "Independent Merchant Activity"
+ beua_imperial_ideas_event.9.2:0 "Drive these merchants out of [beua_imperial_ideas_event.9.c.GetName]!"
+
+ # Event 10
+ beua_imperial_ideas_event.10.t:0 "Weaving a Decadent Web"
+ beua_imperial_ideas_event.10.d:0 "Imperial politics is confusing at best. A prince's land could be scattered in various exclaves, A single city could have more political sway than an entire duchy, wars are fought for incomprehensible reasons, and above all of them an emperor drags its subjects along, kicking and screaming. Through such turmoil, our diplomats have proved time and time again to be capable at mending tensions and fostering new alliances inside and outside of the empire, an advantage we would do well to use in these changing times."
+ beua_imperial_ideas_event.10.1:0 "In chaos, there is opportunity."
+ beua_imperial_ideas_event.10.1.m:0 "Imperial Diplomacy"
+
+ # Imperialist Ambition and Imperialism Ideas Events
+ # Event 1
+ beua_strategic_and_serpentspine_and_legionary_event.1.t:0 "Tactical Relocation"
+ beua_strategic_and_serpentspine_and_legionary_event.1.d:0 "We have found an opportunity to do a quick relocation of troops and catch the enemy by surprise."
+ beua_strategic_and_serpentspine_and_legionary_event.1.1:0 "The enemy won't expect us here"
+ beua_strategic_and_serpentspine_and_legionary_event.1.1.m:0 "Tactical Relocation Unnoticed"
+
+ # Event 2
+ beua_strategic_and_serpentspine_and_legionary_event.2.t:0 "Good Weather"
+ beua_strategic_and_serpentspine_and_legionary_event.2.d:0 "In recent months the weather was best suited for campaigns."
+ beua_strategic_and_serpentspine_and_legionary_event.2.1:0 "God is on our side"
+ beua_strategic_and_serpentspine_and_legionary_event.2.1.m:0 "Good Weather"
+
+ # Event 3
+ beua_strategic_and_serpentspine_and_legionary_event.3.t:0 "Surprise Attack successful"
+ beua_strategic_and_serpentspine_and_legionary_event.3.d:0 "We surprised our enemy with a sneaky maneuver and gained the initiative."
+ beua_strategic_and_serpentspine_and_legionary_event.3.1:0 "Press the advantage"
+ beua_strategic_and_serpentspine_and_legionary_event.3.1.m:0 "Surprise Attack Successfull"
+
+ # Event 4
+ beua_strategic_and_serpentspine_and_legionary_event.4.t:0 "March separated, strike together"
+ beua_strategic_and_serpentspine_and_legionary_event.4.d:0 "Sometimes it is advisable to split up the forces and march qickly on different streets, then quickly concentrate the troops in one spot and destroy the enemy with superior numbers."
+ beua_strategic_and_serpentspine_and_legionary_event.4.1:0 "Let's do it like this"
+ beua_strategic_and_serpentspine_and_legionary_event.4.2:0 "Who said that again?"
+
+ # Event 5
+ beua_strategic_and_serpentspine_and_legionary_event.5.t:0 "Feint Attack"
+ beua_strategic_and_serpentspine_and_legionary_event.5.d:0 "We will confues our enemies with a feint and then overrun them on their other wing."
+ beua_strategic_and_serpentspine_and_legionary_event.5.1:0 "Feint at their right and take their left"
+ beua_strategic_and_serpentspine_and_legionary_event.5.1.m:0 "Feint Attack"
+
+ # Event 6
+ beua_strategic_and_serpentspine_and_legionary_event.6.t:0 "Tactical Withdrawl"
+ beua_strategic_and_serpentspine_and_legionary_event.6.d:0 "Our front is overstretched. We need to fall back a little in order to avoid being surrounded."
+ beua_strategic_and_serpentspine_and_legionary_event.6.1:0 "Shorten our line of battle"
+ beua_strategic_and_serpentspine_and_legionary_event.6.1.m:0 "Tactical Withdrawl"
+ 
+ # Event 7
+ beua_strategic_and_serpentspine_and_legionary_event.7.t:0 "Regiment Surrounded"
+ beua_strategic_and_serpentspine_and_legionary_event.7.d:0 "Bad news! One of our regiments fell into the enemy trap and was surrounded."
+ beua_strategic_and_serpentspine_and_legionary_event.7.1:0 "Counterattack immediately"
+ beua_strategic_and_serpentspine_and_legionary_event.7.1.m:0 "Liberate the Pocket"
+ beua_strategic_and_serpentspine_and_legionary_event.7.2:0 "They are lost to us"
+ beua_strategic_and_serpentspine_and_legionary_event.7.2.m:0 "The Pocket is Lost"
+ 
+ # Event 8
+ beua_strategic_and_serpentspine_and_legionary_event.8.t:0 "Troops shocked!"
+ beua_strategic_and_serpentspine_and_legionary_event.8.d:0 "The troops are shocked by our recent casulties. We need to encourage them now or fall back and regroup!"
+ beua_strategic_and_serpentspine_and_legionary_event.8.1:0 "To the Flags!"
+ beua_strategic_and_serpentspine_and_legionary_event.8.2:0 "Fall back!"
+ 
+ # Event 9
+ beua_strategic_and_serpentspine_and_legionary_event.9.t:0 "Movement Plans leaked"
+ beua_strategic_and_serpentspine_and_legionary_event.9.d:0 "Somehow, someway the enemy has gotten word of our movement plans. What should we do about?"
+ beua_strategic_and_serpentspine_and_legionary_event.9.1:0 "Stick to the plan!"
+ beua_strategic_and_serpentspine_and_legionary_event.9.1.m:0 "Stick to the Plan"
+ beua_strategic_and_serpentspine_and_legionary_event.9.2:0 "No plan survives the first enemy contact"
+
+ # Event 10
+ beua_strategic_and_serpentspine_and_legionary_event.10.t:0 "Maneuver failed"
+ beua_strategic_and_serpentspine_and_legionary_event.10.d:0 "We did plan a clever maneuver but it did not go as we planned."
+ beua_strategic_and_serpentspine_and_legionary_event.10.1:0 "Blame the General"
+ beua_strategic_and_serpentspine_and_legionary_event.10.2:0 "Not every maneuver can succeed"
+
+ # General Staff Ideas Events
+ # Event 1
+ beua_general_staff_ideas_event.1.t:0 "Innovative Staff"
+ beua_general_staff_ideas_event.1.d:0 "A general staff faces many challenges on many different questions. Finding the best answers and out of the box thinking is often required here."
+ beua_general_staff_ideas_event.1.1:0 "They always have the answer!"
+ beua_general_staff_ideas_event.1.1.m:0 "Innovative Staff"
+
+ # Event 2
+ beua_general_staff_ideas_event.2.t:0 "War Games successful"
+ beua_general_staff_ideas_event.2.d:0 "The latest war games were a great success. Both generals and troops learned a lot and important perceptions were made."
+ beua_general_staff_ideas_event.2.1:0 "Very good!"
+ beua_general_staff_ideas_event.2.2:0 "Let's continue the games!"
+ beua_general_staff_ideas_event.2.2.m:0 "War Games Extended"
+
+ # Event 3
+ beua_general_staff_ideas_event.3.t:0 "Inspector Generals doing their work"
+ beua_general_staff_ideas_event.3.d:0 "Introducing inspector generals for our troops has prooven to be a great idea to ensure lasting quality in our army."
+ beua_general_staff_ideas_event.3.1:0 "That's why we have them"
+ beua_general_staff_ideas_event.3.2:0 "Praise them publicly"
+ 
+ # Event 4
+ beua_general_staff_ideas_event.4.t:0 "Implementation of new techniques successful"
+ beua_general_staff_ideas_event.4.d:0 "Implementing new ways of thinking or implementing new techniques can be very difficult, but less so with an innovative general staff."
+ beua_general_staff_ideas_event.4.1:0 "The general staff is open for innovation"
+
+ # Event 5
+ beua_general_staff_ideas_event.5.t:0 "Foregin General Defects"
+ beua_general_staff_ideas_event.5.d:0 "A foreign general has defected to our side and will now work with our general staff to discover the weaknessess of our enemies."
+ beua_general_staff_ideas_event.5.1:0 "Good news!"
+ beua_general_staff_ideas_event.5.1.m:0 "Foreign General Staff Officer Defected"
+
+ # Event 6 
+ beua_general_staff_ideas_event.6.t:0 "Professional Army"
+ beua_general_staff_ideas_event.6.d:0 "Our army is professional, from the simple soldier to the highest general."
+ beua_general_staff_ideas_event.6.1:0 "Very good!"
+
+ # Event 7
+ beua_general_staff_ideas_event.7.t:0 "Brilliant Staff Officer Dead"
+ beua_general_staff_ideas_event.7.d:0 "Unfortunate news reached us today. A brilliant staff officer has died last night. We wasn't very famous but a very valuable member of our general staff."
+ beua_general_staff_ideas_event.7.1:0 "Organise an official funeral"
+ beua_general_staff_ideas_event.7.2:0 "It's a great loss"
+
+ # Event 8
+ beua_general_staff_ideas_event.8.t:0 "Arrogance grows in General Staff"
+ beua_general_staff_ideas_event.8.d:0 "The general staff grows more and more arrogant, totally convinced that their way and only their way is the correct one."
+ beua_general_staff_ideas_event.8.1:0 "Argue against it"
+ beua_general_staff_ideas_event.8.1.m:0 "Arrogance in General Staff Suppressed"
+ beua_general_staff_ideas_event.8.2:0 "We are the best anyway"
+ beua_general_staff_ideas_event.8.2.m:0 "Arrogance in General Staff Ignored"
+
+ # Event 9
+ beua_general_staff_ideas_event.9.t:0 "Nobility before Performence"
+ beua_general_staff_ideas_event.9.d:0 "The yearly promotions to general staff are imminent and we need to decide on the best candidates."
+ beua_general_staff_ideas_event.9.1:0 "Performence is the most important thing"
+ beua_general_staff_ideas_event.9.2:0 "Nobles will always be superior"
+
+ # Event 10
+ beua_general_staff_ideas_event.10.t:0 "Unwarranted Promotion"
+ beua_general_staff_ideas_event.10.d:0 "Due to some sort of mistake in the administration an officer not deserving a promotion has received one. Taking it back could cause an uproar, but would be right decision."
+ beua_general_staff_ideas_event.10.1:0 "Admit the mistake"
+ beua_general_staff_ideas_event.10.2:0 "Leave it be!"
+
+ # Standing Army Ideas Events
+ # Event 1
+ beua_standing_army_ideas_event.1.t:0 "Good Supply Situation"
+ beua_standing_army_ideas_event.1.d:0 "Before starting the annual war games we did check the supply situation for the upcoming games and gladly report that all is prepared."
+ beua_standing_army_ideas_event.1.1:0 "That's good to hear!"
+ beua_standing_army_ideas_event.1.1.m:0 "Good Suppy Situation"
+
+ # Event 2
+ beua_standing_army_ideas_event.2.t:0 "New Infantry Weapons unpopular"
+ beua_standing_army_ideas_event.2.d:0 "Our infantry received new weapons last months. However the muskets are very unpopular with the troops. There are various complains but we do not really know whether they are warranted or not."
+ beua_standing_army_ideas_event.2.1:0 "Force them through"
+ beua_standing_army_ideas_event.2.1.m:0 "Technical Advancement Enforced"
+ beua_standing_army_ideas_event.2.2:0 "Grant a longer transition time"
+ beua_standing_army_ideas_event.2.2.m:0 "Transition Time for old Weapons"
+ 
+ # Event 3
+ beua_standing_army_ideas_event.3.t:0 "Great Confidence in the Army"
+ beua_standing_army_ideas_event.3.d:0 "Both our leaders and our people have great confidence in our army whatever challenges may arise."
+ beua_standing_army_ideas_event.3.1:0 "Excellent"
+ beua_standing_army_ideas_event.3.2:0 "But don't get too arrogant"
+ 
+ # Event 4
+ beua_standing_army_ideas_event.4.t:0 "Great Companionship"
+ beua_standing_army_ideas_event.4.d:0 "Respecting the comrades and carring for them is good when fighting on the battlefield."
+ beua_standing_army_ideas_event.4.1:0 "United we stand!"
+ beua_standing_army_ideas_event.4.1.m:0 "Great Companionship"
+ 
+ # Event 5
+ beua_standing_army_ideas_event.5.t:0 "Private Accommodation"
+ beua_standing_army_ideas_event.5.d:0 "Sometimes private accommodation can really strengten the relationship between the troops and the people. However if there's an attractive girl living in the house it might be something else."
+ beua_standing_army_ideas_event.5.1:0 "A good opportunity!"
+ beua_standing_army_ideas_event.5.2:0 "Do not allow fraternization"
+
+ # Event 6
+ beua_standing_army_ideas_event.6.t:0 "Individual Supplies"
+ beua_standing_army_ideas_event.6..d:0 "Our leadership currently debates the question whether soldiers should carry their equipment themselves or if it should be carried for them."
+ beua_standing_army_ideas_event.6.1:0 "Equip everyone!"
+ beua_standing_army_ideas_event.6.1.m:0 "Individual Supplies"
+ beua_standing_army_ideas_event.6.2:0 "We will keep supply matters in central hands"
+ beua_standing_army_ideas_event.6.2.m:0 "Supply Track"
+
+ # Event 7
+ beua_standing_army_ideas_event.7.t:0 "Drill Failed"
+ beua_standing_army_ideas_event.7.d:0 "This one regiment is just bad. What can we do about it if even our best drill instructors failed?"
+ beua_standing_army_ideas_event.7.1:0 "Drill them even more!"
+ beua_standing_army_ideas_event.7.2:0 "These lads are hopeless..."
+ 
+ # Event 8
+ beua_standing_army_ideas_event.8.t:0 "General killed by Soldier"
+ beua_standing_army_ideas_event.8.d:0 "Sometimes it can be profitable if a general plays cards with his soldiers from time to time. But in this case it did not end well. The soldier accused the general of cheating. When the accused denied it fervently the soldier stabbed him in the eye."
+ beua_standing_army_ideas_event.8.1:0 "Execute the soldier immediately"
+ beua_standing_army_ideas_event.8.1.m:0 "Dissent Among Soldiers"
+ beua_standing_army_ideas_event.8.2:0 "Examine the issue unbiased"
+ beua_standing_army_ideas_event.8.2.m:0 "Homicide of General: Unbiased Investigation"
+ 
+ # Event 9
+ beua_standing_army_ideas_event.9.t:0 "Lax Generation"
+ beua_standing_army_ideas_event.9.d:0 "The new recruits present themselves in pitiful shape."
+ beua_standing_army_ideas_event.9.1:0 "We can't do anything about it"
+ beua_standing_army_ideas_event.9.2:0 "Drill them!"
+ 
+ # Event 10
+ beua_standing_army_ideas_event.10.t:0 "Lazy Soldiers"
+ beua_standing_army_ideas_event.10.d:0 "When they have nothing to do soldiers get lazy."
+ beua_standing_army_ideas_event.10.1:0 "Oh well..."
+ beua_standing_army_ideas_event.10.1.m:0 "Professionalism Enforced"
+ beua_standing_army_ideas_event.10.2:0 "More drill!"
+ beua_standing_army_ideas_event.10.2.m:0 "Control Through Drill"
+
+ # Conscription Ideas Events
+ # Event 1
+ beua_conscription_ideas_event.1.t:0 "Voluntary Extension of Service"
+ beua_conscription_ideas_event.1.d:0 "Our men love to serve their homeland. Many of them choose to stay longer in the army."
+ beua_conscription_ideas_event.1.1:0 "Keep them in the army"
+ beua_conscription_ideas_event.1.1.m:0 "Voluntary Service Extension"
+ beua_conscription_ideas_event.1.2:0 "Voluntary Service Extension Declined"
+ beua_conscription_ideas_event.1.2.m:0 "We also need peasants"
+
+ # Event 2
+ beua_conscription_ideas_event.2.t:0 "Steeled Youth"
+ beua_conscription_ideas_event.2.d:0 "The young generation is eager to come well prepared when they start their military service."
+ beua_conscription_ideas_event.2.1:0 "Very good!"
+ 
+ # Event 3
+ beua_conscription_ideas_event.3.t:0 "Acceptance of Army on a rise"
+ beua_conscription_ideas_event.3.d:0 "Our army is accepted and well received in our society."
+ beua_conscription_ideas_event.3.1:0 "Excellent"
+ 
+ # Event 4
+ beua_conscription_ideas_event.4.t:0 "Great Number of Volunteers"
+ beua_conscription_ideas_event.4.d:0 "This year a huge wave of volunteers wants to enlist for our army."
+ beua_conscription_ideas_event.4.1:0 "Welcome them!"
+ beua_conscription_ideas_event.4.2:0 "We don't need them right now"
+
+ # Event 5
+ beua_conscription_ideas_event.5.t:0 "Shortage of Equipment"
+ beua_conscription_ideas_event.5.d:0 "Due to the great number of volunteers we are facing problems with equipping them well."
+ beua_conscription_ideas_event.5.1:0 "Can happen to the best"
+ beua_conscription_ideas_event.5.1.m:0 "Supply Shortage"
+ beua_conscription_ideas_event.5.2:0 "Order Supplies immediately"
+ 
+ # Event 6
+ beua_conscription_ideas_event.6.t:0 "Old Munition Depot found"
+ beua_conscription_ideas_event.6.d:0 "Great news! When garrisoning an abandoned fort again we found and old munition depot that obviously was forgotten or left behind when the fort was mothballed."
+ beua_conscription_ideas_event.6.1:0 "That's nice"
+
+ # Event 7
+ beua_conscription_ideas_event.7.t:0 "Officer Promotion"
+ beua_conscription_ideas_event.7.d:0 "Officer promotion is imminent. We need to decide on the best candidates."
+ beua_conscription_ideas_event.7.1:0 "Promote some Nobles"
+ beua_conscription_ideas_event.7.2:0 "We will only promote the best"
+
+ # Event 8
+ beua_conscription_ideas_event.8.t:0 "Incompetent Instructors"
+ beua_conscription_ideas_event.8.d:0 "Our general inspectors report that our drill instructors are incompetent. Many of them live in the past and know nothing about modern warfare."
+ beua_conscription_ideas_event.8.1:0 "Replace them all"
+ beua_conscription_ideas_event.8.1.m:0 "Incompetent Instructors Replaced"
+ beua_conscription_ideas_event.8.2:0 "Leave them be"
+ beua_conscription_ideas_event.8.2.m:0 "Incompetent Instructors"
+
+ # Event 9
+ beua_conscription_ideas_event.9.t:0 "Munition Depot exploded"
+ beua_conscription_ideas_event.9.d:0 "Two soldiers were killed when a munition depot exploded last night. We believe that the fools were smoking near the explosives."
+ beua_conscription_ideas_event.9.1:0 "Oh no!"
+
+ # Event 10
+ beua_conscription_ideas_event.10.t:0 "Desertations on a Rise"
+ beua_conscription_ideas_event.10.d:0 "Recent desertations have reached disturbing heights. We need to react to this development."
+ beua_conscription_ideas_event.10.1:0 "Tighten our controls"
+ beua_conscription_ideas_event.10.2:0 "All a coincidance"
+
+ # Weapon Quality Ideas Events
+ # Event 1
+ beua_weapon_quality_ideas_event.1.t:0 "World Export Champion"
+ beua_weapon_quality_ideas_event.1.d:0 "Our country exports the most goods in the world compared to our economic power."
+ beua_weapon_quality_ideas_event.1.1:0 "That is our aim"
+ beua_weapon_quality_ideas_event.1.1.m:0 "World Champion of Exports"
+ beua_weapon_quality_ideas_event.1.2:0 "That is not really important to me"
+ 
+ # Event 2
+ beua_weapon_quality_ideas_event.2.t:0 "Weapon Exports on a high"
+ beua_weapon_quality_ideas_event.2.d:0 "Our weapons are well reputed in the world."
+ beua_weapon_quality_ideas_event.2.1:0 "Supply everyone, also our rivals"
+ beua_weapon_quality_ideas_event.2.1.m:0 "Trading with Everybody"
+ beua_weapon_quality_ideas_event.2.2:0 "There is a limit to everything"
+ 
+ # Event 3
+ beua_weapon_quality_ideas_event.3.t:0 "Steel Boom"
+ beua_weapon_quality_ideas_event.3.d:0 "Steel is an important resource for weapons production and other goods. A steel boom will certainly help raising our production to new heights."
+ beua_weapon_quality_ideas_event.3.1:0 "Wow is this hard!"
+ beua_weapon_quality_ideas_event.3.1.m:0 "Steel Boom"
+
+ # Event 4
+ beua_weapon_quality_ideas_event.4.t:0 "Finest Technique"
+ beua_weapon_quality_ideas_event.4.d:0 "Our weapons are quite technical. They are not as crude as the weapons of our neighbours. Some even call them art and they do have a point."
+ beua_weapon_quality_ideas_event.4.1:0 "Very good"
+ beua_weapon_quality_ideas_event.4.1.m:0 "Fine Weapons"
+ 
+ # Event 5
+ beua_weapon_quality_ideas_event.5.t:0 "Innovative Manufacturing"
+ beua_weapon_quality_ideas_event.5.d:0 "There are different approaches from which we choose how we want manufacturing in our state manufactories to be."
+ beua_weapon_quality_ideas_event.5.1:0 "Manufactory Manufacturing"
+ beua_weapon_quality_ideas_event.5.1.m:0 "Manufactory Production"
+ beua_weapon_quality_ideas_event.5.2:0 "Custom Made Manufacturing"
+ beua_weapon_quality_ideas_event.5.2.m:0 "Custom Made Production"
+ 
+ # Event 6
+ beua_weapon_quality_ideas_event.6.t:0 "Private Manufacturing"
+ beua_weapon_quality_ideas_event.6.d:0 "Some burghers have built a private manufactory and are producing premium goods that are well received."
+ beua_weapon_quality_ideas_event.6.1:0 "That is working well"
+ beua_weapon_quality_ideas_event.6.1.m:0 "Private Manufactory Production"
+ beua_weapon_quality_ideas_event.6.2:0 "I don't think this is a good idea"
+
+ # Event 7
+ beua_weapon_quality_ideas_event.7.t:0 "Powerful Capitalist"
+ beua_weapon_quality_ideas_event.7.d:0 "A very active merchant became very rich by building private manufactories and is now seeking influence in the state." 
+ beua_weapon_quality_ideas_event.7.1:0 "Try to limit his influence"
+ beua_weapon_quality_ideas_event.7.2:0 "Disown him partly"
+
+ # Event 8
+ beua_weapon_quality_ideas_event.8.t:0 "Manufactory Sabotaged"
+ beua_weapon_quality_ideas_event.8.d:0 "One of our state manufactories was sabotaged. We believe that one of our rivals is responsible for this."
+ beua_weapon_quality_ideas_event.8.m:0 "Manufactory Sabotaged"
+ beua_weapon_quality_ideas_event.8.1:0 "Find the traitors!"
+ beua_weapon_quality_ideas_event.8.2:0 "That's war..."
+
+ # Event 9
+ beua_weapon_quality_ideas_event.9.t:0 "Bad Metal"
+ beua_weapon_quality_ideas_event.9.d:0 "We are having difficulties in finding high quality metal lately. It seems like the metal provided lately was of far poorer quality than assured."
+ beua_weapon_quality_ideas_event.9.m:0 "Poor Cannons"
+ beua_weapon_quality_ideas_event.9.1:0 "Demand better quality"
+ beua_weapon_quality_ideas_event.9.2:0 "Execute the frauds"
+
+ # Event 10
+ beua_weapon_quality_ideas_event.10.t:0 "Blueprints Stolen"
+ beua_weapon_quality_ideas_event.10.d:0 "Blueprints of a new innovative design of cannons were stolen from one of our engineers when visiting a manufactory and discussing means to producing cannons faster."
+ beua_weapon_quality_ideas_event.10.1:0 "Darn it!"
+
+ # Fortress Ideas Events
+ # Event 1
+ beua_fortress_ideas_event.1.t:0 "Volunteers"
+ beua_fortress_ideas_event.1.d:0 "Building fortresses is a demanding task. Volunteers could certainly help."
+ beua_fortress_ideas_event.1.1:0 "So much work to do!"
+ beua_fortress_ideas_event.1.1.m:0 "Voluntary Helpers"
+ 
+ # Event 2
+ beua_fortress_ideas_event.2.t:0 "Defensive Doctrine"
+ beua_fortress_ideas_event.2.d:0 "It may be easier to defend than to take a fort but we think that it may be a good idea to install a department of defensive doctrine in our general staff."
+ beua_fortress_ideas_event.2.1:0 "Establish a department in our General Staff"
+ beua_fortress_ideas_event.2.2:0 "That is not needed"
+ 
+ # Event 3  
+ beua_fortress_ideas_event.3.t:0 "Dwarven Expert"
+ beua_fortress_ideas_event.3.d:0 "A dwarven expert has approached your minister of defense offering his services."
+ beua_fortress_ideas_event.3.1:0 "Hire him!"
+ beua_fortress_ideas_event.3.2:0 "We can get him for less than he demands"
+
+ # Event 4
+ beua_fortress_ideas_event.4.t:0 "Modern Materials"
+ beua_fortress_ideas_event.4.d:0 "Only using the best ways of modern building will ensure the best quality for our structures."
+ beua_fortress_ideas_event.4.1:0 "Use them!"
+ beua_fortress_ideas_event.4.1.m:0 "Modern Materials Used"
+ beua_fortress_ideas_event.4.2:0 "What's wrong about our old building techniques?"
+
+ # Event 5
+ beua_fortress_ideas_event.5.t:0 "Joined Maneuvers"
+ beua_fortress_ideas_event.5.d:0 "Integrating forts in our war games can be profitable for both, defensive and offensive doctrine."
+ beua_fortress_ideas_event.5.1:0 "Yes!"
+ beua_fortress_ideas_event.5.1.m:0 "Fortresses Integrated in Maneuvers"
+ beua_fortress_ideas_event.5.2:0 "Fortresses don't need maneuver"
+
+ # Event 6
+ beua_fortress_ideas_event.6.t:0 "Artillery Training"
+ beua_fortress_ideas_event.6.d:0 "We will shoot our artillery in the different seasons all around our forts. By doing that we can analyze the sound patterns. In case of a siege we will know from where the enemy fires at us even if we cannot see their position."
+ beua_fortress_ideas_event.6.1:0 "A very good idea"
+ beua_fortress_ideas_event.6.1.m:0 "Fortress Artillery Training"
+ beua_fortress_ideas_event.6.2:0 "A waste of ammunition"
+ 
+ # Event 7
+ beua_fortress_ideas_event.7.t:0 "Fortress Experts"
+ beua_fortress_ideas_event.7.d:0 "Our general staff has a rising number of fortress experts."
+ beua_fortress_ideas_event.7.1:0 "Very good!"
+ 
+ # Event 8
+ beua_fortress_ideas_event.8.t:0 "Engineer dies"
+ beua_fortress_ideas_event.8.d:0 "One of our best fortress engineers has died. We can only hope that his successors wil be equally talented."
+ beua_fortress_ideas_event.8.1:0 "He did a great job!"
+ 
+ # Event 9
+ beua_fortress_ideas_event.9.t:0 "Fortress affected by Flood"
+ beua_fortress_ideas_event.9.d:0 "A recent flood has gravely damaged one of our forts."
+ beua_fortress_ideas_event.9.1:0 "Repair the damage"
+ beua_fortress_ideas_event.9.2:0 "We don't have the money right now"
+
+ # Event 10
+ beua_fortress_ideas_event.10.t:0 "Bad Materials"
+ beua_fortress_ideas_event.10.d:0 "We have learned that the material we bought recently was of poor quality and would normally not be suited for fortress construction."
+ beua_fortress_ideas_event.10.1:0 "Replace the bad materials"
+ beua_fortress_ideas_event.10.2:0 "There is no need to do anything"
+ beua_fortress_ideas_event.10.2.m:0 "Serious Doubt in Structural Integrity"

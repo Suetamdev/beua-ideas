@@ -1,0 +1,287 @@
+namespace = beua_centralism_ideas_event
+
+########################################################
+####### Centralism                               #######
+########################################################
+
+# Event 1
+country_event = {
+	id = beua_centralism_ideas_event.1
+	title = beua_centralism_ideas_event.1.t
+	desc = beua_centralism_ideas_event.1.d
+	
+	picture = STREET_SPEECH_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_centralism_ideas
+		NOT = { has_country_modifier = beua_centralism_ideas_event.1.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_centralism_ideas_event.1.1
+		add_country_modifier = {
+			name = "beua_centralism_ideas_event.1.1.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 2
+country_event = {
+	id = beua_centralism_ideas_event.2
+	title = beua_centralism_ideas_event.2.t
+	desc = beua_centralism_ideas_event.2.d
+	
+	picture = STREET_SPEECH_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_centralism_ideas
+		NOT = { has_country_modifier = beua_centralism_ideas_event.2.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_centralism_ideas_event.2.1
+		add_country_modifier = {
+			name = beua_centralism_ideas_event.2.1.m
+			duration = 3650
+		}
+	}
+}
+
+# Event 3
+country_event = {
+	id = beua_centralism_ideas_event.3
+	title = beua_centralism_ideas_event.3.t
+	desc = beua_centralism_ideas_event.3.d
+	
+	picture = CITY_VIEW_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_centralism_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_centralism_ideas_event.3.1
+		add_prestige = 5
+		add_years_of_income = 1
+	}
+}
+
+# Event 4
+country_event = {
+	id = beua_centralism_ideas_event.4
+	title = beua_centralism_ideas_event.4.t
+	desc = beua_centralism_ideas_event.4.d
+	
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_centralism_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_centralism_ideas_event.4.1
+		add_estate_loyalty = { 
+			estate = all 
+			loyalty = 10
+		}
+	}
+}
+
+# Event 5
+country_event = {
+	id = beua_centralism_ideas_event.5
+	title = beua_centralism_ideas_event.5.t
+	desc = beua_centralism_ideas_event.5.d
+	
+	picture = CITY_VIEW_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_centralism_ideas
+		NOT = { has_country_modifier = beua_centralism_ideas_event.5.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_centralism_ideas_event.5.1
+		add_country_modifier = {
+			name = "beua_centralism_ideas_event.5.1.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 6
+country_event = {
+	id = beua_centralism_ideas_event.6
+	title = beua_centralism_ideas_event.6.t
+	desc = beua_centralism_ideas_event.6.d
+	
+	picture = TRADEGOODS_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_centralism_ideas
+		NOT = { has_country_modifier = beua_centralism_ideas_event.6.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_centralism_ideas_event.6.1
+		add_country_modifier = {
+			name = "beua_centralism_ideas_event.6.1.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 7
+country_event = {
+	id = beua_centralism_ideas_event.7
+	title = beua_centralism_ideas_event.7.t
+	desc = beua_centralism_ideas_event.7.d
+	
+	picture = LIBERUM_VETO_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_centralism_ideas
+		NOT = {
+			OR = {
+				has_country_modifier = beua_centralism_ideas_event.7.1.m
+				has_country_modifier = beua_centralism_ideas_event.7.2.m
+			}
+		}
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_centralism_ideas_event.7.1
+		add_country_modifier = {
+			name = "beua_centralism_ideas_event.7.1.m"
+			duration = 3650
+		}
+	}
+	
+	option = {
+		name = beua_centralism_ideas_event.7.2
+		add_country_modifier = {
+			name = "beua_centralism_ideas_event.7.2.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 8
+country_event = {
+	id = beua_centralism_ideas_event.8
+	title = beua_centralism_ideas_event.8.t
+	desc = beua_centralism_ideas_event.8.d
+	
+	picture = CORRUPTION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_centralism_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_centralism_ideas_event.8.1
+		add_adm_power = -50
+		add_corruption = 2
+	}
+}
+
+# Event 9
+country_event = {
+	id = beua_centralism_ideas_event.9
+	title = beua_centralism_ideas_event.9.t
+	desc = beua_centralism_ideas_event.9.d
+	
+	picture = CORRUPTION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_centralism_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_centralism_ideas_event.9.1
+		add_years_of_income = -0.75
+	}
+}
+
+# Event 10
+country_event = {
+	id = beua_centralism_ideas_event.10
+	title = beua_centralism_ideas_event.10.t
+	desc = beua_centralism_ideas_event.10.d
+	
+	picture = CITY_DEVELOPMENT_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_centralism_ideas
+		NOT = { has_country_modifier = beua_centralism_ideas_event.10.1.m }	
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_centralism_ideas_event.10.1
+		add_country_modifier = {
+			name = "beua_centralism_ideas_event.10.1.m"
+			duration = 3650
+		}
+	}
+}

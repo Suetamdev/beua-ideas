@@ -1,0 +1,531 @@
+namespace = beua_industrial_ideas_event
+
+########################################################
+####### Industrial                               #######
+########################################################
+
+# Event 1
+country_event = {
+	id = beua_industrial_ideas_event.1
+	title = beua_industrial_ideas_event.1.t
+	desc = beua_industrial_ideas_event.1.d
+
+	picture = CITY_DEVELOPMENT_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_industrial_ideas
+		NOT = { has_country_modifier = beua_industrial_ideas_event.1.1.m }
+	}
+
+	mean_time_to_happen = { 
+        days = 1 
+    }
+
+	option = {
+		name = beua_industrial_ideas_event.1.1
+		add_country_modifier = {
+			name = "beua_industrial_ideas_event.1.1.m"
+			duration = 1825
+		}
+	}
+}
+
+# Event 2
+country_event = {
+	id = beua_industrial_ideas_event.2
+	title = beua_industrial_ideas_event.2.t
+	desc = beua_industrial_ideas_event.2.d
+
+	picture = ANGRY_MOB_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_industrial_ideas
+		any_owned_province = {
+			has_manufactory_trigger = yes
+			is_state = yes
+			NOT = { has_province_modifier = beua_industrial_ideas_event.2.1.m }
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					has_manufactory_trigger = yes
+					is_state = yes
+					NOT = { has_province_modifier = beua_industrial_ideas_event.2.1.m }
+				}
+				set_province_flag = beua_industrial_ideas_event.2.f
+			}
+		}
+	}
+
+	mean_time_to_happen = { 
+		days = 1 
+	}
+
+	option = {
+		ai_chance = { factor = 50 }
+		name = beua_industrial_ideas_event.2.1
+		every_owned_province = {
+			limit = {
+				has_province_flag = beua_industrial_ideas_event.2.f
+			}
+			add_unrest = 5
+			add_province_modifier = {
+				name = beua_industrial_ideas_event.2.1.m
+				duration = 3650
+			}
+		}
+	}
+
+	option = {
+		ai_chance = { factor = 50 }
+		name = beua_industrial_ideas_event.2.2
+		add_treasury = -300
+	}
+
+	option = {
+		ai_chance = { factor = 100 }
+		name = beua_industrial_ideas_event.2.3
+		highlight = yes
+		trigger = {
+			has_faction = nl_cooperatists
+		}
+		add_manpower = -5.
+	}
+
+	after = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_flag = beua_industrial_ideas_event.2.f
+				}
+				clr_province_flag = beua_industrial_ideas_event.2.f
+			}
+		}
+	}
+}
+
+# Event 3
+country_event = {
+	id = beua_industrial_ideas_event.3
+	title = beua_industrial_ideas_event.3.t
+	desc = beua_industrial_ideas_event.3.d
+
+	picture = COUNTRY_COLLAPSE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_industrial_ideas
+		any_owned_province = {
+			has_manufactory_trigger = yes
+			is_state = yes
+			OR = {
+				trade_goods = cloth
+				trade_goods = silk
+				trade_goods = wool
+				trade_goods = dyes
+			}
+		}
+		NOT = {
+			OR = {
+				has_country_modifier = beua_industrial_ideas_event.3.1.m
+				has_country_modifier = beua_industrial_ideas_event.3.2.m
+				has_country_modifier = beua_industrial_ideas_event.3.3.m
+				has_country_modifier = beua_industrial_ideas_event.3.4.m
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					has_manufactory_trigger = yes
+					is_state = yes
+					OR = {
+						trade_goods = cloth
+						trade_goods = silk
+						trade_goods = wool
+						trade_goods = dyes
+					}
+				}
+				set_province_flag = beua_industrial_ideas_event.3.f
+				save_event_target_as = beua_industrial_ideas_event.3.c
+			}
+		}
+	}
+
+	mean_time_to_happen = { 
+		days = 1 
+	}
+	
+	option = {
+		name = beua_industrial_ideas_event.3.1
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+			name = "beua_industrial_ideas_event.3.1.m"
+			duration = 3650
+		}
+		every_owned_province = {
+			limit = {
+				has_province_flag = beua_industrial_ideas_event.3.f
+			}
+			add_devastation = 20
+			add_unrest = 10
+			clr_province_flag = beua_industrial_ideas_event.3.f
+		}
+	}
+
+	option = {
+		name = beua_industrial_ideas_event.3.2
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+			name = "beua_industrial_ideas_event.3.2.m"
+			duration = 3650
+		}
+		every_owned_province = {
+			limit = {
+				has_province_flag = beua_industrial_ideas_event.3.f
+			}
+			add_devastation = 20
+			clr_province_flag = beua_industrial_ideas_event.3.f
+		}
+	}
+
+	option = {
+		name = beua_industrial_ideas_event.3.3
+		ai_chance = { factor = 100 }
+		highlight = yes
+		trigger = {
+			has_faction = nl_cooperatists
+		}
+		add_country_modifier = {
+			name = "beua_industrial_ideas_event.3.3.m"
+			duration = 3650
+		}
+
+		every_owned_province = {
+			limit = {
+				has_province_flag = beua_industrial_ideas_event.3.f
+			}
+			add_devastation = 20
+			clr_province_flag = beua_industrial_ideas_event.3.f
+		}
+	}
+
+	option = {
+		name = beua_industrial_ideas_event.3.4
+		ai_chance = { factor = 100 }
+		highlight = yes
+		trigger = {
+			has_faction = tec_mechanists
+		}
+		add_country_modifier = {
+			name = "beua_industrial_ideas_event.3.4.m"
+			duration = 3650
+		}
+		add_faction_influence = {
+			faction = tec_mechanists
+			influence = 15
+		}
+		every_owned_province = {
+			limit = {
+				has_province_flag = beua_industrial_ideas_event.3.f
+			}
+			add_devastation = 20
+			clr_province_flag = beua_industrial_ideas_event.3.f
+		}
+	}
+}
+
+# Event 4
+country_event = {
+	id = beua_industrial_ideas_event.4
+	title = beua_industrial_ideas_event.4.t
+	desc = beua_industrial_ideas_event.4.d
+
+	picture = CITY_DEVELOPMENT_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_industrial_ideas
+	}
+
+	mean_time_to_happen = { 
+		days = 1
+	}
+
+	option = {
+		name = beua_industrial_ideas_event.4.1
+		add_years_of_income = 0.5
+		add_yearly_manpower = 0.5
+	}
+}
+
+# Event 5
+country_event = {
+	id = beua_industrial_ideas_event.5
+	title = beua_industrial_ideas_event.5.t
+	desc = beua_industrial_ideas_event.5.d
+
+	picture = ADVISOR_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_industrial_ideas
+		NOT = { has_country_modifier = beua_industrial_ideas_event.5.2.m }
+	}
+
+	mean_time_to_happen = { 
+		days = 1 
+	}
+	
+	option = {
+		name = beua_industrial_ideas_event.5.1
+		ai_chance = { factor = 50 }
+		define_advisor = {
+			type = treasurer
+			skill = 3
+			cost_multiplier = 0.5
+		}
+	}
+
+	option = {
+		name = beua_industrial_ideas_event.5.2
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+			name = beua_industrial_ideas_event.5.2.m
+			duration = 3650
+		}
+	}
+}
+
+# Event 6
+country_event = {
+	id = beua_industrial_ideas_event.6
+	title = beua_industrial_ideas_event.6.t
+	desc = beua_industrial_ideas_event.6.d
+
+	picture = ECONOMY_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_industrial_ideas
+		any_owned_province = {
+			has_manufactory_trigger = yes
+			is_state = yes
+			NOT = { has_province_modifier = beua_industrial_ideas_event.6.m }
+		}
+	}
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					has_manufactory_trigger = yes
+					is_state = yes
+					NOT = { has_province_modifier = beua_industrial_ideas_event.6.m }
+				}
+				set_province_flag = beua_industrial_ideas_event.6.f
+				save_event_target_as = beua_industrial_ideas_event.6.c
+			}
+		}
+	}
+
+	mean_time_to_happen = { 
+		days = 1
+	}
+
+	option = {
+		name = beua_industrial_ideas_event.6.1
+		ai_chance = { factor = 1 }
+		every_owned_province = {
+			limit = {
+				has_province_flag = beua_industrial_ideas_event.6.f
+			}
+			add_province_modifier = {
+				name = beua_industrial_ideas_event.6.m
+				duration = 3650
+			}
+			clr_province_flag = beua_industrial_ideas_event.6.f
+		}
+	}
+	
+	option = {
+		name = beua_industrial_ideas_event.6.2
+		ai_chance = { factor = 50 }
+		highlight = yes
+		trigger = {
+			has_faction = nl_cooperatists
+		}
+		add_adm_power = -50
+		every_owned_province = {
+			limit = {
+				has_province_flag = beua_industrial_ideas_event.6.f
+			}
+			add_province_modifier = {
+				name = beua_industrial_ideas_event.6.m
+				duration = 7300
+			}
+			clr_province_flag = beua_industrial_ideas_event.6.f
+		}
+	}
+}
+
+# Event 7
+country_event = {
+	id = beua_industrial_ideas_event.7
+	title = beua_industrial_ideas_event.7.t
+	desc = beua_industrial_ideas_event.7.d
+
+	picture = FARMING_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_industrial_ideas
+		has_estate = estate_burghers
+		NOT = { has_country_modifier = beua_industrial_ideas_event.7.1.m }
+	}
+
+	mean_time_to_happen = { 
+		days = 1 
+	}
+
+	option = {
+		name = beua_industrial_ideas_event.7.1
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+			name = beua_industrial_ideas_event.7.1.m
+			duration = 3650
+		}
+	}
+
+	option = {
+		name = beua_industrial_ideas_event.7.2
+		ai_chance = { factor = 50 }
+		add_estate_loyalty = {
+			estate = estate_burghers
+			loyalty = -10
+		}
+	}
+}
+
+# Event 8
+country_event = {
+	id = beua_industrial_ideas_event.8
+	title = beua_industrial_ideas_event.8.t
+	desc = beua_industrial_ideas_event.8.d
+
+	picture = OVEREXTENSION_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_industrial_ideas
+		any_owned_province = {
+			has_manufactory_trigger = yes
+			is_state = yes
+			NOT = { has_province_modifier = beua_industrial_ideas_event.8.1.m }
+		}
+	}
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					has_manufactory_trigger = yes
+					is_state = yes
+					NOT = { has_province_modifier = beua_industrial_ideas_event.8.1.m }
+				}
+				set_province_flag = beua_industrial_ideas_event.8.f
+			}
+		}
+	}
+
+	mean_time_to_happen = { 
+		days = 1 
+	}
+
+	option = {
+		name = beua_industrial_ideas_event.8.1
+		ai_chance = { factor = 25 }
+		every_owned_province = {
+			limit = { has_province_flag = beua_industrial_ideas_event.8.f }
+			add_province_modifier = {
+				name = beua_industrial_ideas_event.8.1.m
+				duration = 3650
+			}
+		}
+	}
+
+	option = {
+		name = beua_industrial_ideas_event.8.2
+		ai_chance = { factor = 75 }
+		add_inflation = 5
+	}
+}
+
+# Event 9
+country_event = {
+	id = beua_industrial_ideas_event.9
+	title = beua_industrial_ideas_event.9.t
+	desc = beua_industrial_ideas_event.9.d
+
+	picture = INVENTION_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_industrial_ideas
+		has_estate = estate_artificers
+	}
+
+	mean_time_to_happen = { 
+		days = 1 
+	}
+
+	option = {
+		name = beua_industrial_ideas_event.9.1
+		add_estate_loyalty = {
+			estate = estate_artificers
+			loyalty = 10
+		}
+		add_adm_power = 25
+		add_dip_power = 25
+		add_mil_power = 25
+	}
+}
+
+# Event 10
+country_event = {
+	id = beua_industrial_ideas_event.10
+	title = beua_industrial_ideas_event.10.t
+	desc = beua_industrial_ideas_event.10.d
+
+	picture = BURGHER_ESTATE_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_industrial_ideas
+	}
+
+	mean_time_to_happen = { 
+		days = 1 
+	}
+
+	option = {
+		name = beua_industrial_ideas_event.10.1
+		add_estate_burghers_loyalty_effect = yes
+		add_years_of_income = 0.5
+	}
+}

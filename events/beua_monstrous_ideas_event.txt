@@ -1,0 +1,567 @@
+namespace = beua_monstrous_ideas_event
+
+########################################################
+####### Monstrous                                 #######
+########################################################
+
+# Event 1
+country_event = {
+	id = beua_monstrous_ideas_event.1
+	title = beua_monstrous_ideas_event.1.t
+	desc = beua_monstrous_ideas_event.1.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_monstrous_ideas
+		has_country_flag = removing_monstrous
+	}
+
+	mean_time_to_happen = { 
+		days = 1
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.1.1
+		decrease_monstrous_5 = yes
+		add_stability = -1
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.1.2
+		add_stability = 1
+		increase_monstrous_5 = yes
+	}
+}
+
+# Event 2
+country_event = {
+	id = beua_monstrous_ideas_event.2
+	title = beua_monstrous_ideas_event.2.t
+	desc = beua_monstrous_ideas_event.2.d
+	
+	picture = SCOTTISH_MERCENARIES_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_monstrous_ideas
+		high_tolerance_orcish_race_trigger = yes
+		NOT = { has_country_flag = beua_monstrous_ideas_event.2.f }
+	}
+
+	mean_time_to_happen = { 
+		days = 1
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.2.1
+		define_general = {
+			shock = 6
+			fire = 4
+			manuever = 4
+			siege = 1
+			trait = master_of_arms_personality
+		}
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.2.2
+		define_general = {
+			shock = 4
+			fire = 4
+			manuever = 5
+			siege = 5
+			trait = siege_specialist_personality
+		}
+	}
+	
+	after = {
+		set_country_flag = beua_monstrous_ideas_event.2.f
+	}
+}
+
+# Event 3
+country_event = {
+	id = beua_monstrous_ideas_event.3
+	title = beua_monstrous_ideas_event.3.t
+	desc = beua_monstrous_ideas_event.3.d
+
+	picture = 3_SONS_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_monstrous_ideas
+		high_tolerance_harpy_race_trigger = yes
+		NOT = {
+			OR = {
+				has_country_modifier = beua_monstrous_ideas_event.3.1.m
+				has_country_modifier = beua_monstrous_ideas_event.3.2.m
+			}
+		}
+		any_owned_province = {
+			is_capital = yes
+			OR = {
+				has_harpy_minority_trigger = yes
+				has_harpy_majority_trigger = yes
+			}
+		}
+	}
+
+	mean_time_to_happen = { 
+		days = 1 
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.3.1
+		capital_scope = {
+			add_province_modifier = {
+				name = "beua_monstrous_ideas_event.3.1.m"
+				duration = 3650
+			}
+			random_list = {
+				10 = { add_base_tax = 1 }
+				10 = { add_base_production = 1 }
+				10 = { add_base_manpower = 1 }
+			}
+		}
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.3.2
+		add_country_modifier = {
+			name = "beua_monstrous_ideas_event.3.2.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 4
+country_event = {
+	id = beua_monstrous_ideas_event.4
+	title = beua_monstrous_ideas_event.4.t
+	desc = beua_monstrous_ideas_event.4.d
+
+	picture = CITY_DEVELOPMENT_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_monstrous_ideas
+		NOT = { low_tolerance_goblin_race_trigger = yes }
+		any_owned_province = {
+			NOT = {
+				OR = {
+					has_province_modifier = beua_monstrous_ideas_event.4.1.m
+					has_province_modifier = beua_monstrous_ideas_event.4.2.m
+				}
+			}
+			OR = {
+				has_goblin_minority_trigger = yes
+				has_goblin_majority_trigger = yes
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					NOT = {
+						OR = {
+							has_province_modifier = beua_monstrous_ideas_event.4.1.m
+							has_province_modifier = beua_monstrous_ideas_event.4.2.m
+						}
+					}
+					OR = {
+						has_goblin_minority_trigger = yes
+						has_goblin_majority_trigger = yes
+					}
+				}
+				save_event_target_as = beua_monstrous_ideas_event.4.c
+			}
+		}
+	}
+
+	mean_time_to_happen = { 
+		days = 1 
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.4.1
+		event_target:beua_monstrous_ideas_event.4.c = {
+			add_province_modifier = {
+				name = beua_monstrous_ideas_event.4.1.m
+				duration = 3650
+			}
+			random_list = {
+			10 = { add_base_tax = 1 }
+			10 = { add_base_production = 1 }
+			10 = { add_base_manpower = 1 }
+			}
+			if = {
+				limit = { has_goblin_majority_trigger = yes }
+				random = {
+					chance = 50
+					add_base_production = 1
+				}
+			}
+			else_if = {
+				limit = { has_goblin_minority_trigger = yes }
+				add_goblin_minority_size_effect = yes
+			}
+		}
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.4.2
+		event_target:beua_monstrous_ideas_event.4.c = {
+			add_province_modifier = {
+				name = beua_monstrous_ideas_event.4.2.m
+				duration = 3650
+			}
+		}
+	}
+}
+
+# Event 5
+country_event = {
+	id = beua_monstrous_ideas_event.5
+	title = beua_monstrous_ideas_event.5.t
+	desc = beua_monstrous_ideas_event.5.d
+	
+	picture = ACCUSATION_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_monstrous_ideas
+		absolutism = 40
+		employed_advisor = {
+			category = ADM
+		}
+		employed_advisor = {
+			category = DIP
+		}
+		employed_advisor = {
+			category = MIL
+		}
+		NOT = { has_country_flag = beua_monstrous_ideas_event.5.f }
+	}
+
+	mean_time_to_happen = { 
+		days = 1 
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.5.1
+		remove_advisor_by_category = ADM
+		add_absolutism = 5
+		add_country_modifier = {
+			name = "beua_monstrous_ideas_event.5.1.m"
+			duration = 3650
+		}
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.5.2
+		remove_advisor_by_category = DIP
+		add_absolutism = 5
+		add_country_modifier = {
+			name = "beua_monstrous_ideas_event.5.2.m"
+			duration = 3650
+		}
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.5.3
+		remove_advisor_by_category = MIL
+		add_absolutism = 5
+		add_country_modifier = {
+			name = "beua_monstrous_ideas_event.5.3.m"
+			duration = 3650
+		}
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.5.4
+		remove_advisor_by_category = ADM
+		remove_advisor_by_category = DIP
+		remove_advisor_by_category = MIL
+		add_absolutism = 15
+		add_country_modifier = {
+			name = beua_monstrous_ideas_event.5.4.m
+			duration = 3650
+		}
+	}
+
+	after = {
+		set_country_flag = beua_monstrous_ideas_event.5.f
+	}
+}
+
+# Event 6
+country_event = {
+	id = beua_monstrous_ideas_event.6
+	title = beua_monstrous_ideas_event.6.t
+	desc = beua_monstrous_ideas_event.6.d
+
+	picture = LAND_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_monstrous_ideas
+		is_at_war = yes
+		any_owned_province = {
+			NOT = {
+				OR = {
+					development = 20
+					trade_goods = slaves
+					has_terrain = dwarven_hold
+					has_terrain = dwarven_hold_surface
+					has_terrain = city_terrain
+				}
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					NOT = {
+						OR = {
+							development = 20
+							trade_goods = slaves
+							has_terrain = dwarven_hold
+							has_terrain = dwarven_hold_surface
+							has_terrain = city_terrain
+						}
+					}
+				}
+				save_event_target_as = beua_monstrous_ideas_event.6.f
+			}
+		}
+	}
+
+	mean_time_to_happen = { 
+		days = 1
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.6.1
+		event_target:beua_monstrous_ideas_event.6.f = {
+			change_trade_goods = slaves
+		}
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.6.2
+		highlight = yes
+		trigger = { high_tolerance_gnollish_race_trigger = yes }
+		event_target:beua_monstrous_ideas_event.6.f = {
+			change_trade_goods = slaves
+			random_list = {
+			10 = { add_base_tax = 1 }
+			10 = { add_base_production = 1 }
+			10 = { add_base_manpower = 1 }
+			}
+			if = {
+				limit = { has_gnollish_majority_trigger = yes }
+				random = {
+					chance = 50
+					add_base_production = 1
+				}
+			}
+			else_if = {
+				limit = { has_gnollish_minority_trigger = yes }
+				add_gnollish_minority_size_effect = yes
+			}
+		}
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.6.3
+	}
+}
+ 
+# Event 7
+country_event = {
+	id = beua_monstrous_ideas_event.7
+	title = beua_monstrous_ideas_event.7.t
+	desc = beua_monstrous_ideas_event.7.d
+
+	picture = LAND_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_monstrous_ideas
+		NOT = { has_estate = estate_adventurers }
+		any_owned_province = {
+			is_state = yes
+			NOT = {
+				OR = {
+					has_terrain = dwarven_hold
+					has_terrain = dwarven_hold_surface
+					has_terrain = city_terrain
+					is_capital = yes
+					has_province_modifier = beua_monstrous_ideas_event.7.2.m
+				}
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_state = yes
+					OR = {
+						has_terrain = dwarven_hold
+						has_terrain = dwarven_hold_surface
+						has_terrain = city_terrain
+						is_capital = yes
+						has_province_modifier = beua_monstrous_ideas_event.7.2.m
+					}
+				}
+				save_event_target_as = beua_monstrous_ideas_event.7.c
+			}
+		}
+	}
+
+	mean_time_to_happen = { 
+		days = 1 
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.7.1
+		event_target:beua_monstrous_ideas_event.7.c = {
+			spawn_rebels = {
+				type = aw_bandits_rebels
+				size = 1
+			}
+		}
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.7.2
+		event_target:beua_monstrous_ideas_event.7.c = {
+			add_province_modifier = {
+				name = beua_monstrous_ideas_event.7.2.m
+				duration = 3650
+			}
+		}
+	}
+}
+
+# Event 8
+country_event = {
+	id = beua_monstrous_ideas_event.8
+	title = beua_monstrous_ideas_event.8.t
+	desc = beua_monstrous_ideas_event.8.d
+
+	picture = LAND_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_monstrous_ideas
+		any_country = { is_neighbor_of = ROOT }
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_neighbor_country = {
+				save_event_target_as = beua_monstrous_ideas_event.8.c
+			}
+		}
+	}
+	
+	mean_time_to_happen = { 
+		days = 1 
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.8.1
+		ai_chance = { 
+			factor = 50 
+			modifier = {
+				factor = 0
+				NOT = {
+					army_strength = {
+						who = event_target:beua_monstrous_ideas_event.8.c
+						value = 0.9
+					}
+				}
+			}
+		}
+		declare_war = event_target:beua_monstrous_ideas_event.8.c
+	}
+	
+	option = {
+		name = beua_monstrous_ideas_event.8.2
+		ai_chance = { factor = 50 }
+		add_prestige = -30
+	}
+}
+
+# Event 9
+country_event = {
+	id = beua_monstrous_ideas_event.9
+	title = beua_monstrous_ideas_event.9.t
+	desc = beua_monstrous_ideas_event.9.d
+
+	picture = ARTWORK_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_monstrous_ideas
+	}
+
+	mean_time_to_happen = { 
+		days = 1 
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.9.1
+		add_stability_or_adm_power = yes
+	}
+}
+
+# Event 10
+country_event = {
+	id = beua_monstrous_ideas_event.10
+	title = beua_monstrous_ideas_event.10.t
+	desc = beua_monstrous_ideas_event.10.d
+
+	picture = GENERALS_DISCUSSING_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_monstrous_ideas
+	}
+
+	mean_time_to_happen = { 
+		days = 1 
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.10.1
+		add_country_modifier = {
+			name = beua_monstrous_ideas_event.10.1.m
+			duration = 3650
+		}
+	}
+
+	option = {
+		name = beua_monstrous_ideas_event.10.2
+		add_army_tradition = 15
+		add_mil_power = -50
+	}
+}

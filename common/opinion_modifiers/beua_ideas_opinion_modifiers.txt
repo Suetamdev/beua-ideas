@@ -31,3 +31,80 @@ beua_declined_ask_for_sister_republic_opinion = {
 	yearly_decay = 1
 	min = -100
 }
+
+beua_magocratic_ideas_event.7.2.m = {
+	opinion = -50
+	max = 100
+	years = 50
+	yearly_decay = -1
+}
+
+beua_imperial_ideas_event.1.1.m = {
+	opinion = 50
+	max = 100
+	years = 50
+	yearly_decay = -1
+}
+
+beua_imperial_ideas_event.2.1.m.1 = {
+	opinion = 50
+	max = 100
+	years = 50
+	yearly_decay = -1
+}
+
+beua_imperial_ideas_event.3.1.m = {
+	opinion = 50
+	max = 100
+	years = 50
+	yearly_decay = -1
+}
+
+beua_imperial_ideas_event.4.1.m = {
+	opinion = 50
+	max = 100
+	years = 50
+	yearly_decay = -1
+}
+
+beua_imperial_ideas_event.5.1.m.1 = {
+	opinion = 50
+	max = 100
+	years = 50
+	yearly_decay = -1
+}
+
+beua_imperial_ideas_event.6.1.m = {
+	opinion = 50
+	max = 100
+	years = 50
+	yearly_decay = -1
+}
+
+beua_imperial_ideas_event.7.1.m = {
+	opinion = 30
+	max = 100
+	years = 30
+	yearly_decay = -1
+}
+
+beua_imperial_ideas_event.7.2.m = {
+	opinion = -30
+	max = 100
+	years = 30
+	yearly_decay = -1
+}
+
+beua_imperial_ideas_event.8.1.m.1 = {
+	opinion = 30
+	max = 100
+	years = 30
+	yearly_decay = -1
+}
+
+beua_imperial_ideas_event.9.1.m.1 = {
+	opinion = 30
+	max = 100
+	years = 30
+	yearly_decay = -1
+}

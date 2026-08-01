@@ -1,0 +1,327 @@
+namespace = beua_fortress_ideas_event
+
+########################################################
+####### Fortress                                 #######
+########################################################
+
+# Event 1
+country_event = {
+	id = beua_fortress_ideas_event.1
+	title = beua_fortress_ideas_event.1.t
+	desc = beua_fortress_ideas_event.1.d
+	
+	picture = FARMING_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_fortress_ideas
+		NOT = { has_country_modifier = beua_fortress_ideas_event.1.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_fortress_ideas_event.1.1
+		add_country_modifier = {
+			name = "beua_fortress_ideas_event.1.1.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 2
+country_event = {
+	id = beua_fortress_ideas_event.2
+	title = beua_fortress_ideas_event.2.t
+	desc = beua_fortress_ideas_event.2.d
+	
+	picture = SIEGE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_fortress_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_fortress_ideas_event.2.1
+		add_years_of_income = -1
+		add_army_tradition = 10
+		add_army_professionalism = 0.05
+	}
+	
+	option = {
+		name = beua_fortress_ideas_event.2.2
+	}
+}
+
+# Event 3
+country_event = {
+	id = beua_fortress_ideas_event.3
+	title = beua_fortress_ideas_event.3.t
+	desc = beua_fortress_ideas_event.3.d
+	
+	picture = ADVISOR_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_fortress_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_fortress_ideas_event.3.1
+		define_advisor = {
+			type = fortification_expert
+			discount = no
+			skill = 3
+		}
+	}
+	
+	option = {
+		name = beua_fortress_ideas_event.3.2
+		add_dip_power = 25
+		random_list = {
+			75 = { 
+				define_advisor = {
+					type = fortification_expert
+					discount = no
+					skill = 2
+				}
+			}
+			25 = { 
+				define_advisor = {
+					type = fortification_expert
+					discount = yes
+					skill = 3
+				}
+			}
+		}
+	}
+}
+
+# Event 4
+country_event = {
+	id = beua_fortress_ideas_event.4
+	title = beua_fortress_ideas_event.4.t
+	desc = beua_fortress_ideas_event.4.d
+	
+	picture = FORT_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_fortress_ideas
+		NOT = { has_country_modifier = beua_fortress_ideas_event.4.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_fortress_ideas_event.4.1
+		add_country_modifier = {
+			name = "beua_fortress_ideas_event.4.1.m"
+			duration = 3650
+		}
+	}
+	
+	option = {
+		name = beua_fortress_ideas_event.4.2
+		add_prestige = 10
+	}
+}
+
+# Event 5
+country_event = {
+	id = beua_fortress_ideas_event.5
+	title = beua_fortress_ideas_event.5.t
+	desc = beua_fortress_ideas_event.5.d
+	
+	picture = FORT_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_fortress_ideas
+		NOT = { has_country_modifier = beua_fortress_ideas_event.5.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_fortress_ideas_event.5.1
+		add_country_modifier = {
+			name = "beua_fortress_ideas_event.5.1.m"
+			duration = 3650
+		}
+	}
+	
+	option = {
+		name = "beua_fortress_ideas_event.5.2"
+		add_army_tradition = -10
+	}
+}
+
+# Event 6
+country_event = {
+	id = beua_fortress_ideas_event.6
+	title = beua_fortress_ideas_event.6.t
+	desc = beua_fortress_ideas_event.6.d
+	
+	picture = SIEGE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_fortress_ideas
+		NOT = { has_country_modifier = beua_fortress_ideas_event.6.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_fortress_ideas_event.6.1
+		add_country_modifier = {
+			name = "beua_fortress_ideas_event.6.1.m"
+			duration = 3650
+		}
+	}
+	
+	option = {
+		name = beua_fortress_ideas_event.6.2
+		add_years_of_income = 2
+	}
+}
+
+# Event 7
+country_event = {
+	id = beua_fortress_ideas_event.7
+	title = beua_fortress_ideas_event.7.t
+	desc = beua_fortress_ideas_event.7.d
+	
+	picture = ADVISOR_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_fortress_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_fortress_ideas_event.7.1
+		add_army_professionalism = 0.05
+		define_advisor = {
+			type = commandant
+			discount = yes
+			skill = 2
+		}
+	}
+}
+
+# Event 8
+country_event = {
+	id = beua_fortress_ideas_event.8
+	title = beua_fortress_ideas_event.8.t
+	desc = beua_fortress_ideas_event.8.d
+	
+	picture = ADVISOR_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_fortress_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_fortress_ideas_event.8.1
+		add_army_tradition = -10
+		add_mil_power = -50
+	}
+}
+
+# Event 9
+country_event = {
+	id = beua_fortress_ideas_event.9
+	title = beua_fortress_ideas_event.9.t
+	desc = beua_fortress_ideas_event.9.d
+	
+	picture = FORT_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_fortress_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_fortress_ideas_event.9.1
+		add_years_of_income = -0.5
+	}
+	
+	option = {
+		name = beua_fortress_ideas_event.9.2
+		add_prestige = -10
+	}
+}
+
+# Event 10
+country_event = {
+	id = beua_fortress_ideas_event.10
+	title = beua_fortress_ideas_event.10.t
+	desc = beua_fortress_ideas_event.10.d
+	
+	picture = TRADEGOODS_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_fortress_ideas
+		NOT = { has_country_modifier = beua_fortress_ideas_event.10.2.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_fortress_ideas_event.10.1
+		add_years_of_income = -1
+	}
+	
+	option = {
+		name = beua_fortress_ideas_event.10.2
+		add_country_modifier = {
+			name = "beua_fortress_ideas_event.10.2.m"
+			duration = 1825
+		}
+	}
+}

@@ -1,0 +1,491 @@
+namespace = beua_imperial_ideas_event
+
+########################################################
+####### Imperial                                 #######
+########################################################
+
+# Event 1
+country_event = {
+	id = beua_imperial_ideas_event.1
+	title = beua_imperial_ideas_event.1.t
+	desc = beua_imperial_ideas_event.1.d
+
+	picture = PROTESTANT_GREAT_REFORMER_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_imperial_ideas
+		NOT = {
+			OR = { 
+				tag = A11
+				tag = A45
+                has_country_modifier = human_administration
+			}
+		}
+        OR = {
+            A11 = {
+                is_elector = yes
+            }
+            A45 = {
+                is_elector = yes
+            }
+        }
+	}
+
+	mean_time_to_happen = { 
+        days = 1 
+    }
+
+	option = {
+		name = beua_imperial_ideas_event.1.1
+        if = {
+			limit = {
+				A11 = {
+					is_elector = yes
+				}
+			}
+			reverse_add_opinion = {
+				who = A11
+				modifier = beua_imperial_ideas_event.1.1.m
+			}
+		}
+        if = {
+			limit = {
+				A45 = {
+					is_elector = yes
+				}
+			}
+			reverse_add_opinion = {
+				who = A45
+				modifier = beua_imperial_ideas_event.1.1.m
+			}
+		}
+		medium_increase_of_human_tolerance_effect = yes
+		add_adm_power = -25
+		add_dip_power = -25
+		add_mil_power = -25
+	}
+	option = {
+		name = beua_imperial_ideas_event.1.2
+		add_prestige = 10
+	}
+}
+
+# Event 2
+country_event = {
+	id = beua_imperial_ideas_event.2
+	title = beua_imperial_ideas_event.2.t
+	desc = beua_imperial_ideas_event.2.d
+
+	picture = PROTESTANT_GREAT_REFORMER_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_imperial_ideas
+		NOT = {	
+            OR = {
+                tag = A12
+                has_country_modifier = beua_imperial_ideas_event.2.1.m.2
+            } 
+        }
+        A12 = {
+            is_elector = yes
+        } 
+	}
+
+	mean_time_to_happen = { 
+        days = 1 
+    }
+
+	option = {
+		name = beua_imperial_ideas_event.2.1
+		reverse_add_opinion = {
+			who = A12
+			modifier = beua_imperial_ideas_event.2.1.m.1
+		}
+		medium_increase_of_halfling_tolerance_effect = yes
+		add_country_modifier = {
+			name = "beua_imperial_ideas_event.2.1.m.2"
+			duration = 3650
+		}
+	}
+	option = {
+		name = beua_imperial_ideas_event.2.2
+		add_prestige = 10
+	}
+}
+
+# Event 3
+country_event = {
+	id = beua_imperial_ideas_event.3
+	title = beua_imperial_ideas_event.3.t
+	desc = beua_imperial_ideas_event.3.d
+
+	picture = PROTESTANT_GREAT_REFORMER_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_imperial_ideas
+		NOT = {
+            OR = {
+                tag = A31 
+                has_country_modifier = elven_administration
+            }
+        }
+        A31 = {
+            is_elector = yes
+        } 
+	}
+
+	mean_time_to_happen = { 
+        days = 1 
+    }
+
+	option = {
+		name = beua_imperial_ideas_event.3.1
+		reverse_add_opinion = {
+			who = A31
+			modifier = beua_imperial_ideas_event.3.1.m
+		}
+		medium_increase_of_elven_tolerance_effect = yes
+		random_owned_province = {
+			limit = { is_state = yes }
+			add_local_autonomy = 25
+		}
+	}
+
+	option = {
+		name = beua_imperial_ideas_event.3.2
+		add_prestige = 10
+	}
+}
+
+# Event 4
+country_event = {
+	id = beua_imperial_ideas_event.4
+	title = beua_imperial_ideas_event.4.t
+	desc = beua_imperial_ideas_event.4.d
+
+	picture = PROTESTANT_GREAT_REFORMER_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_imperial_ideas
+		NOT = { 
+            OR = {
+                tag = A73
+                has_country_modifier = dwarven_administration
+            }	 
+        }
+        A73 = {
+            is_elector = yes
+        } 
+	}
+
+	mean_time_to_happen = { 
+        days = 1 
+    }
+
+	option = {
+		name = beua_imperial_ideas_event.4.1
+		reverse_add_opinion = {
+			who = A73
+			modifier = beua_imperial_ideas_event.4.1.m
+		}
+		medium_increase_of_dwarven_tolerance_effect = yes
+		add_years_of_income = -0.3
+	}
+
+	option = {
+		name = beua_imperial_ideas_event.4.2
+		add_prestige = 10
+	}
+}
+
+# Event 5
+country_event = {
+	id = beua_imperial_ideas_event.5
+	title = beua_imperial_ideas_event.5.t
+	desc = beua_imperial_ideas_event.5.d
+
+	picture = PROTESTANT_GREAT_REFORMER_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_imperial_ideas
+        NOT = {
+            OR = {
+                tag = A81
+                has_country_modifier = beua_imperial_ideas_event.5.1.m.2
+            }
+        }
+        A81 = {
+            is_elector = yes
+        } 
+	}
+
+	mean_time_to_happen = { 
+        days = 1 
+    }
+
+	option = {
+		name = beua_imperial_ideas_event.5.1
+		reverse_add_opinion = {
+			who = A81
+			modifier = beua_imperial_ideas_event.5.1.m.1
+		}
+		medium_increase_of_gnomish_tolerance_effect = yes
+		add_country_modifier = {
+			name = "beua_imperial_ideas_event.5.1.m.2"
+			duration = 3650
+		}
+	}
+
+	option = {
+		name = beua_imperial_ideas_event.5.2
+		add_prestige = 10
+	}
+}
+
+# Event 6
+country_event = {
+	id = beua_imperial_ideas_event.6
+	title = beua_imperial_ideas_event.6.t
+	desc = beua_imperial_ideas_event.6.d
+	picture = PROTESTANT_GREAT_REFORMER_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_imperial_ideas
+        NOT = {
+            OR = {
+                tag = A85
+                has_country_modifier = half_elven_administration
+            }
+        }
+        A85 = {
+            is_elector = yes
+        } 
+	}
+
+	mean_time_to_happen = { 
+        days = 1 
+    }
+
+	option = {
+		name = beua_imperial_ideas_event.6.1
+		reverse_add_opinion = {
+			who = A85
+			modifier = beua_imperial_ideas_event.6.1.m
+		}
+		medium_increase_of_half_elven_tolerance_effect = yes
+		add_adm_power = -10
+		add_dip_power = -10
+		add_mil_power = -10
+		random_owned_province = {
+			limit = { is_state = yes }
+			add_local_autonomy = 15
+		}
+	}
+
+	option = {
+		name = beua_imperial_ideas_event.6.2
+		add_prestige = 10
+	}
+}
+
+# Event 7
+country_event = {
+	id = beua_imperial_ideas_event.7
+	title = beua_imperial_ideas_event.7.t
+	desc = beua_imperial_ideas_event.7.d
+
+	picture = DEBATE_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_imperial_ideas
+		NOT = {	is_emperor = yes }
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_country = {
+				limit = { is_emperor = yes }
+				save_event_target_as = beua_imperial_ideas_event.7.c
+			}
+		}
+	}
+
+	mean_time_to_happen = { 
+        days = 1 
+    }
+
+	option = {
+		name = beua_imperial_ideas_event.7.1
+		event_target:beua_imperial_ideas_event.7.c = {
+			add_imperial_influence = 1
+			add_opinion = {
+				who = ROOT
+				modifier = beua_imperial_ideas_event.7.1.m
+			}
+		}
+		add_dip_power = 50
+	}
+
+	option = {
+		name = beua_imperial_ideas_event.7.2
+		event_target:beua_imperial_ideas_event.7.c = {
+			add_opinion = {
+				who = ROOT
+				modifier = beua_imperial_ideas_event.7.2.m
+			}
+		}
+		add_dip_power = 100
+	}
+}
+
+# Event 8
+country_event = {
+	id = beua_imperial_ideas_event.8
+	title = beua_imperial_ideas_event.8.t
+	desc = beua_imperial_ideas_event.8.d
+
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_imperial_ideas
+		is_emperor = yes
+	}
+
+	mean_time_to_happen = { 
+        days = 1 
+    }
+
+	option = {
+		name = beua_imperial_ideas_event.8.1
+		add_years_of_income = -0.5
+		every_country = {
+			limit = {
+				is_part_of_hre = yes
+				is_emperor = no
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = beua_imperial_ideas_event.8.1.m.1
+			}
+            add_country_modifier = {
+				name = "beua_imperial_ideas_event.8.1.m.2"
+				duration = 3650
+			}
+		}
+	}
+
+	option = {
+		name = beua_imperial_ideas_event.8.2
+		add_prestige = -10
+	}
+}
+
+# Event 9
+country_event = {
+	id = beua_imperial_ideas_event.9
+	title = beua_imperial_ideas_event.9.t
+	desc = beua_imperial_ideas_event.9.d
+
+	picture = MERCHANTS_TALKING_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_imperial_ideas
+        NOT = {
+            OR = {
+                tag = A25
+                has_country_modifier = beua_imperial_ideas_event.9.1.m.2
+            } 
+        }
+        A25 = {
+            is_elector = yes
+        }
+        any_owned_province = {
+			province_has_center_of_trade_of_level = 1
+			is_state = yes
+            NOT = { has_province_modifier = beua_imperial_ideas_event.9.1.m.2 }
+		}
+	}
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = { 
+					province_has_center_of_trade_of_level = 1 
+					is_state = yes
+                    NOT = { has_province_modifier = beua_imperial_ideas_event.9.1.m.2 }
+				}
+				save_event_target_as = beua_imperial_ideas_event.9.c
+			}
+		}
+	}
+
+	mean_time_to_happen = { 
+        days = 1 
+    }
+
+	option = {
+		name = beua_imperial_ideas_event.9.1
+		reverse_add_opinion = {
+			who = A25
+			modifier = beua_imperial_ideas_event.9.1.m.1
+		}
+        event_target:beua_imperial_ideas_event.9.c = {
+			add_province_modifier = {
+				name = "beua_imperial_ideas_event.9.1.m.2"
+				duration = 3650
+			}
+		}
+	}
+    
+	option = {
+		name = beua_imperial_ideas_event.9.2
+		add_dip_power = -30
+		event_target:beua_imperial_ideas_event.9.c = {
+			add_unrest = 10
+		}
+	}
+}
+
+# Event 10
+country_event = {
+	id = beua_imperial_ideas_event.10
+	title = beua_imperial_ideas_event.10.t
+	desc = beua_imperial_ideas_event.10.d
+	picture = HRE_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_imperial_ideas
+        NOT = { has_country_modifier = beua_imperial_ideas_event.10.1.m }
+	}
+
+	mean_time_to_happen = { 
+        days = 1 
+    }
+    
+	option = {
+		name = beua_imperial_ideas_event.10.1
+		add_country_modifier = {
+			name = "beua_imperial_ideas_event.10.1.m"
+			duration = 3650
+		}
+	}
+}

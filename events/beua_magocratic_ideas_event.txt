@@ -1,0 +1,391 @@
+namespace = beua_magocratic_ideas_event
+
+########################################################
+####### Magocratic                               #######
+########################################################
+
+# Event 1
+country_event = {
+    id = beua_magocratic_ideas_event.1
+	title = beua_magocratic_ideas_event.1.t
+	desc = beua_magocratic_ideas_event.1.d
+
+	picture = ADVISOR_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_magocratic_ideas
+        has_estate = estate_mages
+	}
+
+	mean_time_to_happen = {
+        days = 1
+		modifier = {
+			factor = 10
+			OR = {
+				has_country_modifier = magical_infrastructure_1
+				has_country_modifier = magical_infrastructure_2
+				has_country_modifier = magical_infrastructure_3
+				has_country_modifier = magical_infrastructure_4
+			}
+			OR = {
+				has_country_flag = conjuration_1
+				has_country_flag = conjuration_2
+				has_country_flag = conjuration_3
+			}
+			NOT = { has_country_flag = beua_magocratic_ideas_event.1.f }
+		}
+    }
+    
+	option = {
+		name = beua_magocratic_ideas_event.1.1
+        define_heir = {
+			dynasty = ROOT
+			culture = ROOT
+			religion = ROOT
+            claim = 25
+            change_adm = 2
+			change_dip = 2
+			change_mil = 2
+			age = 0
+		}
+        add_adm_power = -50
+		add_dip_power = -50
+		add_mil_power = -50
+        set_heir_random_planetouched_effect = yes
+        set_heir_mage_effect = yes
+		add_stability = -1
+	}
+
+    option = {
+		name = beua_magocratic_ideas_event.1.2
+        add_adm_power = 25
+		add_dip_power = 25
+		add_mil_power = 25
+		add_stability = 1
+	}
+
+	after = {
+		set_country_flag = beua_magocratic_ideas_event.1.f
+	}
+}
+
+# Event 2
+country_event = {
+	id = beua_magocratic_ideas_event.2
+	title = beua_magocratic_ideas_event.2.t
+	desc = beua_magocratic_ideas_event.2.d
+
+	picture = ADVISOR_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_magocratic_ideas
+        has_estate = estate_mages
+		NOT = { advisor = court_mage }
+	}
+
+	mean_time_to_happen = {
+        days = 1
+    }
+
+	option = {
+		name = beua_magocratic_ideas_event.2.1
+		define_advisor = {
+            type = court_mage
+            skill = 3
+            discount = yes
+		}
+	}
+}
+
+# Event 3
+country_event = {
+	id = beua_magocratic_ideas_event.3
+	title = beua_magocratic_ideas_event.3.t
+	desc = beua_magocratic_ideas_event.3.d
+
+	picture = SPELL_LIST_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_magocratic_ideas
+        has_estate = estate_mages
+		at_least_magic_project_level = { project = battlemage_academy level = 1 }
+	}
+
+	mean_time_to_happen = { 
+        days = 1 
+    }
+
+	option = {
+		name = beua_magocratic_ideas_event.3.1
+		add_years_of_income = -1
+		add_mil_power = -200
+		create_war_wizard = yes
+	}
+
+	option = {
+		name = beua_magocratic_ideas_event.3.2
+	}
+}
+
+# Event 4
+country_event = {
+	id = beua_magocratic_ideas_event.4
+	title = beua_magocratic_ideas_event.4.t
+	desc = beua_magocratic_ideas_event.4.d
+
+	picture = CHURCH_ESTATE_1_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_magocratic_ideas
+        has_estate = estate_mages
+	}
+
+	mean_time_to_happen = { 
+        days = 1 
+    }
+
+	option = {
+		name = beua_magocratic_ideas_event.4.1
+        make_all_spell_free = { next_cast = yes }
+	}
+}
+
+# Event 5
+country_event = {
+	id = beua_magocratic_ideas_event.5
+	title = beua_magocratic_ideas_event.5.t
+	desc = beua_magocratic_ideas_event.5.d
+
+	picture = FORT_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_magocratic_ideas
+        has_estate = estate_mages
+        NOT = { has_country_modifier = beua_magocratic_ideas_event.5.1.m }
+        any_owned_province = {
+			fort_level = 2
+            NOT = { has_province_modifier = beua_magocratic_ideas_event.5.2.m }
+        }
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					fort_level = 2
+                    NOT = { has_province_modifier = beua_magocratic_ideas_event.5.2.m }
+				}
+				save_event_target_as = beua_industrial_ideas_event.5.c
+			}
+		}
+	}
+
+	mean_time_to_happen = { 
+        days = 1
+    }
+
+	option = {
+		name = beua_magocratic_ideas_event.5.1
+		add_dip_power = -25
+		add_country_modifier = {
+			name = beua_magocratic_ideas_event.5.1.m
+			duration = 3650
+		}
+	}
+
+	option = {
+		name = beua_magocratic_ideas_event.5.2
+		event_target:beua_industrial_ideas_event.5.c = {
+			add_province_modifier = {
+				name = "beua_magocratic_ideas_event.5.2.m"
+				duration = -1
+			}
+		}
+	}
+}
+
+# Event 6
+country_event = {
+	id = beua_magocratic_ideas_event.6
+	title = beua_magocratic_ideas_event.6.t
+	desc = beua_magocratic_ideas_event.6.d
+
+	picture = MERCHANTS_TALKING_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_magocratic_ideas
+        has_estate = estate_mages
+		NOT = { has_country_modifier = beua_magocratic_ideas_event.6.1.m }
+	}
+
+	mean_time_to_happen = { 
+        days = 1 
+    }
+
+	option = {
+		name = beua_magocratic_ideas_event.6.1
+		add_years_of_income = 1.5
+		add_inflation = 5
+		add_country_modifier = {
+			name = "beua_magocratic_ideas_event.6.1.m"
+			duration = 3650
+		}
+	}
+
+	option = {
+		name = beua_magocratic_ideas_event.6.2
+		add_mil_power = -50
+	}
+}
+
+# Event 7
+country_event = {
+	id = beua_magocratic_ideas_event.7
+	title = beua_magocratic_ideas_event.7.t
+	desc = beua_magocratic_ideas_event.7.d`
+
+	picture = CHURCH_ESTATE_UPSET_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_magocratic_ideas
+        has_estate = estate_mages
+		has_estate_privilege = estate_mages_organization_magisterium
+		knows_country = A85
+		NOT = { tag = A85 }
+	}
+
+	mean_time_to_happen = { 
+        days = 1 
+    }
+
+	option = {
+		name = beua_magocratic_ideas_event.7.1
+		add_estate_loyalty = {
+			estate = estate_mages
+			loyalty = 10
+		}
+	}
+
+	option = {
+		name = beua_magocratic_ideas_event.7.2
+		add_estate_influence_modifier = {
+			estate = estate_mages
+			desc = beua_magocratic_ideas_event.7.2.m
+			influence = -20
+		}
+		reverse_add_opinion = {
+			who = A85
+			modifier = beua_magocratic_ideas_event.7.2.m
+		}	
+	}
+}
+
+# Event 8
+country_event = {
+	id = beua_magocratic_ideas_event.8
+	title = beua_magocratic_ideas_event.8.t
+	desc = beua_magocratic_ideas_event.8.d
+
+	picture = SPY_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_magocratic_ideas
+        has_estate = estate_mages
+        NOT = { has_country_modifier = beua_magocratic_ideas_event.8.1.m }
+	}
+
+	mean_time_to_happen = { 
+        days = 1
+    }
+    
+	option = {
+		name = beua_magocratic_ideas_event.8.1
+		add_country_modifier = {
+			name = "beua_magocratic_ideas_event.8.1.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 9
+country_event = {
+	id = beua_magocratic_ideas_event.9
+	title = beua_magocratic_ideas_event.9.t
+	desc = beua_magocratic_ideas_event.9.d
+
+	picture = ACCUSATION_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_magocratic_ideas
+        has_estate = estate_mages
+	}
+
+	mean_time_to_happen = { 
+        days = 1
+    }
+
+	option = {
+		name = beua_magocratic_ideas_event.9.1
+		add_adm_power = -70
+		add_mil_power = -70
+	}
+
+	option = {
+		name = beua_magocratic_ideas_event.9.2
+		add_stability = -1
+	}
+}
+
+# Event 10
+country_event = {
+	id = beua_magocratic_ideas_event.10
+	title = beua_magocratic_ideas_event.10.t
+	desc = beua_magocratic_ideas_event.10.d
+
+	picture = ANGRY_MOB_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_magocratic_ideas
+        has_estate = estate_mages
+		NOT = { has_country_modifier = beua_magocratic_ideas_event.10.1.m }
+	}
+
+	mean_time_to_happen = { 
+        days = 1 
+    }
+
+	option = {
+		name = beua_magocratic_ideas_event.10.1
+		add_country_modifier = {
+			name = "beua_magocratic_ideas_event.10.1.m"
+			duration = 3650
+		}
+	}
+
+	option = {
+		name = beua_magocratic_ideas_event.10.2
+		add_adm_power = -50
+		add_dip_power = -50
+		add_mil_power = -50
+	}
+}

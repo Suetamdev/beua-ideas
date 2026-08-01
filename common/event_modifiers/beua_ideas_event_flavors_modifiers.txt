@@ -6,51 +6,622 @@
 ########################################################
 ####### Jurisprudence                            #######
 ########################################################
-beua_jurisprudence_ideas_event.2.b.m = {
+beua_jurisprudence_ideas_event.2.2.m = {
 	global_unrest = 2
 }
-beua_jurisprudence_ideas_event.3.a.m = {
+beua_jurisprudence_ideas_event.3.1.m = {
 	idea_cost = -0.075
 }
-beua_jurisprudence_ideas_event.7.a.m = {
+beua_jurisprudence_ideas_event.7.1.m = {
 	tolerance_heathen = 1
 	tolerance_heretic = 1
 }
-beua_jurisprudence_ideas_event.8.a.m = {
+beua_jurisprudence_ideas_event.8.1.m = {
 	yearly_corruption = 0.1
 	global_unrest = 1
 }
-beua_jurisprudence_ideas_event.9.a.m = {
+beua_jurisprudence_ideas_event.9.1.m = {
 	global_unrest = -1
 }
-beua_jurisprudence_ideas_event.9.b.m = {
+beua_jurisprudence_ideas_event.9.2.m = {
 	tolerance_heathen = -1
 	tolerance_heretic = -1
 }
-beua_jurisprudence_ideas_event.10.b.m = {
+beua_jurisprudence_ideas_event.10.2.m = {
 	yearly_corruption = 0.25
 }
 
 ########################################################
 ####### Health                                   #######
 ########################################################
-beua_health_ideas_event.3.a.m = {
+beua_health_ideas_event.3.1.m = {
 	global_manpower_modifier = 0.1
 }
-beua_health_ideas_event.4.a.m = {
+beua_health_ideas_event.4.1.m = {
 	manpower_recovery_speed = 0.2
 }
-beua_health_ideas_event.5.a.m = {
+beua_health_ideas_event.5.1.m = {
 	idea_cost = -0.075
 }
-beua_health_ideas_event.6.a.m = {
+beua_health_ideas_event.6.1.m = {
 	technology_cost = -0.05
 }
-beua_health_ideas_event.8.b.m = {
+beua_health_ideas_event.8.2.m = {
 	idea_cost = 0.05
 	manpower_recovery_speed = 0.15
 }
-beua_health_ideas_event.9.b.m = {
+beua_health_ideas_event.9.2.m = {
 	idea_cost = 0.05
 	manpower_recovery_speed = 0.15
+}
+
+########################################################
+####### State Administration	                 #######
+########################################################
+beua_state_administration_ideas_event.1.1.m = {
+	adm_tech_cost_modifier = -0.1
+}
+beua_state_administration_ideas_event.2.1.m = {
+	yearly_corruption = -0.1
+}
+beua_state_administration_ideas_event.5.1.m = {
+	core_creation = -0.1
+}
+beua_state_administration_ideas_event.6.1.m = {
+	state_maintenance_modifier = -0.15
+}
+beua_state_administration_ideas_event.8.1.m = {
+	adm_tech_cost_modifier = 0.1
+}
+beua_state_administration_ideas_event.9.1.m = {
+	yearly_corruption = -0.1
+}
+
+########################################################
+####### Centralism    	   		                 #######
+########################################################
+beua_centralism_ideas_event.1.1.m = {
+	global_tax_modifier = 0.1
+}
+beua_centralism_ideas_event.2.1.m = {
+	development_cost = -0.1
+}
+beua_centralism_ideas_event.5.1.m = {
+	global_tax_modifier = 0.05
+	trade_efficiency = 0.05
+}
+beua_centralism_ideas_event.6.1.m = {
+	trade_efficiency = 0.1
+}
+beua_centralism_ideas_event.7.1.m = {
+	global_unrest = 1
+}
+beua_centralism_ideas_event.7.2.m = {
+	global_autonomy = 0.05
+}
+beua_centralism_ideas_event.10.1.m = {
+	state_maintenance_modifier = 0.1
+}
+
+########################################################
+####### Decentralism    	   		             #######
+########################################################
+beua_decentralism_ideas_event.2.1.m = {
+	all_power_cost = -0.05
+}
+
+beua_decentralism_ideas_event.5.1.m = {
+	governing_capacity = 75
+}
+
+beua_decentralism_ideas_event.5.2.m = {
+	state_maintenance_modifier = 0.1
+}
+
+beua_decentralism_ideas_event.9.1.m = {
+	global_autonomy = 0.05
+}
+
+beua_decentralism_ideas_event.10.1.m = {
+	global_unrest = 2
+}
+
+########################################################
+####### Industrial    	   		                 #######
+########################################################
+beua_industrial_ideas_event.1.1.m = {
+	development_cost = -0.1
+}
+beua_industrial_ideas_event.2.1.m = {
+	local_unrest = 3
+	local_production_efficiency = -0.15
+}
+beua_industrial_ideas_event.3.1.m = {
+	global_unrest = 2
+	global_trade_goods_size_modifier = -0.15
+}
+beua_industrial_ideas_event.3.2.m = {
+	production_efficiency = -0.1
+	build_cost = 0.15
+}
+beua_industrial_ideas_event.3.3.m = {
+	global_unrest = -2
+	stability_cost_modifier = -0.25
+}
+beua_industrial_ideas_event.3.4.m = {
+	global_unrest = 2
+}
+beua_industrial_ideas_event.5.2.m = {
+	production_efficiency = 0.1
+}
+beua_industrial_ideas_event.6.m = {
+	trade_value_modifier = 0.25
+}
+beua_industrial_ideas_event.7.1.m = {
+	global_trade_goods_size_modifier = 0.15
+	technology_cost = 0.05
+	development_cost = 0.05
+}
+beua_industrial_ideas_event.8.1.m = {
+	trade_value_modifier = -0.15
+}
+
+########################################################
+####### Assimilation 	   		                 #######
+########################################################
+beua_assimilation_ideas_event.3.1.m = {
+	promote_culture_cost = -1.0
+}
+beua_assimilation_ideas_event.4.1.m = {
+	global_missionary_strength = 0.02
+}
+beua_assimilation_ideas_event.5.1.m = {
+	technology_cost = -0.05
+	global_unrest = -1
+}
+beua_assimilation_ideas_event.6.1.m = {
+	years_of_nationalism = -5
+}
+beua_assimilation_ideas_event.7.1.m = {
+	global_unrest = 2
+}
+beua_assimilation_ideas_event.9.1.m = {
+	global_unrest = 1
+}
+beua_assimilation_ideas_event.9.2.m = {
+	global_unrest = 2
+}
+beua_assimilation_ideas_event.10.1.m = {
+	num_accepted_cultures = -1
+	culture_conversion_cost = 0.25
+}
+
+########################################################
+####### Nationalism 	   		                 #######
+########################################################
+beua_nationalism_ideas_event.2.1.m = {
+	all_power_cost = -0.05
+	prestige = -3
+	legitimacy = -2
+	republican_tradition = -1
+	devotion = -1
+	horde_unity = -1
+}
+beua_nationalism_ideas_event.2.2.m = {
+	prestige = 2
+	legitimacy = 2
+	republican_tradition = 1
+	devotion = 1
+	horde_unity = 1
+}
+beua_nationalism_ideas_event.5.1.m = {
+	diplomatic_reputation = -1
+	ae_impact = 0.05
+}
+beua_nationalism_ideas_event.5.2.m = {
+	diplomatic_reputation = -2
+	ae_impact = 0.15
+}
+beua_nationalism_ideas_event.7.1.m = {
+	global_unrest = 2
+}
+beua_nationalism_ideas_event.7.2.m = {
+	global_unrest = 1
+}
+
+########################################################
+####### Society 	   		                     #######
+########################################################
+beua_society_ideas_event.1.1.m = {
+	global_tax_modifier = 0.05
+	production_efficiency = 0.05
+	trade_efficiency = 0.05
+}
+beua_society_ideas_event.4.1.m = {
+	state_maintenance_modifier = -0.15
+}
+beua_society_ideas_event.5.1.m = {
+	prestige = 1
+	idea_cost = -0.1
+}
+beua_society_ideas_event.6.1.m = {
+	technology_cost = -0.1
+	global_spy_defence = -0.25
+}
+beua_society_ideas_event.7.2.m = {
+	technology_cost = 0.05
+	idea_cost = 0.05
+}
+beua_society_ideas_event.10.1.m = {
+	global_tax_modifier = -0.05
+	production_efficiency = -0.05
+	trade_efficiency = -0.05
+}
+beua_society_ideas_event.10.2.m = {
+	global_tax_modifier = -0.1
+	production_efficiency = -0.1
+	trade_efficiency = -0.1
+}
+
+########################################################
+####### Imperialist Ambition and Imperialism     #######
+########################################################
+beua_imperialist_ambition_and_imperialism_ideas_event.2.2.m = {
+	diplomatic_reputation = 1
+}
+beua_imperialist_ambition_and_imperialism_ideas_event.3.1.m = {
+	core_creation = -0.1
+}
+beua_imperialist_ambition_and_imperialism_ideas_event.7.2.m = {
+	idea_cost = -0.075
+}
+beua_imperialist_ambition_and_imperialism_ideas_event.8.1.m = {
+	stability_cost_modifier = 0.25
+	global_unrest = 2
+}
+beua_imperialist_ambition_and_imperialism_ideas_event.9.1.m = {
+	prestige = 1
+	idea_cost = 0.075
+}
+beua_imperialist_ambition_and_imperialism_ideas_event.9.2.m = {
+	idea_cost = 0.05
+}
+beua_imperialist_ambition_and_imperialism_ideas_event.10.1.m = {
+	state_maintenance_modifier = 0.15
+}
+beua_imperialist_ambition_and_imperialism_ideas_event.10.2.m = {
+	yearly_corruption = 0.2
+}
+
+########################################################
+####### Amphibious							     #######
+########################################################
+beua_amphibious_ideas_event.1.1.m = {
+	galley_power = 0.05
+}
+beua_amphibious_ideas_event.1.2.m = {
+	galley_power = 0.2
+	galley_cost = 0.5
+}
+beua_amphibious_ideas_event.4.1.m = {
+	naval_morale = 0.1
+}
+beua_amphibious_ideas_event.7.1.m = {
+	global_ship_cost = 0.2
+}
+beua_amphibious_ideas_event.8.1.m = {
+	naval_morale = -0.1
+}
+
+########################################################
+####### Colonial Empire						     #######
+########################################################
+beua_colonial_empire_ideas_event.2.1.m = {
+	colonist_placement_chance = 0.2
+}
+beua_colonial_empire_ideas_event.3.1.m = {
+	global_colonial_growth = 20
+}
+beua_colonial_empire_ideas_event.4.1.m = {
+	global_colonial_growth = 20
+}
+beua_colonial_empire_ideas_event.5.1.m = {
+	idea_cost = -0.075
+	technology_cost = -0.05
+}
+beua_colonial_empire_ideas_event.5.2.m = {
+	technology_cost = -0.05
+}
+beua_colonial_empire_ideas_event.7.1.m = {
+	state_maintenance_modifier = -0.1
+	global_tariffs = 0.1
+}
+beua_colonial_empire_ideas_event.8.2.m = {
+	global_tariffs = -0.2
+}
+beua_colonial_empire_ideas_event.9.m = {
+	global_manpower_modifier = -0.15
+}
+beua_colonial_empire_ideas_event.10.m = {
+	native_uprising_chance = 1
+	native_assimilation = -1
+	global_colonial_growth = -25
+}
+
+########################################################
+####### Magocratic   						     #######
+########################################################
+beua_magocratic_ideas_event.5.1.m = {
+	defensiveness = 0.25
+}
+beua_magocratic_ideas_event.5.2.m = {
+	local_defensiveness = 0.15
+}
+beua_magocratic_ideas_event.6.1.m = {
+	global_tax_modifier = 0.3
+	interest = -1
+	diplomatic_reputation = -2
+	inflation_reduction = -0.1
+}
+beua_magocratic_ideas_event.8.1.m = {
+	spy_offence = 0.25
+	global_spy_defence = 0.25
+}
+beua_magocratic_ideas_event.10.1.m = {
+	all_power_cost = -0.025
+	global_unrest = 5
+	advisor_cost = 0.1
+}
+
+########################################################
+####### Monstrous   						     #######
+########################################################
+beua_monstrous_ideas_event.3.1.m = {
+	institution_growth = 0.2
+	local_unrest = 2
+}
+beua_monstrous_ideas_event.3.2.m = {
+	tolerance_own = 2
+}
+beua_monstrous_ideas_event.4.1.m = {
+	local_tax_modifier = -0.2
+	local_production_efficiency = -0.1
+	local_manpower_modifier = -0.2
+	development_cost = -0.1
+}
+beua_monstrous_ideas_event.4.2.m = {
+	local_tax_modifier = 0.1
+	local_unrest = 2
+}
+beua_monstrous_ideas_event.5.1.m = {
+	adm_advisor_cost = 1
+	global_tax_modifier = -0.1
+	administrative_efficiency = 0.05
+}
+beua_monstrous_ideas_event.5.2.m = {
+	dip_advisor_cost = 1
+	improve_relation_modifier = -0.2
+	administrative_efficiency = 0.05
+}
+beua_monstrous_ideas_event.5.3.m = {
+	mil_advisor_cost = 1
+	land_morale = -0.05
+	general_cost = 0.25
+	administrative_efficiency = 0.05
+}
+beua_monstrous_ideas_event.5.4.m = {
+	advisor_cost = 1
+	advisor_pool = -2
+	global_tax_modifier = -0.15
+	improve_relation_modifier = -0.3
+	land_morale = -0.075
+	administrative_efficiency = 0.1
+	global_unrest = -2
+}
+beua_monstrous_ideas_event.7.2.m = {
+	local_monthly_devastation = 0.2
+	local_tax_modifier = -0.3
+	trade_goods_size_modifier = -0.33
+}
+beua_monstrous_ideas_event.10.1.m = {
+	drill_gain_modifier = 0.5
+	mil_tech_cost_modifier = -0.1
+	land_morale = -0.05
+	army_tradition_decay = 0.01
+}
+
+########################################################
+####### Imperial     						     #######
+########################################################
+beua_imperial_ideas_event.2.1.m.2 = {
+	global_trade_power = -0.1
+}
+beua_imperial_ideas_event.5.1.m.2 = {
+	advisor_cost = 0.1
+}
+beua_imperial_ideas_event.8.1.m.2 = {
+	global_tax_modifier = 0.15
+}
+beua_imperial_ideas_event.9.1.m.2 = {
+	province_trade_power_value = -10
+}
+beua_imperial_ideas_event.10.1.m = {
+	improve_relation_modifier = 0.25
+}
+
+########################################################
+####### Strategic and Serpentspine and Legionary #######
+########################################################
+beua_strategic_and_serpentspine_and_legionary_event.1.1.m = {
+	shock_damage = 0.15
+}
+beua_strategic_and_serpentspine_and_legionary_event.2.1.m = {
+	movement_speed = 0.1
+	land_attrition = -0.1
+}
+beua_strategic_and_serpentspine_and_legionary_event.3.1.m = {
+	siege_ability = 0.1
+}
+beua_strategic_and_serpentspine_and_legionary_event.5.1.m = {
+	shock_damage = 0.15
+}
+beua_strategic_and_serpentspine_and_legionary_event.6.1.m = {
+	shock_damage_received = -0.1
+}
+beua_strategic_and_serpentspine_and_legionary_event.7.1.m = {
+	shock_damage = 0.1
+	shock_damage_received = -0.1
+	land_morale = 0.075
+}
+beua_strategic_and_serpentspine_and_legionary_event.7.2.m = {
+	land_morale = -0.2
+}
+beua_strategic_and_serpentspine_and_legionary_event.9.1.m = {
+	land_morale = 0.075
+	shock_damage = 0.1
+	shock_damage_received = 0.1
+}
+
+########################################################
+####### General Staff    					     #######
+########################################################
+beua_general_staff_ideas_event.1.1.m = {
+	yearly_army_professionalism = 0.003
+	drill_gain_modifier = 0.25
+}
+beua_general_staff_ideas_event.2.2.m = {
+	yearly_army_professionalism = 0.0025
+	army_tradition = 0.5
+}
+beua_general_staff_ideas_event.5.1.m = {
+	mil_tech_cost_modifier = -0.1
+}
+beua_general_staff_ideas_event.8.1.m = {
+	land_morale = -0.075
+	yearly_army_professionalism = 0.003
+}
+beua_general_staff_ideas_event.8.2.m = {
+	land_morale = 0.075
+	yearly_army_professionalism = -0.003
+}
+
+########################################################
+####### Standing Army    					     #######
+########################################################
+beua_standing_army_ideas_event.1.1.m = {
+	land_attrition = -0.15
+}
+beua_standing_army_ideas_event.2.1.m = {
+	land_morale = -0.075
+	infantry_power = 0.075
+	cavalry_power = 0.075
+	artillery_power = 0.075
+}
+beua_standing_army_ideas_event.2.2.m = {
+	land_morale = 0.1
+}
+beua_standing_army_ideas_event.4.1.m = {
+	land_morale = 0.075
+}
+beua_standing_army_ideas_event.6.1.m = {
+	land_attrition = -0.25
+	land_maintenance_modifier = 0.1
+}
+beua_standing_army_ideas_event.6.2.m = {
+	land_attrition = -0.1
+	land_maintenance_modifier = -0.05
+}
+beua_standing_army_ideas_event.8.1.m = {
+	land_morale = -0.075
+	global_unrest = 2
+}
+beua_standing_army_ideas_event.8.2.m = {
+	land_morale = -0.025
+	global_unrest = 1
+}
+beua_standing_army_ideas_event.10.1.m = {
+	yearly_army_professionalism = 0.005
+}
+beua_standing_army_ideas_event.10.2.m = {
+	drill_gain_modifier = 1.0
+}
+
+########################################################
+####### Conscription    					     #######
+########################################################
+beua_conscription_ideas_event.1.1.m = {
+	global_manpower_modifier = 0.25
+}
+beua_conscription_ideas_event.1.2.m = {
+	global_tax_modifier = 0.1
+	production_efficiency = 0.1
+	trade_efficiency = 0.1
+}
+beua_conscription_ideas_event.5.1.m = {
+	land_maintenance_modifier = 0.1
+}
+beua_conscription_ideas_event.8.1.m = {
+	infantry_power = 0.075
+	cavalry_power = 0.075
+	artillery_power = 0.075
+}
+beua_conscription_ideas_event.8.2.m = {
+	land_morale = -0.05
+}
+
+########################################################
+####### Weapon Quality    					     #######
+########################################################
+beua_weapon_quality_ideas_event.1.1.m = {
+	global_trade_goods_size_modifier = 0.1
+}
+beua_weapon_quality_ideas_event.2.1.m = {
+	global_trade_goods_size_modifier = 0.1
+	improve_relation_modifier = 0.15
+}
+beua_weapon_quality_ideas_event.3.1.m = {
+	production_efficiency = 0.15
+}
+beua_weapon_quality_ideas_event.4.1.m = {
+	infantry_power = 0.05
+	cavalry_power = 0.05
+	artillery_power = 0.05
+}
+beua_weapon_quality_ideas_event.5.1.m = {
+	fire_damage = 0.05
+}
+beua_weapon_quality_ideas_event.5.2.m = {
+	fire_damage = 0.1
+	land_maintenance_modifier = 0.1
+}
+beua_weapon_quality_ideas_event.6.1.m = {
+	build_cost = -0.1
+}
+beua_weapon_quality_ideas_event.8.m = {
+	global_trade_goods_size_modifier = -0.075
+}
+beua_weapon_quality_ideas_event.9.m = {
+	artillery_power = -0.075
+}
+
+########################################################
+####### Fortress	    					     #######
+########################################################
+beua_fortress_ideas_event.1.1.m = {
+	build_cost = -0.1
+}
+beua_fortress_ideas_event.4.1.m = {
+	build_cost = 0.1
+	defensiveness = 0.33
+}
+beua_fortress_ideas_event.5.1.m = {
+	fire_damage = 0.1
+	fort_maintenance_modifier = 0.2
+}
+beua_fortress_ideas_event.6.1.m = {
+	artillery_power = 0.075
+	defensiveness = 0.2
+}
+beua_fortress_ideas_event.10.2.m = {
+	defensiveness = -0.15
 }

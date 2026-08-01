@@ -1,0 +1,364 @@
+namespace = beua_strategic_and_serpentspine_and_legionary_event
+
+########################################################
+####### Strategic and Serpentspine and Legionary #######
+########################################################
+
+# Event 1
+country_event = {
+	id = beua_strategic_and_serpentspine_and_legionary_event.1
+	title = beua_strategic_and_serpentspine_and_legionary_event.1.t
+	desc = beua_strategic_and_serpentspine_and_legionary_event.1.d
+	
+	picture = LAND_MILITARY_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR= {
+            has_idea_group = beua_strategic_ideas
+            has_idea_group = beua_serpentspine_ideas
+            has_idea_group = beua_legionary_ideas
+		}
+		is_at_war = yes	
+		NOT = { has_country_modifier = beua_strategic_and_serpentspine_and_legionary_event.1.1.m }	
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_strategic_and_serpentspine_and_legionary_event.1.1
+		add_country_modifier = {
+			name = "beua_strategic_and_serpentspine_and_legionary_event.1.1.m"
+			duration = 365
+		}	
+	}
+}
+
+# Event 2
+country_event = {
+	id = beua_strategic_and_serpentspine_and_legionary_event.2
+	title = beua_strategic_and_serpentspine_and_legionary_event.2.t
+	desc = beua_strategic_and_serpentspine_and_legionary_event.2.d
+	
+	picture = FARMING_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR= {
+            has_idea_group = beua_strategic_ideas
+            has_idea_group = beua_serpentspine_ideas
+            has_idea_group = beua_legionary_ideas
+		}
+		NOT = { has_country_modifier = beua_strategic_and_serpentspine_and_legionary_event.2.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_strategic_and_serpentspine_and_legionary_event.2.1
+		add_country_modifier = {
+			name = "beua_strategic_and_serpentspine_and_legionary_event.2.1.m"
+			duration = 1825
+		}
+	}
+}
+
+# Event 3
+country_event = {
+	id = beua_strategic_and_serpentspine_and_legionary_event.3
+	title = beua_strategic_and_serpentspine_and_legionary_event.3.t
+	desc = beua_strategic_and_serpentspine_and_legionary_event.3.d
+	
+	picture = HORDE_ON_HORSEBACK_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR= {
+            has_idea_group = beua_strategic_ideas
+            has_idea_group = beua_serpentspine_ideas
+            has_idea_group = beua_legionary_ideas
+		}
+		is_at_war = yes	
+		NOT = { has_country_modifier = beua_strategic_and_serpentspine_and_legionary_event.3.1.m }
+		
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_strategic_and_serpentspine_and_legionary_event.3.1
+		add_country_modifier = {
+			name = "beua_strategic_and_serpentspine_and_legionary_event.3.1.m"
+			duration = 1200
+		}
+	}
+}
+
+# Event 4
+country_event = {
+	id = beua_strategic_and_serpentspine_and_legionary_event.4
+	title = beua_strategic_and_serpentspine_and_legionary_event.4.t
+	desc = beua_strategic_and_serpentspine_and_legionary_event.4.d
+	
+	picture = LAND_MILITARY_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR= {
+            has_idea_group = beua_strategic_ideas
+            has_idea_group = beua_serpentspine_ideas
+            has_idea_group = beua_legionary_ideas
+		}
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_strategic_and_serpentspine_and_legionary_event.4.1
+		add_army_tradition = 10
+	}
+	
+	option = {
+		name = beua_strategic_and_serpentspine_and_legionary_event.4.2
+		add_prestige = 10
+	}
+}
+
+# Event 5
+country_event = {
+	id = beua_strategic_and_serpentspine_and_legionary_event.5
+	title = beua_strategic_and_serpentspine_and_legionary_event.5.t
+	desc = beua_strategic_and_serpentspine_and_legionary_event.5.d
+	
+	picture = BIG_BOOK_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR= {
+            has_idea_group = beua_strategic_ideas
+            has_idea_group = beua_serpentspine_ideas
+            has_idea_group = beua_legionary_ideas
+		}
+		is_at_war = yes	
+		NOT = { has_country_modifier = beua_strategic_and_serpentspine_and_legionary_event.5.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_strategic_and_serpentspine_and_legionary_event.5.1
+		add_country_modifier = {
+			name = "beua_strategic_and_serpentspine_and_legionary_event.5.1.m"
+			duration = 365
+		}		
+	}
+}
+
+# Event 6
+country_event = {
+	id = beua_strategic_and_serpentspine_and_legionary_event.6
+	title = beua_strategic_and_serpentspine_and_legionary_event.6.t
+	desc = beua_strategic_and_serpentspine_and_legionary_event.6.d
+	
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR= {
+            has_idea_group = beua_strategic_ideas
+            has_idea_group = beua_serpentspine_ideas
+            has_idea_group = beua_legionary_ideas
+		}
+		is_at_war = yes	
+		NOT = { has_country_modifier = beua_strategic_and_serpentspine_and_legionary_event.6.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_strategic_and_serpentspine_and_legionary_event.6.1
+		add_country_modifier = {
+			name = "beua_strategic_and_serpentspine_and_legionary_event.6.1.m"
+			duration = 1000
+		}
+	}
+}
+
+# Event 7
+country_event = {
+	id = beua_strategic_and_serpentspine_and_legionary_event.7
+	title = beua_strategic_and_serpentspine_and_legionary_event.7.t
+	desc = beua_strategic_and_serpentspine_and_legionary_event.7.d
+	
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR= {
+            has_idea_group = beua_strategic_ideas
+            has_idea_group = beua_serpentspine_ideas
+            has_idea_group = beua_legionary_ideas
+		}
+		is_at_war = yes	
+		NOT = {
+            OR = {
+                has_country_modifier = beua_strategic_and_serpentspine_and_legionary_event.7.1.m
+                has_country_modifier = beua_strategic_and_serpentspine_and_legionary_event.7.2.m
+            }
+		}
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_strategic_and_serpentspine_and_legionary_event.7.1
+		add_country_modifier = {
+			name = "beua_strategic_and_serpentspine_and_legionary_event.7.1.m"
+			duration = 1000
+		}
+		random_list = {
+			33 = { add_yearly_manpower = -1 }
+			34 = { add_yearly_manpower = -2 }
+			33 = { add_yearly_manpower = -3 }
+		}	
+	}
+	
+	option = {
+		name = beua_strategic_and_serpentspine_and_legionary_event.7.2
+		add_country_modifier = {
+			name = "beua_strategic_and_serpentspine_and_legionary_event.7.2.m"
+			duration = 1000
+		}
+	}
+}
+
+# Event 8
+country_event = {
+	id = beua_strategic_and_serpentspine_and_legionary_event.8
+	title = beua_strategic_and_serpentspine_and_legionary_event.8.t
+	desc = beua_strategic_and_serpentspine_and_legionary_event.8.d
+	
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR= {
+            has_idea_group = beua_strategic_ideas
+            has_idea_group = beua_serpentspine_ideas
+            has_idea_group = beua_legionary_ideas
+		}
+		is_at_war = yes	
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_strategic_and_serpentspine_and_legionary_event.8.1
+		add_prestige = 10
+		random_list = {
+			33 = { kill_leader = { type = general } }
+			34 = { create_general = { tradition = 50 } }
+			33 = { add_stability_or_adm_power = yes }
+		}
+	}
+	
+	option = {
+		name = beua_strategic_and_serpentspine_and_legionary_event.8.2
+		add_yearly_manpower = 3
+	}
+}
+
+# Event 9
+country_event = {
+	id = beua_strategic_and_serpentspine_and_legionary_event.9
+	title = beua_strategic_and_serpentspine_and_legionary_event.9.t
+	desc = beua_strategic_and_serpentspine_and_legionary_event.9.d
+	
+	picture = BIG_BOOK_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR= {
+            has_idea_group = beua_strategic_ideas
+            has_idea_group = beua_serpentspine_ideas
+            has_idea_group = beua_legionary_ideas
+		}
+		is_at_war = yes	
+		NOT = { has_country_modifier = beua_strategic_and_serpentspine_and_legionary_event.9.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_strategic_and_serpentspine_and_legionary_event.9.1
+		add_country_modifier = {
+			name = "beua_strategic_and_serpentspine_and_legionary_event.9.1.m"
+			duration = 1825
+		}
+	}
+	
+	option = {
+		name = beua_strategic_and_serpentspine_and_legionary_event.9.2
+		add_prestige = 10
+	}
+}
+
+# Event 10
+country_event = {
+	id = beua_strategic_and_serpentspine_and_legionary_event.10
+	title = beua_strategic_and_serpentspine_and_legionary_event.10.t
+	desc = beua_strategic_and_serpentspine_and_legionary_event.10.d
+	
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR= {
+            has_idea_group = beua_strategic_ideas
+            has_idea_group = beua_serpentspine_ideas
+            has_idea_group = beua_legionary_ideas
+		}
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_strategic_and_serpentspine_and_legionary_event.10.1
+		add_stability = -1
+	}
+	
+	option = {
+		name = beua_strategic_and_serpentspine_and_legionary_event.10.2
+		add_army_tradition = -10
+	}
+}

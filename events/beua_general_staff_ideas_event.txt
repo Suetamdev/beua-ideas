@@ -1,0 +1,325 @@
+namespace = beua_general_staff_ideas_event
+
+########################################################
+####### General Staff                            #######
+########################################################
+
+# Event 1
+country_event = {
+	id = beua_general_staff_ideas_event.1
+	title = beua_general_staff_ideas_event.1.t
+	desc = beua_general_staff_ideas_event.1.d
+	
+	picture = INVENTION_eventPicture 
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_general_staff_ideas
+		NOT = { has_country_modifier = beua_general_staff_ideas_event.1.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_general_staff_ideas_event.1.1
+		add_country_modifier = {
+			name = "beua_general_staff_ideas_event.1.1.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 2
+country_event = {
+	id = beua_general_staff_ideas_event.2
+	title = beua_general_staff_ideas_event.2.t
+	desc = beua_general_staff_ideas_event.2.d
+	
+	picture = FORT_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_general_staff_ideas
+		NOT = { has_country_modifier = beua_general_staff_ideas_event.2.2.m }	
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_general_staff_ideas_event.2.1
+        add_army_professionalism = 0.05
+        add_army_tradition = 10
+	}
+	
+	option = {
+		name = beua_general_staff_ideas_event.2.2
+		add_army_professionalism = 0.05
+		add_army_tradition = 10
+		add_years_of_income = -0.8
+		add_country_modifier = {
+            name = "beua_general_staff_ideas_event.2.2.m"
+            duration = 3650
+	    }
+	}
+}
+
+# Event 3
+country_event = {
+	id = beua_general_staff_ideas_event.3
+	title = beua_general_staff_ideas_event.3.t
+	desc = beua_general_staff_ideas_event.3.d
+	
+	picture = ADVISOR_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_general_staff_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_general_staff_ideas_event.3.1
+		add_army_professionalism = 0.03
+	}
+	
+	option = {
+		name = beua_general_staff_ideas_event.3.2
+		add_army_professionalism = 0.03
+		reduce_estate_nobles_loyalty_effect = yes
+		define_advisor = {
+			type = army_reformer
+			discount = yes
+			skill = 2
+		}
+	}
+}
+
+# Event 4
+country_event = {
+	id = beua_general_staff_ideas_event.4
+	title = beua_general_staff_ideas_event.4.t
+	desc = beua_general_staff_ideas_event.4.d
+	
+	picture = INVENTION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_general_staff_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_general_staff_ideas_event.4.1
+		add_army_professionalism = 0.05
+		add_navy_tradition = 10
+		add_army_tradition = 10
+	}
+}
+
+# Event 5
+country_event = {
+	id = beua_general_staff_ideas_event.5
+	title = beua_general_staff_ideas_event.5.t
+	desc = beua_general_staff_ideas_event.5.d
+	
+	picture = HORDE_ON_HORSEBACK_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_general_staff_ideas
+		NOT = { has_country_modifier = beua_general_staff_ideas_event.5.1.m }	
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_general_staff_ideas_event.5.1
+		add_mil_power = 100
+		add_country_modifier = {
+			name = "beua_general_staff_ideas_event.5.1.m"
+			duration = 1825
+		}
+	}
+}
+
+# Event 6
+country_event = {
+	id = beua_general_staff_ideas_event.6
+	title = beua_general_staff_ideas_event.6.t
+	desc = beua_general_staff_ideas_event.6.d
+	
+	picture = MILITARY_CAMP_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_general_staff_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_general_staff_ideas_event.6.1
+		add_army_professionalism = 0.05
+	}
+}
+
+# Event 7
+country_event = {
+	id = beua_general_staff_ideas_event.7
+	title = beua_general_staff_ideas_event.7.t
+	desc = beua_general_staff_ideas_event.7.d
+	
+	picture = KING_SICK_IN_BED_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_general_staff_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_general_staff_ideas_event.7.1
+		add_years_of_income = -1
+		add_stability_or_adm_power = yes
+		add_legitimacy = 5
+		add_republican_tradition = 5
+		add_horde_unity = 5
+		add_devotion = 5
+	}
+	
+	option = {
+		name = beua_general_staff_ideas_event.7.2
+		add_army_tradition = -10
+		add_army_professionalism = -0.05
+	}
+}
+
+# Event 8
+country_event = {
+	id = beua_general_staff_ideas_event.8
+	title = beua_general_staff_ideas_event.8.t
+	desc = beua_general_staff_ideas_event.8.d
+	
+	picture = WESTERNISATION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_general_staff_ideas
+		NOT = {
+            OR = {
+                has_country_modifier = beua_general_staff_ideas_event.8.1.m
+                has_country_modifier = beua_general_staff_ideas_event.8.2.m
+            }
+		}
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_general_staff_ideas_event.8.1
+		add_country_modifier = {
+			name = "beua_general_staff_ideas_event.8.1.m"
+			duration = 3650
+		}
+	}
+	
+	option = {
+		name = beua_general_staff_ideas_event.8.2
+		add_country_modifier = {
+			name = "beua_general_staff_ideas_event.8.2.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 9
+country_event = {
+	id = beua_general_staff_ideas_event.9
+	title = beua_general_staff_ideas_event.9.t
+	desc = beua_general_staff_ideas_event.9.d
+	
+	picture = CIVIL_WAR_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_general_staff_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_general_staff_ideas_event.9.1
+		add_estate_burghers_loyalty_effect = yes
+		reduce_estate_church_loyalty_effect = yes
+		reduce_estate_nobles_loyalty_effect = yes
+	}
+	
+	option = {
+		name = beua_general_staff_ideas_event.9.2
+		add_estate_nobles_loyalty_effect = yes
+		add_estate_church_loyalty_effect = yes
+		reduce_estate_burghers_loyalty_effect = yes
+	}
+}
+
+# Event 10
+country_event = {
+	id = beua_general_staff_ideas_event.10
+	title = beua_general_staff_ideas_event.10.t
+	desc = beua_general_staff_ideas_event.10.d
+	
+	picture = DEBATE_REPUBLICAN_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_general_staff_ideas
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_general_staff_ideas_event.10.1
+		add_prestige = -10
+		add_mil_power = -50
+	}
+	
+	option = {
+		name = beua_general_staff_ideas_event.10.2
+		add_years_of_income = -0.25
+		create_general = { tradition = 0 }
+		add_mil_power = -25
+	}
+}
