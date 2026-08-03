@@ -1,7 +1,33 @@
 ########################################################
 ####### Elven Supremacy                          #######
 ########################################################
-####### Dont Exist
+beua_elven_supremacy_ideas.2.1.m = {
+	local_unrest = 3
+}
+beua_elven_supremacy_ideas.3.1.m = {
+	mages_estate_experience_mod = 0.15
+	idea_cost = 0.05
+}
+beua_elven_supremacy_ideas.4.1.m = {
+	local_unrest = 3
+}
+beua_elven_supremacy_ideas.5.1.m = {
+	prestige = 0.25
+    idea_cost = -0.05
+}
+beua_elven_supremacy_ideas.6.1.m = {
+	diplomatic_reputation = -1
+	institution_growth = 0.15
+	technology_cost = -0.05
+}
+beua_elven_supremacy_ideas.10.1.m = {
+	discipline = 0.025
+    drill_gain_modifier = -0.10
+}
+beua_elven_supremacy_ideas.10.2.m = {
+	drill_gain_modifier = 0.15
+    prestige_decay = 0.01
+}
 
 ########################################################
 ####### Jurisprudence                            #######
@@ -624,4 +650,191 @@ beua_fortress_ideas_event.6.1.m = {
 }
 beua_fortress_ideas_event.10.2.m = {
 	defensiveness = -0.15
+}
+
+########################################################
+####### Militarism	    					     #######
+########################################################
+beua_militarism_ideas_event.4.1.m = {
+	land_morale = 0.05
+	ae_impact = 0.1
+}
+beua_militarism_ideas_event.6.1.m = {
+	diplomatic_annexation_cost = -0.1
+	diplomatic_reputation = 1
+}
+beua_militarism_ideas_event.7.1.m = {
+	improve_relation_modifier = 0.1
+}
+beua_militarism_ideas_event.8.2.m = {
+	idea_cost = -0.075
+}
+beua_militarism_ideas_event.10.2.m = {
+	global_unrest = 2
+}
+
+########################################################
+####### Artificery	    					     #######
+########################################################
+beua_artificery_ideas_event.2.2.m = {
+	global_unrest = 2
+	artificers_research_time = -0.1
+	technology_cost = -0.05
+}
+beua_artificery_ideas_event.3.1.m = {
+	advisor_cost = -0.10
+	idea_cost = -0.05
+}
+beua_artificery_ideas_event.5.1.m = {
+	discipline = 0.025
+	global_unrest = 1
+}
+beua_artificery_ideas_event.5.2.m = {
+	army_tradition_decay = -0.01
+	land_morale = -0.05
+}
+beua_artificery_ideas_event.6.1.m = {
+	development_cost = -0.05
+	build_cost = -0.05
+}
+beua_artificery_ideas_event.8.1.m = {
+	improve_relation_modifier = 0.25
+	technology_cost = 0.05
+}
+beua_artificery_ideas_event.8.2.m = {
+	technology_cost = -0.05
+	global_trade_power = -0.10
+}
+beua_artificery_ideas_event.9.1.m = {
+	is_rajput_modifier = yes
+
+	shock_damage = 0.15
+}
+beua_artificery_ideas_event.9.2.m = {
+	is_rajput_modifier = yes
+
+	fire_damage = 0.15
+}
+beua_artificery_ideas_event.10.1.m = {
+	artificers_capacity = 5
+	artificers_research_time = -0.05
+}
+
+########################################################
+####### War Production                           #######
+########################################################
+beua_war_production_ideas_event.1.1.m = {
+	land_maintenance_modifier = -0.15
+}
+beua_war_production_ideas_event.2.1.m = {
+	movement_speed = 0.15
+}
+beua_war_production_ideas_event.4.1.m = {
+	infantry_power = 0.075
+}
+beua_war_production_ideas_event.5.1.m = {
+	cavalry_power = 0.075
+}
+beua_war_production_ideas_event.6.1.m = {
+	artillery_power = 0.075
+}
+beua_war_production_ideas_event.9.2.m = {
+	global_supply_limit_modifier = -0.05
+}
+
+########################################################
+####### Shock		                             #######
+########################################################
+beua_shock_ideas_event.1.1.m = {
+	shock_damage = 0.1
+	shock_damage_received = -0.1
+}
+beua_shock_ideas_event.1.2.m = {
+	shock_damage = 0.25
+	shock_damage_received = 0.1
+}
+beua_shock_ideas_event.2.1.m = {
+	movement_speed = 0.25
+	cavalry_power = 0.1
+}
+beua_shock_ideas_event.2.2.m = {
+	shock_damage = 0.15
+}
+beua_shock_ideas_event.3.1.m = {
+	shock_damage = 0.075
+}
+beua_shock_ideas_event.4.1.m = {
+	land_morale = 0.05
+}
+beua_shock_ideas_event.5.1.m = {
+	shock_damage = 0.1
+}
+beua_shock_ideas_event.5.2.m = {
+	shock_damage_received = -0.1
+}
+beua_shock_ideas_event.7.1.m = {
+	land_morale = -0.05
+	shock_damage_received = 0.05
+}
+beua_shock_ideas_event.9.2.m = {
+	shock_damage_received = -0.2
+	fire_damage_received = 0.1
+}
+beua_shock_ideas_event.10.1.m = {
+	shock_damage = 0.1
+}
+beua_shock_ideas_event.10.2.m = {
+	shock_damage_received = -0.075
+	land_morale = 0.05
+}
+
+########################################################
+####### Fire		                             #######
+########################################################
+beua_fire_ideas_event.1.1.m = {
+	infantry_power = 0.1
+}
+beua_fire_ideas_event.1.2.m = {
+	artillery_power = 0.1
+}
+beua_fire_ideas_event.2.1.m = {
+	fire_damage = 0.1
+}
+beua_fire_ideas_event.2.2.m = {
+	fire_damage = 0.15
+	fire_damage_received = 0.05
+}
+beua_fire_ideas_event.3.1.m = {
+	backrow_artillery_damage = 0.2
+}
+beua_fire_ideas_event.3.2.m = {
+	backrow_artillery_damage = 0.1
+}
+beua_fire_ideas_event.4.1.m = {
+	land_morale = 0.075
+}
+beua_fire_ideas_event.5.1.m = {
+	artillery_power = 0.1
+}
+beua_fire_ideas_event.5.2.m = {
+	infantry_power = 0.1
+}
+beua_fire_ideas_event.6.1.m = {
+	fire_damage_received = -0.1
+}
+beua_fire_ideas_event.6.2.m = {
+	shock_damage = 0.1
+}
+beua_fire_ideas_event.7.2.m = {
+	infantry_power = 0.05
+	cavalry_power = 0.05
+}
+beua_fire_ideas_event.8.1.m = {
+	fire_damage_received = 0.1
+}
+beua_fire_ideas_event.10.1.m = {
+	shock_damage = 0.1
+}
+beua_fire_ideas_event.10.2.m = {
+	fire_damage_received = -0.1
 }

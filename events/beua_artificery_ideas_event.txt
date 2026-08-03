@@ -1,0 +1,407 @@
+namespace = beua_artificery_ideas_event
+
+########################################################
+####### Artificery                               #######
+########################################################
+
+# Event 1
+country_event = {
+	id = beua_artificery_ideas_event.1
+	title = beua_artificery_ideas_event.1.t
+	desc = beua_artificery_ideas_event.1.d
+	
+	picture = ARTIFICE_GEAR_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_artificery_ideas
+		has_estate = estate_artificers
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_artificery_ideas_event.1.1
+		add_adm_power = 30
+        add_mil_power = 30
+        add_dip_power = 30
+	}
+}
+
+# Event 2
+country_event = {
+	id = beua_artificery_ideas_event.2
+	title = beua_artificery_ideas_event.2.t
+	desc = beua_artificery_ideas_event.2.d
+	
+	picture = DAMESTEAR_CORE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_artificery_ideas
+		has_estate = estate_artificers
+        NOT = { has_country_modifier = beua_artificery_ideas_event.2.2.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_artificery_ideas_event.2.1
+		add_adm_power = -35
+        add_stability = 1
+	}
+
+    option = {
+		name = beua_artificery_ideas_event.2.2
+		add_country_modifier = {
+			name = "beua_artificery_ideas_event.2.2.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 3
+country_event = {
+	id = beua_artificery_ideas_event.3
+	title = beua_artificery_ideas_event.3.t
+	desc = beua_artificery_ideas_event.3.d
+	
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_artificery_ideas
+		has_estate = estate_artificers
+        NOT = { has_country_modifier = beua_artificery_ideas_event.3.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_artificery_ideas_event.3.1
+		add_country_modifier = {
+			name = "beua_artificery_ideas_event.3.1.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 4
+country_event = {
+	id = beua_artificery_ideas_event.4
+	title = beua_artificery_ideas_event.4.t
+	desc = beua_artificery_ideas_event.4.d
+	
+	picture = RELIGIOUS_TURMOIL_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_artificery_ideas
+		has_estate = estate_artificers
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_artificery_ideas_event.4.1
+		add_stability = -1
+	}
+}
+
+# Event 5
+country_event = {
+	id = beua_artificery_ideas_event.5
+	title = beua_artificery_ideas_event.5.t
+	desc = beua_artificery_ideas_event.5.d
+	
+	picture = INVENTION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_artificery_ideas
+		has_estate = estate_artificers
+        NOT = { 
+            OR = {
+                has_country_modifier = beua_artificery_ideas_event.5.1.m
+                has_country_modifier = beua_artificery_ideas_event.5.2.m
+            }
+        }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_artificery_ideas_event.5.1
+		add_country_modifier = {
+			name = "beua_artificery_ideas_event.5.1.m"
+			duration = 3650
+		}
+	}
+
+    option = {
+		name = beua_artificery_ideas_event.5.2
+		add_country_modifier = {
+			name = "beua_artificery_ideas_event.5.2.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 6
+country_event = {
+	id = beua_artificery_ideas_event.6
+	title = beua_artificery_ideas_event.6.t
+	desc = beua_artificery_ideas_event.6.d
+	
+	picture = INVENTION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_artificery_ideas
+		has_estate = estate_artificers
+        NOT = { has_country_modifier = beua_artificery_ideas_event.6.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_artificery_ideas_event.6.1
+		add_country_modifier = {
+			name = "beua_artificery_ideas_event.6.1.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 7
+country_event = {
+	id = beua_artificery_ideas_event.7
+	title = beua_artificery_ideas_event.7.t
+	desc = beua_artificery_ideas_event.7.d
+	
+	picture = BANKRUPTCY_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_artificery_ideas
+		has_estate = estate_artificers
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_artificery_ideas_event.7.1
+		add_stability = -1
+		reduce_estate_burghers_loyalty_effect = yes
+        add_estate_artificers_loyalty_effect = yes
+        add_estate_influence_modifier = {
+			estate = estate_artificers
+			influence = 10
+		}
+	}
+
+    option = {
+		name = beua_artificery_ideas_event.7.2
+		add_estate_burghers_loyalty_effect = yes
+        reduce_estate_artificers_loyalty_effect = yes
+        add_estate_influence_modifier = {
+			estate = estate_artificers
+			influence = -15
+		}
+	}
+}
+
+# Event 8
+country_event = {
+	id = beua_artificery_ideas_event.8
+	title = beua_artificery_ideas_event.8.t
+	desc = beua_artificery_ideas_event.8.d
+	
+	picture = FORGE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_artificery_ideas
+		has_estate = estate_artificers
+        NOT = { 
+            OR = {
+                has_country_modifier = beua_artificery_ideas_event.8.1.m
+                has_country_modifier = beua_artificery_ideas_event.8.2.m
+            }
+        }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_artificery_ideas_event.8.1
+		add_country_modifier = {
+			name = "beua_artificery_ideas_event.8.1.m"
+			duration = 3650
+		}
+	}
+
+    option = {
+		name = beua_artificery_ideas_event.8.2
+		add_country_modifier = {
+			name = "beua_artificery_ideas_event.8.2.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 9
+country_event = {
+	id = beua_artificery_ideas_event.9
+	title = beua_artificery_ideas_event.9.t
+	desc = beua_artificery_ideas_event.9.d
+	
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_artificery_ideas
+		has_estate = estate_artificers
+        NOT = { 
+            OR = {
+                has_country_modifier = beua_artificery_ideas_event.9.1.m
+                has_country_modifier = beua_artificery_ideas_event.9.2.m
+            }
+        }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_artificery_ideas_event.9.1
+		add_country_modifier = {
+			name = "beua_artificery_ideas_event.9.1.m"
+			duration = 1825
+		}
+	}
+
+    option = {
+		name = beua_artificery_ideas_event.9.2
+		add_country_modifier = {
+			name = "beua_artificery_ideas_event.9.2.m"
+			duration = 1825
+		}
+	}
+}
+
+# Event 10
+country_event = {
+	id = beua_artificery_ideas_event.10
+	title = beua_artificery_ideas_event.10.t
+	desc = beua_artificery_ideas_event.10.d
+
+	picture = SPELL_LIST_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_artificery_ideas
+		has_estate = estate_artificers
+        NOT = { has_country_flag = beua_artificery_ideas_event.10.f }
+		any_owned_province = {
+            OR = {
+			    has_province_modifier = old_hold
+                has_province_modifier = artificier_hall
+                development = 90
+            }
+            OR = {
+				has_terrain = dwarven_hold
+				has_terrain = dwarven_hold_surface
+			}
+            NOT = { has_province_modifier = beua_artificery_ideas_event.10.1.m }
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					OR = {
+                        has_province_modifier = old_hold
+                        has_province_modifier = artificier_hall
+                        development = 90
+                    }
+                    OR = {
+                        has_terrain = dwarven_hold
+                        has_terrain = dwarven_hold_surface
+                    }
+                    NOT = { has_province_modifier = beua_artificery_ideas_event.10.1.m }
+				}
+				save_event_target_as = beua_artificery_ideas_event_10_c
+			}
+		}
+	}
+
+	mean_time_to_happen = { 
+		days = 1
+        modifier = {
+			factor = 10
+			any_owned_province = {
+                OR = {
+                    has_province_modifier = old_hold
+                    has_province_modifier = artificier_hall
+                    development = 90
+                }
+                OR = {
+                    has_terrain = dwarven_hold
+                    has_terrain = dwarven_hold_surface
+                }
+		    }
+			NOT = { has_country_flag = beua_artificery_ideas_event.10.f }
+		}
+	}
+
+	option = {
+		name = beua_artificery_ideas_event.10.1
+		event_target:beua_artificery_ideas_event_10_c = {
+			change_trade_goods = precursor_relics
+            add_base_tax = -3
+            add_base_production = -3
+            add_base_manpower = -3
+            add_province_modifier = {
+                name = beua_artificery_ideas_event.10.1.m
+                duration = -1
+            }
+		}
+	}
+
+	option = {
+		name = beua_artificery_ideas_event.10.2
+	}
+
+    after = {
+		set_country_flag = beua_artificery_ideas_event.10.f
+	}
+}

@@ -157,7 +157,7 @@ country_event = {
 					}
 				}
 				set_province_flag = beua_industrial_ideas_event.3.f
-				save_event_target_as = beua_industrial_ideas_event.3.c
+				save_event_target_as = beua_industrial_ideas_event_3_c
 			}
 		}
 	}
@@ -336,7 +336,7 @@ country_event = {
 					NOT = { has_province_modifier = beua_industrial_ideas_event.6.m }
 				}
 				set_province_flag = beua_industrial_ideas_event.6.f
-				save_event_target_as = beua_industrial_ideas_event.6.c
+				save_event_target_as = beua_industrial_ideas_event_6_c
 			}
 		}
 	}

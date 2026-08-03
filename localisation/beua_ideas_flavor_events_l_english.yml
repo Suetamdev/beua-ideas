@@ -1,6 +1,66 @@
 ﻿l_english:
  # Elven Supremacy Ideas Events
- # Dont Exist
+ # Event 1
+ beua_elven_supremacy_ideas.1.t:0 "The Purity Debate"
+ beua_elven_supremacy_ideas.1.d:0 "Philosophers and nobles have begun debating what truly defines an elf. Some argue that only those of pure blood should enjoy the privileges of our society, while others warn that excessive rigidity could weaken the realm."
+ beua_elven_supremacy_ideas.1.1:0 "Purity must be preserved"
+
+ # Event 2
+ beua_elven_supremacy_ideas.2.t:0 "Human Petition"
+ beua_elven_supremacy_ideas.2.d:0 "Representatives of our human subjects have presented a petition requesting greater rights within our realm. Some advisors recommend compromise, while others argue that concessions would undermine the natural order."
+ beua_elven_supremacy_ideas.2.1:0 "Deny their request"
+ beua_elven_supremacy_ideas.2.1.m:0 "Maintain Elven Supremacy"
+ beua_elven_supremacy_ideas.2.2:0 "Hear their concerns"
+
+ # Event 3
+ beua_elven_supremacy_ideas.3.t:0 "Arcane Aristocracy"
+ beua_elven_supremacy_ideas.3.d:0 "The greatest elven mages have proposed an academy reserved exclusively for elven students. Restricting access would strengthen magical traditions, though many foreign scholars would be excluded."
+ beua_elven_supremacy_ideas.3.1:0 "Magic is the birthright of the Elven Race"
+ beua_elven_supremacy_ideas.3.1.m:0 "Talent should triumph over blood"
+ beua_elven_supremacy_ideas.3.2:0 "Open the academy to all"
+
+ # Event 4
+ beua_elven_supremacy_ideas.4.t:0 "The Younger Races"
+ beua_elven_supremacy_ideas.4.d:0 "Many among the court believe it is our sacred duty to guide the younger races. Whether this guidance is welcomed is another matter entirely."
+ beua_elven_supremacy_ideas.4.1:0 "They shall learn"
+ beua_elven_supremacy_ideas.4.1.m:0 "Elven Guidance"
+ beua_elven_supremacy_ideas.4.2:0 "Leave them to themselves"
+
+ # Event 5
+ beua_elven_supremacy_ideas.5.t:0 "Elven Renaissance"
+ beua_elven_supremacy_ideas.5.d:0 "Artists, scholars, and mages alike have ushered in a new cultural flowering. The elegance of elven civilization is once again admired across the world."
+ beua_elven_supremacy_ideas.5.1:0 "The Elder Race shall inspire the world"
+ beua_elven_supremacy_ideas.5.1.m:0 "Elven Cultural Supremacy"
+
+ # Event 6
+ beua_elven_supremacy_ideas.6.t:0 "The Ancient Archives"
+ beua_elven_supremacy_ideas.6.d:0 "While restoring an abandoned elven citadel, our scholars have uncovered a vast collection of ancient scrolls dating back to the first elven kingdoms. Some argue these secrets should remain the exclusive property of the Elder Race, while others wish to share the knowledge with trusted foreign scholars."
+ beua_elven_supremacy_ideas.6.1:0 "These secrets belong to us alone"
+ beua_elven_supremacy_ideas.6.1.m:0 "Ancient Archives"
+ beua_elven_supremacy_ideas.6.2:0 "Knowledge grows when shared"
+
+ # Event 7
+ beua_elven_supremacy_ideas.7.t:0 "Sabotage from Within"
+ beua_elven_supremacy_ideas.7.d:0 "A network of disgruntled non-elven laborers has sabotaged several government workshops. Whether driven by resentment or desperation, their actions have disrupted production and forced the authorities to divert resources to restoring order."
+ beua_elven_supremacy_ideas.7.1:0 "Root out the traitors"
+
+ # Event 8
+ beua_elven_supremacy_ideas.8.t:0 "An Unwelcome Insult"
+ beua_elven_supremacy_ideas.8.d:0 "During a diplomatic reception, one of our ambassadors publicly referred to the ruler of a neighboring realm as an "upstart of the younger races." Although the remark was well received by many at court, it has caused outrage abroad and threatens to undo years of careful diplomacy."
+ beua_elven_supremacy_ideas.8.1:0 "They should know their place"
+
+ # Event 9
+ beua_elven_supremacy_ideas.9.t:0 "The Elven Race United"
+ beua_elven_supremacy_ideas.9.d:0 "Delegations from elven communities across the continent have gathered in our capital to celebrate our shared heritage. Old rivalries have been set aside, and the gathering has inspired renewed confidence in the future of elven civilization."
+ beua_elven_supremacy_ideas.9.1:0 "Together, we shall endure"
+
+ # Event 10
+ beua_elven_supremacy_ideas.10.t:0 "Guardians of Ancient Ways"
+ beua_elven_supremacy_ideas.10.d:0 "Our generals are divided over the future of the army. Some believe the martial traditions that carried the Elder Race to greatness should be preserved unchanged, while others argue that centuries of peace have left those doctrines outdated. The Crown must decide whether to honor the past or prepare for the future."
+ beua_elven_supremacy_ideas.10.1:0 "Revive the ancient doctrines"
+ beua_elven_supremacy_ideas.10.1.m:0 "Ancient Elven Doctrine"
+ beua_elven_supremacy_ideas.10.2:0 "Knowledge grows when shared"
+ beua_elven_supremacy_ideas.10.2.m:0 "Learn from every worthy foe"
 
  # Jurisprudence Ideas Events
  # Event 1
@@ -318,8 +378,8 @@
  beua_industrial_ideas_event.2.3:0 "That tyrant is an enemy of the people! Send in the army!"
 
  # Event 3
- beua_industrial_ideas_event.3.t:0 "The Factory Fire of [beua_industrial_ideas_event.3.c.GetName]"
- beua_industrial_ideas_event.3.d:0 "We have never expected working conditions to take priority over productivity, that is simply how factories work. However, tragedy has struck a textile factory in [beua_industrial_ideas_event.3.c.GetName] today, as 40 workers burned alive during a factory fire, 60 more died from suffocation, and another 50 died from jumping to their deaths, marking it as the deadliest industrial accident in [Root.GetAdjective] history. The cause was the factory owner, who had locked all the doors to prevent unallowed worker breaks. This egregious display of malpractice has the streets of [beua_industrial_ideas_event.3.c.GetName] filled with protestors and mourners, demanding justice for those who died. Perhaps we should listen to them?"
+ beua_industrial_ideas_event.3.t:0 "The Factory Fire of [beua_industrial_ideas_event_3_c.GetName]"
+ beua_industrial_ideas_event.3.d:0 "We have never expected working conditions to take priority over productivity, that is simply how factories work. However, tragedy has struck a textile factory in [beua_industrial_ideas_event_3_c.GetName] today, as 40 workers burned alive during a factory fire, 60 more died from suffocation, and another 50 died from jumping to their deaths, marking it as the deadliest industrial accident in [Root.GetAdjective] history. The cause was the factory owner, who had locked all the doors to prevent unallowed worker breaks. This egregious display of malpractice has the streets of [beua_industrial_ideas_event_3_c.GetName] filled with protestors and mourners, demanding justice for those who died. Perhaps we should listen to them?"
  beua_industrial_ideas_event.3.1:0 "Clear the protestors - and get them back to work!"
  beua_industrial_ideas_event.3.1.m:0 "Worker Riots"
  beua_industrial_ideas_event.3.2:0 "It is high time we insitute new safety standards."
@@ -343,7 +403,7 @@
 
  # Event 6 
  beua_industrial_ideas_event.6.t:0 "Productivity Boom"
- beua_industrial_ideas_event.6.d:0 "Our policies of rapid industrialization are beginning to bear fruit. A factory in [beua_industrial_ideas_event.6.c.GetName] is reporting unprecedented levels of productivity, fueled by cheap labor and state subsidies."
+ beua_industrial_ideas_event.6.d:0 "Our policies of rapid industrialization are beginning to bear fruit. A factory in [beua_industrial_ideas_event_6_c.GetName] is reporting unprecedented levels of productivity, fueled by cheap labor and state subsidies."
  beua_industrial_ideas_event.6.m:0 "Production Boom"
  beua_industrial_ideas_event.6.1:0 ""Business is booming.""
  beua_industrial_ideas_event.6.2:0 "Perhaps the Cooperatists can make this temporary boost last longer."
@@ -840,7 +900,7 @@
  
  # Event 4
  beua_monstrous_ideas_event.4.t:0 "Backyard Tycoons"
- beua_monstrous_ideas_event.4.d:0 "Goblins have gained a reputation recently of building and settling towns at breakneck speed, of which there is no better example than [gobbo_industrialize.GetName]. Their chaotic influx of urbanization and proto-industrialization has been leaving their neighborhoods in complete disarray, with buildings breaking safety regulations and overly eager goblins building their own furnaces and workshops in their backyards. Should this be allowed to continue, this expansion will surely lead to oversights and loopholes in our tax collection... but might create a lasting impact on our cities' sizes."
+ beua_monstrous_ideas_event.4.d:0 "Goblins have gained a reputation recently of building and settling towns at breakneck speed, of which there is no better example than [beua_monstrous_ideas_event_4_c.GetName]. Their chaotic influx of urbanization and proto-industrialization has been leaving their neighborhoods in complete disarray, with buildings breaking safety regulations and overly eager goblins building their own furnaces and workshops in their backyards. Should this be allowed to continue, this expansion will surely lead to oversights and loopholes in our tax collection... but might create a lasting impact on our cities' sizes."
  beua_monstrous_ideas_event.4.1:0 "Allow them to continue."
  beua_monstrous_ideas_event.4.1.m:0 "Unchecked Goblin Influx"
  beua_monstrous_ideas_event.4.2:0 "We must restore order!"
@@ -874,7 +934,7 @@
  
  # Event 8
  beua_monstrous_ideas_event.8.t:0 "Border Skirmishes"
- beua_monstrous_ideas_event.8.d:0 "Borders can be hard to tell apart, and some of our people have taken to migrating across national boundaries. This has sparked an incident, as [Root.GetAdjective] soldiers have just attacked a neighbor independantly from our army's command. [beua_border_skirmish.GetName] has demanded an official apology from us, and has mobilized troops in preparation of war.. what shall we do?"
+ beua_monstrous_ideas_event.8.d:0 "Borders can be hard to tell apart, and some of our people have taken to migrating across national boundaries. This has sparked an incident, as [Root.GetAdjective] soldiers have just attacked a neighbor independantly from our army's command. [beua_monstrous_ideas_event_8_c.GetName] has demanded an official apology from us, and has mobilized troops in preparation of war.. what shall we do?"
  beua_monstrous_ideas_event.8.1:0 "If they're looking for a fight, they picked the wrong army!"
  beua_monstrous_ideas_event.8.2:0 "Surely, there is a peacful solution?"
 
@@ -952,12 +1012,12 @@
  beua_imperial_ideas_event.8.2:0 "No, the treasury couldn't afford it."
 
  # Event 9
- beua_imperial_ideas_event.9.t:0 "Merchant League in [beua_imperial_ideas_event.9.c.GetName]"
- beua_imperial_ideas_event.9.d:0 "[beua_imperial_ideas_event.9.c.GetName] is a rich and properous province within $COUNTRY$, and its position within local trade routes has made it an attractive location for merchants to do business. However, as of late a league of indepedent merchants have moved in, and are threatening our own control over the city's business. Of course, we could allow these upstarts to continue their business, as our treatment of them would undoubtedly earn the favor of the imperial elector Damescrown. But can we risk our own trade networks?"
+ beua_imperial_ideas_event.9.t:0 "Merchant League in [beua_imperial_ideas_event_9_c.GetName]"
+ beua_imperial_ideas_event.9.d:0 "[beua_imperial_ideas_event_9_c.GetName] is a rich and properous province within $COUNTRY$, and its position within local trade routes has made it an attractive location for merchants to do business. However, as of late a league of indepedent merchants have moved in, and are threatening our own control over the city's business. Of course, we could allow these upstarts to continue their business, as our treatment of them would undoubtedly earn the favor of the imperial elector Damescrown. But can we risk our own trade networks?"
  beua_imperial_ideas_event.9.1:0 "Wealth is meant to be shared."
  beua_imperial_ideas_event.9.1.m.1:0 "Concessions to the Merchant League"
  beua_imperial_ideas_event.9.1.m.2:0 "Independent Merchant Activity"
- beua_imperial_ideas_event.9.2:0 "Drive these merchants out of [beua_imperial_ideas_event.9.c.GetName]!"
+ beua_imperial_ideas_event.9.2:0 "Drive these merchants out of [beua_imperial_ideas_event_9_c.GetName]!"
 
  # Event 10
  beua_imperial_ideas_event.10.t:0 "Weaving a Decadent Web"
@@ -1351,3 +1411,338 @@
  beua_fortress_ideas_event.10.1:0 "Replace the bad materials"
  beua_fortress_ideas_event.10.2:0 "There is no need to do anything"
  beua_fortress_ideas_event.10.2.m:0 "Serious Doubt in Structural Integrity"
+
+ # Militarism Ideas Events
+ # Event 1
+ beua_militarism_ideas_event.1.t:0 "Army Magazine"
+ beua_militarism_ideas_event.1.d:0 "We instituted a special magazine informing our people about the newest military developments."
+ beua_militarism_ideas_event.1.1:0 "Always good news!"
+ 
+ # Event 2
+ beua_militarism_ideas_event.2.t:0 "Favourable Newspaper Articles"
+ beua_militarism_ideas_event.2.d:0 "Even the newspapers that are not directly controlled by us are really militaristic and generally praise our army and state."
+ beua_militarism_ideas_event.2.1:0 "Oh yeah!"
+ beua_militarism_ideas_event.2.2:0 "They can be even more supportive"
+
+ # Event 3
+ beua_militarism_ideas_event.3.t:0 "Annual Military Parade"
+ beua_militarism_ideas_event.3.d:0 "The annual military parade was once again a great success. Ecstatic people cheered our troops without end."
+ beua_militarism_ideas_event.3.1:0 "Forward to glory"
+ beua_militarism_ideas_event.3.2:0 "Damn, that was expensive"
+ 
+ # Event 4
+ beua_militarism_ideas_event.4.t:0 "Famous Writer in the Army"
+ beua_militarism_ideas_event.4.d:0 "One of our most famous writers is now serving in our army."
+ beua_militarism_ideas_event.4.1:0 "A good example"
+ beua_militarism_ideas_event.4.1.m:0 "Famous Artist Serves in the Army"
+ beua_militarism_ideas_event.4.2:0 "It's better when those people stay home"
+
+ # Event 5
+ beua_militarism_ideas_event.5.t:0 "Social Scandal"
+ beua_militarism_ideas_event.5.d:0 "Our officers have caused a social scandal at a social gathering. Reports say they drank too much and were rather intrusive towards noble ladies."
+ beua_militarism_ideas_event.5.1:0 "Ignore this incident"
+ beua_militarism_ideas_event.5.2:0 "Discipline them"
+
+ # Event 6
+ beua_militarism_ideas_event.6.t:0 "Officer Ball"
+ beua_militarism_ideas_event.6.d:0 "There is no limit to the gallantry of our officers. Every young lady in the realm dreams of marrying one of them."
+ beua_militarism_ideas_event.6.1:0 "May I have the pleasure of this dance?"
+ beua_militarism_ideas_event.6.1.m:0 "Gallantry of Officers"
+
+ # Event 7
+ beua_militarism_ideas_event.7.t:0 "An Officer and Gentlemen"
+ beua_militarism_ideas_event.7.d:0 "One of our gallant officers is currently on everyone's lips. He alone defeated some robbers that wanted to harass a young lady."
+ beua_militarism_ideas_event.7.1:0 "Your snood is in disarray my lady"
+ beua_militarism_ideas_event.7.1.m:0 "An Officer and Gentlemen"
+ 
+ # Event 8
+ beua_militarism_ideas_event.8.t:0 "Wars are a crime against humanity"
+ beua_militarism_ideas_event.8.d:0 "One of the leading writers in the country has denounced war as a crime against humanity in his latest book."
+ beua_militarism_ideas_event.8.1:0 "Nonsense"
+ beua_militarism_ideas_event.8.2:0 "They have a point"
+ beua_militarism_ideas_event.8.2.m:0 "Anti War Oppinions Tolerated"
+
+ # Event 9
+ beua_militarism_ideas_event.9.t:0 "Intellectuals debate the War"
+ beua_militarism_ideas_event.9.d:0 "Our intellectuals are debating the pros and cons of war and under what circumstances war can be possibly justified."
+ beua_militarism_ideas_event.9.1:0 "Let them debate, we fight"
+ beua_militarism_ideas_event.9.2:0 "Argue against them"
+
+ # Event 10
+ beua_militarism_ideas_event.10.t:0 "Call for peace imminent"
+ beua_militarism_ideas_event.10.d:0 "Our nation is tired of war. The intellectuals and the common folk both demand peace."
+ beua_militarism_ideas_event.10.1:0 "Accept"
+ beua_militarism_ideas_event.10.2:0 "Argue against peace at all costs"
+ beua_militarism_ideas_event.10.2.m:0 "Suppressed Peace Movement"
+
+ # Artificery Ideas Events
+ # Event 1
+ beua_artificery_ideas_event.1.t:0 "A Brilliant Prototype"
+ beua_artificery_ideas_event.1.d:0 "An artificer has unveiled a revolutionary invention. Studying its design and methods has provided our administration with valuable knowledge that will aid future projects and improve the organization of the realm."
+ beua_artificery_ideas_event.1.1:0 "This breakthrough must not be wasted"
+
+ # Event 2
+ beua_artificery_ideas_event.2.t:0 "Unstable Experiment"
+ beua_artificery_ideas_event.2.d:0 "An experimental engine has exploded during testing."
+ beua_artificery_ideas_event.2.1:0 "Safety comes first"
+ beua_artificery_ideas_event.2.2:0 "This breakthrough must not be wasted"
+ beua_artificery_ideas_event.2.2.m:0 "Risky Experiments"
+
+ # Event 3
+ beua_artificery_ideas_event.3.t:0 "Master Artificer"
+ beua_artificery_ideas_event.3.d:0 "One of our artificers has achieved fame throughout the world."
+ beua_artificery_ideas_event.3.1:0 "Reward their extraordinary service"
+
+ # Event 4
+ beua_artificery_ideas_event.4.t:0 "Fear of Artifice"
+ beua_artificery_ideas_event.4.d:0 "Rumors are spreading that our artificers meddle with forces beyond mortal understanding. Strange accidents and exaggerated tales have left many citizens fearful of arcane technology."
+ beua_artificery_ideas_event.4.1:0 "Their fears cannot stop progress"
+
+ # Event 5
+ beua_artificery_ideas_event.5.t:0 "The Experimental Golem"
+ beua_artificery_ideas_event.5.d:0 "Our artificers have completed the first prototype of a magically animated golem capable of serving on the battlefield. While its performance has exceeded expectations, some question whether such a creation can truly be controlled."
+ beua_artificery_ideas_event.5.1:0 "Deploy it immediately"
+ beua_artificery_ideas_event.5.1.m:0 "Battlefield Golems"
+ beua_artificery_ideas_event.5.2:0 "Continue the testing"
+ beua_artificery_ideas_event.5.2.m:0 "Extensive Trials"
+
+ # Event 6
+ beua_artificery_ideas_event.6.t:0 "Standardized Components"
+ beua_artificery_ideas_event.6.d:0 "Our artificers have begun producing standardized parts for their creations. Repairs are now faster, construction more reliable, and workshops across the realm can cooperate far more efficiently than before."
+ beua_artificery_ideas_event.6.1:0 "Standardization is the future"
+ beua_artificery_ideas_event.6.1.m:0 "Standardized Components"
+
+ # Event 7
+ beua_artificery_ideas_event.7.t:0 "Guild Resistance"
+ beua_artificery_ideas_event.7.d:0 "Traditional craftsmen accuse the artificers of threatening their livelihoods. Demonstrations have broken out in several cities as guild leaders demand restrictions on the use of new technologies."
+ beua_artificery_ideas_event.7.1:0 "Progress cannot be stopped"
+ beua_artificery_ideas_event.7.2:0 "Compensate the guilds"
+
+ # Event 8
+ beua_artificery_ideas_event.8.t:0 "Foreign Apprentices"
+ beua_artificery_ideas_event.8.d:0 "Talented students from distant lands seek admission to our artificer academies. Accepting them could spread our influence abroad, but some fear our secrets may eventually leave with them."
+ beua_artificery_ideas_event.8.1:0 "Knowledge should inspire the world"
+ beua_artificery_ideas_event.8.1.m:0 "International Academy"
+ beua_artificery_ideas_event.8.2:0 "Reserve our knowledge for ourselves"
+ beua_artificery_ideas_event.8.2.m:0 "Guarded Knowledge"
+
+ # Event 9
+ beua_artificery_ideas_event.9.t:0 "A New Combat Doctrine"
+ beua_artificery_ideas_event.9.d:0 "Advances in artificery have opened new possibilities for our elite regiments. We must choose where to focus our efforts."
+ beua_artificery_ideas_event.9.1:0 "Adopt Assault Doctrine"
+ beua_artificery_ideas_event.9.1.m:0 "Assault Doctrine"
+ beua_artificery_ideas_event.9.2:0 "Adopt Fire Doctrine"
+ beua_artificery_ideas_event.9.2.m:0 "Fire Doctrine"
+
+ # Event 10
+ beua_artificery_ideas_event.10.t:0 "Hidden Runic Knowledge"
+ beua_artificery_ideas_event.10.d:0 "While expanding the workshops beneath [beua_artificery_ideas_event_10_c.GetName], our artificers uncovered a chamber filled with ancient runes and precursor relics. They believe these discoveries could revolutionize artificery, but the relics lie beneath a significant portion of the city's infrastructure. Recovering them would require demolishing entire districts, permanently reducing the province's prosperity. The potential reward is immense, but so is the cost."
+ beua_artificery_ideas_event.10.1:0 "Excavate the relics"
+ beua_artificery_ideas_event.10.1.m:0 "Runic Knowledge"
+ beua_artificery_ideas_event.10.2:0 "Leave the site undisturbed"
+
+ # War Production Ideas Events
+ # Event 1
+ beua_war_production_ideas_event.1.t:0 "Smooth Production"
+ beua_war_production_ideas_event.1.d:0 "We are aiming to produce a certain number of goods in order to make profit with our state manufactories. Lately it is going very well."
+ beua_war_production_ideas_event.1.1:0 "That's good news!"
+ beua_war_production_ideas_event.1.1.m:0 "Smooth Production"
+
+ # Event 2
+ beua_war_production_ideas_event.2.t:0 "Perfect Deployment Zone"
+ beua_war_production_ideas_event.2.d:0 "The right deployment of troops is very important when attacking or defending. Likewise the infrastructure to achieve that needs to be built."
+ beua_war_production_ideas_event.2.1:0 "Our infrastructure is great!"
+ beua_war_production_ideas_event.2.1.m:0 "Good Deployment Areas"
+ 
+ # Event 3
+ beua_war_production_ideas_event.3.t:0 "Production over the Top"
+ beua_war_production_ideas_event.3.d:0 "Lately the production of our state manufactories has reached numbers we would've never expected."
+ beua_war_production_ideas_event.3.1:0 "Very good news!"
+
+ # Event 4  
+ beua_war_production_ideas_event.4.t:0 "Quality Infantry Weapons"
+ beua_war_production_ideas_event.4.d:0 "The quality of our infantry weapons is very good."
+ beua_war_production_ideas_event.4.1:0 "Excellent"
+ beua_war_production_ideas_event.4.1.m:0 "Quality Infantry Weapons"
+
+ # Event 5
+ beua_war_production_ideas_event.5.t:0 "Quality Cavalry Weapons"
+ beua_war_production_ideas_event.5.d:0 "The quality of our cavalry weapons is very good."
+ beua_war_production_ideas_event.5.1:0 "Excellent"
+ beua_war_production_ideas_event.5.1.m:0 "Quality Cavalry Equipment"
+
+ # Event 6
+ beua_war_production_ideas_event.6.t:0 "Quality Cannons"
+ beua_war_production_ideas_event.6.d:0 "The quality of our cannons is very good."
+ beua_war_production_ideas_event.6.1:0 "Excellent"
+ beua_war_production_ideas_event.6.1.m:0 "Quality Cannons"
+
+ # Event 7
+ beua_war_production_ideas_event.7.t:0 "Explosion in Iron Mine"
+ beua_war_production_ideas_event.7.d:0 "We do not know why, but there was an explosion in one of our most profitable iron mines and we have to expect that this will greatly influence our production."
+ beua_war_production_ideas_event.7.1:0 "Investigate the issue"
+ beua_war_production_ideas_event.7.2:0 "These things happen"
+ 
+ # Event 8
+ beua_war_production_ideas_event.8.t:0 "Flawed Serial Production"
+ beua_war_production_ideas_event.8.d:0 "Unfortunately we have learned that a part used in our new muskets is flawed in needs to be replaced in order for the musket to work reliable."
+ beua_war_production_ideas_event.8.1:0 "Call back the flawed parts"
+ beua_war_production_ideas_event.8.2:0 "This is not important"
+ 
+ # Event 9
+ beua_war_production_ideas_event.9.t:0 "Supply Shortage"
+ beua_war_production_ideas_event.9.d:0 "Inspite of warproduction right now we cannot satisfy the demands of our army entirely."
+ beua_war_production_ideas_event.9.1:0 "Try to get the supplies elsewhere"
+ beua_war_production_ideas_event.9.2:0 "The men will have to make do with what they have"
+ beua_war_production_ideas_event.9.2.m:0 "Lack of Supplies"
+
+ # Event 10
+ beua_war_production_ideas_event.10.t:0 "Production Stop"
+ beua_war_production_ideas_event.10.d:0 "Dissent in the ranks of our workers have let to a full production stop. The workers critizise that they were not paid what we promised - which is true."
+ beua_war_production_ideas_event.10.1:0 "Manipulate the numbers"
+ beua_war_production_ideas_event.10.2:0 "Admit your mistake"
+
+ # Shock Ideas Events
+ # Event 1
+ beua_shock_ideas_event.1.t:0 "Cavalry Charge"
+ beua_shock_ideas_event.1.d:0 "Our cavalry is charing towards the enemy."
+ beua_shock_ideas_event.1.1:0 "Wedge Formation!"
+ beua_shock_ideas_event.1.1.m:0 "Wedge Formation"
+ beua_shock_ideas_event.1.2:0 "Charge!!!"
+ beua_shock_ideas_event.1.2.m:0 "Mass Attack"
+
+ # Event 2
+ beua_shock_ideas_event.2.t:0 "Enemy Square overrun"
+ beua_shock_ideas_event.2.d:0 "Our troops managed to overwhelm an enemy square."
+ beua_shock_ideas_event.2.1:0 "Now to the other flank!"
+ beua_shock_ideas_event.2.1.m:0 "Moving Point of Main Effort Quickly"
+ beua_shock_ideas_event.2.2:0 "Press the advantage!"
+ beua_shock_ideas_event.2.2.m:0 "Enemy Troops Surrounded"
+
+ # Event 3
+ beua_shock_ideas_event.3.t:0 "Fanatic Attacks!"
+ beua_shock_ideas_event.3.d:0 "The battle weighs back and forth. Both allied and enemy troops are exhausted. If the battle is to be decided today we need to rally for one last attack!"
+ beua_shock_ideas_event.3.1:0 "One more unto the breach, dear friends"
+ beua_shock_ideas_event.3.1.m:0 "One more unto the breach, dear friends"
+
+ # Event 4
+ beua_shock_ideas_event.4.t:0 "Follow the Flag!"
+ beua_shock_ideas_event.4.d:0 "A brave hero assaults the enemy alone, the flag tight in his hands."
+ beua_shock_ideas_event.4.1:0 "Advance!"
+ beua_shock_ideas_event.4.1.m:0 "Forward to Victory!"
+
+ # Event 5
+ beua_shock_ideas_event.5.t:0 "Enemy Assault"
+ beua_shock_ideas_event.5.d:0 "The enemy launched a massive asssault on our centre."
+ beua_shock_ideas_event.5.1:0 "Counterattack!!!"
+ beua_shock_ideas_event.5.1.m:0 "Blow for the Counterattack!"
+ beua_shock_ideas_event.5.2:0 "Await them in our current position"
+ beua_shock_ideas_event.5.2.m:0 "Receive them in our Defences"
+
+ # Event 6
+ beua_shock_ideas_event.6.t:0 "Harassment of our Scouts"
+ beua_shock_ideas_event.6.d:0 "Our vanguard is harrassed by the enemy and we are sustaining losses. We need to decide whether we want to fall back or reinforce the vanguard and push the enemy back."
+ beua_shock_ideas_event.6.1:0 "Reinforce our units up front"
+ beua_shock_ideas_event.6.2:0 "Keep the pressure"
+ beua_shock_ideas_event.6.3:0 "Go back a little"
+
+ # Event 7
+ beua_shock_ideas_event.7.t:0 "Attack Struck Back"
+ beua_shock_ideas_event.7.d:0 "Our attack was struck back. We suffered heavy losses."
+ beua_shock_ideas_event.7.1:0 "Rally the Troops and attack again"
+ beua_shock_ideas_event.7.1.m:0 "Troops Prepared for Another Attack"
+ beua_shock_ideas_event.7.2:0 "Hold on!"
+
+ # Event 8
+ beua_shock_ideas_event.8.t:0 "Enemey Counterattack!"
+ beua_shock_ideas_event.8.d:0 "The enemy storms out of his emplacement to meet uns in the open field."
+ beua_shock_ideas_event.8.1:0 "Advance!"
+ beua_shock_ideas_event.8.2:0 "Keep the second wave in reserve"
+  
+ # Event 9
+ beua_shock_ideas_event.9.t:0 "Fix the Bayonets!"
+ beua_shock_ideas_event.9.d:0 "Our Assault was halted due to heavy artillery fire and enemy trenches. Now we see a big group of cavalry charging at our left."
+ beua_shock_ideas_event.9.1:0 "Cavalry on our left flank!"
+ beua_shock_ideas_event.9.2:0 "Form square now!"
+ beua_shock_ideas_event.9.2.m:0 "Square Errected"
+
+ # Event 10
+ beua_shock_ideas_event.10.t:0 "Forward to Victor..."
+ beua_shock_ideas_event.10.d:0 "Few yards before the enemy emplacement our leading officer is struck down by an enemy bullett."
+ beua_shock_ideas_event.10.1:0 "Attack!"
+ beua_shock_ideas_event.10.1.m:0 "Reckless Charge"
+ beua_shock_ideas_event.10.2:0 "Go back!"
+ beua_shock_ideas_event.10.2.m:0 "Troops Restrained"
+
+ # Fire Ideas Events
+ # Event 1
+ beua_fire_ideas_event.1.t:0 "Concentration of Fire"
+ beua_fire_ideas_event.1.d:0 "The enemy is advancing at both flanks. We need to strafe him now."
+ beua_fire_ideas_event.1.1:0 "Left Flank!"
+ beua_fire_ideas_event.1.1.m:0 "Massed Fire: Left Flank!"
+ beua_fire_ideas_event.1.2:0 "Right Flank!"
+ beua_fire_ideas_event.1.2.m:0 "Massed Fire: Right Flank!"
+ 
+ # Event 2
+ beua_fire_ideas_event.2.t:0 "On my Mark..."
+ beua_fire_ideas_event.2.d:0 "The enemy is advancing in the centre. If we fire now we can maybe rout him, but if we fire later we will kill more but we will also take a volley from them."
+ beua_fire_ideas_event.2.1:0 "Fire!"
+ beua_fire_ideas_event.2.1.m:0 "Fire now!"
+ beua_fire_ideas_event.2.2:0 "Wait!"
+ beua_fire_ideas_event.2.2.m:0 "Wait until you see them clearly!"
+
+ # Event 3
+ beua_fire_ideas_event.3.t:0 "Excellent Ammunition Supplies"
+ beua_fire_ideas_event.3.d:0 "Our supply batallion is doing outstanding work. Noone ever lacks ammunition in our army."
+ beua_fire_ideas_event.3.1:0 "Get everything to the front"
+ beua_fire_ideas_event.3.1.m:0 "Ammunition Used Extensively"
+ beua_fire_ideas_event.3.2:0 "Keep some in reserve"
+ beua_fire_ideas_event.3.2.m:0 "Ammunition Reserves Untouched"
+
+ # Event 4
+ beua_fire_ideas_event.4.t:0 "Return Fire!"
+ beua_fire_ideas_event.4.d:0 "Our lines meet our enemies in open formation when our centre is hit by a devastating volley."
+ beua_fire_ideas_event.4.1:0 "Yes, sir!"
+ beua_fire_ideas_event.4.1.m:0 "Return Fire!"
+ 
+ # Event 5
+ beua_fire_ideas_event.5.t:0 "Excellent Artillery Position discovered"
+ beua_fire_ideas_event.5.d:0 "When advancing quickly we have found an excellent position for our artillery. We have to decide if we want to use this position and entrench there or if we want to push further."
+ beua_fire_ideas_event.5.1:0 "Entrech yourselves there!"
+ beua_fire_ideas_event.5.1.m:0 "Excellent Artillery Emplacement Found"
+ beua_fire_ideas_event.5.2:0 "Advance further!"
+ beua_fire_ideas_event.5.2.m:0 "Advanced Further"
+
+ # Event 6
+ beua_fire_ideas_event.6.t:0 "Enemey Artillery Position discovered"
+ beua_fire_ideas_event.6.d:0 "Our scouts have finally found an enemy mortar position that has caused us heavy casulties."
+ beua_fire_ideas_event.6.1:0 "Take them from behind"
+ beua_fire_ideas_event.6.1.m:0 "Enemy Artillery Emplacement Circumvented"
+ beua_fire_ideas_event.6.2:0 "Assault them before they notice us"
+ beua_fire_ideas_event.6.2.m:0 "Assault on Enemy Artillery Emplacement"
+
+ # Event 7
+ beua_fire_ideas_event.7.t:0 "Artillery Position overrun"
+ beua_fire_ideas_event.7.d:0 "Grave news! Our forward artillery emplacement was overrun by enemy cavalry."
+ beua_fire_ideas_event.7.1:0 "Fall back to our next defensive position"
+ beua_fire_ideas_event.7.2:0 "Rally immediately and take back the position"
+ beua_fire_ideas_event.7.2.m:0 "Counterattack on Overrun Artillery Emplacement"
+
+ # Event 8
+ beua_fire_ideas_event.8.t:0 "Spotter Captivated"
+ beua_fire_ideas_event.8.d:0 "One of our spotters was searching for enemy targets when he was surprised by enemy scouts. We were not able to prevent his capture."
+ beua_fire_ideas_event.8.1:0 "Terrible news"
+ beua_fire_ideas_event.8.1.m:0 "Enemy Discovers our Position"
+
+ # Event 9
+ beua_fire_ideas_event.9.t:0 "Enemy Cannonade"
+ beua_fire_ideas_event.9.d:0 "Our enemies are firing with devastating effect on our ranks."
+ beua_fire_ideas_event.9.1:0 "Cover!"
+
+ # Event 10
+ beua_fire_ideas_event.10.t:0 "Formation Broken"
+ beua_fire_ideas_event.10.d:0 "When marching on the enemy our troops could not keep formation and are now appearing in disarray before the enemy."
+ beua_fire_ideas_event.10.1:0 "Fall back!"
+ beua_fire_ideas_event.10.1.m:0 "Stand and Fight!"
+ beua_fire_ideas_event.10.2:0 "Stand and fight!"
+ beua_fire_ideas_event.10.2.m:0 "Tactical Withdrawl!"

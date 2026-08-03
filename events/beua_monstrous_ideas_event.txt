@@ -1,7 +1,7 @@
 namespace = beua_monstrous_ideas_event
 
 ########################################################
-####### Monstrous                                 #######
+####### Monstrous                                #######
 ########################################################
 
 # Event 1
@@ -180,7 +180,7 @@ country_event = {
 						has_goblin_majority_trigger = yes
 					}
 				}
-				save_event_target_as = beua_monstrous_ideas_event.4.c
+				save_event_target_as = beua_monstrous_ideas_event_4_c
 			}
 		}
 	}
@@ -191,15 +191,15 @@ country_event = {
 
 	option = {
 		name = beua_monstrous_ideas_event.4.1
-		event_target:beua_monstrous_ideas_event.4.c = {
+		event_target:beua_monstrous_ideas_event_4_c = {
 			add_province_modifier = {
 				name = beua_monstrous_ideas_event.4.1.m
 				duration = 3650
 			}
 			random_list = {
-			10 = { add_base_tax = 1 }
-			10 = { add_base_production = 1 }
-			10 = { add_base_manpower = 1 }
+				10 = { add_base_tax = 1 }
+				10 = { add_base_production = 1 }
+				10 = { add_base_manpower = 1 }
 			}
 			if = {
 				limit = { has_goblin_majority_trigger = yes }
@@ -217,7 +217,7 @@ country_event = {
 
 	option = {
 		name = beua_monstrous_ideas_event.4.2
-		event_target:beua_monstrous_ideas_event.4.c = {
+		event_target:beua_monstrous_ideas_event_4_c = {
 			add_province_modifier = {
 				name = beua_monstrous_ideas_event.4.2.m
 				duration = 3650
@@ -342,7 +342,7 @@ country_event = {
 						}
 					}
 				}
-				save_event_target_as = beua_monstrous_ideas_event.6.f
+				save_event_target_as = beua_monstrous_ideas_event_6_c
 			}
 		}
 	}
@@ -353,7 +353,7 @@ country_event = {
 
 	option = {
 		name = beua_monstrous_ideas_event.6.1
-		event_target:beua_monstrous_ideas_event.6.f = {
+		event_target:beua_monstrous_ideas_event_6_c = {
 			change_trade_goods = slaves
 		}
 	}
@@ -362,12 +362,12 @@ country_event = {
 		name = beua_monstrous_ideas_event.6.2
 		highlight = yes
 		trigger = { high_tolerance_gnollish_race_trigger = yes }
-		event_target:beua_monstrous_ideas_event.6.f = {
+		event_target:beua_monstrous_ideas_event_6_c = {
 			change_trade_goods = slaves
 			random_list = {
-			10 = { add_base_tax = 1 }
-			10 = { add_base_production = 1 }
-			10 = { add_base_manpower = 1 }
+				10 = { add_base_tax = 1 }
+				10 = { add_base_production = 1 }
+				10 = { add_base_manpower = 1 }
 			}
 			if = {
 				limit = { has_gnollish_majority_trigger = yes }
@@ -420,15 +420,17 @@ country_event = {
 			random_owned_province = {
 				limit = {
 					is_state = yes
-					OR = {
-						has_terrain = dwarven_hold
-						has_terrain = dwarven_hold_surface
-						has_terrain = city_terrain
-						is_capital = yes
-						has_province_modifier = beua_monstrous_ideas_event.7.2.m
+					NOT = {
+						OR = {
+							has_terrain = dwarven_hold
+							has_terrain = dwarven_hold_surface
+							has_terrain = city_terrain
+							is_capital = yes
+							has_province_modifier = beua_monstrous_ideas_event.7.2.m
+						}
 					}
 				}
-				save_event_target_as = beua_monstrous_ideas_event.7.c
+				save_event_target_as = beua_monstrous_ideas_event_7_c
 			}
 		}
 	}
@@ -439,7 +441,7 @@ country_event = {
 
 	option = {
 		name = beua_monstrous_ideas_event.7.1
-		event_target:beua_monstrous_ideas_event.7.c = {
+		event_target:beua_monstrous_ideas_event_7_c = {
 			spawn_rebels = {
 				type = aw_bandits_rebels
 				size = 1
@@ -449,7 +451,7 @@ country_event = {
 
 	option = {
 		name = beua_monstrous_ideas_event.7.2
-		event_target:beua_monstrous_ideas_event.7.c = {
+		event_target:beua_monstrous_ideas_event_7_c = {
 			add_province_modifier = {
 				name = beua_monstrous_ideas_event.7.2.m
 				duration = 3650
@@ -476,7 +478,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			random_neighbor_country = {
-				save_event_target_as = beua_monstrous_ideas_event.8.c
+				save_event_target_as = beua_monstrous_ideas_event_8_c
 			}
 		}
 	}
@@ -493,13 +495,13 @@ country_event = {
 				factor = 0
 				NOT = {
 					army_strength = {
-						who = event_target:beua_monstrous_ideas_event.8.c
+						who = event_target:beua_monstrous_ideas_event_8_c
 						value = 0.9
 					}
 				}
 			}
 		}
-		declare_war = event_target:beua_monstrous_ideas_event.8.c
+		declare_war = event_target:beua_monstrous_ideas_event_8_c
 	}
 	
 	option = {

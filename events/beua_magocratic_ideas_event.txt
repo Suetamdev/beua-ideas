@@ -185,7 +185,7 @@ country_event = {
 					fort_level = 2
                     NOT = { has_province_modifier = beua_magocratic_ideas_event.5.2.m }
 				}
-				save_event_target_as = beua_industrial_ideas_event.5.c
+				save_event_target_as = beua_magocratic_ideas_event.5.c
 			}
 		}
 	}
@@ -205,7 +205,7 @@ country_event = {
 
 	option = {
 		name = beua_magocratic_ideas_event.5.2
-		event_target:beua_industrial_ideas_event.5.c = {
+		event_target:beua_magocratic_ideas_event.5.c = {
 			add_province_modifier = {
 				name = "beua_magocratic_ideas_event.5.2.m"
 				duration = -1
@@ -254,7 +254,7 @@ country_event = {
 country_event = {
 	id = beua_magocratic_ideas_event.7
 	title = beua_magocratic_ideas_event.7.t
-	desc = beua_magocratic_ideas_event.7.d`
+	desc = beua_magocratic_ideas_event.7.d
 
 	picture = CHURCH_ESTATE_UPSET_eventPicture
 	

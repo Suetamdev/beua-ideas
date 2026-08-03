@@ -319,7 +319,7 @@ country_event = {
 		hidden_effect = {
 			random_country = {
 				limit = { is_emperor = yes }
-				save_event_target_as = beua_imperial_ideas_event.7.c
+				save_event_target_as = beua_imperial_ideas_event_7_c
 			}
 		}
 	}
@@ -330,7 +330,7 @@ country_event = {
 
 	option = {
 		name = beua_imperial_ideas_event.7.1
-		event_target:beua_imperial_ideas_event.7.c = {
+		event_target:beua_imperial_ideas_event_7_c = {
 			add_imperial_influence = 1
 			add_opinion = {
 				who = ROOT
@@ -342,7 +342,7 @@ country_event = {
 
 	option = {
 		name = beua_imperial_ideas_event.7.2
-		event_target:beua_imperial_ideas_event.7.c = {
+		event_target:beua_imperial_ideas_event_7_c = {
 			add_opinion = {
 				who = ROOT
 				modifier = beua_imperial_ideas_event.7.2.m
@@ -431,7 +431,7 @@ country_event = {
 					is_state = yes
                     NOT = { has_province_modifier = beua_imperial_ideas_event.9.1.m.2 }
 				}
-				save_event_target_as = beua_imperial_ideas_event.9.c
+				save_event_target_as = beua_imperial_ideas_event_9_c
 			}
 		}
 	}
@@ -446,7 +446,7 @@ country_event = {
 			who = A25
 			modifier = beua_imperial_ideas_event.9.1.m.1
 		}
-        event_target:beua_imperial_ideas_event.9.c = {
+        event_target:beua_imperial_ideas_event_9_c = {
 			add_province_modifier = {
 				name = "beua_imperial_ideas_event.9.1.m.2"
 				duration = 3650
@@ -457,7 +457,7 @@ country_event = {
 	option = {
 		name = beua_imperial_ideas_event.9.2
 		add_dip_power = -30
-		event_target:beua_imperial_ideas_event.9.c = {
+		event_target:beua_imperial_ideas_event_9_c = {
 			add_unrest = 10
 		}
 	}

@@ -1,0 +1,376 @@
+namespace = beua_fire_ideas_event
+
+########################################################
+####### Fire                                     #######
+########################################################
+
+# Event 1
+country_event = {
+	id = beua_fire_ideas_event.1
+	title = beua_fire_ideas_event.1.t
+	desc = beua_fire_ideas_event.1.d
+	
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_fire_ideas
+		is_at_war = yes	
+	    NOT = {
+            OR = {
+                has_country_modifier = beua_fire_ideas_event.1.1.m
+                has_country_modifier = beua_fire_ideas_event.1.2.m
+            }
+		}
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_fire_ideas_event.1.1
+		add_country_modifier = {
+			name = "beua_fire_ideas_event.1.1.m"
+			duration = 365
+		}
+	}
+	
+	option = {
+		name = beua_fire_ideas_event.1.2
+		add_country_modifier = {
+			name = "beua_fire_ideas_event.1.2.m"
+			duration = 365
+		}
+	}
+}
+
+# Event 2
+country_event = {
+	id = beua_fire_ideas_event.2
+	title = beua_fire_ideas_event.2.t
+	desc = beua_fire_ideas_event.2.d
+	
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_fire_ideas
+		is_at_war = yes	
+        NOT = {
+            OR = {
+                has_country_modifier = beua_fire_ideas_event.2.1.m
+                has_country_modifier = beua_fire_ideas_event.2.2.m
+            }
+		}
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_fire_ideas_event.2.1
+		add_country_modifier = {
+			name = "beua_fire_ideas_event.2.1.m"
+			duration = 1000
+		}
+	}
+	
+	option = {
+		name = beua_fire_ideas_event.2.2
+		add_country_modifier = {
+			name = "beua_fire_ideas_event.2.2.m"
+			duration = 1000
+		}
+	}
+}
+
+# Event 3
+country_event = {
+	id = beua_fire_ideas_event.3
+	title = beua_fire_ideas_event.3.t
+	desc = beua_fire_ideas_event.3.d
+	
+	picture = TRADEGOODS_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_fire_ideas
+		is_at_war = yes	
+		NOT = {
+			OR = {
+				has_country_modifier = beua_fire_ideas_event.3.1.m
+				has_country_modifier = beua_fire_ideas_event.3.2.m
+			}
+		}
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_fire_ideas_event.3.1
+		add_country_modifier = {
+			name = "beua_fire_ideas_event.3.1.m"
+			duration = 1825
+		}
+	}
+	
+	option = {
+		name = beua_fire_ideas_event.3.2
+		add_country_modifier = {
+			name = "beua_fire_ideas_event.3.2.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 4
+country_event = {
+	id = beua_fire_ideas_event.4
+	title = beua_fire_ideas_event.4.t
+	desc = beua_fire_ideas_event.4.d
+	
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_fire_ideas
+		is_at_war = yes	
+		NOT = { has_country_modifier = beua_fire_ideas_event.4.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_fire_ideas_event.4.1
+		add_country_modifier = {
+			name = "beua_fire_ideas_event.4.1.m"
+			duration = 1825
+		}
+	}
+}
+
+# Event 5
+country_event = {
+	id = beua_fire_ideas_event.5
+	title = beua_fire_ideas_event.5.t
+	desc = beua_fire_ideas_event.5.d
+	
+	picture = LAND_MILITARY_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_fire_ideas
+		is_at_war = yes	
+		NOT = {
+			OR = {
+				has_country_modifier = beua_fire_ideas_event.5.1.m
+				has_country_modifier = beua_fire_ideas_event.5.2.m
+			}
+		}
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_fire_ideas_event.5.1
+		add_country_modifier = {
+			name = "beua_fire_ideas_event.5.1.m"
+			duration = 1825
+		}
+	}
+	
+	option = {
+		name = beua_fire_ideas_event.5.2
+		add_country_modifier = {
+			name = "beua_fire_ideas_event.5.2.m"
+			duration = 1825
+		}
+	}
+}
+
+# Event 6
+country_event = {
+	id = beua_fire_ideas_event.6
+	title = beua_fire_ideas_event.6.t
+	desc = beua_fire_ideas_event.6.d
+	
+	picture = MILITARY_CAMP_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		
+		has_idea_group = beua_fire_ideas
+		is_at_war = yes	
+		NOT = {
+			OR = {
+				has_country_modifier = beua_fire_ideas_event.6.1.m
+				has_country_modifier = beua_fire_ideas_event.6.2.m
+			}
+		}
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_fire_ideas_event.6.1
+		add_country_modifier = {
+			name = "beua_fire_ideas_event.6.1.m"
+			duration = 1000
+		}
+	}
+	
+	option = {
+		name = beua_fire_ideas_event.6.2
+		add_country_modifier = {
+			name = "beua_fire_ideas_event.6.2.m"
+			duration = 1000
+		}
+	}
+}
+
+# Event 7
+country_event = {
+	id = beua_fire_ideas_event.7
+	title = beua_fire_ideas_event.7.t
+	desc = beua_fire_ideas_event.7.d
+	
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_fire_ideas
+		is_at_war = yes	
+		NOT = { has_country_modifier = beua_fire_ideas_event.7.2.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_fire_ideas_event.7.1
+		add_yearly_manpower = -1
+	}
+	
+	option = {
+		name = beua_fire_ideas_event.7.2
+		add_yearly_manpower = -3
+		add_country_modifier = {
+			name = "beua_fire_ideas_event.7.2.m"
+			duration = 365
+		}
+	}
+}
+
+# Event 8
+country_event = {
+	id = beua_fire_ideas_event.8
+	title = beua_fire_ideas_event.8.t
+	desc = beua_fire_ideas_event.8.d
+	
+	picture = SPY_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_fire_ideas
+		is_at_war = yes	
+		NOT = { has_country_modifier = beua_fire_ideas_event.8.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_fire_ideas_event.8.1
+		add_country_modifier = {
+			name = "beua_fire_ideas_event.8.1.m"
+			duration = 1000
+		}
+	}
+}
+
+# Event 9
+country_event = {
+	id = beua_fire_ideas_event.9
+	title = beua_fire_ideas_event.9.t
+	desc = beua_fire_ideas_event.9.d
+	
+	picture = WOUNDED_SOLDIERS_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_fire_ideas
+		is_at_war = yes	
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_fire_ideas_event.9.1
+		add_yearly_manpower = -1
+	}
+}
+
+# Event 10
+country_event = {
+	id = beua_fire_ideas_event.10
+	title = beua_fire_ideas_event.10.t
+	desc = beua_fire_ideas_event.10.d
+	
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_fire_ideas
+		is_at_war = yes	
+		NOT = {
+			OR = {
+				has_country_modifier = beua_fire_ideas_event.10.1.m
+				has_country_modifier = beua_fire_ideas_event.10.2.m
+			}
+		}
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_fire_ideas_event.10.1
+		add_country_modifier = {
+			name = "beua_fire_ideas_event.10.1.m"
+			duration = 1000
+		}
+	}
+	
+	option = {
+		name = beua_fire_ideas_event.10.2
+		add_country_modifier = {
+			name = "beua_fire_ideas_event.10.2.m"
+			duration = 1000
+		}
+	}
+}

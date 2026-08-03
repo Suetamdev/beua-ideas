@@ -231,6 +231,18 @@ on_yearly_pulse = {
 # Random Flavour Events
 on_four_year_pulse_3 = {
 	random_events = {
+		# [beua_elven_supremacy_ideas]
+		100 = beua_elven_supremacy_ideas.1
+		100 = beua_elven_supremacy_ideas.2
+		100 = beua_elven_supremacy_ideas.3
+		100 = beua_elven_supremacy_ideas.4
+		100 = beua_elven_supremacy_ideas.5
+		100 = beua_elven_supremacy_ideas.6
+		100 = beua_elven_supremacy_ideas.7
+		100 = beua_elven_supremacy_ideas.8
+		100 = beua_elven_supremacy_ideas.9
+		100 = beua_elven_supremacy_ideas.10
+
 		# [beua_jurisprudence_ideas]
 		100 = beua_jurisprudence_ideas_event.1
 		100 = beua_jurisprudence_ideas_event.2
@@ -482,5 +494,65 @@ on_four_year_pulse_3 = {
 		100 = beua_fortress_ideas_event.8
 		100 = beua_fortress_ideas_event.9
 		100 = beua_fortress_ideas_event.10
+
+		# [beua_militarism_ideas]
+		100 = beua_militarism_ideas_event.1
+		100 = beua_militarism_ideas_event.2
+		100 = beua_militarism_ideas_event.3
+		100 = beua_militarism_ideas_event.4
+		100 = beua_militarism_ideas_event.5
+		100 = beua_militarism_ideas_event.6
+		100 = beua_militarism_ideas_event.7
+		100 = beua_militarism_ideas_event.8
+		100 = beua_militarism_ideas_event.9
+		100 = beua_militarism_ideas_event.10
+
+		# [beua_militarism_ideas]
+		100 = beua_artificery_ideas_event.1
+		100 = beua_artificery_ideas_event.2
+		100 = beua_artificery_ideas_event.3
+		100 = beua_artificery_ideas_event.4
+		100 = beua_artificery_ideas_event.5
+		100 = beua_artificery_ideas_event.6
+		100 = beua_artificery_ideas_event.7
+		100 = beua_artificery_ideas_event.8
+		100 = beua_artificery_ideas_event.9
+		100 = beua_artificery_ideas_event.10
+
+		# [beua_war_production_ideas]
+		100 = beua_war_production_ideas_event.1
+		100 = beua_war_production_ideas_event.2
+		100 = beua_war_production_ideas_event.3
+		100 = beua_war_production_ideas_event.4
+		100 = beua_war_production_ideas_event.5
+		100 = beua_war_production_ideas_event.6
+		100 = beua_war_production_ideas_event.7
+		100 = beua_war_production_ideas_event.8
+		100 = beua_war_production_ideas_event.9
+		100 = beua_war_production_ideas_event.10
+
+		# [beua_shock_ideas]
+		100 = beua_shock_ideas_event.1
+		100 = beua_shock_ideas_event.2
+		100 = beua_shock_ideas_event.3
+		100 = beua_shock_ideas_event.4
+		100 = beua_shock_ideas_event.5
+		100 = beua_shock_ideas_event.6
+		100 = beua_shock_ideas_event.7
+		100 = beua_shock_ideas_event.8
+		100 = beua_shock_ideas_event.9
+		100 = beua_shock_ideas_event.10
+
+		# [beua_fire_ideas]
+		100 = beua_fire_ideas_event.1
+		100 = beua_fire_ideas_event.2
+		100 = beua_fire_ideas_event.3
+		100 = beua_fire_ideas_event.4
+		100 = beua_fire_ideas_event.5
+		100 = beua_fire_ideas_event.6
+		100 = beua_fire_ideas_event.7
+		100 = beua_fire_ideas_event.8
+		100 = beua_fire_ideas_event.9
+		100 = beua_fire_ideas_event.10
 	}
 }

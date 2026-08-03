@@ -1,0 +1,392 @@
+namespace = beua_elven_supremacy_ideas
+
+########################################################
+####### Elven Supremacy                          #######
+########################################################
+
+# Event 1
+country_event = {
+	id = beua_elven_supremacy_ideas.1
+	title = beua_elven_supremacy_ideas.1.t
+	desc = beua_elven_supremacy_ideas.1.d
+	
+	picture = DEBATE_REPUBLICAN_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_elven_supremacy_ideas
+		has_country_modifier = elven_administration
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_elven_supremacy_ideas.1.1
+		add_prestige = 15
+		change_government_reform_progress = 25
+	}
+}
+
+# Event 2
+country_event = {
+	id = beua_elven_supremacy_ideas.2
+	title = beua_elven_supremacy_ideas.2.t
+	desc = beua_elven_supremacy_ideas.2.d
+	
+	picture = COURT_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_elven_supremacy_ideas
+		has_country_modifier = elven_administration
+        any_owned_province = {
+		    has_human_minority_trigger = yes
+            NOT = { has_province_modifier = beua_elven_supremacy_ideas.2.1.m }
+		}
+	}
+
+    immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+                    has_human_minority_trigger = yes
+                    NOT = { has_province_modifier = beua_elven_supremacy_ideas.2.1.m }
+				}
+				set_province_flag = beua_elven_supremacy_ideas.2.f
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_elven_supremacy_ideas.2.1
+		add_estate_nobles_loyalty_effect = yes
+        every_owned_province = {
+			limit = {
+				has_province_flag = beua_elven_supremacy_ideas.2.f
+			}
+			add_unrest = 5
+			add_province_modifier = {
+				name = beua_elven_supremacy_ideas.2.1.m
+				duration = 3650
+			}
+		}
+	}
+
+    option = {
+		name = beua_elven_supremacy_ideas.2.2
+        reduce_estate_nobles_loyalty_effect = yes
+		add_prestige = -15
+	}
+
+    after = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_flag = beua_elven_supremacy_ideas.2.f
+				}
+				clr_province_flag = beua_elven_supremacy_ideas.2.f
+			}
+		}
+	}
+}
+
+# Event 3
+country_event = {
+	id = beua_elven_supremacy_ideas.3
+	title = beua_elven_supremacy_ideas.3.t
+	desc = beua_elven_supremacy_ideas.3.d
+	
+	picture = MAGES_ESTATE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_elven_supremacy_ideas
+		has_country_modifier = elven_administration
+        NOT = { has_country_modifier = beua_elven_supremacy_ideas.3.1.m }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_elven_supremacy_ideas.3.1
+		add_prestige = 10
+        add_country_modifier = {
+			name = "beua_elven_supremacy_ideas.3.1.m"
+			duration = 3650
+		}
+	}
+
+    option = {
+		name = beua_elven_supremacy_ideas.3.2
+        add_adm_power = 75
+		add_prestige = -15
+        reduce_estate_nobles_loyalty_effect = yes
+	}
+}
+
+# Event 4
+country_event = {
+	id = beua_elven_supremacy_ideas.4
+	title = beua_elven_supremacy_ideas.4.t
+	desc = beua_elven_supremacy_ideas.4.d
+	
+	picture = ADVENTURERS_ESTATE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_elven_supremacy_ideas
+		has_country_modifier = elven_administration
+        any_owned_province = {
+		    has_any_coexisting_pop_trigger = yes
+            NOT = { has_province_modifier = beua_elven_supremacy_ideas.4.1.m }
+		}
+	}
+
+    immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+                    has_any_coexisting_pop_trigger = yes
+                    NOT = { has_province_modifier = beua_elven_supremacy_ideas.4.1.m }
+				}
+				set_province_flag = beua_elven_supremacy_ideas.4.f
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_elven_supremacy_ideas.4.1
+		add_estate_nobles_loyalty_effect = yes
+        every_owned_province = {
+			limit = {
+				has_province_flag = beua_elven_supremacy_ideas.4.f
+			}
+			add_base_tax = 1
+			add_province_modifier = {
+				name = beua_elven_supremacy_ideas.4.1.m
+				duration = 3650
+			}
+		}
+	}
+
+    option = {
+		name = beua_elven_supremacy_ideas.4.2
+        add_adm_power = 15
+	}
+
+    after = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_flag = beua_elven_supremacy_ideas.4.f
+				}
+				clr_province_flag = beua_elven_supremacy_ideas.4.f
+			}
+		}
+	}
+}
+
+# Event 5
+country_event = {
+	id = beua_elven_supremacy_ideas.5
+	title = beua_elven_supremacy_ideas.5.t
+	desc = beua_elven_supremacy_ideas.5.d
+	
+	picture = ARTWORK_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_elven_supremacy_ideas
+		has_country_modifier = elven_administration
+        NOT = { has_country_modifier = beua_elven_supremacy_ideas.5.1.m }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_elven_supremacy_ideas.5.1
+		add_country_modifier = {
+			name = "beua_elven_supremacy_ideas.5.1.m"
+			duration = 3650
+		}
+	}
+}
+
+# Event 6
+country_event = {
+	id = beua_elven_supremacy_ideas.6
+	title = beua_elven_supremacy_ideas.6.t
+	desc = beua_elven_supremacy_ideas.6.d
+	
+	picture = ECONOMY_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_elven_supremacy_ideas
+		has_country_modifier = elven_administration
+        NOT = { has_country_modifier = beua_elven_supremacy_ideas.6.1.m }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_elven_supremacy_ideas.6.1
+        add_country_modifier = {
+			name = "beua_elven_supremacy_ideas.6.1.m"
+			duration = 3650
+		}
+	}
+
+    option = {
+		name = beua_elven_supremacy_ideas.6.2
+        add_adm_power = 25
+		add_prestige = 5
+	}
+}
+
+# Event 7
+country_event = {
+	id = beua_elven_supremacy_ideas.7
+	title = beua_elven_supremacy_ideas.7.t
+	desc = beua_elven_supremacy_ideas.7.d
+	
+	picture = REVOLUTION_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_elven_supremacy_ideas
+		has_country_modifier = elven_administration
+        any_owned_province = {
+		    has_any_oppressed_pop_trigger = yes
+        }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_elven_supremacy_ideas.7.1
+        add_stability = -1
+        add_adm_power = -25
+	}
+}
+
+# Event 8
+country_event = {
+	id = beua_elven_supremacy_ideas.8
+	title = beua_elven_supremacy_ideas.8.t
+	desc = beua_elven_supremacy_ideas.8.d
+	
+	picture = ELECTION_REPUBLICAN_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_elven_supremacy_ideas
+		has_country_modifier = elven_administration
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_elven_supremacy_ideas.8.1
+        add_prestige = -10
+        add_dip_power = -75
+	}
+}
+
+# Event 9
+country_event = {
+	id = beua_elven_supremacy_ideas.9
+	title = beua_elven_supremacy_ideas.9.t
+	desc = beua_elven_supremacy_ideas.9.d
+	
+	picture = COURT_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_elven_supremacy_ideas
+		has_country_modifier = elven_administration
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_elven_supremacy_ideas.9.1
+		add_adm_power = 15
+        add_mil_power = 15
+        add_dip_power = 15
+        add_legitimacy = 5
+	}
+}
+
+# Event 10
+country_event = {
+	id = beua_elven_supremacy_ideas.10
+	title = beua_elven_supremacy_ideas.10.t
+	desc = beua_elven_supremacy_ideas.10.d
+	
+	picture = ARTWORK_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_idea_group = beua_elven_supremacy_ideas
+		has_country_modifier = elven_administration
+        NOT = { 
+            OR = {
+                has_country_modifier = beua_elven_supremacy_ideas.10.1.m
+                has_country_modifier = beua_elven_supremacy_ideas.10.2.m
+            }
+        }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = beua_elven_supremacy_ideas.10.1
+		add_country_modifier = {
+			name = "beua_elven_supremacy_ideas.10.1.m"
+			duration = 3650
+		}
+	}
+
+    option = {
+		name = beua_elven_supremacy_ideas.10.2
+		add_country_modifier = {
+			name = "beua_elven_supremacy_ideas.10.2.m"
+			duration = 3650
+		}
+	}
+}
