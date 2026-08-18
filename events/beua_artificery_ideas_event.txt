@@ -366,21 +366,6 @@ country_event = {
 
 	mean_time_to_happen = { 
 		days = 1
-        modifier = {
-			factor = 10
-			any_owned_province = {
-                OR = {
-                    has_province_modifier = old_hold
-                    has_province_modifier = artificier_hall
-                    development = 90
-                }
-                OR = {
-                    has_terrain = dwarven_hold
-                    has_terrain = dwarven_hold_surface
-                }
-		    }
-			NOT = { has_country_flag = beua_artificery_ideas_event.10.f }
-		}
 	}
 
 	option = {

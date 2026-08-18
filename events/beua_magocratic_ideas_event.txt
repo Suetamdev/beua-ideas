@@ -21,21 +21,6 @@ country_event = {
 
 	mean_time_to_happen = {
         days = 1
-		modifier = {
-			factor = 10
-			OR = {
-				has_country_modifier = magical_infrastructure_1
-				has_country_modifier = magical_infrastructure_2
-				has_country_modifier = magical_infrastructure_3
-				has_country_modifier = magical_infrastructure_4
-			}
-			OR = {
-				has_country_flag = conjuration_1
-				has_country_flag = conjuration_2
-				has_country_flag = conjuration_3
-			}
-			NOT = { has_country_flag = beua_magocratic_ideas_event.1.f }
-		}
     }
     
 	option = {
