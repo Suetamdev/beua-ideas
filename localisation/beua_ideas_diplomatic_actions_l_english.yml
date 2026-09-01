@@ -107,6 +107,14 @@
  beua_sister_republic_establish_dialog: "§Y[This.GetName]§! offers us that we become their §YSister Republic§!. \n[sister_republic_desc] \nDo you want to accept?"
  beua_sister_republic_establish_has_at_least_one_third_of_prev_total_development:0 "§R- §Y[From.GetName]§! does not have at least 33% of the total development of §Y[Prev.GetName]§!.§!"
 
+ # Ask to Become Sister Republic
+ beua_sister_republic_ask_title:0 "Ask to Become Sister Republic"
+ beua_sister_republic_ask_desc:0 "Do you want to ask §Y[From.GetName]§! to make us their §YSister Republic§!?\n[sister_republic_desc]"
+ beua_sister_republic_ask_tooltip:0 "Ask §Y[From.GetName]§! to make us their [From.GetAdjective] §YSister Republic§!.\n"
+ beua_sister_republic_ask_alert_tooltip:0 "Ask to Become Sister Republic"
+ beua_sister_republic_ask_dialog:0 "§Y[This.GetName]§! asks us to become their §YSister Republic§!.\n[sister_republic_desc]\nDo you want to accept?"
+ beua_sister_republic_ask_has_at_least_one_third_of_prev_total_development:0 "§R- §Y[From.GetName]§! does not have at least 33% of the total development of §Y[Prev.GetName]§!.§!"
+
  # Release Sister Republic
  beua_sister_republic_release_title: "Release Sister Republic"
  beua_sister_republic_release_desc: "Cancel the dependency of §Y[From.GetName]§! of us. This will decrease their opinion about us by §R-200§!, if their liberty desire is below §Y50%§!. We will also lose §R25§! prestige and gain a truce with them for §Y5 years§!."

@@ -4266,15 +4266,15 @@ beua_policy_mil_143 = {
 			has_country_flag = artifice_unlocked_advanced
 			has_country_flag = artifice_unlocked_expert
 		}
-		OR = {
+		AND = {
 			NOT = { has_active_policy = beua_policy_mil_143_1 }
 			NOT = { has_active_policy = beua_policy_mil_143_2 }
 		}
 	}
 
-	mages_mana_regen_mult = 0.2
-	mages_mana_capacity = 50
-	artificers_capacity = 25
+	mages_mana_regen_mult = 0.1
+	mages_mana_capacity = 25
+	artificers_capacity = 20
 	
 	ai_will_do = {
 		factor = 1
@@ -4301,15 +4301,15 @@ beua_policy_mil_143_1 = {
 			has_country_flag = artifice_unlocked_advanced
 			has_country_flag = artifice_unlocked_expert
 		}
-		OR = {
+		AND = {
 			NOT = { has_active_policy = beua_policy_mil_143 }
 			NOT = { has_active_policy = beua_policy_mil_143_2 }
 		}
 	}
 
-	mages_mana_regen_mult = 0.25
-	mages_mana_capacity = 75
-	artificers_capacity = 50
+	mages_mana_regen_mult = 0.15
+	mages_mana_capacity = 50
+	artificers_capacity = 40
 	
 	ai_will_do = {
 		factor = 1
@@ -4334,15 +4334,15 @@ beua_policy_mil_143_2 = {
 		OR = {
 			has_country_flag = artifice_unlocked_expert
 		}
-		OR = {
+		AND = {
 			NOT = { has_active_policy = beua_policy_mil_143 }
 			NOT = { has_active_policy = beua_policy_mil_143_1 }
 		}
 	}
 
-	mages_mana_regen_mult = 0.3
-	mages_mana_capacity = 100
-	artificers_capacity = 75
+	mages_mana_regen_mult = 0.2
+	mages_mana_capacity = 75
+	artificers_capacity = 60
 	
 	ai_will_do = {
 		factor = 1

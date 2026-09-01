@@ -149,8 +149,8 @@ beua_brother_kingdom = {
 		modifier = vassal_subject
 	}
 
-	overlord_opinion_modifier = beua_is_brother_kingdom
-	subject_opinion_modifier = beua_is_brother_kingdom
+	overlord_opinion_modifier = beua_is_beua_brother_kingdom
+	subject_opinion_modifier = beua_is_beua_brother_kingdom
 }
 
 beua_dominion = {
@@ -320,7 +320,7 @@ beua_sister_republic = {
 		modifier = beua_sister_republic_overlord
 	}
 
-	overlord_opinion_modifier = beua_is_sister_republic
-	subject_opinion_modifier = beua_is_sister_republic
+	overlord_opinion_modifier = beua_is_beua_sister_republic
+	subject_opinion_modifier = beua_is_beua_sister_republic
 }
 

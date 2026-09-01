@@ -6,7 +6,7 @@ beua_is_beua_dominion = {
 	opinion = 50
 }
 
-beua_is_brother_kingdom = {
+beua_is_beua_brother_kingdom = {
 	opinion = 75
 }
 
@@ -16,7 +16,7 @@ beua_declined_establish_brother_kingdom_opinion = {
 	min = -100
 }
 
-beua_is_sister_republic = {
+beua_is_beua_sister_republic = {
 	opinion = 75
 }
 
